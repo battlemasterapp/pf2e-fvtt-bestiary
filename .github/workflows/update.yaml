@@ -15,7 +15,12 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      - name: Clone Foundry data
+        uses: actions/checkout@v4
+        with:
+          repository: foundryvtt/pf2e
+          path: ./pf2e
       - name: Update Data
         run: |
           ./update.sh
