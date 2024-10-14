@@ -7,6 +7,8 @@ git clone --depth 1 git@github.com:foundryvtt/pf2e.git ./pf2e
 mkdir -p ./tmp
 cp -r ./pf2e/packs/*-bestiary* ./tmp/
 cp -r ./pf2e/packs/npc-gallery ./tmp/
+cp -r ./pf2e/packs/pathfinder-monster-core ./tmp/
+cp -r ./pf2e/packs/pathfinder-dark-archive ./tmp/
 
 mkdir -p ./bestiaries
 
