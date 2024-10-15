@@ -65,7 +65,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -174,7 +174,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The animated bamboo figure jumps up to 30 feet and makes two fist Strikes against different targets. It can use Knockdown following this activity, attempting to @UUID[Compendium.pf2e.actionspf2e.Item.Trip] each creature struck.</p>"
+            "value": "<p>The animated bamboo figure jumps up to 30 feet and makes two fist Strikes against different targets. It can use Knockdown following this activity, attempting to Trip each creature struck.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -206,7 +206,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -397,7 +397,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -537,7 +537,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The animated kite has its line attached to an ally</p>\n<hr />\n<p><strong>Effect</strong> Each creature along the line between the kite and its ally takes @Damage[1d6[slashing]] damage (@Check[reflex|dc:16|basic] save).</p>"
+            "value": "<p><strong>Requirements</strong> The animated kite has its line attached to an ally</p>\n<hr />\n<p><strong>Effect</strong> Each creature along the line between the kite and its ally takes 1d6 slashing damage (DC 16 Basic reflex save).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -725,7 +725,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -834,7 +834,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The wine vessel opens its mouth and blows a stream of wine in a @Template[line|distance:15], dealing @Damage[2d8[bludgeoning]] damage (@Check[reflex|dc:19|basic] save).</p>"
+            "value": "<p>The wine vessel opens its mouth and blows a stream of wine in a 15-foot line, dealing 2d8 bludgeoning damage (DC 19 Basic reflex save).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -868,7 +868,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Medium, @Damage[(2d8+4)[bludgeoning]] plus Wine-Soaked, Rupture 10</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+            "value": "<p>Medium, @Damage[(2d8+4)[bludgeoning]] plus Wine-Soaked, Rupture 10</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an DC  defense:reflex check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -900,7 +900,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>When a creature ends its turn Swallowed Whole by the animated wine vessel, it must succeed at a @Check[fortitude|dc:19] save or become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}.</p>"
+            "value": "<p>When a creature ends its turn Swallowed Whole by the animated wine vessel, it must succeed at a DC 19 fortitude save or become Sickened 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -932,7 +932,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -1163,7 +1163,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
+            "value": "<p><p>Scent involves sensing creatures or objects by smell, and is usually a vague sense. The range is listed in the ability, and it functions only if the creature or object being detected emits an aroma (for instance, incorporeal creatures usually do not exude an aroma).</p>\n<p>If a creature emits a heavy aroma or is upwind, the GM can double or even triple the range of scent abilities used to detect that creature, and the GM can reduce the range if a creature is downwind.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -1225,7 +1225,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LowLightVision]</p>"
+            "value": "<p><p>The monster can see in dim light as though it were bright light, so it ignores the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition due to dim light.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -1313,7 +1313,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>An aoyin isn't impeded by difficult terrain caused by snow or mountainous terrain, nor does it need to @UUID[Compendium.pf2e.actionspf2e.Item.Balance] to move over uneven ground created by those conditions.</p>"
+            "value": "<p>An aoyin isn't impeded by difficult terrain caused by snow or mountainous terrain, nor does it need to Balance to move over uneven ground created by those conditions.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1345,7 +1345,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Medium, Hoof, @Check[reflex|dc:29|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+            "value": "<p>Medium, Hoof, DC 29 Basic reflex</p>\n<hr />\n<p><p>The monster Strides up to double its Speed and can move through the spaces of creatures of the listed size, Trampling each creature whose space it enters. The monster can attempt to Trample the same creature only once in a single use of Trample. The monster deals the damage of the listed Strike, but trampled creatures can attempt a basic Reflex save at the listed DC (no damage on a critical success, half damage on a success, double damage on a critical failure).</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -1413,7 +1413,7 @@
         "level": {
           "value": 10
         },
-        "privateNotes": "<h3>Aoyin Horns</h3>\n<p>The horns of an aoyin are a potent material for crafting magical items that induce a frenzied state or blood loss, much like in tales about the beast's calls. Each horn, of which an aoyin normally has four, can be used as 60 gp worth of materials for items like a @UUID[Compendium.pf2e.equipment-srd.Item.Wounding]{Wounding rune}.</p>",
+        "privateNotes": "<h3>Aoyin Horns</h3>\n<p>The horns of an aoyin are a potent material for crafting magical items that induce a frenzied state or blood loss, much like in tales about the beast's calls. Each horn, of which an aoyin normally has four, can be used as 60 gp worth of materials for items like a Wounding rune.</p>",
         "publicNotes": "<p>An aoyin resembles an ox with a pale body, four horns, and hair as coarse as straw. Although this large, solitary beast bears a slight resemblance to the common draft ox, it's a highly aggressive and territorial carnivore who stalks and devours its prey. An aoyin dwells high in the mountains, rarely being seen by common folk. However, during lean winters, an aoyin might descend from its mountain home in search of food, resulting in gruesome encounters with nearby settlements. It's believed that a single aoyin can decimate the population of an entire village, only to retreat into the nearby mountains once it has satiated its hunger. An aoyin, even a herd of the creatures, is primarily driven by hunger and other natural urges. Outside of its natural habitat, an aoyin might occasionally be kept by those who revel in bloodlust. Even with magical control, a captive aoyin is more likely to turn on its handlers than obey commands. As an uncontrolled weapon, however, a hungry aoyin poses a terrible threat to most communities. Tales in certain isolated areas claim that the growling call of an aoyin can drive those unlucky enough to hear it into a frenzy of hunger and violence. Villages will be found consumed by infighting without any sign of an aoyin even entering its borders. Although it's possible a powerful variant of this creature might possess this ability, most of these stories are inspired by the terrible magic available to those who understand the aoyin's secrets and are spread when villages collapse through magic compulsions or mundane infighting.</p>",
         "publication": {
           "license": "ORC",
@@ -1724,7 +1724,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
+            "value": "<p><p>Scent involves sensing creatures or objects by smell, and is usually a vague sense. The range is listed in the ability, and it functions only if the creature or object being detected emits an aroma (for instance, incorporeal creatures usually do not exude an aroma).</p>\n<p>If a creature emits a heavy aroma or is upwind, the GM can double or even triple the range of scent abilities used to detect that creature, and the GM can reduce the range if a creature is downwind.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -1757,7 +1757,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -1819,7 +1819,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
+            "value": "<p><p>The monster can cast its at-will spells any number of times without using up spell slots.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -2298,7 +2298,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>"
+            "value": "<p><p>A creature with greater darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. A creature with greater darkvision can see through even forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -2331,7 +2331,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
+            "value": "<p><p>Scent involves sensing creatures or objects by smell, and is usually a vague sense. The range is listed in the ability, and it functions only if the creature or object being detected emits an aroma (for instance, incorporeal creatures usually do not exude an aroma).</p>\n<p>If a creature emits a heavy aroma or is upwind, the GM can double or even triple the range of scent abilities used to detect that creature, and the GM can reduce the range if a creature is downwind.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -2361,7 +2361,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>100 feet.</p>\n<p>Light and shadows morph strangely around the bul-gae. Non-magical bright light is reduced to dim light within the aura. When a creature attempts an action within the aura that has the light trait, it must attempt a @Check[will|dc:34] save. On a failure, the action is disrupted.</p>"
+            "value": "<p>100 feet.</p>\n<p>Light and shadows morph strangely around the bul-gae. Non-magical bright light is reduced to dim light within the aura. When a creature attempts an action within the aura that has the light trait, it must attempt a DC 34 will save. On a failure, the action is disrupted.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2404,7 +2404,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><strong>Trigger</strong> The bul-gae takes damage</p>\n<hr />\n<p><strong>Effect</strong> The bul-gae releases a solar flare in a @Template[emanation|distance:30]. Each creature in the area takes @Damage[6d8[fire]] damage (@Check[reflex|dc:34|basic] save). On a critical failure, a creature also takes @Damage[2d10[persistent,fire]] damage. After using this ability, the bul-gae's flames cool, and they can't use Solar Flare again until after they've used their Lunar Burst ability.</p>"
+            "value": "<p><strong>Trigger</strong> The bul-gae takes damage</p>\n<hr />\n<p><strong>Effect</strong> The bul-gae releases a solar flare in a 30-foot emanation. Each creature in the area takes 6d8 fire damage (DC 34 Basic reflex save). On a critical failure, a creature also takes 2d10 persistent,fire damage. After using this ability, the bul-gae's flames cool, and they can't use Solar Flare again until after they've used their Lunar Burst ability.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2436,7 +2436,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The bul-gae releases a blast of otherworldly frost that deals @Damage[6d8[cold]] damage to each creature in a @Template[emanation|distance:10] (@Check[reflex|dc:34|basic] save). On a critical failure, a creature also becomes @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 2} for 1 round. After using this ability, the bul-gae's flames heat up and they can't use Lunar Burst again until after they've used their Solar Flare reaction.</p>"
+            "value": "<p>The bul-gae releases a blast of otherworldly frost that deals 6d8 cold damage to each creature in a 10-foot emanation (DC 34 Basic reflex save). On a critical failure, a creature also becomes Slowed 2 for 1 round. After using this ability, the bul-gae's flames heat up and they can't use Lunar Burst again until after they've used their Solar Flare reaction.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2542,7 +2542,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -2791,7 +2791,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+            "value": "<p><p>Tremorsense allows a monster to feel the vibrations through a solid surface caused by movement. It is an imprecise sense with a limited range (listed in the ability). Tremorsense functions only if the monster is on the same surface as the subject, and only if the subject is moving along (or burrowing through) the surface.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -2824,7 +2824,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -2854,7 +2854,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><strong>Trigger</strong> The caterpillar carriage gains the @UUID[Compendium.pf2e.conditionitems.Item.Slowed] or @UUID[Compendium.pf2e.conditionitems.Item.Stunned] condition</p>\n<hr />\n<p><strong>Effect</strong> The carriage is @UUID[Compendium.pf2e.conditionitems.Item.Quickened] for 1 round.</p>"
+            "value": "<p><strong>Trigger</strong> The caterpillar carriage gains the Slowed or Stunned condition</p>\n<hr />\n<p><strong>Effect</strong> The carriage is Quickened for 1 round.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2886,7 +2886,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Damage[(4d10+4)[bludgeoning]], @Check[fortitude|dc:40|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+            "value": "<p>@Damage[(4d10+4)[bludgeoning]], DC 40 Basic fortitude</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -2977,7 +2977,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Huge or Smaller, Wheel, @Check[reflex|dc:40|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+            "value": "<p>Huge or Smaller, Wheel, DC 40 Basic reflex</p>\n<hr />\n<p><p>The monster Strides up to double its Speed and can move through the spaces of creatures of the listed size, Trampling each creature whose space it enters. The monster can attempt to Trample the same creature only once in a single use of Trample. The monster deals the damage of the listed Strike, but trampled creatures can attempt a basic Reflex save at the listed DC (no damage on a critical success, half damage on a success, double damage on a critical failure).</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -3010,7 +3010,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+            "value": "<p><p>The monster can use @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Grab} as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -3270,7 +3270,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>When Hiding, the five-color orchid mantis is @UUID[Compendium.pf2e.conditionitems.Item.Concealed] by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed.</p>"
+            "value": "<p>When Hiding, the five-color orchid mantis is Concealed by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3443,7 +3443,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The mantis makes two leg attacks. If both attacks hit, the mantis gains 10 temporary Hit Points, and the target must succeed at a @Check[fortitude|dc:27] saving throw or become @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} (@UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2} on a critical failure). The drained condition ends when the mantis is reduced to 0 Hit Points.</p>"
+            "value": "<p>The mantis makes two leg attacks. If both attacks hit, the mantis gains 10 temporary Hit Points, and the target must succeed at a DC 27 fortitude saving throw or become Drained 1 (Drained 2 on a critical failure). The drained condition ends when the mantis is reduced to 0 Hit Points.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3472,7 +3472,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>On the first round of combat, creatures that haven't acted are @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] to the mantis.</p>"
+            "value": "<p>On the first round of combat, creatures that haven't acted are Off-Guard to the mantis.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3711,7 +3711,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -3890,7 +3890,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+            "value": "<p><p><strong>Trigger</strong> A creature within the monster's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p><strong>Effect</strong> The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn't count toward the monster's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -3920,7 +3920,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The gau cho rong is hiding and a creature that hasn't detected it is within 20 feet</p>\n<hr />\n<p><strong>Effect</strong> The gau cho rong Strides toward the creature. Once the creature is in reach, the gau cho rong makes a Strike against it. The target creature is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] to this attack.</p>"
+            "value": "<p><strong>Requirements</strong> The gau cho rong is hiding and a creature that hasn't detected it is within 20 feet</p>\n<hr />\n<p><strong>Effect</strong> The gau cho rong Strides toward the creature. Once the creature is in reach, the gau cho rong makes a Strike against it. The target creature is Off-Guard to this attack.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3967,7 +3967,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The gau cho rong's last action was a successful jaws Strike</p>\n<hr />\n<p><strong>Effect</strong> The target takes @Damage[1d6[persistent,bleed]] damage. The gau cho rong gains some knowledge from the creature's blood, learning how to understand and speak all languages that creature knows for 1 minute, which it does in a distorted version of the target's voice. During that time, the gau cho rong also gains a +2 circumstance bonus to Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize] that creature.</p>"
+            "value": "<p><strong>Requirements</strong> The gau cho rong's last action was a successful jaws Strike</p>\n<hr />\n<p><strong>Effect</strong> The target takes 1d6 persistent,bleed damage. The gau cho rong gains some knowledge from the creature's blood, learning how to understand and speak all languages that creature knows for 1 minute, which it does in a distorted version of the target's voice. During that time, the gau cho rong also gains a +2 circumstance bonus to Intimidation checks to Demoralize that creature.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4199,7 +4199,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>When Hiding, the giant orchid mantis is @UUID[Compendium.pf2e.conditionitems.Item.Concealed] by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed.</p>"
+            "value": "<p>When Hiding, the giant orchid mantis is Concealed by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4231,7 +4231,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LowLightVision]</p>"
+            "value": "<p><p>The monster can see in dim light as though it were bright light, so it ignores the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition due to dim light.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -4261,7 +4261,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The giant orchid mantis makes two leg Strikes. If it hits the same creature with both attacks, that creature is @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] until the end of the mantis's next turn.</p>"
+            "value": "<p>The giant orchid mantis makes two leg Strikes. If it hits the same creature with both attacks, that creature is Grabbed until the end of the mantis's next turn.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4290,7 +4290,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>In the first round of combat, creatures that haven't acted are @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] to the orchid mantis.</p>"
+            "value": "<p>In the first round of combat, creatures that haven't acted are Off-Guard to the orchid mantis.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4522,7 +4522,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -4552,7 +4552,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The hopping head Leaps 15 feet and makes one spring Strike at any point during that movement, dealing an additional @Damage[1d6[bludgeoning]] damage.</p>"
+            "value": "<p>The hopping head Leaps 15 feet and makes one spring Strike at any point during that movement, dealing an additional 1d6 bludgeoning damage.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4905,7 +4905,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Illusions bend light around the target, rendering it @UUID[Compendium.pf2e.conditionitems.Item.Invisible]. This makes it @UUID[Compendium.pf2e.conditionitems.Item.Undetected] to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.Item.Hidden] to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+            "value": "<p>Illusions bend light around the target, rendering it Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5015,7 +5015,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+            "value": "<p><p>A monster with telepathy can communicate mentally with any creatures within the listed radius, as long as they share a language. This doesn't give any special access to their thoughts, and communicates no more information than normal speech would.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -5061,7 +5061,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -5091,7 +5091,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>An ijhyeojin's level is considered 2 lower for the purpose of being conjured by the @UUID[Compendium.pf2e.spells-srd.Item.Planar Servitor] ritual (and potentially other rituals, at the GM's discretion), but they're always free to attack or leave instead of negotiate unless the primary caster's check is a critical success.</p>"
+            "value": "<p>An ijhyeojin's level is considered 2 lower for the purpose of being conjured by the Planar Servitor ritual (and potentially other rituals, at the GM's discretion), but they're always free to attack or leave instead of negotiate unless the primary caster's check is a critical success.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5123,7 +5123,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+            "value": "<p><p>Lifesense allows a monster to sense the vital essence of living and undead creatures within the listed range. The sense can distinguish between the vitality energy animating living creatures and the void energy animating undead creatures, much as sight distinguishes colors.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -5156,7 +5156,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
+            "value": "<p><p>The monster can cast its at-will spells any number of times without using up spell slots.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -5189,7 +5189,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+            "value": "<p><p>A constant spell affects the monster without the monster needing to cast it, and its duration is unlimited. If a constant spell gets counteracted, the monster can reactivate it by spending the normal spellcasting actions the spell requires.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -5248,7 +5248,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The ijhyeojin alters the memories of a target within 30 feet, insinuating their faceless visage in the place of others. The target must attempt a @Check[will|dc:34] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} and treats no one as an ally for as long as it's frightened.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2} and is @UUID[Compendium.pf2e.conditionitems.Item.Confused] for as long as it's frightened.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 4} and confused for as long as it's frightened. If the target is a joseung saja, they instead realize the fear of being forgotten and become an ijhyeojin.</p>"
+            "value": "<p>The ijhyeojin alters the memories of a target within 30 feet, insinuating their faceless visage in the place of others. The target must attempt a DC 34 will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1 and treats no one as an ally for as long as it's frightened.</p>\n<p><strong>Failure</strong> The target is Frightened 2 and is Confused for as long as it's frightened.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 4 and confused for as long as it's frightened. If the target is a joseung saja, they instead realize the fear of being forgotten and become an ijhyeojin.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5281,7 +5281,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The ijhyeojin's previous action was a successful claw Strike against the target</p>\n<hr />\n<p><strong>Effect</strong> The ijhyeojin copies the countenance of the target, imprinting it perfectly onto their own blank face. While only their face changes, creatures must @UUID[Compendium.pf2e.actionspf2e.Item.Seek] them and succeed at a @Check[will|dc:34] save to distinguish them visually from the original creature. The sakhil keeps the same visage for 24 hours or until they steal another.</p>"
+            "value": "<p><strong>Requirements</strong> The ijhyeojin's previous action was a successful claw Strike against the target</p>\n<hr />\n<p><strong>Effect</strong> The ijhyeojin copies the countenance of the target, imprinting it perfectly onto their own blank face. While only their face changes, creatures must Seek them and succeed at a DC 34 will save to distinguish them visually from the original creature. The sakhil keeps the same visage for 24 hours or until they steal another.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5517,7 +5517,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The target can soar through the air, gaining a fly Speed equal to its Speed or 20 feet, whichever is greater.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Fly]</p>\n<hr />\n<p><strong>Heightened (7th)</strong> The duration increases to 1 hour.</p>"
+            "value": "<p>The target can soar through the air, gaining a fly Speed equal to its Speed or 20 feet, whichever is greater.</p>\n<p>Spell Effect: Fly</p>\n<hr />\n<p><strong>Heightened (7th)</strong> The duration increases to 1 hour.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5646,7 +5646,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an @UUID[Compendium.pf2e.equipment-srd.Item.Invisibility Potion]) typically are detected normally.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
+            "value": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an Invisibility Potion) typically are detected normally.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
           },
           "duration": {
             "sustained": false,
@@ -5838,7 +5838,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
+            "value": "<p><p>Scent involves sensing creatures or objects by smell, and is usually a vague sense. The range is listed in the ability, and it functions only if the creature or object being detected emits an aroma (for instance, incorporeal creatures usually do not exude an aroma).</p>\n<p>If a creature emits a heavy aroma or is upwind, the GM can double or even triple the range of scent abilities used to detect that creature, and the GM can reduce the range if a creature is downwind.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -5871,7 +5871,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -5962,7 +5962,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Damage[(2d8+4)[bludgeoning]], @Check[fortitude|dc:25|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+            "value": "<p>@Damage[(2d8+4)[bludgeoning]], DC 25 Basic fortitude</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -5992,7 +5992,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Waters rush forth in a @Template[line|distance:60], dealing @Damage[4d6[bludgeoning]] damage (@Check[reflex|dc:25|basic] save). Creatures that fail the save and aren't @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] by the imugi are pushed 10 feet away.</p>"
+            "value": "<p>Waters rush forth in a 60-foot line, dealing 4d6 bludgeoning damage (DC 25 Basic reflex save). Creatures that fail the save and aren't Grabbed by the imugi are pushed 10 feet away.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6056,7 +6056,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -6270,7 +6270,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -6358,7 +6358,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature critically struck by the inkdrop's pseudopod is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] by the ink until it clears its eyes using an Interact action.</p>"
+            "value": "<p>A creature critically struck by the inkdrop's pseudopod is Blinded by the ink until it clears its eyes using an Interact action.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6677,7 +6677,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The creature's Strikes deal an additional 1d6 precision damage to @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] creatures.</p>"
+            "value": "<p>The creature's Strikes deal an additional 1d6 precision damage to Off-Guard creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6725,7 +6725,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The jiidon uses their nearly indestructible teeth to chew through even the toughest armor, leaving an opponent vulnerable. The jiidon makes a jaws Strike. On a successful attack, if the target is wearing armor with Hardness 10 or lower, the armor becomes @UUID[Compendium.pf2e.conditionitems.Item.Broken]. This Strike doesn't further damage armor that's already broken.</p>"
+            "value": "<p>The jiidon uses their nearly indestructible teeth to chew through even the toughest armor, leaving an opponent vulnerable. The jiidon makes a jaws Strike. On a successful attack, if the target is wearing armor with Hardness 10 or lower, the armor becomes Broken. This Strike doesn't further damage armor that's already broken.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7118,7 +7118,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Illusions bend light around the target, rendering it @UUID[Compendium.pf2e.conditionitems.Item.Invisible]. This makes it @UUID[Compendium.pf2e.conditionitems.Item.Undetected] to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.Item.Hidden] to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+            "value": "<p>Illusions bend light around the target, rendering it Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
           },
           "duration": {
             "sustained": false,
@@ -7320,7 +7320,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -7353,7 +7353,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+            "value": "<p><p>Lifesense allows a monster to sense the vital essence of living and undead creatures within the listed range. The sense can distinguish between the vitality energy animating living creatures and the void energy animating undead creatures, much as sight distinguishes colors.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -7386,7 +7386,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
+            "value": "<p><p>The monster can cast its at-will spells any number of times without using up spell slots.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -7419,7 +7419,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+            "value": "<p><p>A constant spell affects the monster without the monster needing to cast it, and its duration is unlimited. If a constant spell gets counteracted, the monster can reactivate it by spending the normal spellcasting actions the spell requires.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -7449,7 +7449,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The joseung saja looks into the eyes of a creature within 30 feet and removes inconvenient or painful memories that are preventing it from moving on to death. The target is aware that the joseung saja attempted to alter its memory and can attempt a Will save to resist. Willing targets receive the effects of a critical failure.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes @Damage[2d10[mental]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} for 1 round.</p>\n<p><strong>Failure</strong> The target takes @Damage[4d10[mental]] damage and is stupefied 2 for 1 week.</p>\n<p><strong>Critical Failure</strong> The target loses all painful emotions and memories, leaving an indistinct haze. If the target is an ijhyeojin, then all of their memories are reaped and they become a joseung saja.</p>"
+            "value": "<p>The joseung saja looks into the eyes of a creature within 30 feet and removes inconvenient or painful memories that are preventing it from moving on to death. The target is aware that the joseung saja attempted to alter its memory and can attempt a Will save to resist. Willing targets receive the effects of a critical failure.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes 2d10 mental damage and is Stupefied 2 for 1 round.</p>\n<p><strong>Failure</strong> The target takes 4d10 mental damage and is stupefied 2 for 1 week.</p>\n<p><strong>Critical Failure</strong> The target loses all painful emotions and memories, leaving an indistinct haze. If the target is an ijhyeojin, then all of their memories are reaped and they become a joseung saja.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7481,7 +7481,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The joseung saja brings a target to 0 Hit Points or successfully Strikes a target with the dying condition</p>\n<hr />\n<p><strong>Effect</strong> The target must succeed at a @Check[will|dc:34] save or immediately die. A reaped creature can't be return to life or become undead except by a 9th-rank or higher ritual.</p>"
+            "value": "<p><strong>Trigger</strong> The joseung saja brings a target to 0 Hit Points or successfully Strikes a target with the dying condition</p>\n<hr />\n<p><strong>Effect</strong> The target must succeed at a DC 34 will save or immediately die. A reaped creature can't be return to life or become undead except by a 9th-rank or higher ritual.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7592,7 +7592,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A joseung saja's Strikes all have the effects of a ghost touch property rune and deal an extra @Damage[3d6[void]] damage to living creatures and @Damage[3d6[vitality]] damage to undead.</p>"
+            "value": "<p>A joseung saja's Strikes all have the effects of a ghost touch property rune and deal an extra 3d6 void damage to living creatures and 3d6 vitality damage to undead.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7854,7 +7854,7 @@
             }
           },
           "description": {
-            "value": "<p>By imposing your will upon the water, you can raise or lower the level of water in the chosen area by 10 feet. Creatures that have the water trait and that are in the area when you Cast the Spell must attempt a Fortitude save, with the effects of the @UUID[Compendium.pf2e.spells-srd.Item.Slow] spell.</p>\n<p><strong>Area</strong> 50 feet long by 50 feet wide</p>"
+            "value": "<p>By imposing your will upon the water, you can raise or lower the level of water in the chosen area by 10 feet. Creatures that have the water trait and that are in the area when you Cast the Spell must attempt a Fortitude save, with the effects of the Slow spell.</p>\n<p><strong>Area</strong> 50 feet long by 50 feet wide</p>"
           },
           "duration": {
             "sustained": false,
@@ -8004,7 +8004,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's rank or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as @UUID[Compendium.pf2e.conditionitems.Item.Concealed].</p>"
+            "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's rank or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as Concealed.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8160,7 +8160,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -8193,7 +8193,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Wavesense]</p>"
+            "value": "<p><p>This sense allows a monster to feel vibrations caused by movement through a liquid. It's an imprecise sense with a limited range (listed in the ability). Wavesense functions only if monster and the subject are in the same body of liquid, and only if the subject is moving through the liquid.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -8226,7 +8226,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
+            "value": "<p><p>The monster can cast its at-will spells any number of times without using up spell slots.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -8259,7 +8259,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LightBlindness]</p>"
+            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -8318,7 +8318,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The kun inhales violently, sucking in heat and all creatures in the water in a @Template[cone|distance:60]. Creatures take @Damage[10d8[cold]] damage and must attempt a @Check[fortitude|dc:33] save. The kun can't Funnel again for [[/br 1d4 #Recharge Funnel]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is pulled 30 feet toward the kun.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is pulled 60 feet toward the kun.</p>"
+            "value": "<p>The kun inhales violently, sucking in heat and all creatures in the water in a 60-foot cone. Creatures take 10d8 cold damage and must attempt a DC 33 fortitude save. The kun can't Funnel again for [[/br 1d4 #Recharge Funnel]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is pulled 30 feet toward the kun.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is pulled 60 feet toward the kun.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -8351,7 +8351,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Whenever the kun makes a jaws Strike from within an area of darkness, their jaws deals an additional @Damage[2d6[spirit]] damage and gains the unholy trait.</p>"
+            "value": "<p>Whenever the kun makes a jaws Strike from within an area of darkness, their jaws deals an additional 2d6 spirit damage and gains the unholy trait.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -8383,7 +8383,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Huge, @Damage[(3d12+7)[bludgeoning]], Rupture 30</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+            "value": "<p>Huge, @Damage[(3d12+7)[bludgeoning]], Rupture 30</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an DC  defense:reflex check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -8595,7 +8595,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's rank or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as @UUID[Compendium.pf2e.conditionitems.Item.Concealed].</p>"
+            "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's rank or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as Concealed.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8668,7 +8668,7 @@
             }
           },
           "description": {
-            "value": "<p>You sap the target's strength, depending on its Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} until the start of your next turn.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 3} for 1 minute.</p>"
+            "value": "<p>You sap the target's strength, depending on its Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Enfeebled 1 until the start of your next turn.</p>\n<p><strong>Failure</strong> The target is Enfeebled 2 for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is Enfeebled 3 for 1 minute.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8739,7 +8739,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 3} and @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8815,7 +8815,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create an orb of light that sheds bright light in a 20-foot radius (and dim light for the next 20 feet) in a color you choose. If you create the light in the same space as a willing creature, you can attach the light to the creature, causing it to float near that creature as it moves. You can Sustain the spell to move the light up to 60 feet; you can attach or detach it from a creature as part of this movement.</p>\n<p>You can Dismiss the spell. If you Cast the Spell while you already have four <em>light</em> spells active, you must choose one of the existing spells to end.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Light]</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The orb sheds light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+            "value": "<p>You create an orb of light that sheds bright light in a 20-foot radius (and dim light for the next 20 feet) in a color you choose. If you create the light in the same space as a willing creature, you can attach the light to the creature, causing it to float near that creature as it moves. You can Sustain the spell to move the light up to 60 feet; you can attach or detach it from a creature as part of this movement.</p>\n<p>You can Dismiss the spell. If you Cast the Spell while you already have four <em>light</em> spells active, you must choose one of the existing spells to end.</p>\n<p>Spell Effect: Light</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The orb sheds light in a 60-foot radius (and dim light for the next 60 feet).</p>"
           },
           "duration": {
             "sustained": false,
@@ -8887,7 +8887,7 @@
             }
           },
           "description": {
-            "value": "<p>Each creature in the area becomes drowsy and might fall asleep. A creature that falls @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] from this spell doesn't fall @UUID[Compendium.pf2e.conditionitems.Item.Prone] or release what it's holding. This spell doesn't prevent creatures from waking up due to a successful Perception check, limiting its utility in combat.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes a -1 status penalty to Perception checks for 1 round.</p>\n<p><strong>Failure</strong> The creature falls Unconscious. If it's still Unconscious after 1 minute, it wakes up automatically.</p>\n<p><strong>Critical Failure</strong> The creature falls Unconscious. If it's still Unconscious after 1 hour, it wakes up automatically.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The creatures fall Unconscious for 1 round on a failure or 1 minute on a critical failure. They fall Prone and release what they're holding, and they can't attempt Perception checks to wake up. When the duration ends, the creature is sleeping normally instead of automatically waking up.</p>"
+            "value": "<p>Each creature in the area becomes drowsy and might fall asleep. A creature that falls Unconscious from this spell doesn't fall Prone or release what it's holding. This spell doesn't prevent creatures from waking up due to a successful Perception check, limiting its utility in combat.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes a -1 status penalty to Perception checks for 1 round.</p>\n<p><strong>Failure</strong> The creature falls Unconscious. If it's still Unconscious after 1 minute, it wakes up automatically.</p>\n<p><strong>Critical Failure</strong> The creature falls Unconscious. If it's still Unconscious after 1 hour, it wakes up automatically.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The creatures fall Unconscious for 1 round on a failure or 1 minute on a critical failure. They fall Prone and release what they're holding, and they can't attempt Perception checks to wake up. When the duration ends, the creature is sleeping normally instead of automatically waking up.</p>"
           },
           "duration": {
             "sustained": false,
@@ -9038,7 +9038,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -9071,7 +9071,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LightBlindness]</p>"
+            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -9101,7 +9101,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The manananggal has a creature @UUID[Compendium.pf2e.conditionitems.Item.Grabbed]</p>\n<hr />\n<p><strong>Effect</strong> The manananggal drives their tongue into the grabbed creature to drink its blood. This deals @Damage[4d6] damage, and the manananggal gains temporary Hit Points equal to the damage dealt. A creature whose blood is drained by a manananggal is @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} until it receives healing (of any kind or amount).</p>"
+            "value": "<p><strong>Requirements</strong> The manananggal has a creature Grabbed</p>\n<hr />\n<p><strong>Effect</strong> The manananggal drives their tongue into the grabbed creature to drink its blood. This deals 4d6  damage, and the manananggal gains temporary Hit Points equal to the damage dealt. A creature whose blood is drained by a manananggal is Drained 1 until it receives healing (of any kind or amount).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9130,7 +9130,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A manananggal typically resembles a living humanoid. They don't appear as an aberration at first glance and receive a +4 status bonus to their Deception DC when Impersonating a humanoid. At any time, but especially at night, a manananggal can, as a 3-action activity with the manipulate trait, rip their upper torso from their bottom half, leaving the lower torso limp and helpless but allowing the upper torso to fly free. A manananggal can separate their body at any time, but they risk further damage if they do so during the day.</p>\n<p>The manananggal's upper and lower halves share the same pool of HP. If its lower half is damaged, the manananggal is immediately aware of the attack. Each minute a manananggal remains separated after sunrise and before sunset, it takes @Damage[2d6] points of damage until it reattaches its upper and lower torsos or is destroyed, whichever comes first.</p>"
+            "value": "<p>A manananggal typically resembles a living humanoid. They don't appear as an aberration at first glance and receive a +4 status bonus to their Deception DC when Impersonating a humanoid. At any time, but especially at night, a manananggal can, as a 3-action activity with the manipulate trait, rip their upper torso from their bottom half, leaving the lower torso limp and helpless but allowing the upper torso to fly free. A manananggal can separate their body at any time, but they risk further damage if they do so during the day.</p>\n<p>The manananggal's upper and lower halves share the same pool of HP. If its lower half is damaged, the manananggal is immediately aware of the attack. Each minute a manananggal remains separated after sunrise and before sunset, it takes 2d6  points of damage until it reattaches its upper and lower torsos or is destroyed, whichever comes first.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9177,7 +9177,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -9342,7 +9342,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -9401,7 +9401,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The nue changes its shape into that of a dark storm cloud. In Cloud Form, the nue is @UUID[Compendium.pf2e.conditionitems.Item.Concealed], gains a 60-foot fly Speed, gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise, and can't make attacks, though it can use its howl abilities. The nue can Dismiss this effect.</p>"
+            "value": "<p>The nue changes its shape into that of a dark storm cloud. In Cloud Form, the nue is Concealed, gains a 60-foot fly Speed, gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise, and can't make attacks, though it can use its howl abilities. The nue can Dismiss this effect.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9524,7 +9524,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The nue lets out an eerie howl that rattles creatures' very souls. Creatures within 60 feet must attempt a @Check[will|dc:27] save (DC 29 at night). They're then temporarily immune to Monstrous Howl for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes @Damage[2d8[persistent,void]] damage.</p>\n<p><strong>Failure</strong> As success, plus the target is @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1}.</p>\n<p><strong>Critical Failure</strong> As success, plus the target is @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2} and @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1}.</p>"
+            "value": "<p>The nue lets out an eerie howl that rattles creatures' very souls. Creatures within 60 feet must attempt a DC 27 will save (DC 29 at night). They're then temporarily immune to Monstrous Howl for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes 2d8 persistent,void damage.</p>\n<p><strong>Failure</strong> As success, plus the target is Drained 1.</p>\n<p><strong>Critical Failure</strong> As success, plus the target is Drained 2 and Stunned 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9557,7 +9557,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The nue howls to the sky, calling down a bolt of lightning that strikes the creature closest to the nue, to a maximum range of 60 feet. The bolt deals @Damage[12d6[electricity]] damage (@Check[reflex|dc:27|basic] save). The nue then can't use Thundering Howl for [[/br 1d4 #rounds]]{1d4 rounds}.</p>"
+            "value": "<p>The nue howls to the sky, calling down a bolt of lightning that strikes the creature closest to the nue, to a maximum range of 60 feet. The bolt deals 12d6 electricity damage (DC 27 Basic reflex save). The nue then can't use Thundering Howl for [[/br 1d4 #rounds]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9722,7 +9722,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>When Hiding, the orchid mantis swarm is @UUID[Compendium.pf2e.conditionitems.Item.Concealed] by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed.</p>"
+            "value": "<p>When Hiding, the orchid mantis swarm is Concealed by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9754,7 +9754,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LowLightVision]</p>"
+            "value": "<p><p>The monster can see in dim light as though it were bright light, so it ignores the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition due to dim light.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -9784,7 +9784,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Each enemy in the swarm's space takes @Damage[3d6[piercing]] damage (@Check[reflex|dc:24|basic] save). Creatures that fail this save also take @Damage[1d4[persistent,bleed]] damage.</p>"
+            "value": "<p>Each enemy in the swarm's space takes 3d6 piercing damage (DC 24 Basic reflex save). Creatures that fail this save also take 1d4 persistent,bleed damage.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9813,7 +9813,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The swarm Flies. Each creature whose space it moves through must attempt a @Check[will|dc:24] save or be transfixed by their blossom-like bodies.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round.</p>\n<p><strong>Failure</strong> The creature is dazzled and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} for 1 round.</p>"
+            "value": "<p>The swarm Flies. Each creature whose space it moves through must attempt a DC 24 will save or be transfixed by their blossom-like bodies.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect.</p>\n<p><strong>Success</strong> The creature is Dazzled for 1 round.</p>\n<p><strong>Failure</strong> The creature is dazzled and Stupefied 1 for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature is Blinded and Stupefied 2 for 1 round.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10157,7 +10157,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create a barrier of gusting winds that hinders anything moving through it. The wall of swirling winds is 5 feet thick, 60 feet long, and 30 feet high. The wall stands vertically, but you can shape its path. Though the wall of wind distorts the air, it does not hamper sight. The wall has the following effects.</p>\n<ul>\n<li>Ammunition from physical ranged attacks-such as arrows, bolts, sling bullets, and other objects of similar size-can't pass through the wall. Attacks with bigger ranged weapons, such as javelins, take a -2 circumstance penalty to their attack rolls if their paths pass through the wall. Massive ranged weapons and spell effects that don't create physical objects pass through the wall with no penalty.</li>\n<li>The wall is difficult terrain to creatures attempting to move overland through it. Gases, including creatures in@UUID[Compendium.pf2e.spells-srd.Item.Vapor Form], can't pass through the wall.</li>\n<li>A creature that attempts to fly through the wall using a move action must attempt a Fortitude save.</li>\n</ul>\n<hr />\n<p><strong>Critical Success</strong> The creature can move through the wall normally this turn.</p>\n<p><strong>Success</strong> The flying creature can move through the wall this turn, but the wall is difficult terrain.</p>\n<p><strong>Failure</strong> The wall stops the movement of the flying creature, and any remaining movement from its current action is wasted.</p>\n<p><strong>Critical Failure</strong> As failure, and the creature is pushed 10 feet away from the wall.</p>"
+            "value": "<p>You create a barrier of gusting winds that hinders anything moving through it. The wall of swirling winds is 5 feet thick, 60 feet long, and 30 feet high. The wall stands vertically, but you can shape its path. Though the wall of wind distorts the air, it does not hamper sight. The wall has the following effects.</p>\n<ul>\n<li>Ammunition from physical ranged attacks-such as arrows, bolts, sling bullets, and other objects of similar size-can't pass through the wall. Attacks with bigger ranged weapons, such as javelins, take a -2 circumstance penalty to their attack rolls if their paths pass through the wall. Massive ranged weapons and spell effects that don't create physical objects pass through the wall with no penalty.</li>\n<li>The wall is difficult terrain to creatures attempting to move overland through it. Gases, including creatures inVapor Form, can't pass through the wall.</li>\n<li>A creature that attempts to fly through the wall using a move action must attempt a Fortitude save.</li>\n</ul>\n<hr />\n<p><strong>Critical Success</strong> The creature can move through the wall normally this turn.</p>\n<p><strong>Success</strong> The flying creature can move through the wall this turn, but the wall is difficult terrain.</p>\n<p><strong>Failure</strong> The wall stops the movement of the flying creature, and any remaining movement from its current action is wasted.</p>\n<p><strong>Critical Failure</strong> As failure, and the creature is pushed 10 feet away from the wall.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10231,7 +10231,7 @@
             }
           },
           "description": {
-            "value": "<p>A violent wind issues forth from your palm, blowing from the point where you are when you Cast the Spell to the line's opposite end. The wind extinguishes small non-magical fires, disperses fog and mist, blows objects of light Bulk or less around, and pushes larger objects. Large or smaller creatures in the area must attempt a Fortitude save. Large or smaller creatures that later move into the gust must attempt the save on entering.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature can't move against the wind.</p>\n<p><strong>Failure</strong> The creature is knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone]. If it was flying, it takes the effects of critical failure instead.</p>\n<p><strong>Critical Failure</strong> The creature is pushed 30 feet in the wind's direction, knocked prone, and takes 2d6 bludgeoning damage.</p>"
+            "value": "<p>A violent wind issues forth from your palm, blowing from the point where you are when you Cast the Spell to the line's opposite end. The wind extinguishes small non-magical fires, disperses fog and mist, blows objects of light Bulk or less around, and pushes larger objects. Large or smaller creatures in the area must attempt a Fortitude save. Large or smaller creatures that later move into the gust must attempt the save on entering.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature can't move against the wind.</p>\n<p><strong>Failure</strong> The creature is knocked Prone. If it was flying, it takes the effects of critical failure instead.</p>\n<p><strong>Critical Failure</strong> The creature is pushed 30 feet in the wind's direction, knocked prone, and takes 2d6 bludgeoning damage.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10410,7 +10410,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
+            "value": "<p><p>The monster can cast its at-will spells any number of times without using up spell slots.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -10440,7 +10440,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>1 mile.</p>\n<p>The ambient weather around a peng is always lightly cloudy with a pleasant breeze, and the temperature is pleasantly warm for the season. Another creature that attempts to alter the weather within this aura (such as with a control weather ritual or localized effect like gust of wind) must succeed at a @Check[will|dc:32] save; otherwise, the effect is disrupted. The peng can activate or deactivate this aura as a single action with the concentrate trait.</p>"
+            "value": "<p>1 mile.</p>\n<p>The ambient weather around a peng is always lightly cloudy with a pleasant breeze, and the temperature is pleasantly warm for the season. Another creature that attempts to alter the weather within this aura (such as with a control weather ritual or localized effect like gust of wind) must succeed at a DC 32 will save; otherwise, the effect is disrupted. The peng can activate or deactivate this aura as a single action with the concentrate trait.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10482,7 +10482,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The peng exhales a thick cloud and envelops themself in the mist. The peng is @UUID[Compendium.pf2e.conditionitems.Item.Concealed] until the end of their next turn.</p>"
+            "value": "<p>The peng exhales a thick cloud and envelops themself in the mist. The peng is Concealed until the end of their next turn.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10514,7 +10514,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The peng beats their wings to create a mighty burst of frosty air and push away foes. Each creature within 10 feet of the peng takes 4d6 bludgeoning and @Damage[4d6[cold]] damage (@Check[reflex|dc:32|basic] save). Creatures that fail their save are pushed away 10 feet; creatures that critically fail are pushed away 20 feet and knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p>"
+            "value": "<p>The peng beats their wings to create a mighty burst of frosty air and push away foes. Each creature within 10 feet of the peng takes 4d6 bludgeoning and 4d6 cold damage (DC 32 Basic reflex save). Creatures that fail their save are pushed away 10 feet; creatures that critically fail are pushed away 20 feet and knocked Prone.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10916,7 +10916,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -11071,7 +11071,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Medium or smaller, claw, @Check[reflex|dc:26|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+            "value": "<p>Medium or smaller, claw, DC 26 Basic reflex</p>\n<hr />\n<p><p>The monster Strides up to double its Speed and can move through the spaces of creatures of the listed size, Trampling each creature whose space it enters. The monster can attempt to Trample the same creature only once in a single use of Trample. The monster deals the damage of the listed Strike, but trampled creatures can attempt a basic Reflex save at the listed DC (no damage on a critical success, half damage on a success, double damage on a critical failure).</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -11274,7 +11274,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -11369,7 +11369,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] by the shui gui dies of suffocation</p>\n<hr />\n<p><strong>Effect</strong> Ripping the spirit of its drowned victim out of the target's body, the shui gui enters the corpse to take the original owner's place. The shui gui then returns to life at the edge of its body of water as if it had been the target of a successful resurrect ritual, except it has the appearance of the target rather than its original body. After a week, the spirit of the drowned creature becomes a shui gui. The new spirit can't be raised from the dead by normal magical means until they've been destroyed as a shui gui.</p>"
+            "value": "<p><strong>Trigger</strong> A creature Grabbed by the shui gui dies of suffocation</p>\n<hr />\n<p><strong>Effect</strong> Ripping the spirit of its drowned victim out of the target's body, the shui gui enters the corpse to take the original owner's place. The shui gui then returns to life at the edge of its body of water as if it had been the target of a successful resurrect ritual, except it has the appearance of the target rather than its original body. After a week, the spirit of the drowned creature becomes a shui gui. The new spirit can't be raised from the dead by normal magical means until they've been destroyed as a shui gui.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11404,7 +11404,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+            "value": "<p><p>A creature with void healing draws health from void energy rather than vitality energy. It is damaged by vitality damage and is not healed by vitality healing effects. It does not take void damage, and it is healed by void effects that heal undead.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -11441,7 +11441,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The shui gui Swims at half Speed, along with any creature it has @UUID[Compendium.pf2e.conditionitems.Item.Grabbed].</p>"
+            "value": "<p>The shui gui Swims at half Speed, along with any creature it has Grabbed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11470,7 +11470,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The target must be holding its breath and be @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] by the shui gui</p>\n<hr />\n<p><strong>Effect</strong> The shui gui tightens its grip. The target must succeed at a @Check[fortitude|dc:24] save or immediately lose [[/br 1d4 #actions]]{1d4 actions} worth of air (or twice that on a critical failure).</p>"
+            "value": "<p><strong>Requirements</strong> The target must be holding its breath and be Grabbed by the shui gui</p>\n<hr />\n<p><strong>Effect</strong> The shui gui tightens its grip. The target must succeed at a DC 24 fortitude save or immediately lose [[/br 1d4 #actions]]{1d4 actions} worth of air (or twice that on a critical failure).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11499,7 +11499,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A shui gui can @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] corporeal creatures despite being incorporeal. The shui gui uses its Athletics check to Grapple as normal but can't use Athletics for other actions that require corporeal contact, like @UUID[Compendium.pf2e.actionspf2e.Item.Force Open] or @UUID[Compendium.pf2e.actionspf2e.Item.Trip].</p>"
+            "value": "<p>A shui gui can Grapple corporeal creatures despite being incorporeal. The shui gui uses its Athletics check to Grapple as normal but can't use Athletics for other actions that require corporeal contact, like Force Open or Trip.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11531,7 +11531,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -11895,7 +11895,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
+            "value": "<p><p>Scent involves sensing creatures or objects by smell, and is usually a vague sense. The range is listed in the ability, and it functions only if the creature or object being detected emits an aroma (for instance, incorporeal creatures usually do not exude an aroma).</p>\n<p>If a creature emits a heavy aroma or is upwind, the GM can double or even triple the range of scent abilities used to detect that creature, and the GM can reduce the range if a creature is downwind.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -11999,7 +11999,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</em> spell, block normal darkvision. A monster with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -12383,7 +12383,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+            "value": "<p><p><strong>Trigger</strong> A creature within the monster's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p><strong>Effect</strong> The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn't count toward the monster's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -12413,7 +12413,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:42]</p>\n<hr />\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} (1 day)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2} (1 day)</p>\n<p><strong>Stage 3</strong> drained 2 and @UUID[Compendium.pf2e.conditionitems.Item.Doomed]{Doomed 1} (1 day)</p>\n<p><strong>Stage 4</strong> You die and your body collapses, releasing a cloud of toxin. Any creature within @Template[emanation|distance:10]{10 feet} of your death is exposed to flood breath (1 day)</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 42 fortitude</p>\n<hr />\n<p><strong>Stage 1</strong> Drained 1 (1 day)</p>\n<p><strong>Stage 2</strong> Drained 2 (1 day)</p>\n<p><strong>Stage 3</strong> drained 2 and Doomed 1 (1 day)</p>\n<p><strong>Stage 4</strong> You die and your body collapses, releasing a cloud of toxin. Any creature within 10 feet of your death is exposed to flood breath (1 day)</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12445,7 +12445,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The Great Flood gathers all nearby water and floods a mile burst. Any creature in the area must succeed at a @Check[reflex|dc:42] save or be moved up to 60 feet in a direction of the Great Flood's choice. The area remains flooded with 30-foot-deep water for 1 hour or until the Great Flood dies, then drains naturally.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The Great Flood gathers all nearby water and floods a mile burst. Any creature in the area must succeed at a DC 42 reflex save or be moved up to 60 feet in a direction of the Great Flood's choice. The area remains flooded with 30-foot-deep water for 1 hour or until the Great Flood dies, then drains naturally.</p>"
           },
           "frequency": {
             "max": 1,
@@ -12480,7 +12480,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> It's the Great Flood's second turn in the round (see Coordinated Actions)</p>\n<hr />\n<p><strong>Effect</strong> The Great Flood Strides or Swims twice, moving through smaller creatures' spaces freely. Each creature they move through or are adjacent to takes @Damage[(4d8+20)[piercing]] damage (@Check[reflex|dc:42|basic] save). Creatures that fail the save are also exposed to flood breath.</p>"
+            "value": "<p><strong>Requirements</strong> It's the Great Flood's second turn in the round (see Coordinated Actions)</p>\n<hr />\n<p><strong>Effect</strong> The Great Flood Strides or Swims twice, moving through smaller creatures' spaces freely. Each creature they move through or are adjacent to takes @Damage[(4d8+20)[piercing]] damage (DC 42 Basic reflex save). Creatures that fail the save are also exposed to flood breath.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12807,7 +12807,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+            "value": "<p><p>A monster with telepathy can communicate mentally with any creatures within the listed radius, as long as they share a language. This doesn't give any special access to their thoughts, and communicates no more information than normal speech would.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -12879,7 +12879,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> A target creature within 30 feet must succeed at a @Check[will|dc:25] save or gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.Cursed Metamorphosis], being polymorphed into a pig whose girth is determined by the target's wealth. After 24 hours, the target can end this effect using a Dismiss action, at which point the yeongno becomes aware that the effect has ended. A yeongno can use Fortune's Favor only if no targets are currently under its effects.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> A target creature within 30 feet must succeed at a DC 25 will save or gain the effects of Cursed Metamorphosis, being polymorphed into a pig whose girth is determined by the target's wealth. After 24 hours, the target can end this effect using a Dismiss action, at which point the yeongno becomes aware that the effect has ended. A yeongno can use Fortune's Favor only if no targets are currently under its effects.</p>"
           },
           "frequency": {
             "max": 1,
@@ -12917,7 +12917,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The target is carrying at least 100 gp worth of precious metals</p>\n<hr />\n<p><strong>Effect</strong> The yeongno crushes a creature it can see with the weight of their wealth. Apparitions of gold coins approximating the wealth of the target materialize and pummel the target from all sides. The target attempts a @Check[will|dc:25] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for 1 round.</p>\n<p><strong>Failure</strong> The target takes @Damage[3d6[persistent,mental]] damage and is slowed 1 as long as the damage continues. The effect immediately ends if they're carrying less than 100 gp worth of precious metals.</p>\n<p><strong>Critical Failure</strong> As failure, except any flat checks to remove the persistent damage automatically fail.</p>"
+            "value": "<p><strong>Requirements</strong> The target is carrying at least 100 gp worth of precious metals</p>\n<hr />\n<p><strong>Effect</strong> The yeongno crushes a creature it can see with the weight of their wealth. Apparitions of gold coins approximating the wealth of the target materialize and pummel the target from all sides. The target attempts a DC 25 will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Slowed 1 for 1 round.</p>\n<p><strong>Failure</strong> The target takes 3d6 persistent,mental damage and is slowed 1 as long as the damage continues. The effect immediately ends if they're carrying less than 100 gp worth of precious metals.</p>\n<p><strong>Critical Failure</strong> As failure, except any flat checks to remove the persistent damage automatically fail.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12952,7 +12952,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Medium, @Damage[(3d6+6)[bludgeoning]], Rupture [20]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+            "value": "<p>Medium, @Damage[(3d6+6)[bludgeoning]], Rupture [20]</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an DC  defense:reflex check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -12987,7 +12987,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",

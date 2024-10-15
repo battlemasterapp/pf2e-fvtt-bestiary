@@ -105,7 +105,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>An aigamuxa's eyes are located on the bottom of their feet, making it difficult for them to see. An aigamuxa is typically @UUID[Compendium.pf2e.conditionitems.Item.Blinded]{blind}. If they @UUID[Compendium.pf2e.actionspf2e.Item.Seek], they can see normally until the end of their turn.</p>"
+            "value": "<p>An aigamuxa's eyes are located on the bottom of their feet, making it difficult for them to see. An aigamuxa is typically blind. If they Seek, they can see normally until the end of their turn.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -165,7 +165,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The aigamuxa is @UUID[Compendium.pf2e.actionspf2e.Item.Hide]{Hiding} in dirt, sand, or another soft surface</p>\n<hr />\n<p><strong>Effect</strong> The aigamuxa makes a claw Strike against a creature within reach. On a hit, the aigamuxa automatically Grabs the creature. Whether or not they hit, the aigamuxa then Strides. If they have a creature grabbed, the creature moves with the aigamuxa.</p>"
+            "value": "<p><strong>Requirements</strong> The aigamuxa is Hiding in dirt, sand, or another soft surface</p>\n<hr />\n<p><strong>Effect</strong> The aigamuxa makes a claw Strike against a creature within reach. On a hit, the aigamuxa automatically Grabs the creature. Whether or not they hit, the aigamuxa then Strides. If they have a creature grabbed, the creature moves with the aigamuxa.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -195,7 +195,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The aigamuxa is standing on dirt, sand, or another soft surface</p>\n<hr />\n<p><strong>Effect</strong> The aigamuxa quickly digs into the surface and @UUID[Compendium.pf2e.actionspf2e.Item.Hide]{Hides}. They leave their feet partially exposed, allowing them to see out from the surface. The aigamuxa can hold their breath for up to 10 minutes while hiding in this way.</p>"
+            "value": "<p><strong>Requirements</strong> The aigamuxa is standing on dirt, sand, or another soft surface</p>\n<hr />\n<p><strong>Effect</strong> The aigamuxa quickly digs into the surface and Hides. They leave their feet partially exposed, allowing them to see out from the surface. The aigamuxa can hold their breath for up to 10 minutes while hiding in this way.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -228,7 +228,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Small, @Damage[(2d12+4)[bludgeoning]] damage, Rupture 22</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+            "value": "<p>Small, @Damage[(2d12+4)[bludgeoning]] damage, Rupture 22</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an DC  defense:reflex check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -263,7 +263,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -472,7 +472,7 @@
             }
           },
           "description": {
-            "value": "<p>You create a pattern of shifting colors that hovers in the air in a geometric cloud. Creatures are @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] while inside the pattern. In addition, a creature must attempt a Will saving throw if it is inside the pattern when you cast it, when it enters the pattern, when it ends its turn within the pattern, or if it uses a Seek or Interact action on the pattern. A creature currently @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] by the pattern doesn't attempt new saves.</p>\n<hr />\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target is Fascinated by the pattern.</p>\n<p><strong>Critical Failure</strong> The target is Fascinated by the pattern. While it remains Fascinated, it can't use reactions.</p>"
+            "value": "<p>You create a pattern of shifting colors that hovers in the air in a geometric cloud. Creatures are Dazzled while inside the pattern. In addition, a creature must attempt a Will saving throw if it is inside the pattern when you cast it, when it enters the pattern, when it ends its turn within the pattern, or if it uses a Seek or Interact action on the pattern. A creature currently Fascinated by the pattern doesn't attempt new saves.</p>\n<hr />\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target is Fascinated by the pattern.</p>\n<p><strong>Critical Failure</strong> The target is Fascinated by the pattern. While it remains Fascinated, it can't use reactions.</p>"
           },
           "duration": {
             "sustained": true,
@@ -536,7 +536,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You and all targets are @UUID[Compendium.pf2e.conditionitems.Item.Invisible] except to each other as long as you remain within the spell's area. If a creature made invisible by this spell leaves the spell's area, it becomes visible and remains so even if it returns to the spell's area. If any creature made invisible by this spell uses a hostile action, the spell ends after the hostile action is completed.</p>\n<p>While exploring, it's easy to move together slowly and remain invisible. This is untenable in a battle, however. Once an encounter begins, creatures remain invisible until at most the end of the first round, at which point the spell ends.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The duration increases to 1 hour.</p>"
+            "value": "<p>You and all targets are Invisible except to each other as long as you remain within the spell's area. If a creature made invisible by this spell leaves the spell's area, it becomes visible and remains so even if it returns to the spell's area. If any creature made invisible by this spell uses a hostile action, the spell ends after the hostile action is completed.</p>\n<p>While exploring, it's easy to move together slowly and remain invisible. This is untenable in a battle, however. Once an encounter begins, creatures remain invisible until at most the end of the first round, at which point the spell ends.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The duration increases to 1 hour.</p>"
           },
           "duration": {
             "sustained": false,
@@ -596,7 +596,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The target's form appears blurry. It becomes @UUID[Compendium.pf2e.conditionitems.Item.Concealed]. As the nature of this effect still leaves the target's location obvious, the target can't use this concealment to Hide or Sneak.</p>"
+            "value": "<p>The target's form appears blurry. It becomes Concealed. As the nature of this effect still leaves the target's location obvious, the target can't use this concealment to Hide or Sneak.</p>"
           },
           "duration": {
             "sustained": false,
@@ -658,7 +658,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Cloaked in illusion, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Invisible]. This makes it @UUID[Compendium.pf2e.conditionitems.Item.Undetected] to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.Item.Hidden] to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+            "value": "<p>Cloaked in illusion, the target becomes Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
           },
           "duration": {
             "sustained": false,
@@ -718,7 +718,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Three illusory images of you swirl about your space, potentially causing those who attack you to hit one of the images instead of you. Any attack that would hit you has a random chance of hitting one of your images instead of you. If all three images remain, there is a 1 in 4 chance of hitting you (1 on [[/r 1d4]]). With two images remaining, there is a 1 in 3 chance of hitting you (1-2 on [[/r 1d6]]). With only one image, the chances are 1 in 2 (1-3 on [[/r 1d6]]).</p>\n<p>Once an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys an image but has no additional effect (even if the attack would normally have an effect on a failure). If an attack roll is a critical success and would hit one of the images, one of the images is destroyed and the attack roll becomes a success against you. Once all the images are destroyed, the spell ends.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Mirror Image]</p>"
+            "value": "<p>Three illusory images of you swirl about your space, potentially causing those who attack you to hit one of the images instead of you. Any attack that would hit you has a random chance of hitting one of your images instead of you. If all three images remain, there is a 1 in 4 chance of hitting you (1 on [[/r 1d4]]). With two images remaining, there is a 1 in 3 chance of hitting you (1-2 on [[/r 1d6]]). With only one image, the chances are 1 in 2 (1-3 on [[/r 1d6]]).</p>\n<p>Once an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys an image but has no additional effect (even if the attack would normally have an effect on a failure). If an attack roll is a critical success and would hit one of the images, one of the images is destroyed and the attack roll becomes a success against you. Once all the images are destroyed, the spell ends.</p>\n<p>Spell Effect: Mirror Image</p>"
           },
           "duration": {
             "sustained": false,
@@ -788,7 +788,7 @@
             }
           },
           "description": {
-            "value": "<p>Swirling colors affect viewers based on their Will saves.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1}, @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round, and Dazzled for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature is Stunned for 1 round and Blinded for 1 minute.</p>"
+            "value": "<p>Swirling colors affect viewers based on their Will saves.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Dazzled for 1 round.</p>\n<p><strong>Failure</strong> The creature is Stunned 1, Blinded for 1 round, and Dazzled for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature is Stunned for 1 round and Blinded for 1 minute.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1066,7 +1066,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create an illusion that causes you to appear as another creature of the same body shape, and with roughly similar height (within 6 inches) and weight (within 50 pounds), as yourself. The disguise is typically good enough to hide your identity, but not to impersonate a specific individual. The spell doesn't change your voice, scent, or mannerisms. You can change the appearance of your clothing and worn items, such as making your armor look like a dress. Held items are unaffected, and any worn item you remove returns to its true appearance.</p>\n<p>Casting illusory disguise counts as setting up a disguise for the @UUID[Compendium.pf2e.action-macros.Macro.Impersonate: Deception]{Impersonate} use of Deception; it ignores any circumstance penalties you might take for disguising yourself as a dissimilar creature, it gives you a +4 status bonus to Deception checks to prevent others from seeing through your disguise, and you add your level even if you're untrained. You can Dismiss this spell.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The spell also disguises your voice and scent, and it gains the auditory and olfactory traits.</p>\n<p><strong>Heightened (3rd)</strong> You can appear as any creature of the same size, even a specific individual. You must have seen an individual to take on their appearance. The spell also disguises your voice and scent, and it gains the auditory and olfactory traits.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Illusory Disguise]</p>"
+            "value": "<p>You create an illusion that causes you to appear as another creature of the same body shape, and with roughly similar height (within 6 inches) and weight (within 50 pounds), as yourself. The disguise is typically good enough to hide your identity, but not to impersonate a specific individual. The spell doesn't change your voice, scent, or mannerisms. You can change the appearance of your clothing and worn items, such as making your armor look like a dress. Held items are unaffected, and any worn item you remove returns to its true appearance.</p>\n<p>Casting illusory disguise counts as setting up a disguise for the Impersonate use of Deception; it ignores any circumstance penalties you might take for disguising yourself as a dissimilar creature, it gives you a +4 status bonus to Deception checks to prevent others from seeing through your disguise, and you add your level even if you're untrained. You can Dismiss this spell.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The spell also disguises your voice and scent, and it gains the auditory and olfactory traits.</p>\n<p><strong>Heightened (3rd)</strong> You can appear as any creature of the same size, even a specific individual. You must have seen an individual to take on their appearance. The spell also disguises your voice and scent, and it gains the auditory and olfactory traits.</p>\n<p>Spell Effect: Illusory Disguise</p>"
           },
           "duration": {
             "sustained": false,
@@ -1771,7 +1771,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> @Damage[2d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[1d6[poison]] damage, off-guard, and @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} (1 round)</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 22 fortitude</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> 2d6 poison damage and Off-Guard (1 round)</p>\n<p><strong>Stage 2</strong> 1d6 poison damage, off-guard, and Clumsy 1 (1 round)</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1806,7 +1806,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The anadi changes into their hybrid form, spider form, or human form. The above statistics assume the anadi is in their hybrid form. While in their human form, the anadi elder can't use their fangs attack and loses their climb Speed. When in spider form, they can't use weapons.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+            "value": "<p>The anadi changes into their hybrid form, spider form, or human form. The above statistics assume the anadi is in their hybrid form. While in their human form, the anadi elder can't use their fangs attack and loses their climb Speed. When in spider form, they can't use weapons.</p>\n<hr />\n<p><p>The monster changes its shape indefinitely. It can use this action again to return to its natural shape or adopt a new shape. Unless otherwise noted, a monster cannot use Change Shape to appear as a specific individual. Using Change Shape counts as creating a disguise for the @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} use of Deception. The monster's transformation automatically defeats Perception DCs to determine whether the creature is a member of the ancestry or creature type into which it transformed, and it gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise. Change Shape abilities specify what shapes the monster can adopt. The monster doesn't gain any special abilities of the new shape, only its physical form. For example, in each shape, it replaces its normal Speeds and Strikes, and might potentially change its senses or size. Any changes are listed in its stat block.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -2488,7 +2488,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:16]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[1d6[poison]] damage, off-guard, and @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} (1 round)</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 16 fortitude</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> 1d6 poison damage and Off-Guard (1 round)</p>\n<p><strong>Stage 2</strong> 1d6 poison damage, off-guard, and Clumsy 1 (1 round)</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2523,7 +2523,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The anadi changes into their hybrid form, spider form, or human form. The above statistics assume the anadi is in their hybrid form. While in their human form, the anadi hunter can't use their fangs attack and loses their climb Speed. When in spider form, they can't use weapons.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+            "value": "<p>The anadi changes into their hybrid form, spider form, or human form. The above statistics assume the anadi is in their hybrid form. While in their human form, the anadi hunter can't use their fangs attack and loses their climb Speed. When in spider form, they can't use weapons.</p>\n<hr />\n<p><p>The monster changes its shape indefinitely. It can use this action again to return to its natural shape or adopt a new shape. Unless otherwise noted, a monster cannot use Change Shape to appear as a specific individual. Using Change Shape counts as creating a disguise for the @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} use of Deception. The monster's transformation automatically defeats Perception DCs to determine whether the creature is a member of the ancestry or creature type into which it transformed, and it gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise. Change Shape abilities specify what shapes the monster can adopt. The monster doesn't gain any special abilities of the new shape, only its physical form. For example, in each shape, it replaces its normal Speeds and Strikes, and might potentially change its senses or size. Any changes are listed in its stat block.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -2783,7 +2783,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The target's form appears blurry. It becomes @UUID[Compendium.pf2e.conditionitems.Item.Concealed]. As the nature of this effect still leaves the target's location obvious, the target can't use this concealment to Hide or Sneak.</p>"
+            "value": "<p>The target's form appears blurry. It becomes Concealed. As the nature of this effect still leaves the target's location obvious, the target can't use this concealment to Hide or Sneak.</p>"
           },
           "duration": {
             "sustained": false,
@@ -2917,7 +2917,7 @@
             }
           },
           "description": {
-            "value": "<p>Swirling colors affect viewers based on their Will saves.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1}, @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round, and Dazzled for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature is Stunned for 1 round and Blinded for 1 minute.</p>"
+            "value": "<p>Swirling colors affect viewers based on their Will saves.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Dazzled for 1 round.</p>\n<p><strong>Failure</strong> The creature is Stunned 1, Blinded for 1 round, and Dazzled for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature is Stunned for 1 round and Blinded for 1 minute.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3110,7 +3110,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create an illusion that causes you to appear as another creature of the same body shape, and with roughly similar height (within 6 inches) and weight (within 50 pounds), as yourself. The disguise is typically good enough to hide your identity, but not to impersonate a specific individual. The spell doesn't change your voice, scent, or mannerisms. You can change the appearance of your clothing and worn items, such as making your armor look like a dress. Held items are unaffected, and any worn item you remove returns to its true appearance.</p>\n<p>Casting illusory disguise counts as setting up a disguise for the @UUID[Compendium.pf2e.action-macros.Macro.Impersonate: Deception]{Impersonate} use of Deception; it ignores any circumstance penalties you might take for disguising yourself as a dissimilar creature, it gives you a +4 status bonus to Deception checks to prevent others from seeing through your disguise, and you add your level even if you're untrained. You can Dismiss this spell.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The spell also disguises your voice and scent, and it gains the auditory and olfactory traits.</p>\n<p><strong>Heightened (3rd)</strong> You can appear as any creature of the same size, even a specific individual. You must have seen an individual to take on their appearance. The spell also disguises your voice and scent, and it gains the auditory and olfactory traits.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Illusory Disguise]</p>"
+            "value": "<p>You create an illusion that causes you to appear as another creature of the same body shape, and with roughly similar height (within 6 inches) and weight (within 50 pounds), as yourself. The disguise is typically good enough to hide your identity, but not to impersonate a specific individual. The spell doesn't change your voice, scent, or mannerisms. You can change the appearance of your clothing and worn items, such as making your armor look like a dress. Held items are unaffected, and any worn item you remove returns to its true appearance.</p>\n<p>Casting illusory disguise counts as setting up a disguise for the Impersonate use of Deception; it ignores any circumstance penalties you might take for disguising yourself as a dissimilar creature, it gives you a +4 status bonus to Deception checks to prevent others from seeing through your disguise, and you add your level even if you're untrained. You can Dismiss this spell.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The spell also disguises your voice and scent, and it gains the auditory and olfactory traits.</p>\n<p><strong>Heightened (3rd)</strong> You can appear as any creature of the same size, even a specific individual. You must have seen an individual to take on their appearance. The spell also disguises your voice and scent, and it gains the auditory and olfactory traits.</p>\n<p>Spell Effect: Illusory Disguise</p>"
           },
           "duration": {
             "sustained": false,
@@ -3610,7 +3610,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:19]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[1d6[poison]] damage, off-guard, and @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} (1 round)</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 19 fortitude</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> 1d6 poison damage and Off-Guard (1 round)</p>\n<p><strong>Stage 2</strong> 1d6 poison damage, off-guard, and Clumsy 1 (1 round)</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3645,7 +3645,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The anadi changes into their hybrid form, spider form, or human form. The above statistics assume the anadi is in their hybrid form. While in their human form, the anadi sage can't use their fangs attack and loses their climb Speed. When in spider form, they can't use weapons.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+            "value": "<p>The anadi changes into their hybrid form, spider form, or human form. The above statistics assume the anadi is in their hybrid form. While in their human form, the anadi sage can't use their fangs attack and loses their climb Speed. When in spider form, they can't use weapons.</p>\n<hr />\n<p><p>The monster changes its shape indefinitely. It can use this action again to return to its natural shape or adopt a new shape. Unless otherwise noted, a monster cannot use Change Shape to appear as a specific individual. Using Change Shape counts as creating a disguise for the @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} use of Deception. The monster's transformation automatically defeats Perception DCs to determine whether the creature is a member of the ancestry or creature type into which it transformed, and it gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise. Change Shape abilities specify what shapes the monster can adopt. The monster doesn't gain any special abilities of the new shape, only its physical form. For example, in each shape, it replaces its normal Speeds and Strikes, and might potentially change its senses or size. Any changes are listed in its stat block.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -3962,7 +3962,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The asanbosam is positioned above a creature</p>\n<hr />\n<p><strong>Effect</strong> The asanbosam makes a claw Strike with its reach increased to 15 feet. On a hit, the Strike deals an additional @Damage[1d6[slashing]] damage and the asanbosam immediately Grabs the target and pulls it to a space adjacent to the asanbosam.</p>\n<p>This counts as two attacks for the asanbosam's multiple attack penalty.</p>"
+            "value": "<p><strong>Requirements</strong> The asanbosam is positioned above a creature</p>\n<hr />\n<p><strong>Effect</strong> The asanbosam makes a claw Strike with its reach increased to 15 feet. On a hit, the Strike deals an additional 1d6 slashing damage and the asanbosam immediately Grabs the target and pulls it to a space adjacent to the asanbosam.</p>\n<p>This counts as two attacks for the asanbosam's multiple attack penalty.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4009,7 +4009,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> A @UUID[Compendium.pf2e.conditionitems.Item.Grabbed], @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed], @UUID[Compendium.pf2e.conditionitems.Item.Restrained], @UUID[Compendium.pf2e.conditionitems.Item.Unconscious], or willing creature is within reach of the asanbosam's jaws</p>\n<hr />\n<p><strong>Effect</strong> The asanbosam sinks its teeth into the creature to drink its blood. If the victim is grabbed, this is automatic; otherwise, the asanbosam must succeed at an @Check[athletics|defense:fortitude] check against the victim's Fortitude DC. The victim becomes @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} and the asanbosam regains [[/r 10[healing]]]{10 HP}, gaining any excess Hit Points beyond its maximum as temporary Hit Points. These temporary Hit Points remain for 1 minute.</p>\n<p>Drinking Blood from a creature that's already drained increases the victim's drained value by 1 to a maximum of drained 3, but doesn't restore any HP to the asanbosam.</p>\n<p>A victim's drained condition decreases by 1 each week. A blood transfusion, which requires a successful @Check[medicine|dc:20|name:Drink Blood Treatment] check and a blood donor or sufficient blood, reduces the drained value by 1 after 10 minutes.</p>"
+            "value": "<p><strong>Requirements</strong> A Grabbed, Paralyzed, Restrained, Unconscious, or willing creature is within reach of the asanbosam's jaws</p>\n<hr />\n<p><strong>Effect</strong> The asanbosam sinks its teeth into the creature to drink its blood. If the victim is grabbed, this is automatic; otherwise, the asanbosam must succeed at an DC  defense:fortitude check against the victim's Fortitude DC. The victim becomes Drained 1 and the asanbosam regains [[/r 10[healing]]]{10 HP}, gaining any excess Hit Points beyond its maximum as temporary Hit Points. These temporary Hit Points remain for 1 minute.</p>\n<p>Drinking Blood from a creature that's already drained increases the victim's drained value by 1 to a maximum of drained 3, but doesn't restore any HP to the asanbosam.</p>\n<p>A victim's drained condition decreases by 1 each week. A blood transfusion, which requires a successful DC 20 name:Drink Blood Treatment check and a blood donor or sufficient blood, reduces the drained value by 1 after 10 minutes.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4042,7 +4042,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -4247,7 +4247,7 @@
             }
           },
           "description": {
-            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes @UUID[Compendium.pf2e.conditionitems.Item.Friendly] toward you. If it was Friendly, it becomes @UUID[Compendium.pf2e.conditionitems.Item.Helpful]. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
+            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes Friendly toward you. If it was Friendly, it becomes Helpful. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4686,7 +4686,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+            "value": "<p><p><strong>Trigger</strong> A creature within the monster's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p><strong>Effect</strong> The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn't count toward the monster's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -4716,7 +4716,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>If a biloko feasts on a human corpse for 1 minute or more, they gain a +1 status bonus to attack rolls and a +2 status bonus to damage rolls for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Inspired Feast]</p>"
+            "value": "<p>If a biloko feasts on a human corpse for 1 minute or more, they gain a +1 status bonus to attack rolls and a +2 status bonus to damage rolls for 1 hour.</p>\n<p>Effect: Inspired Feast</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4962,7 +4962,7 @@
             }
           },
           "description": {
-            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes @UUID[Compendium.pf2e.conditionitems.Item.Friendly] toward you. If it was Friendly, it becomes @UUID[Compendium.pf2e.conditionitems.Item.Helpful]. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
+            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes Friendly toward you. If it was Friendly, it becomes Helpful. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5307,7 +5307,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+            "value": "<p><p><strong>Trigger</strong> The monster has its shield raised and takes damage from a physical attack.</p>\n<hr />\n<p><strong>Effect</strong> The monster snaps its shield into place to deflect a blow. The shield prevents the monster from taking an amount of damage up to the shield's Hardness. The monster and the shield each take any remaining damage, possibly breaking or destroying the shield.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -5337,7 +5337,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>If a biloko feasts on a human corpse for 1 minute or more, they gain a +1 status bonus to attack rolls and a +2 status bonus to damage rolls for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Inspired Feast]</p>"
+            "value": "<p>If a biloko feasts on a human corpse for 1 minute or more, they gain a +1 status bonus to attack rolls and a +2 status bonus to damage rolls for 1 hour.</p>\n<p>Effect: Inspired Feast</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5600,7 +5600,7 @@
             }
           },
           "description": {
-            "value": "<p>Plants in the area entangle creatures. The area counts as difficult terrain. Each round that a creature starts its turn in the area, it must attempt a Reflex save. On a failure, it takes a -10-foot circumstance penalty to its Speeds until it leaves the area, and on a critical failure, it is also @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] for 1 round. Creatures can attempt to Escape at entangle's DC to remove these effects.</p>"
+            "value": "<p>Plants in the area entangle creatures. The area counts as difficult terrain. Each round that a creature starts its turn in the area, it must attempt a Reflex save. On a failure, it takes a -10-foot circumstance penalty to its Speeds until it leaves the area, and on a critical failure, it is also Immobilized for 1 round. Creatures can attempt to Escape at entangle's DC to remove these effects.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5678,7 +5678,7 @@
             }
           },
           "description": {
-            "value": "<p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Deafened for 1 minute, and is @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
+            "value": "<p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Deafened for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Deafened for 1 minute, and is Stunned 1.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5762,7 +5762,7 @@
             }
           },
           "description": {
-            "value": "<p>You cloud the target's mind and daze it with a mental jolt. The jolt deals mental damage equal to your spellcasting ability modifier; the target must attempt a basic Will save. If the target critically fails the save, it is also @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
+            "value": "<p>You cloud the target's mind and daze it with a mental jolt. The jolt deals mental damage equal to your spellcasting ability modifier; the target must attempt a basic Will save. If the target critically fails the save, it is also Stunned 1.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5986,7 +5986,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 3} and @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -6051,7 +6051,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You ask for divine guidance, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Guidance]</p>"
+            "value": "<p>You ask for divine guidance, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p>Spell Effect: Guidance</p>"
           },
           "duration": {
             "sustained": false,
@@ -6378,7 +6378,7 @@
             }
           },
           "description": {
-            "value": "<p>A ray that saps a foe's strength flashes from your hand. Attempt a ranged spell attack against the target. If you succeed, that creature attempts a Fortitude save to determine the spell's effect. If your attack roll is a critical success, use the outcome for one degree of success worse than the result of its save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1}.</p>\n<p><strong>Failure</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2}.</p>\n<p><strong>Critical Failure</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 3}.</p>"
+            "value": "<p>A ray that saps a foe's strength flashes from your hand. Attempt a ranged spell attack against the target. If you succeed, that creature attempts a Fortitude save to determine the spell's effect. If your attack roll is a critical success, use the outcome for one degree of success worse than the result of its save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target becomes Enfeebled 1.</p>\n<p><strong>Failure</strong> The target becomes Enfeebled 2.</p>\n<p><strong>Critical Failure</strong> The target becomes Enfeebled 3.</p>"
           },
           "duration": {
             "sustained": false,
@@ -6768,7 +6768,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The charau-ka's turn begins.</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The charau-ka is @UUID[Compendium.pf2e.conditionitems.Item.Quickened] until the end of its turn, and can use the extra action to Stride or Strike.</p>\n<p>While in the frenzy, the charau-ka can't speak and automatically critically fails Stealth checks, due to its loud wailing.</p>"
+            "value": "<p><strong>Trigger</strong> The charau-ka's turn begins.</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The charau-ka is Quickened until the end of its turn, and can use the extra action to Stride or Strike.</p>\n<p>While in the frenzy, the charau-ka can't speak and automatically critically fails Stealth checks, due to its loud wailing.</p>"
           },
           "frequency": {
             "max": 1,
@@ -7323,7 +7323,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The charau-ka butcher deals bleed damage to a creature.</p>\n<hr />\n<p><strong>Effect</strong> The charau-ka licks blood from its weapon, becoming furious. It regains [[/r 5[healing]]]{5 HP} and gains a +1 status bonus to attack rolls until the end of its turn.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Blood Fury]</p>"
+            "value": "<p><strong>Trigger</strong> The charau-ka butcher deals bleed damage to a creature.</p>\n<hr />\n<p><strong>Effect</strong> The charau-ka licks blood from its weapon, becoming furious. It regains [[/r 5[healing]]]{5 HP} and gains a +1 status bonus to attack rolls until the end of its turn.</p>\n<p>Effect: Blood Fury</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7355,7 +7355,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>While the charau-ka butcher is raging, its melee Strikes deal @Damage[1d4[bleed]].</p>"
+            "value": "<p>While the charau-ka butcher is raging, its melee Strikes deal 1d4 bleed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7399,7 +7399,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The Charau-ka Butcher isn't @UUID[Compendium.pf2e.conditionitems.Item.Fatigued] or raging</p>\n<p>The Charau-ka Butcher taps into its inner fury and begins raging. The Charau-ka Butcher gains a number of temporary Hit Points equal to it's level plus it's Constitution modifier. This frenzy lasts for 1 minute, until there are no enemies they can perceive, or until they fall unconscious, whichever comes first. They can't voluntarily stop raging. While they are raging:</p>\n<ul>\n<li>They deal 2 additional damage on melee Strikes. This additional damage is halved if their weapon or unarmed attack is agile.</li>\n<li>They take a -1 penalty to AC.</li>\n<li>They can't use actions with the concentrate trait unless they also have the rage trait. They can Seek while raging.</li>\n</ul>\n<p>After they stop raging, they lose any remaining temporary Hit Points from Rage, and they can't Rage again for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Effect: Rage]</p>"
+            "value": "<p><strong>Requirements</strong> The Charau-ka Butcher isn't Fatigued or raging</p>\n<p>The Charau-ka Butcher taps into its inner fury and begins raging. The Charau-ka Butcher gains a number of temporary Hit Points equal to it's level plus it's Constitution modifier. This frenzy lasts for 1 minute, until there are no enemies they can perceive, or until they fall unconscious, whichever comes first. They can't voluntarily stop raging. While they are raging:</p>\n<ul>\n<li>They deal 2 additional damage on melee Strikes. This additional damage is halved if their weapon or unarmed attack is agile.</li>\n<li>They take a -1 penalty to AC.</li>\n<li>They can't use actions with the concentrate trait unless they also have the rage trait. They can Seek while raging.</li>\n</ul>\n<p>After they stop raging, they lose any remaining temporary Hit Points from Rage, and they can't Rage again for 1 minute.</p>\n<p>Effect: Rage</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7469,7 +7469,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The charau-ka's turn begins.</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The charau-ka is @UUID[Compendium.pf2e.conditionitems.Item.Quickened] until the end of its turn, and can use the extra action to Stride or Strike.</p>\n<p>While in the frenzy, the charau-ka can't speak and automatically critically fails Stealth checks, due to its loud wailing.</p>"
+            "value": "<p><strong>Trigger</strong> The charau-ka's turn begins.</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The charau-ka is Quickened until the end of its turn, and can use the extra action to Stride or Strike.</p>\n<p>While in the frenzy, the charau-ka can't speak and automatically critically fails Stealth checks, due to its loud wailing.</p>"
           },
           "frequency": {
             "max": 1,
@@ -8210,7 +8210,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The charau-ka's turn begins.</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The charau-ka is @UUID[Compendium.pf2e.conditionitems.Item.Quickened] until the end of its turn, and can use the extra action to Stride or Strike.</p>\n<p>While in the frenzy, the charau-ka can't speak and automatically critically fails Stealth checks, due to its loud wailing.</p>"
+            "value": "<p><strong>Trigger</strong> The charau-ka's turn begins.</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The charau-ka is Quickened until the end of its turn, and can use the extra action to Stride or Strike.</p>\n<p>While in the frenzy, the charau-ka can't speak and automatically critically fails Stealth checks, due to its loud wailing.</p>"
           },
           "frequency": {
             "max": 1,
@@ -8463,7 +8463,7 @@
             }
           },
           "description": {
-            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes @UUID[Compendium.pf2e.conditionitems.Item.Friendly] toward you. If it was Friendly, it becomes @UUID[Compendium.pf2e.conditionitems.Item.Helpful]. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
+            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes Friendly toward you. If it was Friendly, it becomes Helpful. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8962,7 +8962,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>If a biloko feasts on a human corpse for 1 minute or more, they gain a +1 status bonus to attack rolls and a +2 status bonus to damage rolls for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Inspired Feast]</p>"
+            "value": "<p>If a biloko feasts on a human corpse for 1 minute or more, they gain a +1 status bonus to attack rolls and a +2 status bonus to damage rolls for 1 hour.</p>\n<p>Effect: Inspired Feast</p>"
           },
           "publication": {
             "license": "OGL",
@@ -8995,7 +8995,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The eloko is affected by a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Enlarge] spell. This lasts for 1 minute, and the eloko can Dismiss the Spell.</p>"
+            "value": "<p>The eloko is affected by a 4th-rank Enlarge spell. This lasts for 1 minute, and the eloko can Dismiss the Spell.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9030,7 +9030,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The eloko deals 2d6 extra precision damage to @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] creatures.</p>"
+            "value": "<p>The eloko deals 2d6 extra precision damage to Off-Guard creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9432,7 +9432,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+            "value": "<p><p><strong>Trigger</strong> A creature within the monster's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p><strong>Effect</strong> The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn't count toward the monster's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -9529,7 +9529,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Tail only, @Damage[(2d12+12)[bludgeoning]] damage, @Check[fortitude|dc:34|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+            "value": "<p>Tail only, @Damage[(2d12+12)[bludgeoning]] damage, DC 34 Basic fortitude</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC. A creature that fails this save falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, and a creature that succeeds is then temporarily immune to falling unconscious from Greater Constrict for 1 minute.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -9562,7 +9562,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Jaws only, Huge, @Damage[(3d12+10)[bludgeoning]] damage, Rupture 37</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+            "value": "<p>Jaws only, Huge, @Damage[(3d12+10)[bludgeoning]] damage, Rupture 37</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an DC  defense:reflex check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -9594,7 +9594,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The grootslang makes a foot Strike against a creature in reach.</p>\n<p>Whether or not the Strike hits, all creatures within 10 feet of the grootslang must attempt a @Check[reflex|dc:37|traits:damaging-effect] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the end of its turn.</p>\n<p><strong>Failure</strong> The creature is knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone] and takes @Damage[2d8[bludgeoning]] damage.</p>\n<p><strong>Critical Failure</strong> As failure, except the creature takes @Damage[4d8[bludgeoning]] damage.</p>"
+            "value": "<p>The grootslang makes a foot Strike against a creature in reach.</p>\n<p>Whether or not the Strike hits, all creatures within 10 feet of the grootslang must attempt a DC 37 traits:damaging-effect save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Off-Guard until the end of its turn.</p>\n<p><strong>Failure</strong> The creature is knocked Prone and takes 2d8 bludgeoning damage.</p>\n<p><strong>Critical Failure</strong> As failure, except the creature takes 4d8 bludgeoning damage.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9627,7 +9627,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -9660,7 +9660,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+            "value": "<p><p>The monster can use @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Grab} as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -10163,7 +10163,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>If a kaava stalker starts their turn @UUID[Compendium.pf2e.conditionitems.Item.Hidden] from or @UUID[Compendium.pf2e.conditionitems.Item.Undetected] by a creature, that creature is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against the Kaava's attacks until the end of the turn.</p>"
+            "value": "<p>If a kaava stalker starts their turn Hidden from or Undetected by a creature, that creature is Off-Guard against the Kaava's attacks until the end of the turn.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10518,7 +10518,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:19]</p>\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> @Damage[1d6[poison]] damage, @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (1 day)</p>\n<p><strong>Stage 3</strong> @Damage[1d8[poison]] damage, every hour the victim must succeed at another Fortitude save or be @UUID[Compendium.pf2e.conditionitems.Item.Confused] for 1 minute, @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} (1 day)</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 19 fortitude</p>\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> 1d6 poison damage, Sickened 1 (1 day)</p>\n<p><strong>Stage 3</strong> 1d8 poison damage, every hour the victim must succeed at another Fortitude save or be Confused for 1 minute, Sickened 2 (1 day)</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10585,7 +10585,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -10834,7 +10834,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>When offered a gift worth at least 50 gp, the k'nonna must attempt a @Check[will|dc:20] saving throw; if the gift is worth at least 100 gp, the DC is instead @Check[will|dc:25|name:Gilded Fascination (Higher)].</p>\n<p>If they fail the save, the k'nonna accepts the gift, becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] until the end of their next turn, and cannot attack while fascinated. On a critical failure, the fascination lasts for 1 minute.</p>\n<p>Offering a gift is an Interact action, and offering multiple gifts in the same round has no additional effect.</p>"
+            "value": "<p>When offered a gift worth at least 50 gp, the k'nonna must attempt a DC 20 will saving throw; if the gift is worth at least 100 gp, the DC is instead DC 25 name:Gilded Fascination (Higher).</p>\n<p>If they fail the save, the k'nonna accepts the gift, becomes Fascinated until the end of their next turn, and cannot attack while fascinated. On a critical failure, the fascination lasts for 1 minute.</p>\n<p>Offering a gift is an Interact action, and offering multiple gifts in the same round has no additional effect.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10894,7 +10894,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>A k'nonna can communicate easily with other k'nonna, but when communicating with other creatures, only half of the spoken words make sense.</p>\n<p>In order to convey information to a k'nonna or understand what they're saying, a non-k'nonna must succeed at a @Check[perception|dc:20] check.</p>"
+            "value": "<p>A k'nonna can communicate easily with other k'nonna, but when communicating with other creatures, only half of the spoken words make sense.</p>\n<p>In order to convey information to a k'nonna or understand what they're saying, a non-k'nonna must succeed at a DC 20 perception check.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10957,7 +10957,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -11159,7 +11159,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You raise a blazing wall that burns creatures passing through it. You create either a 5-foot-thick wall of flame in a straight line up to 60 feet long and 10 feet high, or a 5-foot-thick, 10-foot-radius ring of flame with the same height. The wall stands vertically in either form; if you wish, the wall can be of a shorter length or height. Everything on each side of the wall is @UUID[Compendium.pf2e.conditionitems.Item.Concealed] from creatures on the opposite side. Any creature that crosses the wall or is occupying the wall's area at the start of its turn takes 9d6 fire damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The fire damage increases by 1d6.</p>"
+            "value": "<p>You raise a blazing wall that burns creatures passing through it. You create either a 5-foot-thick wall of flame in a straight line up to 60 feet long and 10 feet high, or a 5-foot-thick, 10-foot-radius ring of flame with the same height. The wall stands vertically in either form; if you wish, the wall can be of a shorter length or height. Everything on each side of the wall is Concealed from creatures on the opposite side. Any creature that crosses the wall or is occupying the wall's area at the start of its turn takes 9d6 fire damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The fire damage increases by 1d6.</p>"
           },
           "duration": {
             "sustained": false,
@@ -11374,7 +11374,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Escape] an effect that has them @UUID[Compendium.pf2e.conditionitems.Item.Immobilized], @UUID[Compendium.pf2e.conditionitems.Item.Grabbed], or @UUID[Compendium.pf2e.conditionitems.Item.Restrained], they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.</p>"
           },
           "duration": {
             "sustained": false,
@@ -11517,7 +11517,7 @@
             }
           },
           "description": {
-            "value": "<p><strong>Area</strong> 5-foot radius, 80-foot-tall cylinder</p>\n<hr />\n<p>The ground opens up, spraying a column of lava high into the air in a vertical cylinder, dealing 14d6 fire damage to creatures in the area. The lava rapidly cools and encases creatures in the area. A creature encased in rock is @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} and takes a -10-foot status penalty to its Speeds. All normal terrain is difficult terrain to a flying creature, and such creatures immediately descend 20 feet the moment they're encased, but they don't take damage from this fall. A creature encased in rock can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Escape] against your spell DC to end the effect. Otherwise, the creature remains encased until it takes a total of 50 damage, freeing it from the rock. Additionally, creatures in the area and those within 5 feet of the lava column automatically take @Damage[(@item.rank -4)d6[fire]] damage from the intense heat, regardless of the results of their saving throws.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Volcanic Eruption]</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is encased.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is encased.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage in the area increases by 2d6, and the damage from the intense heat increases by 1d6.</p>"
+            "value": "<p><strong>Area</strong> 5-foot radius, 80-foot-tall cylinder</p>\n<hr />\n<p>The ground opens up, spraying a column of lava high into the air in a vertical cylinder, dealing 14d6 fire damage to creatures in the area. The lava rapidly cools and encases creatures in the area. A creature encased in rock is Clumsy 1 and takes a -10-foot status penalty to its Speeds. All normal terrain is difficult terrain to a flying creature, and such creatures immediately descend 20 feet the moment they're encased, but they don't take damage from this fall. A creature encased in rock can attempt to Escape against your spell DC to end the effect. Otherwise, the creature remains encased until it takes a total of 50 damage, freeing it from the rock. Additionally, creatures in the area and those within 5 feet of the lava column automatically take @Damage[(@item.rank -4)d6[fire]] damage from the intense heat, regardless of the results of their saving throws.</p>\n<p>Spell Effect: Volcanic Eruption</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is encased.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is encased.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage in the area increases by 2d6, and the damage from the intense heat increases by 1d6.</p>"
           },
           "duration": {
             "sustained": false,
@@ -11979,7 +11979,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+            "value": "<p><p>A constant spell affects the monster without the monster needing to cast it, and its duration is unlimited. If a constant spell gets counteracted, the monster can reactivate it by spending the normal spellcasting actions the spell requires.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -12053,7 +12053,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature within 100 feet of the maliadi that the maliadi can see Casts a Spell that targets the maliadi</p>\n<hr />\n<p><strong>Effect</strong> The maliadi casts one of its innate @UUID[Compendium.pf2e.spells-srd.Item.Wall of Fire] spells, with a duration of 1 round.</p>\n<p>If the spell that triggered this reaction passes through the wall of fire, the wall attempts to counteract it, with a counteract modifier of [[/r 1d20+28]]{+28}.</p>"
+            "value": "<p><strong>Trigger</strong> A creature within 100 feet of the maliadi that the maliadi can see Casts a Spell that targets the maliadi</p>\n<hr />\n<p><strong>Effect</strong> The maliadi casts one of its innate Wall of Fire spells, with a duration of 1 round.</p>\n<p>If the spell that triggered this reaction passes through the wall of fire, the wall attempts to counteract it, with a counteract modifier of [[/r 1d20+28]]{+28}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12086,7 +12086,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The maliadi tries to capsize an adjacent aquatic vessel of its size or smaller.</p>\n<p>The maliadi must succeed at a @Check[athletics|dc:35] check (reduced by 5 for each size smaller the vessel is than the maliadi) or the pilot's Sailing Lore DC, whichever is higher.</p>"
+            "value": "<p>The maliadi tries to capsize an adjacent aquatic vessel of its size or smaller.</p>\n<p>The maliadi must succeed at a DC 35 athletics check (reduced by 5 for each size smaller the vessel is than the maliadi) or the pilot's Sailing Lore DC, whichever is higher.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12119,7 +12119,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The maliadi can take on the appearance of any Large, Huge, or Gargantuan animal. This doesn't change its Speed or Strikes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+            "value": "<p>The maliadi can take on the appearance of any Large, Huge, or Gargantuan animal. This doesn't change its Speed or Strikes.</p>\n<hr />\n<p><p>The monster changes its shape indefinitely. It can use this action again to return to its natural shape or adopt a new shape. Unless otherwise noted, a monster cannot use Change Shape to appear as a specific individual. Using Change Shape counts as creating a disguise for the @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} use of Deception. The monster's transformation automatically defeats Perception DCs to determine whether the creature is a member of the ancestry or creature type into which it transformed, and it gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise. Change Shape abilities specify what shapes the monster can adopt. The monster doesn't gain any special abilities of the new shape, only its physical form. For example, in each shape, it replaces its normal Speeds and Strikes, and might potentially change its senses or size. Any changes are listed in its stat block.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -12153,7 +12153,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The maliadi takes on the form of a stretch of river, with the effects of @UUID[Compendium.pf2e.spells-srd.Item.Migration], except the maliadi can only affect itself, appears as a section of a flowing river that takes up the same space as the maliadi, and can't leave the ground.</p>"
+            "value": "<p>The maliadi takes on the form of a stretch of river, with the effects of Migration, except the maliadi can only affect itself, appears as a section of a flowing river that takes up the same space as the maliadi, and can't leave the ground.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12186,7 +12186,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Huge, @Damage[(3d10+17)[bludgeoning]] damage, Rupture 35</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+            "value": "<p>Huge, @Damage[(3d10+17)[bludgeoning]] damage, Rupture 35</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an DC  defense:reflex check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -12221,7 +12221,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Huge or smaller, foot, @Check[reflex|dc:38|traits:damaging-effect]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+            "value": "<p>Huge or smaller, foot, DC 38 traits:damaging-effect</p>\n<hr />\n<p><p>The monster Strides up to double its Speed and can move through the spaces of creatures of the listed size, Trampling each creature whose space it enters. The monster can attempt to Trample the same creature only once in a single use of Trample. The monster deals the damage of the listed Strike, but trampled creatures can attempt a basic Reflex save at the listed DC (no damage on a critical success, half damage on a success, double damage on a critical failure).</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -12254,7 +12254,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+            "value": "<p><p>The monster can use @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Grab} as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -12531,7 +12531,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>Tail only</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+            "value": "<p>Tail only</p>\n<hr />\n<p><p><strong>Trigger</strong> A creature within the monster's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p><strong>Effect</strong> The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn't count toward the monster's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -12561,7 +12561,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>30 feet. The mamlambo emits dim light from its skin. A creature that enters or begins its turn in the aura must attempt a @Check[will|dc:23] save. Humanoids take a -2 penalty to this saving throw.</p>\n<p>Regardless of the save's result, the creature is temporarily immune for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for 1 round.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Fascinated], and for as long as it is in the aura it must spend at least 1 of its actions on each of its turns to move closer to the mamlambo as expediently as possible, while avoiding obvious dangers. If the creature ends its movement or turn adjacent to the mamlambo, it is Slowed 1 until it is out of the aura or until the mamlambo makes a Strike against it.</p>\n<p>The target can attempt a new Will save at the beginning of each of their subsequent turns, and on a success, the effect ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature must spend each of its actions moving closer to the mamlambo, and if it ends its movement or turn adjacent to the mamlambo, it is @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed] until it is out of the aura or until the mamlambo makes a Strike against it.</p>"
+            "value": "<p>30 feet. The mamlambo emits dim light from its skin. A creature that enters or begins its turn in the aura must attempt a DC 23 will save. Humanoids take a -2 penalty to this saving throw.</p>\n<p>Regardless of the save's result, the creature is temporarily immune for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Slowed 1 for 1 round.</p>\n<p><strong>Failure</strong> The creature is Fascinated, and for as long as it is in the aura it must spend at least 1 of its actions on each of its turns to move closer to the mamlambo as expediently as possible, while avoiding obvious dangers. If the creature ends its movement or turn adjacent to the mamlambo, it is Slowed 1 until it is out of the aura or until the mamlambo makes a Strike against it.</p>\n<p>The target can attempt a new Will save at the beginning of each of their subsequent turns, and on a success, the effect ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature must spend each of its actions moving closer to the mamlambo, and if it ends its movement or turn adjacent to the mamlambo, it is Paralyzed until it is out of the aura or until the mamlambo makes a Strike against it.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12627,7 +12627,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>50 feet</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AquaticAmbush]</p>"
+            "value": "<p>50 feet</p>\n<hr />\n<p><p><strong>Requirements</strong> The monster is hiding in water and a creature that hasn't detected it is within the listed number of feet.</p>\n<hr />\n<p><strong>Effect</strong> The monster moves up to its swim Speed + 10 feet toward the triggering creature, traveling on water and on land. Once the creature is in reach, the monster makes a Strike against it. The creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against this Strike.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -12675,7 +12675,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The mamlambo has a creature @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] or @UUID[Compendium.pf2e.conditionitems.Item.Restrained], or there is a @UUID[Compendium.pf2e.conditionitems.Item.Dying], @UUID[Compendium.pf2e.conditionitems.Item.Immobilized], or @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] creature within the mamlambo's reach</p>\n<hr />\n<p><strong>Effect</strong> The mamlambo deals @Damage[(2d8+11)[piercing]] damage to the creature (@Check[fortitude|dc:28|basic] save).</p>\n<p>On a failure, the creature also takes an additional @Damage[2d6[bleed]], or @Damage[4d6[bleed]] on a critical failure.</p>"
+            "value": "<p><strong>Requirements</strong> The mamlambo has a creature Grabbed or Restrained, or there is a Dying, Immobilized, or Unconscious creature within the mamlambo's reach</p>\n<hr />\n<p><strong>Effect</strong> The mamlambo deals @Damage[(2d8+11)[piercing]] damage to the creature (DC 28 Basic fortitude save).</p>\n<p>On a failure, the creature also takes an additional 2d6 bleed, or 4d6 bleed on a critical failure.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12708,7 +12708,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+            "value": "<p><p>The monster can use @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Grab} as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -13494,7 +13494,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>60 feet. The rompo hums in a low voice. Each creature within the emanation must succeed at a @Check[will|dc:19] save or become @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] and compelled to move away from the rompo, traveling to the furthest edge of the emanation. Fascinated creatures are also @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard].</p>\n<p>The effect lasts for 1 round, but if the rompo spends a single action on subsequent rounds, it can extend the duration by 1 round for all affected creatures. If the rompo attacks, the fascinated condition ends only for the creature that is attacked.</p>\n<p>On a successful save, a creature is temporarily immune to Crooning Cry for 24 hours.</p>"
+            "value": "<p>60 feet. The rompo hums in a low voice. Each creature within the emanation must succeed at a DC 19 will save or become Fascinated and compelled to move away from the rompo, traveling to the furthest edge of the emanation. Fascinated creatures are also Off-Guard.</p>\n<p>The effect lasts for 1 round, but if the rompo spends a single action on subsequent rounds, it can extend the duration by 1 round for all affected creatures. If the rompo attacks, the fascinated condition ends only for the creature that is attacked.</p>\n<p>On a successful save, a creature is temporarily immune to Crooning Cry for 24 hours.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -13528,7 +13528,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The target can't reduce its sickened condition while affected by rompo chills</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:19]</p>\n<p><strong>Onset</strong> 1 day</p>\n<hr />\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} (1 day)</p>\n<p><strong>Stage 2</strong> Clumsy 1 and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (1 day)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} (1 day)</p>\n<p><strong>Stage 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] (1 day)</p>\n<p><strong>Stage 5</strong> dead</p>"
+            "value": "<p>The target can't reduce its sickened condition while affected by rompo chills</p>\n<p><strong>Saving Throw</strong> DC 19 fortitude</p>\n<p><strong>Onset</strong> 1 day</p>\n<hr />\n<p><strong>Stage 1</strong> Clumsy 1 (1 day)</p>\n<p><strong>Stage 2</strong> Clumsy 1 and Sickened 1 (1 day)</p>\n<p><strong>Stage 3</strong> Clumsy 2 and Sickened 2 (1 day)</p>\n<p><strong>Stage 4</strong> Unconscious (1 day)</p>\n<p><strong>Stage 5</strong> dead</p>"
           },
           "publication": {
             "license": "OGL",
@@ -13924,7 +13924,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+            "value": "<p><p>A constant spell affects the monster without the monster needing to cast it, and its duration is unlimited. If a constant spell gets counteracted, the monster can reactivate it by spending the normal spellcasting actions the spell requires.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -13954,7 +13954,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature on the Material Plane calls out for Sié Goluo</p>\n<hr />\n<p><strong>Effect</strong> Sié Goluo instantaneously appears in an unoccupied space within 30 feet of the triggering creature and heals [[/r 8d8[healing]]] Hit Points on all allies that can see him within 60 feet. Allies healed this way gain a +2 circumstance bonus on saving throws for 1 minute.</p>\n<p>Creatures that receive these benefits become temporarily immune to them for 1 year.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Ancestral Response]</p>"
+            "value": "<p><strong>Trigger</strong> A creature on the Material Plane calls out for Sié Goluo</p>\n<hr />\n<p><strong>Effect</strong> Sié Goluo instantaneously appears in an unoccupied space within 30 feet of the triggering creature and heals [[/r 8d8[healing]]] Hit Points on all allies that can see him within 60 feet. Allies healed this way gain a +2 circumstance bonus on saving throws for 1 minute.</p>\n<p>Creatures that receive these benefits become temporarily immune to them for 1 year.</p>\n<p>Effect: Ancestral Response</p>"
           },
           "publication": {
             "license": "OGL",
@@ -13988,7 +13988,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Ferocity]</p>"
+            "value": "<p><p><strong>Trigger</strong> The monster is reduced to 0 HP.</p>\n<hr />\n<p><strong>Effect</strong> The monster avoids being knocked out and remains at 1 HP, but its @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded} value increases by 1. When it is Wounded 3, it can no longer use this ability</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -14051,7 +14051,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Sié Goluo Strides twice, then makes a horn Strike. On a hit, Sié Goluo creates a shock wave that deals @Damage[4d12[force]] damage in a @Template[cone|distance:30] (@Check[reflex|dc:34|basic] save).</p>\n<p>Creatures that fail their save are pushed away 5 feet (10 feet on a critical failure).</p>"
+            "value": "<p>Sié Goluo Strides twice, then makes a horn Strike. On a hit, Sié Goluo creates a shock wave that deals 4d12 force damage in a 30-foot cone (DC 34 Basic reflex save).</p>\n<p>Creatures that fail their save are pushed away 5 feet (10 feet on a critical failure).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -14333,7 +14333,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>30 feet. The solar ibis's halo sheds bright light. Creatures that start their turn in the aura must succeed at a @Check[fortitude|dc:22] save or be @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 minute. A creature that critically fails its save is instead @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 minute.</p>\n<p>Creatures who successfully save are temporarily immune to this effect for 24 hours.</p>\n<p>The solar ibis can extinguish or resume the halo's light as a single action, which has the concentrate trait.</p>"
+            "value": "<p>30 feet. The solar ibis's halo sheds bright light. Creatures that start their turn in the aura must succeed at a DC 22 fortitude save or be Dazzled for 1 minute. A creature that critically fails its save is instead Blinded for 1 minute.</p>\n<p>Creatures who successfully save are temporarily immune to this effect for 24 hours.</p>\n<p>The solar ibis can extinguish or resume the halo's light as a single action, which has the concentrate trait.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -14477,7 +14477,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The solar ibis detonates its halo, sending shards of burning light in all directions that deal @Damage[6d8[fire]] damage to all creatures in a @Template[emanation|distance:20] (@Check[reflex|dc:22|basic] save). The shards deal an extra @Damage[6d8[spirit]] damage against fiends and undead.</p>\n<p>The solar ibis can't use Light Shatter again for [[/br 1d4 #Recharge Light Shatter]] rounds, and its Blinding Halo is extinguished during this time. The halo is restored automatically once the 1d4 rounds have passed.</p>"
+            "value": "<p>The solar ibis detonates its halo, sending shards of burning light in all directions that deal 6d8 fire damage to all creatures in a 20-foot emanation (DC 22 Basic reflex save). The shards deal an extra 6d8 spirit damage against fiends and undead.</p>\n<p>The solar ibis can't use Light Shatter again for [[/br 1d4 #Recharge Light Shatter]] rounds, and its Blinding Halo is extinguished during this time. The halo is restored automatically once the 1d4 rounds have passed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -14515,7 +14515,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -14792,7 +14792,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Damage[(2d10+6)[bludgeoning]] damage, @Check[fortitude|dc:29|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+            "value": "<p>@Damage[(2d10+6)[bludgeoning]] damage, DC 29 Basic fortitude</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC. A creature that fails this save falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, and a creature that succeeds is then temporarily immune to falling unconscious from Greater Constrict for 1 minute.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -14855,7 +14855,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Medium, @Damage[(2d10+6)[bludgeoning]] damage, Rupture 23</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+            "value": "<p>Medium, @Damage[(2d10+6)[bludgeoning]] damage, Rupture 23</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an DC  defense:reflex check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -14887,7 +14887,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The zinba bites a creature within reach and delivers a restorative healing remedy instead of its venom. The creature takes @Damage[1[piercing]] damage, but then gains fast healing 5 for 1 minute.</p>\n<p>In addition, the restorative attempts a counteract check against any poison or disease affecting the creature with a counteract modifier of [[/r 1d20+22]]{+22}.</p>\n<p>A creature that receives the restorative is temporarily immune to the zinba's restorative for 24 hours.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Zinba Restoration]</p>"
+            "value": "<p>The zinba bites a creature within reach and delivers a restorative healing remedy instead of its venom. The creature takes @Damage[1[piercing]] damage, but then gains fast healing 5 for 1 minute.</p>\n<p>In addition, the restorative attempts a counteract check against any poison or disease affecting the creature with a counteract modifier of [[/r 1d20+22]]{+22}.</p>\n<p>A creature that receives the restorative is temporarily immune to the zinba's restorative for 24 hours.</p>\n<p>Effect: Zinba Restoration</p>"
           },
           "publication": {
             "license": "OGL",
@@ -14919,7 +14919,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:29]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[3d6[poison]] damage (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[4d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1}</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 29 fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 3d6 poison damage (1 round)</p>\n<p><strong>Stage 2</strong> 4d6 poison damage and Drained 1</p>"
           },
           "publication": {
             "license": "OGL",
@@ -14954,7 +14954,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -14987,7 +14987,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Push]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Push in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty. If Push lists a distance, change the distance the creature is pushed on a success to that distance.</p></p>"
           },
           "publication": {
             "license": "OGL",

@@ -138,7 +138,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Push]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Push in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty. If Push lists a distance, change the distance the creature is pushed on a success to that distance.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -370,7 +370,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Damage[(2d8+7)[piercing]], @Check[fortitude|dc:21|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+            "value": "<p>@Damage[(2d8+7)[piercing]], DC 21 Basic fortitude</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -400,7 +400,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:21]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>Stage 1</strong> @Damage[2d4[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[2d6[poison]] damage and clumsy 1 (1 round)</p>\n<p><strong>Stage 3</strong> 2d6 poison damage and @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} (1 round)</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 21 fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>Stage 1</strong> 2d4 poison damage and Clumsy 1 (1 round)</p>\n<p><strong>Stage 2</strong> 2d6 poison damage and clumsy 1 (1 round)</p>\n<p><strong>Stage 3</strong> 2d6 poison damage and Clumsy 2 (1 round)</p>"
           },
           "publication": {
             "license": "OGL",
@@ -434,7 +434,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -814,7 +814,7 @@
             }
           },
           "description": {
-            "value": "<p>You unleash a powerful pulse of telekinetic power, and the pulse violently hurls creatures away from you. Each creature in the area takes 7d10 force damage depending on its Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is pushed 10 feet away from you.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage. The creature is pushed 20 feet away from you and is then knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The force damage increases by 2d10, and the distance the target is moved on a failure and critical failure increases by 5 feet.</p>"
+            "value": "<p>You unleash a powerful pulse of telekinetic power, and the pulse violently hurls creatures away from you. Each creature in the area takes 7d10 force damage depending on its Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is pushed 10 feet away from you.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage. The creature is pushed 20 feet away from you and is then knocked Prone.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The force damage increases by 2d10, and the distance the target is moved on a failure and critical failure increases by 5 feet.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1038,7 +1038,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+            "value": "<p><p>A monster with telepathy can communicate mentally with any creatures within the listed radius, as long as they share a language. This doesn't give any special access to their thoughts, and communicates no more information than normal speech would.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -1107,7 +1107,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+            "value": "<p><p><strong>Trigger</strong> A creature within the monster's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p><strong>Effect</strong> The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn't count toward the monster's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -1140,7 +1140,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>harmed by acid ([[/r {8d10}]]{8d10 damage}, [[/r {2d10}]]{2d10 damage} from areas or persistent damage); healed by fire (area [[/r 2d10[healing]]]{2d10 Hit Points}); slowed by electricity</p>\n<hr />\n<p>A golem is immune to spells and magical abilities other than its own, but each type of golem is affected by a few types of magic in special ways. These exceptions are listed in shortened form in the golem's stat block, with the full rules appearing here. If an entry lists multiple types (such as \"cold and water\"), either type of spell can affect the golem.</p>\n<ul>\n<li><strong>Harmed By</strong> Any magic of this type that targets the golem causes it to take the listed amount of damage (this damage has no type) instead of the usual effect. If the golem starts its turn in an area of magic of this type or is affected by a persistent effect of the appropriate type, it takes the damage listed in the parenthetical.</li>\n<li><strong>Healed By</strong> Any magic of this type that targets the golem makes the golem lose the slowed condition and gain HP equal to half the damage the spell would have dealt. If the golem starts its turn in an area of this type of magic, it gains the HP listed in the parenthetical.</li>\n<li><strong>Slowed By</strong> Any magic of this type that targets the golem causes it to be @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for [[/br 2d6 #rounds]]{2d6 rounds} instead of the usual effect. If the golem starts its turn in an area of this type of magic, it's slowed 1 for that round.</li>\n<li><strong>Vulnerable To</strong> Each golem is vulnerable to one or more specific spells, with the effects described in its stat block.</li>\n</ul>"
+            "value": "<p>harmed by acid ([[/r {8d10}]]{8d10 damage}, [[/r {2d10}]]{2d10 damage} from areas or persistent damage); healed by fire (area [[/r 2d10[healing]]]{2d10 Hit Points}); slowed by electricity</p>\n<hr />\n<p>A golem is immune to spells and magical abilities other than its own, but each type of golem is affected by a few types of magic in special ways. These exceptions are listed in shortened form in the golem's stat block, with the full rules appearing here. If an entry lists multiple types (such as \"cold and water\"), either type of spell can affect the golem.</p>\n<ul>\n<li><strong>Harmed By</strong> Any magic of this type that targets the golem causes it to take the listed amount of damage (this damage has no type) instead of the usual effect. If the golem starts its turn in an area of magic of this type or is affected by a persistent effect of the appropriate type, it takes the damage listed in the parenthetical.</li>\n<li><strong>Healed By</strong> Any magic of this type that targets the golem makes the golem lose the slowed condition and gain HP equal to half the damage the spell would have dealt. If the golem starts its turn in an area of this type of magic, it gains the HP listed in the parenthetical.</li>\n<li><strong>Slowed By</strong> Any magic of this type that targets the golem causes it to be Slowed 1 for [[/br 2d6 #rounds]]{2d6 rounds} instead of the usual effect. If the golem starts its turn in an area of this type of magic, it's slowed 1 for that round.</li>\n<li><strong>Vulnerable To</strong> Each golem is vulnerable to one or more specific spells, with the effects described in its stat block.</li>\n</ul>"
           },
           "publication": {
             "license": "OGL",
@@ -1173,7 +1173,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+            "value": "<p><p><strong>Trigger</strong> The monster has its shield raised and takes damage from a physical attack.</p>\n<hr />\n<p><strong>Effect</strong> The monster snaps its shield into place to deflect a blow. The shield prevents the monster from taking an amount of damage up to the shield's Hardness. The monster and the shield each take any remaining damage, possibly breaking or destroying the shield.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -1232,7 +1232,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The Grand Defender unleashes a volley of warhammers that deal @Damage[12d8[bludgeoning]] damage in a @Template[cone|distance:50] (@Check[reflex|dc:36|basic] save). The Grand Defender can exclude any number of squares from the cone's area, preventing damage to creatures in those squares. Creatures that critically fail their save are pushed 10 feet away from the Grand Defender and knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone]. The storm creates 24 Medium warhammers that persist after the attack and can be used by creatures. The Grand Defender can't use Hammer Storm for [[/br 1d4 #Recharge Hammer Storm]]{1d4 rounds}.</p>"
+            "value": "<p>The Grand Defender unleashes a volley of warhammers that deal 12d8 bludgeoning damage in a 50-foot cone (DC 36 Basic reflex save). The Grand Defender can exclude any number of squares from the cone's area, preventing damage to creatures in those squares. Creatures that critically fail their save are pushed 10 feet away from the Grand Defender and knocked Prone. The storm creates 24 Medium warhammers that persist after the attack and can be used by creatures. The Grand Defender can't use Hammer Storm for [[/br 1d4 #Recharge Hammer Storm]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1267,7 +1267,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedKnockdown]</p>"
+            "value": "<p><p>The monster can use @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu]{Knockdown} as a free action triggered by a hit with its initial attack.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -1768,7 +1768,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A living creature struck by a graul's jaws attack must succeed at a @Check[fortitude|dc:20] save or become @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed]. It can attempt a new check at the end of each of its turns, and the DC cumulatively decreases by 1 on each such check. A creature paralyzed by this ability is also affected by the graul's darkvision invisibility for as long as the effect persists.</p>"
+            "value": "<p>A living creature struck by a graul's jaws attack must succeed at a DC 20 fortitude save or become Paralyzed. It can attempt a new check at the end of each of its turns, and the DC cumulatively decreases by 1 on each such check. A creature paralyzed by this ability is also affected by the graul's darkvision invisibility for as long as the effect persists.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1800,7 +1800,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The graul has a creature @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] with its tentacle</p>\n<hr />\n<p><strong>Effect</strong> The graul pulls the creature toward itself. The graul attempts an @Check[athletics|defense:fortitude] check against the creature's Fortitude DC. With a success, the graul pulls the creature 15 feet closer to it.</p>"
+            "value": "<p><strong>Requirements</strong> The graul has a creature Grabbed with its tentacle</p>\n<hr />\n<p><strong>Effect</strong> The graul pulls the creature toward itself. The graul attempts an DC  defense:fortitude check against the creature's Fortitude DC. With a success, the graul pulls the creature 15 feet closer to it.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1858,7 +1858,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature hit by the graul's tentacle becomes @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] by the graul. The creature isn't @UUID[Compendium.pf2e.conditionitems.Item.Immobilized], but it can't move beyond the reach of the graul's tentacle. A creature can sever the tentacle with a Strike against AC 18 that deals at least @Damage[10[slashing]] damage. This deals no damage to the graul but prevents it from using its tentacle Strike until it regrows the tentacle, which takes 1 round. The graul can move without ending the Grab as long as the creature remains within the tentacle's reach.</p>"
+            "value": "<p>A creature hit by the graul's tentacle becomes Grabbed by the graul. The creature isn't Immobilized, but it can't move beyond the reach of the graul's tentacle. A creature can sever the tentacle with a Strike against AC 18 that deals at least @Damage[10[slashing]] damage. This deals no damage to the graul but prevents it from using its tentacle Strike until it regrows the tentacle, which takes 1 round. The graul can move without ending the Grab as long as the creature remains within the tentacle's reach.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2187,7 +2187,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature hit by a pagulin's spit must attempt a @Check[fortitude|dc:22] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round. It can use an Interact action to wipe away the spittle and remove the dazzled condition.</p>\n<p><strong>Failure</strong> As success, except the creature is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round instead of dazzled.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature is blinded for 1 minute. The creature needs 2 total Interact actions to wipe away the spittle.</p>"
+            "value": "<p>A creature hit by a pagulin's spit must attempt a DC 22 fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Dazzled for 1 round. It can use an Interact action to wipe away the spittle and remove the dazzled condition.</p>\n<p><strong>Failure</strong> As success, except the creature is Blinded for 1 round instead of dazzled.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature is blinded for 1 minute. The creature needs 2 total Interact actions to wipe away the spittle.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2219,7 +2219,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Damage[(1d10+6)[piercing]], @Check[fortitude|dc:25|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+            "value": "<p>@Damage[(1d10+6)[piercing]], DC 25 Basic fortitude</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -2249,7 +2249,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The pagulin has a creature impaled on its tail;</p>\n<hr />\n<p><strong>Effect</strong> The pagulin violently pulls its tail out of the creature, dealing @Damage[2d6[persistent,bleed]] damage to the creature.</p>"
+            "value": "<p><strong>Requirements</strong> The pagulin has a creature impaled on its tail;</p>\n<hr />\n<p><strong>Effect</strong> The pagulin violently pulls its tail out of the creature, dealing 2d6 persistent,bleed damage to the creature.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2278,7 +2278,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature hit by a pagulin's tail becomes impaled on one of the tail's spikes. The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Grabbed]. If the pagulin moves, it brings the grabbed creature along with it. The pagulin doesn't need to use additional actions to keep the creature grabbed; the creature remains grabbed as long as it's impaled. The grabbed creature can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Escape] as normal. Large and larger creatures are immune to a pagulin's Tail Impalement.</p>"
+            "value": "<p>A creature hit by a pagulin's tail becomes impaled on one of the tail's spikes. The creature becomes Grabbed. If the pagulin moves, it brings the grabbed creature along with it. The pagulin doesn't need to use additional actions to keep the creature grabbed; the creature remains grabbed as long as it's impaled. The grabbed creature can attempt to Escape as normal. Large and larger creatures are immune to a pagulin's Tail Impalement.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2310,7 +2310,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -2537,7 +2537,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+            "value": "<p><p>Tremorsense allows a monster to feel the vibrations through a solid surface caused by movement. It is an imprecise sense with a limited range (listed in the ability). Tremorsense functions only if the monster is on the same surface as the subject, and only if the subject is moving along (or burrowing through) the surface.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -2596,7 +2596,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The Bloodstorm is in Demon Shape and has a creature @UUID[Compendium.pf2e.conditionitems.Item.Grabbed]</p>\n<hr />\n<p><strong>Effect</strong> The writing mass of the Bloodstorm's pincer bites the grabbed creature, dealing @Damage[(3d8+8)[piercing]] damage (basic Fortitude save). On a failure, the creature also takes @Damage[1d8[persistent,bleed]] damage.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+            "value": "<p><strong>Requirements</strong> The Bloodstorm is in Demon Shape and has a creature Grabbed</p>\n<hr />\n<p><strong>Effect</strong> The writing mass of the Bloodstorm's pincer bites the grabbed creature, dealing @Damage[(3d8+8)[piercing]] damage (basic Fortitude save). On a failure, the creature also takes 1d8 persistent,bleed damage.</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -2625,7 +2625,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Each creature in the Bloodstorm's space takes @Damage[3d6[piercing],3d6[slashing]] damage (@Check[fortitude|dc:31|basic] save). Creatures that fail their saving throw also take @Damage[1d8[persistent,bleed]] damage.</p>"
+            "value": "<p>Each creature in the Bloodstorm's space takes 3d6 piercing],3d6 damage (DC 31 Basic fortitude save). Creatures that fail their saving throw also take 1d8 persistent,bleed damage.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2720,7 +2720,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> There are bleeding creatures in the Bloodstorm's space</p>\n<hr />\n<p><strong>Effect</strong> The bleeding creatures take @Damage[3d8[piercing],3d8[slashing]] damage (@Check[fortitude|dc:34|basic] save). The Bloodstorm gains temporary Hit Points equal to half of the damage dealt this way.</p>"
+            "value": "<p><strong>Requirements</strong> There are bleeding creatures in the Bloodstorm's space</p>\n<hr />\n<p><strong>Effect</strong> The bleeding creatures take 3d8 piercing],3d8 damage (DC 34 Basic fortitude save). The Bloodstorm gains temporary Hit Points equal to half of the damage dealt this way.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2752,7 +2752,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+            "value": "<p><p>The monster can use @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Grab} as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p></p>"
           },
           "publication": {
             "license": "OGL",

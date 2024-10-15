@@ -85,7 +85,7 @@
             }
           },
           "description": {
-            "value": "<p>Your target's mind tumbles down a deep well of dread, dwelling so intently on deep-seated fears that it's painful. The target takes @Damage[4d6[mental]] damage with a Will saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target takes full damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 3}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by @Damage[2d6[mental]].</p>"
+            "value": "<p>Your target's mind tumbles down a deep well of dread, dwelling so intently on deep-seated fears that it's painful. The target takes 4d6 mental damage with a Will saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage and becomes Frightened 1.</p>\n<p><strong>Failure</strong> The target takes full damage and becomes Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and becomes Frightened 3.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 2d6 mental.</p>"
           },
           "duration": {
             "sustained": false,
@@ -162,7 +162,7 @@
             }
           },
           "description": {
-            "value": "<p>Your flamboyant flourish invokes such powerful feelings in your audience that you incite cheers and applause. Targets of this spell must be able to see, hear, or otherwise understand you. The targets must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target becomes mildly distracted by your display and applauds while it isn't fully occupied. It can't use reactions.</p>\n<p><strong>Failure</strong> The target applauds you so vigorously that it can't use reactions and is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1}. The applause is so involved that it has the manipulate trait. This triggers reactions based on the manipulate trait at the start of the target's turn.</p>\n<p><strong>Critical Failure</strong> As failure, plus the target is so distracted by its vigorous applauding of you that it's @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] with you.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>Your flamboyant flourish invokes such powerful feelings in your audience that you incite cheers and applause. Targets of this spell must be able to see, hear, or otherwise understand you. The targets must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target becomes mildly distracted by your display and applauds while it isn't fully occupied. It can't use reactions.</p>\n<p><strong>Failure</strong> The target applauds you so vigorously that it can't use reactions and is Slowed 1. The applause is so involved that it has the manipulate trait. This triggers reactions based on the manipulate trait at the start of the target's turn.</p>\n<p><strong>Critical Failure</strong> As failure, plus the target is so distracted by its vigorous applauding of you that it's Fascinated with you.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": true,
@@ -241,7 +241,7 @@
             }
           },
           "description": {
-            "value": "<p>You dilate the flow of time around the target, slowing its actions.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for 1 round.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 2} for 1 minute.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You dilate the flow of time around the target, slowing its actions.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Slowed 1 for 1 round.</p>\n<p><strong>Failure</strong> The target is Slowed 1 for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is Slowed 2 for 1 minute.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -376,7 +376,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create a reservoir of vitality from necromantic energy, gaining a number of temporary Hit Points equal to 6 plus your spellcasting ability modifier.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The temporary Hit Points increase by 3.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: False Vitality]{Spell Effect: False Life}</p>"
+            "value": "<p>You create a reservoir of vitality from necromantic energy, gaining a number of temporary Hit Points equal to 6 plus your spellcasting ability modifier.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The temporary Hit Points increase by 3.</p>\n<p>Spell Effect: False Life</p>"
           },
           "duration": {
             "sustained": false,
@@ -437,7 +437,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Three illusory images of you swirl about your space, potentially causing those who attack you to hit one of the images instead of you. Any attack that would hit you has a random chance of hitting one of your images instead of you. If all three images remain, there is a 1 in 4 chance of hitting you (1 on [[/r 1d4]]). With two images remaining, there is a 1 in 3 chance of hitting you (1-2 on [[/r 1d6]]). With only one image, the chances are 1 in 2 (1-3 on [[/r 1d6]]).</p>\n<p>Once an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys an image but has no additional effect (even if the attack would normally have an effect on a failure). If an attack roll is a critical success and would hit one of the images, one of the images is destroyed and the attack roll becomes a success against you. Once all the images are destroyed, the spell ends.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Mirror Image]</p>"
+            "value": "<p>Three illusory images of you swirl about your space, potentially causing those who attack you to hit one of the images instead of you. Any attack that would hit you has a random chance of hitting one of your images instead of you. If all three images remain, there is a 1 in 4 chance of hitting you (1 on [[/r 1d4]]). With two images remaining, there is a 1 in 3 chance of hitting you (1-2 on [[/r 1d6]]). With only one image, the chances are 1 in 2 (1-3 on [[/r 1d6]]).</p>\n<p>Once an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys an image but has no additional effect (even if the attack would normally have an effect on a failure). If an attack roll is a critical success and would hit one of the images, one of the images is destroyed and the attack roll becomes a success against you. Once all the images are destroyed, the spell ends.</p>\n<p>Spell Effect: Mirror Image</p>"
           },
           "duration": {
             "sustained": false,
@@ -581,7 +581,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You amplify your voice, loud enough for you to be heard easily at a great distance. For the duration, your voice can be heard loudly and clearly by all listeners within 500 feet, even if other ambient noise would otherwise block the sound. Despite the volume, this doesn't make your voice jarring or distracting. This doesn't increase the range or area of other auditory or linguistic effects, and physical barriers such as walls and doors still block or muffle your voice as normal.</p>\n<p>Your loud voice makes it easier to Coerce others, and the acoustics assist in Performing at a large venue. You gain a +1 status bonus to checks to Coerce and auditory Performance checks to Perform at a large venue. You can Dismiss the spell.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Bullhorn]</p>\n<hr />\n<p><strong>Heightened (5th)</strong> Your voice can be heard clearly up to 1,200 feet away.</p>\n<p><strong>Heightened (7th)</strong> Your voice can be heard clearly up to 1 mile away.</p>"
+            "value": "<p>You amplify your voice, loud enough for you to be heard easily at a great distance. For the duration, your voice can be heard loudly and clearly by all listeners within 500 feet, even if other ambient noise would otherwise block the sound. Despite the volume, this doesn't make your voice jarring or distracting. This doesn't increase the range or area of other auditory or linguistic effects, and physical barriers such as walls and doors still block or muffle your voice as normal.</p>\n<p>Your loud voice makes it easier to Coerce others, and the acoustics assist in Performing at a large venue. You gain a +1 status bonus to checks to Coerce and auditory Performance checks to Perform at a large venue. You can Dismiss the spell.</p>\n<p>Spell Effect: Bullhorn</p>\n<hr />\n<p><strong>Heightened (5th)</strong> Your voice can be heard clearly up to 1,200 feet away.</p>\n<p><strong>Heightened (7th)</strong> Your voice can be heard clearly up to 1 mile away.</p>"
           },
           "duration": {
             "sustained": false,
@@ -665,7 +665,7 @@
             }
           },
           "description": {
-            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes @UUID[Compendium.pf2e.conditionitems.Item.Friendly] toward you. If it was Friendly, it becomes @UUID[Compendium.pf2e.conditionitems.Item.Helpful]. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
+            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes Friendly toward you. If it was Friendly, it becomes Helpful. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -745,7 +745,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 3} and @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -918,7 +918,7 @@
             }
           },
           "description": {
-            "value": "<p>You echo a jarring hymn that only creatures in the area can hear. The hymn deals 1d8 sonic damage, with a basic Fortitude save. If a target critically fails the save, it's also @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
+            "value": "<p>You echo a jarring hymn that only creatures in the area can hear. The hymn deals 1d8 sonic damage, with a basic Fortitude save. If a target critically fails the save, it's also Deafened for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
           },
           "duration": {
             "sustained": false,
@@ -988,7 +988,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Light]</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p>Spell Effect: Light</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
           },
           "duration": {
             "sustained": false,
@@ -1052,7 +1052,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You materialize a @UUID[Compendium.pf2e.equipment-srd.Item.Musical Instrument (Handheld)] in your grasp. The instrument is typical for its type, but it plays only for you. The instrument vanishes when the spell ends. If you cast summon instrument again, any instrument you previously summoned disappears.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The instrument is instead a @UUID[Compendium.pf2e.equipment-srd.Item.Musical Instrument (Virtuoso handheld)].</p>"
+            "value": "<p>You materialize a Musical Instrument (Handheld) in your grasp. The instrument is typical for its type, but it plays only for you. The instrument vanishes when the spell ends. If you cast summon instrument again, any instrument you previously summoned disappears.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The instrument is instead a Musical Instrument (Virtuoso handheld).</p>"
           },
           "duration": {
             "sustained": false,
@@ -1372,7 +1372,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The bard makes cruel, cutting comments that draw blood. All enemies within 30 feet take @Damage[7d6[slashing]] damage (@Check[fortitude|dc:24|basic] save).</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The bard makes cruel, cutting comments that draw blood. All enemies within 30 feet take 7d6 slashing damage (DC 24 Basic fortitude save).</p>"
           },
           "frequency": {
             "max": 1,
@@ -1635,7 +1635,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>Several clockwork humanoid figures armed with spinning blades move throughout the area.</p>",
-        "disable": "<p>@Check[thievery|dc:25|traits:action:disable-a-device] (expert) to deactivate the clockworks from the control panel. Two successes are needed to deactivate the trap.</p>",
+        "disable": "<p>DC 25 traits:action:disable-a-device (expert) to deactivate the clockworks from the control panel. Two successes are needed to deactivate the trap.</p>",
         "isComplex": true,
         "level": {
           "value": 7
@@ -1694,7 +1694,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> Two or more characters enter area <strong>E3</strong> and make any sound at all</p>\n<hr />\n<p><strong>Effect</strong> Sounds or speech are amplified and garbled into a terrible, shrieking cry. All creatures in the area take @Damage[(2d10+11)[mental]] damage (@Check[will|dc:28|basic] save). The trap then rolls initiative.</p>"
+            "value": "<p><strong>Trigger</strong> Two or more characters enter area <strong>E3</strong> and make any sound at all</p>\n<hr />\n<p><strong>Effect</strong> Sounds or speech are amplified and garbled into a terrible, shrieking cry. All creatures in the area take @Damage[(2d10+11)[mental]] damage (DC 28 Basic will save). The trap then rolls initiative.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1729,14 +1729,14 @@
           "value": 0
         },
         "stealth": {
-          "details": "<p>(expert) or @UUID[Compendium.pf2e.spells-srd.Item.Detect Magic]</p>",
+          "details": "<p>(expert) or Detect Magic</p>",
           "value": 16
         }
       },
       "creatureType": "",
       "details": {
         "description": "<p>Discordant music, dance, and poetry combine to build a deep suspicion and distrust of strangers.</p>",
-        "disable": "<p>@Check[performance|dc:28] to counteract the performance or @Check[religion|dc:28] or @Check[occult|dc:28] to disrupt the spiritual energy. Two total successes are needed to disable the trap. The mechanical head can automatically disable the trap with two uses of Inspired Recitation.</p>",
+        "disable": "<p>DC 28 performance to counteract the performance or DC 28 religion or DC 28 occult to disrupt the spiritual energy. Two total successes are needed to disable the trap. The mechanical head can automatically disable the trap with two uses of Inspired Recitation.</p>",
         "isComplex": true,
         "level": {
           "value": 8
@@ -1747,7 +1747,7 @@
           "title": "Pathfinder Adventure: The Enmity Cycle"
         },
         "reset": "<p>The hazard stops when there are no conscious creatures in area <strong>E3</strong> and resets after 1 minute.</p>",
-        "routine": "<p>(1 action; emotion, fear, mental, occult) The echoes continue to reverberate, tearing at those in the area and filling them with distrust of others. All creatures in the area take @Damage[(2d10+11)[mental]] damage and must attempt a @Check[will|dc:28|traits:emotion,fear,mental,occult,damaging-effect] save.</p>\n<hr>\n<p><strong>Critical Success</strong> The target is unaffected and is immune to the effects for 1 minute.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} by feelings of distrust and anxiety.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2}.</p>"
+        "routine": "<p>(1 action; emotion, fear, mental, occult) The echoes continue to reverberate, tearing at those in the area and filling them with distrust of others. All creatures in the area take @Damage[(2d10+11)[mental]] damage and must attempt a DC 28 traits:emotion,fear,mental,occult,damaging-effect save.</p>\n<hr>\n<p><strong>Critical Success</strong> The target is unaffected and is immune to the effects for 1 minute.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is Sickened 1 by feelings of distrust and anxiety.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and is Sickened 2.</p>"
       },
       "saves": {
         "fortitude": {
@@ -1918,7 +1918,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>Swinging bladed chains whip through the entire workshop.</p>",
-        "disable": "<p>@Check[thievery|dc:20|traits:action:disable-a-device] (expert) on the control panel on the raised platform deactivates the trap.</p>",
+        "disable": "<p>DC 20 traits:action:disable-a-device (expert) on the control panel on the raised platform deactivates the trap.</p>",
         "isComplex": true,
         "level": {
           "value": 5
@@ -2052,7 +2052,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p>The ropes whip around the limbs of the target. The target must attempt a @Check[reflex|dc:25] save.</p>\n<hr />\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until it cuts the ropes or @UUID[Compendium.pf2e.actionspf2e.Item.Escape]{Escapes} (DC 25).</p>\n<p><strong>Critical Failure</strong> As failure, but the target is also @UUID[Compendium.pf2e.conditionitems.Item.Immobilized].</p>"
+            "value": "<p>The ropes whip around the limbs of the target. The target must attempt a DC 25 reflex save.</p>\n<hr />\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target is Off-Guard until it cuts the ropes or Escapes (DC 25).</p>\n<p><strong>Critical Failure</strong> As failure, but the target is also Immobilized.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2129,7 +2129,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>Dozens of ropes embedded with steel barbs spring out from the walls when at least two creatures step on the rugs.</p>",
-        "disable": "<p>@Check[thievery|dc:24|traits:action:disable-a-device] (expert) on the pressure plates.</p>",
+        "disable": "<p>DC 24 traits:action:disable-a-device (expert) on the pressure plates.</p>",
         "isComplex": false,
         "level": {
           "value": 6
@@ -2290,7 +2290,7 @@
             }
           },
           "description": {
-            "value": "<p>You reach out a hand and seize a creature's skeleton from afar, harming their body and potentially wrenching them by the bones to move them against their will. The number of actions you spend when Casting this Spell determines the spell's effects. Regardless of the number of actions spent to Cast this Spell, the target must attempt a Fortitude save.</p>\n<p><span class=\"action-glyph\">2</span> (somatic, verbal) You clench your fist, painfully compressing the target's bones and dealing 3d8 bludgeoning damage.</p>\n<p><span class=\"action-glyph\">3</span> (material, somatic, verbal) As the 2-action version, plus you pull the target's body by their bones, moving them around like an awkward marionette. This movement follows the rules for forced movement.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage. If you cast the 3-action version, you can move the target up to 5 feet; it can choose to fall @UUID[Compendium.pf2e.conditionitems.Item.Prone] to avoid moving.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1}. If you cast the 3-action version, you can move the target up to 15 feet; it can fall prone to avoid moving.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2}. If you cast the 3-action version, you can move the target up to 25 feet, then knock the target prone; if you attempt to move the target to a hazardous location, such as into a pool of acid or off a cliff, it can fall prone to avoid moving.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 3d8.</p>"
+            "value": "<p>You reach out a hand and seize a creature's skeleton from afar, harming their body and potentially wrenching them by the bones to move them against their will. The number of actions you spend when Casting this Spell determines the spell's effects. Regardless of the number of actions spent to Cast this Spell, the target must attempt a Fortitude save.</p>\n<p><span class=\"action-glyph\">2</span> (somatic, verbal) You clench your fist, painfully compressing the target's bones and dealing 3d8 bludgeoning damage.</p>\n<p><span class=\"action-glyph\">3</span> (material, somatic, verbal) As the 2-action version, plus you pull the target's body by their bones, moving them around like an awkward marionette. This movement follows the rules for forced movement.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage. If you cast the 3-action version, you can move the target up to 5 feet; it can choose to fall Prone to avoid moving.</p>\n<p><strong>Failure</strong> The target takes full damage and is Enfeebled 1. If you cast the 3-action version, you can move the target up to 15 feet; it can fall prone to avoid moving.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and is Enfeebled 2. If you cast the 3-action version, you can move the target up to 25 feet, then knock the target prone; if you attempt to move the target to a hazardous location, such as into a pool of acid or off a cliff, it can fall prone to avoid moving.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 3d8.</p>"
           },
           "duration": {
             "sustained": false,
@@ -2389,7 +2389,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You grant yourself supernatural sight in areas of darkness. You gain Darkvision.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Darkvision]</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Darkvision (24 hours)]</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The spell's range is touch and it targets 1 willing creature.</p>\n<p><strong>Heightened (5th)</strong> The spell's range is touch and it targets 1 willing creature. The duration is until the next time you make your daily preparations.</p>"
+            "value": "<p>You grant yourself supernatural sight in areas of darkness. You gain Darkvision.</p>\n<p>Spell Effect: Darkvision</p>\n<p>Spell Effect: Darkvision (24 hours)</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The spell's range is touch and it targets 1 willing creature.</p>\n<p><strong>Heightened (5th)</strong> The spell's range is touch and it targets 1 willing creature. The duration is until the next time you make your daily preparations.</p>"
           },
           "duration": {
             "sustained": false,
@@ -2472,7 +2472,7 @@
             }
           },
           "description": {
-            "value": "<p>You fill the minds of your enemies with doubt.</p>\n<p>Enemies in the area must succeed at a Will save or take a -1 status penalty to attack rolls as long as they are in the area.</p>\n<p>Once per turn, starting the turn after you cast bane, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet and force enemies in the area that weren't yet affected to attempt another saving throw.</p>\n<p>Bane can counteract @UUID[Compendium.pf2e.spells-srd.Item.Bless].</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Bane]</p>"
+            "value": "<p>You fill the minds of your enemies with doubt.</p>\n<p>Enemies in the area must succeed at a Will save or take a -1 status penalty to attack rolls as long as they are in the area.</p>\n<p>Once per turn, starting the turn after you cast bane, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet and force enemies in the area that weren't yet affected to attempt another saving throw.</p>\n<p>Bane can counteract Bless.</p>\n<p>Spell Effect: Bane</p>"
           },
           "duration": {
             "sustained": false,
@@ -2549,7 +2549,7 @@
             }
           },
           "description": {
-            "value": "<p>Siphoning void energy into yourself, your hand radiates a pale darkness. Your touch weakens the living and disorients undead, possibly even causing them to flee. The effect depends on whether the target is living or undead.</p>\n<ul>\n<li><strong>Living Creature</strong> The spell deals void damage equal to 1d4 plus your spellcasting modifier. The target attempts a basic Fortitude save, but is also @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} for 1 round on a critical failure.</li>\n<li><strong>Undead Creature</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] for 1 round on a failed Fortitude save. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] for 1 round unless it succeeds at a Will save.</li>\n</ul>\n<hr />\n<p><strong>Heightened (+1)</strong> The void damage to living creatures increases by 1d4.</p>"
+            "value": "<p>Siphoning void energy into yourself, your hand radiates a pale darkness. Your touch weakens the living and disorients undead, possibly even causing them to flee. The effect depends on whether the target is living or undead.</p>\n<ul>\n<li><strong>Living Creature</strong> The spell deals void damage equal to 1d4 plus your spellcasting modifier. The target attempts a basic Fortitude save, but is also Enfeebled 1 for 1 round on a critical failure.</li>\n<li><strong>Undead Creature</strong> The target is Off-Guard for 1 round on a failed Fortitude save. On a critical failure, the target is also Fleeing for 1 round unless it succeeds at a Will save.</li>\n</ul>\n<hr />\n<p><strong>Heightened (+1)</strong> The void damage to living creatures increases by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -2705,7 +2705,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 3} and @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -2993,7 +2993,7 @@
             }
           },
           "description": {
-            "value": "<p>You echo a jarring hymn that only creatures in the area can hear. The hymn deals 1d8 sonic damage, with a basic Fortitude save. If a target critically fails the save, it's also @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
+            "value": "<p>You echo a jarring hymn that only creatures in the area can hear. The hymn deals 1d8 sonic damage, with a basic Fortitude save. If a target critically fails the save, it's also Deafened for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3063,7 +3063,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the @UUID[Compendium.pf2e.feats-srd.Item.Shield Block] reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the @UUID[Compendium.pf2e.spells-srd.Item.Force Barrage] spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Shield]</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Effect: Shield Immunity]</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the Force Barrage spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>Spell Effect: Shield</p>\n<p>Effect: Shield Immunity</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3390,7 +3390,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The priest chants a prayer to his deity that invokes the forces of nothingness.</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> All enemies within @Template[emanation|distance:30]{30 feet} take @Damage[5d6[void]] damage (@Check[will|dc:21|basic] save).</p>"
+            "value": "<p>The priest chants a prayer to his deity that invokes the forces of nothingness.</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> All enemies within 30 feet take 5d6 void damage (DC 21 Basic will save).</p>"
           },
           "frequency": {
             "max": 1,
@@ -3748,7 +3748,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's rank or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as @UUID[Compendium.pf2e.conditionitems.Item.Concealed].</p>"
+            "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's rank or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as Concealed.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3896,7 +3896,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] condition), release what it's holding, drop @UUID[Compendium.pf2e.conditionitems.Item.Prone], or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3986,7 +3986,7 @@
             }
           },
           "description": {
-            "value": "<p>You cloud the target's mind and daze it with a mental jolt. The jolt deals mental damage equal to your spellcasting ability modifier; the target must attempt a basic Will save. If the target critically fails the save, it is also @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
+            "value": "<p>You cloud the target's mind and daze it with a mental jolt. The jolt deals mental damage equal to your spellcasting ability modifier; the target must attempt a basic Will save. If the target critically fails the save, it is also Stunned 1.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4129,7 +4129,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 3} and @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4398,7 +4398,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Light]</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p>Spell Effect: Light</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
           },
           "duration": {
             "sustained": false,
@@ -4462,7 +4462,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The weapon glimmers with magic and energy. The target becomes a +1 striking weapon, gaining a +1 item bonus to attack rolls and increasing the number of weapon damage dice to two.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Runic Weapon]</p>"
+            "value": "<p>The weapon glimmers with magic and energy. The target becomes a +1 striking weapon, gaining a +1 item bonus to attack rolls and increasing the number of weapon damage dice to two.</p>\n<p>Spell Effect: Runic Weapon</p>"
           },
           "duration": {
             "sustained": false,
@@ -4761,7 +4761,7 @@
             "die": "d4"
           },
           "description": {
-            "value": "<p>This ash staff is decorated with animals; wielding it, you gain a +2 circumstance bonus to checks to identify conjuration magic.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Tangle Vine]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Construct], @UUID[Compendium.pf2e.spells-srd.Item.Phantasmal Minion]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Mist], @UUID[Compendium.pf2e.spells-srd.Item.Marvelous Mount], @UUID[Compendium.pf2e.spells-srd.Item.Summon Construct], @UUID[Compendium.pf2e.spells-srd.Item.Summon Elemental]</li>\n</ul>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>"
+            "value": "<p>This ash staff is decorated with animals; wielding it, you gain a +2 circumstance bonus to checks to identify conjuration magic.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Tangle Vine</li>\n<li><strong>1st</strong> Summon Construct, Phantasmal Minion</li>\n<li><strong>2nd</strong> Mist, Marvelous Mount, Summon Construct, Summon Elemental</li>\n</ul>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -5358,7 +5358,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>The mechanical assistant recites an inspiring poem, filling allies with determination and vigor. All allies within @Template[emanation|distance:60]{60 feet} gain a +1 status bonus to saving throws and 10 temporary Hit Points for 1 minute. Once an ally has benefited from this ability, they become temporarily immune to Inspired Recitation for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Inspired Recitation]</p>"
+            "value": "<p>The mechanical assistant recites an inspiring poem, filling allies with determination and vigor. All allies within 60 feet gain a +1 status bonus to saving throws and 10 temporary Hit Points for 1 minute. Once an ally has benefited from this ability, they become temporarily immune to Inspired Recitation for 10 minutes.</p>\n<p>Effect: Inspired Recitation</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5823,7 +5823,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Noolik deals an additional 2d6 precision damage to @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] creatures.</p>"
+            "value": "<p>Noolik deals an additional 2d6 precision damage to Off-Guard creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5871,7 +5871,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A group of six jinkins can work together for an hour to imbue an item with a curse at a range of 60 feet. While this process is lengthy, it's also unobtrusive and can be performed while @UUID[Compendium.pf2e.actionspf2e.Item.Hide]{Hiding}. Jinkins prefer to use this ability on magic items. The curse makes the item unreliable (@Check[flat|dc:5] or waste any action to Interact with or Activate the item), adds a bizarre requirement to use the item, or imparts some other curse of a similar caliber.</p>"
+            "value": "<p>A group of six jinkins can work together for an hour to imbue an item with a curse at a range of 60 feet. While this process is lengthy, it's also unobtrusive and can be performed while Hiding. Jinkins prefer to use this ability on magic items. The curse makes the item unreliable (DC 5 flat or waste any action to Interact with or Activate the item), adds a bizarre requirement to use the item, or imparts some other curse of a similar caliber.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6163,7 +6163,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+            "value": "<p><p>Tremorsense allows a monster to feel the vibrations through a solid surface caused by movement. It is an imprecise sense with a limited range (listed in the ability). Tremorsense functions only if the monster is on the same surface as the subject, and only if the subject is moving along (or burrowing through) the surface.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -6277,7 +6277,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The sand wolf discorporates into a cloud of whirling sand. It can Stride, moving freely through occupied spaces. Any creatures within those spaces take [[/r 2d10]] damage and must attempt a @Check[reflex|dc:19|traits:damaging-effect] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes no damage.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> As failure, but the effect is increased to @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 3}.</p>"
+            "value": "<p>The sand wolf discorporates into a cloud of whirling sand. It can Stride, moving freely through occupied spaces. Any creatures within those spaces take [[/r 2d10]] damage and must attempt a DC 19 traits:damaging-effect save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes no damage.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is Sickened 1.</p>\n<p><strong>Critical Failure</strong> As failure, but the effect is increased to Sickened 3.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6310,7 +6310,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The sand wolf sings a short, enchanting song. Any creature other than a sand wolf within 30 feet must attempt a @Check[will|dc:19] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and is temporarily immune to further susurrating song exposures for 24 hours.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1}.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2}.</p>\n<p><strong>Critical Failure</strong> As failure, and the target is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1}.</p>"
+            "value": "<p>The sand wolf sings a short, enchanting song. Any creature other than a sand wolf within 30 feet must attempt a DC 19 will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and is temporarily immune to further susurrating song exposures for 24 hours.</p>\n<p><strong>Success</strong> The target is Stupefied 1.</p>\n<p><strong>Failure</strong> The target is Stupefied 2.</p>\n<p><strong>Critical Failure</strong> As failure, and the target is Slowed 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6347,7 +6347,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -7181,7 +7181,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The scrapborn is damaged by an attack dealing physical damage</p>\n<hr />\n<p><strong>Effect</strong> The scrapborn directs the damage to one of the pieces of scrap attached to its body and gains resistance 15 against the triggering attack, but its AC is lowered by 2 for 24 hours. The scrapborn's AC cannot be reduced below 16 in this way.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Sacrifice Armor]</p>"
+            "value": "<p><strong>Trigger</strong> The scrapborn is damaged by an attack dealing physical damage</p>\n<hr />\n<p><strong>Effect</strong> The scrapborn directs the damage to one of the pieces of scrap attached to its body and gains resistance 15 against the triggering attack, but its AC is lowered by 2 for 24 hours. The scrapborn's AC cannot be reduced below 16 in this way.</p>\n<p>Effect: Sacrifice Armor</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7225,7 +7225,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The scrapborn's previous action was a successful claw Strike against a target wearing armor and that armor is not broken</p>\n<hr />\n<p><strong>Effect</strong> The scrapborn pulls and rips at the target's armor. The target must attempt a @Check[reflex|dc:20] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target's armor takes @Damage[1d8[piercing]] damage, ignoring the armor's Hardness.</p>\n<p><strong>Failure</strong> The target's armor takes @Damage[2d8[piercing]] damage, which ignores the armor's Hardness; if this causes the armor to become broken, the scrapborn can incorporate the removed armor piece into its own body and raise its AC by 1 (to a maximum of 22).</p>\n<p><strong>Critical Failure</strong> As failure, except instead of damage, the target's armor is automatically reduced to its BT and the scrapborn increases its AC by 2.</p>"
+            "value": "<p><strong>Requirements</strong> The scrapborn's previous action was a successful claw Strike against a target wearing armor and that armor is not broken</p>\n<hr />\n<p><strong>Effect</strong> The scrapborn pulls and rips at the target's armor. The target must attempt a DC 20 reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target's armor takes 1d8 piercing damage, ignoring the armor's Hardness.</p>\n<p><strong>Failure</strong> The target's armor takes 2d8 piercing damage, which ignores the armor's Hardness; if this causes the armor to become broken, the scrapborn can incorporate the removed armor piece into its own body and raise its AC by 1 (to a maximum of 22).</p>\n<p><strong>Critical Failure</strong> As failure, except instead of damage, the target's armor is automatically reduced to its BT and the scrapborn increases its AC by 2.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7574,7 +7574,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Cloaked in illusion, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Invisible]. This makes it @UUID[Compendium.pf2e.conditionitems.Item.Undetected] to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.Item.Hidden] to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+            "value": "<p>Cloaked in illusion, the target becomes Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
           },
           "duration": {
             "sustained": false,
@@ -7936,7 +7936,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p><strong>Usage</strong> affixed to a weapon</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> Command</p>\n<p><strong>Trigger</strong> You damage an off-guard creature with a Strike using the Affixed weapon</p>\n<p><strong>Requirements</strong> You are an expert with the affixed weapon</p>\n<p>This black strand of leather is tied to look like a peace knot when the weapon is stowed, but it doesn't hamper drawing the weapon. When you activate the knot, the creature you damaged takes @Damage[1d6[bleed]].</p>\n<p>If you have the @UUID[Compendium.pf2e.feats-srd.Item.Twist the Knife] feat, the talisman instead deals persistent bleed damage equal to your sneak attack damage.</p>"
+            "value": "<p><strong>Usage</strong> affixed to a weapon</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> Command</p>\n<p><strong>Trigger</strong> You damage an off-guard creature with a Strike using the Affixed weapon</p>\n<p><strong>Requirements</strong> You are an expert with the affixed weapon</p>\n<p>This black strand of leather is tied to look like a peace knot when the weapon is stowed, but it doesn't hamper drawing the weapon. When you activate the knot, the creature you damaged takes 1d6 bleed.</p>\n<p>If you have the Twist the Knife feat, the talisman instead deals persistent bleed damage equal to your sneak attack damage.</p>"
           },
           "equipped": {
             "carryType": "worn"
@@ -8245,7 +8245,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The janni changes a creature's size. This works as a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Enlarge] or @UUID[Compendium.pf2e.spells-srd.Item.Shrink] spell but can target an unwilling creature (@Check[fortitude|dc:24] save negates).</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The janni changes a creature's size. This works as a 4th-rank Enlarge or Shrink spell but can target an unwilling creature (DC 24 fortitude save negates).</p>"
           },
           "frequency": {
             "max": 1,
@@ -8423,7 +8423,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> Zridi spends an action to activate <em>The Enmity Cycle</em> while in area <strong>F2</strong></p>\n<hr />\n<p><strong>Effect</strong> All creatures other than Zridi in <strong>F2</strong> take @Damage[(2d8+9)[mental]] damage (@Check[will|dc:25|basic] save). The trap then rolls initiative.</p>"
+            "value": "<p><strong>Trigger</strong> Zridi spends an action to activate <em>The Enmity Cycle</em> while in area <strong>F2</strong></p>\n<hr />\n<p><strong>Effect</strong> All creatures other than Zridi in <strong>F2</strong> take @Damage[(2d8+9)[mental]] damage (DC 25 Basic will save). The trap then rolls initiative.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -8458,14 +8458,14 @@
           "value": 0
         },
         "stealth": {
-          "details": "<p>(expert) or @UUID[Compendium.pf2e.spells-srd.Item.Detect Magic]</p>",
+          "details": "<p>(expert) or Detect Magic</p>",
           "value": 16
         }
       },
       "creatureType": "",
       "details": {
         "description": "<p>Discordant music, dance, and poetry combine to build a deep suspicion and distrust of strangers.</p>",
-        "disable": "<p>@Check[performance|dc:26] to counteract the performance or @Check[religion|dc:27] or @Check[occult|dc:27] to disrupt the spiritual energy. Three total successes are needed to disable the trap.</p>",
+        "disable": "<p>DC 26 performance to counteract the performance or DC 27 religion or DC 27 occult to disrupt the spiritual energy. Three total successes are needed to disable the trap.</p>",
         "isComplex": true,
         "level": {
           "value": 6
@@ -8476,7 +8476,7 @@
           "title": "Pathfinder Adventure: The Enmity Cycle"
         },
         "reset": "<p>A new production of <em>The Enmity Cycle</em> must be arranged; this process usually takes at least 1 week.</p>",
-        "routine": "<p>(1 action) The performance continues to sow seeds of enmity, discord, and distrust on those in its area. All creatures in attendance other than Zridi must attempt a @Check[will|dc:25] save.</p>\n<hr>\n<p><strong>Critical Success</strong> The target is unaffected and is immune to the effects for 1 day.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} for 2 rounds.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2} for 1 minute and is certain the source of this fear is their fellow citizens, especially those from places other than their hometown. For 1 week the target suffers a &ndash;2 penalty to all Diplomacy skill checks against people from other Thuvian cities and regains the frightened 2 condition whenever they are in one of those cities.</p>\n<p><strong>Critical Failure</strong> As failure, but the target becomes a carrier for <em>The Enmity Cycle</em> for the next week. The target is compelled to travel to a city other than where they were exposed and recite as many lines from the anbarit as they can recall. Those who hear or witness the performance are treated as if they had attended a performance of <em>The Enmity Cycle</em>, but with a @Check[will|dc:23] save</p>"
+        "routine": "<p>(1 action) The performance continues to sow seeds of enmity, discord, and distrust on those in its area. All creatures in attendance other than Zridi must attempt a DC 25 will save.</p>\n<hr>\n<p><strong>Critical Success</strong> The target is unaffected and is immune to the effects for 1 day.</p>\n<p><strong>Success</strong> The target is Frightened 1 for 2 rounds.</p>\n<p><strong>Failure</strong> The target is Frightened 2 for 1 minute and is certain the source of this fear is their fellow citizens, especially those from places other than their hometown. For 1 week the target suffers a &ndash;2 penalty to all Diplomacy skill checks against people from other Thuvian cities and regains the frightened 2 condition whenever they are in one of those cities.</p>\n<p><strong>Critical Failure</strong> As failure, but the target becomes a carrier for <em>The Enmity Cycle</em> for the next week. The target is compelled to travel to a city other than where they were exposed and recite as many lines from the anbarit as they can recall. Those who hear or witness the performance are treated as if they had attended a performance of <em>The Enmity Cycle</em>, but with a DC 23 will save</p>"
       },
       "saves": {
         "fortitude": {
@@ -8928,7 +8928,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The Usij cultist must have a whip in their hands</p>\n<p><strong>Trigger</strong> A creature moves out of a threatened square</p>\n<hr />\n<p><strong>Effect</strong> The Usij cultist makes a @UUID[Compendium.pf2e.actionspf2e.Item.Trip] attempt against the triggering creature with their whip.</p>"
+            "value": "<p><strong>Requirements</strong> The Usij cultist must have a whip in their hands</p>\n<p><strong>Trigger</strong> A creature moves out of a threatened square</p>\n<hr />\n<p><strong>Effect</strong> The Usij cultist makes a Trip attempt against the triggering creature with their whip.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9308,7 +9308,7 @@
             }
           },
           "description": {
-            "value": "<p>You channel the fury of divinity against your foes. You deal 4d10 spirit damage to enemies in the area, depending on their Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2}; while it's sickened, it's also @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
+            "value": "<p>You channel the fury of divinity against your foes. You deal 4d10 spirit damage to enemies in the area, depending on their Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Sickened 1.</p>\n<p><strong>Critical Failure</strong> The creature takes full damage and is Sickened 2; while it's sickened, it's also Slowed 1.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
           },
           "duration": {
             "sustained": false,
@@ -9393,7 +9393,7 @@
             }
           },
           "description": {
-            "value": "<p>Your target's mind tumbles down a deep well of dread, dwelling so intently on deep-seated fears that it's painful. The target takes @Damage[4d6[mental]] damage with a Will saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target takes full damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 3}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by @Damage[2d6[mental]].</p>"
+            "value": "<p>Your target's mind tumbles down a deep well of dread, dwelling so intently on deep-seated fears that it's painful. The target takes 4d6 mental damage with a Will saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage and becomes Frightened 1.</p>\n<p><strong>Failure</strong> The target takes full damage and becomes Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and becomes Frightened 3.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 2d6 mental.</p>"
           },
           "duration": {
             "sustained": false,
@@ -9470,7 +9470,7 @@
             }
           },
           "description": {
-            "value": "<p>You blind the target. The effect is determined by the target's Fortitude save. The target then becomes temporarily immune for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] until its next turn begins.</p>\n<p><strong>Failure</strong> The target is Blinded for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is Blinded permanently.</p>"
+            "value": "<p>You blind the target. The effect is determined by the target's Fortitude save. The target then becomes temporarily immune for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Blinded until its next turn begins.</p>\n<p><strong>Failure</strong> The target is Blinded for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is Blinded permanently.</p>"
           },
           "duration": {
             "sustained": false,
@@ -9539,7 +9539,7 @@
             }
           },
           "description": {
-            "value": "<p>The target loses hearing; it must attempt a Fortitude save. The target is then temporarily immune for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 round.</p>\n<p><strong>Failure</strong> The target is Deafened for 10 minutes.</p>\n<p><strong>Critical Failure</strong> The target is Deafened permanently.</p>"
+            "value": "<p>The target loses hearing; it must attempt a Fortitude save. The target is then temporarily immune for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Deafened for 1 round.</p>\n<p><strong>Failure</strong> The target is Deafened for 10 minutes.</p>\n<p><strong>Critical Failure</strong> The target is Deafened permanently.</p>"
           },
           "duration": {
             "sustained": false,
@@ -9602,7 +9602,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Cloaked in illusion, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Invisible]. This makes it @UUID[Compendium.pf2e.conditionitems.Item.Undetected] to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.Item.Hidden] to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+            "value": "<p>Cloaked in illusion, the target becomes Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
           },
           "duration": {
             "sustained": false,
@@ -9681,7 +9681,7 @@
             }
           },
           "description": {
-            "value": "<p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Deafened for 1 minute, and is @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
+            "value": "<p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Deafened for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Deafened for 1 minute, and is Stunned 1.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
           },
           "duration": {
             "sustained": false,
@@ -9880,7 +9880,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You infuse the target with void energy. If the target is living, this deals 1d6 void damage (basic Fortitude save); on a failed save, the target also takes a –2 status penalty to AC for 1 round.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Touch of the Void]{Spell Effect: Touch of Corruption}</p>\n<p>If the target is a willing undead creature, the target instead regains 6 Hit Points, and if you are the undead target, you also gain a +2 status bonus to damage rolls for 1 round.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Touch of the Void]{Spell Effect: Touch of Corruption (Healing)}</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage dealt to a living creature by 1d6 or increase the Hit Points regained by undead by 6.</p>"
+            "value": "<p>You infuse the target with void energy. If the target is living, this deals 1d6 void damage (basic Fortitude save); on a failed save, the target also takes a –2 status penalty to AC for 1 round.</p>\n<p>Spell Effect: Touch of Corruption</p>\n<p>If the target is a willing undead creature, the target instead regains 6 Hit Points, and if you are the undead target, you also gain a +2 status bonus to damage rolls for 1 round.</p>\n<p>Spell Effect: Touch of Corruption (Healing)</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage dealt to a living creature by 1d6 or increase the Hit Points regained by undead by 6.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10156,7 +10156,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+            "value": "<p><p>A constant spell affects the monster without the monster needing to cast it, and its duration is unlimited. If a constant spell gets counteracted, the monster can reactivate it by spending the normal spellcasting actions the spell requires.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -10189,7 +10189,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A vulpinal's core value is cunning. They can apply their knowledge and stories from their extensive travels to just about any situation in an instant. Before spending any other action on their turn, the vulpinal can @UUID[Compendium.pf2e.actionspf2e.Item.Recall Knowledge] as a free action.</p>"
+            "value": "<p>A vulpinal's core value is cunning. They can apply their knowledge and stories from their extensive travels to just about any situation in an instant. Before spending any other action on their turn, the vulpinal can Recall Knowledge as a free action.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10511,7 +10511,7 @@
             }
           },
           "description": {
-            "value": "<p>You afflict the target with a curse that makes its presence abrasive and off-putting. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> For 10 minutes, the target must roll twice and use the worse result whenever attempting a Deception, Diplomacy, Intimidation, or Performance check, and creatures they encounter have an initial attitude toward them of one step worse (for instance, @UUID[Compendium.pf2e.conditionitems.Item.Unfriendly] instead of @UUID[Compendium.pf2e.conditionitems.Item.Indifferent]).</p>\n<p><strong>Failure</strong> As success, but the effect is permanent.</p>\n<p><strong>Critical Failure</strong> As failure, and creatures that the target encounters have an initial attitude toward them of two steps worse.</p>"
+            "value": "<p>You afflict the target with a curse that makes its presence abrasive and off-putting. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> For 10 minutes, the target must roll twice and use the worse result whenever attempting a Deception, Diplomacy, Intimidation, or Performance check, and creatures they encounter have an initial attitude toward them of one step worse (for instance, Unfriendly instead of Indifferent).</p>\n<p><strong>Failure</strong> As success, but the effect is permanent.</p>\n<p><strong>Critical Failure</strong> As failure, and creatures that the target encounters have an initial attitude toward them of two steps worse.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10722,7 +10722,7 @@
             }
           },
           "description": {
-            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes @UUID[Compendium.pf2e.conditionitems.Item.Friendly] toward you. If it was Friendly, it becomes @UUID[Compendium.pf2e.conditionitems.Item.Helpful]. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
+            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes Friendly toward you. If it was Friendly, it becomes Helpful. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10925,7 +10925,7 @@
           },
           "containerId": null,
           "description": {
-            "value": "<p>This large ram's horn perpetually glistens with tiny droplets of water, much like condensation.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You activate the horn by blowing deeply into it, causing it to issue forth a low blast and cast a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Mist] spell. You can Dismiss the mist at any time by blowing a second note on the horn using an Interact action.</p>"
+            "value": "<p>This large ram's horn perpetually glistens with tiny droplets of water, much like condensation.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You activate the horn by blowing deeply into it, causing it to issue forth a low blast and cast a 2nd-rank Mist spell. You can Dismiss the mist at any time by blowing a second note on the horn using an Interact action.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -11080,7 +11080,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>Pairakas hate the color red. Zridi won't wear the color or willingly enter any place painted red. Given a choice, she'll attack a creature wearing red first. If barred from expressing her displeasure toward the color by force or some magical effect, she takes @Damage[2d6[mental]] damage at the end of her turn.</p>"
+            "value": "<p>Pairakas hate the color red. Zridi won't wear the color or willingly enter any place painted red. Given a choice, she'll attack a creature wearing red first. If barred from expressing her displeasure toward the color by force or some magical effect, she takes 2d6 mental damage at the end of her turn.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11112,7 +11112,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature can't remove the fatigued condition while infected</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:24]</p>\n<hr />\n<p><strong>Onset</strong> 1 day</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Fatigued] (1 day)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} and fatigued (1 day)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 3}, fatigued, and take @Damage[1d6[bleed]] every [[/br 1d20 #Persistent Damage Interval]]{1d20 minutes} (1 day)</p>"
+            "value": "<p>A creature can't remove the fatigued condition while infected</p>\n<p><strong>Saving Throw</strong> DC 24 fortitude</p>\n<hr />\n<p><strong>Onset</strong> 1 day</p>\n<p><strong>Stage 1</strong> Fatigued (1 day)</p>\n<p><strong>Stage 2</strong> Enfeebled 2 and fatigued (1 day)</p>\n<p><strong>Stage 3</strong> Enfeebled 3, fatigued, and take 1d6 bleed every [[/br 1d20 #Persistent Damage Interval]]{1d20 minutes} (1 day)</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11147,7 +11147,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Zridi can take the appearance of any Small or Medium humanoid or animal. This doesn't change her Speed or her attack and damage modifiers with the Strikes, but it might change the damage type her Strikes deal.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+            "value": "<p>Zridi can take the appearance of any Small or Medium humanoid or animal. This doesn't change her Speed or her attack and damage modifiers with the Strikes, but it might change the damage type her Strikes deal.</p>\n<hr />\n<p><p>The monster changes its shape indefinitely. It can use this action again to return to its natural shape or adopt a new shape. Unless otherwise noted, a monster cannot use Change Shape to appear as a specific individual. Using Change Shape counts as creating a disguise for the @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} use of Deception. The monster's transformation automatically defeats Perception DCs to determine whether the creature is a member of the ancestry or creature type into which it transformed, and it gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise. Change Shape abilities specify what shapes the monster can adopt. The monster doesn't gain any special abilities of the new shape, only its physical form. For example, in each shape, it replaces its normal Speeds and Strikes, and might potentially change its senses or size. Any changes are listed in its stat block.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -11181,7 +11181,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Zridi grants the target a +2 status bonus to Performance checks for one week. The target must attempt a @Check[will|dc:26] save.</p>\n<p><strong>Critical Success</strong> No further effect.</p>\n<p><strong>Success</strong> The target must @UUID[Compendium.pf2e.actionspf2e.Item.Perform] for 1 action on its next turn.</p>\n<p><strong>Failure</strong> The target must Perform for 3 actions on its next turn, undertaking a Performance task set by Zridi.</p>\n<p><strong>Critical Failure</strong> As failure, but Zridi can choose to delay the effect and trigger it at any point in the next week as a reaction.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Compelled Performance]</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Zridi grants the target a +2 status bonus to Performance checks for one week. The target must attempt a DC 26 will save.</p>\n<p><strong>Critical Success</strong> No further effect.</p>\n<p><strong>Success</strong> The target must Perform for 1 action on its next turn.</p>\n<p><strong>Failure</strong> The target must Perform for 3 actions on its next turn, undertaking a Performance task set by Zridi.</p>\n<p><strong>Critical Failure</strong> As failure, but Zridi can choose to delay the effect and trigger it at any point in the next week as a reaction.</p>\n<p>Effect: Compelled Performance</p>"
           },
           "frequency": {
             "max": 1,
@@ -11219,7 +11219,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Zridi torments a sleeping creature within 100 feet with visions of betrayals by loved ones and friends. The target must attempt a @Check[will|dc:26] save, with the effects of the @UUID[Compendium.pf2e.spells-srd.Item.Nightmare] spell.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Zridi torments a sleeping creature within 100 feet with visions of betrayals by loved ones and friends. The target must attempt a DC 26 will save, with the effects of the Nightmare spell.</p>"
           },
           "frequency": {
             "max": 1,
