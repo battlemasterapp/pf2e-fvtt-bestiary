@@ -38,14 +38,13 @@ func getLocalizedText(id string) (string, error) {
 }
 
 func uuidParser(matches []string) string {
-	_, name := matches[1], matches[2]
+	id, name := matches[1], matches[2]
 	if name != "" {
 		return name
 	}
-	return ""
 	// If there's no name, use the last id part
-	// parts := strings.Split(id, ".")
-	// return parts[len(parts)-1]
+	parts := strings.Split(id, ".")
+	return parts[len(parts)-1]
 }
 
 func localizeParser(matches []string) string {
