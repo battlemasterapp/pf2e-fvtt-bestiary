@@ -335,7 +335,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>An object shedding magical light (such as from the  spell) is treated as magical when used to attack the shadow.</p>"
+            "value": "<p>An object shedding magical light (such as from the Light spell) is treated as magical when used to attack the shadow.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -365,7 +365,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>When a creature's shadow is pulled free by Steal Shadow, it becomes a  under the command of the shadow that created it. This shadow spawn doesn't have Steal Shadow and is perpetually and incurably Clumsy 2. If the creature the shadow spawn was pulled from dies, the shadow spawn becomes a full-fledged, autonomous shadow. If the creature recovers from its Enfeeblement, its shadow returns to it and the shadow spawn is extinguished.</p>"
+            "value": "<p>When a creature's shadow is pulled free by Steal Shadow, it becomes a Shadow Spawn under the command of the shadow that created it. This shadow spawn doesn't have Steal Shadow and is perpetually and incurably Clumsy 2. If the creature the shadow spawn was pulled from dies, the shadow spawn becomes a full-fledged, autonomous shadow. If the creature recovers from its Enfeeblement, its shadow returns to it and the shadow spawn is extinguished.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -395,7 +395,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The shadow can  or end its  in a creature's or object's shadow.</p>"
+            "value": "<p>The shadow can Hide or end its Sneak in a creature's or object's shadow.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -612,7 +612,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> Someone attempts to open the doors, or the doors take enough damage to become broken;</p>\n<p><strong>Effect</strong> The heavy metal doors are spring-loaded to slam downward, dropping like a drawbridge to smash all creatures in a 10-foot-square before the doors. All creatures in this area must attempt a DC 21  Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature lurches to the side and takes no damage-move the creature to a square of the creature's choice adjacent to the trap's area of effect.</p>\n<p><strong>Success</strong> The creature takes 3d8 bludgeoning damage and is pushed into an adjacent square just outside the trap's area.</p>\n<p><strong>Failure</strong> The creature takes 6d8 bludgeoning damage, is pushed into an adjacent square just outside the trap's area, and falls  in that square.</p>\n<p><strong>Critical Failure</strong> The creature takes 12d8 bludgeoning damage and is knocked prone. The heavy doors pin the creature to the ground, Immobilizing it ( DC 22). A non- character can lift the doors by Forcing them open with a successful DC 22  Athletics check so that an immobilized character can crawl to safety.</p>"
+            "value": "<p><strong>Trigger</strong> Someone attempts to open the doors, or the doors take enough damage to become broken;</p>\n<p><strong>Effect</strong> The heavy metal doors are spring-loaded to slam downward, dropping like a drawbridge to smash all creatures in a 10-foot-square before the doors. All creatures in this area must attempt a DC 21  Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature lurches to the side and takes no damage-move the creature to a square of the creature's choice adjacent to the trap's area of effect.</p>\n<p><strong>Success</strong> The creature takes 3d8 bludgeoning damage and is pushed into an adjacent square just outside the trap's area.</p>\n<p><strong>Failure</strong> The creature takes 6d8 bludgeoning damage, is pushed into an adjacent square just outside the trap's area, and falls Prone in that square.</p>\n<p><strong>Critical Failure</strong> The creature takes 12d8 bludgeoning damage and is knocked prone. The heavy doors pin the creature to the ground, Immobilizing it (Escape DC 22). A non-Immobilized character can lift the doors by Forcing them open with a successful DC 22  Athletics check so that an immobilized character can crawl to safety.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -718,7 +718,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A Small or larger creature approaches within 15 feet of the double door to area <strong>D9</strong>.</p>\n<p><strong>Effect</strong> The entire room rotates, its west half descending as its right half rises, forming a 45º slope down to the west. All creatures in the room fall  and slide toward the west wall (a creature adjacent to the north or south wall can attempt to arrest this fall with a DC 20 check to ) and take [[/r (2d6 + 5)[piercing]]] damage (DC 20  Basic  Reflex) as they land among the spears. At the same time, the warhammer-wielding statues to the east slide downward on chains to smash into the lower wall; each person in the trap is subjected to a sliding statue Strike.</p>"
+            "value": "<p><strong>Trigger</strong> A Small or larger creature approaches within 15 feet of the double door to area <strong>D9</strong>.</p>\n<p><strong>Effect</strong> The entire room rotates, its west half descending as its right half rises, forming a 45º slope down to the west. All creatures in the room fall Prone and slide toward the west wall (a creature adjacent to the north or south wall can attempt to arrest this fall with a DC 20 check to Grab an Edge) and take [[/r (2d6 + 5)[piercing]]] damage (DC 20  Basic  Reflex) as they land among the spears. At the same time, the warhammer-wielding statues to the east slide downward on chains to smash into the lower wall; each person in the trap is subjected to a sliding statue Strike.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -901,7 +901,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>30 feet. Living creatures are Frightened 1 while in a mummy guardian's despair aura. They can't naturally recover from this fear while in the area but recover instantly once they leave the area. When a creature first enters the area, it must succeed at a DC 22  Will save (after taking the penalty from being frightened) or be  for 1 round. The creature is then temporarily immune for 24 hours.</p>\n<p></p>"
+            "value": "<p>30 feet. Living creatures are Frightened 1 while in a mummy guardian's despair aura. They can't naturally recover from this fear while in the area but recover instantly once they leave the area. When a creature first enters the area, it must succeed at a DC 22  Will save (after taking the penalty from being frightened) or be Paralyzed for 1 round. The creature is then temporarily immune for 24 hours.</p>\n<p>Effect: Despair</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1004,7 +1004,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Cilios's fist Strikes expose those they damage to blinding rot. This disease and any damage from it can't be healed until this curse is removed. A creature killed by blinding rot turns to dust and can't be resurrected except by a 7th-rank  ritual or similar magic.</p>\n<p><strong>Saving Throw</strong> DC 22  Fortitude</p>\n<hr />\n<p><strong>Stage 1</strong> carrier with no ill effect (1 minute)</p>\n<p><strong>Stage 2</strong> 4d6 void damage and  (1 day)</p>\n<p><strong>Stage 3</strong> 4d6 void damage and  (1 day)</p>"
+            "value": "<p>Cilios's fist Strikes expose those they damage to blinding rot. This disease and any damage from it can't be healed until this curse is removed. A creature killed by blinding rot turns to dust and can't be resurrected except by a 7th-rank Resurrect ritual or similar magic.</p>\n<p><strong>Saving Throw</strong> DC 22  Fortitude</p>\n<hr />\n<p><strong>Stage 1</strong> carrier with no ill effect (1 minute)</p>\n<p><strong>Stage 2</strong> 4d6 void damage and Dazzled (1 day)</p>\n<p><strong>Stage 3</strong> 4d6 void damage and Blinded (1 day)</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1481,7 +1481,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A Dark Talon kobold deals an additional 1d6 precision damage to  creatures.</p>"
+            "value": "<p>A Dark Talon kobold deals an additional 1d6 precision damage to Off-Guard creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2155,7 +2155,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The dismemberment table attempts a blade Strike on a single target that it has  or . If this Strike hits, the blade cuts deep into one of the target's limbs. The target must attempt a DC 22  Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature suffers no additional effect.</p>\n<p><strong>Success</strong> The creature takes 1d6 bleed damage.</p>\n<p><strong>Failure</strong> The creature takes 2d6 bleed damage and is Clumsy 1. This clumsy condition ends once the creature is restored to full Hit Points.</p>\n<p><strong>Critical Failure</strong> As failure, but Clumsy 2.</p>"
+            "value": "<p>The dismemberment table attempts a blade Strike on a single target that it has Grabbed or Restrained. If this Strike hits, the blade cuts deep into one of the target's limbs. The target must attempt a DC 22  Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature suffers no additional effect.</p>\n<p><strong>Success</strong> The creature takes 1d6 bleed damage.</p>\n<p><strong>Failure</strong> The creature takes 2d6 bleed damage and is Clumsy 1. This clumsy condition ends once the creature is restored to full Hit Points.</p>\n<p><strong>Critical Failure</strong> As failure, but Clumsy 2.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2420,7 +2420,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create an  floating eye at a location within range (even if it's outside your line of sight or line of effect). The eye can't move, but you can see in all directions from that point as if using your normal visual senses.</p>"
+            "value": "<p>You create an Invisible floating eye at a location within range (even if it's outside your line of sight or line of effect). The eye can't move, but you can see in all directions from that point as if using your normal visual senses.</p>"
           },
           "duration": {
             "sustained": false,
@@ -2842,7 +2842,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Three illusory images of you swirl about your space, potentially causing those who attack you to hit one of the images instead of you. Any attack that would hit you has a random chance of hitting one of your images instead of you. If all three images remain, there is a 1 in 4 chance of hitting you (1 on [[/r 1d4]]). With two images remaining, there is a 1 in 3 chance of hitting you (1-2 on [[/r 1d6]]). With only one image, the chances are 1 in 2 (1-3 on [[/r 1d6]]).</p>\n<p>Once an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys an image but has no additional effect (even if the attack would normally have an effect on a failure). If an attack roll is a critical success and would hit one of the images, one of the images is destroyed and the attack roll becomes a success against you. Once all the images are destroyed, the spell ends.</p>\n<p></p>"
+            "value": "<p>Three illusory images of you swirl about your space, potentially causing those who attack you to hit one of the images instead of you. Any attack that would hit you has a random chance of hitting one of your images instead of you. If all three images remain, there is a 1 in 4 chance of hitting you (1 on [[/r 1d4]]). With two images remaining, there is a 1 in 3 chance of hitting you (1-2 on [[/r 1d6]]). With only one image, the chances are 1 in 2 (1-3 on [[/r 1d6]]).</p>\n<p>Once an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys an image but has no additional effect (even if the attack would normally have an effect on a failure). If an attack roll is a critical success and would hit one of the images, one of the images is destroyed and the attack roll becomes a success against you. Once all the images are destroyed, the spell ends.</p>\n<p>Spell Effect: Mirror Image</p>"
           },
           "duration": {
             "sustained": false,
@@ -2980,7 +2980,7 @@
             }
           },
           "description": {
-            "value": "<p>Siphoning void energy into yourself, your hand radiates a pale darkness. Your touch weakens the living and disorients undead, possibly even causing them to flee. The effect depends on whether the target is living or undead.</p>\n<ul>\n<li><strong>Living Creature</strong> The spell deals void damage equal to 1d4 plus your spellcasting modifier. The target attempts a basic Fortitude save, but is also Enfeebled 1 for 1 round on a critical failure.</li>\n<li><strong>Undead Creature</strong> The target is  for 1 round on a failed Fortitude save. On a critical failure, the target is also  for 1 round unless it succeeds at a Will save.</li>\n</ul>\n<hr />\n<p><strong>Heightened (+1)</strong> The void damage to living creatures increases by 1d4.</p>"
+            "value": "<p>Siphoning void energy into yourself, your hand radiates a pale darkness. Your touch weakens the living and disorients undead, possibly even causing them to flee. The effect depends on whether the target is living or undead.</p>\n<ul>\n<li><strong>Living Creature</strong> The spell deals void damage equal to 1d4 plus your spellcasting modifier. The target attempts a basic Fortitude save, but is also Enfeebled 1 for 1 round on a critical failure.</li>\n<li><strong>Undead Creature</strong> The target is Off-Guard for 1 round on a failed Fortitude save. On a critical failure, the target is also Fleeing for 1 round unless it succeeds at a Will save.</li>\n</ul>\n<hr />\n<p><strong>Heightened (+1)</strong> The void damage to living creatures increases by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3055,7 +3055,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the  condition), release what it's holding, drop , or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3134,7 +3134,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3296,7 +3296,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p>Spell Effect: Light</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
           },
           "duration": {
             "sustained": false,
@@ -3587,7 +3587,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the  reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the  spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the Force Barrage spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>Spell Effect: Shield</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3659,7 +3659,7 @@
             "die": "d4"
           },
           "description": {
-            "value": "<p>This long, gnarled staff looks like several bones fused together, then wrapped tightly with strips of desiccated, gray skin. At the top of the staff, a clump of sinew clasps a small stone orb resembling a large human eye. When the staff is activated, this eye twitches and glances around randomly. When wielding this staff, you gain a +1 item bonus to visual Perception checks.</p>\n<p><strong>Activate</strong> </p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> </li>\n<li><strong>1st</strong> </li>\n<li><strong>2nd</strong> ,  (creates what appears to be a large eye made of fire), </li>\n<li><strong>3rd</strong> , </li>\n<li><strong>4th</strong> , , </li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>"
+            "value": "<p>This long, gnarled staff looks like several bones fused together, then wrapped tightly with strips of desiccated, gray skin. At the top of the staff, a clump of sinew clasps a small stone orb resembling a large human eye. When the staff is activated, this eye twitches and glances around randomly. When wielding this staff, you gain a +1 item bonus to visual Perception checks.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Read Aura</li>\n<li><strong>1st</strong> Sure Strike</li>\n<li><strong>2nd</strong> Darkvision, Floating Flame (creates what appears to be a large eye made of fire), See the Unseen</li>\n<li><strong>3rd</strong> Organsight, Web of Eyes</li>\n<li><strong>4th</strong> Clairvoyance, Countless Eyes, Detect Scrying</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>"
           },
           "equipped": {
             "carryType": "held",
@@ -3744,7 +3744,7 @@
           },
           "containerId": null,
           "description": {
-            "value": "<p><em>In the Shadows of Toil</em> was originally an incomplete copy of a journal kept by the dwarven adventurer Druingar the Glintaxe. Drazmorg made extensive use of the book's wide margins and several dozen blank pages left in the back to serve as a spellbook. Over the years, he further enhanced his copy to transform it into a grimoire. A character who reads Necril can learn about Drazmorg's history, his discovery of the <em>Third Seal</em>, and his hopes to absorb all of its power before seeking out the Whispering Way to lead them on a new crusade to hunt down the next two seals, destroy them, and bring back the Whispering Tyrant. Beyond these frightening notes, the grimoire also contains copies of all the spells Drazmorg has prepared and those needed to recharge his staff; feel free to add more spells to this list if you wish.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (metamagic)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> If your next action is to cast a necromancy spell that you prepared from this grimoire and that allows a saving throw, you infuse the magic with sensations of endless toil. If the target fails its saving throw against the spell, it becomes  for 1 minute by the sense of exhaustion imbued in the magic.</p>"
+            "value": "<p><em>In the Shadows of Toil</em> was originally an incomplete copy of a journal kept by the dwarven adventurer Druingar the Glintaxe. Drazmorg made extensive use of the book's wide margins and several dozen blank pages left in the back to serve as a spellbook. Over the years, he further enhanced his copy to transform it into a grimoire. A character who reads Necril can learn about Drazmorg's history, his discovery of the <em>Third Seal</em>, and his hopes to absorb all of its power before seeking out the Whispering Way to lead them on a new crusade to hunt down the next two seals, destroy them, and bring back the Whispering Tyrant. Beyond these frightening notes, the grimoire also contains copies of all the spells Drazmorg has prepared and those needed to recharge his staff; feel free to add more spells to this list if you wish.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (metamagic)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> If your next action is to cast a necromancy spell that you prepared from this grimoire and that allows a saving throw, you infuse the magic with sensations of endless toil. If the target fails its saving throw against the spell, it becomes Fatigued for 1 minute by the sense of exhaustion imbued in the magic.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -3956,7 +3956,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Drazmorg is in the Lower Vault of Droskar's Crucible</p>\n<hr />\n<p><strong>Effect</strong> Drazmorg draws upon the necromantic energy that infuses the area and causes a tangled wall of bones to rise from the ground. The wall is 5 feet thick, 10 feet wide, and 10 feet tall; once created, it's permanent until Drazmorg uses this ability again, whereupon a previously created bone wall (such as the one at area <strong>G2</strong>) crumbles. The bone wall has AC 10, Hardness 10, and 25 Hit Points. It's immune to critical hits and precision damage, and it heals damage to itself at a rate of 2d6 healing{2d6 Hit Points} at the end of a round. Everything on each side of the wall has greater cover from creatures on the opposite side, and the wall can't be moved through. A destroyed section of the wall of bones can be moved through freely and no longer heals damage. A creature caught in a space when a bone wall is created must attempt a DC 25  Reflex (damaging-effect) save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected, and the bone wall fails to form in any square occupied by that creature.</p>\n<p><strong>Success</strong> The creature is forced into an adjacent square of its choice as the bone wall forms in its previous space.</p>\n<p><strong>Failure</strong> As success, but the creature is also knocked .</p>\n<p><strong>Critical Failure</strong> As failure, but the creature also takes 4d6 piercing],4d6{4d6 piercing and 4d6 bludgeoning damage} from the force of being struck by the bone wall.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Drazmorg is in the Lower Vault of Droskar's Crucible</p>\n<hr />\n<p><strong>Effect</strong> Drazmorg draws upon the necromantic energy that infuses the area and causes a tangled wall of bones to rise from the ground. The wall is 5 feet thick, 10 feet wide, and 10 feet tall; once created, it's permanent until Drazmorg uses this ability again, whereupon a previously created bone wall (such as the one at area <strong>G2</strong>) crumbles. The bone wall has AC 10, Hardness 10, and 25 Hit Points. It's immune to critical hits and precision damage, and it heals damage to itself at a rate of 2d6 healing{2d6 Hit Points} at the end of a round. Everything on each side of the wall has greater cover from creatures on the opposite side, and the wall can't be moved through. A destroyed section of the wall of bones can be moved through freely and no longer heals damage. A creature caught in a space when a bone wall is created must attempt a DC 25  Reflex (damaging-effect) save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected, and the bone wall fails to form in any square occupied by that creature.</p>\n<p><strong>Success</strong> The creature is forced into an adjacent square of its choice as the bone wall forms in its previous space.</p>\n<p><strong>Failure</strong> As success, but the creature is also knocked Prone.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature also takes 4d6 piercing],4d6{4d6 piercing and 4d6 bludgeoning damage} from the force of being struck by the bone wall.</p>"
           },
           "frequency": {
             "max": 1,
@@ -4357,7 +4357,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Blessings from beyond help your companions strike true. You and your allies gain a +1 status bonus to attack rolls while within the emanation. Once per turn, starting the turn after you cast bless, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet.</p>\n<p>Bless can counteract .</p>\n<p></p>"
+            "value": "<p>Blessings from beyond help your companions strike true. You and your allies gain a +1 status bonus to attack rolls while within the emanation. Once per turn, starting the turn after you cast bless, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet.</p>\n<p>Bless can counteract Bane.</p>\n<p>Aura: Bless</p>"
           },
           "duration": {
             "sustained": false,
@@ -4617,7 +4617,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You inspire yourself and your allies with words or tunes of encouragement. You and all allies in the area gain a +1 status bonus to attack rolls, damage rolls, and saves against fear effects.</p>\n<p></p>"
+            "value": "<p>You inspire yourself and your allies with words or tunes of encouragement. You and all allies in the area gain a +1 status bonus to attack rolls, damage rolls, and saves against fear effects.</p>\n<p>Spell Effect: Courageous Anthem</p>"
           },
           "duration": {
             "sustained": false,
@@ -4907,7 +4907,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You grace the target's mind, boosting its mental defenses and healing its wounds. The target regains 1d10+4 Hit Points when you Cast the Spell and gains a +2 status bonus to saves against mental effects for the duration.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d10+4.</p>"
+            "value": "<p>You grace the target's mind, boosting its mental defenses and healing its wounds. The target regains 1d10+4 Hit Points when you Cast the Spell and gains a +2 status bonus to saves against mental effects for the duration.</p>\n<p>Spell Effect: Soothe</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d10+4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5565,7 +5565,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>Shimmering, glyph-graven, two-foot-diameter crystalline spheres shimmer and condense in the air, launching with explosive force at intruders.</p>",
-        "disable": "<p>DC 25  Thievery (expert) to locate and deface tiny activation runes located at one of the six locations that spawn crystal spheres, or DC 28  Arcana (expert) or DC 28  Occultism (expert) to manipulate the magical energy at one of those locations to render the spheres inert, or  (3rd level; counteract DC 22) to counteract one of the crystal sphere spawn points</p>",
+        "disable": "<p>DC 25  Thievery (expert) to locate and deface tiny activation runes located at one of the six locations that spawn crystal spheres, or DC 28  Arcana (expert) or DC 28  Occultism (expert) to manipulate the magical energy at one of those locations to render the spheres inert, or Dispel Magic (3rd level; counteract DC 22) to counteract one of the crystal sphere spawn points</p>",
         "isComplex": true,
         "level": {
           "value": 6
@@ -7526,7 +7526,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Gurtlekep deals an additional 1d6 precision damage to  creatures.</p>"
+            "value": "<p>Gurtlekep deals an additional 1d6 precision damage to Off-Guard creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7838,7 +7838,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The ghoul is adjacent to the corpse of a creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghoul devours a chunk of the corpse and regains [[/r 3d6[healing]]] Hit Points.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>"
+            "value": "<p><strong>Requirements</strong> The ghoul is adjacent to the corpse of a creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghoul devours a chunk of the corpse and regains 3d6 healing Hit Points.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7873,7 +7873,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Saving Throw</strong> DC 22  Fortitude</p>\n<hr />\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> 2d6 void damage and regains half as many Hit Points from all healing (1 day)</p>\n<p><strong>Stage 3</strong> as stage 2 (1 day)</p>\n<p><strong>Stage 4</strong> 2d6 void damage and gains no benefit from healing (1 day)</p>\n<p><strong>Stage 5</strong> as stage 4 (1 day)</p>\n<p><strong>Stage 6</strong> dead, and rises as a  the next midnight.</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 22  Fortitude</p>\n<hr />\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> 2d6 void damage and regains half as many Hit Points from all healing (1 day)</p>\n<p><strong>Stage 3</strong> as stage 2 (1 day)</p>\n<p><strong>Stage 4</strong> 2d6 void damage and gains no benefit from healing (1 day)</p>\n<p><strong>Stage 5</strong> as stage 4 (1 day)</p>\n<p><strong>Stage 6</strong> dead, and rises as a Ghoul the next midnight.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7905,7 +7905,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> Hymmir is in a hungry rage</p>\n<hr />\n<p><strong>Effect</strong> Hymmir attempts a jaws Strike. If he hits, he chews at his target and inflicts an additional 1d6 slashing damage. Hymmir regains [[/r 3d6[healing]]] Hit Points.</p>"
+            "value": "<p><strong>Requirements</strong> Hymmir is in a hungry rage</p>\n<hr />\n<p><strong>Effect</strong> Hymmir attempts a jaws Strike. If he hits, he chews at his target and inflicts an additional 1d6 slashing damage. Hymmir regains 3d6 healing Hit Points.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7952,7 +7952,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> Hymmir damages a living creature with his jaws Strike</p>\n<hr />\n<p><strong>Effect</strong> The taste of flesh and blood throws Hymmir into a violent rage. He gains 9 temporary Hit Points, deals an additional 2 damage with melee Strikes, and takes a -1 penalty to AC for 1 minute.</p>\n<p></p>"
+            "value": "<p><strong>Trigger</strong> Hymmir damages a living creature with his jaws Strike</p>\n<hr />\n<p><strong>Effect</strong> The taste of flesh and blood throws Hymmir into a violent rage. He gains 9 temporary Hit Points, deals an additional 2 damage with melee Strikes, and takes a -1 penalty to AC for 1 minute.</p>\n<p>Effect: Rage</p>"
           },
           "publication": {
             "license": "OGL",
@@ -8012,7 +8012,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Any living, non-elf creature hit by a ghoul's attack must succeed at a DC 22  Fortitude save or become . It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
+            "value": "<p>Any living, non-elf creature hit by a ghoul's attack must succeed at a DC 22  Fortitude save or become Paralyzed. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -8276,7 +8276,7 @@
             }
           },
           "description": {
-            "value": "<p>You befuddle your target with strange impulses, causing it to act randomly. The effects are determined by the target's Will save. You can Dismiss the spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target babbles incoherently and is Stunned 1.</p>\n<p><strong>Failure</strong> The target is  for 1 minute. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Critical Failure</strong> The target is Confused for 1 minute, with no save to end early.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You befuddle your target with strange impulses, causing it to act randomly. The effects are determined by the target's Will save. You can Dismiss the spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target babbles incoherently and is Stunned 1.</p>\n<p><strong>Failure</strong> The target is Confused for 1 minute. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Critical Failure</strong> The target is Confused for 1 minute, with no save to end early.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8357,7 +8357,7 @@
             }
           },
           "description": {
-            "value": "<p>You create a pattern of shifting colors that hovers in the air in a geometric cloud. Creatures are  while inside the pattern. In addition, a creature must attempt a Will saving throw if it is inside the pattern when you cast it, when it enters the pattern, when it ends its turn within the pattern, or if it uses a Seek or Interact action on the pattern. A creature currently  by the pattern doesn't attempt new saves.</p>\n<hr />\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target is Fascinated by the pattern.</p>\n<p><strong>Critical Failure</strong> The target is Fascinated by the pattern. While it remains Fascinated, it can't use reactions.</p>"
+            "value": "<p>You create a pattern of shifting colors that hovers in the air in a geometric cloud. Creatures are Dazzled while inside the pattern. In addition, a creature must attempt a Will saving throw if it is inside the pattern when you cast it, when it enters the pattern, when it ends its turn within the pattern, or if it uses a Seek or Interact action on the pattern. A creature currently Fascinated by the pattern doesn't attempt new saves.</p>\n<hr />\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target is Fascinated by the pattern.</p>\n<p><strong>Critical Failure</strong> The target is Fascinated by the pattern. While it remains Fascinated, it can't use reactions.</p>"
           },
           "duration": {
             "sustained": true,
@@ -8511,7 +8511,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8603,7 +8603,7 @@
             }
           },
           "description": {
-            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and 1d4 persistent mental damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>\n<p>[[/r (@item.level)d4[persistent,mental]]]{Leveled Persistent Mental Damage}</p>"
+            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and 1d4 persistent mental damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>\n<p>@Damage[(@item.level)d4[persistent,mental]]{Scaling Persistent Mental Damage}</p>"
           },
           "duration": {
             "sustained": false,
@@ -9206,7 +9206,7 @@
             }
           },
           "description": {
-            "value": "<p>You snuff the life out of a creature on the brink of death. The target must attempt a Will save. If this kills it, you gain 10 temporary HP and a +1 status bonus to attack and damage rolls for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target's  value increases by 1.</p>\n<p><strong>Failure</strong> The target dies.</p>\n<p></p>"
+            "value": "<p>You snuff the life out of a creature on the brink of death. The target must attempt a Will save. If this kills it, you gain 10 temporary HP and a +1 status bonus to attack and damage rolls for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target's Dying value increases by 1.</p>\n<p><strong>Failure</strong> The target dies.</p>\n<p>Spell Effect: Death Knell</p>"
           },
           "duration": {
             "sustained": false,
@@ -9349,7 +9349,7 @@
             }
           },
           "description": {
-            "value": "<p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is  for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Deafened for 1 minute, and is Stunned 1.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
+            "value": "<p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Deafened for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Deafened for 1 minute, and is Stunned 1.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
           },
           "duration": {
             "sustained": false,
@@ -9423,7 +9423,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the  condition), release what it's holding, drop , or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -9565,7 +9565,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You issue a diabolic edict, demanding the target perform a particular task and offering rewards for its fulfillment. It gains a +1 status bonus to attack rolls and skill checks related to performing the task. If it refuses to perform the task you proclaimed, it instead takes a -1 status penalty to all its attack rolls and skill checks.</p>\n<p></p>"
+            "value": "<p>You issue a diabolic edict, demanding the target perform a particular task and offering rewards for its fulfillment. It gains a +1 status bonus to attack rolls and skill checks related to performing the task. If it refuses to perform the task you proclaimed, it instead takes a -1 status penalty to all its attack rolls and skill checks.</p>\n<p>Spell Effect: Diabolic Edict</p>"
           },
           "duration": {
             "sustained": false,
@@ -9709,7 +9709,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10385,7 +10385,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the  reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the  spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the Force Barrage spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>Spell Effect: Shield</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10457,7 +10457,7 @@
             "die": "d4"
           },
           "description": {
-            "value": "<p>This wicked-looking curved weapon is a <em>+1 striking dagger</em> that draws power from defeating foes, either to bolster itself or its wielder. A <em>heartripper blade</em> is well suited for use in any ritual that involves divination, and incorporating it into any ritual with the divination trait grants the wielder a +1 item bonus on any check made to resolve the effects of the ritual's casting.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You reduce a foe to 0 Hit Points with a Strike from the <em>heartripper blade</em></p>\n<p><strong>Effect</strong> The <em>heartripper blade</em> draws power from the devastating strike, causing its blade to erupt in black flames. For 1 minute, Strikes with the <em>heartripper blade</em> inflict an additional 1d6 void damage to living creatures.</p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You reduce a foe to 0 Hit Points with a Strike from the heartripper blade</p>\n<p><strong>Effect</strong> The heartripper blade draws life from the victim's body and siphons it into you. Choose one of the following effects: restore [[/r 2d8[healing]]]{2d8 Hit Points}; reduce the value of your , , or  conditions by 1; or reduce the stage of one toxin or disease you're suffering by one stage (this can't reduce the stage below stage 1 or cure the affliction).</p>"
+            "value": "<p>This wicked-looking curved weapon is a <em>+1 striking dagger</em> that draws power from defeating foes, either to bolster itself or its wielder. A <em>heartripper blade</em> is well suited for use in any ritual that involves divination, and incorporating it into any ritual with the divination trait grants the wielder a +1 item bonus on any check made to resolve the effects of the ritual's casting.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You reduce a foe to 0 Hit Points with a Strike from the <em>heartripper blade</em></p>\n<p><strong>Effect</strong> The <em>heartripper blade</em> draws power from the devastating strike, causing its blade to erupt in black flames. For 1 minute, Strikes with the <em>heartripper blade</em> inflict an additional 1d6 void damage to living creatures.</p>\n<p>Effect: Heartripper Blade</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You reduce a foe to 0 Hit Points with a Strike from the heartripper blade</p>\n<p><strong>Effect</strong> The heartripper blade draws life from the victim's body and siphons it into you. Choose one of the following effects: restore [[/r 2d8[healing]]]{2d8 Hit Points}; reduce the value of your Clumsy, Enfeebled, or Stupefied conditions by 1; or reduce the stage of one toxin or disease you're suffering by one stage (this can't reduce the stage below stage 1 or cure the affliction).</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -10551,7 +10551,7 @@
           },
           "containerId": null,
           "description": {
-            "value": "<p>This ordinary-looking hat allows you to cloak yourself in illusions.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> any number of times per day</p>\n<hr />\n<p><strong>Effect</strong> The hat casts a 2nd-rank  spell on you. While setting up the disguise, you can magically alter the hat to appear as a comb, ribbon, helm, or other piece of headwear.</p>"
+            "value": "<p>This ordinary-looking hat allows you to cloak yourself in illusions.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> any number of times per day</p>\n<hr />\n<p><strong>Effect</strong> The hat casts a 2nd-rank Illusory Disguise spell on you. While setting up the disguise, you can magically alter the hat to appear as a comb, ribbon, helm, or other piece of headwear.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -11437,7 +11437,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Kapmek deals an additional 1d6 precision damage to  creatures.</p>"
+            "value": "<p>Kapmek deals an additional 1d6 precision damage to Off-Guard creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11725,7 +11725,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the  condition), release what it's holding, drop , or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -11885,7 +11885,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -11960,7 +11960,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You ask for divine guidance, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p></p>\n<p></p>"
+            "value": "<p>You ask for divine guidance, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p>Spell Effect: Guidance</p>\n<p>Effect: Guidance Immunity</p>"
           },
           "duration": {
             "sustained": false,
@@ -12163,7 +12163,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the  reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the  spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the Force Barrage spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>Spell Effect: Shield</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
           },
           "duration": {
             "sustained": false,
@@ -12288,7 +12288,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Intense fervor fills the target creature, empowering their blows. The target gains a +2 status bonus to damage rolls. Once this spell ends, the target becomes temporarily immune for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The status bonus to damage increases by 1.</p>\n<p></p>"
+            "value": "<p>Intense fervor fills the target creature, empowering their blows. The target gains a +2 status bonus to damage rolls. Once this spell ends, the target becomes temporarily immune for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The status bonus to damage increases by 1.</p>\n<p>Spell Effect: Stoke the Heart</p>"
           },
           "duration": {
             "sustained": true,
@@ -12745,7 +12745,7 @@
             }
           },
           "description": {
-            "value": "<p>With the threat of more pain, you compel a creature you've recently harmed. You issue a command to the target, with the effects of the spell .</p>"
+            "value": "<p>With the threat of more pain, you compel a creature you've recently harmed. You issue a command to the target, with the effects of the spell Command.</p>"
           },
           "duration": {
             "sustained": false,
@@ -13317,7 +13317,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>When the herexen is destroyed, it explodes in a wave of void energy with the effects of a 3-action 4th-rank  spell (DC 26  Basic  Fortitude).</p>\n<p>The herexen is destroyed, so it doesn't gain any Hit Points from this use of <em>harm</em>, and it doesn't need to have any <em>harm</em> spells remaining to use this ability.</p>"
+            "value": "<p>When the herexen is destroyed, it explodes in a wave of void energy with the effects of a 3-action 4th-rank Harm spell (DC 26  Basic  Fortitude).</p>\n<p>The herexen is destroyed, so it doesn't gain any Hit Points from this use of <em>harm</em>, and it doesn't need to have any <em>harm</em> spells remaining to use this ability.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -13647,7 +13647,7 @@
             }
           },
           "description": {
-            "value": "<p>You befuddle your target with strange impulses, causing it to act randomly. The effects are determined by the target's Will save. You can Dismiss the spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target babbles incoherently and is Stunned 1.</p>\n<p><strong>Failure</strong> The target is  for 1 minute. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Critical Failure</strong> The target is Confused for 1 minute, with no save to end early.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You befuddle your target with strange impulses, causing it to act randomly. The effects are determined by the target's Will save. You can Dismiss the spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target babbles incoherently and is Stunned 1.</p>\n<p><strong>Failure</strong> The target is Confused for 1 minute. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Critical Failure</strong> The target is Confused for 1 minute, with no save to end early.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -13735,7 +13735,7 @@
             }
           },
           "description": {
-            "value": "<p>You create a phantasmal image of the most fearsome creature imaginable to the target. Only the spell's target can see the killer, though you can see the vague shape of the illusion as it races forth to attack. The effect of the killer is based on the outcome of the target's Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes 4d6 mental damage and is Frightened 1.</p>\n<p><strong>Failure</strong> The target takes 8d6 mental damage and is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is so afraid it might die. It must attempt a Fortitude save; if the target fails, it dies. On a successful Fortitude save, the target takes 12d6 mental damage, is  until the end of its next turn, and is Frightened 4. This effect has the incapacitation trait.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6 on a failure and by 3d6 on a critical failure.</p>"
+            "value": "<p>You create a phantasmal image of the most fearsome creature imaginable to the target. Only the spell's target can see the killer, though you can see the vague shape of the illusion as it races forth to attack. The effect of the killer is based on the outcome of the target's Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes 4d6 mental damage and is Frightened 1.</p>\n<p><strong>Failure</strong> The target takes 8d6 mental damage and is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is so afraid it might die. It must attempt a Fortitude save; if the target fails, it dies. On a successful Fortitude save, the target takes 12d6 mental damage, is Fleeing until the end of its next turn, and is Frightened 4. This effect has the incapacitation trait.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6 on a failure and by 3d6 on a critical failure.</p>"
           },
           "duration": {
             "sustained": false,
@@ -13962,7 +13962,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You defy gravity and levitate the target 5 feet off the ground. For the duration of the spell, you can move the target up or down 10 feet with a single action, which has the concentrate trait. A creature floating in the air from levitate takes a -2 circumstance penalty to attack rolls. A floating creature can spend an Interact action to stabilize itself and negate this penalty for the remainder of its turn. If the target is adjacent to a fixed object or terrain of suitable stability, it can move across the surface by climbing (if the surface is vertical, like a wall) or crawling (if the surface is horizontal, such as a ceiling). The GM determines which surfaces can be climbed or crawled across.</p>\n<p></p>"
+            "value": "<p>You defy gravity and levitate the target 5 feet off the ground. For the duration of the spell, you can move the target up or down 10 feet with a single action, which has the concentrate trait. A creature floating in the air from levitate takes a -2 circumstance penalty to attack rolls. A floating creature can spend an Interact action to stabilize itself and negate this penalty for the remainder of its turn. If the target is adjacent to a fixed object or terrain of suitable stability, it can move across the surface by climbing (if the surface is vertical, like a wall) or crawling (if the surface is horizontal, such as a ceiling). The GM determines which surfaces can be climbed or crawled across.</p>\n<p>Spell Effect: Levitate</p>"
           },
           "duration": {
             "sustained": false,
@@ -14028,7 +14028,7 @@
             }
           },
           "description": {
-            "value": "<p>You block the target's motor impulses before they can leave its mind, threatening to freeze the target in place. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Stunned 1.</p>\n<p><strong>Failure</strong> The target is  for 1 round.</p>\n<p><strong>Critical Failure</strong> The target is Paralyzed for 4 rounds. At the end of each of its turns, it can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You block the target's motor impulses before they can leave its mind, threatening to freeze the target in place. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Stunned 1.</p>\n<p><strong>Failure</strong> The target is Paralyzed for 1 round.</p>\n<p><strong>Critical Failure</strong> The target is Paralyzed for 4 rounds. At the end of each of its turns, it can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -14169,7 +14169,7 @@
             }
           },
           "description": {
-            "value": "<p>The target is overtaken with uncontrollable laughter. It must attempt a Will save.</p>\n<hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is plagued with uncontrollable laughter. It can't use reactions.</p>\n<p><strong>Failure</strong> The target is Slowed 1 and can't use reactions.</p>\n<p><strong>Critical Failure</strong> The target falls  and can't use actions or reactions for 1 round. It then suffers the failure effects.</p>"
+            "value": "<p>The target is overtaken with uncontrollable laughter. It must attempt a Will save.</p>\n<hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is plagued with uncontrollable laughter. It can't use reactions.</p>\n<p><strong>Failure</strong> The target is Slowed 1 and can't use reactions.</p>\n<p><strong>Critical Failure</strong> The target falls Prone and can't use actions or reactions for 1 round. It then suffers the failure effects.</p>"
           },
           "duration": {
             "sustained": true,
@@ -14232,7 +14232,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Three illusory images of you swirl about your space, potentially causing those who attack you to hit one of the images instead of you. Any attack that would hit you has a random chance of hitting one of your images instead of you. If all three images remain, there is a 1 in 4 chance of hitting you (1 on [[/r 1d4]]). With two images remaining, there is a 1 in 3 chance of hitting you (1-2 on [[/r 1d6]]). With only one image, the chances are 1 in 2 (1-3 on [[/r 1d6]]).</p>\n<p>Once an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys an image but has no additional effect (even if the attack would normally have an effect on a failure). If an attack roll is a critical success and would hit one of the images, one of the images is destroyed and the attack roll becomes a success against you. Once all the images are destroyed, the spell ends.</p>\n<p></p>"
+            "value": "<p>Three illusory images of you swirl about your space, potentially causing those who attack you to hit one of the images instead of you. Any attack that would hit you has a random chance of hitting one of your images instead of you. If all three images remain, there is a 1 in 4 chance of hitting you (1 on [[/r 1d4]]). With two images remaining, there is a 1 in 3 chance of hitting you (1-2 on [[/r 1d6]]). With only one image, the chances are 1 in 2 (1-3 on [[/r 1d6]]).</p>\n<p>Once an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys an image but has no additional effect (even if the attack would normally have an effect on a failure). If an attack roll is a critical success and would hit one of the images, one of the images is destroyed and the attack roll becomes a success against you. Once all the images are destroyed, the spell ends.</p>\n<p>Spell Effect: Mirror Image</p>"
           },
           "duration": {
             "sustained": false,
@@ -14602,7 +14602,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -14812,7 +14812,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the  reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the  spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the Force Barrage spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>Spell Effect: Shield</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
           },
           "duration": {
             "sustained": false,
@@ -14884,7 +14884,7 @@
             "die": "d8"
           },
           "description": {
-            "value": "<p>This impressive-looking weapon is forged from a single piece of cold iron. Man-Feller is a <em>+1 striking cold iron </em> that strikes particularly painful wounds into the flesh of humans it hews. The battle axe deals an additional 1d6 slashing damage to any human it wounds. This benefit doesn't apply against humans disguised as other creatures. It's up to GM discretion whether this effect applies against such a disguised human.</p>\n<p>Those who might find it amusing to point out the awkward and almost comedic duplication in the weapon's name would do well to consider that those who previously mocked the name of King Merlokrep's favorite axe to the kobold's face didn't live long enough to finish their self-congratulatory chuckles.</p>"
+            "value": "<p>This impressive-looking weapon is forged from a single piece of cold iron. Man-Feller is a <em>+1 striking cold iron Battle Axe</em> that strikes particularly painful wounds into the flesh of humans it hews. The battle axe deals an additional 1d6 slashing damage to any human it wounds. This benefit doesn't apply against humans disguised as other creatures. It's up to GM discretion whether this effect applies against such a disguised human.</p>\n<p>Those who might find it amusing to point out the awkward and almost comedic duplication in the weapon's name would do well to consider that those who previously mocked the name of King Merlokrep's favorite axe to the kobold's face didn't live long enough to finish their self-congratulatory chuckles.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -14980,7 +14980,7 @@
           },
           "containerId": null,
           "description": {
-            "value": "<p>Originally, this magical crown was to be known as the Crown of Toil-a magic item crafted by the dwarven priest named Gristogar. He intended for the crown to bolster his ability to rule and herald in a new era of a dwarven kingdom that followed the teachings of Droskar. Yet Gristogar wasn't equal to his own ambitions, and before he could complete the Crown of Toil, his cult died out and he ended his own life. For centuries, the incomplete crown lay dormant, but over that time, fragments of Gristogar's soul infused it-not enough to transform it into a truly intelligent item, but enough to give it a rudimentary need and desire to be completed.</p>\n<p>When the Kobold King Merlokrep discovered the discarded crown and placed it upon his head, the crown at last had agency- if not in a hale and hearty dwarf, at least in the frame of a powerful and ambitious kobold. Just as the crown began influencing Merlokrep, so too did the Kobold King's personality influence the crown. Today, the device is known as the <em>Crown of the Kobold King</em>, and while it still urges the one who wears it to build a kingdom of endlessly toiling workers, it no longer does so in honor of Droskar. Instead, it seeks the rise of a brutal kobold kingdom.</p>\n<p>The crown appears as a golden band surrounded by iron spikes that glisten with fresh blood-the addition of a kobold skull to the top is largely decorative, but one the crown has grown to \"enjoy.\" Even in its incomplete state, a few rituals away from its true potential, the Crown of the Kobold King is a potent item. Wearing the crown grants you a +2 item bonus to Intimidation checks and a +1 item bonus to saving throws against fear effects.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (command, envision)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The crown infuses you with the glorious conviction that you're meant to rule, granting you a +1 status bonus to attack rolls, saving throws, and Charisma-based skill checks for 1 minute.</p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> 10 minutes (envision, Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast a  spell.</p>"
+            "value": "<p>Originally, this magical crown was to be known as the Crown of Toil-a magic item crafted by the dwarven priest named Gristogar. He intended for the crown to bolster his ability to rule and herald in a new era of a dwarven kingdom that followed the teachings of Droskar. Yet Gristogar wasn't equal to his own ambitions, and before he could complete the Crown of Toil, his cult died out and he ended his own life. For centuries, the incomplete crown lay dormant, but over that time, fragments of Gristogar's soul infused it-not enough to transform it into a truly intelligent item, but enough to give it a rudimentary need and desire to be completed.</p>\n<p>When the Kobold King Merlokrep discovered the discarded crown and placed it upon his head, the crown at last had agency- if not in a hale and hearty dwarf, at least in the frame of a powerful and ambitious kobold. Just as the crown began influencing Merlokrep, so too did the Kobold King's personality influence the crown. Today, the device is known as the <em>Crown of the Kobold King</em>, and while it still urges the one who wears it to build a kingdom of endlessly toiling workers, it no longer does so in honor of Droskar. Instead, it seeks the rise of a brutal kobold kingdom.</p>\n<p>The crown appears as a golden band surrounded by iron spikes that glisten with fresh blood-the addition of a kobold skull to the top is largely decorative, but one the crown has grown to \"enjoy.\" Even in its incomplete state, a few rituals away from its true potential, the Crown of the Kobold King is a potent item. Wearing the crown grants you a +2 item bonus to Intimidation checks and a +1 item bonus to saving throws against fear effects.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (command, envision)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The crown infuses you with the glorious conviction that you're meant to rule, granting you a +1 status bonus to attack rolls, saving throws, and Charisma-based skill checks for 1 minute.</p>\n<p>Effect: Crown of the Kobold King</p>\n<hr />\n<p><strong>Activate</strong> 10 minutes (envision, Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast a Nightmare spell.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -15260,7 +15260,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><strong>Requirements</strong> King Merlokrep is adjacent to at least one enemy</p>\n<hr />\n<p><strong>Effect</strong> King Merlokrep whips his fabulous satin cloak into the face of an adjacent creature and attempts an Intimidation check against that creature's Will DC. On a success, the creature is humiliated and distracted by the act and is  until the end of King Merlokrep's next turn. King Merlokrep then Strides up to his Speed and gains a +2 circumstance bonus to AC against reactions triggered by this movement. He must end this movement in a space that isn't adjacent to any enemy.</p>"
+            "value": "<p><strong>Requirements</strong> King Merlokrep is adjacent to at least one enemy</p>\n<hr />\n<p><strong>Effect</strong> King Merlokrep whips his fabulous satin cloak into the face of an adjacent creature and attempts an Intimidation check against that creature's Will DC. On a success, the creature is humiliated and distracted by the act and is Off-Guard until the end of King Merlokrep's next turn. King Merlokrep then Strides up to his Speed and gains a +2 circumstance bonus to AC against reactions triggered by this movement. He must end this movement in a space that isn't adjacent to any enemy.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -15373,7 +15373,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>King Merlokrep deals an additional 1d6 precision damage to  creatures.</p>"
+            "value": "<p>King Merlokrep deals an additional 1d6 precision damage to Off-Guard creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -16066,7 +16066,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>The magical lodestone discharges bolts of electricity that also magnetize metal in the room.</p>",
-        "disable": "<p>DC 18  Thievery to unhook the pressure plates from the trap, or  (2nd level, counteract DC 18) to counteract the trap</p>",
+        "disable": "<p>DC 18  Thievery to unhook the pressure plates from the trap, or Dispel Magic (2nd level, counteract DC 18) to counteract the trap</p>",
         "isComplex": true,
         "level": {
           "value": 2
@@ -16077,7 +16077,7 @@
           "title": "Pathfinder Adventure: Crown of the Kobold King"
         },
         "reset": "<p>At the end of a round in which there are no creatures standing on the floor or stuck to the lodestone, the trap deactivates. The vargouilles return to their alcoves, and the doors close. The trap resets automatically after 1 minute.</p>",
-        "routine": "<p>(1 action) On its initiative, the trap exerts a strong magnetic pull on the doors, causing the north and west doors to open if they're closed, or causing the south and east doors to close if they're open. A character can open or close a door against this pull with a successful DC 18  Athletics check to  the door. At the same time, any character in the room who wears primarily metal armor must attempt a DC 18  Reflex save (characters in medium metal armor suffer a -1 circumstance penalty to this save, and characters in heavy metal armor suffer a -2 circumstance penalty).</p>\n<hr>\n<p><strong>Critical Success</strong> The PC is unaffected.</p>\n<p><strong>Success</strong> The PC resists the pull but treats the room as difficult terrain.</p>\n<p><strong>Failure</strong> The PC treats the room as difficult terrain and is knocked . A PC who's already prone suffers a critical failure instead.</p>\n<p><strong>Critical Failure</strong> As failure, but the PC is also pulled 5 feet toward the lodestone. A PC who is adjacent to the lodestone instead becomes stuck to it and is  as long as the trap continues its routine (escape DC 18).</p>"
+        "routine": "<p>(1 action) On its initiative, the trap exerts a strong magnetic pull on the doors, causing the north and west doors to open if they're closed, or causing the south and east doors to close if they're open. A character can open or close a door against this pull with a successful DC 18  Athletics check to Force Open the door. At the same time, any character in the room who wears primarily metal armor must attempt a DC 18  Reflex save (characters in medium metal armor suffer a -1 circumstance penalty to this save, and characters in heavy metal armor suffer a -2 circumstance penalty).</p>\n<hr>\n<p><strong>Critical Success</strong> The PC is unaffected.</p>\n<p><strong>Success</strong> The PC resists the pull but treats the room as difficult terrain.</p>\n<p><strong>Failure</strong> The PC treats the room as difficult terrain and is knocked Prone. A PC who's already prone suffers a critical failure instead.</p>\n<p><strong>Critical Failure</strong> As failure, but the PC is also pulled 5 feet toward the lodestone. A PC who is adjacent to the lodestone instead becomes stuck to it and is Restrained as long as the trap continues its routine (escape DC 18).</p>"
       },
       "saves": {
         "fortitude": {
@@ -17237,7 +17237,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You blast an icy ray. Make a spell attack roll. The ray deals 2d4 cold damage.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and takes a -10-foot status penalty to its Speeds for 1 round.</p>\n<p></p>\n<p><strong>Success</strong> The target takes normal damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
+            "value": "<p>You blast an icy ray. Make a spell attack roll. The ray deals 2d4 cold damage.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and takes a -10-foot status penalty to its Speeds for 1 round.</p>\n<p>Spell Effect: Ray of Frost</p>\n<p><strong>Success</strong> The target takes normal damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -17539,7 +17539,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p></p><hr /><p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated level.</p>\n<p><strong>Craft Requirements</strong> Supply a listed-level casting of the spell.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+            "value": "<p>Gecko Grip</p><hr /><p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated level.</p>\n<p><strong>Craft Requirements</strong> Supply a listed-level casting of the spell.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
           },
           "equipped": {
             "carryType": "worn"
@@ -17889,7 +17889,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature walks into a large pit's square;</p>\n<p><strong>Effect</strong> The triggering creature falls into the pit but can attempt a DC 18  Reflex save to  to avoid falling. On a failure, a creature falls 20 feet into an eye-filled pit. The eyes cushion the fall so the 20-foot fall inflicts only @Damage[5[bludgeoning]] damage, but they also completely obscure vision; a character is effectively blind as long as they remain in the pit. The walls of the pit are slick, though a character can  them with a successful DC 25  Athletics check.</p>"
+            "value": "<p><strong>Trigger</strong> A creature walks into a large pit's square;</p>\n<p><strong>Effect</strong> The triggering creature falls into the pit but can attempt a DC 18  Reflex save to Grab an Edge to avoid falling. On a failure, a creature falls 20 feet into an eye-filled pit. The eyes cushion the fall so the 20-foot fall inflicts only @Damage[5[bludgeoning]] damage, but they also completely obscure vision; a character is effectively blind as long as they remain in the pit. The walls of the pit are slick, though a character can Climb them with a successful DC 25  Athletics check.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -17919,7 +17919,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature walks into a small pit's square;</p>\n<p><strong>Effect</strong> The triggering creature must succeed at a DC 18  Reflex save or fall  (on a critical failure, the creature also twists its ankle and becomes Clumsy 1 until it receives any amount of healing).</p>"
+            "value": "<p><strong>Trigger</strong> A creature walks into a small pit's square;</p>\n<p><strong>Effect</strong> The triggering creature must succeed at a DC 18  Reflex save or fall Prone (on a critical failure, the creature also twists its ankle and becomes Clumsy 1 until it receives any amount of healing).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -18305,7 +18305,7 @@
           "title": "Pathfinder Adventure: Crown of the Kobold King"
         },
         "reset": "",
-        "routine": "<p>(1 action; divine, necromancy) As the dwarves continue to chant and grasp at the living, the pit infuses all living creatures inside it with the ache and pain a body endures after hours of constant toil. Each living creature in the pit must attempt a DC 18  Fortitude (divine,necromancy,damaging-effect) save.</p>\n<hr>\n<p><strong>Critical Success</strong> The creature suffers no ill effect and is thereafter immune to the pit of toil's routine.</p>\n<p><strong>Success</strong> The creature suffers no ill effect.</p>\n<p><strong>Failure</strong> The creature takes 2d6 void damage and becomes Enfeebled 1 for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes 4d6 void damage and becomes .</p>"
+        "routine": "<p>(1 action; divine, necromancy) As the dwarves continue to chant and grasp at the living, the pit infuses all living creatures inside it with the ache and pain a body endures after hours of constant toil. Each living creature in the pit must attempt a DC 18  Fortitude (divine,necromancy,damaging-effect) save.</p>\n<hr>\n<p><strong>Critical Success</strong> The creature suffers no ill effect and is thereafter immune to the pit of toil's routine.</p>\n<p><strong>Success</strong> The creature suffers no ill effect.</p>\n<p><strong>Failure</strong> The creature takes 2d6 void damage and becomes Enfeebled 1 for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes 4d6 void damage and becomes Fatigued.</p>"
       },
       "saves": {
         "fortitude": {
@@ -18660,7 +18660,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The tallow guardian attempts to pull a Medium or smaller creature it has  into its body. The tallow guardian attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it encases the creature with its body. An encased creature is grabbed, is Slowed 1, and must hold its breath or start suffocating. It takes 2d6 fire damage from the tallow guardian's molten hot wax when it's first encased, and at the end of each of its turns while it's encased.</p>\n<p>A tallow guardian can only have one encased creature at a time; if a tallow guardian encases a new creature, a previously encased creature is forced out of its body into an adjacent square of the creature's choice.</p>\n<p>An encased creature can break free with a successful DC 22 check to . An encased creature can attack the tallow guardian, but only with unarmed attacks or with weapons of light Bulk or less. The tallow guardian is  against the attack. If the tallow guardian takes 7 or more bludgeoning or slashing damage from an encased creature, the creature wrenches itself free. A creature that gets free by either method can immediately breathe and exits the tallow guardian's space, but it continues to take 1d6 persistent,fire damage from the molten wax that clings to its body.</p>\n<p>If a tallow guardian is destroyed, any creature it has encased is automatically released as the guardian's body collapses into a shapeless mound of tallow.</p>"
+            "value": "<p>The tallow guardian attempts to pull a Medium or smaller creature it has Grabbed into its body. The tallow guardian attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it encases the creature with its body. An encased creature is grabbed, is Slowed 1, and must hold its breath or start suffocating. It takes 2d6 fire damage from the tallow guardian's molten hot wax when it's first encased, and at the end of each of its turns while it's encased.</p>\n<p>A tallow guardian can only have one encased creature at a time; if a tallow guardian encases a new creature, a previously encased creature is forced out of its body into an adjacent square of the creature's choice.</p>\n<p>An encased creature can break free with a successful DC 22 check to Escape. An encased creature can attack the tallow guardian, but only with unarmed attacks or with weapons of light Bulk or less. The tallow guardian is Off-Guard against the attack. If the tallow guardian takes 7 or more bludgeoning or slashing damage from an encased creature, the creature wrenches itself free. A creature that gets free by either method can immediately breathe and exits the tallow guardian's space, but it continues to take 1d6 persistent,fire damage from the molten wax that clings to its body.</p>\n<p>If a tallow guardian is destroyed, any creature it has encased is automatically released as the guardian's body collapses into a shapeless mound of tallow.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -18944,7 +18944,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>If the Disciples is reduced to 0 Hit Points by means other than fire damage, disintegration, or its resurrection vulnerability, it returns to unlife at the start of its next turn. It has 45 Hit Points and is  in the space in which it was destroyed. The Disciples can't be returned by this ability again for 1 hour.</p>"
+            "value": "<p>If the Disciples is reduced to 0 Hit Points by means other than fire damage, disintegration, or its resurrection vulnerability, it returns to unlife at the start of its next turn. It has 45 Hit Points and is Prone in the space in which it was destroyed. The Disciples can't be returned by this ability again for 1 hour.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -19310,7 +19310,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>Magically hardened sheets of obsidian drop down over the room's exits while the machinery within taps into wells of magma to begin spewing lava-and monsters-into the maze.</p>",
-        "disable": "<p>DC 28  Thievery (expert) to disable the main pressure plate at area <strong>H4a</strong> and deactivate the trap entirely (this causes the obsidian walls to retract up into the ceiling as well), DC 25  Thievery (trained) to disable one of the three lava spouts, or DC 28  Athletics (trained) to  a fallen obsidian wall</p>",
+        "disable": "<p>DC 28  Thievery (expert) to disable the main pressure plate at area <strong>H4a</strong> and deactivate the trap entirely (this causes the obsidian walls to retract up into the ceiling as well), DC 25  Thievery (trained) to disable one of the three lava spouts, or DC 28  Athletics (trained) to Force Open a fallen obsidian wall</p>",
         "isComplex": true,
         "level": {
           "value": 6
@@ -19417,7 +19417,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>A thoqqua's body is hot enough to melt stone. A creature who grabs a thoqqua, is  by a thoqqua, or critically fails a melee Strike with an unarmed attack or agile weapon takes 1d4 fire damage (DC 15  Basic  Reflex).</p>"
+            "value": "<p>A thoqqua's body is hot enough to melt stone. A creature who grabs a thoqqua, is Grabbed by a thoqqua, or critically fails a melee Strike with an unarmed attack or agile weapon takes 1d4 fire damage (DC 15  Basic  Reflex).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -19729,7 +19729,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A visible living creature enters the room, or a Stealthy creature fails to remain  from the toxic furnace with a DC 25  Stealth check (the trap's sensors have darkvision and lifesense);</p>\n<p><strong>Effect</strong> One of the toxic furnace's vents swivels to aim at the triggering creature and then spews a gout of boiling toxin at the target. The toxic furnace then rolls initiative.</p>"
+            "value": "<p><strong>Trigger</strong> A visible living creature enters the room, or a Stealthy creature fails to remain Hidden from the toxic furnace with a DC 25  Stealth check (the trap's sensors have darkvision and lifesense);</p>\n<p><strong>Effect</strong> One of the toxic furnace's vents swivels to aim at the triggering creature and then spews a gout of boiling toxin at the target. The toxic furnace then rolls initiative.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -19886,7 +19886,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> More than one Medium or more than two Small creatures are inside the cauldron when it is activated to lower;</p>\n<p><strong>Effect</strong> The cauldron releases from its anchor points on the chains and drops 30 feet to area <strong>E1</strong>; any creatures within take 15 points of bludgeoning damage in the fall. A creature can attempt to  to avoid falling by clinging to a chain.</p>"
+            "value": "<p><strong>Trigger</strong> More than one Medium or more than two Small creatures are inside the cauldron when it is activated to lower;</p>\n<p><strong>Effect</strong> The cauldron releases from its anchor points on the chains and drops 30 feet to area <strong>E1</strong>; any creatures within take 15 points of bludgeoning damage in the fall. A creature can attempt to Grab an Edge to avoid falling by clinging to a chain.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -20463,7 +20463,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The vargouille is adjacent to a , , or willing humanoid creature</p>\n<p><strong>Effect</strong> The vargouille nuzzles up against a helpless or willing humanoid creature in a parody of a lover's kiss-the creature must then attempt a saving throw or begin an unsettling transformation into a vargouille. The sickened, stupefied, and unconscious conditions from Vargouille's Kiss don't improve on their own until the disease is cured. This disease can't progress in stage as long as the victim is in sunlight or in the area of a 3rd-rank or higher light effect.</p>\n<p><strong>Saving Throw</strong> DC 18  Fortitude</p>\n<p><strong>Stage 1</strong> no ill effect (2 hours)</p>\n<p><strong>Stage 2</strong> victim's hair falls out, Sickened 1 (2 hours)</p>\n<p><strong>Stage 3</strong> victim's ears elongate into winglike shapes and their teeth grow tangled and sharp, Stupefied 1 (2 hours)</p>\n<p><strong>Stage 4</strong> as Stage 3, but the victim falls unconscious (2 hours)</p>\n<p><strong>Stage 5</strong> death, and the victim's head transforms into a new vargouille that detaches from the body and flies off to spread evil on its own.</p>"
+            "value": "<p><strong>Requirements</strong> The vargouille is adjacent to a Paralyzed, Unconscious, or willing humanoid creature</p>\n<p><strong>Effect</strong> The vargouille nuzzles up against a helpless or willing humanoid creature in a parody of a lover's kiss-the creature must then attempt a saving throw or begin an unsettling transformation into a vargouille. The sickened, stupefied, and unconscious conditions from Vargouille's Kiss don't improve on their own until the disease is cured. This disease can't progress in stage as long as the victim is in sunlight or in the area of a 3rd-rank or higher light effect.</p>\n<p><strong>Saving Throw</strong> DC 18  Fortitude</p>\n<p><strong>Stage 1</strong> no ill effect (2 hours)</p>\n<p><strong>Stage 2</strong> victim's hair falls out, Sickened 1 (2 hours)</p>\n<p><strong>Stage 3</strong> victim's ears elongate into winglike shapes and their teeth grow tangled and sharp, Stupefied 1 (2 hours)</p>\n<p><strong>Stage 4</strong> as Stage 3, but the victim falls unconscious (2 hours)</p>\n<p><strong>Stage 5</strong> death, and the victim's head transforms into a new vargouille that detaches from the body and flies off to spread evil on its own.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -20496,7 +20496,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The vargouille distends its jaw awfully and emits an unnerving shriek. All creatures within 60 feet who can see and hear the vargouille must attempt a DC 15  Fortitude save.</p>\n<p><strong>Success</strong> The creature is unaffected and is temporarily immune to Vargouille's Shriek for 24 hours.</p>\n<p><strong>Failure</strong> The creature is  until the end of its next turn.</p>\n<p><strong>Critical Failure</strong> The creature is paralyzed. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
+            "value": "<p>The vargouille distends its jaw awfully and emits an unnerving shriek. All creatures within 60 feet who can see and hear the vargouille must attempt a DC 15  Fortitude save.</p>\n<p><strong>Success</strong> The creature is unaffected and is temporarily immune to Vargouille's Shriek for 24 hours.</p>\n<p><strong>Failure</strong> The creature is Paralyzed until the end of its next turn.</p>\n<p><strong>Critical Failure</strong> The creature is paralyzed. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -21023,7 +21023,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Ygrik deals an additional 1d6 precision damage to  creatures.</p>"
+            "value": "<p>Ygrik deals an additional 1d6 precision damage to Off-Guard creatures.</p>"
           },
           "publication": {
             "license": "OGL",

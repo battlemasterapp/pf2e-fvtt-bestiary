@@ -814,7 +814,7 @@
             }
           },
           "description": {
-            "value": "<p>You unleash a powerful pulse of telekinetic power, and the pulse violently hurls creatures away from you. Each creature in the area takes 7d10 force damage depending on its Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is pushed 10 feet away from you.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage. The creature is pushed 20 feet away from you and is then knocked .</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The force damage increases by 2d10, and the distance the target is moved on a failure and critical failure increases by 5 feet.</p>"
+            "value": "<p>You unleash a powerful pulse of telekinetic power, and the pulse violently hurls creatures away from you. Each creature in the area takes 7d10 force damage depending on its Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is pushed 10 feet away from you.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage. The creature is pushed 20 feet away from you and is then knocked Prone.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The force damage increases by 2d10, and the distance the target is moved on a failure and critical failure increases by 5 feet.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1232,7 +1232,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The Grand Defender unleashes a volley of warhammers that deal 12d8 bludgeoning damage in a 50-foot cone (DC 36  Basic  Reflex save). The Grand Defender can exclude any number of squares from the cone's area, preventing damage to creatures in those squares. Creatures that critically fail their save are pushed 10 feet away from the Grand Defender and knocked . The storm creates 24 Medium warhammers that persist after the attack and can be used by creatures. The Grand Defender can't use Hammer Storm for [[/br 1d4 #Recharge Hammer Storm]]{1d4 rounds}.</p>"
+            "value": "<p>The Grand Defender unleashes a volley of warhammers that deal 12d8 bludgeoning damage in a 50-foot cone (DC 36  Basic  Reflex save). The Grand Defender can exclude any number of squares from the cone's area, preventing damage to creatures in those squares. Creatures that critically fail their save are pushed 10 feet away from the Grand Defender and knocked Prone. The storm creates 24 Medium warhammers that persist after the attack and can be used by creatures. The Grand Defender can't use Hammer Storm for [[/br 1d4 #Recharge Hammer Storm]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1768,7 +1768,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A living creature struck by a graul's jaws attack must succeed at a DC 20  Fortitude save or become . It can attempt a new check at the end of each of its turns, and the DC cumulatively decreases by 1 on each such check. A creature paralyzed by this ability is also affected by the graul's darkvision invisibility for as long as the effect persists.</p>"
+            "value": "<p>A living creature struck by a graul's jaws attack must succeed at a DC 20  Fortitude save or become Paralyzed. It can attempt a new check at the end of each of its turns, and the DC cumulatively decreases by 1 on each such check. A creature paralyzed by this ability is also affected by the graul's darkvision invisibility for as long as the effect persists.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1800,7 +1800,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The graul has a creature  with its tentacle</p>\n<hr />\n<p><strong>Effect</strong> The graul pulls the creature toward itself. The graul attempts an Athletics check against the creature's Fortitude DC. With a success, the graul pulls the creature 15 feet closer to it.</p>"
+            "value": "<p><strong>Requirements</strong> The graul has a creature Grabbed with its tentacle</p>\n<hr />\n<p><strong>Effect</strong> The graul pulls the creature toward itself. The graul attempts an Athletics check against the creature's Fortitude DC. With a success, the graul pulls the creature 15 feet closer to it.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1858,7 +1858,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature hit by the graul's tentacle becomes  by the graul. The creature isn't , but it can't move beyond the reach of the graul's tentacle. A creature can sever the tentacle with a Strike against AC 18 that deals at least @Damage[10[slashing]] damage. This deals no damage to the graul but prevents it from using its tentacle Strike until it regrows the tentacle, which takes 1 round. The graul can move without ending the Grab as long as the creature remains within the tentacle's reach.</p>"
+            "value": "<p>A creature hit by the graul's tentacle becomes Grabbed by the graul. The creature isn't Immobilized, but it can't move beyond the reach of the graul's tentacle. A creature can sever the tentacle with a Strike against AC 18 that deals at least @Damage[10[slashing]] damage. This deals no damage to the graul but prevents it from using its tentacle Strike until it regrows the tentacle, which takes 1 round. The graul can move without ending the Grab as long as the creature remains within the tentacle's reach.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2187,7 +2187,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature hit by a pagulin's spit must attempt a DC 22  Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is  for 1 round. It can use an Interact action to wipe away the spittle and remove the dazzled condition.</p>\n<p><strong>Failure</strong> As success, except the creature is  for 1 round instead of dazzled.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature is blinded for 1 minute. The creature needs 2 total Interact actions to wipe away the spittle.</p>"
+            "value": "<p>A creature hit by a pagulin's spit must attempt a DC 22  Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Dazzled for 1 round. It can use an Interact action to wipe away the spittle and remove the dazzled condition.</p>\n<p><strong>Failure</strong> As success, except the creature is Blinded for 1 round instead of dazzled.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature is blinded for 1 minute. The creature needs 2 total Interact actions to wipe away the spittle.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2278,7 +2278,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature hit by a pagulin's tail becomes impaled on one of the tail's spikes. The creature becomes . If the pagulin moves, it brings the grabbed creature along with it. The pagulin doesn't need to use additional actions to keep the creature grabbed; the creature remains grabbed as long as it's impaled. The grabbed creature can attempt to  as normal. Large and larger creatures are immune to a pagulin's Tail Impalement.</p>"
+            "value": "<p>A creature hit by a pagulin's tail becomes impaled on one of the tail's spikes. The creature becomes Grabbed. If the pagulin moves, it brings the grabbed creature along with it. The pagulin doesn't need to use additional actions to keep the creature grabbed; the creature remains grabbed as long as it's impaled. The grabbed creature can attempt to Escape as normal. Large and larger creatures are immune to a pagulin's Tail Impalement.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2596,7 +2596,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The Bloodstorm is in Demon Shape and has a creature </p>\n<hr />\n<p><strong>Effect</strong> The writing mass of the Bloodstorm's pincer bites the grabbed creature, dealing @Damage[(3d8+8)[piercing]] damage (basic Fortitude save). On a failure, the creature also takes 1d8 persistent,bleed damage.</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
+            "value": "<p><strong>Requirements</strong> The Bloodstorm is in Demon Shape and has a creature Grabbed</p>\n<hr />\n<p><strong>Effect</strong> The writing mass of the Bloodstorm's pincer bites the grabbed creature, dealing @Damage[(3d8+8)[piercing]] damage (basic Fortitude save). On a failure, the creature also takes 1d8 persistent,bleed damage.</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
           },
           "publication": {
             "license": "OGL",

@@ -67,7 +67,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>A cloud of invisible magical sensors in a 10-foot radius surrounds the central column of the room.</p>",
-        "disable": "<p>DC 15  Acrobatics (magical,trap) to approach without triggering the trap followed by DC 17  Thievery (action:disable-a-device,magical,trap) (trained) to erase the rune, or DC 19  Athletics (magical,trap) to remove enough stones from the pillar to disrupt the magic, or  (1st level; counteract DC 15) to counteract the rune.</p>",
+        "disable": "<p>DC 15  Acrobatics (magical,trap) to approach without triggering the trap followed by DC 17  Thievery (action:disable-a-device,magical,trap) (trained) to erase the rune, or DC 19  Athletics (magical,trap) to remove enough stones from the pillar to disrupt the magic, or Dispel Magic (1st level; counteract DC 15) to counteract the rune.</p>",
         "isComplex": true,
         "level": {
           "value": 1
@@ -126,7 +126,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A living creature bearing <em>Hunger's Call</em> moves within 30 feet of the exit stairs</p>\n<hr />\n<p><strong>Effect</strong> The creature's mind becomes hazy and foggy as an unseen voice says to drop the relic and walk away. The creature must attempt a DC 20  Will (haunt,complex) save, and the haunt then rolls initiative.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is  for 1 round.</p>\n<p><strong>Failure</strong> The target is dazzled for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target loses control of their mind and on their next round must set <em>Hunger's Call</em> on the floor and move their speed in a direction away from the relic; this causes the relic to teleport itself back to area D1. If they have any actions remaining, the target loses those actions. At the end of their turn, the target regains control of their mind.</p>"
+            "value": "<p><strong>Trigger</strong> A living creature bearing <em>Hunger's Call</em> moves within 30 feet of the exit stairs</p>\n<hr />\n<p><strong>Effect</strong> The creature's mind becomes hazy and foggy as an unseen voice says to drop the relic and walk away. The creature must attempt a DC 20  Will (haunt,complex) save, and the haunt then rolls initiative.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Dazzled for 1 round.</p>\n<p><strong>Failure</strong> The target is dazzled for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target loses control of their mind and on their next round must set <em>Hunger's Call</em> on the floor and move their speed in a direction away from the relic; this causes the relic to teleport itself back to area D1. If they have any actions remaining, the target loses those actions. At the end of their turn, the target regains control of their mind.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -226,7 +226,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A living creature bearing <em>Hunger's Call</em> moves within 30 feet of the exit stairs</p>\n<hr />\n<p><strong>Effect</strong> Whispering voices fill the triggering creature's mind with a compulsion for blood of the living. The creature must attempt a DC 20  Will (mental,occult,haunt,complex) save, and the haunt then rolls initiative.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Slowed 1.</p>\n<p><strong>Failure</strong> The target is Slowed 2.</p>\n<p><strong>Critical Failure</strong> The target loses control of their mind and on their next round must move to the nearest ally and make an unarmed bite attack. The ally is  against this attack. The bite deals 1d4 piercing damage and a critical hit deals an additional @Damage[1[bleed]] damage. At the end of their turn, the target regains control of their mind.</p>"
+            "value": "<p><strong>Trigger</strong> A living creature bearing <em>Hunger's Call</em> moves within 30 feet of the exit stairs</p>\n<hr />\n<p><strong>Effect</strong> Whispering voices fill the triggering creature's mind with a compulsion for blood of the living. The creature must attempt a DC 20  Will (mental,occult,haunt,complex) save, and the haunt then rolls initiative.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Slowed 1.</p>\n<p><strong>Failure</strong> The target is Slowed 2.</p>\n<p><strong>Critical Failure</strong> The target loses control of their mind and on their next round must move to the nearest ally and make an unarmed bite attack. The ally is Off-Guard against this attack. The bite deals 1d4 piercing damage and a critical hit deals an additional @Damage[1[bleed]] damage. At the end of their turn, the target regains control of their mind.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -323,7 +323,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A living creature approaches within 10 feet of the smiling face in the center of the north wall</p>\n<hr />\n<p><strong>Effect</strong> The whistling rises in volume to a painful pitch and deals @Damage[(1d8+4)[sonic]] damage. The affected creature must attempt a DC 20  Will (damaging-effect) save, and the haunt then rolls initiative.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes no damage.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is  for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Frightened 1, and is deafened for 2 minutes.</p>"
+            "value": "<p><strong>Trigger</strong> A living creature approaches within 10 feet of the smiling face in the center of the north wall</p>\n<hr />\n<p><strong>Effect</strong> The whistling rises in volume to a painful pitch and deals @Damage[(1d8+4)[sonic]] damage. The affected creature must attempt a DC 20  Will (damaging-effect) save, and the haunt then rolls initiative.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes no damage.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Deafened for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Frightened 1, and is deafened for 2 minutes.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -424,7 +424,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature enters the room.</p>\n<hr />\n<p><strong>Effect</strong> The trap sprays cleaning chemicals at the triggering creature dealing @Damage[(1d8+4)[acid]] damage. The creature must attempt a DC 20  Reflex (acid,damaging-effect) save, and the trap then rolls initiative.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is  for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is Blind for 1 round.</p>"
+            "value": "<p><strong>Trigger</strong> A creature enters the room.</p>\n<hr />\n<p><strong>Effect</strong> The trap sprays cleaning chemicals at the triggering creature dealing @Damage[(1d8+4)[acid]] damage. The creature must attempt a DC 20  Reflex (acid,damaging-effect) save, and the trap then rolls initiative.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Dazzled for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is Blind for 1 round.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -759,7 +759,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The ghoul is adjacent to the corpse of a creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghoul devours a chunk of the corpse and regains [[/r 1d6[healing]]] Hit Points.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>"
+            "value": "<p><strong>Requirements</strong> The ghoul is adjacent to the corpse of a creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghoul devours a chunk of the corpse and regains 1d6 healing Hit Points.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -794,7 +794,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Saving Throw</strong> DC 15  Fortitude</p>\n<hr />\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> 3d8 void damage and regains half as many Hit Points from all healing (1 day)</p>\n<p><strong>Stage 3</strong> as stage 2 (1 day)</p>\n<p><strong>Stage 4</strong> 3d8 void damage and gains no benefit from healing (1 day)</p>\n<p><strong>Stage 5</strong> as stage 4 (1 day)</p>\n<p><strong>Stage 6</strong> dead, and rises as a  the next midnight.</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 15  Fortitude</p>\n<hr />\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> 3d8 void damage and regains half as many Hit Points from all healing (1 day)</p>\n<p><strong>Stage 3</strong> as stage 2 (1 day)</p>\n<p><strong>Stage 4</strong> 3d8 void damage and gains no benefit from healing (1 day)</p>\n<p><strong>Stage 5</strong> as stage 4 (1 day)</p>\n<p><strong>Stage 6</strong> dead, and rises as a Ghoul the next midnight.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -829,7 +829,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Any living, non-elf creature hit by a ghoul's attack must succeed at a DC 15  Fortitude save or become . It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
+            "value": "<p>Any living, non-elf creature hit by a ghoul's attack must succeed at a DC 15  Fortitude save or become Paralyzed. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1248,7 +1248,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You inspire yourself and your allies with words or tunes of encouragement. You and all allies in the area gain a +1 status bonus to attack rolls, damage rolls, and saves against fear effects.</p>\n<p></p>"
+            "value": "<p>You inspire yourself and your allies with words or tunes of encouragement. You and all allies in the area gain a +1 status bonus to attack rolls, damage rolls, and saves against fear effects.</p>\n<p>Spell Effect: Courageous Anthem</p>"
           },
           "duration": {
             "sustained": false,
@@ -1429,7 +1429,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Rain in Cloudy Day transforms into a Small giant mushroom or patch of fungi. This ability otherwise uses the effects of .</p>"
+            "value": "<p>Rain in Cloudy Day transforms into a Small giant mushroom or patch of fungi. This ability otherwise uses the effects of One with Plants.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1681,7 +1681,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature walks onto the trapdoor</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature falls in and takes @Damage[10[bludgeoning]] damage plus 2d6 piercing damage from sharp implements at the bottom of the pit. That creature can use the  reaction to avoid falling.</p>"
+            "value": "<p><strong>Trigger</strong> A creature walks onto the trapdoor</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature falls in and takes @Damage[10[bludgeoning]] damage plus 2d6 piercing damage from sharp implements at the bottom of the pit. That creature can use the Grab an Edge reaction to avoid falling.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2036,7 +2036,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature attacks the shadow drake while it is in an area of dim light</p>\n<hr />\n<p><strong>Effect</strong> The shadow drake further obscures its position. The attacker must succeed at a DC 11  Flat check in order to affect the shadow drake, as if the drake were  for the triggering attack.</p>"
+            "value": "<p><strong>Trigger</strong> A creature attacks the shadow drake while it is in an area of dim light</p>\n<hr />\n<p><strong>Effect</strong> The shadow drake further obscures its position. The attacker must succeed at a DC 11  Flat check in order to affect the shadow drake, as if the drake were Hidden for the triggering attack.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2382,7 +2382,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> The swamp ooze unleashes a wave of swamp muck filled with sharp debris, covering all creatures within a 20-foot emanation. Each creature in the area must succeed at a DC 17  Reflex (damaging-effect) save or take 1d4 piercing damage and take a -10-foot penalty to its Speeds for 1 minute (on a critical failure, the creature also falls ).</p>\n<p>A creature can spend an Interact action to clean someone off, decreasing the Speed penalty by 5 feet with each action.</p>"
+            "value": "<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> The swamp ooze unleashes a wave of swamp muck filled with sharp debris, covering all creatures within a 20-foot emanation. Each creature in the area must succeed at a DC 17  Reflex (damaging-effect) save or take 1d4 piercing damage and take a -10-foot penalty to its Speeds for 1 minute (on a critical failure, the creature also falls Prone).</p>\n<p>A creature can spend an Interact action to clean someone off, decreasing the Speed penalty by 5 feet with each action.</p>"
           },
           "frequency": {
             "max": 1,

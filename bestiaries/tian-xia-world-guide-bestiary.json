@@ -174,7 +174,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The animated bamboo figure jumps up to 30 feet and makes two fist Strikes against different targets. It can use Knockdown following this activity, attempting to  each creature struck.</p>"
+            "value": "<p>The animated bamboo figure jumps up to 30 feet and makes two fist Strikes against different targets. It can use Knockdown following this activity, attempting to Trip each creature struck.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1313,7 +1313,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>An aoyin isn't impeded by difficult terrain caused by snow or mountainous terrain, nor does it need to  to move over uneven ground created by those conditions.</p>"
+            "value": "<p>An aoyin isn't impeded by difficult terrain caused by snow or mountainous terrain, nor does it need to Balance to move over uneven ground created by those conditions.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2854,7 +2854,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><strong>Trigger</strong> The caterpillar carriage gains the  or  condition</p>\n<hr />\n<p><strong>Effect</strong> The carriage is  for 1 round.</p>"
+            "value": "<p><strong>Trigger</strong> The caterpillar carriage gains the Slowed or Stunned condition</p>\n<hr />\n<p><strong>Effect</strong> The carriage is Quickened for 1 round.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3270,7 +3270,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>When Hiding, the five-color orchid mantis is  by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed.</p>"
+            "value": "<p>When Hiding, the five-color orchid mantis is Concealed by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3472,7 +3472,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>On the first round of combat, creatures that haven't acted are  to the mantis.</p>"
+            "value": "<p>On the first round of combat, creatures that haven't acted are Off-Guard to the mantis.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3920,7 +3920,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The gau cho rong is hiding and a creature that hasn't detected it is within 20 feet</p>\n<hr />\n<p><strong>Effect</strong> The gau cho rong Strides toward the creature. Once the creature is in reach, the gau cho rong makes a Strike against it. The target creature is  to this attack.</p>"
+            "value": "<p><strong>Requirements</strong> The gau cho rong is hiding and a creature that hasn't detected it is within 20 feet</p>\n<hr />\n<p><strong>Effect</strong> The gau cho rong Strides toward the creature. Once the creature is in reach, the gau cho rong makes a Strike against it. The target creature is Off-Guard to this attack.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3967,7 +3967,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The gau cho rong's last action was a successful jaws Strike</p>\n<hr />\n<p><strong>Effect</strong> The target takes 1d6 persistent,bleed damage. The gau cho rong gains some knowledge from the creature's blood, learning how to understand and speak all languages that creature knows for 1 minute, which it does in a distorted version of the target's voice. During that time, the gau cho rong also gains a +2 circumstance bonus to Intimidation checks to  that creature.</p>"
+            "value": "<p><strong>Requirements</strong> The gau cho rong's last action was a successful jaws Strike</p>\n<hr />\n<p><strong>Effect</strong> The target takes 1d6 persistent,bleed damage. The gau cho rong gains some knowledge from the creature's blood, learning how to understand and speak all languages that creature knows for 1 minute, which it does in a distorted version of the target's voice. During that time, the gau cho rong also gains a +2 circumstance bonus to Intimidation checks to Demoralize that creature.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4199,7 +4199,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>When Hiding, the giant orchid mantis is  by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed.</p>"
+            "value": "<p>When Hiding, the giant orchid mantis is Concealed by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4261,7 +4261,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The giant orchid mantis makes two leg Strikes. If it hits the same creature with both attacks, that creature is  until the end of the mantis's next turn.</p>"
+            "value": "<p>The giant orchid mantis makes two leg Strikes. If it hits the same creature with both attacks, that creature is Grabbed until the end of the mantis's next turn.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4290,7 +4290,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>In the first round of combat, creatures that haven't acted are  to the orchid mantis.</p>"
+            "value": "<p>In the first round of combat, creatures that haven't acted are Off-Guard to the orchid mantis.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4905,7 +4905,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Illusions bend light around the target, rendering it . This makes it  to all creatures, though the creatures can attempt to find the target, making it  to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+            "value": "<p>Illusions bend light around the target, rendering it Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5091,7 +5091,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>An ijhyeojin's level is considered 2 lower for the purpose of being conjured by the  ritual (and potentially other rituals, at the GM's discretion), but they're always free to attack or leave instead of negotiate unless the primary caster's check is a critical success.</p>"
+            "value": "<p>An ijhyeojin's level is considered 2 lower for the purpose of being conjured by the Planar Servitor ritual (and potentially other rituals, at the GM's discretion), but they're always free to attack or leave instead of negotiate unless the primary caster's check is a critical success.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5248,7 +5248,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The ijhyeojin alters the memories of a target within 30 feet, insinuating their faceless visage in the place of others. The target must attempt a DC 34  Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1 and treats no one as an ally for as long as it's frightened.</p>\n<p><strong>Failure</strong> The target is Frightened 2 and is  for as long as it's frightened.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 4 and confused for as long as it's frightened. If the target is a joseung saja, they instead realize the fear of being forgotten and become an ijhyeojin.</p>"
+            "value": "<p>The ijhyeojin alters the memories of a target within 30 feet, insinuating their faceless visage in the place of others. The target must attempt a DC 34  Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1 and treats no one as an ally for as long as it's frightened.</p>\n<p><strong>Failure</strong> The target is Frightened 2 and is Confused for as long as it's frightened.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 4 and confused for as long as it's frightened. If the target is a joseung saja, they instead realize the fear of being forgotten and become an ijhyeojin.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5281,7 +5281,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The ijhyeojin's previous action was a successful claw Strike against the target</p>\n<hr />\n<p><strong>Effect</strong> The ijhyeojin copies the countenance of the target, imprinting it perfectly onto their own blank face. While only their face changes, creatures must  them and succeed at a DC 34  Will save to distinguish them visually from the original creature. The sakhil keeps the same visage for 24 hours or until they steal another.</p>"
+            "value": "<p><strong>Requirements</strong> The ijhyeojin's previous action was a successful claw Strike against the target</p>\n<hr />\n<p><strong>Effect</strong> The ijhyeojin copies the countenance of the target, imprinting it perfectly onto their own blank face. While only their face changes, creatures must Seek them and succeed at a DC 34  Will save to distinguish them visually from the original creature. The sakhil keeps the same visage for 24 hours or until they steal another.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5517,7 +5517,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The target can soar through the air, gaining a fly Speed equal to its Speed or 20 feet, whichever is greater.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (7th)</strong> The duration increases to 1 hour.</p>"
+            "value": "<p>The target can soar through the air, gaining a fly Speed equal to its Speed or 20 feet, whichever is greater.</p>\n<p>Spell Effect: Fly</p>\n<hr />\n<p><strong>Heightened (7th)</strong> The duration increases to 1 hour.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5646,7 +5646,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an ) typically are detected normally.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
+            "value": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an Invisibility Potion) typically are detected normally.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
           },
           "duration": {
             "sustained": false,
@@ -5992,7 +5992,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Waters rush forth in a 60-foot line, dealing 4d6 bludgeoning damage (DC 25  Basic  Reflex save). Creatures that fail the save and aren't  by the imugi are pushed 10 feet away.</p>"
+            "value": "<p>Waters rush forth in a 60-foot line, dealing 4d6 bludgeoning damage (DC 25  Basic  Reflex save). Creatures that fail the save and aren't Grabbed by the imugi are pushed 10 feet away.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6358,7 +6358,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature critically struck by the inkdrop's pseudopod is  by the ink until it clears its eyes using an Interact action.</p>"
+            "value": "<p>A creature critically struck by the inkdrop's pseudopod is Blinded by the ink until it clears its eyes using an Interact action.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6677,7 +6677,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The creature's Strikes deal an additional 1d6 precision damage to  creatures.</p>"
+            "value": "<p>The creature's Strikes deal an additional 1d6 precision damage to Off-Guard creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6725,7 +6725,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The jiidon uses their nearly indestructible teeth to chew through even the toughest armor, leaving an opponent vulnerable. The jiidon makes a jaws Strike. On a successful attack, if the target is wearing armor with Hardness 10 or lower, the armor becomes . This Strike doesn't further damage armor that's already broken.</p>"
+            "value": "<p>The jiidon uses their nearly indestructible teeth to chew through even the toughest armor, leaving an opponent vulnerable. The jiidon makes a jaws Strike. On a successful attack, if the target is wearing armor with Hardness 10 or lower, the armor becomes Broken. This Strike doesn't further damage armor that's already broken.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7118,7 +7118,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Illusions bend light around the target, rendering it . This makes it  to all creatures, though the creatures can attempt to find the target, making it  to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+            "value": "<p>Illusions bend light around the target, rendering it Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
           },
           "duration": {
             "sustained": false,
@@ -7854,7 +7854,7 @@
             }
           },
           "description": {
-            "value": "<p>By imposing your will upon the water, you can raise or lower the level of water in the chosen area by 10 feet. Creatures that have the water trait and that are in the area when you Cast the Spell must attempt a Fortitude save, with the effects of the  spell.</p>\n<p><strong>Area</strong> 50 feet long by 50 feet wide</p>"
+            "value": "<p>By imposing your will upon the water, you can raise or lower the level of water in the chosen area by 10 feet. Creatures that have the water trait and that are in the area when you Cast the Spell must attempt a Fortitude save, with the effects of the Slow spell.</p>\n<p><strong>Area</strong> 50 feet long by 50 feet wide</p>"
           },
           "duration": {
             "sustained": false,
@@ -8004,7 +8004,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's rank or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as .</p>"
+            "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's rank or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as Concealed.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8595,7 +8595,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's rank or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as .</p>"
+            "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's rank or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as Concealed.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8739,7 +8739,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8815,7 +8815,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create an orb of light that sheds bright light in a 20-foot radius (and dim light for the next 20 feet) in a color you choose. If you create the light in the same space as a willing creature, you can attach the light to the creature, causing it to float near that creature as it moves. You can Sustain the spell to move the light up to 60 feet; you can attach or detach it from a creature as part of this movement.</p>\n<p>You can Dismiss the spell. If you Cast the Spell while you already have four <em>light</em> spells active, you must choose one of the existing spells to end.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (4th)</strong> The orb sheds light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+            "value": "<p>You create an orb of light that sheds bright light in a 20-foot radius (and dim light for the next 20 feet) in a color you choose. If you create the light in the same space as a willing creature, you can attach the light to the creature, causing it to float near that creature as it moves. You can Sustain the spell to move the light up to 60 feet; you can attach or detach it from a creature as part of this movement.</p>\n<p>You can Dismiss the spell. If you Cast the Spell while you already have four <em>light</em> spells active, you must choose one of the existing spells to end.</p>\n<p>Spell Effect: Light</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The orb sheds light in a 60-foot radius (and dim light for the next 60 feet).</p>"
           },
           "duration": {
             "sustained": false,
@@ -8887,7 +8887,7 @@
             }
           },
           "description": {
-            "value": "<p>Each creature in the area becomes drowsy and might fall asleep. A creature that falls  from this spell doesn't fall  or release what it's holding. This spell doesn't prevent creatures from waking up due to a successful Perception check, limiting its utility in combat.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes a -1 status penalty to Perception checks for 1 round.</p>\n<p><strong>Failure</strong> The creature falls Unconscious. If it's still Unconscious after 1 minute, it wakes up automatically.</p>\n<p><strong>Critical Failure</strong> The creature falls Unconscious. If it's still Unconscious after 1 hour, it wakes up automatically.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The creatures fall Unconscious for 1 round on a failure or 1 minute on a critical failure. They fall Prone and release what they're holding, and they can't attempt Perception checks to wake up. When the duration ends, the creature is sleeping normally instead of automatically waking up.</p>"
+            "value": "<p>Each creature in the area becomes drowsy and might fall asleep. A creature that falls Unconscious from this spell doesn't fall Prone or release what it's holding. This spell doesn't prevent creatures from waking up due to a successful Perception check, limiting its utility in combat.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes a -1 status penalty to Perception checks for 1 round.</p>\n<p><strong>Failure</strong> The creature falls Unconscious. If it's still Unconscious after 1 minute, it wakes up automatically.</p>\n<p><strong>Critical Failure</strong> The creature falls Unconscious. If it's still Unconscious after 1 hour, it wakes up automatically.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The creatures fall Unconscious for 1 round on a failure or 1 minute on a critical failure. They fall Prone and release what they're holding, and they can't attempt Perception checks to wake up. When the duration ends, the creature is sleeping normally instead of automatically waking up.</p>"
           },
           "duration": {
             "sustained": false,
@@ -9101,7 +9101,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The manananggal has a creature </p>\n<hr />\n<p><strong>Effect</strong> The manananggal drives their tongue into the grabbed creature to drink its blood. This deals 4d6  damage, and the manananggal gains temporary Hit Points equal to the damage dealt. A creature whose blood is drained by a manananggal is Drained 1 until it receives healing (of any kind or amount).</p>"
+            "value": "<p><strong>Requirements</strong> The manananggal has a creature Grabbed</p>\n<hr />\n<p><strong>Effect</strong> The manananggal drives their tongue into the grabbed creature to drink its blood. This deals 4d6  damage, and the manananggal gains temporary Hit Points equal to the damage dealt. A creature whose blood is drained by a manananggal is Drained 1 until it receives healing (of any kind or amount).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9401,7 +9401,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The nue changes its shape into that of a dark storm cloud. In Cloud Form, the nue is , gains a 60-foot fly Speed, gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise, and can't make attacks, though it can use its howl abilities. The nue can Dismiss this effect.</p>"
+            "value": "<p>The nue changes its shape into that of a dark storm cloud. In Cloud Form, the nue is Concealed, gains a 60-foot fly Speed, gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise, and can't make attacks, though it can use its howl abilities. The nue can Dismiss this effect.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9722,7 +9722,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>When Hiding, the orchid mantis swarm is  by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed.</p>"
+            "value": "<p>When Hiding, the orchid mantis swarm is Concealed by any amount of leaves or petals, even if they aren't thick enough to make other creatures concealed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9813,7 +9813,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The swarm Flies. Each creature whose space it moves through must attempt a DC 24  Will save or be transfixed by their blossom-like bodies.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect.</p>\n<p><strong>Success</strong> The creature is  for 1 round.</p>\n<p><strong>Failure</strong> The creature is dazzled and Stupefied 1 for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature is  and Stupefied 2 for 1 round.</p>"
+            "value": "<p>The swarm Flies. Each creature whose space it moves through must attempt a DC 24  Will save or be transfixed by their blossom-like bodies.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect.</p>\n<p><strong>Success</strong> The creature is Dazzled for 1 round.</p>\n<p><strong>Failure</strong> The creature is dazzled and Stupefied 1 for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature is Blinded and Stupefied 2 for 1 round.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10157,7 +10157,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create a barrier of gusting winds that hinders anything moving through it. The wall of swirling winds is 5 feet thick, 60 feet long, and 30 feet high. The wall stands vertically, but you can shape its path. Though the wall of wind distorts the air, it does not hamper sight. The wall has the following effects.</p>\n<ul>\n<li>Ammunition from physical ranged attacks-such as arrows, bolts, sling bullets, and other objects of similar size-can't pass through the wall. Attacks with bigger ranged weapons, such as javelins, take a -2 circumstance penalty to their attack rolls if their paths pass through the wall. Massive ranged weapons and spell effects that don't create physical objects pass through the wall with no penalty.</li>\n<li>The wall is difficult terrain to creatures attempting to move overland through it. Gases, including creatures in, can't pass through the wall.</li>\n<li>A creature that attempts to fly through the wall using a move action must attempt a Fortitude save.</li>\n</ul>\n<hr />\n<p><strong>Critical Success</strong> The creature can move through the wall normally this turn.</p>\n<p><strong>Success</strong> The flying creature can move through the wall this turn, but the wall is difficult terrain.</p>\n<p><strong>Failure</strong> The wall stops the movement of the flying creature, and any remaining movement from its current action is wasted.</p>\n<p><strong>Critical Failure</strong> As failure, and the creature is pushed 10 feet away from the wall.</p>"
+            "value": "<p>You create a barrier of gusting winds that hinders anything moving through it. The wall of swirling winds is 5 feet thick, 60 feet long, and 30 feet high. The wall stands vertically, but you can shape its path. Though the wall of wind distorts the air, it does not hamper sight. The wall has the following effects.</p>\n<ul>\n<li>Ammunition from physical ranged attacks-such as arrows, bolts, sling bullets, and other objects of similar size-can't pass through the wall. Attacks with bigger ranged weapons, such as javelins, take a -2 circumstance penalty to their attack rolls if their paths pass through the wall. Massive ranged weapons and spell effects that don't create physical objects pass through the wall with no penalty.</li>\n<li>The wall is difficult terrain to creatures attempting to move overland through it. Gases, including creatures inVapor Form, can't pass through the wall.</li>\n<li>A creature that attempts to fly through the wall using a move action must attempt a Fortitude save.</li>\n</ul>\n<hr />\n<p><strong>Critical Success</strong> The creature can move through the wall normally this turn.</p>\n<p><strong>Success</strong> The flying creature can move through the wall this turn, but the wall is difficult terrain.</p>\n<p><strong>Failure</strong> The wall stops the movement of the flying creature, and any remaining movement from its current action is wasted.</p>\n<p><strong>Critical Failure</strong> As failure, and the creature is pushed 10 feet away from the wall.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10231,7 +10231,7 @@
             }
           },
           "description": {
-            "value": "<p>A violent wind issues forth from your palm, blowing from the point where you are when you Cast the Spell to the line's opposite end. The wind extinguishes small non-magical fires, disperses fog and mist, blows objects of light Bulk or less around, and pushes larger objects. Large or smaller creatures in the area must attempt a Fortitude save. Large or smaller creatures that later move into the gust must attempt the save on entering.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature can't move against the wind.</p>\n<p><strong>Failure</strong> The creature is knocked . If it was flying, it takes the effects of critical failure instead.</p>\n<p><strong>Critical Failure</strong> The creature is pushed 30 feet in the wind's direction, knocked prone, and takes 2d6 bludgeoning damage.</p>"
+            "value": "<p>A violent wind issues forth from your palm, blowing from the point where you are when you Cast the Spell to the line's opposite end. The wind extinguishes small non-magical fires, disperses fog and mist, blows objects of light Bulk or less around, and pushes larger objects. Large or smaller creatures in the area must attempt a Fortitude save. Large or smaller creatures that later move into the gust must attempt the save on entering.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature can't move against the wind.</p>\n<p><strong>Failure</strong> The creature is knocked Prone. If it was flying, it takes the effects of critical failure instead.</p>\n<p><strong>Critical Failure</strong> The creature is pushed 30 feet in the wind's direction, knocked prone, and takes 2d6 bludgeoning damage.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10482,7 +10482,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The peng exhales a thick cloud and envelops themself in the mist. The peng is  until the end of their next turn.</p>"
+            "value": "<p>The peng exhales a thick cloud and envelops themself in the mist. The peng is Concealed until the end of their next turn.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10514,7 +10514,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The peng beats their wings to create a mighty burst of frosty air and push away foes. Each creature within 10 feet of the peng takes 4d6 bludgeoning and 4d6 cold damage (DC 32  Basic  Reflex save). Creatures that fail their save are pushed away 10 feet; creatures that critically fail are pushed away 20 feet and knocked .</p>"
+            "value": "<p>The peng beats their wings to create a mighty burst of frosty air and push away foes. Each creature within 10 feet of the peng takes 4d6 bludgeoning and 4d6 cold damage (DC 32  Basic  Reflex save). Creatures that fail their save are pushed away 10 feet; creatures that critically fail are pushed away 20 feet and knocked Prone.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11369,7 +11369,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature  by the shui gui dies of suffocation</p>\n<hr />\n<p><strong>Effect</strong> Ripping the spirit of its drowned victim out of the target's body, the shui gui enters the corpse to take the original owner's place. The shui gui then returns to life at the edge of its body of water as if it had been the target of a successful resurrect ritual, except it has the appearance of the target rather than its original body. After a week, the spirit of the drowned creature becomes a shui gui. The new spirit can't be raised from the dead by normal magical means until they've been destroyed as a shui gui.</p>"
+            "value": "<p><strong>Trigger</strong> A creature Grabbed by the shui gui dies of suffocation</p>\n<hr />\n<p><strong>Effect</strong> Ripping the spirit of its drowned victim out of the target's body, the shui gui enters the corpse to take the original owner's place. The shui gui then returns to life at the edge of its body of water as if it had been the target of a successful resurrect ritual, except it has the appearance of the target rather than its original body. After a week, the spirit of the drowned creature becomes a shui gui. The new spirit can't be raised from the dead by normal magical means until they've been destroyed as a shui gui.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11441,7 +11441,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The shui gui Swims at half Speed, along with any creature it has .</p>"
+            "value": "<p>The shui gui Swims at half Speed, along with any creature it has Grabbed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11470,7 +11470,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The target must be holding its breath and be  by the shui gui</p>\n<hr />\n<p><strong>Effect</strong> The shui gui tightens its grip. The target must succeed at a DC 24  Fortitude save or immediately lose [[/br 1d4 #actions]]{1d4 actions} worth of air (or twice that on a critical failure).</p>"
+            "value": "<p><strong>Requirements</strong> The target must be holding its breath and be Grabbed by the shui gui</p>\n<hr />\n<p><strong>Effect</strong> The shui gui tightens its grip. The target must succeed at a DC 24  Fortitude save or immediately lose [[/br 1d4 #actions]]{1d4 actions} worth of air (or twice that on a critical failure).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11499,7 +11499,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A shui gui can  corporeal creatures despite being incorporeal. The shui gui uses its Athletics check to Grapple as normal but can't use Athletics for other actions that require corporeal contact, like  or .</p>"
+            "value": "<p>A shui gui can Grapple corporeal creatures despite being incorporeal. The shui gui uses its Athletics check to Grapple as normal but can't use Athletics for other actions that require corporeal contact, like Force Open or Trip.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12879,7 +12879,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> A target creature within 30 feet must succeed at a DC 25  Will save or gain the effects of , being polymorphed into a pig whose girth is determined by the target's wealth. After 24 hours, the target can end this effect using a Dismiss action, at which point the yeongno becomes aware that the effect has ended. A yeongno can use Fortune's Favor only if no targets are currently under its effects.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> A target creature within 30 feet must succeed at a DC 25  Will save or gain the effects of Cursed Metamorphosis, being polymorphed into a pig whose girth is determined by the target's wealth. After 24 hours, the target can end this effect using a Dismiss action, at which point the yeongno becomes aware that the effect has ended. A yeongno can use Fortune's Favor only if no targets are currently under its effects.</p>"
           },
           "frequency": {
             "max": 1,

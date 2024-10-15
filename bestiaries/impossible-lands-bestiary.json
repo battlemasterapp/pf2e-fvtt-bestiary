@@ -433,7 +433,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature moves from beyond the reach of the benthic reaver's tail to within the reach of the benthic reaver's tail</p>\n<hr />\n<p><strong>Effect</strong> The benthic reaver makes a tail Strike against the triggering creature and can use Improved Knockdown if the attack hits, even if it isn't the benthic reaver's turn. If the benthic reaver knocks the target , it disrupts the triggering move action.</p>"
+            "value": "<p><strong>Trigger</strong> A creature moves from beyond the reach of the benthic reaver's tail to within the reach of the benthic reaver's tail</p>\n<hr />\n<p><strong>Effect</strong> The benthic reaver makes a tail Strike against the triggering creature and can use Improved Knockdown if the attack hits, even if it isn't the benthic reaver's turn. If the benthic reaver knocks the target Prone, it disrupts the triggering move action.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1169,7 +1169,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature steps onto the cracked earth</p>\n<hr />\n<p><strong>Effect</strong> The creature fractures the thin crust of earth and falls through. That creature can use the  reaction to avoid falling, as long as it is adjacent to an edge. Otherwise it takes falling damage (typically @Damage[25[bludgeoning]] damage for a 50-foot drop). Some of these rifts eventually lead to the Darklands.</p>"
+            "value": "<p><strong>Trigger</strong> A creature steps onto the cracked earth</p>\n<hr />\n<p><strong>Effect</strong> The creature fractures the thin crust of earth and falls through. That creature can use the Grab an Edge reaction to avoid falling, as long as it is adjacent to an edge. Otherwise it takes falling damage (typically @Damage[25[bludgeoning]] damage for a 50-foot drop). Some of these rifts eventually lead to the Darklands.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1568,7 +1568,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>DC 30  Will saving throw. On a failure, the creature who killed the cursed king becomes Stupefied 1. On a critical failure, it becomes Stupefied 2. As long as that creature remains cursed, it can't remove or decrease the value of the stupefied condition in any way. Afflicted creatures must attempt the saving throw again every 24 hours, increasing the stupefied condition by 1 on a failure or 2 on a critical failure. If the condition ever increases past Stupefied 4, they transform, body and mind, into the same animal as the cursed king's head, similar to the critical failure effect of .</p>"
+            "value": "<p>DC 30  Will saving throw. On a failure, the creature who killed the cursed king becomes Stupefied 1. On a critical failure, it becomes Stupefied 2. As long as that creature remains cursed, it can't remove or decrease the value of the stupefied condition in any way. Afflicted creatures must attempt the saving throw again every 24 hours, increasing the stupefied condition by 1 on a failure or 2 on a critical failure. If the condition ever increases past Stupefied 4, they transform, body and mind, into the same animal as the cursed king's head, similar to the critical failure effect of Cursed Metamorphosis.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1834,7 +1834,7 @@
             }
           },
           "description": {
-            "value": "<p><strong>Requirements</strong> You can bleed.</p>\n<p><strong>Trigger</strong> A creature deals piercing, slashing, or persistent bleed damage to you.</p>\n<hr />\n<p>You curse the target, punishing it for having the audacity to spill your blood. The target takes 2d6 persistent bleed damage and must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half the persistent bleed damage.</p>\n<p><strong>Failure</strong> The target takes the full persistent bleed damage. Until the bleeding stops, the target has weakness 1 to piercing and slashing damage. </p>\n<p><strong>Critical Failure</strong> As failure, but the target takes double the persistent bleed damage.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The persistent bleed damage increases by 2d6.</p>"
+            "value": "<p><strong>Requirements</strong> You can bleed.</p>\n<p><strong>Trigger</strong> A creature deals piercing, slashing, or persistent bleed damage to you.</p>\n<hr />\n<p>You curse the target, punishing it for having the audacity to spill your blood. The target takes 2d6 persistent bleed damage and must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half the persistent bleed damage.</p>\n<p><strong>Failure</strong> The target takes the full persistent bleed damage. Until the bleeding stops, the target has weakness 1 to piercing and slashing damage. Spell Effect: Blood Vendetta (Failure)</p>\n<p><strong>Critical Failure</strong> As failure, but the target takes double the persistent bleed damage.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The persistent bleed damage increases by 2d6.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1908,7 +1908,7 @@
             }
           },
           "description": {
-            "value": "<p>You speak on the virtue of charity, compelling the target to give away its possessions. The target must attempt a Will save. If the target has no items on its person, the spell fails.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Stunned 1 as it wrestles with the urge.</p>\n<p><strong>Failure</strong> On its next turn, before it does anything else, the target must present the nearest creature with an item in its possession; the target chooses which item to give, and if the only item it has is one that it's currently using to defend itself, such as a weapon during a combat encounter, it can choose to be Stunned for 1 round instead of giving up the item. This might require the target to  to retrieve an item or move to reach the nearest creature, and handing the item to the target always requires an Interact action.</p>\n<p><strong>Critical Failure</strong> As failure, except the duration is 4 rounds, and the target must repeat the effects of failure on each of its turns. At the end of each of its turns, the target can attempt a new Will save to reduce the remaining duration by 1 round, ending it entirely on a critical success.</p>"
+            "value": "<p>You speak on the virtue of charity, compelling the target to give away its possessions. The target must attempt a Will save. If the target has no items on its person, the spell fails.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Stunned 1 as it wrestles with the urge.</p>\n<p><strong>Failure</strong> On its next turn, before it does anything else, the target must present the nearest creature with an item in its possession; the target chooses which item to give, and if the only item it has is one that it's currently using to defend itself, such as a weapon during a combat encounter, it can choose to be Stunned for 1 round instead of giving up the item. This might require the target to Interact to retrieve an item or move to reach the nearest creature, and handing the item to the target always requires an Interact action.</p>\n<p><strong>Critical Failure</strong> As failure, except the duration is 4 rounds, and the target must repeat the effects of failure on each of its turns. At the end of each of its turns, the target can attempt a new Will save to reduce the remaining duration by 1 round, ending it entirely on a critical success.</p>"
           },
           "duration": {
             "sustained": false,
@@ -2240,7 +2240,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The conformer detaches part of their body to serve them as an autonomous organism. For the next 24 hours, the conformer gains the loyal service of a fleshforged . As long as they remain within 1 mile of each other, the conformer can use the Surgical Detachment action again to empathically direct the actions of their skinskitter servant as well as perceive through its senses. Due to how taxing this process is, the conformer can have only one skinskitter servant at a time.</p>"
+            "value": "<p>The conformer detaches part of their body to serve them as an autonomous organism. For the next 24 hours, the conformer gains the loyal service of a fleshforged Skinskitter. As long as they remain within 1 mile of each other, the conformer can use the Surgical Detachment action again to empathically direct the actions of their skinskitter servant as well as perceive through its senses. Due to how taxing this process is, the conformer can have only one skinskitter servant at a time.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2275,7 +2275,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The conformer is within reach of an  or willing creature, or a creature taking persistent bleed damage</p>\n<hr />\n<p><strong>Effect</strong> The conformer touches and absorbs some of the creature's flesh. The target must attempt a DC 26  Fortitude save; on a failure, they become Drained 1 and take damage from their persistent bleed damage, even though it isn't the end of their turn.</p>"
+            "value": "<p><strong>Requirements</strong> The conformer is within reach of an Unconscious or willing creature, or a creature taking persistent bleed damage</p>\n<hr />\n<p><strong>Effect</strong> The conformer touches and absorbs some of the creature's flesh. The target must attempt a DC 26  Fortitude save; on a failure, they become Drained 1 and take damage from their persistent bleed damage, even though it isn't the end of their turn.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2308,7 +2308,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The conformer has used Tissue Siphon to absorb flesh within the last hour</p><hr /><p><strong>Effect</strong> The conformer expends the flesh they've absorbed to transform their body, reproducing the effects of one of the following spells: , , , , or . The Wear Flesh action gains the traits of the spell it's reproducing, and the conformer can Sustain a Spell on these effects.</p>"
+            "value": "<p><strong>Requirements</strong> The conformer has used Tissue Siphon to absorb flesh within the last hour</p><hr /><p><strong>Effect</strong> The conformer expends the flesh they've absorbed to transform their body, reproducing the effects of one of the following spells: Adapt Self, Enlarge, Shifting Form, Tentacular Limbs, or Unusual Anatomy. The Wear Flesh action gains the traits of the spell it's reproducing, and the conformer can Sustain a Spell on these effects.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3471,7 +3471,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Two or more kaseshi can combine their scribed words to create something greater than either one alone. This has the effects of the Coven ability but no ritual is necessary, simply close proximity for 8 hours. All gestalts grant the following spells, which the gestalt can cast at any level up to 5th: , , and . Individual kaseshi also grant additional spells to any gestalt they join—this one grants  and .</p>"
+            "value": "<p>Two or more kaseshi can combine their scribed words to create something greater than either one alone. This has the effects of the Coven ability but no ritual is necessary, simply close proximity for 8 hours. All gestalts grant the following spells, which the gestalt can cast at any level up to 5th: Creation, Strange Geometry, and Telekinetic Haul. Individual kaseshi also grant additional spells to any gestalt they join—this one grants One with Stone and Shape Stone.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3590,7 +3590,7 @@
           "value": 3
         },
         "privateNotes": "",
-        "publicNotes": "<p>In the ancient days, before humanity dwelled on Golarion, the Vault Builders had need of something smaller in scale than the great vault seeds so they could finish their worlds as they liked. They took a small gem and wrote a word of power upon it. They gave it eyes so it could see and legs so it could walk, and made it wise. These creatures are known as kaseshi by scholars who have encountered them, though their true name—the one that brought them into being—is likely considerably more powerful.</p>\n<p>Each kasesh bears a single word of power on their emerald body, from which they draw their mind and their magic. A kasesh with the word \"Steel\" or \"Flame\" is a single-minded creature, though it encompasses all possible permutations of meaning that the word possesses. A kasesh named \"Home\" or \"Sorrow\" has a far more complex psyche, and rumor claims that Elder Architect Oblosk of Nex bears the word \"Memory.\" Unsurprisingly, many scholars are highly interested in the words on the kaseshi; unlike Thassilonian rune magic, no one has managed to decode or make use of the language of the Vault Builders yet.</p>\n<p>The kasesh in the stat block bears the word \"Stone,\" but other kaseshi will have their own magics. Some alternative examples, \"Darkness\" and \"Intricacy,\" follow below.</p>\n<p><strong>Darkness:</strong> This kasesh built the hidden places of the Vault Builders' worlds. The kasesh is 7th level, grants  and  to any gestalt they join, and has the following innate spells.</p>\n<p><strong>Primal Innate Spells</strong> <strong>4th</strong>  (×2), ; <strong>3rd</strong>  (×2), ; <strong>1st</strong> ; <strong>Cantrips (4th)</strong> , </p>\n<p><strong>Intricacy:</strong> This kasesh was a decorator and designer. They're 11th level, grant  and  to any gestalt they join, and have the following innate spells.</p>\n<p><strong>Primal Innate Spells</strong> <strong>6th</strong> ,  (×2); <strong>5th</strong> , , ; <strong>1st</strong> ; <strong>Cantrips (6th)</strong> , </p>",
+        "publicNotes": "<p>In the ancient days, before humanity dwelled on Golarion, the Vault Builders had need of something smaller in scale than the great vault seeds so they could finish their worlds as they liked. They took a small gem and wrote a word of power upon it. They gave it eyes so it could see and legs so it could walk, and made it wise. These creatures are known as kaseshi by scholars who have encountered them, though their true name—the one that brought them into being—is likely considerably more powerful.</p>\n<p>Each kasesh bears a single word of power on their emerald body, from which they draw their mind and their magic. A kasesh with the word \"Steel\" or \"Flame\" is a single-minded creature, though it encompasses all possible permutations of meaning that the word possesses. A kasesh named \"Home\" or \"Sorrow\" has a far more complex psyche, and rumor claims that Elder Architect Oblosk of Nex bears the word \"Memory.\" Unsurprisingly, many scholars are highly interested in the words on the kaseshi; unlike Thassilonian rune magic, no one has managed to decode or make use of the language of the Vault Builders yet.</p>\n<p>The kasesh in the stat block bears the word \"Stone,\" but other kaseshi will have their own magics. Some alternative examples, \"Darkness\" and \"Intricacy,\" follow below.</p>\n<p><strong>Darkness:</strong> This kasesh built the hidden places of the Vault Builders' worlds. The kasesh is 7th level, grants Shadow Blast and Umbral Journey to any gestalt they join, and has the following innate spells.</p>\n<p><strong>Primal Innate Spells</strong> <strong>4th</strong> Darkness (×2), Enervation; <strong>3rd</strong> Blindness (×2), Share Lore; <strong>1st</strong> Mindlink; <strong>Cantrips (4th)</strong> Detect Magic, Telekinetic Projectile</p>\n<p><strong>Intricacy:</strong> This kasesh was a decorator and designer. They're 11th level, grant Mirage and Illusory Scene to any gestalt they join, and have the following innate spells.</p>\n<p><strong>Primal Innate Spells</strong> <strong>6th</strong> Phantasmal Calamity, Phantasmal Killer (×2); <strong>5th</strong> Cloak of Colors, Hallucination, Share Lore; <strong>1st</strong> Mindlink; <strong>Cantrips (6th)</strong> Detect Magic, Telekinetic Projectile</p>",
         "publication": {
           "license": "OGL",
           "remaster": false,
@@ -3727,7 +3727,7 @@
             }
           },
           "description": {
-            "value": "<p>You forcibly calm creatures in the area, soothing them into a nonviolent state; each creature must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> Calming urges impose a -1 status penalty to the creature's attack rolls.</p>\n<p><strong>Failure</strong> Any emotion effects that would affect the creature are suppressed and the creature can't use hostile actions. If the target is subject to hostility from any other creature, it ceases to be affected by calm emotions.</p>\n<p><strong>Critical Failure</strong> As failure, but hostility doesn't end the effect.</p>\n<hr />\n<p></p>"
+            "value": "<p>You forcibly calm creatures in the area, soothing them into a nonviolent state; each creature must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> Calming urges impose a -1 status penalty to the creature's attack rolls.</p>\n<p><strong>Failure</strong> Any emotion effects that would affect the creature are suppressed and the creature can't use hostile actions. If the target is subject to hostility from any other creature, it ceases to be affected by calm emotions.</p>\n<p><strong>Critical Failure</strong> As failure, but hostility doesn't end the effect.</p>\n<hr />\n<p>Spell Effect: Calm</p>"
           },
           "duration": {
             "sustained": true,
@@ -4093,7 +4093,7 @@
             }
           },
           "description": {
-            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and 1d4 persistent mental damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>\n<p>[[/r (@item.level)d4[persistent,mental]]]{Leveled Persistent Mental Damage}</p>"
+            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and 1d4 persistent mental damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>\n<p>@Damage[(@item.level)d4[persistent,mental]]{Scaling Persistent Mental Damage}</p>"
           },
           "duration": {
             "sustained": false,
@@ -4179,7 +4179,7 @@
             }
           },
           "description": {
-            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and 1d4 persistent mental damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>\n<p>[[/r (@item.level)d4[persistent,mental]]]{Leveled Persistent Mental Damage}</p>"
+            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and 1d4 persistent mental damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>\n<p>@Damage[(@item.level)d4[persistent,mental]]{Scaling Persistent Mental Damage}</p>"
           },
           "duration": {
             "sustained": false,
@@ -4328,7 +4328,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the  reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the  spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the Force Barrage spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>Spell Effect: Shield</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4400,7 +4400,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You grace the target's mind, boosting its mental defenses and healing its wounds. The target regains 1d10+4 Hit Points when you Cast the Spell and gains a +2 status bonus to saves against mental effects for the duration.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d10+4.</p>"
+            "value": "<p>You grace the target's mind, boosting its mental defenses and healing its wounds. The target regains 1d10+4 Hit Points when you Cast the Spell and gains a +2 status bonus to saves against mental effects for the duration.</p>\n<p>Spell Effect: Soothe</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d10+4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5011,7 +5011,7 @@
           "title": "Pathfinder Lost Omens: Impossible Lands"
         },
         "reset": "<p>The hazard continues to suck in anyone with magic until it is satiated (see Disable above). Magpies leave any satiated whorls.</p>",
-        "routine": "<p>(1 action) On its initiative, the whorl pulls down any creature within it that can cast spells or that is wielding a magic item. A creature submerged to the waist becomes submerged to the neck, and a creature submerged to the neck is pulled under and must hold its breath to avoid suffocation. If a creature has no spells or magic items, the mana whorl is merely difficult terrain. A creature caught in a mana whorl can attempt a DC 23  Athletics check to Swim to either raise itself by one step if submerged to the neck or worse, or to move 5 feet if submerged only to the waist. On a critical failure, the creature is pulled down by one step. A creature that Swims out of the whorl escapes the hazard and is  in a space adjacent to the whorl. Other creatures can Aid the creature, typically by using a rope or similar aid, or attempt to pull the creature out with their own DC 23  Athletics check, with the same results as if the creature attempted the check. If a creature has only magic items and no ability to cast spells, dropping all the items releases that creature, and it can move through the mana whorl as normal difficult terrain.</p>"
+        "routine": "<p>(1 action) On its initiative, the whorl pulls down any creature within it that can cast spells or that is wielding a magic item. A creature submerged to the waist becomes submerged to the neck, and a creature submerged to the neck is pulled under and must hold its breath to avoid suffocation. If a creature has no spells or magic items, the mana whorl is merely difficult terrain. A creature caught in a mana whorl can attempt a DC 23  Athletics check to Swim to either raise itself by one step if submerged to the neck or worse, or to move 5 feet if submerged only to the waist. On a critical failure, the creature is pulled down by one step. A creature that Swims out of the whorl escapes the hazard and is Prone in a space adjacent to the whorl. Other creatures can Aid the creature, typically by using a rope or similar aid, or attempt to pull the creature out with their own DC 23  Athletics check, with the same results as if the creature attempted the check. If a creature has only magic items and no ability to cast spells, dropping all the items releases that creature, and it can move through the mana whorl as normal difficult terrain.</p>"
       },
       "saves": {
         "fortitude": {
@@ -6049,7 +6049,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>Casting a  spell on a Quantium golem disrupts its connection to the Crux of Nex. If targeted by such a spell, the golem is Enfeebled 1 and Slowed 1 for [[/r 1d4 #Slowed duration]]{1d4 rounds}.</p>"
+            "value": "<p>Casting a Banishment spell on a Quantium golem disrupts its connection to the Crux of Nex. If targeted by such a spell, the golem is Enfeebled 1 and Slowed 1 for [[/r 1d4 #Slowed duration]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6579,7 +6579,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>Casting a  spell on a Quantium golem disrupts its connection to the Crux of Nex. If targeted by such a spell, the golem is Enfeebled 1 and Slowed 1 for [[/r 1d4 #Slowed duration]]{1d4 rounds}.</p>"
+            "value": "<p>Casting a Banishment spell on a Quantium golem disrupts its connection to the Crux of Nex. If targeted by such a spell, the golem is Enfeebled 1 and Slowed 1 for [[/r 1d4 #Slowed duration]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7048,7 +7048,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature attacks while the ratajin mastermind is </p>\n<hr />\n<p><strong>Effect</strong> Due to planning, the ratajin mastermind can react quickly to poor situations. The ratajin mastermind isn't treated as off-guard to the attack, and the triggering creature is off-guard to the next attack made before the end of the ratajin mastermind's next turn.</p>"
+            "value": "<p><strong>Trigger</strong> A creature attacks while the ratajin mastermind is Off-Guard</p>\n<hr />\n<p><strong>Effect</strong> Due to planning, the ratajin mastermind can react quickly to poor situations. The ratajin mastermind isn't treated as off-guard to the attack, and the triggering creature is off-guard to the next attack made before the end of the ratajin mastermind's next turn.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7290,7 +7290,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> The skinskitter is reduced to 0 HP</p>\n<hr />\n<p><strong>Effect</strong> The fear of death agitates the skinskitter, precipitating a sudden existential awakening of consciousness. The skinskitter is reduced to 1 HP, loses the mindless trait and immunity to mental effects for the next 24 hours, gains the ability to speak one language (typically Osiriani or Vudrani), and takes two of the following actions in any order: Hide, , Step, Stride, or . In addition, the square occupied by the skinskitter before using Shuddering Skitter becomes difficult terrain, as they disgorge a shower of half-digested calluses, chewed nails, and entangled hair in their skittering wake.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> The skinskitter is reduced to 0 HP</p>\n<hr />\n<p><strong>Effect</strong> The fear of death agitates the skinskitter, precipitating a sudden existential awakening of consciousness. The skinskitter is reduced to 1 HP, loses the mindless trait and immunity to mental effects for the next 24 hours, gains the ability to speak one language (typically Osiriani or Vudrani), and takes two of the following actions in any order: Hide, Sneak, Step, Stride, or Take Cover. In addition, the square occupied by the skinskitter before using Shuddering Skitter becomes difficult terrain, as they disgorge a shower of half-digested calluses, chewed nails, and entangled hair in their skittering wake.</p>"
           },
           "frequency": {
             "max": 1,
@@ -7325,7 +7325,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> A , , , , or willing creature is within the skinskitter's reach</p>\n<hr />\n<p><strong>Effect</strong> The skinskitter scrapes and shears away large sheets of the victim's skin. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The massive pain causes the victim to become Clumsy 1 for 1 minute, and the skinskitter drapes itself in the flapping skin, granting it 10 temporary Hit Points for 1 minute.</p>"
+            "value": "<p><strong>Requirements</strong> A Grabbed, Paralyzed, Restrained, Unconscious, or willing creature is within the skinskitter's reach</p>\n<hr />\n<p><strong>Effect</strong> The skinskitter scrapes and shears away large sheets of the victim's skin. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The massive pain causes the victim to become Clumsy 1 for 1 minute, and the skinskitter drapes itself in the flapping skin, granting it 10 temporary Hit Points for 1 minute.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -8366,7 +8366,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The creature must succeed at a DC 21  Fortitude save or become Clumsy 2 (Clumsy 3 on a critical failure) and gain a +1 status bonus to AC as their skin hardens to stone. The clumsy condition can be temporarily relieved for 24 hours by casting stone to flesh on the cursed creature but can't be removed or reduced by any other means short of removing the curse; during this time, the cursed creature also no longer receives the status bonus to AC.</p>\n<p></p>"
+            "value": "<p>The creature must succeed at a DC 21  Fortitude save or become Clumsy 2 (Clumsy 3 on a critical failure) and gain a +1 status bonus to AC as their skin hardens to stone. The clumsy condition can be temporarily relieved for 24 hours by casting stone to flesh on the cursed creature but can't be removed or reduced by any other means short of removing the curse; during this time, the cursed creature also no longer receives the status bonus to AC.</p>\n<p>Effect: Curse of Stone</p>"
           },
           "publication": {
             "license": "OGL",

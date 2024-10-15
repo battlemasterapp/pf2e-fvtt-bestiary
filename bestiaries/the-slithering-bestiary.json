@@ -139,7 +139,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to  an effect that has them , , or , they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.</p>"
           },
           "duration": {
             "sustained": false,
@@ -272,7 +272,7 @@
             }
           },
           "description": {
-            "value": "<p>You snuff the life out of a creature on the brink of death. The target must attempt a Will save. If this kills it, you gain 10 temporary HP and a +1 status bonus to attack and damage rolls for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target's  value increases by 1.</p>\n<p><strong>Failure</strong> The target dies.</p>\n<p></p>"
+            "value": "<p>You snuff the life out of a creature on the brink of death. The target must attempt a Will save. If this kills it, you gain 10 temporary HP and a +1 status bonus to attack and damage rolls for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target's Dying value increases by 1.</p>\n<p><strong>Failure</strong> The target dies.</p>\n<p>Spell Effect: Death Knell</p>"
           },
           "duration": {
             "sustained": false,
@@ -399,7 +399,7 @@
             }
           },
           "description": {
-            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes  toward you. If it was Friendly, it becomes . It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
+            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes Friendly toward you. If it was Friendly, it becomes Helpful. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -479,7 +479,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1518,7 +1518,7 @@
             }
           },
           "description": {
-            "value": "<p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is  for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Deafened for 1 minute, and is Stunned 1.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
+            "value": "<p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Deafened for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Deafened for 1 minute, and is Stunned 1.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1594,7 +1594,7 @@
             }
           },
           "description": {
-            "value": "<p>You fill the minds of your enemies with doubt.</p>\n<p>Enemies in the area must succeed at a Will save or take a -1 status penalty to attack rolls as long as they are in the area.</p>\n<p>Once per turn, starting the turn after you cast bane, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet and force enemies in the area that weren't yet affected to attempt another saving throw.</p>\n<p>Bane can counteract .</p>\n<p></p>"
+            "value": "<p>You fill the minds of your enemies with doubt.</p>\n<p>Enemies in the area must succeed at a Will save or take a -1 status penalty to attack rolls as long as they are in the area.</p>\n<p>Once per turn, starting the turn after you cast bane, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet and force enemies in the area that weren't yet affected to attempt another saving throw.</p>\n<p>Bane can counteract Bless.</p>\n<p>Spell Effect: Bane</p>"
           },
           "duration": {
             "sustained": false,
@@ -1660,7 +1660,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the  condition), release what it's holding, drop , or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1821,7 +1821,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You ward an ally against the attacks and hostile spells from the target enemy. The target ally gains a +1 status bonus to Armor Class and saving throws against the target enemy's attacks, spells, and other effects.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (6th)</strong> The status bonus increases to +2.</p>"
+            "value": "<p>You ward an ally against the attacks and hostile spells from the target enemy. The target ally gains a +1 status bonus to Armor Class and saving throws against the target enemy's attacks, spells, and other effects.</p>\n<p>Spell Effect: Forbidding Ward</p>\n<hr />\n<p><strong>Heightened (6th)</strong> The status bonus increases to +2.</p>"
           },
           "duration": {
             "sustained": true,
@@ -2272,7 +2272,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p>Spell Effect: Light</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
           },
           "duration": {
             "sustained": false,
@@ -2403,7 +2403,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Vitality energy shuts death's door. The target loses the  condition, though it remains  at 0 Hit Points.</p>"
+            "value": "<p>Vitality energy shuts death's door. The target loses the Dying condition, though it remains Unconscious at 0 Hit Points.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3965,7 +3965,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>When the guard rolls a success on a Will save against a fear effect, they get a critical success instead. In addition, any time they gain the  condition, reduce its value by 1.</p>"
+            "value": "<p>When the guard rolls a success on a Will save against a fear effect, they get a critical success instead. In addition, any time they gain the Frightened condition, reduce its value by 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4772,7 +4772,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>Enzymatic compounds in this elixir strengthen and excite the muscles in your legs. You gain a +10 foot status bonus to your Speed for 10 minutes.</p>\n<p></p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>Enzymatic compounds in this elixir strengthen and excite the muscles in your legs. You gain a +10 foot status bonus to your Speed for 10 minutes.</p>\n<p>Effect: Cheetah's Elixir (Moderate)</p>"
           },
           "equipped": {
             "carryType": "worn"
@@ -4839,7 +4839,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p>This venom erodes its target's defenses, aiding the spider in securing prey.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> DC 21  Fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 1d10 poison damage and  (1 round)</p>\n<p><strong>Stage 2</strong> 1d12 poison damage, Clumsy 1, and off-guard (1 round)</p>\n<p><strong>Stage 3</strong> 2d6 poison damage, clumsy 2, and off-guard (1 round)</p>"
+            "value": "<p>This venom erodes its target's defenses, aiding the spider in securing prey.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> DC 21  Fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 1d10 poison damage and Off-Guard (1 round)</p>\n<p><strong>Stage 2</strong> 1d12 poison damage, Clumsy 1, and off-guard (1 round)</p>\n<p><strong>Stage 3</strong> 2d6 poison damage, clumsy 2, and off-guard (1 round)</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -4908,7 +4908,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>An antidote protects you against toxins. Upon drinking an antidote, you gain a +2 item bonus to Fortitude saving throws against poisons for 6 hours.</p>\n<p></p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>An antidote protects you against toxins. Upon drinking an antidote, you gain a +2 item bonus to Fortitude saving throws against poisons for 6 hours.</p>\n<p>Effect: Antidote</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -4980,7 +4980,7 @@
             "type": "untyped"
           },
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>Elixirs of life accelerate a living creatures natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[(3d6+6)[healing]] Hit Points and gain +1 item bonus to saving throws against diseases and poisons for 10 minutes.</p>\n<p></p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>Elixirs of life accelerate a living creatures natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[(3d6+6)[healing]] Hit Points and gain +1 item bonus to saving throws against diseases and poisons for 10 minutes.</p>\n<p>Effect: Elixir of Life</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -5246,7 +5246,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Saving Throw</strong> DC 21  Fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 1d10 poison and  (1 round)</p>\n<p><strong>Stage 2</strong> 1d12 poison, Clumsy 1, and off-guard (1 round)</p>\n<p><strong>Stage 3</strong> 2d6 poison, Clumsy 2, and off-guard (1 round)</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 21  Fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 1d10 poison and Off-Guard (1 round)</p>\n<p><strong>Stage 2</strong> 1d12 poison, Clumsy 1, and off-guard (1 round)</p>\n<p><strong>Stage 3</strong> 2d6 poison, Clumsy 2, and off-guard (1 round)</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5342,7 +5342,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The Aspis technician deals an extra 2d6 precision precision damage to  creatures.</p>"
+            "value": "<p>The Aspis technician deals an extra 2d6 precision precision damage to Off-Guard creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5987,7 +5987,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per turn</p>\n<hr />\n<p><strong>Effect</strong> Globblit makes a greatclub Strike and a tongue Strike against the same target. If the greatclub Strike hits, the target is  against his tongue Strike.</p>\n<p>This counts as two attacks for Globblit's multiple attack penalty, but the penalty doesn't increase until after his Smash and Slurp.</p>"
+            "value": "<p><strong>Frequency</strong> once per turn</p>\n<hr />\n<p><strong>Effect</strong> Globblit makes a greatclub Strike and a tongue Strike against the same target. If the greatclub Strike hits, the target is Off-Guard against his tongue Strike.</p>\n<p>This counts as two attacks for Globblit's multiple attack penalty, but the penalty doesn't increase until after his Smash and Slurp.</p>"
           },
           "frequency": {
             "max": 1,
@@ -6052,7 +6052,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>If Globblit hits a creature with his tongue, that creature becomes  by him. Unlike a normal grab, the creature isn't , but it can't move beyond the reach of Globblit's tongue.</p>\n<p>A creature can sever the tongue by succeeding at an AC 18 Strike and dealing at least 6 slashing damage. Though this doesn't deal any damage to Globblit, it prevents him from using his tongue Strike until it regrows, which takes a week.</p>"
+            "value": "<p>If Globblit hits a creature with his tongue, that creature becomes Grabbed by him. Unlike a normal grab, the creature isn't Immobilized, but it can't move beyond the reach of Globblit's tongue.</p>\n<p>A creature can sever the tongue by succeeding at an AC 18 Strike and dealing at least 6 slashing damage. Though this doesn't deal any damage to Globblit, it prevents him from using his tongue Strike until it regrows, which takes a week.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6408,7 +6408,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>A  spell negates Cursebreaker's golem antimagic and its resistance to physical damage for 1 round.</p>\n<p>A  spell reverses this effect immediately.</p>"
+            "value": "<p>A Stone to Flesh spell negates Cursebreaker's golem antimagic and its resistance to physical damage for 1 round.</p>\n<p>A Petrify spell reverses this effect immediately.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6438,7 +6438,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> Cursebreaker hits a  creature</p>\n<hr />\n<p><strong>Effect</strong> The creature must succeed at a DC 27  Fortitude save or become  for 1 round.</p>"
+            "value": "<p><strong>Trigger</strong> Cursebreaker hits a Slowed creature</p>\n<hr />\n<p><strong>Effect</strong> The creature must succeed at a DC 27  Fortitude save or become Paralyzed for 1 round.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6536,7 +6536,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Cursebreaker can cast a 10th-rank  spell at will, targeting every resident of the city of Kibwe. Cursebreaker must be stationed in the upper level of the Archive of the Sun with its sun symbols activated to use this ability.</p>"
+            "value": "<p>Cursebreaker can cast a 10th-rank Cleanse Affliction spell at will, targeting every resident of the city of Kibwe. Cursebreaker must be stationed in the upper level of the Archive of the Sun with its sun symbols activated to use this ability.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6760,7 +6760,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>A blast of energy damages all creatures within 20 feet, with particularly severe damage to fiends.</p>",
-        "disable": "<p>DC 27  Thievery (action:disable-a-device) (expert) to identify the proper sequence of buttons in the divots, or  (4th level; counteract DC 25) to suppress the magical effect for 1 hour</p>",
+        "disable": "<p>DC 27  Thievery (action:disable-a-device) (expert) to identify the proper sequence of buttons in the divots, or Dispel Magic (4th level; counteract DC 25) to suppress the magical effect for 1 hour</p>",
         "isComplex": false,
         "level": {
           "value": 7
@@ -7058,7 +7058,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A fuming sludge's ejected globs cling to targets.</p>\n<p>A creature hit by an ejected glob Strike is  for 1 round.</p>\n<p>If the attack was a critical hit, the creature is instead  for 1 round ( DC 24).</p>"
+            "value": "<p>A fuming sludge's ejected globs cling to targets.</p>\n<p>A creature hit by an ejected glob Strike is Encumbered for 1 round.</p>\n<p>If the attack was a critical hit, the creature is instead Restrained for 1 round (Escape DC 24).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7540,7 +7540,7 @@
             }
           },
           "description": {
-            "value": "<p>You snuff the life out of a creature on the brink of death. The target must attempt a Will save. If this kills it, you gain 10 temporary HP and a +1 status bonus to attack and damage rolls for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target's  value increases by 1.</p>\n<p><strong>Failure</strong> The target dies.</p>\n<p></p>"
+            "value": "<p>You snuff the life out of a creature on the brink of death. The target must attempt a Will save. If this kills it, you gain 10 temporary HP and a +1 status bonus to attack and damage rolls for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target's Dying value increases by 1.</p>\n<p><strong>Failure</strong> The target dies.</p>\n<p>Spell Effect: Death Knell</p>"
           },
           "duration": {
             "sustained": false,
@@ -7601,7 +7601,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You can see  creatures and objects. They appear to you as translucent shapes, and they are  to you.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The spell has a duration of 8 hours.</p>\n<p></p>"
+            "value": "<p>You can see Invisible creatures and objects. They appear to you as translucent shapes, and they are Concealed to you.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The spell has a duration of 8 hours.</p>\n<p>Spell Effect: See the Unseen</p>"
           },
           "duration": {
             "sustained": false,
@@ -7814,7 +7814,7 @@
             }
           },
           "description": {
-            "value": "<p>You fill the minds of your enemies with doubt.</p>\n<p>Enemies in the area must succeed at a Will save or take a -1 status penalty to attack rolls as long as they are in the area.</p>\n<p>Once per turn, starting the turn after you cast bane, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet and force enemies in the area that weren't yet affected to attempt another saving throw.</p>\n<p>Bane can counteract .</p>\n<p></p>"
+            "value": "<p>You fill the minds of your enemies with doubt.</p>\n<p>Enemies in the area must succeed at a Will save or take a -1 status penalty to attack rolls as long as they are in the area.</p>\n<p>Once per turn, starting the turn after you cast bane, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet and force enemies in the area that weren't yet affected to attempt another saving throw.</p>\n<p>Bane can counteract Bless.</p>\n<p>Spell Effect: Bane</p>"
           },
           "duration": {
             "sustained": false,
@@ -7875,7 +7875,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Blessings from beyond help your companions strike true. You and your allies gain a +1 status bonus to attack rolls while within the emanation. Once per turn, starting the turn after you cast bless, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet.</p>\n<p>Bless can counteract .</p>\n<p></p>"
+            "value": "<p>Blessings from beyond help your companions strike true. You and your allies gain a +1 status bonus to attack rolls while within the emanation. Once per turn, starting the turn after you cast bless, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet.</p>\n<p>Bless can counteract Bane.</p>\n<p>Aura: Bless</p>"
           },
           "duration": {
             "sustained": false,
@@ -7941,7 +7941,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the  condition), release what it's holding, drop , or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8107,7 +8107,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8182,7 +8182,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You ward an ally against the attacks and hostile spells from the target enemy. The target ally gains a +1 status bonus to Armor Class and saving throws against the target enemy's attacks, spells, and other effects.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (6th)</strong> The status bonus increases to +2.</p>"
+            "value": "<p>You ward an ally against the attacks and hostile spells from the target enemy. The target ally gains a +1 status bonus to Armor Class and saving throws against the target enemy's attacks, spells, and other effects.</p>\n<p>Spell Effect: Forbidding Ward</p>\n<hr />\n<p><strong>Heightened (6th)</strong> The status bonus increases to +2.</p>"
           },
           "duration": {
             "sustained": true,
@@ -8697,7 +8697,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p>Spell Effect: Light</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
           },
           "duration": {
             "sustained": false,
@@ -8828,7 +8828,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Vitality energy shuts death's door. The target loses the  condition, though it remains  at 0 Hit Points.</p>"
+            "value": "<p>Vitality energy shuts death's door. The target loses the Dying condition, though it remains Unconscious at 0 Hit Points.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8901,7 +8901,7 @@
             "die": "d6"
           },
           "description": {
-            "value": "<p>The head of this +1 striking  spear is wrapped in greasy hide, and its head resembles a thick, clawed finger.</p>\n<p>On a critical hit, the target is Enfeebled 1 for 1 minute, and you gain [[/r 1d8]] temporary Hit Points that last for 1 minute.</p>"
+            "value": "<p>The head of this +1 striking Returning spear is wrapped in greasy hide, and its head resembles a thick, clawed finger.</p>\n<p>On a critical hit, the target is Enfeebled 1 for 1 minute, and you gain [[/r 1d8]] temporary Hit Points that last for 1 minute.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -9716,7 +9716,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You form an imaginary scene that includes up to 10 discrete creatures or objects of various sizes, all of which must be within the spell's area. These elements generate appropriate sounds and smells, and they feel right to the touch. Elements of an illusory scene are incapable of speech. Unlike with the  spell, creatures in your scene lack combat abilities and statistics. Your scene doesn't include changes to the environment around it, though you can place your scene within the illusory environment of a  spell.</p>\n<p>When you create the scene, you can choose to have it be static or follow a program. Though a static scene is stationary, it includes basic natural movement. For example, wind blowing on an illusory piece of paper would rustle it. A program can be up to 1 minute long and repeats when finished. For instance, you could create a scene of two orcs fighting each other, and the fight would go the same way for each repetition. If you create a loop, the two fighters end up in the same place at the start of the scene and at the end of it, but you can smooth the program so it's hard to tell when the loop ends and begins. Anyone observing the scene for more than a few minutes almost always notices it looping. You're unable to alter the program after you create the illusion.</p>\n<p>Any creature that touches any part of the image or uses the Seek action to examine it can attempt to disbelieve your illusion. If they interact with a portion of the illusion, they disbelieve only that portion. They disbelieve the entire scene only on a critical success.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> Creatures or objects in your scene can speak. You must speak the specific lines for each actor when creating your program. The spell disguises your voice for each actor.</p>\n<p><strong>Heightened (8th)</strong> As the 6th-rank version, and the duration is unlimited.</p>"
+            "value": "<p>You form an imaginary scene that includes up to 10 discrete creatures or objects of various sizes, all of which must be within the spell's area. These elements generate appropriate sounds and smells, and they feel right to the touch. Elements of an illusory scene are incapable of speech. Unlike with the Illusory Creature spell, creatures in your scene lack combat abilities and statistics. Your scene doesn't include changes to the environment around it, though you can place your scene within the illusory environment of a Mirage spell.</p>\n<p>When you create the scene, you can choose to have it be static or follow a program. Though a static scene is stationary, it includes basic natural movement. For example, wind blowing on an illusory piece of paper would rustle it. A program can be up to 1 minute long and repeats when finished. For instance, you could create a scene of two orcs fighting each other, and the fight would go the same way for each repetition. If you create a loop, the two fighters end up in the same place at the start of the scene and at the end of it, but you can smooth the program so it's hard to tell when the loop ends and begins. Anyone observing the scene for more than a few minutes almost always notices it looping. You're unable to alter the program after you create the illusion.</p>\n<p>Any creature that touches any part of the image or uses the Seek action to examine it can attempt to disbelieve your illusion. If they interact with a portion of the illusion, they disbelieve only that portion. They disbelieve the entire scene only on a critical success.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> Creatures or objects in your scene can speak. You must speak the specific lines for each actor when creating your program. The spell disguises your voice for each actor.</p>\n<p><strong>Heightened (8th)</strong> As the 6th-rank version, and the duration is unlimited.</p>"
           },
           "duration": {
             "sustained": false,
@@ -9796,7 +9796,7 @@
             }
           },
           "description": {
-            "value": "<p>You create a phantasmal image of the most fearsome creature imaginable to the target. Only the spell's target can see the killer, though you can see the vague shape of the illusion as it races forth to attack. The effect of the killer is based on the outcome of the target's Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes 4d6 mental damage and is Frightened 1.</p>\n<p><strong>Failure</strong> The target takes 8d6 mental damage and is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is so afraid it might die. It must attempt a Fortitude save; if the target fails, it dies. On a successful Fortitude save, the target takes 12d6 mental damage, is  until the end of its next turn, and is Frightened 4. This effect has the incapacitation trait.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6 on a failure and by 3d6 on a critical failure.</p>"
+            "value": "<p>You create a phantasmal image of the most fearsome creature imaginable to the target. Only the spell's target can see the killer, though you can see the vague shape of the illusion as it races forth to attack. The effect of the killer is based on the outcome of the target's Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes 4d6 mental damage and is Frightened 1.</p>\n<p><strong>Failure</strong> The target takes 8d6 mental damage and is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is so afraid it might die. It must attempt a Fortitude save; if the target fails, it dies. On a successful Fortitude save, the target takes 12d6 mental damage, is Fleeing until the end of its next turn, and is Frightened 4. This effect has the incapacitation trait.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6 on a failure and by 3d6 on a critical failure.</p>"
           },
           "duration": {
             "sustained": false,
@@ -9939,7 +9939,7 @@
             }
           },
           "description": {
-            "value": "<p>You block the target's motor impulses before they can leave its mind, threatening to freeze the target in place. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Stunned 1.</p>\n<p><strong>Failure</strong> The target is  for 1 round.</p>\n<p><strong>Critical Failure</strong> The target is Paralyzed for 4 rounds. At the end of each of its turns, it can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You block the target's motor impulses before they can leave its mind, threatening to freeze the target in place. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Stunned 1.</p>\n<p><strong>Failure</strong> The target is Paralyzed for 1 round.</p>\n<p><strong>Critical Failure</strong> The target is Paralyzed for 4 rounds. At the end of each of its turns, it can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10103,7 +10103,7 @@
             }
           },
           "description": {
-            "value": "<p>The target is overtaken with uncontrollable laughter. It must attempt a Will save.</p>\n<hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is plagued with uncontrollable laughter. It can't use reactions.</p>\n<p><strong>Failure</strong> The target is Slowed 1 and can't use reactions.</p>\n<p><strong>Critical Failure</strong> The target falls  and can't use actions or reactions for 1 round. It then suffers the failure effects.</p>"
+            "value": "<p>The target is overtaken with uncontrollable laughter. It must attempt a Will save.</p>\n<hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is plagued with uncontrollable laughter. It can't use reactions.</p>\n<p><strong>Failure</strong> The target is Slowed 1 and can't use reactions.</p>\n<p><strong>Critical Failure</strong> The target falls Prone and can't use actions or reactions for 1 round. It then suffers the failure effects.</p>"
           },
           "duration": {
             "sustained": true,
@@ -10166,7 +10166,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You can see  creatures and objects. They appear to you as translucent shapes, and they are  to you.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The spell has a duration of 8 hours.</p>\n<p></p>"
+            "value": "<p>You can see Invisible creatures and objects. They appear to you as translucent shapes, and they are Concealed to you.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The spell has a duration of 8 hours.</p>\n<p>Spell Effect: See the Unseen</p>"
           },
           "duration": {
             "sustained": false,
@@ -10367,7 +10367,7 @@
             }
           },
           "description": {
-            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes  toward you. If it was Friendly, it becomes . It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
+            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes Friendly toward you. If it was Friendly, it becomes Helpful. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10447,7 +10447,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the  condition), release what it's holding, drop , or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10746,7 +10746,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10822,7 +10822,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You ask for divine guidance, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p></p>\n<p></p>"
+            "value": "<p>You ask for divine guidance, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p>Spell Effect: Guidance</p>\n<p>Effect: Guidance Immunity</p>"
           },
           "duration": {
             "sustained": false,
@@ -10886,7 +10886,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You inspire yourself and your allies with words or tunes of encouragement. You and all allies in the area gain a +1 status bonus to attack rolls, damage rolls, and saves against fear effects.</p>\n<p></p>"
+            "value": "<p>You inspire yourself and your allies with words or tunes of encouragement. You and all allies in the area gain a +1 status bonus to attack rolls, damage rolls, and saves against fear effects.</p>\n<p>Spell Effect: Courageous Anthem</p>"
           },
           "duration": {
             "sustained": false,
@@ -10947,7 +10947,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p>Spell Effect: Light</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
           },
           "duration": {
             "sustained": false,
@@ -11159,7 +11159,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You grace the target's mind, boosting its mental defenses and healing its wounds. The target regains 1d10+4 Hit Points when you Cast the Spell and gains a +2 status bonus to saves against mental effects for the duration.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d10+4.</p>"
+            "value": "<p>You grace the target's mind, boosting its mental defenses and healing its wounds. The target regains 1d10+4 Hit Points when you Cast the Spell and gains a +2 status bonus to saves against mental effects for the duration.</p>\n<p>Spell Effect: Soothe</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d10+4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -11388,7 +11388,7 @@
             "die": "d4"
           },
           "description": {
-            "value": "<p>This thick, greasy <em>+1 striking  whip</em> is made from a slimy pseudopod. You don't take the usual -2 circumstance penalty to your attack rolls when using the <em>slime whip</em> to make a lethal attack. The whip's form can be changed just like any weapon with the shifting rune, but it reverts to its original form as soon as it isn't wielded. When in its whip form, you can use the following action.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command, Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> For 1 round, the <em>slime whip</em> deals acid damage rather than slashing damage. If the attack deals persistent damage, the persistent damage is also acid damage instead of its usual type.</p>\n<p></p>"
+            "value": "<p>This thick, greasy <em>+1 striking Shifting whip</em> is made from a slimy pseudopod. You don't take the usual -2 circumstance penalty to your attack rolls when using the <em>slime whip</em> to make a lethal attack. The whip's form can be changed just like any weapon with the shifting rune, but it reverts to its original form as soon as it isn't wielded. When in its whip form, you can use the following action.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command, Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> For 1 round, the <em>slime whip</em> deals acid damage rather than slashing damage. If the attack deals persistent damage, the persistent damage is also acid damage instead of its usual type.</p>\n<p>Effect: Slime Whip</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -11697,7 +11697,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>Paga gains a +2 circumstance bonus when using the  action to find  or  creatures within 30 feet of her.</p>\n<p>When she targets an opponent that is  from her or hidden, she reduces the DC of the flat check to 3 for a concealed target or 9 for a hidden one.</p>"
+            "value": "<p>Paga gains a +2 circumstance bonus when using the Seek action to find Hidden or Undetected creatures within 30 feet of her.</p>\n<p>When she targets an opponent that is Concealed from her or hidden, she reduces the DC of the flat check to 3 for a concealed target or 9 for a hidden one.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11794,7 +11794,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Paga cringes and cowers before a creature within 10 feet that can see her. The target must attempt a DC 28  Will save.</p>\n<p>The target is then temporarily immune for 1 hour.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect.</p>\n<p><strong>Success</strong> The creature is  by Paga until the end of its next turn.</p>\n<p><strong>Failure</strong> The creature is fascinated by Paga and can't use hostile actions against her until the end of its next turn.</p>\n<p><strong>Critical Failure</strong> As failure, and the creature isn't temporarily immune to Feign Harmlessness.</p>"
+            "value": "<p>Paga cringes and cowers before a creature within 10 feet that can see her. The target must attempt a DC 28  Will save.</p>\n<p>The target is then temporarily immune for 1 hour.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect.</p>\n<p><strong>Success</strong> The creature is Fascinated by Paga until the end of its next turn.</p>\n<p><strong>Failure</strong> The creature is fascinated by Paga and can't use hostile actions against her until the end of its next turn.</p>\n<p><strong>Critical Failure</strong> As failure, and the creature isn't temporarily immune to Feign Harmlessness.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12085,7 +12085,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature without an Aspis Consortium badge approaches within 5 feet of a slab</p>\n<hr />\n<p><strong>Effect</strong> Both double doors leading out of the room shut and lock. While the trap is active, the doors must be battered open (Hardness 18; Panel HP 72 [BT 36]; DC 29  Athletics (action:force-open) to ). The closest symbol to the triggering creature shoots an electricity bolt attack at it. The trap then rolls initiative.</p>"
+            "value": "<p><strong>Trigger</strong> A creature without an Aspis Consortium badge approaches within 5 feet of a slab</p>\n<hr />\n<p><strong>Effect</strong> Both double doors leading out of the room shut and lock. While the trap is active, the doors must be battered open (Hardness 18; Panel HP 72 [BT 36]; DC 29  Athletics (action:force-open) to Force Open). The closest symbol to the triggering creature shoots an electricity bolt attack at it. The trap then rolls initiative.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12220,7 +12220,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>Five scroll symbols shoot electricity bolts around the room.</p>",
-        "disable": "<p>DC 25  Thievery (action:disable-a-device) (expert) or  (3rd level; counteract DC 24)</p>\n<p>DC 29  Thievery (action:disable-a-device) (master) to disable the entire trap from the hidden control panel beneath the central slab.</p>",
+        "disable": "<p>DC 25  Thievery (action:disable-a-device) (expert) or Dispel Magic (3rd level; counteract DC 24)</p>\n<p>DC 29  Thievery (action:disable-a-device) (master) to disable the entire trap from the hidden control panel beneath the central slab.</p>",
         "isComplex": true,
         "level": {
           "value": 9
@@ -12323,7 +12323,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>The sand conceals a rune that summons an invisible stalker into this yard.</p>",
-        "disable": "<p>DC 25  Acrobatics to approach without triggering the trap followed by DC 25  Arcana (expert) or DC 27  Thievery (action:disable-a-device) (expert) to erase the rune, or  (4th level; counteract DC 25) to counteract the rune</p>",
+        "disable": "<p>DC 25  Acrobatics to approach without triggering the trap followed by DC 25  Arcana (expert) or DC 27  Thievery (action:disable-a-device) (expert) to erase the rune, or Dispel Magic (4th level; counteract DC 25) to counteract the rune</p>",
         "isComplex": true,
         "level": {
           "value": 7

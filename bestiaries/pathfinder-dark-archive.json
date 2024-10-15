@@ -128,7 +128,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature enters a square adjacent to the ledge of an island or steps onto one of the red ropes</p>\n<hr />\n<p><strong>Effect</strong> The call of the void tugs at the mind of intruders, compelling them to leap off the ledge. The creature must succeed at a DC 34  Will save or DC 32  Acrobatics (action:balance) check to  or else drop off the ledge. If the creature falls off, it drops 100 feet, loops through the closed space of the mindscape, and lands in the square it fell from, taking falling damage as normal (usually @Damage[50[bludgeoning]] damage). The call of the void then rolls initiative.</p>"
+            "value": "<p><strong>Trigger</strong> A creature enters a square adjacent to the ledge of an island or steps onto one of the red ropes</p>\n<hr />\n<p><strong>Effect</strong> The call of the void tugs at the mind of intruders, compelling them to leap off the ledge. The creature must succeed at a DC 34  Will save or DC 32  Acrobatics (action:balance) check to Balance or else drop off the ledge. If the creature falls off, it drops 100 feet, loops through the closed space of the mindscape, and lands in the square it fell from, taking falling damage as normal (usually @Damage[50[bludgeoning]] damage). The call of the void then rolls initiative.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -227,7 +227,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature is reflected in the mirror</p>\n<hr />\n<p><strong>Effect</strong> The mirror creates a  of the triggering creature, which Steps out of the mirror and into the hall. The trap then rolls initiative.</p>"
+            "value": "<p><strong>Trigger</strong> A creature is reflected in the mirror</p>\n<hr />\n<p><strong>Effect</strong> The mirror creates a Reflection of the triggering creature, which Steps out of the mirror and into the hall. The trap then rolls initiative.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -267,7 +267,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>Two opposing mirrors spawn illusory duplicates of creatures in the hall in an unending tide.</p>",
-        "disable": "<p>DC 28  Thievery (action:disable-a-device) (expert) to reposition each mirror, or  (3rd level; counteract DC 25) to counteract each mirror</p>",
+        "disable": "<p>DC 28  Thievery (action:disable-a-device) (expert) to reposition each mirror, or Dispel Magic (3rd level; counteract DC 25) to counteract each mirror</p>",
         "isComplex": true,
         "level": {
           "value": 6
@@ -401,7 +401,7 @@
             }
           },
           "description": {
-            "value": "<p>You grasp a piece of the landscape-such as a tree, carriage, or piece of masonry-and lob it in your foe's direction. Your missile crashes down in either a 10-foot burst (for most missiles) or a 30-foot line (for something long and tall, like a tree or a ship's mast), dealing 14d6 bludgeoning damage and turning its area into difficult terrain as it breaks into rubble. All creatures in the area must attempt a Reflex save. If the area is a line, it doesn't have to start from your square but can instead start anywhere in range, as long as the entire area remains within range.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is knocked .</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is knocked prone, and is Stunned 1.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+            "value": "<p>You grasp a piece of the landscape-such as a tree, carriage, or piece of masonry-and lob it in your foe's direction. Your missile crashes down in either a 10-foot burst (for most missiles) or a 30-foot line (for something long and tall, like a tree or a ship's mast), dealing 14d6 bludgeoning damage and turning its area into difficult terrain as it breaks into rubble. All creatures in the area must attempt a Reflex save. If the area is a line, it doesn't have to start from your square but can instead start anywhere in range, as long as the entire area remains within range.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is knocked Prone.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is knocked prone, and is Stunned 1.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
           },
           "duration": {
             "sustained": false,
@@ -952,7 +952,7 @@
             }
           },
           "description": {
-            "value": "<p>You cover the area in a sloshing torrent of semi-solidified thought, roughly ankle high. The area becomes difficult terrain, similarly to a shallow bog. Each round that a creature starts its turn in the area, it must attempt a Fortitude save against the shifting waves of thought. On a failure, it takes a -10-foot circumstance penalty to its Speeds until it leaves the area, and on a critical failure, it is also knocked .</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The radius of the spell's area increases by 5 feet.</p>"
+            "value": "<p>You cover the area in a sloshing torrent of semi-solidified thought, roughly ankle high. The area becomes difficult terrain, similarly to a shallow bog. Each round that a creature starts its turn in the area, it must attempt a Fortitude save against the shifting waves of thought. On a failure, it takes a -10-foot circumstance penalty to its Speeds until it leaves the area, and on a critical failure, it is also knocked Prone.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The radius of the spell's area increases by 5 feet.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1016,7 +1016,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's rank or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as .</p>"
+            "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's rank or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as Concealed.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1391,7 +1391,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the  reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the  spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the Force Barrage spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>Spell Effect: Shield</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1463,7 +1463,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You grace the target's mind, boosting its mental defenses and healing its wounds. The target regains 1d10+4 Hit Points when you Cast the Spell and gains a +2 status bonus to saves against mental effects for the duration.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d10+4.</p>"
+            "value": "<p>You grace the target's mind, boosting its mental defenses and healing its wounds. The target regains 1d10+4 Hit Points when you Cast the Spell and gains a +2 status bonus to saves against mental effects for the duration.</p>\n<p>Spell Effect: Soothe</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d10+4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1794,7 +1794,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The cocoon and the Weaver share the same essence. Its spells never affect the Weaver if they would harm him, and the Weaver can ignore the any of the cocoon's active spell effects if he desires (such as ).</p>"
+            "value": "<p>The cocoon and the Weaver share the same essence. Its spells never affect the Weaver if they would harm him, and the Weaver can ignore the any of the cocoon's active spell effects if he desires (such as Sea of Thought).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1934,7 +1934,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature passes through the rune-carved doorway or hallway</p>\n<hr />\n<p><strong>Effect</strong> The creature is  by the illusions and directed back into the room they attempted to exit through another doorway or back to the hallway's beginning. This feels no different to the triggering creature than walking through the doorway or hallway, and onlookers are similarly befuddled. A creature who succeeds at a DC 19  Will save resists this illusion and exits the room or proceeds down the hall without being misdirected.</p>"
+            "value": "<p><strong>Trigger</strong> A creature passes through the rune-carved doorway or hallway</p>\n<hr />\n<p><strong>Effect</strong> The creature is Confused by the illusions and directed back into the room they attempted to exit through another doorway or back to the hallway's beginning. This feels no different to the triggering creature than walking through the doorway or hallway, and onlookers are similarly befuddled. A creature who succeeds at a DC 19  Will save resists this illusion and exits the room or proceeds down the hall without being misdirected.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2037,7 +2037,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature reaches the hall's midpoint</p>\n<hr />\n<p><strong>Effect</strong> The hall's walls lose their rigidity, becoming fluid and elastic. The hall becomes difficult terrain, and each creature in the hall is knocked  unless they succeed at a DC 26  Reflex save. The trap then rolls initiative.</p>"
+            "value": "<p><strong>Trigger</strong> A creature reaches the hall's midpoint</p>\n<hr />\n<p><strong>Effect</strong> The hall's walls lose their rigidity, becoming fluid and elastic. The hall becomes difficult terrain, and each creature in the hall is knocked Prone unless they succeed at a DC 26  Reflex save. The trap then rolls initiative.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2118,7 +2118,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>A hall's four walls become fluid and elastic when a creature reaches the hall's midpoint.</p>",
-        "disable": "<p>DC 28  Thievery (action:disable-a-device) (trained) to stabilize each wall, or  (4th level; counteract DC 26) to counteract each wall</p>",
+        "disable": "<p>DC 28  Thievery (action:disable-a-device) (trained) to stabilize each wall, or Dispel Magic (4th level; counteract DC 26) to counteract each wall</p>",
         "isComplex": true,
         "level": {
           "value": 8
@@ -2129,7 +2129,7 @@
           "title": "Pathfinder Dark Archive"
         },
         "reset": "<p>1 hour</p>",
-        "routine": "<p>(4 actions) This trap loses 1 action each round for each wall that has been disabled. Each wall uses 1 action to slam back and forth rapidly, pummeling one creature in the hall with a wall Strike. On a hit, the target is additionally knocked . The walls distribute the attacks as evenly as possible among creatures in the hall, and the Strikes don't apply the trap's multiple attack penalty.</p>"
+        "routine": "<p>(4 actions) This trap loses 1 action each round for each wall that has been disabled. Each wall uses 1 action to slam back and forth rapidly, pummeling one creature in the hall with a wall Strike. On a hit, the target is additionally knocked Prone. The walls distribute the attacks as evenly as possible among creatures in the hall, and the Strikes don't apply the trap's multiple attack penalty.</p>"
       },
       "saves": {
         "fortitude": {
@@ -2177,7 +2177,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature enters the room</p>\n<hr />\n<p><strong>Effect</strong> Illusions cause the appearance of the room and the objects inside it to constantly warp, shift, bend, and distort for 1 minute. Each creature in the room while it's distorting must attempt a DC 17  Perception check.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature disbelieves the illusions and is unaffected.</p>\n<p><strong>Success</strong> The creature disbelieves the illusions but still sees them. It treats the room as difficult terrain.</p>\n<p><strong>Failure</strong> The creature is fooled by the illusions. It treats the room as difficult terrain and becomes Sickened 1. As long as it remains in the room, it can't reduce its sickened value below 1.</p>\n<p><strong>Critical Failure</strong> As failure, but each time the creature Archive attempts a move action, it must succeed at a DC 5  Flat or they lose the action, and on a critical failure, it also falls .</p>"
+            "value": "<p><strong>Trigger</strong> A creature enters the room</p>\n<hr />\n<p><strong>Effect</strong> Illusions cause the appearance of the room and the objects inside it to constantly warp, shift, bend, and distort for 1 minute. Each creature in the room while it's distorting must attempt a DC 17  Perception check.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature disbelieves the illusions and is unaffected.</p>\n<p><strong>Success</strong> The creature disbelieves the illusions but still sees them. It treats the room as difficult terrain.</p>\n<p><strong>Failure</strong> The creature is fooled by the illusions. It treats the room as difficult terrain and becomes Sickened 1. As long as it remains in the room, it can't reduce its sickened value below 1.</p>\n<p><strong>Critical Failure</strong> As failure, but each time the creature Archive attempts a move action, it must succeed at a DC 5  Flat or they lose the action, and on a critical failure, it also falls Prone.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2220,7 +2220,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>Illusions cloaking this chamber cause it to appear distorted and constantly shifting, with the room and all its contents appearing tilted, irregular, and in motion.</p>",
-        "disable": "<p>DC 17  Crafting (trained) to calculate the room's dimensions despite the illusions, or  (1st level; counteract DC 17) to counteract the illusions</p>",
+        "disable": "<p>DC 17  Crafting (trained) to calculate the room's dimensions despite the illusions, or Dispel Magic (1st level; counteract DC 17) to counteract the illusions</p>",
         "isComplex": false,
         "level": {
           "value": 1
@@ -2322,7 +2322,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>Fun-house mirrors distort a viewer's reflection, painfully reshaping their body to match what appears in the reflected images.</p>",
-        "disable": "<p>DC 38  Thievery (action:disable-a-device) (master) to deface the mirror's pane, or  (7th level; counteract DC 36) to dispel the mirror or counteract the transformation</p>",
+        "disable": "<p>DC 38  Thievery (action:disable-a-device) (master) to deface the mirror's pane, or Dispel Magic (7th level; counteract DC 36) to dispel the mirror or counteract the transformation</p>",
         "isComplex": false,
         "level": {
           "value": 14
@@ -2381,7 +2381,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature steps on the track</p><hr /><p><strong>Effect</strong> The chair rockets forward along the track and slams into the triggering creature, dealing @Damage[(3d8 + 15)[bludgeoning]] damage. A creature who succeeds at a DC 22  Reflex (damaging-effect) save takes no damage and moves out of the chair's path into a random adjacent square not containing the track. A creature who fails this saving throw is knocked into the chair's seat and immediately captured by the armrests, becoming  ( on a critical failure; Escape DC 26).</p>"
+            "value": "<p><strong>Trigger</strong> A creature steps on the track</p><hr /><p><strong>Effect</strong> The chair rockets forward along the track and slams into the triggering creature, dealing @Damage[(3d8 + 15)[bludgeoning]] damage. A creature who succeeds at a DC 22  Reflex (damaging-effect) save takes no damage and moves out of the chair's path into a random adjacent square not containing the track. A creature who fails this saving throw is knocked into the chair's seat and immediately captured by the armrests, becoming Grabbed (Restrained on a critical failure; Escape DC 26).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2479,7 +2479,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature opens the door</p>\n<hr />\n<p><strong>Effect</strong> The hall is buffeted by powerful winds for as long as the door remains open. A creature must succeed at a DC 32  Athletics check to move toward the door. A creature who fails at this check is pushed back 5 feet and falls .</p>\n<p>Additionally, the triggering creature is blasted by a powerful gust of wind and must attempt a DC 32  Fortitude save. The trap then rolls initiative.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is pushed back 5 feet.</p>\n<p><strong>Failure</strong> The creature is pushed back 10 feet.</p>\n<p><strong>Critical Failure</strong> The creature is pushed back 10 feet and knocked .</p>"
+            "value": "<p><strong>Trigger</strong> A creature opens the door</p>\n<hr />\n<p><strong>Effect</strong> The hall is buffeted by powerful winds for as long as the door remains open. A creature must succeed at a DC 32  Athletics check to move toward the door. A creature who fails at this check is pushed back 5 feet and falls Prone.</p>\n<p>Additionally, the triggering creature is blasted by a powerful gust of wind and must attempt a DC 32  Fortitude save. The trap then rolls initiative.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is pushed back 5 feet.</p>\n<p><strong>Failure</strong> The creature is pushed back 10 feet.</p>\n<p><strong>Critical Failure</strong> The creature is pushed back 10 feet and knocked Prone.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2520,7 +2520,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>Magic runes carved into a doorframe connect a door to the Plane of Air when opened, blowing creatures down the connecting hall.</p>",
-        "disable": "<p>DC 30  Thievery (action:disable-a-device) (expert) twice to scratch out the runes, or  (5th level; counteract DC 30) to counteract the planar runes; DC 32  Athletics to shut the door if it's open (using Athletics only stops the trap, it doesn't fully disable it)</p>",
+        "disable": "<p>DC 30  Thievery (action:disable-a-device) (expert) twice to scratch out the runes, or Dispel Magic (5th level; counteract DC 30) to counteract the planar runes; DC 32  Athletics to shut the door if it's open (using Athletics only stops the trap, it doesn't fully disable it)</p>",
         "isComplex": true,
         "level": {
           "value": 9
@@ -2579,7 +2579,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature walks onto the illusory floor</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature falls through the illusory floor and takes falling damage (typically @Damage[20[bludgeoning]] damage). That creature can use the  reaction to avoid falling. The DC to  the walls (DC 20  Athletics (action:climb)) or Grab an Edge is DC 20  Reflex (action:grab-an-edge).</p>"
+            "value": "<p><strong>Trigger</strong> A creature walks onto the illusory floor</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature falls through the illusory floor and takes falling damage (typically @Damage[20[bludgeoning]] damage). That creature can use the Grab an Edge reaction to avoid falling. The DC to Climb the walls (DC 20  Athletics (action:climb)) or Grab an Edge is DC 20  Reflex (action:grab-an-edge).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2617,7 +2617,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>The floor in this chamber is an illusion, which conceals a 40-foot drop to the true floor below. Additionally, the area beneath the floor is magically silenced-no sound is audible within nor does sound leave this space.</p>",
-        "disable": "<p>Succeeding on a Perception check against the Stealth DC of 21 (including the check to find the trap) disbelieves the illusory floor, or  (2nd level; counteract DC 18) to dispel the illusory floor; <em>dispel magic</em> (2nd level; counteract DC 20) to dispel the magical silence</p>",
+        "disable": "<p>Succeeding on a Perception check against the Stealth DC of 21 (including the check to find the trap) disbelieves the illusory floor, or Dispel Magic (2nd level; counteract DC 18) to dispel the illusory floor; <em>dispel magic</em> (2nd level; counteract DC 20) to dispel the magical silence</p>",
         "isComplex": false,
         "level": {
           "value": 3
@@ -2677,7 +2677,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature enters the room and steps onto the floor</p>\n<p><strong>Effect</strong> The creature slips through the floor; it tumbles through an interdimensional void before falling back into the room through the ceiling and landing on the floor. The triggering creature takes @Damage[40[bludgeoning]] damage from the fall. That creature can try to  (DC 24) to avoid falling.</p>"
+            "value": "<p><strong>Trigger</strong> A creature enters the room and steps onto the floor</p>\n<p><strong>Effect</strong> The creature slips through the floor; it tumbles through an interdimensional void before falling back into the room through the ceiling and landing on the floor. The triggering creature takes @Damage[40[bludgeoning]] damage from the fall. That creature can try to Grab an Edge (DC 24) to avoid falling.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2960,7 +2960,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The Echo carries a drop spindle that constantly spins red astral thread, which is both his thaumaturgic implement and weapon. If his <em>rope dart</em> is lost or broken, he can re-form it with an Interact action. If he critically succeeds at a <em>rope dart</em> Strike, overwhelming thoughts and figments flow down the thread into the target's mind. The target becomes  for 1 round.</p>"
+            "value": "<p>The Echo carries a drop spindle that constantly spins red astral thread, which is both his thaumaturgic implement and weapon. If his <em>rope dart</em> is lost or broken, he can re-form it with an Interact action. If he critically succeeds at a <em>rope dart</em> Strike, overwhelming thoughts and figments flow down the thread into the target's mind. The target becomes Confused for 1 round.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2974,7 +2974,7 @@
                 "criticalSuccess"
               ],
               "selector": "rope-dart-attack",
-              "text": "If he critically succeeds at a rope dart Strike, overwhelming thoughts and figments flow down the thread into the target's mind. The target becomes  for 1 round.",
+              "text": "If he critically succeeds at a rope dart Strike, overwhelming thoughts and figments flow down the thread into the target's mind. The target becomes Confused for 1 round.",
               "title": "{item|name}",
               "visibility": "owner"
             }
@@ -3036,7 +3036,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> The Echo's turn begins and he's stunned, slowed, , , , , , , or otherwise can't act</p>\n<hr />\n<p><strong>Effect</strong> The Echo has set up numerous contingencies in the event he's compromised. Talismans on his body shatter, counteracting the triggering effect. The Echo can use this free action even if he can't act.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> The Echo's turn begins and he's stunned, slowed, Confused, Controlled, Immobilized, Grabbed, Paralyzed, Restrained, or otherwise can't act</p>\n<hr />\n<p><strong>Effect</strong> The Echo has set up numerous contingencies in the event he's compromised. Talismans on his body shatter, counteracting the triggering effect. The Echo can use this free action even if he can't act.</p>"
           },
           "frequency": {
             "max": 1,
@@ -3071,7 +3071,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The Echo is standing on one of the eight large islands of the map, and the island hasn't darkened</p><hr /><p><strong>Effect</strong> The Echo throws his rope dart into the island and uses it to absorb mental essence from the mindscape, repairing himself. He regains @Damage[45[healing]] Hit Points and the island turns a desaturated gray for 1 day, preventing future absorption and disabling the  hazard on that island.</p>"
+            "value": "<p><strong>Requirements</strong> The Echo is standing on one of the eight large islands of the map, and the island hasn't darkened</p><hr /><p><strong>Effect</strong> The Echo throws his rope dart into the island and uses it to absorb mental essence from the mindscape, repairing himself. He regains @Damage[45[healing]] Hit Points and the island turns a desaturated gray for 1 day, preventing future absorption and disabling the Call of the Void hazard on that island.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3103,7 +3103,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The Echo's spindle revolves faster and faster until it's a blur, lashing red threads in every direction. The threads deal 7d6 slashing],7d6{7d6 slashing damage and 7d6 mental damage} to all creatures in a 30-foot emanation, with a DC 34  Basic  Reflex. If a creature fails its save, the threads awaken the mindscape an</p>\n<p>chor within it, affecting it differently based on which anchor that creature used to gain access to the center of the mindscape. (If there is a PC who didn't absorb a mindscape anchor, for instance because there are more than four PCs in the party, then use the anchor of the PC closest to them.)</p>\n<p>The Echo then can't use Spindle's Web for [[/br 1d4 #rounds]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Lantern</strong> The lantern outlines the creature with searing  that deals 2d6 persistent,fire damage.</li>\n<li><strong>Mirror</strong> The mirror reflects the creature to another location, teleporting them to a clear space within 25 feet of their current location.</li>\n<li><strong>Chalice</strong> The chalice drains life force, granting the Echo temporary HP equal to half the damage dealt.</li>\n<li><strong>Tome</strong> The tome floods the creature's mind with information; the target is Slowed 1 for 1 round.</li>\n</ul>"
+            "value": "<p>The Echo's spindle revolves faster and faster until it's a blur, lashing red threads in every direction. The threads deal 7d6 slashing],7d6{7d6 slashing damage and 7d6 mental damage} to all creatures in a 30-foot emanation, with a DC 34  Basic  Reflex. If a creature fails its save, the threads awaken the mindscape an</p>\n<p>chor within it, affecting it differently based on which anchor that creature used to gain access to the center of the mindscape. (If there is a PC who didn't absorb a mindscape anchor, for instance because there are more than four PCs in the party, then use the anchor of the PC closest to them.)</p>\n<p>The Echo then can't use Spindle's Web for [[/br 1d4 #rounds]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Lantern</strong> The lantern outlines the creature with searing Faerie Fire that deals 2d6 persistent,fire damage.</li>\n<li><strong>Mirror</strong> The mirror reflects the creature to another location, teleporting them to a clear space within 25 feet of their current location.</li>\n<li><strong>Chalice</strong> The chalice drains life force, granting the Echo temporary HP equal to half the damage dealt.</li>\n<li><strong>Tome</strong> The tome floods the creature's mind with information; the target is Slowed 1 for 1 round.</li>\n</ul>"
           },
           "publication": {
             "license": "OGL",
@@ -3489,7 +3489,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to  an effect that has them , , or , they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3824,7 +3824,7 @@
             }
           },
           "description": {
-            "value": "<p>This spell wards against those who attempt to subvert your mind and turns mental magic back on them. When the spell is complete, you gain the  reaction; once you use the reaction, the spell ends.</p>\n<p></p>"
+            "value": "<p>This spell wards against those who attempt to subvert your mind and turns mental magic back on them. When the spell is complete, you gain the Fight with Fear reaction; once you use the reaction, the spell ends.</p>\n<p>Spell Effect: Mind of Menace</p>"
           },
           "duration": {
             "sustained": false,
@@ -3893,7 +3893,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Blossoms grow from the ground in a small area, soothing away afflictions and persistent pains and harm. When any creature in that area rolls a successful save against a poison or disease effect, it gets a critical success instead. The blossoms grant assisted recovery to everyone in the area to end their persistent damage, both when the spell is cast and at the start of each of your turns. Once the duration ends, the flowers lose their magical effect, but a few of them might survive in the area as long as they can naturally. This spell doesn't give a benefit on a save against an affliction unless the stage lasts 10 minutes or less.</p>\n<p></p>"
+            "value": "<p>Blossoms grow from the ground in a small area, soothing away afflictions and persistent pains and harm. When any creature in that area rolls a successful save against a poison or disease effect, it gets a critical success instead. The blossoms grant assisted recovery to everyone in the area to end their persistent damage, both when the spell is cast and at the start of each of your turns. Once the duration ends, the flowers lose their magical effect, but a few of them might survive in the area as long as they can naturally. This spell doesn't give a benefit on a save against an affliction unless the stage lasts 10 minutes or less.</p>\n<p>Spell Effect: Soothing Blossoms</p>"
           },
           "duration": {
             "sustained": false,
@@ -3963,7 +3963,7 @@
             }
           },
           "description": {
-            "value": "<p>Plants in the area entangle creatures. The area counts as difficult terrain. Each round that a creature starts its turn in the area, it must attempt a Reflex save. On a failure, it takes a -10-foot circumstance penalty to its Speeds until it leaves the area, and on a critical failure, it is also  for 1 round. Creatures can attempt to Escape at entangle's DC to remove these effects.</p>"
+            "value": "<p>Plants in the area entangle creatures. The area counts as difficult terrain. Each round that a creature starts its turn in the area, it must attempt a Reflex save. On a failure, it takes a -10-foot circumstance penalty to its Speeds until it leaves the area, and on a critical failure, it is also Immobilized for 1 round. Creatures can attempt to Escape at entangle's DC to remove these effects.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4031,7 +4031,7 @@
             }
           },
           "description": {
-            "value": "<p>Creatures in the area are outlined by glittering dust. Each creature must attempt a Reflex save. If a creature has its invisibility negated by this spell, it is  instead of . This applies both if the creature was already Invisible and if it benefits from new invisibility effects before the end of the invisibility negation effect from this spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target's invisibility is negated for 2 rounds.</p>\n<p><strong>Failure</strong> The target is  for 1 minute and its invisibility is negated for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is  for 1 round and Dazzled for 10 minutes. Its invisibility is negated for 10 minutes.</p>"
+            "value": "<p>Creatures in the area are outlined by glittering dust. Each creature must attempt a Reflex save. If a creature has its invisibility negated by this spell, it is Concealed instead of Invisible. This applies both if the creature was already Invisible and if it benefits from new invisibility effects before the end of the invisibility negation effect from this spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target's invisibility is negated for 2 rounds.</p>\n<p><strong>Failure</strong> The target is Dazzled for 1 minute and its invisibility is negated for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is Blinded for 1 round and Dazzled for 10 minutes. Its invisibility is negated for 10 minutes.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4215,7 +4215,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You ask for divine guidance, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p></p>\n<p></p>"
+            "value": "<p>You ask for divine guidance, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p>Spell Effect: Guidance</p>\n<p>Effect: Guidance Immunity</p>"
           },
           "duration": {
             "sustained": false,
@@ -4362,7 +4362,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You blast an icy ray. Make a spell attack roll. The ray deals 2d4 cold damage.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and takes a -10-foot status penalty to its Speeds for 1 round.</p>\n<p></p>\n<p><strong>Success</strong> The target takes normal damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
+            "value": "<p>You blast an icy ray. Make a spell attack roll. The ray deals 2d4 cold damage.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and takes a -10-foot status penalty to its Speeds for 1 round.</p>\n<p>Spell Effect: Ray of Frost</p>\n<p><strong>Success</strong> The target takes normal damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4432,7 +4432,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>A vine covered in sticky sap appears from thin air, flicking from your hand and lashing itself to the target. Attempt a spell attack against the target.</p>\n<hr />\n<p><strong>Critical Success</strong> The target gains the  condition and takes a -10-foot circumstance penalty to its Speeds for 1 round. It can attempt to Escape against your spell DC to remove the penalty and the  condition.</p>\n<p><strong>Success</strong> The target takes a -10-foot circumstance penalty to its Speeds for 1 round. It can attempt to Escape against your spell DC to remove the penalty.</p>\n<p></p>\n<p><strong>Failure</strong> The target is unaffected.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The effects last for 2 rounds.</p>\n<p><strong>Heightened (4th)</strong> The effects last for 1 minute.</p>"
+            "value": "<p>A vine covered in sticky sap appears from thin air, flicking from your hand and lashing itself to the target. Attempt a spell attack against the target.</p>\n<hr />\n<p><strong>Critical Success</strong> The target gains the Immobilized condition and takes a -10-foot circumstance penalty to its Speeds for 1 round. It can attempt to Escape against your spell DC to remove the penalty and the Immobilized condition.</p>\n<p><strong>Success</strong> The target takes a -10-foot circumstance penalty to its Speeds for 1 round. It can attempt to Escape against your spell DC to remove the penalty.</p>\n<p>Spell Effect: Tangle Vine</p>\n<p><strong>Failure</strong> The target is unaffected.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The effects last for 2 rounds.</p>\n<p><strong>Heightened (4th)</strong> The effects last for 1 minute.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4840,7 +4840,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per ascension ritual</p>\n<hr />\n<p><strong>Effect</strong> Mitera activates the moonflower link with her followers. Any followers within 30 feet who failed their saving throw against the moonflower tea become Sickened 1. Anyone who critically failed and did not receive an antidote explodes (this is about half of Mitera's congregation if the PCs didn't successfully administer the antidote). If anyone's body explodes, Mitera gains 30 temporary Hit Points and is  for 3 rounds; she can use this additional action each round only for Strike and Stride actions.</p>"
+            "value": "<p><strong>Frequency</strong> once per ascension ritual</p>\n<hr />\n<p><strong>Effect</strong> Mitera activates the moonflower link with her followers. Any followers within 30 feet who failed their saving throw against the moonflower tea become Sickened 1. Anyone who critically failed and did not receive an antidote explodes (this is about half of Mitera's congregation if the PCs didn't successfully administer the antidote). If anyone's body explodes, Mitera gains 30 temporary Hit Points and is Quickened for 3 rounds; she can use this additional action each round only for Strike and Stride actions.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5064,7 +5064,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>An object shedding magical light (such as from the  spell) is treated as magical when used to attack the shadow.</p>"
+            "value": "<p>An object shedding magical light (such as from the Light spell) is treated as magical when used to attack the shadow.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5094,7 +5094,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The shadow and the target are both within 40 feet of the crystal that spawned the shadow, and the crystal isn't covered or obstructed</p>\n<hr />\n<p><strong>Effect</strong> Shadows in the shape of tendrils curl around the target, drawing out a portion of the target's vitality and siphoning it into the crystal. The target takes 4d6 void damage (DC 21  Basic  Fortitude). On a failure, they are also Enfeebled 1. This enfeebled condition is cumulative with other enfeebled conditions from quartz-spawned shadows, to a maximum of enfeebled 4. If Crystal Siphon increases the creature's enfeebled value to 3 or more, the target's shadow is pulled entirely into the shadow's crystal.</p>\n<p>While the target's shadow is trapped, they feel an  tether linking them to the crystal, and they become Slowed 1 whenever they are more than 40 feet away from it. The enfeebled condition from Crystal Siphon can't be reduced until the crystal is broken; if the crystal is broken, the effect immediately ends.</p>"
+            "value": "<p><strong>Requirements</strong> The shadow and the target are both within 40 feet of the crystal that spawned the shadow, and the crystal isn't covered or obstructed</p>\n<hr />\n<p><strong>Effect</strong> Shadows in the shape of tendrils curl around the target, drawing out a portion of the target's vitality and siphoning it into the crystal. The target takes 4d6 void damage (DC 21  Basic  Fortitude). On a failure, they are also Enfeebled 1. This enfeebled condition is cumulative with other enfeebled conditions from quartz-spawned shadows, to a maximum of enfeebled 4. If Crystal Siphon increases the creature's enfeebled value to 3 or more, the target's shadow is pulled entirely into the shadow's crystal.</p>\n<p>While the target's shadow is trapped, they feel an Invisible tether linking them to the crystal, and they become Slowed 1 whenever they are more than 40 feet away from it. The enfeebled condition from Crystal Siphon can't be reduced until the crystal is broken; if the crystal is broken, the effect immediately ends.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5128,7 +5128,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The shadow can  or end its  in a creature's or object's shadow.</p>"
+            "value": "<p>The shadow can Hide or end its Sneak in a creature's or object's shadow.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5313,7 +5313,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature looks into the mirror</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature sees themselves enjoying their deepest desires in the mirror's reflection, becoming  (DC 20  Will negates). This fascination ends automatically when the mirror is broken or covered up.</p>"
+            "value": "<p><strong>Trigger</strong> A creature looks into the mirror</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature sees themselves enjoying their deepest desires in the mirror's reflection, becoming Fascinated (DC 20  Will negates). This fascination ends automatically when the mirror is broken or covered up.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5842,7 +5842,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature steps on a pressure plate</p>\n<hr />\n<p><strong>Effect</strong> The floor and adjoining wall rotate up and over on a central axle, tipping the triggering creature into an adjacent featureless room and simultaneously replacing the pressure plate and wall with another set on the same axle. The triggering creature is pushed into an adjoining room, takes 1d8 bludgeoning damage, and lands . A creature who succeeds at a DC 19  Reflex (damaging-effect) save takes no damage and rolls out of the way of the trap, returning to the space they were in before stepping on the pressure plate.</p>"
+            "value": "<p><strong>Trigger</strong> A creature steps on a pressure plate</p>\n<hr />\n<p><strong>Effect</strong> The floor and adjoining wall rotate up and over on a central axle, tipping the triggering creature into an adjacent featureless room and simultaneously replacing the pressure plate and wall with another set on the same axle. The triggering creature is pushed into an adjoining room, takes 1d8 bludgeoning damage, and lands Prone. A creature who succeeds at a DC 19  Reflex (damaging-effect) save takes no damage and rolls out of the way of the trap, returning to the space they were in before stepping on the pressure plate.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5939,7 +5939,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature moves within 10 feet of the sigil</p>\n<hr />\n<p><strong>Effect</strong> All creatures within 120 feet of the sigil are affected by a  spell (DC 40  Will (damaging-effect) save).</p>"
+            "value": "<p><strong>Trigger</strong> A creature moves within 10 feet of the sigil</p>\n<hr />\n<p><strong>Effect</strong> All creatures within 120 feet of the sigil are affected by a Weird spell (DC 40  Will (damaging-effect) save).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5984,7 +5984,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>An arcane sigil forces creatures to confront their greatest fear.</p>",
-        "disable": "<p>DC 43  Thievery (action:disable-a-device) (master) to drain the sigil's power harmlessly, or  (9th level; counteract DC 42) to counteract the sigil</p>",
+        "disable": "<p>DC 43  Thievery (action:disable-a-device) (master) to drain the sigil's power harmlessly, or Dispel Magic (9th level; counteract DC 42) to counteract the sigil</p>",
         "isComplex": false,
         "level": {
           "value": 17
@@ -6043,7 +6043,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature touches the window</p><hr /><p><strong>Effect</strong> The triggering creature takes @Damage[(8d10 + 44)[void]] damage (DC 42  Basic  Will) as the window attempts to steal their soul. If this damage would kill the target, its soul is trapped inside the window with the effects of .</p>"
+            "value": "<p><strong>Trigger</strong> A creature touches the window</p><hr /><p><strong>Effect</strong> The triggering creature takes @Damage[(8d10 + 44)[void]] damage (DC 42  Basic  Will) as the window attempts to steal their soul. If this damage would kill the target, its soul is trapped inside the window with the effects of Seize Soul.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6192,7 +6192,7 @@
           "title": "Pathfinder Dark Archive"
         },
         "reset": "<p>The trap resets once there are no moving creatures in it.</p>",
-        "routine": "<p>(3 actions) Water from the chalice increases the depth of the water by 10 feet for each action. Each time this happens, creatures in the pool are pushed 10 feet down and take 1d6 bludgeoning damage. As the pool has no bottom, creatures in it can fall down indefinitely; they must  up to avoid drowning, but the water is especially choppy, so the Athletics DC is DC 25  Athletics (action:swim). The pool never overflows. Each successful check to Disable reduces the pool's actions by 1, and once the pool is completely Disabled, the water becomes still and the Athletics DC to Swim becomes DC 10  Athletics (action:swim).</p>"
+        "routine": "<p>(3 actions) Water from the chalice increases the depth of the water by 10 feet for each action. Each time this happens, creatures in the pool are pushed 10 feet down and take 1d6 bludgeoning damage. As the pool has no bottom, creatures in it can fall down indefinitely; they must Swim up to avoid drowning, but the water is especially choppy, so the Athletics DC is DC 25  Athletics (action:swim). The pool never overflows. Each successful check to Disable reduces the pool's actions by 1, and once the pool is completely Disabled, the water becomes still and the Athletics DC to Swim becomes DC 10  Athletics (action:swim).</p>"
       },
       "saves": {
         "fortitude": {
@@ -6718,7 +6718,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>The Weaver has torn off his own name to become a being of fear. He is immune to linguistic effects and any effect that would impose the  condition. Without a name, he is difficult for phenomena to affect; the Weaver recovers from the , , and  conditions at the end of his turn, and his flat check to clear persistent damage is DC 5  Flat{5}. If anyone utters, writes, or otherwise attempts to record his name, that creature automatically takes @Damage[10[mental]] damage and the attempt fails.</p>"
+            "value": "<p>The Weaver has torn off his own name to become a being of fear. He is immune to linguistic effects and any effect that would impose the Frightened condition. Without a name, he is difficult for phenomena to affect; the Weaver recovers from the Paralyzed, Slowed, and Stunned conditions at the end of his turn, and his flat check to clear persistent damage is DC 5  Flat{5}. If anyone utters, writes, or otherwise attempts to record his name, that creature automatically takes @Damage[10[mental]] damage and the attempt fails.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6838,7 +6838,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The Weaver becomes  to all creatures within 60 feet or is not observed by any creatures within 60 feet</p>\n<hr />\n<p><strong>Effect</strong> The Weaver's presence on the Material Plane is connected to others' perception of him, and when that perception falters, he can skitter to a new location. The Weaver teleports to an unoccupied space within 60 feet not within line of sight of any creatures within 60 feet. If the Weaver became concealed or unobserved as part of a movement action he was taking, he can resume its movement after teleporting. A creature who Averts its Gaze from the Weaver is not observing him.</p>"
+            "value": "<p><strong>Trigger</strong> The Weaver becomes Concealed to all creatures within 60 feet or is not observed by any creatures within 60 feet</p>\n<hr />\n<p><strong>Effect</strong> The Weaver's presence on the Material Plane is connected to others' perception of him, and when that perception falters, he can skitter to a new location. The Weaver teleports to an unoccupied space within 60 feet not within line of sight of any creatures within 60 feet. If the Weaver became concealed or unobserved as part of a movement action he was taking, he can resume its movement after teleporting. A creature who Averts its Gaze from the Weaver is not observing him.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7159,7 +7159,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The moonflower has swallowed a creature</p>\n<hr />\n<p><strong>Effect</strong> The swallowed creature is wrapped in a tight cocoon and extruded from the moonflower's body into an adjacent square. The creature continues to be Swallowed Whole. It can't use Acrobatics to  a pod, but other creatures can attempt to Rupture the pod. The cocooned creature takes half damage from any damage dealt to the cocoon. Once the cocoon is Ruptured, it deflates and decays.</p>"
+            "value": "<p><strong>Trigger</strong> The moonflower has swallowed a creature</p>\n<hr />\n<p><strong>Effect</strong> The swallowed creature is wrapped in a tight cocoon and extruded from the moonflower's body into an adjacent square. The creature continues to be Swallowed Whole. It can't use Acrobatics to Escape a pod, but other creatures can attempt to Rupture the pod. The cocooned creature takes half damage from any damage dealt to the cocoon. Once the cocoon is Ruptured, it deflates and decays.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7219,7 +7219,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Effect</strong> The moonflower expels mindwarping petals in a 30-foot cone. Creatures in the area take 4d6 mental],4d6{4d6 mental damage and 4d6 poison damage} (DC 26  Basic  Will). On a failure, they are Stupefied 2 for 1 minute, and on a critical failure, they are also  for 1 round.</p>\n<p>The moonflower can't Spray Blossoms again for [[/br 1d4 #Recharge Spray Blossoms]]{1d4 rounds}.</p>"
+            "value": "<p><strong>Effect</strong> The moonflower expels mindwarping petals in a 30-foot cone. Creatures in the area take 4d6 mental],4d6{4d6 mental damage and 4d6 poison damage} (DC 26  Basic  Will). On a failure, they are Stupefied 2 for 1 minute, and on a critical failure, they are also Confused for 1 round.</p>\n<p>The moonflower can't Spray Blossoms again for [[/br 1d4 #Recharge Spray Blossoms]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",

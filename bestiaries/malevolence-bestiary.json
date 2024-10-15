@@ -201,7 +201,7 @@
             }
           },
           "description": {
-            "value": "<p>You befuddle your target with strange impulses, causing it to act randomly. The effects are determined by the target's Will save. You can Dismiss the spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target babbles incoherently and is Stunned 1.</p>\n<p><strong>Failure</strong> The target is  for 1 minute. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Critical Failure</strong> The target is Confused for 1 minute, with no save to end early.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You befuddle your target with strange impulses, causing it to act randomly. The effects are determined by the target's Will save. You can Dismiss the spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target babbles incoherently and is Stunned 1.</p>\n<p><strong>Failure</strong> The target is Confused for 1 minute. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Critical Failure</strong> The target is Confused for 1 minute, with no save to end early.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -323,7 +323,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Cloaked in illusion, the target becomes . This makes it  to all creatures, though the creatures can attempt to find the target, making it  to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+            "value": "<p>Cloaked in illusion, the target becomes Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
           },
           "duration": {
             "sustained": false,
@@ -599,7 +599,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>An incorporeal undead damaged by Frenzied Beaks must attempt a DC 30  Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The undead is unaffected and is temporarily immune for 24 hours.</p>\n<p><strong>Success</strong> The undead takes a -10-foot status penalty to Speeds for 1 round.</p>\n<p><strong>Failure</strong> As success, but the undead is also  for 1 round, although it can attempt to Escape (DC 30).</p>\n<p><strong>Critical Failure</strong> The undead is restrained for 1 round. The algea can attempt to plane shift with the  creature even if that creature isn't willing, but an unwilling creature can attempt a Will save to resist . If it succeeds, the algea plane shifts and leaves the incorporeal creature behind, which is then no longer restrained.</p>"
+            "value": "<p>An incorporeal undead damaged by Frenzied Beaks must attempt a DC 30  Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The undead is unaffected and is temporarily immune for 24 hours.</p>\n<p><strong>Success</strong> The undead takes a -10-foot status penalty to Speeds for 1 round.</p>\n<p><strong>Failure</strong> As success, but the undead is also Immobilized for 1 round, although it can attempt to Escape (DC 30).</p>\n<p><strong>Critical Failure</strong> The undead is restrained for 1 round. The algea can attempt to plane shift with the Restrained creature even if that creature isn't willing, but an unwilling creature can attempt a Will save to resist Interplanar Teleport. If it succeeds, the algea plane shifts and leaves the incorporeal creature behind, which is then no longer restrained.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1070,7 +1070,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Anitoli Nostreaema siphons the breath from living creatures, sapping their strength. A living creature hit by a jaws Strike must attempt a DC 24  Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Enfeebled 1 for 1 round.</p>\n<p><strong>Failure</strong> The target is Enfeebled 1 for 24 hours and .</p>\n<p><strong>Critical Failure</strong> The target is enfeebled 1 for 24 hours, is fatigued, and falls .</p>"
+            "value": "<p>Anitoli Nostreaema siphons the breath from living creatures, sapping their strength. A living creature hit by a jaws Strike must attempt a DC 24  Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Enfeebled 1 for 1 round.</p>\n<p><strong>Failure</strong> The target is Enfeebled 1 for 24 hours and Fatigued.</p>\n<p><strong>Critical Failure</strong> The target is enfeebled 1 for 24 hours, is fatigued, and falls Unconscious.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1305,7 +1305,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p>The target believes a miniature version of their childhood home has built up around them, locking them in place. The target must attempt a DC 24  Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and is temporarily immune to Shackled Memories for 24 hours.</p>\n<p><strong>Success</strong> The target is  until the end of their next turn.</p>\n<p><strong>Failure</strong> The target is off-guard and  until the end of their next turn.</p>\n<p><strong>Critical Failure</strong> The target is  for 1 minute or until they Escape.</p>"
+            "value": "<p>The target believes a miniature version of their childhood home has built up around them, locking them in place. The target must attempt a DC 24  Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and is temporarily immune to Shackled Memories for 24 hours.</p>\n<p><strong>Success</strong> The target is Off-Guard until the end of their next turn.</p>\n<p><strong>Failure</strong> The target is off-guard and Immobilized until the end of their next turn.</p>\n<p><strong>Critical Failure</strong> The target is Restrained for 1 minute or until they Escape.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1744,7 +1744,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The nosoi croons \"<em>the Lord slumbers below, you're nothing but his dreams, and when the lord awakes, you'll know the end of things!</em>\". Each living or undead creature within a 60-foot emanation must attempt a DC 18  Will save. The effect lasts for 1 round, but a nosoi can use this ability again on subsequent rounds to extend the duration by 1 round for all affected creatures. A creature that succeeds at any save is temporarily immune for 24 hours. Despite being a mental effect, this ability affects mindless undead. Psychopomps are immune to this ability.</p>\n<hr />\n<p><strong>Failure</strong> The creature is .</p>\n<p><strong>Critical Failure</strong> As failure, and the creature must spend each of its actions on its turn to move closer to the nosoi as expediently as possible while avoiding obvious dangers. If a  creature is adjacent to the nosoi, it stays still and doesn't act. If the creature is attacked, the fascination ends.</p>"
+            "value": "<p>The nosoi croons \"<em>the Lord slumbers below, you're nothing but his dreams, and when the lord awakes, you'll know the end of things!</em>\". Each living or undead creature within a 60-foot emanation must attempt a DC 18  Will save. The effect lasts for 1 round, but a nosoi can use this ability again on subsequent rounds to extend the duration by 1 round for all affected creatures. A creature that succeeds at any save is temporarily immune for 24 hours. Despite being a mental effect, this ability affects mindless undead. Psychopomps are immune to this ability.</p>\n<hr />\n<p><strong>Failure</strong> The creature is Fascinated.</p>\n<p><strong>Critical Failure</strong> As failure, and the creature must spend each of its actions on its turn to move closer to the nosoi as expediently as possible while avoiding obvious dangers. If a Fascinated creature is adjacent to the nosoi, it stays still and doesn't act. If the creature is attacked, the fascination ends.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1975,7 +1975,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Cloaked in illusion, the target becomes . This makes it  to all creatures, though the creatures can attempt to find the target, making it  to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+            "value": "<p>Cloaked in illusion, the target becomes Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
           },
           "duration": {
             "sustained": false,
@@ -2201,7 +2201,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The esobok ghoul is adjacent to the corpse of a creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghoul devours a chunk of the corpse and regains [[/r 3d6[healing]]] Hit Points.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>"
+            "value": "<p><strong>Requirements</strong> The esobok ghoul is adjacent to the corpse of a creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghoul devours a chunk of the corpse and regains 3d6 healing Hit Points.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2306,7 +2306,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Any living, non-elf creature hit by a ghoul's attack must succeed at a DC 22  Fortitude save or become .</p>\n<p>It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
+            "value": "<p>Any living, non-elf creature hit by a ghoul's attack must succeed at a DC 22  Fortitude save or become Paralyzed.</p>\n<p>It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3009,7 +3009,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You perform a complex magical operation on a willing or  creature or a corpse, delicately cutting into the skull and removing the creature's brain without damaging the organ. If you have an empty brain cylinder on hand, you can place the extracted brain into the brain cylinder as part of this ritual (this includes preparing the brain cylinder for use, such as removing a previous brain and filling the cylinder with the preservative fluids required to make it function).</p>\n<p>Or at the GM's discretion, if you have a nearly completed carrion golem at hand, you can place the extracted brain into the golem. The body of a living creature subjected to this ritual dies, regardless of the ritual's result, as does the extracted brain if it is not placed into a golem or cylinder (or otherwise preserved) within 3 rounds.</p>\n<hr />\n<p><strong>Critical Success</strong> The ritual succeeds on a living creature, or on a corpse that has been dead no longer than 8 hours before the ritual began. If you place the brain into a golem, the golem retains the brain's memories, along with its mental ability scores, alignment, and related skills.</p>\n<p><strong>Success</strong> The ritual succeeds on a living creature or on a corpse that has been dead no longer than 1 hour before the ritual began.</p>\n<p><strong>Failure</strong> The ritual fails and the brain dies.</p>\n<p><strong>Critical Failure</strong> The ritual seems to succeed but warps the brain unrecognizably into a hostile entity, potentially allowing an alien intelligence to seep into it.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can place the extracted brain into an inactive flesh golem on a critical success.</p>\n<p><strong>Heightened (9th)</strong> You can place the extracted brain into an inactive alchemical golem on a critical success.</p>"
+            "value": "<p>You perform a complex magical operation on a willing or Restrained creature or a corpse, delicately cutting into the skull and removing the creature's brain without damaging the organ. If you have an empty brain cylinder on hand, you can place the extracted brain into the brain cylinder as part of this ritual (this includes preparing the brain cylinder for use, such as removing a previous brain and filling the cylinder with the preservative fluids required to make it function).</p>\n<p>Or at the GM's discretion, if you have a nearly completed carrion golem at hand, you can place the extracted brain into the golem. The body of a living creature subjected to this ritual dies, regardless of the ritual's result, as does the extracted brain if it is not placed into a golem or cylinder (or otherwise preserved) within 3 rounds.</p>\n<hr />\n<p><strong>Critical Success</strong> The ritual succeeds on a living creature, or on a corpse that has been dead no longer than 8 hours before the ritual began. If you place the brain into a golem, the golem retains the brain's memories, along with its mental ability scores, alignment, and related skills.</p>\n<p><strong>Success</strong> The ritual succeeds on a living creature or on a corpse that has been dead no longer than 1 hour before the ritual began.</p>\n<p><strong>Failure</strong> The ritual fails and the brain dies.</p>\n<p><strong>Critical Failure</strong> The ritual seems to succeed but warps the brain unrecognizably into a hostile entity, potentially allowing an alien intelligence to seep into it.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can place the extracted brain into an inactive flesh golem on a critical success.</p>\n<p><strong>Heightened (9th)</strong> You can place the extracted brain into an inactive alchemical golem on a critical success.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3163,7 +3163,7 @@
             }
           },
           "description": {
-            "value": "<p>You send disturbing nightmares to your target. The next time the target falls asleep, it must attempt a Will save. If you know the target only by name and have never met them, the target gets a +4 circumstance bonus to the Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target suffers no adverse effects and is temporarily immune for 1 week.</p>\n<p><strong>Success</strong> The target experiences the nightmares but suffers no adverse effects other than unpleasant memories.</p>\n<p><strong>Failure</strong> The target experiences the nightmares and awakens .</p>\n<p><strong>Critical Failure</strong> The target experiences the nightmares, awakens Fatigued, and is Drained 2 until it is no longer Fatigued.</p>"
+            "value": "<p>You send disturbing nightmares to your target. The next time the target falls asleep, it must attempt a Will save. If you know the target only by name and have never met them, the target gets a +4 circumstance bonus to the Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target suffers no adverse effects and is temporarily immune for 1 week.</p>\n<p><strong>Success</strong> The target experiences the nightmares but suffers no adverse effects other than unpleasant memories.</p>\n<p><strong>Failure</strong> The target experiences the nightmares and awakens Fatigued.</p>\n<p><strong>Critical Failure</strong> The target experiences the nightmares, awakens Fatigued, and is Drained 2 until it is no longer Fatigued.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3240,7 +3240,7 @@
             }
           },
           "description": {
-            "value": "<p>You create a phantasmal image of the most fearsome creature imaginable to the target. Only the spell's target can see the killer, though you can see the vague shape of the illusion as it races forth to attack. The effect of the killer is based on the outcome of the target's Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes 4d6 mental damage and is Frightened 1.</p>\n<p><strong>Failure</strong> The target takes 8d6 mental damage and is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is so afraid it might die. It must attempt a Fortitude save; if the target fails, it dies. On a successful Fortitude save, the target takes 12d6 mental damage, is  until the end of its next turn, and is Frightened 4. This effect has the incapacitation trait.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6 on a failure and by 3d6 on a critical failure.</p>"
+            "value": "<p>You create a phantasmal image of the most fearsome creature imaginable to the target. Only the spell's target can see the killer, though you can see the vague shape of the illusion as it races forth to attack. The effect of the killer is based on the outcome of the target's Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes 4d6 mental damage and is Frightened 1.</p>\n<p><strong>Failure</strong> The target takes 8d6 mental damage and is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is so afraid it might die. It must attempt a Fortitude save; if the target fails, it dies. On a successful Fortitude save, the target takes 12d6 mental damage, is Fleeing until the end of its next turn, and is Frightened 4. This effect has the incapacitation trait.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6 on a failure and by 3d6 on a critical failure.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3379,7 +3379,7 @@
             }
           },
           "description": {
-            "value": "<p>You block the target's motor impulses before they can leave its mind, threatening to freeze the target in place. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Stunned 1.</p>\n<p><strong>Failure</strong> The target is  for 1 round.</p>\n<p><strong>Critical Failure</strong> The target is Paralyzed for 4 rounds. At the end of each of its turns, it can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You block the target's motor impulses before they can leave its mind, threatening to freeze the target in place. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Stunned 1.</p>\n<p><strong>Failure</strong> The target is Paralyzed for 1 round.</p>\n<p><strong>Critical Failure</strong> The target is Paralyzed for 4 rounds. At the end of each of its turns, it can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3634,7 +3634,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Three illusory images of you swirl about your space, potentially causing those who attack you to hit one of the images instead of you. Any attack that would hit you has a random chance of hitting one of your images instead of you. If all three images remain, there is a 1 in 4 chance of hitting you (1 on [[/r 1d4]]). With two images remaining, there is a 1 in 3 chance of hitting you (1-2 on [[/r 1d6]]). With only one image, the chances are 1 in 2 (1-3 on [[/r 1d6]]).</p>\n<p>Once an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys an image but has no additional effect (even if the attack would normally have an effect on a failure). If an attack roll is a critical success and would hit one of the images, one of the images is destroyed and the attack roll becomes a success against you. Once all the images are destroyed, the spell ends.</p>\n<p></p>"
+            "value": "<p>Three illusory images of you swirl about your space, potentially causing those who attack you to hit one of the images instead of you. Any attack that would hit you has a random chance of hitting one of your images instead of you. If all three images remain, there is a 1 in 4 chance of hitting you (1 on [[/r 1d4]]). With two images remaining, there is a 1 in 3 chance of hitting you (1-2 on [[/r 1d6]]). With only one image, the chances are 1 in 2 (1-3 on [[/r 1d6]]).</p>\n<p>Once an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys an image but has no additional effect (even if the attack would normally have an effect on a failure). If an attack roll is a critical success and would hit one of the images, one of the images is destroyed and the attack roll becomes a success against you. Once all the images are destroyed, the spell ends.</p>\n<p>Spell Effect: Mirror Image</p>"
           },
           "duration": {
             "sustained": false,
@@ -3763,7 +3763,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the  condition), release what it's holding, drop , or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3919,7 +3919,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4047,7 +4047,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p>Spell Effect: Light</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
           },
           "duration": {
             "sustained": false,
@@ -4638,7 +4638,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature within 30 feet of Ioseff fails a saving throw against one of his spells</p>\n<hr />\n<p><strong>Effect</strong> Ioseff infuses the magic of his spell with the agonies of his own death. In addition to any effects caused by the triggering spell, the target must also attempt a DC 28  Fortitude (disease) save. or contract internal insurrection at stage 1 (stage 2 on a critical failure)</p>\n<p><strong>Internal Insurrection</strong> (disease); <strong>Level 7</strong>.</p>\n<p>The target can't recover from the clumsy condition from internal insurrection until the disease is cured</p>\n<p><strong>Stage 1</strong> Clumsy 1 (1 day)</p>\n<p><strong>Stage 2</strong> Clumsy 2 (1 day)</p>\n<p><strong>Stage 3</strong> clumsy 2 and  (1 day)</p>\n<p><strong>Stage 4</strong> Clumsy 3 and off-guard (1 day)</p>\n<p><strong>Stage 5</strong> death, and the target's body splits apart into a mass of fragments that crawls outward in a 10-foot-emanation before perishing, leaving a bare skeleton surrounded by gore.</p>"
+            "value": "<p><strong>Trigger</strong> A creature within 30 feet of Ioseff fails a saving throw against one of his spells</p>\n<hr />\n<p><strong>Effect</strong> Ioseff infuses the magic of his spell with the agonies of his own death. In addition to any effects caused by the triggering spell, the target must also attempt a DC 28  Fortitude (disease) save. or contract internal insurrection at stage 1 (stage 2 on a critical failure)</p>\n<p><strong>Internal Insurrection</strong> (disease); <strong>Level 7</strong>.</p>\n<p>The target can't recover from the clumsy condition from internal insurrection until the disease is cured</p>\n<p><strong>Stage 1</strong> Clumsy 1 (1 day)</p>\n<p><strong>Stage 2</strong> Clumsy 2 (1 day)</p>\n<p><strong>Stage 3</strong> clumsy 2 and Off-Guard (1 day)</p>\n<p><strong>Stage 4</strong> Clumsy 3 and off-guard (1 day)</p>\n<p><strong>Stage 5</strong> death, and the target's body splits apart into a mass of fragments that crawls outward in a 10-foot-emanation before perishing, leaving a bare skeleton surrounded by gore.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4668,7 +4668,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Ioseff Xarwin attempts to possess an adjacent corporeal creature. This has the same effect as the  spell, except since Ioseff Xarwin doesn't have a physical body, it is unaffected by that restriction of the spell.</p>\n<p>The target must attempt a DC 28  Will (controlling) save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> You possess the target but can't control it. You ride along in the body while the spell lasts.</p>\n<p><strong>Failure</strong> You possess the target and take partial control of it. You no longer have a separate turn; instead, you might control the target. At the start of each of the target's turns, it attempts another Will save. If it fails, it's  by you on that turn; if it succeeds, it chooses its own actions; and if it critically succeeds, it forces you out and the spell ends.</p>\n<p><strong>Critical Failure</strong> You possess the target fully, and it can only watch as you manipulate it like a puppet. The target is Controlled by you.</p>\n<p>A character who carries Fulvia's ring on their person gains a +4 item bonus to their save and treats the result of the save as one degree of success better than their rolled result. If Ioseff attempts to use this ability on a character who wears Fulvia's ring, he can attempt a Perception check against the ring-wearer's Stealth DC to notice the ring in time to avoid the attempt; on a success, he loses the two actions he took to make the attempt but avoids further effects. If he doesn't notice the ring and attempts to possess the ring-wearer, the ring-wearer automatically gains a critical success on their Will save, Ioseff is Stunned 3, and he can't use Malevolent Possession again for 24 hours.</p>"
+            "value": "<p>Ioseff Xarwin attempts to possess an adjacent corporeal creature. This has the same effect as the Possession spell, except since Ioseff Xarwin doesn't have a physical body, it is unaffected by that restriction of the spell.</p>\n<p>The target must attempt a DC 28  Will (controlling) save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> You possess the target but can't control it. You ride along in the body while the spell lasts.</p>\n<p><strong>Failure</strong> You possess the target and take partial control of it. You no longer have a separate turn; instead, you might control the target. At the start of each of the target's turns, it attempts another Will save. If it fails, it's Controlled by you on that turn; if it succeeds, it chooses its own actions; and if it critically succeeds, it forces you out and the spell ends.</p>\n<p><strong>Critical Failure</strong> You possess the target fully, and it can only watch as you manipulate it like a puppet. The target is Controlled by you.</p>\n<p>A character who carries Fulvia's ring on their person gains a +4 item bonus to their save and treats the result of the save as one degree of success better than their rolled result. If Ioseff attempts to use this ability on a character who wears Fulvia's ring, he can attempt a Perception check against the ring-wearer's Stealth DC to notice the ring in time to avoid the attempt; on a success, he loses the two actions he took to make the attempt but avoids further effects. If he doesn't notice the ring and attempts to possess the ring-wearer, the ring-wearer automatically gains a critical success on their Will save, Ioseff is Stunned 3, and he can't use Malevolent Possession again for 24 hours.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4969,7 +4969,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You perform a complex magical operation on a willing or  creature or a corpse, delicately cutting into the skull and removing the creature's brain without damaging the organ. If you have an empty brain cylinder on hand, you can place the extracted brain into the brain cylinder as part of this ritual (this includes preparing the brain cylinder for use, such as removing a previous brain and filling the cylinder with the preservative fluids required to make it function).</p>\n<p>Or at the GM's discretion, if you have a nearly completed carrion golem at hand, you can place the extracted brain into the golem. The body of a living creature subjected to this ritual dies, regardless of the ritual's result, as does the extracted brain if it is not placed into a golem or cylinder (or otherwise preserved) within 3 rounds.</p>\n<hr />\n<p><strong>Critical Success</strong> The ritual succeeds on a living creature, or on a corpse that has been dead no longer than 8 hours before the ritual began. If you place the brain into a golem, the golem retains the brain's memories, along with its mental ability scores, alignment, and related skills.</p>\n<p><strong>Success</strong> The ritual succeeds on a living creature or on a corpse that has been dead no longer than 1 hour before the ritual began.</p>\n<p><strong>Failure</strong> The ritual fails and the brain dies.</p>\n<p><strong>Critical Failure</strong> The ritual seems to succeed but warps the brain unrecognizably into a hostile entity, potentially allowing an alien intelligence to seep into it.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can place the extracted brain into an inactive flesh golem on a critical success.</p>\n<p><strong>Heightened (9th)</strong> You can place the extracted brain into an inactive alchemical golem on a critical success.</p>"
+            "value": "<p>You perform a complex magical operation on a willing or Restrained creature or a corpse, delicately cutting into the skull and removing the creature's brain without damaging the organ. If you have an empty brain cylinder on hand, you can place the extracted brain into the brain cylinder as part of this ritual (this includes preparing the brain cylinder for use, such as removing a previous brain and filling the cylinder with the preservative fluids required to make it function).</p>\n<p>Or at the GM's discretion, if you have a nearly completed carrion golem at hand, you can place the extracted brain into the golem. The body of a living creature subjected to this ritual dies, regardless of the ritual's result, as does the extracted brain if it is not placed into a golem or cylinder (or otherwise preserved) within 3 rounds.</p>\n<hr />\n<p><strong>Critical Success</strong> The ritual succeeds on a living creature, or on a corpse that has been dead no longer than 8 hours before the ritual began. If you place the brain into a golem, the golem retains the brain's memories, along with its mental ability scores, alignment, and related skills.</p>\n<p><strong>Success</strong> The ritual succeeds on a living creature or on a corpse that has been dead no longer than 1 hour before the ritual began.</p>\n<p><strong>Failure</strong> The ritual fails and the brain dies.</p>\n<p><strong>Critical Failure</strong> The ritual seems to succeed but warps the brain unrecognizably into a hostile entity, potentially allowing an alien intelligence to seep into it.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can place the extracted brain into an inactive flesh golem on a critical success.</p>\n<p><strong>Heightened (9th)</strong> You can place the extracted brain into an inactive alchemical golem on a critical success.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5204,7 +5204,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Ixirizmid deals an additional 1d6 precision damage to  creatures.</p>"
+            "value": "<p>Ixirizmid deals an additional 1d6 precision damage to Off-Guard creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6041,7 +6041,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Nils Strides up to his speed toward a target within 30 feet, shrieking \"I seen what ye did!\" at them as he approaches. The target must attempt a DC 22  Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target becomes disturbed at what Nils might have seen and becomes Frightened 1.</p>\n<p><strong>Failure</strong> As success, but the target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target falls into a phantasmagoric nightmare state where time seems to slow down as they can think of nothing but running away, yet as fast as they try to flee, Nils can catch up with ease. The target is Slowed 2 at the start of its next turn and  until the end of its next turn.</p>"
+            "value": "<p>Nils Strides up to his speed toward a target within 30 feet, shrieking \"I seen what ye did!\" at them as he approaches. The target must attempt a DC 22  Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target becomes disturbed at what Nils might have seen and becomes Frightened 1.</p>\n<p><strong>Failure</strong> As success, but the target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target falls into a phantasmagoric nightmare state where time seems to slow down as they can think of nothing but running away, yet as fast as they try to flee, Nils can catch up with ease. The target is Slowed 2 at the start of its next turn and Fleeing until the end of its next turn.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6905,7 +6905,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The undead brain collector extrudes a writhing tangle of ectoplasm from its bursted brain blisters. These ectoplasmic strands lash out at all living targets within 30 feet. Targets in this area must attempt a DC 25  Will save.</p>\n<p>After the undead brain collector uses this ability, seven phantom brains glow and shimmer where its brain blisters once were. It can't use Brainlash again until all seven phantom brains are Absorbed.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes 4d6 mental damage.</p>\n<p><strong>Failure</strong> The creature takes 8d6 mental damage.</p>\n<p><strong>Critical Failure</strong> The creature takes 8d6 mental damage and is .</p>"
+            "value": "<p>The undead brain collector extrudes a writhing tangle of ectoplasm from its bursted brain blisters. These ectoplasmic strands lash out at all living targets within 30 feet. Targets in this area must attempt a DC 25  Will save.</p>\n<p>After the undead brain collector uses this ability, seven phantom brains glow and shimmer where its brain blisters once were. It can't use Brainlash again until all seven phantom brains are Absorbed.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes 4d6 mental damage.</p>\n<p><strong>Failure</strong> The creature takes 8d6 mental damage.</p>\n<p><strong>Critical Failure</strong> The creature takes 8d6 mental damage and is Confused.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -8195,7 +8195,7 @@
             }
           },
           "description": {
-            "value": "<p>You befuddle your target with strange impulses, causing it to act randomly. The effects are determined by the target's Will save. You can Dismiss the spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target babbles incoherently and is Stunned 1.</p>\n<p><strong>Failure</strong> The target is  for 1 minute. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Critical Failure</strong> The target is Confused for 1 minute, with no save to end early.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You befuddle your target with strange impulses, causing it to act randomly. The effects are determined by the target's Will save. You can Dismiss the spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target babbles incoherently and is Stunned 1.</p>\n<p><strong>Failure</strong> The target is Confused for 1 minute. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Critical Failure</strong> The target is Confused for 1 minute, with no save to end early.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8272,7 +8272,7 @@
             }
           },
           "description": {
-            "value": "<p>You create a phantasmal image of the most fearsome creature imaginable to the target. Only the spell's target can see the killer, though you can see the vague shape of the illusion as it races forth to attack. The effect of the killer is based on the outcome of the target's Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes 4d6 mental damage and is Frightened 1.</p>\n<p><strong>Failure</strong> The target takes 8d6 mental damage and is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is so afraid it might die. It must attempt a Fortitude save; if the target fails, it dies. On a successful Fortitude save, the target takes 12d6 mental damage, is  until the end of its next turn, and is Frightened 4. This effect has the incapacitation trait.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6 on a failure and by 3d6 on a critical failure.</p>"
+            "value": "<p>You create a phantasmal image of the most fearsome creature imaginable to the target. Only the spell's target can see the killer, though you can see the vague shape of the illusion as it races forth to attack. The effect of the killer is based on the outcome of the target's Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes 4d6 mental damage and is Frightened 1.</p>\n<p><strong>Failure</strong> The target takes 8d6 mental damage and is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is so afraid it might die. It must attempt a Fortitude save; if the target fails, it dies. On a successful Fortitude save, the target takes 12d6 mental damage, is Fleeing until the end of its next turn, and is Frightened 4. This effect has the incapacitation trait.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6 on a failure and by 3d6 on a critical failure.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8344,7 +8344,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create an illusion that causes you to appear as another creature of the same body shape, and with roughly similar height (within 6 inches) and weight (within 50 pounds), as yourself. The disguise is typically good enough to hide your identity, but not to impersonate a specific individual. The spell doesn't change your voice, scent, or mannerisms. You can change the appearance of your clothing and worn items, such as making your armor look like a dress. Held items are unaffected, and any worn item you remove returns to its true appearance.</p>\n<p>Casting illusory disguise counts as setting up a disguise for the Impersonate use of Deception; it ignores any circumstance penalties you might take for disguising yourself as a dissimilar creature, it gives you a +4 status bonus to Deception checks to prevent others from seeing through your disguise, and you add your level even if you're untrained. You can Dismiss this spell.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The spell also disguises your voice and scent, and it gains the auditory and olfactory traits.</p>\n<p><strong>Heightened (3rd)</strong> You can appear as any creature of the same size, even a specific individual. You must have seen an individual to take on their appearance. The spell also disguises your voice and scent, and it gains the auditory and olfactory traits.</p>\n<p></p>"
+            "value": "<p>You create an illusion that causes you to appear as another creature of the same body shape, and with roughly similar height (within 6 inches) and weight (within 50 pounds), as yourself. The disguise is typically good enough to hide your identity, but not to impersonate a specific individual. The spell doesn't change your voice, scent, or mannerisms. You can change the appearance of your clothing and worn items, such as making your armor look like a dress. Held items are unaffected, and any worn item you remove returns to its true appearance.</p>\n<p>Casting illusory disguise counts as setting up a disguise for the Impersonate use of Deception; it ignores any circumstance penalties you might take for disguising yourself as a dissimilar creature, it gives you a +4 status bonus to Deception checks to prevent others from seeing through your disguise, and you add your level even if you're untrained. You can Dismiss this spell.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The spell also disguises your voice and scent, and it gains the auditory and olfactory traits.</p>\n<p><strong>Heightened (3rd)</strong> You can appear as any creature of the same size, even a specific individual. You must have seen an individual to take on their appearance. The spell also disguises your voice and scent, and it gains the auditory and olfactory traits.</p>\n<p>Spell Effect: Illusory Disguise</p>"
           },
           "duration": {
             "sustained": false,
@@ -8406,7 +8406,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Cloaked in illusion, the target becomes . This makes it  to all creatures, though the creatures can attempt to find the target, making it  to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+            "value": "<p>Cloaked in illusion, the target becomes Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8846,7 +8846,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Yianyin gives a long, passionate kiss to an  or willing creature, dealing 4d6 void damage.</p>\n<p>Any creature damaged by Yianyin's Kiss of Death for 3 consecutive rounds becomes unconscious and is Dying 1.</p>"
+            "value": "<p>Yianyin gives a long, passionate kiss to an Unconscious or willing creature, dealing 4d6 void damage.</p>\n<p>Any creature damaged by Yianyin's Kiss of Death for 3 consecutive rounds becomes unconscious and is Dying 1.</p>"
           },
           "publication": {
             "license": "OGL",
