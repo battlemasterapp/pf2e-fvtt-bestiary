@@ -575,7 +575,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The bugbear marauder Strides up to 10 feet and attempts to Grapple a creature that can't see them and doesn't know where they are. If the bugbear succeeds, they also deal fist damage to that creature.</p>"
+            "value": "<p>The bugbear marauder Strides up to 10 feet and attempts to  a creature that can't see them and doesn't know where they are. If the bugbear succeeds, they also deal fist damage to that creature.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -605,7 +605,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The bugbear marauder gains a +3 circumstance bonus to damage rolls against creatures they have Grabbed.</p>"
+            "value": "<p>The bugbear marauder gains a +3 circumstance bonus to damage rolls against creatures they have .</p>"
           },
           "publication": {
             "license": "OGL",
@@ -769,7 +769,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p>If a creature walks on the area marked on the map, it falls through the weakened floorboards onto uneven rocks and sharp shards of wood, taking 1d4 piercing],1d6{1d4 piercing damage and 1d6 bludgeoning damage}. The creature can use the Grab an Edge reaction to avoid the fall and the damage.</p>"
+            "value": "<p>If a creature walks on the area marked on the map, it falls through the weakened floorboards onto uneven rocks and sharp shards of wood, taking 1d4 piercing],1d6{1d4 piercing damage and 1d6 bludgeoning damage}. The creature can use the  reaction to avoid the fall and the damage.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -815,7 +815,7 @@
       "customModifiers": {},
       "details": {
         "description": "<p>A section of splintery and rotten floorboards drop a creature 6 feet onto uneven rocks and piercing shards of wood.</p>",
-        "disable": "<p>DC 15 crafting (trained) to replace or cover the weak sections of flooring, or DC 15 survival (trained) to crumble the rotten floorboards from a safe distance</p>",
+        "disable": "<p>DC 15  Crafting (trained) to replace or cover the weak sections of flooring, or DC 15  Survival (trained) to crumble the rotten floorboards from a safe distance</p>",
         "isComplex": false,
         "level": {
           "value": 1
@@ -1032,7 +1032,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>A shield of elemental energy protects a creature against one type of energy damage. Choose acid, cold, electricity, fire, or sonic damage. The target and its gear gain resistance 5 against the damage type you chose.</p>\n<p>Spell Effect: Resist Energy</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The resistance increases to 10, and you can target up to two creatures.</p>\n<p><strong>Heightened (7th)</strong> The resistance increases to 15, and you can target up to five creatures.</p>"
+            "value": "<p>A shield of elemental energy protects a creature against one type of energy damage. Choose acid, cold, electricity, fire, or sonic damage. The target and its gear gain resistance 5 against the damage type you chose.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (4th)</strong> The resistance increases to 10, and you can target up to two creatures.</p>\n<p><strong>Heightened (7th)</strong> The resistance increases to 15, and you can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1109,7 +1109,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You can see Invisible creatures and objects. They appear to you as translucent shapes, and they are Concealed to you.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The spell has a duration of 8 hours.</p>"
+            "value": "<p>You can see  creatures and objects. They appear to you as translucent shapes, and they are  to you.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The spell has a duration of 8 hours.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1262,7 +1262,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the  condition), release what it's holding, drop , or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1428,7 +1428,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1699,7 +1699,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p>Spell Effect: Light</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
           },
           "duration": {
             "sustained": false,
@@ -2193,7 +2193,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p>Runic Weapon</p><hr /><p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>To Cast a Spell from a scroll, the spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack roll and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so you don't need to provide them when Casting a Spell from a scroll. You must replace any required material component for that spell with a somatic component. If the spell requires a focus, you must have that focus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+            "value": "<p></p><hr /><p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>To Cast a Spell from a scroll, the spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack roll and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so you don't need to provide them when Casting a Spell from a scroll. You must replace any required material component for that spell with a somatic component. If the spell requires a focus, you must have that focus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
           },
           "equipped": {
             "carryType": "worn"
@@ -2243,7 +2243,7 @@
               "damage": {},
               "defense": null,
               "description": {
-                "value": "<p>The weapon glimmers with magic and energy. The target becomes a +1 striking weapon, gaining a +1 item bonus to attack rolls and increasing the number of weapon damage dice to two.</p>\n<p>Spell Effect: Runic Weapon</p>"
+                "value": "<p>The weapon glimmers with magic and energy. The target becomes a +1 striking weapon, gaining a +1 item bonus to attack rolls and increasing the number of weapon damage dice to two.</p>\n<p></p>"
               },
               "duration": {
                 "sustained": false,
@@ -2868,7 +2868,7 @@
             "type": "piercing"
           },
           "description": {
-            "value": "<p>This basic snare consists of hidden spikes that rely on a creature's momentum to lacerate or potentially impale it as it enters the snare's square, dealing 2d8 piercing damage. The creature must attempt a DC 17 Basic reflex saving throw.</p>"
+            "value": "<p>This basic snare consists of hidden spikes that rely on a creature's momentum to lacerate or potentially impale it as it enters the snare's square, dealing 2d8 piercing damage. The creature must attempt a DC 17  Basic  Reflex saving throw.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -3119,7 +3119,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The kobold trapmaster deals an extra 1d6 damage to creatures that have the Off-Guard condition.</p>"
+            "value": "<p>The kobold trapmaster deals an extra 1d6 damage to creatures that have the  condition.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3166,7 +3166,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Once this trap is deployed, anyone who steps on the square it's in takes 2d8 piercing damage and must attempt a DC 17 Basic reflex saving throw.</p>"
+            "value": "<p>Once this trap is deployed, anyone who steps on the square it's in takes 2d8 piercing damage and must attempt a DC 17  Basic  Reflex saving throw.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3677,7 +3677,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>If Kotgar has already attacked this turn and is holding a two-handed melee weapon, he can make a Strike with his two-handed melee weapon. If he hits a target that's Medium or smaller, he can push it back 5 feet, or 10 feet if his Strike was a critical hit. Kotgar can move to follow the target. Whether he hits or misses, the target is Off-Guard until the end of his current turn unless he critically fails.</p>"
+            "value": "<p>If Kotgar has already attacked this turn and is holding a two-handed melee weapon, he can make a Strike with his two-handed melee weapon. If he hits a target that's Medium or smaller, he can push it back 5 feet, or 10 feet if his Strike was a critical hit. Kotgar can move to follow the target. Whether he hits or misses, the target is  until the end of his current turn unless he critically fails.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3973,7 +3973,7 @@
             }
           },
           "description": {
-            "value": "<p>You block the target's motor impulses before they can leave its mind, threatening to freeze the target in place. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Stunned 1.</p>\n<p><strong>Failure</strong> The target is Paralyzed for 1 round.</p>\n<p><strong>Critical Failure</strong> The target is Paralyzed for 4 rounds. At the end of each of its turns, it can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You block the target's motor impulses before they can leave its mind, threatening to freeze the target in place. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Stunned 1.</p>\n<p><strong>Failure</strong> The target is  for 1 round.</p>\n<p><strong>Critical Failure</strong> The target is Paralyzed for 4 rounds. At the end of each of its turns, it can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4051,7 +4051,7 @@
             }
           },
           "description": {
-            "value": "<p>The target is overtaken with uncontrollable laughter. It must attempt a Will save.</p>\n<hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is plagued with uncontrollable laughter. It can't use reactions.</p>\n<p><strong>Failure</strong> The target is Slowed 1 and can't use reactions.</p>\n<p><strong>Critical Failure</strong> The target falls Prone and can't use actions or reactions for 1 round. It then suffers the failure effects.</p>"
+            "value": "<p>The target is overtaken with uncontrollable laughter. It must attempt a Will save.</p>\n<hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is plagued with uncontrollable laughter. It can't use reactions.</p>\n<p><strong>Failure</strong> The target is Slowed 1 and can't use reactions.</p>\n<p><strong>Critical Failure</strong> The target falls  and can't use actions or reactions for 1 round. It then suffers the failure effects.</p>"
           },
           "duration": {
             "sustained": true,
@@ -4114,7 +4114,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You can see Invisible creatures and objects. They appear to you as translucent shapes, and they are Concealed to you.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The spell has a duration of 8 hours.</p>"
+            "value": "<p>You can see  creatures and objects. They appear to you as translucent shapes, and they are  to you.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The spell has a duration of 8 hours.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4182,7 +4182,7 @@
             }
           },
           "description": {
-            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes Friendly toward you. If it was Friendly, it becomes Helpful. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
+            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes  toward you. If it was Friendly, it becomes . It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4423,7 +4423,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The Kurnugian jackal opens their third eye to look at a target within 30 feet that can see the jackal. That target takes a -2 penalty to Will saving throws until the end of the Kurnugian jackal's next turn. The Kurnugian jackal can maintain this stare against only one opponent at a time; if the jackal uses it on a second target, it ends for the first target. The jackal can dismiss it as a free action and use their Remove Memory ability if they so choose.</p>\n<p>Effect: Hypnotic Stare</p>"
+            "value": "<p>The Kurnugian jackal opens their third eye to look at a target within 30 feet that can see the jackal. That target takes a -2 penalty to Will saving throws until the end of the Kurnugian jackal's next turn. The Kurnugian jackal can maintain this stare against only one opponent at a time; if the jackal uses it on a second target, it ends for the first target. The jackal can dismiss it as a free action and use their Remove Memory ability if they so choose.</p>\n<p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -4458,7 +4458,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The Kurnugian ends their Hypnotic Stare ability early, and just before this happens, the target must succeed at a DC 24 will saving throw or forget any hostile activities the Kurnugian jackal performed against it.</p>"
+            "value": "<p>The Kurnugian ends their Hypnotic Stare ability early, and just before this happens, the target must succeed at a DC 24  Will saving throw or forget any hostile activities the Kurnugian jackal performed against it.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4668,7 +4668,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p>If a creature passes the middle pair of pillars, both doors leading out of the room slam shut and lock; while the trap is active, the doors must be battered open with a successful DC 23 traits:action:force-open check or sufficient damage (Hardness 12; HP 48 [BT 24]). One of the starknife carvings glows with light, detaches from the pillar, and then flies outward, making a magical starknife Ranged Strike against a random creature within range. The trap then rolls initiative with its Stealth modifier of +12</p>"
+            "value": "<p>If a creature passes the middle pair of pillars, both doors leading out of the room slam shut and lock; while the trap is active, the doors must be battered open with a successful DC 23  Athletics (action:force-open) check or sufficient damage (Hardness 12; HP 48 [BT 24]). One of the starknife carvings glows with light, detaches from the pillar, and then flies outward, making a magical starknife Ranged Strike against a random creature within range. The trap then rolls initiative with its Stealth modifier of +12</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4762,7 +4762,7 @@
       "customModifiers": {},
       "details": {
         "description": "<p>Starknife symbols on the six pillars glow and shoot across the room.</p>",
-        "disable": "<p>DC 21 traits:action:disable-a-device (expert) or Dispel Magic on any four of the six pillars disables the entire trap (the trap is a 2nd-rank spell and the DC to dispel it is 21). Destroying any four of the six pillars also disables the trap.</p>",
+        "disable": "<p>DC 21  Thievery (action:disable-a-device) (expert) or  on any four of the six pillars disables the entire trap (the trap is a 2nd-rank spell and the DC to dispel it is 21). Destroying any four of the six pillars also disables the trap.</p>",
         "isComplex": true,
         "level": {
           "value": 5
@@ -5038,7 +5038,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You call forth a cloud of mist. All creatures within the mist become Concealed, and all creatures outside the mist become Concealed to creatures within it. You can Dismiss the cloud.</p>"
+            "value": "<p>You call forth a cloud of mist. All creatures within the mist become , and all creatures outside the mist become Concealed to creatures within it. You can Dismiss the cloud.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5099,7 +5099,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>A shield of elemental energy protects a creature against one type of energy damage. Choose acid, cold, electricity, fire, or sonic damage. The target and its gear gain resistance 5 against the damage type you chose.</p>\n<p>Spell Effect: Resist Energy</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The resistance increases to 10, and you can target up to two creatures.</p>\n<p><strong>Heightened (7th)</strong> The resistance increases to 15, and you can target up to five creatures.</p>"
+            "value": "<p>A shield of elemental energy protects a creature against one type of energy damage. Choose acid, cold, electricity, fire, or sonic damage. The target and its gear gain resistance 5 against the damage type you chose.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (4th)</strong> The resistance increases to 10, and you can target up to two creatures.</p>\n<p><strong>Heightened (7th)</strong> The resistance increases to 15, and you can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5181,7 +5181,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the  condition), release what it's holding, drop , or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5414,7 +5414,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5575,7 +5575,7 @@
             }
           },
           "description": {
-            "value": "<p>A violent wind issues forth from your palm, blowing from the point where you are when you cast the spell to the line's opposite end. The wind extinguishes small non-magical fires, disperses fog and mist, blows objects of light Bulk or less around, and pushes larger objects. Large or smaller creatures in the area must attempt a Fortitude save. Large or smaller creatures that later move into the gust must attempt the save on entering.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature can't move against the wind.</p>\n<p><strong>Failure</strong> The creature is knocked Prone. If it was flying, it suffers the effects of critical failure instead.</p>\n<p><strong>Critical Failure</strong> The creature is pushed 30 feet in the wind's direction, knocked Prone, and takes 2d6 bludgeoning damage.</p>"
+            "value": "<p>A violent wind issues forth from your palm, blowing from the point where you are when you cast the spell to the line's opposite end. The wind extinguishes small non-magical fires, disperses fog and mist, blows objects of light Bulk or less around, and pushes larger objects. Large or smaller creatures in the area must attempt a Fortitude save. Large or smaller creatures that later move into the gust must attempt the save on entering.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature can't move against the wind.</p>\n<p><strong>Failure</strong> The creature is knocked . If it was flying, it suffers the effects of critical failure instead.</p>\n<p><strong>Critical Failure</strong> The creature is pushed 30 feet in the wind's direction, knocked Prone, and takes 2d6 bludgeoning damage.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5874,7 +5874,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You blast an icy ray. Make a spell attack roll. The ray deals 2d4 cold damage.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and takes a -10-foot status penalty to its Speeds for 1 round.</p>\n<p>Spell Effect: Ray of Frost</p>\n<p><strong>Success</strong> The target takes normal damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
+            "value": "<p>You blast an icy ray. Make a spell attack roll. The ray deals 2d4 cold damage.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and takes a -10-foot status penalty to its Speeds for 1 round.</p>\n<p></p>\n<p><strong>Success</strong> The target takes normal damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -5944,7 +5944,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the Force Barrage spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>Spell Effect: Shield</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the  reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the  spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
           },
           "duration": {
             "sustained": false,
@@ -6204,7 +6204,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p>Fear</p>\n<hr />\n<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated level.</p>\n<p><strong>Craft Requirements</strong> Supply a listed-level casting of the spell.</p>"
+            "value": "<p></p>\n<hr />\n<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated level.</p>\n<p><strong>Craft Requirements</strong> Supply a listed-level casting of the spell.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -6260,7 +6260,7 @@
                 }
               },
               "description": {
-                "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+                "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
               },
               "duration": {
                 "sustained": false,
@@ -6486,7 +6486,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Morgrym deals with the grim powers of life and death and has focused his magic to aid him in this endeavor. He can cast Fear as a school spell.</p>"
+            "value": "<p>Morgrym deals with the grim powers of life and death and has focused his magic to aid him in this endeavor. He can cast  as a school spell.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6724,7 +6724,7 @@
           }
         ],
         "stealth": {
-          "details": "<p>DC 22 traits:action:seek to detect the subtle magical aura of the land</p>",
+          "details": "<p>DC 22  Perception (action:seek) to detect the subtle magical aura of the land</p>",
           "value": 16
         }
       },
@@ -6732,7 +6732,7 @@
       "customModifiers": {},
       "details": {
         "description": "<p>What seems like an innocent stretch of land assaults trespassers with terrible illusions.</p>",
-        "disable": "<p>DC 22 arcana, DC 22 nature, DC 22 occultism, or DC 22 religion (by a hero with expert proficiency in that skill) three times to temporarily disrupt the magic, or Dispel Magic (3rd-level spell, DC 25)</p>",
+        "disable": "<p>DC 22  Arcana, DC 22  Nature, DC 22  Occultism, or DC 22  Religion (by a hero with expert proficiency in that skill) three times to temporarily disrupt the magic, or  (3rd-level spell, DC 25)</p>",
         "isComplex": true,
         "level": {
           "value": 6
@@ -6743,7 +6743,7 @@
           "title": "Pathfinder Adventure: Troubles in Otari"
         },
         "reset": "<p>The terrible visions cease after all creatures have left the affected area, but the hazard is immediately ready to inflict its visions on the next creature to enter.</p>",
-        "routine": "<p>(1 action) Terrible visions assail the minds of all creatures who can see within the affected area. Each creature must attempt a DC 24 will saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Frightened 2.</p>\n<p><strong>Failure</strong> The creature takes @Damage[(2d8+9)[mental]] damage and is Frightened 3.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[(4d8+18)[mental]] damage and is Frightened 4.</p>"
+        "routine": "<p>(1 action) Terrible visions assail the minds of all creatures who can see within the affected area. Each creature must attempt a DC 24  Will saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Frightened 2.</p>\n<p><strong>Failure</strong> The creature takes @Damage[(2d8+9)[mental]] damage and is Frightened 3.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[(4d8+18)[mental]] damage and is Frightened 4.</p>"
       },
       "saves": {
         "fortitude": {
@@ -7242,7 +7242,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Omblin deals an extra 1d6 to creatures that have the Off-Guard condition.</p>"
+            "value": "<p>Omblin deals an extra 1d6 to creatures that have the  condition.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7290,7 +7290,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>When Omblin critically hits a target and deals damage, the target is Off-Guard against his attacks until the end of his next turn.</p>"
+            "value": "<p>When Omblin critically hits a target and deals damage, the target is  against his attacks until the end of his next turn.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7891,7 +7891,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Bellowing mightily, the commander gives themself and all orc allies within 60 feet who can hear them a +1 status bonus to attack and damage rolls until the start of the orc commander's next turn.</p>\n<p>Effect: Battle Cry</p>"
+            "value": "<p>Bellowing mightily, the commander gives themself and all orc allies within 60 feet who can hear them a +1 status bonus to attack and damage rolls until the start of the orc commander's next turn.</p>\n<p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -8621,7 +8621,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Cloaked in illusion, the target becomes Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+            "value": "<p>Cloaked in illusion, the target becomes . This makes it  to all creatures, though the creatures can attempt to find the target, making it  to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8687,7 +8687,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the  condition), release what it's holding, drop , or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -8849,7 +8849,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You ask for divine guidance, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p>Spell Effect: Guidance</p>\n<p>Effect: Guidance Immunity</p>"
+            "value": "<p>You ask for divine guidance, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p></p>\n<p></p>"
           },
           "duration": {
             "sustained": false,
@@ -9328,7 +9328,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the Force Barrage spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>Spell Effect: Shield</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the  reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the  spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
           },
           "duration": {
             "sustained": false,
@@ -9436,7 +9436,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The scalliwing spreads their iridescent wings and flutters them in a hypnotizing pattern. Each creature within 30 feet that can see the scalliwing must attempt a DC 20 will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Off-Guard until the start of its next turn.</p>\n<p><strong>Failure</strong> The creature is off-guard until the start of its next turn, and it must spend its first action on its next turn admiring the scalliwing.</p>\n<p><strong>Critical Failure</strong> The creature is off-guard until the start of its next turn. For 1 minute, the creature must spend its first action each turn admiring the scalliwing. This effect ends if the scalliwing attacks or uses another hostile action against the affected creature.</p>"
+            "value": "<p>The scalliwing spreads their iridescent wings and flutters them in a hypnotizing pattern. Each creature within 30 feet that can see the scalliwing must attempt a DC 20  Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is  until the start of its next turn.</p>\n<p><strong>Failure</strong> The creature is off-guard until the start of its next turn, and it must spend its first action on its next turn admiring the scalliwing.</p>\n<p><strong>Critical Failure</strong> The creature is off-guard until the start of its next turn. For 1 minute, the creature must spend its first action each turn admiring the scalliwing. This effect ends if the scalliwing attacks or uses another hostile action against the affected creature.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9687,7 +9687,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>10 feet. A creature entering the aura or starting its turn in the aura must succeed at a DC 14 fortitude save or become Off-Guard for 1 round (and Slowed 1 for 1 round on a critical failure). A creature that succeeds at its save is temporarily immune for 1 minute.</p>"
+            "value": "<p>10 feet. A creature entering the aura or starting its turn in the aura must succeed at a DC 14  Fortitude save or become  for 1 round (and Slowed 1 for 1 round on a critical failure). A creature that succeeds at its save is temporarily immune for 1 minute.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10019,7 +10019,7 @@
       "customModifiers": {},
       "details": {
         "description": "<p>Nozzles hidden in the ceiling of the four corridors leading to the intersection spray jets of flame along their lengths when the trap is triggered.</p>",
-        "disable": "<p>DC 22 traits:action:disable-a-device to disable a single nozzle, DC 21 traits:action:pick-a-lock twice to unlock a door, or DC 25 traits:action:disable-a-device to deactivate the trap from the control panel. A hero who isn't trained in Thievery automatically fails these checks.</p>",
+        "disable": "<p>DC 22  Thievery (action:disable-a-device) to disable a single nozzle, DC 21  Thievery (action:pick-a-lock) twice to unlock a door, or DC 25  Thievery (action:disable-a-device) to deactivate the trap from the control panel. A hero who isn't trained in Thievery automatically fails these checks.</p>",
         "isComplex": true,
         "level": {
           "value": 5
@@ -10030,7 +10030,7 @@
           "title": "Pathfinder Adventure: Troubles in Otari"
         },
         "reset": "<p>The trap deactivates and resets after 10 minutes. After the trap is activated for the fourth time, it runs out of fuel and must be reset manually.</p>",
-        "routine": "<p>(4 actions) The trap loses 1 action each turn for each disabled nozzle. On each action, a different nozzle fires a jet of flame down a different corridor, dealing 3d6 fire damage to each creature in the first 10 feet of the corridor past the intersection (DC 22 Basic reflex).</p>\n<p>A creature standing in the corridor intersection can be hit by only one flame jet per round even if they're in the area of multiple flame jets. The creature attempts only one saving throw per round, but it takes a -2 circumstance penalty to its saving throw.</p>"
+        "routine": "<p>(4 actions) The trap loses 1 action each turn for each disabled nozzle. On each action, a different nozzle fires a jet of flame down a different corridor, dealing 3d6 fire damage to each creature in the first 10 feet of the corridor past the intersection (DC 22  Basic  Reflex).</p>\n<p>A creature standing in the corridor intersection can be hit by only one flame jet per round even if they're in the area of multiple flame jets. The creature attempts only one saving throw per round, but it takes a -2 circumstance penalty to its saving throw.</p>"
       },
       "saves": {
         "fortitude": {
@@ -10078,7 +10078,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p>When someone pulls the trip wire, the urn smashes against a creature in the doorway, making a shattering urn Strike against that creature, then releases a Viper into the square that contained the trap. The viper attacks any non-plant creature it detects.</p>"
+            "value": "<p>When someone pulls the trip wire, the urn smashes against a creature in the doorway, making a shattering urn Strike against that creature, then releases a  into the square that contained the trap. The viper attacks any non-plant creature it detects.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10167,7 +10167,7 @@
       "customModifiers": {},
       "details": {
         "description": "<p>A ceramic urn containing a coiled viper tips and shatters when a tripwire is pulled.</p>",
-        "disable": "<p>DC 15 traits:action:disable-a-device (trained) to stabilize the urn, or DC 15 athletics to carefully lower the heavy urn</p>",
+        "disable": "<p>DC 15  Thievery (action:disable-a-device) (trained) to stabilize the urn, or DC 15  Athletics to carefully lower the heavy urn</p>",
         "isComplex": false,
         "level": {
           "value": 1
@@ -10237,7 +10237,7 @@
             }
           },
           "description": {
-            "value": "<p>The target gains the Grabbed condition is and pulled off the ground (Escape DC 22).</p>"
+            "value": "<p>The target gains the  condition is and pulled off the ground ( DC 22).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10322,7 +10322,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>Discreet webbing at throat level snags a creature that walks into it.</p>",
-        "disable": "<p>DC 18 survival (trained) or DC 18 traits:action:disable-a-device (expert) to rearrange the webbing</p>",
+        "disable": "<p>DC 18  Survival (trained) or DC 18  Thievery (action:disable-a-device) (expert) to rearrange the webbing</p>",
         "isComplex": false,
         "level": {
           "value": 2

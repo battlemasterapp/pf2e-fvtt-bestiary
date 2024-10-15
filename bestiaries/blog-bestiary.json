@@ -140,7 +140,7 @@
             }
           },
           "description": {
-            "value": "<p>Creatures in the area are outlined by glittering dust. Each creature must attempt a Reflex save. If a creature has its invisibility negated by this spell, it is Concealed instead of Invisible. This applies both if the creature was already Invisible and if it benefits from new invisibility effects before the end of the invisibility negation effect from this spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target's invisibility is negated for 2 rounds.</p>\n<p><strong>Failure</strong> The target is Dazzled for 1 minute and its invisibility is negated for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is Blinded for 1 round and Dazzled for 10 minutes. Its invisibility is negated for 10 minutes.</p>"
+            "value": "<p>Creatures in the area are outlined by glittering dust. Each creature must attempt a Reflex save. If a creature has its invisibility negated by this spell, it is  instead of . This applies both if the creature was already Invisible and if it benefits from new invisibility effects before the end of the invisibility negation effect from this spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target's invisibility is negated for 2 rounds.</p>\n<p><strong>Failure</strong> The target is  for 1 minute and its invisibility is negated for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is  for 1 round and Dazzled for 10 minutes. Its invisibility is negated for 10 minutes.</p>"
           },
           "duration": {
             "sustained": false,
@@ -748,7 +748,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The ailuran deals 1d6 extra precision damage to Off-Guard creatures.</p>"
+            "value": "<p>The ailuran deals 1d6 extra precision damage to  creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1019,7 +1019,7 @@
             }
           },
           "description": {
-            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes Friendly toward you. If it was Friendly, it becomes Helpful. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
+            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes  toward you. If it was Friendly, it becomes . It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1088,7 +1088,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the  condition), release what it's holding, drop , or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -1364,7 +1364,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature targets the blarghest with a hostile action</p>\n<hr />\n<p><strong>Effect</strong> The blarghest rolls its eyes and sighs, imposing a deep sense of... blargh... upon the attacker. The attacker must attempt a DC 18 will save; on a failure, it decides its action is too much work and the triggering action is lost. On a critical failure, the creature is also overcome with lethargy, becoming Stunned until the start of its next turn</p>"
+            "value": "<p><strong>Trigger</strong> A creature targets the blarghest with a hostile action</p>\n<hr />\n<p><strong>Effect</strong> The blarghest rolls its eyes and sighs, imposing a deep sense of... blargh... upon the attacker. The attacker must attempt a DC 18  Will save; on a failure, it decides its action is too much work and the triggering action is lost. On a critical failure, the creature is also overcome with lethargy, becoming  until the start of its next turn</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1723,7 +1723,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The dissonance between the cacaodaemon's sweet scent and bitter inside drains the victim's spirit</p>\n<p><strong>Saving Throw</strong> DC 17 fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 1d8 mental damage and Off-Guard (1 round).</p>\n<p><strong>Stage 2</strong> 1d8 mental damage and Stupefied 1 (1 round)</p>\n<p><strong>Stage 3</strong> 1d12 mental damage and Stupefied 2 (1 round)</p>"
+            "value": "<p>The dissonance between the cacaodaemon's sweet scent and bitter inside drains the victim's spirit</p>\n<p><strong>Saving Throw</strong> DC 17  Fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 1d8 mental damage and  (1 round).</p>\n<p><strong>Stage 2</strong> 1d8 mental damage and Stupefied 1 (1 round)</p>\n<p><strong>Stage 3</strong> 1d12 mental damage and Stupefied 2 (1 round)</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1944,7 +1944,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Accelerated by your ki, you move with such speed you become a blur. Move two times: two Strides, two Steps, or one Stride and one Step (in either order). You gain the Concealed condition during this movement and until the start of your next turn.</p>"
+            "value": "<p>Accelerated by your ki, you move with such speed you become a blur. Move two times: two Strides, two Steps, or one Stride and one  (in either order). You gain the  condition during this movement and until the start of your next turn.</p>"
           },
           "duration": {
             "sustained": false,
@@ -2077,7 +2077,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You travel on a rushing wind. Move two times: two Strides, two Steps, or one Stride and one Step (in either order). You can Stride or Step into the air during this movement, moving upward at a 45-degree angle at most; if you end your movement in the air, you fall after taking one action or when your turn ends, whichever comes first. A Wall of Wind appears in all the spaces you left during this movement, lasting for 1 round.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The <em>wall of wind</em> lasts 3 rounds.</p>"
+            "value": "<p>You travel on a rushing wind. Move two times: two Strides, two Steps, or one Stride and one Step (in either order). You can Stride or Step into the air during this movement, moving upward at a 45-degree angle at most; if you end your movement in the air, you fall after taking one action or when your turn ends, whichever comes first. A  appears in all the spaces you left during this movement, lasting for 1 round.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The <em>wall of wind</em> lasts 3 rounds.</p>"
           },
           "duration": {
             "sustained": false,
@@ -2517,7 +2517,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>If an enemy is within reach of Chea and at least two of her allies, that enemy is Off-Guard against Chea.</p>"
+            "value": "<p>If an enemy is within reach of Chea and at least two of her allies, that enemy is  against Chea.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2890,7 +2890,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature targets the demom with a hostile spell that has a verbal component.</p>\n<hr />\n<p><strong>Effect</strong> The demom says, \"Don't talk back to me!\" The caster must attempt a DC 18 will save; on a failure, it promptly shuts its mouth and stares at the ground contemplating how it doesn't deserve this.</p>"
+            "value": "<p><strong>Trigger</strong> A creature targets the demom with a hostile spell that has a verbal component.</p>\n<hr />\n<p><strong>Effect</strong> The demom says, \"Don't talk back to me!\" The caster must attempt a DC 18  Will save; on a failure, it promptly shuts its mouth and stares at the ground contemplating how it doesn't deserve this.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2920,7 +2920,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The demom narrows its eyes at a target and declares \"You're grounded!\" The target creature must attempt a DC 18 will save; on a failure, it must lay down its weapons, set up camp, and sit in its tent.</p>"
+            "value": "<p>The demom narrows its eyes at a target and declares \"You're grounded!\" The target creature must attempt a DC 18  Will save; on a failure, it must lay down its weapons, set up camp, and sit in its tent.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3456,7 +3456,7 @@
             "type": "piercing"
           },
           "description": {
-            "value": "<p>The snare's jaws shut on the leg of a creature that steps on it. The snare deals 5d6 piercing damage to the first creature that enters its square; that creature must attempt a DC 18 reflex.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and takes a -10-foot status penalty to its Speed until it recovers at least 1 Hit Point.</p>"
+            "value": "<p>The snare's jaws shut on the leg of a creature that steps on it. The snare deals 5d6 piercing damage to the first creature that enters its square; that creature must attempt a DC 18  Reflex.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and takes a -10-foot status penalty to its Speed until it recovers at least 1 Hit Point.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -3529,7 +3529,7 @@
             "type": "piercing"
           },
           "description": {
-            "value": "<p>The snare's jaws shut on the leg of a creature that steps on it. The snare deals 5d6 piercing damage to the first creature that enters its square; that creature must attempt a DC 18 reflex.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and takes a -10-foot status penalty to its Speed until it recovers at least 1 Hit Point.</p>"
+            "value": "<p>The snare's jaws shut on the leg of a creature that steps on it. The snare deals 5d6 piercing damage to the first creature that enters its square; that creature must attempt a DC 18  Reflex.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and takes a -10-foot status penalty to its Speed until it recovers at least 1 Hit Point.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -4045,7 +4045,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Duhgik deals an extra 1d6 precision damage to Off-Guard creatures.</p>"
+            "value": "<p>Duhgik deals an extra 1d6 precision damage to  creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4386,7 +4386,7 @@
             }
           },
           "description": {
-            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes Friendly toward you. If it was Friendly, it becomes Helpful. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
+            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes  toward you. If it was Friendly, it becomes . It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4512,7 +4512,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Cloaked in illusion, the target becomes Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+            "value": "<p>Cloaked in illusion, the target becomes . This makes it  to all creatures, though the creatures can attempt to find the target, making it  to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4849,7 +4849,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You inspire your allies with words or tunes of encouragement. You and all allies in the area gain a +1 status bonus to attack rolls, damage rolls, and saves against fear effects.</p>\n<p>Spell Effect: Courageous Anthem</p>"
+            "value": "<p>You inspire your allies with words or tunes of encouragement. You and all allies in the area gain a +1 status bonus to attack rolls, damage rolls, and saves against fear effects.</p>\n<p></p>"
           },
           "duration": {
             "sustained": false,
@@ -5160,7 +5160,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You summon an unseen servant, which you can command as part of Sustaining the Spell. It serves you until its Hit Points are reduced to 0, at which point the spell ends, or until you stop Sustaining the Spell. The unseen servant gains the summoned trait.</p>\n<p><strong>Unseen Servant</strong> [Creature] [-1] [No Alignment] [Medium]</p>\n<hr />\n<p><strong>AC</strong> 13, <strong>Fort</strong> +0, <strong>Ref</strong> +4, <strong>Will</strong> +0 <strong>HP</strong> 4</p>\n<p><strong>Immunities</strong> disease, mental, non-magical attacks, paralysis, poison, precision, Unconscious</p>\n<p><strong>Resistances</strong> all damage 5 (except force or ghost touch)</p>\n<p><strong>Speed</strong> fly 30 feet</p>\n<p><strong>Force Body</strong> An unseen servant's physical body is made of force. It can't use attack actions. It can move and use Interact actions to do things such as fetch objects, open unstuck or unlocked doors, hold chairs, and clean. It can't pass through solid objects.</p>"
+            "value": "<p>You summon an unseen servant, which you can command as part of Sustaining the Spell. It serves you until its Hit Points are reduced to 0, at which point the spell ends, or until you stop Sustaining the Spell. The unseen servant gains the summoned trait.</p>\n<p><strong>Unseen Servant</strong> [Creature] [-1] [No Alignment] [Medium]</p>\n<hr />\n<p><strong>AC</strong> 13, <strong>Fort</strong> +0, <strong>Ref</strong> +4, <strong>Will</strong> +0 <strong>HP</strong> 4</p>\n<p><strong>Immunities</strong> disease, mental, non-magical attacks, paralysis, poison, precision, </p>\n<p><strong>Resistances</strong> all damage 5 (except force or ghost touch)</p>\n<p><strong>Speed</strong> fly 30 feet</p>\n<p><strong>Force Body</strong> An unseen servant's physical body is made of force. It can't use attack actions. It can move and use Interact actions to do things such as fetch objects, open unstuck or unlocked doors, hold chairs, and clean. It can't pass through solid objects.</p>"
           },
           "duration": {
             "sustained": true,
@@ -5760,7 +5760,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Edolpho deals an extra 1d6 precision damage to Off-Guard creatures.</p>"
+            "value": "<p>Edolpho deals an extra 1d6 precision damage to  creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7019,7 +7019,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A foe's Strike reduces you to 0 Hit Points; you were not at 1 Hit Point and you would not be killed.</p>\n<hr />\n<p>Your confidence borders on self-delusion, but it keeps you going against overwhelming odds. Attempt a Deception check against the attack DC of the triggering Strike. You take a penalty to this check equal to twice your wounded value, if any. If the triggering attack was a critical hit, use the result one degree of success worse than what you rolled.</p>\n<hr />\n<p><strong>Critical Success</strong> You avoid being knocked out and remain at 1 Hit Point.</p>\n<p><strong>Success</strong> You avoid being knocked out and remain at 1 Hit Point, but you increase your Wounded value by 1.</p>"
+            "value": "<p><strong>Trigger</strong> A foe's Strike reduces you to 0 Hit Points; you were not at 1 Hit Point and you would not be killed.</p>\n<hr />\n<p>Your confidence borders on self-delusion, but it keeps you going against overwhelming odds. Attempt a Deception check against the attack DC of the triggering Strike. You take a penalty to this check equal to twice your wounded value, if any. If the triggering attack was a critical hit, use the result one degree of success worse than what you rolled.</p>\n<hr />\n<p><strong>Critical Success</strong> You avoid being knocked out and remain at 1 Hit Point.</p>\n<p><strong>Success</strong> You avoid being knocked out and remain at 1 Hit Point, but you increase your  value by 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7052,7 +7052,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>90 feet. DC 37 will</p>\n<hr />\n<p><p>A creature that first enters the area must attempt a Will save.</p>\n<p>Regardless of the result of the saving throw, the creature is temporarily immune to this monster's Frightful Presence for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected by the presence.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 4}.</p></p>"
+            "value": "<p>90 feet. DC 37  Will</p>\n<hr />\n<p><p>A creature that first enters the area must attempt a Will save.</p>\n<p>Regardless of the result of the saving throw, the creature is temporarily immune to this monster's Frightful Presence for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected by the presence.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 4}.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -7144,7 +7144,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The brass dragon breathes in one of two ways.</p>\n<p>The dragon can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Flame</strong> The dragon breathes fire in a 100-foot line that deals 16d6 fire damage (DC 41 Basic reflex save).</li>\n<li><strong>Sleep Gas</strong> The dragon breathes an 80-foot cone of sleep gas. Each creature within the cone must succeed at a DC 41 fortitude save or fall Unconscious for [[/br 1d6 #rounds]]{1d6 rounds}, or 1 minute on a critical failure.</li></ul>"
+            "value": "<p>The brass dragon breathes in one of two ways.</p>\n<p>The dragon can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Flame</strong> The dragon breathes fire in a 100-foot line that deals 16d6 fire damage (DC 41  Basic  Reflex save).</li>\n<li><strong>Sleep Gas</strong> The dragon breathes an 80-foot cone of sleep gas. Each creature within the cone must succeed at a DC 41  Fortitude save or fall  for [[/br 1d6 #rounds]]{1d6 rounds}, or 1 minute on a critical failure.</li></ul>"
           },
           "publication": {
             "license": "OGL",
@@ -7179,7 +7179,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> three times per day.</p>\n<hr />\n<p><strong>Effect</strong> The dragon calls upon the desert wind. This has the same effect as Gust of Wind (DC 39 fortitude) but in a 60-foot cone. A creature that fails its save is also blinded until the end of its next turn (or for 1 minute on a critical failure).</p>"
+            "value": "<p><strong>Frequency</strong> three times per day.</p>\n<hr />\n<p><strong>Effect</strong> The dragon calls upon the desert wind. This has the same effect as  (DC 39  Fortitude) but in a 60-foot cone. A creature that fails its save is also blinded until the end of its next turn (or for 1 minute on a critical failure).</p>"
           },
           "frequency": {
             "max": 3,
@@ -7496,7 +7496,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>Floolf pups are so adorable that any creature that is either a mammal, or has an Intelligence above 3 that sees or touches a floolf pup must succeed at a DC 27 will save or it will defend the floolf pup with its life. This effect ends when the creature is no longer able to perceive the pup.</p>\n<p>If the creature can speak, anytime it remembers the floolf pup, it feels a compulsion (DC 15 will save) to tell their story of the encounter, invariably ending with the phrase, \"I would die for that floolf.\"</p>"
+            "value": "<p>Floolf pups are so adorable that any creature that is either a mammal, or has an Intelligence above 3 that sees or touches a floolf pup must succeed at a DC 27  Will save or it will defend the floolf pup with its life. This effect ends when the creature is no longer able to perceive the pup.</p>\n<p>If the creature can speak, anytime it remembers the floolf pup, it feels a compulsion (DC 15  Will save) to tell their story of the encounter, invariably ending with the phrase, \"I would die for that floolf.\"</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7747,7 +7747,7 @@
             }
           },
           "description": {
-            "value": "<p><strong>Requirement</strong> The goblin zombie has a creature Grabbed or Restrained</p>"
+            "value": "<p><strong>Requirement</strong> The goblin zombie has a creature  or </p>"
           },
           "publication": {
             "license": "OGL",
@@ -7777,7 +7777,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>When the goblin zombie is reduced to 0 Hit Points, an alchemical device jammed in its belly ruptures. Roll 1d4 and consult the following for the effect:</p><table class=\"pf2e\"><thead><tr><th>[[/br 1d4 #Alchemical Rupture]]</th><th>Alchemical Effect</th></tr></thead><tbody><tr><td>1</td><td>creatures in a 5-foot emanation take @Damage[1d3[persistent,acid]|traits:area-damage] damage</td></tr><tr><td>2</td><td>creatures in a 5-foot emanation take @Damage[1d4[fire]|traits:area-damage] damage (DC 16 Basic reflex save)</td></tr><tr><td>3</td><td>creatures in a 5-foot emanation take @Damage[1d4[poison]|traits:area-damage] damage (DC 16 Basic fortitude save)</td></tr><tr><td>4</td><td>smoke billows out in a 5-foot emanation for 1 round (creatures in that area are Concealed, and all other creatures are concealed to them)</td></tr></tbody></table>"
+            "value": "<p>When the goblin zombie is reduced to 0 Hit Points, an alchemical device jammed in its belly ruptures. Roll 1d4 and consult the following for the effect:</p><table class=\"pf2e\"><thead><tr><th>[[/br 1d4 #Alchemical Rupture]]</th><th>Alchemical Effect</th></tr></thead><tbody><tr><td>1</td><td>creatures in a 5-foot emanation take @Damage[1d3[persistent,acid]|traits:area-damage] damage</td></tr><tr><td>2</td><td>creatures in a 5-foot emanation take @Damage[1d4[fire]|traits:area-damage] damage (DC 16  Basic  Reflex save)</td></tr><tr><td>3</td><td>creatures in a 5-foot emanation take @Damage[1d4[poison]|traits:area-damage] damage (DC 16  Basic  Fortitude save)</td></tr><tr><td>4</td><td>smoke billows out in a 5-foot emanation for 1 round (creatures in that area are , and all other creatures are concealed to them)</td></tr></tbody></table>"
           },
           "publication": {
             "license": "OGL",
@@ -8597,7 +8597,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>Gristleburst carries the following infused items, which last for 24 hours or until the next time he makes his daily preparations:</p>\n<p>Acid Flask (Lesser) (2)</p>\n<p>Alchemist's Fire (Lesser) (4)</p>\n<p>Eagle Eye Elixir (Lesser) (2)</p>"
+            "value": "<p>Gristleburst carries the following infused items, which last for 24 hours or until the next time he makes his daily preparations:</p>\n<p> (2)</p>\n<p> (4)</p>\n<p> (2)</p>"
           },
           "publication": {
             "license": "OGL",
@@ -8657,7 +8657,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Cost</strong> 1 batch of infused reagents</p>\n<hr />\n<p><strong>Effect</strong> Gristleburst mixes up a short-lived lesser acid flask or lesser alchemist's fire without attempting a Crafting check. It remains potent only until the end of his next turn. When he throws this bomb, in addition to its normal effects, it creates a cloud of smoke in a 10-foot radius burst. Creatures in that area have the Concealed condition, and other creatures are concealed to them. This smoke lasts for 1 minute or until dissipated by a strong wind.</p>"
+            "value": "<p><strong>Cost</strong> 1 batch of infused reagents</p>\n<hr />\n<p><strong>Effect</strong> Gristleburst mixes up a short-lived lesser acid flask or lesser alchemist's fire without attempting a Crafting check. It remains potent only until the end of his next turn. When he throws this bomb, in addition to its normal effects, it creates a cloud of smoke in a 10-foot radius burst. Creatures in that area have the  condition, and other creatures are concealed to them. This smoke lasts for 1 minute or until dissipated by a strong wind.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9191,7 +9191,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Medium or smaller, hoof, DC 20 Basic reflex</p>\n<hr />\n<p><p>The monster Strides up to double its Speed and can move through the spaces of creatures of the listed size, Trampling each creature whose space it enters. The monster can attempt to Trample the same creature only once in a single use of Trample. The monster deals the damage of the listed Strike, but trampled creatures can attempt a basic Reflex save at the listed DC (no damage on a critical success, half damage on a success, double damage on a critical failure).</p></p>"
+            "value": "<p>Medium or smaller, hoof, DC 20  Basic  Reflex</p>\n<hr />\n<p><p>The monster Strides up to double its Speed and can move through the spaces of creatures of the listed size, Trampling each creature whose space it enters. The monster can attempt to Trample the same creature only once in a single use of Trample. The monster deals the damage of the listed Strike, but trampled creatures can attempt a basic Reflex save at the listed DC (no damage on a critical success, half damage on a success, double damage on a critical failure).</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -9560,7 +9560,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The kobold tunnelrunner deals an extra 1d4 precision damage to Off-Guard creatures.</p>"
+            "value": "<p>The kobold tunnelrunner deals an extra 1d4 precision damage to  creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9888,7 +9888,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Blessings from beyond help your companions strike true. You and your allies gain a +1 status bonus to attack rolls while within the emanation. Once per turn, starting the turn after you cast bless, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet.</p>\n<p>Bless can counteract Bane.</p>\n<p>Aura: Bless</p>"
+            "value": "<p>Blessings from beyond help your companions strike true. You and your allies gain a +1 status bonus to attack rolls while within the emanation. Once per turn, starting the turn after you cast bless, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet.</p>\n<p>Bless can counteract .</p>\n<p></p>"
           },
           "duration": {
             "sustained": false,
@@ -10043,7 +10043,7 @@
             }
           },
           "description": {
-            "value": "<p>You raise your religious symbol and create a blinding flash of light. Each creature in the area must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Dazzled for 1 round.</p>\n<p><strong>Failure</strong> The creature is Blinded for 1 round and Dazzled for 1 minute. The creature can spend an Interact action rubbing its eyes to end the Blinded condition.</p>\n<p><strong>Critical Failure</strong> The creature is Blinded for 1 round and Dazzled for 1 hour.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The area increases to a 30-foot cone.</p>"
+            "value": "<p>You raise your religious symbol and create a blinding flash of light. Each creature in the area must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is  for 1 round.</p>\n<p><strong>Failure</strong> The creature is  for 1 round and Dazzled for 1 minute. The creature can spend an Interact action rubbing its eyes to end the Blinded condition.</p>\n<p><strong>Critical Failure</strong> The creature is Blinded for 1 round and Dazzled for 1 hour.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The area increases to a 30-foot cone.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10448,7 +10448,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p>Spell Effect: Light</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+            "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
           },
           "duration": {
             "sustained": false,
@@ -10572,7 +10572,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the Force Barrage spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>Spell Effect: Shield</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the  reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the  spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10634,7 +10634,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Vitality energy shuts death's door. The target loses the Dying condition, though it remains Unconscious at 0 Hit Points.</p>"
+            "value": "<p>Vitality energy shuts death's door. The target loses the  condition, though it remains  at 0 Hit Points.</p>"
           },
           "duration": {
             "sustained": false,
@@ -11522,7 +11522,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>The Mari Lwyd cannot be disrupted by common means. It always knows if a building is truly unoccupied or if the occupants can speak and hear and are merely refusing to sing back, and it is immune to Silence and similar effects of up to 5th level.</p>"
+            "value": "<p>The Mari Lwyd cannot be disrupted by common means. It always knows if a building is truly unoccupied or if the occupants can speak and hear and are merely refusing to sing back, and it is immune to  and similar effects of up to 5th level.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11582,7 +11582,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The Mari Lwyd begins a rhyming contest, requesting entrance to a closed home, tavern, or other building that has occupants who can respond in it. It rolls a DC  performance check. Before the Mari Lwyd's next turn, one occupant must respond to the Mari Lwyd's request by spending three actions to Perform a song of their own. The DC for the respondent's song is equal to the result of the Mari Lwyd's Performance check. If the building is occupied and no one responds, this has the effects of a critical failure.</p>\n<hr />\n<p><strong>Critical Success</strong> The respondents win the Pwnco, causing the Mari Lwyd to depart.</p>\n<p><strong>Success</strong> The response is good, and the Pwnco continues. The Mari Lwyd must use Pwnco again on its next turn. It takes a -2 circumstance penalty to its Performance check or increases its current circumstance penalty by 2, whichever is worse.</p>\n<p><strong>Failure</strong> The respondents lose the Pwnco! The Mari Lwyd demands hospitality, causing the door to unlock and open and any barriers at the door to move out of the way. If the door is magically sealed, the Mari Lwyd attempts to counteract the effect (counteract rank 11, counteract modifier [[/r 1d20+22 #Counteract Modifier]]{+22}). If no occupant of the building offers the Mari Lwyd alcohol or cheese before the start of its next turn and demands that it behave itself, the Mari Lwyd can use Festive Rampage at the start of its next turn.</p>\n<p><strong>Critical Failure</strong> As failure, but due to the ineptitude of the response, the Mari Lwyd counteracts magical effects with a counteract rank of 15 and modifier of [[/r 1d20+30 #Counteract Modifer]]{+30}, and it must be offered twice as much alcohol or cheese.</p>"
+            "value": "<p>The Mari Lwyd begins a rhyming contest, requesting entrance to a closed home, tavern, or other building that has occupants who can respond in it. It rolls a Performance check. Before the Mari Lwyd's next turn, one occupant must respond to the Mari Lwyd's request by spending three actions to Perform a song of their own. The DC for the respondent's song is equal to the result of the Mari Lwyd's Performance check. If the building is occupied and no one responds, this has the effects of a critical failure.</p>\n<hr />\n<p><strong>Critical Success</strong> The respondents win the Pwnco, causing the Mari Lwyd to depart.</p>\n<p><strong>Success</strong> The response is good, and the Pwnco continues. The Mari Lwyd must use Pwnco again on its next turn. It takes a -2 circumstance penalty to its Performance check or increases its current circumstance penalty by 2, whichever is worse.</p>\n<p><strong>Failure</strong> The respondents lose the Pwnco! The Mari Lwyd demands hospitality, causing the door to unlock and open and any barriers at the door to move out of the way. If the door is magically sealed, the Mari Lwyd attempts to counteract the effect (counteract rank 11, counteract modifier [[/r 1d20+22 #Counteract Modifier]]{+22}). If no occupant of the building offers the Mari Lwyd alcohol or cheese before the start of its next turn and demands that it behave itself, the Mari Lwyd can use Festive Rampage at the start of its next turn.</p>\n<p><strong>Critical Failure</strong> As failure, but due to the ineptitude of the response, the Mari Lwyd counteracts magical effects with a counteract rank of 15 and modifier of [[/r 1d20+30 #Counteract Modifer]]{+30}, and it must be offered twice as much alcohol or cheese.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12068,7 +12068,7 @@
             }
           },
           "description": {
-            "value": "<p>Swirling colors affect viewers based on their Will saves.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Dazzled for 1 round.</p>\n<p><strong>Failure</strong> The creature is Stunned 1, Blinded for 1 round, and Dazzled for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature is Stunned for 1 round and Blinded for 1 minute.</p>"
+            "value": "<p>Swirling colors affect viewers based on their Will saves.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is  for 1 round.</p>\n<p><strong>Failure</strong> The creature is Stunned 1,  for 1 round, and Dazzled for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature is Stunned for 1 round and Blinded for 1 minute.</p>"
           },
           "duration": {
             "sustained": false,
@@ -12348,7 +12348,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You take advantage of one of the most fundamental lessons of magic to levitate and propel your weapon. You hurl a held melee weapon with which you are trained at the target, making a spell attack roll. On a success, you deal the weapon's damage as if you had hit with a melee Strike, but adding your spellcasting ability modifier to damage, rather than your Strength modifier. On a critical success, you deal double damage, and you add the weapon's critical specialization effect. Regardless of the outcome, the weapon flies back to you and returns to your hand.</p>\n<p>Spell Effect: Hand of the Apprentice</p>"
+            "value": "<p>You take advantage of one of the most fundamental lessons of magic to levitate and propel your weapon. You hurl a held melee weapon with which you are trained at the target, making a spell attack roll. On a success, you deal the weapon's damage as if you had hit with a melee Strike, but adding your spellcasting ability modifier to damage, rather than your Strength modifier. On a critical success, you deal double damage, and you add the weapon's critical specialization effect. Regardless of the outcome, the weapon flies back to you and returns to your hand.</p>\n<p></p>"
           },
           "duration": {
             "sustained": false,
@@ -12663,7 +12663,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You summon an unseen servant, which you can command as part of Sustaining the Spell. It serves you until its Hit Points are reduced to 0, at which point the spell ends, or until you stop Sustaining the Spell. The unseen servant gains the summoned trait.</p>\n<p><strong>Unseen Servant</strong> [Creature] [-1] [No Alignment] [Medium]</p>\n<hr />\n<p><strong>AC</strong> 13, <strong>Fort</strong> +0, <strong>Ref</strong> +4, <strong>Will</strong> +0 <strong>HP</strong> 4</p>\n<p><strong>Immunities</strong> disease, mental, non-magical attacks, paralysis, poison, precision, Unconscious</p>\n<p><strong>Resistances</strong> all damage 5 (except force or ghost touch)</p>\n<p><strong>Speed</strong> fly 30 feet</p>\n<p><strong>Force Body</strong> An unseen servant's physical body is made of force. It can't use attack actions. It can move and use Interact actions to do things such as fetch objects, open unstuck or unlocked doors, hold chairs, and clean. It can't pass through solid objects.</p>"
+            "value": "<p>You summon an unseen servant, which you can command as part of Sustaining the Spell. It serves you until its Hit Points are reduced to 0, at which point the spell ends, or until you stop Sustaining the Spell. The unseen servant gains the summoned trait.</p>\n<p><strong>Unseen Servant</strong> [Creature] [-1] [No Alignment] [Medium]</p>\n<hr />\n<p><strong>AC</strong> 13, <strong>Fort</strong> +0, <strong>Ref</strong> +4, <strong>Will</strong> +0 <strong>HP</strong> 4</p>\n<p><strong>Immunities</strong> disease, mental, non-magical attacks, paralysis, poison, precision, </p>\n<p><strong>Resistances</strong> all damage 5 (except force or ghost touch)</p>\n<p><strong>Speed</strong> fly 30 feet</p>\n<p><strong>Force Body</strong> An unseen servant's physical body is made of force. It can't use attack actions. It can move and use Interact actions to do things such as fetch objects, open unstuck or unlocked doors, hold chairs, and clean. It can't pass through solid objects.</p>"
           },
           "duration": {
             "sustained": true,
@@ -12807,7 +12807,7 @@
           },
           "containerId": null,
           "description": {
-            "value": "<p><strong>Cantrips</strong></p>\n<p>Telekinetic Projectile</p>\n<p>Daze</p>\n<p>Detect Magic</p>\n<p>Light</p>\n<p>Telekinetic Hand</p>\n<hr />\n<p><strong>1st Level</strong></p>\n<p>Dizzying Colors</p>\n<p>Force Barrage</p>\n<p>Phantasmal Minion</p>\n<hr />\n<p><strong>2nd Level</strong></p>\n<p>Translate</p>\n<p>Dispel Magic</p>\n<p>Illusory Creature</p>"
+            "value": "<p><strong>Cantrips</strong></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<hr />\n<p><strong>1st Level</strong></p>\n<p></p>\n<p></p>\n<p></p>\n<hr />\n<p><strong>2nd Level</strong></p>\n<p></p>\n<p></p>\n<p></p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -12990,7 +12990,7 @@
               "damage": {},
               "defense": null,
               "description": {
-                "value": "<p>You make the target easier to open. Knock grants a +4 status bonus to any creature that tries to open the target door, lock, or container with an Athletics or a Thievery check. You can attempt a Thievery check to open the target as part of casting knock, and you add your level even if you're untrained.</p>\n<p>Knock counteracts Lock.</p>"
+                "value": "<p>You make the target easier to open. Knock grants a +4 status bonus to any creature that tries to open the target door, lock, or container with an Athletics or a Thievery check. You can attempt a Thievery check to open the target as part of casting knock, and you add your level even if you're untrained.</p>\n<p>Knock counteracts .</p>"
               },
               "duration": {
                 "sustained": false,
@@ -13122,7 +13122,7 @@
               "damage": {},
               "defense": null,
               "description": {
-                "value": "<p>Cloaked in illusion, the target becomes Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+                "value": "<p>Cloaked in illusion, the target becomes . This makes it  to all creatures, though the creatures can attempt to find the target, making it  to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
               },
               "duration": {
                 "sustained": false,
@@ -13837,7 +13837,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Medium or smaller, Hoof, DC 18 Basic reflex</p>\n<hr />\n<p><p>The monster Strides up to double its Speed and can move through the spaces of creatures of the listed size, Trampling each creature whose space it enters. The monster can attempt to Trample the same creature only once in a single use of Trample. The monster deals the damage of the listed Strike, but trampled creatures can attempt a basic Reflex save at the listed DC (no damage on a critical success, half damage on a success, double damage on a critical failure).</p></p>"
+            "value": "<p>Medium or smaller, Hoof, DC 18  Basic  Reflex</p>\n<hr />\n<p><p>The monster Strides up to double its Speed and can move through the spaces of creatures of the listed size, Trampling each creature whose space it enters. The monster can attempt to Trample the same creature only once in a single use of Trample. The monster deals the damage of the listed Strike, but trampled creatures can attempt a basic Reflex save at the listed DC (no damage on a critical success, half damage on a success, double damage on a critical failure).</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -14204,7 +14204,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Look into its beady little eyes. You are now Stunned for 1 round unless you succeeded on a DC 20 will save.</p>"
+            "value": "<p>Look into its beady little eyes. You are now  for 1 round unless you succeeded on a DC 20  Will save.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -14237,7 +14237,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The nosferotter lets out an ominous, but cute, squeak. All creatures within 30 feet must attempt a DC 20 will save.</p>\n<p>They are then temporarily immune for 1 day.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature can do nothing but wonder whether the nosferotter is cute or terrifying for 1 round.</p>\n<p><strong>Failure</strong> The creature is so confused that it attacks its allies for 1 round.</p>\n<p><strong>Critical Failure</strong> As failure, but permanently. It's that bad.</p>"
+            "value": "<p>The nosferotter lets out an ominous, but cute, squeak. All creatures within 30 feet must attempt a DC 20  Will save.</p>\n<p>They are then temporarily immune for 1 day.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature can do nothing but wonder whether the nosferotter is cute or terrifying for 1 round.</p>\n<p><strong>Failure</strong> The creature is so confused that it attacks its allies for 1 round.</p>\n<p><strong>Critical Failure</strong> As failure, but permanently. It's that bad.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -14611,7 +14611,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> A kobold is within 10 feet of the ogre</p>\n<hr />\n<p><strong>Effect</strong> The ogre picks up the kobold and hurls it at another creature within 30 feet. This ranged Strike has a [[/r 1d20 #Hurl Kobold]]{+14} attack modifier and deals @Damage[(2d8+6)[bludgeoning]] damage. The kobold takes half the damage dealt to the target and is Prone.</p>"
+            "value": "<p><strong>Requirements</strong> A kobold is within 10 feet of the ogre</p>\n<hr />\n<p><strong>Effect</strong> The ogre picks up the kobold and hurls it at another creature within 30 feet. This ranged Strike has a [[/r 1d20 #Hurl Kobold]]{+14} attack modifier and deals @Damage[(2d8+6)[bludgeoning]] damage. The kobold takes half the damage dealt to the target and is .</p>"
           },
           "publication": {
             "license": "OGL",
@@ -15256,7 +15256,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> Pr'rall's last action was a Double Slice, and both attacks hit the target</p>\n<hr />\n<p><strong>Effect</strong> When Pr'rall hits with both attacks with Double Slice, he flenses the target, making it bleed and creating a weak spot. The target takes 2d8 bleed, becomes <strong>Off-Guard</strong>, and its resistances to any physical damage types are reduced by 5; these two effects last until the beginning of Pr'rall's next turn.</p>"
+            "value": "<p><strong>Requirements</strong> Pr'rall's last action was a Double Slice, and both attacks hit the target</p>\n<hr />\n<p><strong>Effect</strong> When Pr'rall hits with both attacks with Double Slice, he flenses the target, making it bleed and creating a weak spot. The target takes 2d8 bleed, becomes <strong></strong>, and its resistances to any physical damage types are reduced by 5; these two effects last until the beginning of Pr'rall's next turn.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -15532,7 +15532,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>30 feet. Any time a nonfeline creature within the aura attempts to use an action that has the concentrate trait, it must attempt a DC 5 flat check. On a failure, the action is lost as the creature is too distracted by sneezing to act.</p>"
+            "value": "<p>30 feet. Any time a nonfeline creature within the aura attempts to use an action that has the concentrate trait, it must attempt a DC 5  Flat check. On a failure, the action is lost as the creature is too distracted by sneezing to act.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -15574,7 +15574,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The psstpsstmitl Strides and makes a Strike at the end of that movement. If the psstpsstmitl began this action Hidden, it remains hidden until after this ability's Strike.</p>"
+            "value": "<p>The psstpsstmitl Strides and makes a Strike at the end of that movement. If the psstpsstmitl began this action , it remains hidden until after this ability's Strike.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -15607,7 +15607,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The psstpsstmitl deals 2d6 extra precision damage to Off-Guard creatures</p>"
+            "value": "<p>The psstpsstmitl deals 2d6 extra precision damage to  creatures</p>"
           },
           "publication": {
             "license": "OGL",
@@ -15655,7 +15655,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The psstpsstmitl swipes one giant paw across the battlefield in a 30-foot cone. All creatures in the cone must attempt a Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is pushed 10 feet away from the psstpsstmitl and is knocked Prone</p>\n<p><strong>Failure</strong> The target is pushed 20 feet away from the psstpsstmitl and is knocked prone.</p>\n<p><strong>Critical Failure</strong> As failure, and the target is Stunned 2</p>"
+            "value": "<p>The psstpsstmitl swipes one giant paw across the battlefield in a 30-foot cone. All creatures in the cone must attempt a Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is pushed 10 feet away from the psstpsstmitl and is knocked </p>\n<p><strong>Failure</strong> The target is pushed 20 feet away from the psstpsstmitl and is knocked prone.</p>\n<p><strong>Critical Failure</strong> As failure, and the target is Stunned 2</p>"
           },
           "publication": {
             "license": "OGL",
@@ -16455,7 +16455,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Urok disperses the crystalline motes coating his body as a haze. He becomes Concealed, though he can't use this concealment to Hide or Sneak. The motes stay within an inch of his skin, move with you, and last for 4 rounds.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Urok disperses the crystalline motes coating his body as a haze. He becomes , though he can't use this concealment to Hide or Sneak. The motes stay within an inch of his skin, move with you, and last for 4 rounds.</p>"
           },
           "frequency": {
             "max": 1,
@@ -16525,7 +16525,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Urok breathes a poisonous mist that deals 5d4 poison damage in a 15-foot cone (DC 25 Basic fortitude save).</p>\n<p>He can't use Kobold Breath again for [[/br 1d4 #Recharge Kobold Breath]]{1d4 rounds}.</p>"
+            "value": "<p>Urok breathes a poisonous mist that deals 5d4 poison damage in a 15-foot cone (DC 25  Basic  Fortitude save).</p>\n<p>He can't use Kobold Breath again for [[/br 1d4 #Recharge Kobold Breath]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -16626,7 +16626,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Urok deals an extra 2d6 precision damage to Off-Guard creatures.</p>"
+            "value": "<p>Urok deals an extra 2d6 precision damage to  creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -17785,7 +17785,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Wendlyn deals an extra 1d6 precision damage to Off-Guard creatures.</p>"
+            "value": "<p>Wendlyn deals an extra 1d6 precision damage to  creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -17833,7 +17833,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>On the first round of combat, if Wendlyn rolls Deception or Stealth for initiative, creatures that haven't acted yet are Off-Guard to her.</p>"
+            "value": "<p>On the first round of combat, if Wendlyn rolls Deception or Stealth for initiative, creatures that haven't acted yet are  to her.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -18217,7 +18217,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>A weredigo adds Create Food, Enhance Victuals, and Ghoulish Cravings to its coven's spells.</p>\n<p>In addition, a weredigo, wendigo, and hoodigo coven can perform a unique ritual to enter the dreams of a creature responsible for hosting an upcoming party and curse them incurable planning indecision.</p>\n<hr />\n<p><p>This monster can form a coven with two or more other creatures who also have the coven ability. This involves performing an 8-hour ceremony with all prospective coven members. After the coven is formed, each of its members gains elite adjustments, adjusting their levels accordingly. Coven members can sense other members' locations and conditions by spending a single action, which has the concentrate trait, and can sense what another coven member is sensing as a two-action activity, which has the concentrate trait as well.</p>\n<p>Covens also grant spells and rituals to their members, but these can be cast only in cooperation between three coven members who are all within 30 feet of one another. A coven member can contribute to a coven spell with a single action that has the concentrate trait. If two coven members have contributed these actions within the last round, a third member can cast a coven spell on her turn by spending the normal spellcasting actions. A coven can cast its coven spells an unlimited number of times but can cast only one coven spell each round. All covens grant the 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis} spell and all the following spells, which the coven can cast at any rank up to 5th: @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{Augury}, @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]{Charm}, @UUID[Compendium.pf2e.spells-srd.Item.HXhWYJviWalN5tQ2]{Clairaudience}, @UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]{Clairvoyance}, @UUID[Compendium.pf2e.spells-srd.Item.yM3KTTSAIHhyuP14]{Dream Message}, @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise}, @UUID[Compendium.pf2e.spells-srd.Item.Ucf8eynbZMfUucjE]{Illusory Scene}, @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]{Scouting Eye}, and @UUID[Compendium.pf2e.spells-srd.Item.FM3SmEW8N1FCRjqt]{Talking Corpse}. Individual creatures with the coven ability also grant additional spells to any coven they join. A coven can also cast the @UUID[Compendium.pf2e.spells-srd.Item.XkDCzMIyc0YOjw05]{Control Weather} ritual, with a DC of 23 instead of the standard DC.</p>\n<p>If a coven member's departure or death brings the coven below three members, the remaining members keep their elite adjustments for 24 hours, but without enough members to contribute the necessary actions, they can't cast coven spells.</p></p>"
+            "value": "<p>A weredigo adds , , and  to its coven's spells.</p>\n<p>In addition, a weredigo, wendigo, and hoodigo coven can perform a unique ritual to enter the dreams of a creature responsible for hosting an upcoming party and curse them incurable planning indecision.</p>\n<hr />\n<p><p>This monster can form a coven with two or more other creatures who also have the coven ability. This involves performing an 8-hour ceremony with all prospective coven members. After the coven is formed, each of its members gains elite adjustments, adjusting their levels accordingly. Coven members can sense other members' locations and conditions by spending a single action, which has the concentrate trait, and can sense what another coven member is sensing as a two-action activity, which has the concentrate trait as well.</p>\n<p>Covens also grant spells and rituals to their members, but these can be cast only in cooperation between three coven members who are all within 30 feet of one another. A coven member can contribute to a coven spell with a single action that has the concentrate trait. If two coven members have contributed these actions within the last round, a third member can cast a coven spell on her turn by spending the normal spellcasting actions. A coven can cast its coven spells an unlimited number of times but can cast only one coven spell each round. All covens grant the 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis} spell and all the following spells, which the coven can cast at any rank up to 5th: @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{Augury}, @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]{Charm}, @UUID[Compendium.pf2e.spells-srd.Item.HXhWYJviWalN5tQ2]{Clairaudience}, @UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]{Clairvoyance}, @UUID[Compendium.pf2e.spells-srd.Item.yM3KTTSAIHhyuP14]{Dream Message}, @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise}, @UUID[Compendium.pf2e.spells-srd.Item.Ucf8eynbZMfUucjE]{Illusory Scene}, @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]{Scouting Eye}, and @UUID[Compendium.pf2e.spells-srd.Item.FM3SmEW8N1FCRjqt]{Talking Corpse}. Individual creatures with the coven ability also grant additional spells to any coven they join. A coven can also cast the @UUID[Compendium.pf2e.spells-srd.Item.XkDCzMIyc0YOjw05]{Control Weather} ritual, with a DC of 23 instead of the standard DC.</p>\n<p>If a coven member's departure or death brings the coven below three members, the remaining members keep their elite adjustments for 24 hours, but without enough members to contribute the necessary actions, they can't cast coven spells.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -18316,7 +18316,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature affected by weredigo torment can't recover beyond stage 1 until it has been restored to full HP.</p>\n<p><strong>Saving Throw</strong> DC 35 will</p>\n<p><strong>Stage 1</strong> Stupefied 4 (1 day)</p>\n<p><strong>Stage 2</strong> As stage 1 (1 day)</p>\n<p><strong>Stage 3</strong> The creature becomes permanently afflicted with analysis paralysis, unable to make even the simplest of dining decisions, absentmindedly sipping their water whenever asked for their order.</p>"
+            "value": "<p>A creature affected by weredigo torment can't recover beyond stage 1 until it has been restored to full HP.</p>\n<p><strong>Saving Throw</strong> DC 35  Will</p>\n<p><strong>Stage 1</strong> Stupefied 4 (1 day)</p>\n<p><strong>Stage 2</strong> As stage 1 (1 day)</p>\n<p><strong>Stage 3</strong> The creature becomes permanently afflicted with analysis paralysis, unable to make even the simplest of dining decisions, absentmindedly sipping their water whenever asked for their order.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -18926,7 +18926,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>30 feet. When a creature ends its turn in the aura, it must attempt a DC 27 fortitude save. If the creature fails, it becomes Slowed 1 for 1 minute. The medusa can deactivate or activate this aura by using a single action, which has the concentrate trait.</p>"
+            "value": "<p>30 feet. When a creature ends its turn in the aura, it must attempt a DC 27  Fortitude save. If the creature fails, it becomes Slowed 1 for 1 minute. The medusa can deactivate or activate this aura by using a single action, which has the concentrate trait.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -18980,7 +18980,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The medusa fixes their glare at a creature they can see within 30 feet. The target must immediately attempt a Fortitude save against the medusa's petrifying gaze. If the creature was already slowed by petrifying gaze before attempting its save, a failed save causes it to be Petrified permanently. After attempting its save, the creature is then temporarily immune until the start of the medusa's next turn.</p>"
+            "value": "<p>The medusa fixes their glare at a creature they can see within 30 feet. The target must immediately attempt a Fortitude save against the medusa's petrifying gaze. If the creature was already slowed by petrifying gaze before attempting its save, a failed save causes it to be  permanently. After attempting its save, the creature is then temporarily immune until the start of the medusa's next turn.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -19015,7 +19015,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Saving Throw</strong> DC 27 fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 1d6 poison damage and Enfeebled 1 (1 round)</p>\n<p><strong>Stage 2</strong> 2d6 poison damage and Enfeebled 2 (1 round)</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 27  Fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 1d6 poison damage and Enfeebled 1 (1 round)</p>\n<p><strong>Stage 2</strong> 2d6 poison damage and Enfeebled 2 (1 round)</p>"
           },
           "publication": {
             "license": "OGL",
@@ -19312,7 +19312,7 @@
             }
           },
           "description": {
-            "value": "<p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Deafened for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is deafened for 1 minute, and is Stunned 1.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
+            "value": "<p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is  for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is deafened for 1 minute, and is Stunned 1.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
           },
           "duration": {
             "sustained": false,
@@ -19387,7 +19387,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the  condition), release what it's holding, drop , or stand in place. It can't  or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -19462,7 +19462,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create a simple illusory sound or vision. A sound adds the auditory trait to the spell and the sound can't include intelligible words or elaborate music. A vision adds the visual trait, can be no larger than a 5-foot cube, and is clearly crude and undetailed if viewed from within 15 feet. When you Cast or Sustain the Spell, you can attempt to Create a Diversion with the illusion, gaining a +2 circumstance bonus to your Deception check. If the attempt fails against a creature, that creature disbelieves the <em>figment</em>.</p>\n<p>Spell Effect: Figment</p>"
+            "value": "<p>You create a simple illusory sound or vision. A sound adds the auditory trait to the spell and the sound can't include intelligible words or elaborate music. A vision adds the visual trait, can be no larger than a 5-foot cube, and is clearly crude and undetailed if viewed from within 15 feet. When you Cast or Sustain the Spell, you can attempt to  with the illusion, gaining a +2 circumstance bonus to your Deception check. If the attempt fails against a creature, that creature disbelieves the <em>figment</em>.</p>\n<p></p>"
           },
           "duration": {
             "sustained": true,
@@ -19857,7 +19857,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The wordsmith slams their hammer against a creature, creating a visual onomatopoeia like CRACK! or SMASH! that flies off at the site of impact. The target of the strike must attempt a DC 24 will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Stupefied 1 for 1 round.</p>\n<p><strong>Failure</strong> The creature is stupefied 1 for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature is Stupefied 2 and gains weakness 1 to sonic damage for 1 minute.</p>"
+            "value": "<p>The wordsmith slams their hammer against a creature, creating a visual onomatopoeia like CRACK! or SMASH! that flies off at the site of impact. The target of the strike must attempt a DC 24  Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Stupefied 1 for 1 round.</p>\n<p><strong>Failure</strong> The creature is stupefied 1 for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature is Stupefied 2 and gains weakness 1 to sonic damage for 1 minute.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -20496,7 +20496,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Zhang Yong calls forth vitality energy from within to help him destroy undead. His weapons and unarmed Strikes gain the effects of a greater disrupting property rune until the start of his next turn.</p>\n<hr />\n<p>A Greater Disrupting weapon pulses with vitality energy, dealing an extra 2d6 vitality damage to undead On a critical hit, instead of being enfeebled 1, the undead creature must attempt a DC 31  name:Greater Disrupting save with the following effects. This is an incapacitation effect.</p>\n<hr />\n<p><strong>Critical Success</strong> It's Enfeebled 1 until the end of your next turn.</p>\n<p><strong>Success</strong> It's Enfeebled 2 until the end of your next turn.</p>\n<p><strong>Failure</strong> It's Enfeebled 3 until the end of your next turn.</p>\n<p><strong>Critical Failure</strong> It's destroyed.</p>"
+            "value": "<p>Zhang Yong calls forth vitality energy from within to help him destroy undead. His weapons and unarmed Strikes gain the effects of a greater disrupting property rune until the start of his next turn.</p>\n<hr />\n<p>A Greater Disrupting weapon pulses with vitality energy, dealing an extra 2d6 vitality damage to undead On a critical hit, instead of being enfeebled 1, the undead creature must attempt a DC 31   Fortitude save with the following effects. This is an incapacitation effect.</p>\n<hr />\n<p><strong>Critical Success</strong> It's Enfeebled 1 until the end of your next turn.</p>\n<p><strong>Success</strong> It's Enfeebled 2 until the end of your next turn.</p>\n<p><strong>Failure</strong> It's Enfeebled 3 until the end of your next turn.</p>\n<p><strong>Critical Failure</strong> It's destroyed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -20526,7 +20526,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Zhang Yong has learned to move his spiritual energy past himself to attack spirits where others can't. He can make melee Strikes against incorporeal creatures that are inside solid objects as long as the object is within his reach. An incorporeal creature inside of a solid object is hidden, requiring him to succeed at a DC 11 name:Attacking Incorporeal Creature in an Object check when he targets it. He can spend an action, which has the concentrate trait, to focus on a creature inside of a solid object. If he does, the next melee Strike he makes this turn requires him to succeed at only a DC 6 name:Focused Attack on Incorporeal Creature check to affect the creature.</p>"
+            "value": "<p>Zhang Yong has learned to move his spiritual energy past himself to attack spirits where others can't. He can make melee Strikes against incorporeal creatures that are inside solid objects as long as the object is within his reach. An incorporeal creature inside of a solid object is hidden, requiring him to succeed at a DC 11  Flat check when he targets it. He can spend an action, which has the concentrate trait, to focus on a creature inside of a solid object. If he does, the next melee Strike he makes this turn requires him to succeed at only a DC 6  Flat check to affect the creature.</p>"
           },
           "publication": {
             "license": "OGL",

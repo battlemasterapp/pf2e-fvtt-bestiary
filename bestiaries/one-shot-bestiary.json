@@ -134,7 +134,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You create an illusory duplicate of the target creature by animating ice or snow sculpted in its shape. The simulacrum is a 4th-level creature with no special abilities. If it needs to attempt a roll or use a DC, use the moderate number for a monster, except as noted below. It doesn't have any specific memories from the target, but it can use information about the creature gained from any of the casters to Impersonate the target. It looks exactly like the target and has a Deception modifier to Impersonate that creature equal to the modifier of the secondary spellcaster who rolled the Deception check, with a +4 status bonus.</p>\n<p>While it doesn't have any of the original's special abilities, like a dragon's breath weapon, the illusions that make up the simulacrum allow it to appear to use those abilities; they just never seem to have an effect. For instance, against a simulacrum dragon's breath weapon, all creatures in the area seem to critically succeed at their saving throws and take no damage. Creatures can attempt to disbelieve the illusion by attempting a Perception check against the Deception DC of the secondary spellcaster who rolled the Deception check.</p>\n<hr />\n<p><strong>Critical Success</strong> You bring the simulacrum to life. It has the minion trait and is under your absolute control. You gain a direct mental link with the simulacrum and can spend an action to command the simulacrum via this link, even at a distance.</p>\n<p><strong>Success</strong> As a critical success, but there is no special link between you and the simulacrum. You must spend an action to command it verbally or by some other means.</p>\n<p><strong>Failure</strong> The ritual fails and has no effect.</p>\n<p><strong>Critical Failure</strong> The simulacrum awakens, but it isn't your minion and is hostile to all the casters. It does everything it can to destroy them, but if it can't immediately slay them, the simulacrum tries to escape and plots their demise.</p>"
+            "value": "<p>You create an illusory duplicate of the target creature by animating ice or snow sculpted in its shape. The simulacrum is a 4th-level creature with no special abilities. If it needs to attempt a roll or use a DC, use the moderate number for a monster, except as noted below. It doesn't have any specific memories from the target, but it can use information about the creature gained from any of the casters to Impersonate the target. It looks exactly like the target and has a Deception modifier to  that creature equal to the modifier of the secondary spellcaster who rolled the Deception check, with a +4 status bonus.</p>\n<p>While it doesn't have any of the original's special abilities, like a dragon's breath weapon, the illusions that make up the simulacrum allow it to appear to use those abilities; they just never seem to have an effect. For instance, against a simulacrum dragon's breath weapon, all creatures in the area seem to critically succeed at their saving throws and take no damage. Creatures can attempt to disbelieve the illusion by attempting a Perception check against the Deception DC of the secondary spellcaster who rolled the Deception check.</p>\n<hr />\n<p><strong>Critical Success</strong> You bring the simulacrum to life. It has the minion trait and is under your absolute control. You gain a direct mental link with the simulacrum and can spend an action to command the simulacrum via this link, even at a distance.</p>\n<p><strong>Success</strong> As a critical success, but there is no special link between you and the simulacrum. You must spend an action to command it verbally or by some other means.</p>\n<p><strong>Failure</strong> The ritual fails and has no effect.</p>\n<p><strong>Critical Failure</strong> The simulacrum awakens, but it isn't your minion and is hostile to all the casters. It does everything it can to destroy them, but if it can't immediately slay them, the simulacrum tries to escape and plots their demise.</p>"
           },
           "duration": {
             "sustained": false,
@@ -527,7 +527,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>A glimpse into the future ensures your next blow strikes true. The next time you make an attack roll before the end of your turn, roll the attack twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being Concealed or Hidden.</p>\n<p>Spell Effect: Sure Strike</p>"
+            "value": "<p>A glimpse into the future ensures your next blow strikes true. The next time you make an attack roll before the end of your turn, roll the attack twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being  or .</p>\n<p></p>"
           },
           "duration": {
             "sustained": false,
@@ -1074,7 +1074,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p><em>Sleep arrows</em> often have shafts of deep blue or black, and their fletching is exceptionally soft and downy. An activated <em>sleep arrow</em> deals no damage, but a living creature hit by it is subject to the effects of a Sleep spell (DC 17).</p>\n<p><strong>Craft Requirements</strong> Supply one casting of <em>sleep</em>.</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p><em>Sleep arrows</em> often have shafts of deep blue or black, and their fletching is exceptionally soft and downy. An activated <em>sleep arrow</em> deals no damage, but a living creature hit by it is subject to the effects of a  spell (DC 17).</p>\n<p><strong>Craft Requirements</strong> Supply one casting of <em>sleep</em>.</p>"
           },
           "equipped": {
             "carryType": "held",
@@ -1241,7 +1241,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> Auldegrund is reduced to 60 or fewer Hit Points</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Auldegrund calls out, in Infernal, \"Give me the strength to slay these foes in your name, almighty Alocer!\" As he does so, his skin darkens to red, diabolic horns jut from his brow, a flaming lion-like mane appears around his head, burning wings burst from his shoulders, and his weapons ignite with black fire.</p>\n<p>He immediately heals [[/r (3d6+7)[healing]]]{3d6+7 Hit Points}, gains a fly speed of 25 feet, and deals an additional 1d6 fire damage with his melee and ranged Strikes.</p>\n<p>This is a risky gambit, though, for Alocer is not patient. At the end of each of Auldegrund's turns, he must attempt a DC 11 name:End Invoke Alocer (the DC of this flat check increases by 1 each round). On a failure, Alocer grows disappointed that Auldegrund has not defeated his foes and the effects of Invoke Alocer end immediately. This deals [[/r {3d6+7}]]{3d6+7 damage} to Auldegrund, removes his fly speed and additional fire damage to weapon Strikes, and causes Auldegrund to become Frightened 3.</p>"
+            "value": "<p><strong>Trigger</strong> Auldegrund is reduced to 60 or fewer Hit Points</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Auldegrund calls out, in Infernal, \"Give me the strength to slay these foes in your name, almighty Alocer!\" As he does so, his skin darkens to red, diabolic horns jut from his brow, a flaming lion-like mane appears around his head, burning wings burst from his shoulders, and his weapons ignite with black fire.</p>\n<p>He immediately heals [[/r (3d6+7)[healing]]]{3d6+7 Hit Points}, gains a fly speed of 25 feet, and deals an additional 1d6 fire damage with his melee and ranged Strikes.</p>\n<p>This is a risky gambit, though, for Alocer is not patient. At the end of each of Auldegrund's turns, he must attempt a DC 11  Flat (the DC of this flat check increases by 1 each round). On a failure, Alocer grows disappointed that Auldegrund has not defeated his foes and the effects of Invoke Alocer end immediately. This deals [[/r {3d6+7}]]{3d6+7 damage} to Auldegrund, removes his fly speed and additional fire damage to weapon Strikes, and causes Auldegrund to become Frightened 3.</p>"
           },
           "frequency": {
             "max": 1,
@@ -1582,7 +1582,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>The three larger crystals on the table begin to vibrate and emit a swiftly growing peal of sound.</p>",
-        "disable": "<p>DC 17 thievery (trained) or DC 17 occultism (trained) to disrupt the magic enchanting one of the crystals, or DC 20 performance (trained) by a character who can cast Counter Performance to use sound to redirect the noise back into the crystal, or Dispel Magic (2nd level, DC 18) to counteract a crystal.</span></p>",
+        "disable": "<p>DC 17  Thievery (trained) or DC 17  Occultism (trained) to disrupt the magic enchanting one of the crystals, or DC 20  Performance (trained) by a character who can cast  to use sound to redirect the noise back into the crystal, or  (2nd level, DC 18) to counteract a crystal.</span></p>",
         "isComplex": true,
         "level": {
           "value": 3
@@ -1593,7 +1593,7 @@
           "title": "Pathfinder Adventure: A Fistful of Flowers"
         },
         "reset": "",
-        "routine": "<p>(3 actions) The hazard loses 1 action for each crystal that's disabled or destroyed. On each of the trap's actions, one of the crystals fires a blast of sound at a single Small or larger creature in the room. The target is randomly determined and takes 1d8 sonic damage (DC 20 Basic fortitude); a target who critically fails this save is Deafened for 1 minute. At the end of the hazard's routine, attempt a DC 10 name:Destroy a Crystal. On a success, one of the crystals shatters and is destroyed.</p>"
+        "routine": "<p>(3 actions) The hazard loses 1 action for each crystal that's disabled or destroyed. On each of the trap's actions, one of the crystals fires a blast of sound at a single Small or larger creature in the room. The target is randomly determined and takes 1d8 sonic damage (DC 20  Basic  Fortitude); a target who critically fails this save is  for 1 minute. At the end of the hazard's routine, attempt a DC 10  Flat. On a success, one of the crystals shatters and is destroyed.</p>"
       },
       "saves": {
         "fortitude": {
@@ -1641,7 +1641,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature enters either of the marked areas, or a creature remains in the room for 1 minute</p>\n<hr />\n<p><strong>Effect</strong> The trap breathes cold that envelops a 15-foot burst centered on the triggering creature's square. This deals @Damage[(4d8+18)[cold]] damage (DC 24 Basic traits:cold,evocation,magical,trap,hazard save), and a creature that critically fails the save becomes Clumsy 1 for 10 minutes due to frostbite.</p>"
+            "value": "<p><strong>Trigger</strong> A creature enters either of the marked areas, or a creature remains in the room for 1 minute</p>\n<hr />\n<p><strong>Effect</strong> The trap breathes cold that envelops a 15-foot burst centered on the triggering creature's square. This deals @Damage[(4d8+18)[cold]] damage (DC 24  Basic  Reflex (cold,evocation,magical,trap,hazard) save), and a creature that critically fails the save becomes Clumsy 1 for 10 minutes due to frostbite.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1688,7 +1688,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>A stuffed owlbear twists toward intruders and breathes a gust of frigid air.</p>",
-        "disable": "<p>DC 22 traits:cold,evocation,magical,trap,hazard{Thievery (expert)} on the owlbear's base</p>",
+        "disable": "<p>DC 22  Thievery (cold,evocation,magical,trap,hazard){Thievery (expert)} on the owlbear's base</p>",
         "isComplex": false,
         "level": {
           "value": 6
@@ -2035,7 +2035,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>A redcap's woolen hat is dyed with the blood of its victims. If the redcap loses its cap, it no longer benefits from fast healing and takes a -4 status penalty to its damage rolls. It can create a new cap in 10 minutes, but that cap doesn't grant its powers until the redcap has turned it red with Blood Soak. A cap has no benefit for creatures other than the redcap who made it.</p>\n<p>Effect: Lost Red Cap</p>"
+            "value": "<p>A redcap's woolen hat is dyed with the blood of its victims. If the redcap loses its cap, it no longer benefits from fast healing and takes a -4 status penalty to its damage rolls. It can create a new cap in 10 minutes, but that cap doesn't grant its powers until the redcap has turned it red with Blood Soak. A cap has no benefit for creatures other than the redcap who made it.</p>\n<p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -2106,7 +2106,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>If a redcap sees a creature brandish a religious symbol of a good deity (which requires an interact action by that creature) or use one to cast a divine spell, the redcap must attempt a DC 19 will save. It then becomes temporarily immune to all brandished religious symbols for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The redcap is unaffected</p>\n<p><strong>Success</strong> The redcap is Frightened 2</p>\n<p><strong>Failure</strong> The redcap gains the Fleeing condition for 1 round and is Frightened 4</p>"
+            "value": "<p>If a redcap sees a creature brandish a religious symbol of a good deity (which requires an interact action by that creature) or use one to cast a divine spell, the redcap must attempt a DC 19  Will save. It then becomes temporarily immune to all brandished religious symbols for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The redcap is unaffected</p>\n<p><strong>Success</strong> The redcap is Frightened 2</p>\n<p><strong>Failure</strong> The redcap gains the  condition for 1 round and is Frightened 4</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2140,7 +2140,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The redcap dips its cap in the blood of a slain foe. The foe must have died in the last minute, and the redcap must have helped kill it. The redcap gains a +4 status bonus to damage rolls for 1 minute.</p>\n<p>Effect: Blood Soak</p>"
+            "value": "<p>The redcap dips its cap in the blood of a slain foe. The foe must have died in the last minute, and the redcap must have helped kill it. The redcap gains a +4 status bonus to damage rolls for 1 minute.</p>\n<p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -2202,7 +2202,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The redcap Strides up to half its Speed and makes a boot Strike at any point during that movement. If the boot Strike hits a Prone creature, it deals an extra 2d6 bleed.</p>"
+            "value": "<p>The redcap Strides up to half its Speed and makes a boot Strike at any point during that movement. If the boot Strike hits a  creature, it deals an extra 2d6 bleed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2708,7 +2708,7 @@
             }
           },
           "description": {
-            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the Fleeing condition), release what it's holding, drop Prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
+            "value": "<p>You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the  condition), release what it's holding, drop , or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save.</p>\n<hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For the first action on its next turn, the creature must use a single action to do as you command.</p>\n<p><strong>Critical Failure</strong> The target must use all its actions on its next turn to obey your command.</p>\n<hr /><p><strong>Heightened (5th)</strong> You can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -2940,7 +2940,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You ward an ally against the attacks and hostile spells from the target enemy. The target ally gains a +1 status bonus to Armor Class and saving throws against the target enemy's attacks, spells, and other effects.</p>\n<p>Spell Effect: Forbidding Ward</p>\n<hr />\n<p><strong>Heightened (6th)</strong> The status bonus increases to +2.</p>"
+            "value": "<p>You ward an ally against the attacks and hostile spells from the target enemy. The target ally gains a +1 status bonus to Armor Class and saving throws against the target enemy's attacks, spells, and other effects.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (6th)</strong> The status bonus increases to +2.</p>"
           },
           "duration": {
             "sustained": true,
@@ -3718,7 +3718,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the Force Barrage spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>Spell Effect: Shield</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the  reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the  spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
           },
           "duration": {
             "sustained": false,
@@ -3780,7 +3780,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Holding your weapon aloft, you fill it with divine energy.</p>\n<p>On your next Strike with that weapon before the start of your next turn, you gain a +1 status bonus to the attack roll and the weapon deals an additional die of damage.</p>\n<p>If the weapon has a striking rune, this instead increases the number of dice from the striking rune by 1 (to a maximum of 3 extra weapon dice).</p>\n<p>If the target weapon leaves your possession, weapon surge immediately ends.</p>\n<p>Spell Effect: Weapon Surge</p>"
+            "value": "<p>Holding your weapon aloft, you fill it with divine energy.</p>\n<p>On your next Strike with that weapon before the start of your next turn, you gain a +1 status bonus to the attack roll and the weapon deals an additional die of damage.</p>\n<p>If the weapon has a striking rune, this instead increases the number of dice from the striking rune by 1 (to a maximum of 3 extra weapon dice).</p>\n<p>If the target weapon leaves your possession, weapon surge immediately ends.</p>\n<p></p>"
           },
           "duration": {
             "sustained": false,
@@ -4143,7 +4143,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p><em>Sleep arrows</em> often have shafts of deep blue or black, and their fletching is exceptionally soft and downy. An activated <em>sleep arrow</em> deals no damage, but a living creature hit by it is subject to the effects of a Sleep spell (DC 17).</p>\n<p><strong>Craft Requirements</strong> Supply one casting of <em>sleep</em>.</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p><em>Sleep arrows</em> often have shafts of deep blue or black, and their fletching is exceptionally soft and downy. An activated <em>sleep arrow</em> deals no damage, but a living creature hit by it is subject to the effects of a  spell (DC 17).</p>\n<p><strong>Craft Requirements</strong> Supply one casting of <em>sleep</em>.</p>"
           },
           "equipped": {
             "carryType": "held",
@@ -4689,7 +4689,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<hr />\n<p>Your features transform into something bestial and you take on muscle mass, but your lumbering form is clumsy.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Athletics checks and unarmed attack rolls. You gain a claw unarmed attack (1d6 slashing damage) with the agile trait and a jaws unarmed attack (1d8 piercing damage).</p>\n<p><strong>Drawback</strong> You take a -1 penalty to AC and a -2 penalty to Reflex saves.</p>\n<p><strong>Duration</strong> 10 minutes.</p>\n<p>Effect: Bestial Mutagen (Moderate)</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<hr />\n<p>Your features transform into something bestial and you take on muscle mass, but your lumbering form is clumsy.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Athletics checks and unarmed attack rolls. You gain a claw unarmed attack (1d6 slashing damage) with the agile trait and a jaws unarmed attack (1d8 piercing damage).</p>\n<p><strong>Drawback</strong> You take a -1 penalty to AC and a -2 penalty to Reflex saves.</p>\n<p><strong>Duration</strong> 10 minutes.</p>\n<p></p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -4900,7 +4900,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>Darius metabolizes the power of an active mutagen to regain 2d6 healing Hit Points. If he does so (or if he's confronted by a stealthy party before he's had a chance to drink a mutagen), he loses his jaws and claw unarmed attacks, his bonus on Athletics checks decreases by 2, his AC increases by 1, and his Reflex save bonus increases by 2.</p>\n<p>Effect: Active Mutagen</p>"
+            "value": "<p>Darius metabolizes the power of an active mutagen to regain 2d6 healing Hit Points. If he does so (or if he's confronted by a stealthy party before he's had a chance to drink a mutagen), he loses his jaws and claw unarmed attacks, his bonus on Athletics checks decreases by 2, his AC increases by 1, and his Reflex save bonus increases by 2.</p>\n<p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -4963,7 +4963,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Darius sprays hot wax from his improvised wax sprayer in a 15-foot cone. All creatures in the area must attempt a DC 20 reflex save. Scented candle homonoculi in the area take no damage, instead healing 2d6 healing damage. After using the hot wax cannon, Darius can't use it again until he takes two Interact actions while adjacent to the cauldron of bubbling wax to reload the sprayer.</p><hr /><p><strong>Critical Success</strong> The creature takes no damage.</p>\n<p><strong>Success</strong> The creature takes 2d6 fire damage.</p>\n<p><strong>Failure</strong> The creature takes 3d6 fire],1d6{3d6 fire damage plus 1d6 persistent fire damage}.</p>\n<p><strong>Critical Failure</strong> The creature takes 5d6 fire],2d6{5d6 fire damage plus 2d6 persistent fire damage}.</p>"
+            "value": "<p>Darius sprays hot wax from his improvised wax sprayer in a 15-foot cone. All creatures in the area must attempt a DC 20  Reflex save. Scented candle homonoculi in the area take no damage, instead healing 2d6 healing damage. After using the hot wax cannon, Darius can't use it again until he takes two Interact actions while adjacent to the cauldron of bubbling wax to reload the sprayer.</p><hr /><p><strong>Critical Success</strong> The creature takes no damage.</p>\n<p><strong>Success</strong> The creature takes 2d6 fire damage.</p>\n<p><strong>Failure</strong> The creature takes 3d6 fire],1d6{3d6 fire damage plus 1d6 persistent fire damage}.</p>\n<p><strong>Critical Failure</strong> The creature takes 5d6 fire],2d6{5d6 fire damage plus 2d6 persistent fire damage}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -5218,7 +5218,7 @@
             "die": "d6"
           },
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p>\n<p>Bottled lightning is packed with volatile reagents that create a blast of electricity when they are exposed to air. Bottled lightning deals 2d6 electricity damage and 2 electricity splash damage. On a hit, the target becomes Off-Guard until the start of your next turn. You gain a +1 item bonus to attack rolls.</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p>\n<p>Bottled lightning is packed with volatile reagents that create a blast of electricity when they are exposed to air. Bottled lightning deals 2d6 electricity damage and 2 electricity splash damage. On a hit, the target becomes  until the start of your next turn. You gain a +1 item bonus to attack rolls.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -5604,7 +5604,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>After you drink this elixir, your sight becomes sharper in darkness. You gain darkvision for 1 hour.</p>\n<p>Effect: Darkvision Elixir (Moderate)</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>After you drink this elixir, your sight becomes sharper in darkness. You gain darkvision for 1 hour.</p>\n<p></p>"
           },
           "equipped": {
             "carryType": "worn"
@@ -5675,7 +5675,7 @@
             "type": "untyped"
           },
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>Elixirs of life accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[(5d6+12)[healing]] Hit Points and gain +2 item bonus to saving throws against diseases and poisons for 10 minutes.</p>\n<p>Effect: Elixir of Life</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>Elixirs of life accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[(5d6+12)[healing]] Hit Points and gain +2 item bonus to saving throws against diseases and poisons for 10 minutes.</p>\n<p></p>"
           },
           "equipped": {
             "carryType": "worn"
@@ -5743,7 +5743,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p>Scorpion venom is excruciating and its effects are somewhat debilitating.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> DC 22 fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 1d10 poison damage and Enfeebled 1 (1 round)</p>\n<p><strong>Stage 2</strong> 2d10 poison damage and enfeebled 1 (1 round)</p>\n<p><strong>Stage 3</strong> 2d10 poison damage and enfeebled 2 (1 round)</p>"
+            "value": "<p>Scorpion venom is excruciating and its effects are somewhat debilitating.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> DC 22  Fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 1d10 poison damage and Enfeebled 1 (1 round)</p>\n<p><strong>Stage 2</strong> 2d10 poison damage and enfeebled 1 (1 round)</p>\n<p><strong>Stage 3</strong> 2d10 poison damage and enfeebled 2 (1 round)</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -5812,7 +5812,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p>Giant wasp venom interferes with a victim's movement.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> DC 25 fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 2d6 poison damage and Clumsy 1 (1 round)</p>\n<p><strong>Stage 2</strong> 3d6 poison damage and clumsy 2 (1 round)</p>\n<p><strong>Stage 3</strong> 4d6 poison damage and clumsy 2 (1 round)</p>"
+            "value": "<p>Giant wasp venom interferes with a victim's movement.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> DC 25  Fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 2d6 poison damage and Clumsy 1 (1 round)</p>\n<p><strong>Stage 2</strong> 3d6 poison damage and clumsy 2 (1 round)</p>\n<p><strong>Stage 3</strong> 4d6 poison damage and clumsy 2 (1 round)</p>"
           },
           "equipped": {
             "carryType": "worn"
@@ -6127,7 +6127,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Doatara deals an extra 2d6 poison damage when she deals piercing or slashing damage to Off-Guard creatures.</p>"
+            "value": "<p>Doatara deals an extra 2d6 poison damage when she deals piercing or slashing damage to  creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6622,7 +6622,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You grant yourself supernatural sight in areas of darkness. You gain Darkvision.</p>\n<p>Spell Effect: Darkvision</p>\n<p>Spell Effect: Darkvision (24 hours)</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The spell's range is touch and it targets 1 willing creature.</p>\n<p><strong>Heightened (5th)</strong> The spell's range is touch and it targets 1 willing creature. The duration is until the next time you make your daily preparations.</p>"
+            "value": "<p>You grant yourself supernatural sight in areas of darkness. You gain Darkvision.</p>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The spell's range is touch and it targets 1 willing creature.</p>\n<p><strong>Heightened (5th)</strong> The spell's range is touch and it targets 1 willing creature. The duration is until the next time you make your daily preparations.</p>"
           },
           "duration": {
             "sustained": false,
@@ -6749,7 +6749,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>All creatures in the area when you cast the spell are limned in colorful, heatless fire of a color of your choice for the duration. Visible creatures can't be Concealed while affected by faerie fire. If the creatures are Invisible, they are Concealed while affected by faerie fire, rather than being Undetected.</p>"
+            "value": "<p>All creatures in the area when you cast the spell are limned in colorful, heatless fire of a color of your choice for the duration. Visible creatures can't be  while affected by faerie fire. If the creatures are , they are Concealed while affected by faerie fire, rather than being .</p>"
           },
           "duration": {
             "sustained": false,
@@ -6811,7 +6811,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>Cloaked in illusion, the target becomes Invisible. This makes it Undetected to all creatures, though the creatures can attempt to find the target, making it Hidden to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+            "value": "<p>Cloaked in illusion, the target becomes . This makes it  to all creatures, though the creatures can attempt to find the target, making it  to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
           },
           "duration": {
             "sustained": false,
@@ -6871,7 +6871,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You attempt to counteract a single effect imposing the Blinded or Deafened conditions on the target, restoring its vision or hearing. This can counteract both temporary magic and permanent consequences of magic, but it doesn't cure someone who does not have the sense due to some natural state or effect, such as from birth or from a non-magical wound or toxin.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> The spell's range increases to 30 feet, and you can target up to 10 creatures. You can choose the effect to counteract separately for each selected creature.</p>"
+            "value": "<p>You attempt to counteract a single effect imposing the  or  conditions on the target, restoring its vision or hearing. This can counteract both temporary magic and permanent consequences of magic, but it doesn't cure someone who does not have the sense due to some natural state or effect, such as from birth or from a non-magical wound or toxin.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> The spell's range increases to 30 feet, and you can target up to 10 creatures. You can choose the effect to counteract separately for each selected creature.</p>"
           },
           "duration": {
             "sustained": false,
@@ -7005,7 +7005,7 @@
             }
           },
           "description": {
-            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+            "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Frightened 1.</p>\n<p><strong>Failure</strong> The target is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The target is Frightened 3 and  for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -7070,7 +7070,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You ask for divine guidance, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p>Spell Effect: Guidance</p>\n<p>Effect: Guidance Immunity</p>"
+            "value": "<p>You ask for divine guidance, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p></p>\n<p></p>"
           },
           "duration": {
             "sustained": false,
@@ -7521,7 +7521,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the Shield Block reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the Force Barrage spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>Spell Effect: Shield</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+            "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the  reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the  spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p></p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
           },
           "duration": {
             "sustained": false,
@@ -7583,7 +7583,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> An enemy misses you with a melee attack.</p>\n<hr />\n<p>You swiftly move from a dangerous spot and veil yourself. You Step and become Concealed.</p>"
+            "value": "<p><strong>Trigger</strong> An enemy misses you with a melee attack.</p>\n<hr />\n<p>You swiftly move from a dangerous spot and veil yourself. You Step and become .</p>"
           },
           "duration": {
             "sustained": false,
@@ -7942,7 +7942,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>After you drink this elixir, your sight becomes sharper in darkness. You gain darkvision for 1 hour.</p>\n<p>Effect: Darkvision Elixir (Moderate)</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>After you drink this elixir, your sight becomes sharper in darkness. You gain darkvision for 1 hour.</p>\n<p></p>"
           },
           "equipped": {
             "carryType": "worn"
@@ -8013,7 +8013,7 @@
             "type": "untyped"
           },
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>Elixirs of life accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[(5d6+12)[healing]] Hit Points and gain +2 item bonus to saving throws against diseases and poisons for 10 minutes.</p>\n<p>Effect: Elixir of Life</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>Elixirs of life accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[(5d6+12)[healing]] Hit Points and gain +2 item bonus to saving throws against diseases and poisons for 10 minutes.</p>\n<p></p>"
           },
           "equipped": {
             "carryType": "worn"
@@ -8081,7 +8081,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p>Scorpion venom is excruciating and its effects are somewhat debilitating.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> DC 22 fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 1d10 poison damage and Enfeebled 1 (1 round)</p>\n<p><strong>Stage 2</strong> 2d10 poison damage and enfeebled 1 (1 round)</p>\n<p><strong>Stage 3</strong> 2d10 poison damage and enfeebled 2 (1 round)</p>"
+            "value": "<p>Scorpion venom is excruciating and its effects are somewhat debilitating.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> DC 22  Fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 1d10 poison damage and Enfeebled 1 (1 round)</p>\n<p><strong>Stage 2</strong> 2d10 poison damage and enfeebled 1 (1 round)</p>\n<p><strong>Stage 3</strong> 2d10 poison damage and enfeebled 2 (1 round)</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -8150,7 +8150,7 @@
           "containerId": null,
           "damage": null,
           "description": {
-            "value": "<p>Giant wasp venom interferes with a victim's movement.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> DC 25 fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 2d6 poison damage and Clumsy 1 (1 round)</p>\n<p><strong>Stage 2</strong> 3d6 poison damage and clumsy 2 (1 round)</p>\n<p><strong>Stage 3</strong> 4d6 poison damage and clumsy 2 (1 round)</p>"
+            "value": "<p>Giant wasp venom interferes with a victim's movement.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> DC 25  Fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 2d6 poison damage and Clumsy 1 (1 round)</p>\n<p><strong>Stage 2</strong> 3d6 poison damage and clumsy 2 (1 round)</p>\n<p><strong>Stage 3</strong> 4d6 poison damage and clumsy 2 (1 round)</p>"
           },
           "equipped": {
             "carryType": "worn"
@@ -8316,7 +8316,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> Doatara expends a Harm spell</p>\n<hr />\n<p><strong>Effect</strong> Doatara makes a melee Strike and adds the <em>harm</em> spell's void damage to the Strike's damage.</p>"
+            "value": "<p><strong>Requirements</strong> Doatara expends a  spell</p>\n<hr />\n<p><strong>Effect</strong> Doatara makes a melee Strike and adds the <em>harm</em> spell's void damage to the Strike's damage.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -8746,7 +8746,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature critically hit by the giant pirate skeleton's gaff hook is impaled upon it.</p>\n<p>The creature is Grabbed by the giant pirate skeleton and whenever the giant pirate skeleton maintains the grab, the creature takes @Damage[(1d10+10)[piercing]] damage from the agonizing wound.</p>"
+            "value": "<p>A creature critically hit by the giant pirate skeleton's gaff hook is impaled upon it.</p>\n<p>The creature is  by the giant pirate skeleton and whenever the giant pirate skeleton maintains the grab, the creature takes @Damage[(1d10+10)[piercing]] damage from the agonizing wound.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9031,7 +9031,7 @@
       "customModifiers": {},
       "details": {
         "description": "<p>A herd of deer exits the woods to investigate the delicious-looking leshys.</p>",
-        "disable": "<p>DC 17 name:Befriend the Deer{Diplomacy (with Wild Empathy)} to befriend the deer and convince them that leshys aren't for nibbling, or DC 20 name:Scare the Deer Away{Intimidation} to scare away the deer.</p>",
+        "disable": "<p>DC 17  Diplomacy{Diplomacy (with Wild Empathy)} to befriend the deer and convince them that leshys aren't for nibbling, or DC 20  Intimidation{Intimidation} to scare away the deer.</p>",
         "isComplex": true,
         "level": {
           "value": 3
@@ -9042,7 +9042,7 @@
           "title": "Pathfinder Adventure: A Fistful of Flowers"
         },
         "reset": "",
-        "routine": "<p>(2 actions) The grazing deer takes one action to move about, and then one action to eagerly nibble at a randomly chosen PC. A character who spends three actions on their turn to Stride can avoid being nibbled by the grazing deer during the hazard's next turn. If all of the PCs do so, attempt a DC 5 name:Escape the Deer-on a success, the party escapes the deer and can proceed onward to Petalbrook, but they become delayed as a result of having to flee the pack of ravenous deer.</p>"
+        "routine": "<p>(2 actions) The grazing deer takes one action to move about, and then one action to eagerly nibble at a randomly chosen PC. A character who spends three actions on their turn to Stride can avoid being nibbled by the grazing deer during the hazard's next turn. If all of the PCs do so, attempt a DC 5  Flat-on a success, the party escapes the deer and can proceed onward to Petalbrook, but they become delayed as a result of having to flee the pack of ravenous deer.</p>"
       },
       "saves": {
         "fortitude": {
@@ -9163,7 +9163,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Saving Throw</strong> DC 22 fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>Stage 1</strong> 2d6 poison damage and Clumsy 1 (1 round)</p>\n<p><strong>Stage 2</strong> 3d6 poison damage and Clumsy 2 (1 round)</p>\n<p><strong>Stage 3</strong> 4d6 poison damage and clumsy 2 (1 round).</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 22  Fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>Stage 1</strong> 2d6 poison damage and Clumsy 1 (1 round)</p>\n<p><strong>Stage 2</strong> 3d6 poison damage and Clumsy 2 (1 round)</p>\n<p><strong>Stage 3</strong> 4d6 poison damage and clumsy 2 (1 round).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9213,7 +9213,7 @@
       "customModifiers": {},
       "details": {
         "description": "<p>An array of spring-loaded, ceiling-mounted darts are primed to fire down into the hallway when triggered by a pressure plate.</p>",
-        "disable": "<p>DC 25 traits:hazard,trap,mechanical{Thievery (expert)} on the floor tile or wall socket</p>",
+        "disable": "<p>DC 25  Thievery (hazard,trap,mechanical){Thievery (expert)} on the floor tile or wall socket</p>",
         "isComplex": false,
         "level": {
           "value": 6
@@ -9272,7 +9272,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature walks onto the trapdoor</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature falls in and takes falling damage (@Damage[10[bludgeoning]] damage) as well as 2d6 piercing damage from falling on to the knives. That creature can use the Grab an Edge reaction to avoid falling.</p>"
+            "value": "<p><strong>Trigger</strong> A creature walks onto the trapdoor</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature falls in and takes falling damage (@Damage[10[bludgeoning]] damage) as well as 2d6 piercing damage from falling on to the knives. That creature can use the  reaction to avoid falling.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9320,7 +9320,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>A wooden trapdoor covers a pit that's 10 feet square and 20 feet deep. Knives are arrayed at the bottom of the trap, impaling anyone who falls on them.</p>",
-        "disable": "<p>DC 18 thievery (trained) to remove the trapdoor</p>",
+        "disable": "<p>DC 18  Thievery (trained) to remove the trapdoor</p>",
         "isComplex": false,
         "level": {
           "value": 2
@@ -9330,7 +9330,7 @@
           "remaster": false,
           "title": "Pathfinder Adventure: A Few Flowers More"
         },
-        "reset": "<p>Creatures can still fall into the trap, but the trapdoor must be reset manually for the trap to become Hidden again.</p>",
+        "reset": "<p>Creatures can still fall into the trap, but the trapdoor must be reset manually for the trap to become  again.</p>",
         "routine": ""
       },
       "saves": {
@@ -9657,7 +9657,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> A jinkin has a creature Grabbed with their pincer claw</p>\n<hr />\n<p><strong>Effect</strong> The jinkin forcefully pulls the pincer claw out of the creature, ripping flesh and cackling in sadistic glee. The creature takes 1d8 piercing damage and is no longer grabbed.</p>"
+            "value": "<p><strong>Requirements</strong> A jinkin has a creature  with their pincer claw</p>\n<hr />\n<p><strong>Effect</strong> The jinkin forcefully pulls the pincer claw out of the creature, ripping flesh and cackling in sadistic glee. The creature takes 1d8 piercing damage and is no longer grabbed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9689,7 +9689,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The jinkin deals 1d6 extra precision damage to Off-Guard creatures.</p>"
+            "value": "<p>The jinkin deals 1d6 extra precision damage to  creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9737,7 +9737,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A group of six jinkins can work together for an hour to imbue an item with a curse at a range of 60 feet. While this process is lengthy, it's also unobtrusive and can be performed while Hiding. Jinkins prefer to use this ability on magic items. The curse makes the item unreliable (DC 5 flat or waste any action to Interact with or Activate the item), adds a bizarre requirement to use the item, or imparts some other curse of a similar caliber.</p>"
+            "value": "<p>A group of six jinkins can work together for an hour to imbue an item with a curse at a range of 60 feet. While this process is lengthy, it's also unobtrusive and can be performed while Hiding. Jinkins prefer to use this ability on magic items. The curse makes the item unreliable (DC 5  Flat or waste any action to Interact with or Activate the item), adds a bizarre requirement to use the item, or imparts some other curse of a similar caliber.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10630,7 +10630,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The Kelorbeyan guard has one hand free, and their target is in reach of that hand</p>\n<hr />\n<p><strong>Effect</strong> The guard makes a melee Strike while keeping one hand free. If the Strike hits, they grab the target using their free hand. The creature remains Grabbed until the end of the guard's next turn or until it Escapes, whichever comes first.</p>"
+            "value": "<p><strong>Requirements</strong> The Kelorbeyan guard has one hand free, and their target is in reach of that hand</p>\n<hr />\n<p><strong>Effect</strong> The guard makes a melee Strike while keeping one hand free. If the Strike hits, they grab the target using their free hand. The creature remains  until the end of the guard's next turn or until it Escapes, whichever comes first.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10660,7 +10660,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The Kelorbeyan guard makes an attack to knock a foe off-balance, then follows up immediately with a sweep to topple them. The guard makes a melee Strike. If it hits and deals damage, they attempt an Athletics check to Trip the creature they hit. Both attacks count toward their multiple attack penalty, but the penalty doesn't increase until after they've made both.</p>"
+            "value": "<p>The Kelorbeyan guard makes an attack to knock a foe off-balance, then follows up immediately with a sweep to topple them. The guard makes a melee Strike. If it hits and deals damage, they attempt an Athletics check to  the creature they hit. Both attacks count toward their multiple attack penalty, but the penalty doesn't increase until after they've made both.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10886,7 +10886,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>1d6 bludgeoning, DC 17 Basic fortitude</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
+            "value": "<p>1d6 bludgeoning, DC 17  Basic  Fortitude</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -10916,7 +10916,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Saving Throw</strong> DC 17 fortitude</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> 1d6 poison damage and Enfeebled 1 (1 round)</p>\n<p><strong>Stage 2</strong> 1d6 poison damage and Enfeebled 2 (1 round).</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 17  Fortitude</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> 1d6 poison damage and Enfeebled 1 (1 round)</p>\n<p><strong>Stage 2</strong> 1d6 poison damage and Enfeebled 2 (1 round).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11335,7 +11335,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The leshy transforms into a Small plant. This ability otherwise uses the effects of One with Plants.</p>"
+            "value": "<p>The leshy transforms into a Small plant. This ability otherwise uses the effects of .</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11369,7 +11369,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>As Attack of Opportunity, but the golden bamboo leshy can use this reaction only if it's Bent Back.</p>"
+            "value": "<p>As , but the golden bamboo leshy can use this reaction only if it's Bent Back.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11749,7 +11749,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The leshy transforms into a Small plant. This ability otherwise uses the effects of One with Plants.</p>"
+            "value": "<p>The leshy transforms into a Small plant. This ability otherwise uses the effects of .</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12086,7 +12086,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The leshy transforms into a Small plant. This ability otherwise uses the effects of One with Plants.</p>"
+            "value": "<p>The leshy transforms into a Small plant. This ability otherwise uses the effects of .</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12123,7 +12123,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>DC 18 reflex, 1d6 bludgeoning],1d6{1d6 bludgeoning plus 1d6 poison damage}, Escape DC 18, Rupture 6</p>\n<hr />\n<p><p>The monster Strides up to double its Speed and can move through the spaces of any creatures in its path. Any creature of the monster's size or smaller whose space the monster moves through can attempt a Reflex save with the listed DC to avoid being engulfed. A creature unable to act automatically critically fails this save. If a creature succeeds at its save, it can choose to be either pushed aside (out of the monster's path) or pushed in front of the monster to the end of the monster's movement. The monster can attempt to Engulf the same creature only once in a single use of Engulf. The monster can contain as many creatures as can fit in its space.</p>\n<p>A creature that fails its save is pulled into the monster's body. It is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and has to hold its breath or start suffocating. The creature takes the listed amount of damage when first engulfed and at the end of each of its turns while it's engulfed. An engulfed creature can get free by @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escaping} against the listed escape DC. An engulfed creature can attack the monster engulfing it, but only with unarmed attacks or with weapons of light Bulk or less. The engulfing creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the engulfed creature cuts itself free. A creature that gets free by either method can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, all creatures it has engulfed are automatically released as the monster's form loses cohesion.</p></p>"
+            "value": "<p>DC 18  Reflex, 1d6 bludgeoning],1d6{1d6 bludgeoning plus 1d6 poison damage}, Escape DC 18, Rupture 6</p>\n<hr />\n<p><p>The monster Strides up to double its Speed and can move through the spaces of any creatures in its path. Any creature of the monster's size or smaller whose space the monster moves through can attempt a Reflex save with the listed DC to avoid being engulfed. A creature unable to act automatically critically fails this save. If a creature succeeds at its save, it can choose to be either pushed aside (out of the monster's path) or pushed in front of the monster to the end of the monster's movement. The monster can attempt to Engulf the same creature only once in a single use of Engulf. The monster can contain as many creatures as can fit in its space.</p>\n<p>A creature that fails its save is pulled into the monster's body. It is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and has to hold its breath or start suffocating. The creature takes the listed amount of damage when first engulfed and at the end of each of its turns while it's engulfed. An engulfed creature can get free by @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escaping} against the listed escape DC. An engulfed creature can attack the monster engulfing it, but only with unarmed attacks or with weapons of light Bulk or less. The engulfing creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the engulfed creature cuts itself free. A creature that gets free by either method can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, all creatures it has engulfed are automatically released as the monster's form loses cohesion.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -12453,7 +12453,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The leshy transforms into a Small plant. This ability otherwise uses the effects of One with Plants.</p>"
+            "value": "<p>The leshy transforms into a Small plant. This ability otherwise uses the effects of .</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12490,7 +12490,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Damage[(1d6+4)[bludgeoning]], DC 18 Basic fortitude</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
+            "value": "<p>@Damage[(1d6+4)[bludgeoning]], DC 18  Basic  Fortitude</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -12850,7 +12850,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The leshy transforms into a Small plant. This ability otherwise uses the effects of One with Plants.</p>"
+            "value": "<p>The leshy transforms into a Small plant. This ability otherwise uses the effects of .</p>"
           },
           "publication": {
             "license": "OGL",
@@ -13066,7 +13066,7 @@
             }
           },
           "description": {
-            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes Friendly toward you. If it was Friendly, it becomes Helpful. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
+            "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes  toward you. If it was Friendly, it becomes . It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
           },
           "duration": {
             "sustained": false,
@@ -13257,7 +13257,7 @@
             }
           },
           "description": {
-            "value": "<p>You afflict the target with a curse that makes its presence abrasive and off-putting. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> For 10 minutes, the target must roll twice and use the worse result whenever attempting a Deception, Diplomacy, Intimidation, or Performance check, and creatures they encounter have an initial attitude toward them of one step worse (for instance, Unfriendly instead of Indifferent).</p>\n<p><strong>Failure</strong> As success, but the effect is permanent.</p>\n<p><strong>Critical Failure</strong> As failure, and creatures that the target encounters have an initial attitude toward them of two steps worse.</p>"
+            "value": "<p>You afflict the target with a curse that makes its presence abrasive and off-putting. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> For 10 minutes, the target must roll twice and use the worse result whenever attempting a Deception, Diplomacy, Intimidation, or Performance check, and creatures they encounter have an initial attitude toward them of one step worse (for instance,  instead of ).</p>\n<p><strong>Failure</strong> As success, but the effect is permanent.</p>\n<p><strong>Critical Failure</strong> As failure, and creatures that the target encounters have an initial attitude toward them of two steps worse.</p>"
           },
           "duration": {
             "sustained": false,
@@ -13857,7 +13857,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature can't remove the fatigued condition while infected</p>\n<p><strong>Saving Throw</strong> DC 23 fortitude</p>\n<hr />\n<p><strong>Onset</strong> 1 day</p>\n<p><strong>Stage 1</strong> Fatigued (1 day)</p>\n<p><strong>Stage 2</strong> Enfeebled 2 and fatigued (1 day)</p>\n<p><strong>Stage 3</strong> Enfeebled 3, fatigued, and take 1d6 bleed every [[/br 1d20 #Minutes]]{1d20 minutes} (1 day)</p>"
+            "value": "<p>A creature can't remove the fatigued condition while infected</p>\n<p><strong>Saving Throw</strong> DC 23  Fortitude</p>\n<hr />\n<p><strong>Onset</strong> 1 day</p>\n<p><strong>Stage 1</strong>  (1 day)</p>\n<p><strong>Stage 2</strong> Enfeebled 2 and fatigued (1 day)</p>\n<p><strong>Stage 3</strong> Enfeebled 3, fatigued, and take 1d6 bleed every [[/br 1d20 #Minutes]]{1d20 minutes} (1 day)</p>"
           },
           "publication": {
             "license": "OGL",
@@ -13926,7 +13926,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The pairaka torments a sleeping creature within 100 feet with visions of betrayals by loved ones and friends. The target must attempt a DC 25 will save, with the effects of the Nightmare spell.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The pairaka torments a sleeping creature within 100 feet with visions of betrayals by loved ones and friends. The target must attempt a DC 25  Will save, with the effects of the  spell.</p>"
           },
           "frequency": {
             "max": 1,
@@ -14207,7 +14207,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Saving Throw</strong> DC 23 Basic fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>Stage 1</strong> 1d10 poison damage and Off-Guard (1 round)</p>\n<p><strong>Stage 2</strong> 1d12 poison damage, Clumsy 1, and off-guard (1 round)</p>\n<p><strong>Stage 3</strong> 2d6 poison damage, Clumsy 2, and off-guard (1 round).</p>\n<hr />\n<p><strong>Note</strong> The clumsy condition caused by this venom persists for 24 hours before fading.</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 23  Basic  Fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>Stage 1</strong> 1d10 poison damage and  (1 round)</p>\n<p><strong>Stage 2</strong> 1d12 poison damage, Clumsy 1, and off-guard (1 round)</p>\n<p><strong>Stage 3</strong> 2d6 poison damage, Clumsy 2, and off-guard (1 round).</p>\n<hr />\n<p><strong>Note</strong> The clumsy condition caused by this venom persists for 24 hours before fading.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -14256,7 +14256,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>A spring-loaded, poisoned needle is hidden near the drawer's keyhole. Disabling or breaking the trap does not disable or break the lock.</p>",
-        "disable": "<p>DC 23 name:Disable Thievery (expert) on the spring mechanism.</p>",
+        "disable": "<p>DC 23  Thievery (expert) on the spring mechanism.</p>",
         "isComplex": false,
         "level": {
           "value": 5
@@ -14315,7 +14315,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature attempts to climb or remove an object from the wall or the wall suffers a forceful impact</p>\n<hr />\n<p><strong>Effect</strong> The wall collapses, dealing 2d8 bludgeoning damage to creatures on it or within 10 feet of it. A creature that succeeds at a DC 18 traits:damaging-effect save takes half damage and rolls out of the way in a random direction. On a critical success, they take no damage and can choose the direction.</p>"
+            "value": "<p><strong>Trigger</strong> A creature attempts to climb or remove an object from the wall or the wall suffers a forceful impact</p>\n<hr />\n<p><strong>Effect</strong> The wall collapses, dealing 2d8 bludgeoning damage to creatures on it or within 10 feet of it. A creature that succeeds at a DC 18  Reflex (damaging-effect) save takes half damage and rolls out of the way in a random direction. On a critical success, they take no damage and can choose the direction.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -14364,7 +14364,7 @@
       "customModifiers": {},
       "details": {
         "description": "<p>This dangerously unsteady pile of miscellaneous goods stands 7 feet high and 10 feet wide</span></p>",
-        "disable": "<p>DC 15 traits:action:disable-a-device to carefully excavate a path through the wall without upsetting its balance</p>\n<p>DC 17 name:Hold Up Unstable Portions to hold up any unstable portions</p>",
+        "disable": "<p>DC 15  Thievery (action:disable-a-device) to carefully excavate a path through the wall without upsetting its balance</p>\n<p>DC 17  Athletics to hold up any unstable portions</p>",
         "isComplex": false,
         "level": {
           "value": 2
@@ -14542,7 +14542,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Princess Sunset Strides up to double its Speed and can move through the spaces of creatures of size Small or smaller, Trampling each creature whose space it enters. Princess Sunset can attempt to Trample the same creature only once in a single use of Trample. The monster deals the damage of the headbutt Strike, but trampled creatures can attempt a basic Reflex save at DC 14 Basic reflex</p>\n<hr />\n<p><p>The monster Strides up to double its Speed and can move through the spaces of creatures of the listed size, Trampling each creature whose space it enters. The monster can attempt to Trample the same creature only once in a single use of Trample. The monster deals the damage of the listed Strike, but trampled creatures can attempt a basic Reflex save at the listed DC (no damage on a critical success, half damage on a success, double damage on a critical failure).</p></p>"
+            "value": "<p>Princess Sunset Strides up to double its Speed and can move through the spaces of creatures of size Small or smaller, Trampling each creature whose space it enters. Princess Sunset can attempt to Trample the same creature only once in a single use of Trample. The monster deals the damage of the headbutt Strike, but trampled creatures can attempt a basic Reflex save at DC 14  Basic  Reflex</p>\n<hr />\n<p><p>The monster Strides up to double its Speed and can move through the spaces of creatures of the listed size, Trampling each creature whose space it enters. The monster can attempt to Trample the same creature only once in a single use of Trample. The monster deals the damage of the listed Strike, but trampled creatures can attempt a basic Reflex save at the listed DC (no damage on a critical success, half damage on a success, double damage on a critical failure).</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -14808,7 +14808,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>5 feet. The scented candle homunculus's fragrance of lavender is overwhelmingly intense. Any creature other than the homunculus's master who enters the aura must attempt a DC 15 fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is temporarily immune to the homunculus's aura for 24 hours.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is Sickened 1.</p>\n<p><strong>Critical Failure</strong> The creature is Stupefied 1 for 1 round and sickened 1.</p>"
+            "value": "<p>5 feet. The scented candle homunculus's fragrance of lavender is overwhelmingly intense. Any creature other than the homunculus's master who enters the aura must attempt a DC 15  Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is temporarily immune to the homunculus's aura for 24 hours.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is Sickened 1.</p>\n<p><strong>Critical Failure</strong> The creature is Stupefied 1 for 1 round and sickened 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -16281,8 +16281,8 @@
           },
           "containerId": null,
           "description": {
-            "gm": "<p>These <em>boots of elvenkind</em> have a special jinkin‑made curse to punish anyone who would dare to steal them from Vilm. If anyone wears these boots without a pair of red wool socks underneath them, with every step they experience the sensation of walking with a rock in their shoe. No matter how much they search for the offending rock, however, they'll never find it. When a wearer without red socks Activates the boots, they constrict painfully around their feet, dealing 2d10 bludgeoning damage (DC 18 Basic fortitude save).</p>",
-            "value": "<p>These tall, pointed boots are made from soft, supple black or green leather and are decorated with trim and buckles of gold. When worn, the boots allow you to move more nimbly, granting you a +1 item bonus to Acrobatics checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> Until the end of your turn, you ignore difficult terrain when moving on the ground. If you're wearing a Cloak of Elvenkind, you also gain a +5-foot status bonus to your land Speed until the end of your turn.</p>\n<p>Effect: Boots of Elvenkind</p>"
+            "gm": "<p>These <em>boots of elvenkind</em> have a special jinkin‑made curse to punish anyone who would dare to steal them from Vilm. If anyone wears these boots without a pair of red wool socks underneath them, with every step they experience the sensation of walking with a rock in their shoe. No matter how much they search for the offending rock, however, they'll never find it. When a wearer without red socks Activates the boots, they constrict painfully around their feet, dealing 2d10 bludgeoning damage (DC 18  Basic  Fortitude save).</p>",
+            "value": "<p>These tall, pointed boots are made from soft, supple black or green leather and are decorated with trim and buckles of gold. When worn, the boots allow you to move more nimbly, granting you a +1 item bonus to Acrobatics checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> Until the end of your turn, you ignore difficult terrain when moving on the ground. If you're wearing a , you also gain a +5-foot status bonus to your land Speed until the end of your turn.</p>\n<p></p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -16563,7 +16563,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> A jinkin has a creature Grabbed with their pincer claw</p>\n<hr />\n<p><strong>Effect</strong> The jinkin forcefully pulls the pincer claw out of the creature, ripping flesh and cackling in sadistic glee. The creature takes 1d8 piercing damage and is no longer grabbed.</p>"
+            "value": "<p><strong>Requirements</strong> A jinkin has a creature  with their pincer claw</p>\n<hr />\n<p><strong>Effect</strong> The jinkin forcefully pulls the pincer claw out of the creature, ripping flesh and cackling in sadistic glee. The creature takes 1d8 piercing damage and is no longer grabbed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -16595,7 +16595,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The jinkin deals 1d6 extra precision damage to Off-Guard creatures.</p>"
+            "value": "<p>The jinkin deals 1d6 extra precision damage to  creatures.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -16643,7 +16643,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A group of six jinkins can work together for an hour to imbue an item with a curse at a range of 60 feet. While this process is lengthy, it's also unobtrusive and can be performed while Hiding. Jinkins prefer to use this ability on magic items. The curse makes the item unreliable (DC 5 flat or waste any action to Interact with or Activate the item), adds a bizarre requirement to use the item, or imparts some other curse of a similar caliber.</p>"
+            "value": "<p>A group of six jinkins can work together for an hour to imbue an item with a curse at a range of 60 feet. While this process is lengthy, it's also unobtrusive and can be performed while Hiding. Jinkins prefer to use this ability on magic items. The curse makes the item unreliable (DC 5  Flat or waste any action to Interact with or Activate the item), adds a bizarre requirement to use the item, or imparts some other curse of a similar caliber.</p>"
           },
           "publication": {
             "license": "OGL",
