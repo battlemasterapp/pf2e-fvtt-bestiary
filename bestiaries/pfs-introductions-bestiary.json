@@ -1397,7 +1397,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>When Rain in Cloudy Day dies, a burst of primal energy explodes from his body, restoring [[/r 2d8[healing]]] Hit Points to each plant creature in a 30-foot emanation. This area is filled with fungi, becoming difficult terrain. If the terrain is not a viable environment for this fungus, it withers after 24 hours.</p>"
+            "value": "<p>When Rain in Cloudy Day dies, a burst of primal energy explodes from his body, restoring 2d8 healing Hit Points to each plant creature in a 30-foot emanation. This area is filled with fungi, becoming difficult terrain. If the terrain is not a viable environment for this fungus, it withers after 24 hours.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1976,7 +1976,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",

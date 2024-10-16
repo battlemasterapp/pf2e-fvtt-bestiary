@@ -940,7 +940,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -9014,7 +9014,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -12785,7 +12785,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -19182,7 +19182,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p><p>This monster regains the listed number of Hit Points each round at the beginning of its turn. Its @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} condition never increases beyond Dying 3 as long as its regeneration is active. However, if it takes damage of a type listed in the regeneration entry, its regeneration deactivates until the end of its next turn. Deactivate the regeneration before applying any damage of a listed type, since that damage might kill the monster by bringing it to Dying 4.</p></p>"
+            "value": "<p><p>This monster regains the listed number of Hit Points each round at the beginning of its turn. Its Dying condition never increases beyond Dying 3 as long as its regeneration is active. However, if it takes damage of a type listed in the regeneration entry, its regeneration deactivates until the end of its next turn. Deactivate the regeneration before applying any damage of a listed type, since that damage might kill the monster by bringing it to Dying 4.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -21323,7 +21323,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>50 feet</p>\n<hr />\n<p><p><strong>Requirements</strong> The monster is hiding in water and a creature that hasn't detected it is within the listed number of feet.</p>\n<hr />\n<p><strong>Effect</strong> The monster moves up to its swim Speed + 10 feet toward the triggering creature, traveling on water and on land. Once the creature is in reach, the monster makes a Strike against it. The creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against this Strike.</p></p>"
+            "value": "<p>50 feet</p>\n<hr />\n<p><p><strong>Requirements</strong> The monster is hiding in water and a creature that hasn't detected it is within the listed number of feet.</p>\n<hr />\n<p><strong>Effect</strong> The monster moves up to its swim Speed + 10 feet toward the triggering creature, traveling on water and on land. Once the creature is in reach, the monster makes a Strike against it. The creature is Off-Guard against this Strike.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -21415,7 +21415,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Medium, @Damage[(2d6+7)[bludgeoning],2d6[acid]]{2d6+7 bludgeoning plus 2d6 acid damage}, Rupture 20</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
+            "value": "<p>Medium, @Damage[(2d6+7)[bludgeoning],2d6[acid]]{2d6+7 bludgeoning plus 2d6 acid damage}, Rupture 20</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -21450,7 +21450,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -21483,7 +21483,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Push in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty. If Push lists a distance, change the distance the creature is pushed on a success to that distance.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Push in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Shove the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty. If Push lists a distance, change the distance the creature is pushed on a success to that distance.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -23664,7 +23664,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>60 feet. DC 27  Will</p>\n<hr />\n<p><p>A creature that first enters the area must attempt a Will save.</p>\n<p>Regardless of the result of the saving throw, the creature is temporarily immune to this monster's Frightful Presence for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected by the presence.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 4}.</p></p>"
+            "value": "<p>60 feet. DC 27  Will</p>\n<hr />\n<p><p>A creature that first enters the area must attempt a Will save.</p>\n<p>Regardless of the result of the saving throw, the creature is temporarily immune to this monster's Frightful Presence for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected by the presence.</p>\n<p><strong>Success</strong> The creature is Frightened 1.</p>\n<p><strong>Failure</strong> The creature is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The creature is Frightened 4.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -23713,7 +23713,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>50 feet</p>\n<hr />\n<p><p><strong>Requirements</strong> The monster is hiding in water and a creature that hasn't detected it is within the listed number of feet.</p>\n<hr />\n<p><strong>Effect</strong> The monster moves up to its swim Speed + 10 feet toward the triggering creature, traveling on water and on land. Once the creature is in reach, the monster makes a Strike against it. The creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against this Strike.</p></p>"
+            "value": "<p>50 feet</p>\n<hr />\n<p><p><strong>Requirements</strong> The monster is hiding in water and a creature that hasn't detected it is within the listed number of feet.</p>\n<hr />\n<p><strong>Effect</strong> The monster moves up to its swim Speed + 10 feet toward the triggering creature, traveling on water and on land. Once the creature is in reach, the monster makes a Strike against it. The creature is Off-Guard against this Strike.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -23764,7 +23764,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -23797,7 +23797,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Push in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty. If Push lists a distance, change the distance the creature is pushed on a success to that distance.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Push in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Shove the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty. If Push lists a distance, change the distance the creature is pushed on a success to that distance.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -25060,7 +25060,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>60 feet. DC 27  Will</p>\n<hr />\n<p><p>A creature that first enters the area must attempt a Will save.</p>\n<p>Regardless of the result of the saving throw, the creature is temporarily immune to this monster's Frightful Presence for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected by the presence.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 4}.</p></p>"
+            "value": "<p>60 feet. DC 27  Will</p>\n<hr />\n<p><p>A creature that first enters the area must attempt a Will save.</p>\n<p>Regardless of the result of the saving throw, the creature is temporarily immune to this monster's Frightful Presence for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected by the presence.</p>\n<p><strong>Success</strong> The creature is Frightened 1.</p>\n<p><strong>Failure</strong> The creature is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The creature is Frightened 4.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -25109,7 +25109,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>50 feet</p>\n<hr />\n<p><p><strong>Requirements</strong> The monster is hiding in water and a creature that hasn't detected it is within the listed number of feet.</p>\n<hr />\n<p><strong>Effect</strong> The monster moves up to its swim Speed + 10 feet toward the triggering creature, traveling on water and on land. Once the creature is in reach, the monster makes a Strike against it. The creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against this Strike.</p></p>"
+            "value": "<p>50 feet</p>\n<hr />\n<p><p><strong>Requirements</strong> The monster is hiding in water and a creature that hasn't detected it is within the listed number of feet.</p>\n<hr />\n<p><strong>Effect</strong> The monster moves up to its swim Speed + 10 feet toward the triggering creature, traveling on water and on land. Once the creature is in reach, the monster makes a Strike against it. The creature is Off-Guard against this Strike.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -25201,7 +25201,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Large, @Damage[(3d6+8)[bludgeoning],2d6[acid]]{3d6+8 bludgeoning plus 2d6 acid damage}, Rupture 23</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
+            "value": "<p>Large, @Damage[(3d6+8)[bludgeoning],2d6[acid]]{3d6+8 bludgeoning plus 2d6 acid damage}, Rupture 23</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -25236,7 +25236,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -25269,7 +25269,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Push in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty. If Push lists a distance, change the distance the creature is pushed on a success to that distance.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Push in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Shove the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty. If Push lists a distance, change the distance the creature is pushed on a success to that distance.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -25622,7 +25622,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Requirement</strong> An enemy within 15 feet of the dread wisp is under a fear effect, Drained, or Dying</p>\n<hr />\n<p><strong>Effect</strong> The dread wisp feeds on the creature's despair. The dread wisp regains [[/r 2d8[healing]]] Hit Points and deals 3d8 void damage to the creature (DC 25  Basic  Fortitude save), and if the dread wisp has Gone Dark, their Dread Flickering reignites.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Requirement</strong> An enemy within 15 feet of the dread wisp is under a fear effect, Drained, or Dying</p>\n<hr />\n<p><strong>Effect</strong> The dread wisp feeds on the creature's despair. The dread wisp regains 2d8 healing Hit Points and deals 3d8 void damage to the creature (DC 25  Basic  Fortitude save), and if the dread wisp has Gone Dark, their Dread Flickering reignites.</p>"
           },
           "frequency": {
             "max": 1,
@@ -26113,7 +26113,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -29758,7 +29758,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -30773,7 +30773,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -31908,7 +31908,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -33063,7 +33063,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -34701,7 +34701,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -36214,7 +36214,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You splash a glob of acid that splatters your target and nearby creatures. Make a spell attack. If you hit, you deal 1d6 acid damage plus 1 splash acid damage. On a critical success, the target also takes [[/r (ceil(@item.level/2))[persistent,acid]]] damage.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The initial damage increases to 2d6, and the persistent damage increases to 2.</p>\n<p><strong>Heightened (5th)</strong> The initial damage increases to 3d6, the persistent damage increases to 3, and the splash damage increases to 2.</p>\n<p><strong>Heightened (7th)</strong> The initial damage increases to 4d6, the persistent damage increases to 4, and the splash damage increases to 3.</p>\n<p><strong>Heightened (9th)</strong> The initial damage increases to 5d6, the persistent damage increases to 5, and the splash damage increases to 4.</p>"
+            "value": "<p>You splash a glob of acid that splatters your target and nearby creatures. Make a spell attack. If you hit, you deal 1d6 acid damage plus 1 splash acid damage. On a critical success, the target also takes @Damage[(ceil(@item.level/2))[persistent,acid]] damage.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The initial damage increases to 2d6, and the persistent damage increases to 2.</p>\n<p><strong>Heightened (5th)</strong> The initial damage increases to 3d6, the persistent damage increases to 3, and the splash damage increases to 2.</p>\n<p><strong>Heightened (7th)</strong> The initial damage increases to 4d6, the persistent damage increases to 4, and the splash damage increases to 3.</p>\n<p><strong>Heightened (9th)</strong> The initial damage increases to 5d6, the persistent damage increases to 5, and the splash damage increases to 4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -38938,7 +38938,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You splash a glob of acid that splatters your target and nearby creatures. Make a spell attack. If you hit, you deal 1d6 acid damage plus 1 splash acid damage. On a critical success, the target also takes [[/r (ceil(@item.level/2))[persistent,acid]]] damage.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The initial damage increases to 2d6, and the persistent damage increases to 2.</p>\n<p><strong>Heightened (5th)</strong> The initial damage increases to 3d6, the persistent damage increases to 3, and the splash damage increases to 2.</p>\n<p><strong>Heightened (7th)</strong> The initial damage increases to 4d6, the persistent damage increases to 4, and the splash damage increases to 3.</p>\n<p><strong>Heightened (9th)</strong> The initial damage increases to 5d6, the persistent damage increases to 5, and the splash damage increases to 4.</p>"
+            "value": "<p>You splash a glob of acid that splatters your target and nearby creatures. Make a spell attack. If you hit, you deal 1d6 acid damage plus 1 splash acid damage. On a critical success, the target also takes @Damage[(ceil(@item.level/2))[persistent,acid]] damage.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The initial damage increases to 2d6, and the persistent damage increases to 2.</p>\n<p><strong>Heightened (5th)</strong> The initial damage increases to 3d6, the persistent damage increases to 3, and the splash damage increases to 2.</p>\n<p><strong>Heightened (7th)</strong> The initial damage increases to 4d6, the persistent damage increases to 4, and the splash damage increases to 3.</p>\n<p><strong>Heightened (9th)</strong> The initial damage increases to 5d6, the persistent damage increases to 5, and the splash damage increases to 4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -39826,7 +39826,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -46704,7 +46704,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You splash a glob of acid that splatters your target and nearby creatures. Make a spell attack. If you hit, you deal 1d6 acid damage plus 1 splash acid damage. On a critical success, the target also takes [[/r (ceil(@item.level/2))[persistent,acid]]] damage.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The initial damage increases to 2d6, and the persistent damage increases to 2.</p>\n<p><strong>Heightened (5th)</strong> The initial damage increases to 3d6, the persistent damage increases to 3, and the splash damage increases to 2.</p>\n<p><strong>Heightened (7th)</strong> The initial damage increases to 4d6, the persistent damage increases to 4, and the splash damage increases to 3.</p>\n<p><strong>Heightened (9th)</strong> The initial damage increases to 5d6, the persistent damage increases to 5, and the splash damage increases to 4.</p>"
+            "value": "<p>You splash a glob of acid that splatters your target and nearby creatures. Make a spell attack. If you hit, you deal 1d6 acid damage plus 1 splash acid damage. On a critical success, the target also takes @Damage[(ceil(@item.level/2))[persistent,acid]] damage.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The initial damage increases to 2d6, and the persistent damage increases to 2.</p>\n<p><strong>Heightened (5th)</strong> The initial damage increases to 3d6, the persistent damage increases to 3, and the splash damage increases to 2.</p>\n<p><strong>Heightened (7th)</strong> The initial damage increases to 4d6, the persistent damage increases to 4, and the splash damage increases to 3.</p>\n<p><strong>Heightened (9th)</strong> The initial damage increases to 5d6, the persistent damage increases to 5, and the splash damage increases to 4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -47982,7 +47982,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<ul>\n<li><strong>Human</strong>\n<ul>\n<li><strong>Melee</strong> fist [[/r 1d20+16 #Fist]]{+16}/[[/r 1d20+12 #Fist]]{+12}/[[/r 1d20+8 #Fist]]{+8} (agile, nonlethal), <strong>Damage</strong> @Damage[(1d6+7)[bludgeoning]] damage</li>\n</ul>\n</li>\n<li><strong>Wolf</strong>\n<ul>\n<li><strong>Speed</strong> 40 feet</li>\n<li><strong>Melee</strong> jaws[[/r 1d20+16 #Jaws]]{+16}/[[/r 1d20+11 #Jaws]]{+11}/[[/r 1d20+6 #Jaws]]{+6}, <strong>Damage</strong> @Damage[(2d8+7)[piercing]] damage plus Knockdown</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p>The werecreature changes into its humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is its hybrid shape.</p>\n<p>In humanoid shape, the werecreature uses its original humanoid size, loses its jaws and claws Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by its claw.</p>\n<p>In animal shape, its Speed and size change to that of the animal, it gains any special Strike effects of the animal that it didn't already have (such as Grab), and it loses its weapon Strikes.</p>\n<hr />\n<p><p>The monster changes its shape indefinitely. It can use this action again to return to its natural shape or adopt a new shape. Unless otherwise noted, a monster cannot use Change Shape to appear as a specific individual. Using Change Shape counts as creating a disguise for the @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} use of Deception. The monster's transformation automatically defeats Perception DCs to determine whether the creature is a member of the ancestry or creature type into which it transformed, and it gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise. Change Shape abilities specify what shapes the monster can adopt. The monster doesn't gain any special abilities of the new shape, only its physical form. For example, in each shape, it replaces its normal Speeds and Strikes, and might potentially change its senses or size. Any changes are listed in its stat block.</p></p>"
+            "value": "<ul>\n<li><strong>Human</strong>\n<ul>\n<li><strong>Melee</strong> fist [[/r 1d20+16 #Fist]]{+16}/[[/r 1d20+12 #Fist]]{+12}/[[/r 1d20+8 #Fist]]{+8} (agile, nonlethal), <strong>Damage</strong> @Damage[(1d6+7)[bludgeoning]] damage</li>\n</ul>\n</li>\n<li><strong>Wolf</strong>\n<ul>\n<li><strong>Speed</strong> 40 feet</li>\n<li><strong>Melee</strong> jaws[[/r 1d20+16 #Jaws]]{+16}/[[/r 1d20+11 #Jaws]]{+11}/[[/r 1d20+6 #Jaws]]{+6}, <strong>Damage</strong> @Damage[(2d8+7)[piercing]] damage plus Knockdown</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p>The werecreature changes into its humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is its hybrid shape.</p>\n<p>In humanoid shape, the werecreature uses its original humanoid size, loses its jaws and claws Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by its claw.</p>\n<p>In animal shape, its Speed and size change to that of the animal, it gains any special Strike effects of the animal that it didn't already have (such as Grab), and it loses its weapon Strikes.</p>\n<hr />\n<p><p>The monster changes its shape indefinitely. It can use this action again to return to its natural shape or adopt a new shape. Unless otherwise noted, a monster cannot use Change Shape to appear as a specific individual. Using Change Shape counts as creating a disguise for the Impersonate use of Deception. The monster's transformation automatically defeats Perception DCs to determine whether the creature is a member of the ancestry or creature type into which it transformed, and it gains a +4 status bonus to its Deception DC to prevent others from seeing through its disguise. Change Shape abilities specify what shapes the monster can adopt. The monster doesn't gain any special abilities of the new shape, only its physical form. For example, in each shape, it replaces its normal Speeds and Strikes, and might potentially change its senses or size. Any changes are listed in its stat block.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -48374,7 +48374,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Trip the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -51699,7 +51699,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -56311,7 +56311,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -56948,7 +56948,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -57555,7 +57555,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -63168,7 +63168,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -64111,7 +64111,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -67869,7 +67869,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -68502,7 +68502,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>30 feet. DC 22  Will</p>\n<hr />\n<p><p>A creature that first enters the area must attempt a Will save.</p>\n<p>Regardless of the result of the saving throw, the creature is temporarily immune to this monster's Frightful Presence for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected by the presence.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 4}.</p></p>"
+            "value": "<p>30 feet. DC 22  Will</p>\n<hr />\n<p><p>A creature that first enters the area must attempt a Will save.</p>\n<p>Regardless of the result of the saving throw, the creature is temporarily immune to this monster's Frightful Presence for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected by the presence.</p>\n<p><strong>Success</strong> The creature is Frightened 1.</p>\n<p><strong>Failure</strong> The creature is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The creature is Frightened 4.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -69683,7 +69683,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -73765,7 +73765,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirement</strong> A creature who can cast spells is within 15 feet of Sacuishu</p>\n<hr />\n<p><strong>Effect</strong> Sacuishu feeds on the creature's magic. Sacuishu regains [[/r 2d8[healing]]] Hit Points, and the target must attempt a DC 28  Will save. The target is then temporarily immune for 1 hour.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The first time the target Casts a Spell before the start of the Sacuishu's next turn, the spell is disrupted unless the target succeeds at a DC 15  Flat check.</p>\n<p><strong>Failure</strong> As success, but the effect applies the first time the target Casts a Spell within the next minute.</p>\n<p><strong>Critical Failure</strong> As success, but the effect applies each time the target Casts a Spell within the next minute. In addition, Sacuishu doubles the Hit Points it regains</p>"
+            "value": "<p><strong>Requirement</strong> A creature who can cast spells is within 15 feet of Sacuishu</p>\n<hr />\n<p><strong>Effect</strong> Sacuishu feeds on the creature's magic. Sacuishu regains 2d8 healing Hit Points, and the target must attempt a DC 28  Will save. The target is then temporarily immune for 1 hour.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The first time the target Casts a Spell before the start of the Sacuishu's next turn, the spell is disrupted unless the target succeeds at a DC 15  Flat check.</p>\n<p><strong>Failure</strong> As success, but the effect applies the first time the target Casts a Spell within the next minute.</p>\n<p><strong>Critical Failure</strong> As success, but the effect applies each time the target Casts a Spell within the next minute. In addition, Sacuishu doubles the Hit Points it regains</p>"
           },
           "publication": {
             "license": "OGL",
@@ -74761,7 +74761,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -81879,7 +81879,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -82384,7 +82384,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -83408,7 +83408,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirement</strong> A creature who can cast spells is within 15 feet of the spellvoid</p>\n<hr />\n<p><strong>Effect</strong> The spellvoid feeds on the creature's magic. The spellvoid regains [[/r 2d8[healing]]] Hit Points, and the target must attempt a DC 24  Will save.</p>\n<p>The target is then temporarily immune for 1 hour.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The first time the target Casts a Spell before the start of the spellvoid's next turn, the spell is disrupted unless the target succeeds at a DC 15  Flat check.</p>\n<p><strong>Failure</strong> As success, but the effect applies the first time the target Casts a Spell within the next minute.</p>\n<p><strong>Critical Failure</strong> As success, but the effect applies each time the target Casts a Spell within the next minute. In addition, the spellvoid doubles the Hit Points it regains.</p>"
+            "value": "<p><strong>Requirement</strong> A creature who can cast spells is within 15 feet of the spellvoid</p>\n<hr />\n<p><strong>Effect</strong> The spellvoid feeds on the creature's magic. The spellvoid regains 2d8 healing Hit Points, and the target must attempt a DC 24  Will save.</p>\n<p>The target is then temporarily immune for 1 hour.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The first time the target Casts a Spell before the start of the spellvoid's next turn, the spell is disrupted unless the target succeeds at a DC 15  Flat check.</p>\n<p><strong>Failure</strong> As success, but the effect applies the first time the target Casts a Spell within the next minute.</p>\n<p><strong>Critical Failure</strong> As success, but the effect applies each time the target Casts a Spell within the next minute. In addition, the spellvoid doubles the Hit Points it regains.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -90771,7 +90771,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Damage[(1d8+7)[slashing]] damage, DC 25  Basic  Fortitude</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
+            "value": "<p>@Damage[(1d8+7)[slashing]] damage, DC 25  Basic  Fortitude</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures Grabbed or Restrained by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -90864,7 +90864,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -94592,7 +94592,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Damage[(1d8+7)[bludgeoning],1d6[acid]]{1d8+7 bludgeoning damage plus 1d6 acid damage}, DC 26  Basic  Fortitude save</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
+            "value": "<p>@Damage[(1d8+7)[bludgeoning],1d6[acid]]{1d8+7 bludgeoning damage plus 1d6 acid damage}, DC 26  Basic  Fortitude save</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures Grabbed or Restrained by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -94685,7 +94685,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -94969,7 +94969,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>@Damage[(1d8+12)[bludgeoning]] damage, DC 28</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
+            "value": "<p>@Damage[(1d8+12)[bludgeoning]] damage, DC 28</p>\n<hr />\n<p><p>The monster deals the listed amount of damage to any number of creatures Grabbed or Restrained by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -95124,7 +95124,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -98392,7 +98392,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>When first exposed to bright light, the monster is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p></p>"
+            "value": "<p><p>When first exposed to bright light, the monster is Blinded until the end of its next turn. After this exposure, light doesn't blind the monster again until after it spends 1 hour in darkness. However, as long as the monster is in an area of bright light, it's Dazzled.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -99011,7 +99011,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>60 feet</p>\n<hr />\n<p><p><strong>Requirements</strong> The monster is hiding in water and a creature that hasn't detected it is within the listed number of feet.</p>\n<hr />\n<p><strong>Effect</strong> The monster moves up to its swim Speed + 10 feet toward the triggering creature, traveling on water and on land. Once the creature is in reach, the monster makes a Strike against it. The creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against this Strike.</p></p>"
+            "value": "<p>60 feet</p>\n<hr />\n<p><p><strong>Requirements</strong> The monster is hiding in water and a creature that hasn't detected it is within the listed number of feet.</p>\n<hr />\n<p><strong>Effect</strong> The monster moves up to its swim Speed + 10 feet toward the triggering creature, traveling on water and on land. Once the creature is in reach, the monster makes a Strike against it. The creature is Off-Guard against this Strike.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -101093,7 +101093,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>The witchfire adds Nightmare, Phantasmal Killer, Phantasmal Calamity, and Summon Entity to their coven's spells.</p>\n<p>A coven can contain one or more witchfires, but it must also include at least one living creature capable of forming a coven; three witchfires cannot form a coven.</p>\n<hr />\n<p><p>This monster can form a coven with two or more other creatures who also have the coven ability. This involves performing an 8-hour ceremony with all prospective coven members. After the coven is formed, each of its members gains elite adjustments, adjusting their levels accordingly. Coven members can sense other members' locations and conditions by spending a single action, which has the concentrate trait, and can sense what another coven member is sensing as a two-action activity, which has the concentrate trait as well.</p>\n<p>Covens also grant spells and rituals to their members, but these can be cast only in cooperation between three coven members who are all within 30 feet of one another. A coven member can contribute to a coven spell with a single action that has the concentrate trait. If two coven members have contributed these actions within the last round, a third member can cast a coven spell on her turn by spending the normal spellcasting actions. A coven can cast its coven spells an unlimited number of times but can cast only one coven spell each round. All covens grant the 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis} spell and all the following spells, which the coven can cast at any rank up to 5th: @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{Augury}, @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]{Charm}, @UUID[Compendium.pf2e.spells-srd.Item.HXhWYJviWalN5tQ2]{Clairaudience}, @UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]{Clairvoyance}, @UUID[Compendium.pf2e.spells-srd.Item.yM3KTTSAIHhyuP14]{Dream Message}, @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise}, @UUID[Compendium.pf2e.spells-srd.Item.Ucf8eynbZMfUucjE]{Illusory Scene}, @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]{Scouting Eye}, and @UUID[Compendium.pf2e.spells-srd.Item.FM3SmEW8N1FCRjqt]{Talking Corpse}. Individual creatures with the coven ability also grant additional spells to any coven they join. A coven can also cast the @UUID[Compendium.pf2e.spells-srd.Item.XkDCzMIyc0YOjw05]{Control Weather} ritual, with a DC of 23 instead of the standard DC.</p>\n<p>If a coven member's departure or death brings the coven below three members, the remaining members keep their elite adjustments for 24 hours, but without enough members to contribute the necessary actions, they can't cast coven spells.</p></p>"
+            "value": "<p>The witchfire adds Nightmare, Phantasmal Killer, Phantasmal Calamity, and Summon Entity to their coven's spells.</p>\n<p>A coven can contain one or more witchfires, but it must also include at least one living creature capable of forming a coven; three witchfires cannot form a coven.</p>\n<hr />\n<p><p>This monster can form a coven with two or more other creatures who also have the coven ability. This involves performing an 8-hour ceremony with all prospective coven members. After the coven is formed, each of its members gains elite adjustments, adjusting their levels accordingly. Coven members can sense other members' locations and conditions by spending a single action, which has the concentrate trait, and can sense what another coven member is sensing as a two-action activity, which has the concentrate trait as well.</p>\n<p>Covens also grant spells and rituals to their members, but these can be cast only in cooperation between three coven members who are all within 30 feet of one another. A coven member can contribute to a coven spell with a single action that has the concentrate trait. If two coven members have contributed these actions within the last round, a third member can cast a coven spell on her turn by spending the normal spellcasting actions. A coven can cast its coven spells an unlimited number of times but can cast only one coven spell each round. All covens grant the 8th-rank Cursed Metamorphosis spell and all the following spells, which the coven can cast at any rank up to 5th: Augury, Charm, Clairaudience, Clairvoyance, Dream Message, Illusory Disguise, Illusory Scene, Scouting Eye, and Talking Corpse. Individual creatures with the coven ability also grant additional spells to any coven they join. A coven can also cast the Control Weather ritual, with a DC of 23 instead of the standard DC.</p>\n<p>If a coven member's departure or death brings the coven below three members, the remaining members keep their elite adjustments for 24 hours, but without enough members to contribute the necessary actions, they can't cast coven spells.</p></p>"
           },
           "publication": {
             "license": "OGL",
