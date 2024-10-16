@@ -132,37 +132,26 @@ func parseText(input string) string {
 	templateRegex := regexp.MustCompile(`@Template\[(.*?)\](?:{(.+?)})?`)
 	damageRegex := regexp.MustCompile(`@Damage\[(\d+d\d+(?:\[.*?\])?)\]`)
 
-	// UUID parser
-	result := uuidRegex.ReplaceAllStringFunc(input, func(match string) string {
-		matches := uuidRegex.FindStringSubmatch(match)
-		return uuidParser(matches)
-	})
+	operations := []struct {
+		regex  *regexp.Regexp
+		parser func([]string) string
+	}{
+		// Localize must be the first, because the inserted text can contain other tags
+		{localizeRegex, localizeParser},
+		{uuidRegex, uuidParser},
+		{checkRegex, checkParser},
+		{templateRegex, templateParser},
+		{damageRegex, damageParser},
+	}
 
-	// Localize parser
-	result = localizeRegex.ReplaceAllStringFunc(result, func(match string) string {
-		matches := localizeRegex.FindStringSubmatch(match)
-		return localizeParser(matches)
-	})
+	for _, operation := range operations {
+		input = operation.regex.ReplaceAllStringFunc(input, func(match string) string {
+			matches := operation.regex.FindStringSubmatch(match)
+			return operation.parser(matches)
+		})
+	}
 
-	// Check parser
-	result = checkRegex.ReplaceAllStringFunc(result, func(match string) string {
-		matches := checkRegex.FindStringSubmatch(match)
-		return checkParser(matches)
-	})
-
-	// Template parser
-	result = templateRegex.ReplaceAllStringFunc(result, func(match string) string {
-		matches := templateRegex.FindStringSubmatch(match)
-		return templateParser(matches)
-	})
-
-	// Damage parser
-	result = damageRegex.ReplaceAllStringFunc(result, func(match string) string {
-		matches := damageRegex.FindStringSubmatch(match)
-		return damageParser(matches)
-	})
-
-	return result
+	return input
 }
 
 func processFile(filePath string) error {
