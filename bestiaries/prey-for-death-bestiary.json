@@ -2709,7 +2709,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>unfettered movement</em> spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>unfettered movement</em> spell.</p>\n<p>Spell Effect: Unfettered Movement</p>"
           },
           "duration": {
             "sustained": false,
@@ -13325,7 +13325,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>unfettered movement</em> spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>unfettered movement</em> spell.</p>\n<p>Spell Effect: Unfettered Movement</p>"
           },
           "duration": {
             "sustained": false,
@@ -16743,7 +16743,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>unfettered movement</em> spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>unfettered movement</em> spell.</p>\n<p>Spell Effect: Unfettered Movement</p>"
           },
           "duration": {
             "sustained": false,
@@ -27757,7 +27757,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>unfettered movement</em> spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>unfettered movement</em> spell.</p>\n<p>Spell Effect: Unfettered Movement</p>"
           },
           "duration": {
             "sustained": false,
@@ -29780,7 +29780,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.equipment-srd.Item.WOiCJSS2MicKCMVs"
         },
-        "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/bracers-of-missile-deflection.webp",
+        "img": "icons/equipment/wrist/bracer-segmented-leather.webp",
         "name": "Bracers of Strength",
         "sort": 5000000,
         "system": {
@@ -37937,7 +37937,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.spells-srd.Item.8M03UxGXjYyDFAoy"
         },
-        "img": "systems/pf2e/icons/spells/weapon-storm.webp",
+        "img": "icons/skills/melee/spear-tips-three-purple.webp",
         "name": "Weapon Storm",
         "sort": 500000,
         "system": {
@@ -40136,7 +40136,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.spells-srd.Item.8M03UxGXjYyDFAoy"
         },
-        "img": "systems/pf2e/icons/spells/weapon-storm.webp",
+        "img": "icons/skills/melee/spear-tips-three-purple.webp",
         "name": "Weapon Storm",
         "sort": 400000,
         "system": {
@@ -41785,7 +41785,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.spells-srd.Item.8M03UxGXjYyDFAoy"
         },
-        "img": "systems/pf2e/icons/spells/weapon-storm.webp",
+        "img": "icons/skills/melee/spear-tips-three-purple.webp",
         "name": "Weapon Storm",
         "sort": 600000,
         "system": {
@@ -46043,7 +46043,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>unfettered movement</em> spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>unfettered movement</em> spell.</p>\n<p>Spell Effect: Unfettered Movement</p>"
           },
           "duration": {
             "sustained": false,

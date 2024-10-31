@@ -4009,7 +4009,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> A Grabbed, Paralyzed, Restrained, Unconscious, or willing creature is within reach of the asanbosam's jaws</p>\n<hr />\n<p><strong>Effect</strong> The asanbosam sinks its teeth into the creature to drink its blood. If the victim is grabbed, this is automatic; otherwise, the asanbosam must succeed at an Athletics check against the victim's Fortitude DC. The victim becomes Drained 1 and the asanbosam regains [[/r 10[healing]]]{10 HP}, gaining any excess Hit Points beyond its maximum as temporary Hit Points. These temporary Hit Points remain for 1 minute.</p>\n<p>Drinking Blood from a creature that's already drained increases the victim's drained value by 1 to a maximum of drained 3, but doesn't restore any HP to the asanbosam.</p>\n<p>A victim's drained condition decreases by 1 each week. A blood transfusion, which requires a successful DC 20  Medicine check and a blood donor or sufficient blood, reduces the drained value by 1 after 10 minutes.</p>"
+            "value": "<p><strong>Requirements</strong> A Grabbed, Paralyzed, Restrained, Unconscious, or willing creature is within reach of the asanbosam's jaws</p>\n<hr />\n<p><strong>Effect</strong> The asanbosam sinks its teeth into the creature to drink its blood. If the victim is grabbed, this is automatic; otherwise, the asanbosam must succeed at an Athletics check against the victim's Fortitude DC. The victim becomes Drained 1 and the asanbosam regains @Damage[10[healing]] HP, gaining any excess Hit Points beyond its maximum as temporary Hit Points. These temporary Hit Points remain for 1 minute.</p>\n<p>Drinking Blood from a creature that's already drained increases the victim's drained value by 1 to a maximum of drained 3, but doesn't restore any HP to the asanbosam.</p>\n<p>A victim's drained condition decreases by 1 each week. A blood transfusion, which requires a successful DC 20  Medicine check and a blood donor or sufficient blood, reduces the drained value by 1 after 10 minutes.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7323,7 +7323,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The charau-ka butcher deals bleed damage to a creature.</p>\n<hr />\n<p><strong>Effect</strong> The charau-ka licks blood from its weapon, becoming furious. It regains [[/r 5[healing]]]{5 HP} and gains a +1 status bonus to attack rolls until the end of its turn.</p>\n<p>Effect: Blood Fury</p>"
+            "value": "<p><strong>Trigger</strong> The charau-ka butcher deals bleed damage to a creature.</p>\n<hr />\n<p><strong>Effect</strong> The charau-ka licks blood from its weapon, becoming furious. It regains @Damage[5[healing]] HP and gains a +1 status bonus to attack rolls until the end of its turn.</p>\n<p>Effect: Blood Fury</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11374,7 +11374,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>freedom of movement</em> spell.</p>\n<p>Spell Effect: Freedom of Movement</p>"
           },
           "duration": {
             "sustained": false,

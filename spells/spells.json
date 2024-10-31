@@ -1210,7 +1210,7 @@
   },
   {
     "_id": "nplNt08TvokZUxtR",
-    "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+    "img": "icons/commodities/bones/skull-hollow-worn-blue.webp",
     "name": "Agonizing Despair",
     "system": {
       "area": null,
@@ -3793,6 +3793,77 @@
     "type": "spell"
   },
   {
+    "_id": "KY2xyMavZHAoG69D",
+    "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+    "name": "Arcane Explosion",
+    "system": {
+      "area": {
+        "type": "emanation",
+        "value": 30
+      },
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {
+        "9wSYsvMyZBn4SR20": {
+          "applyMod": false,
+          "category": null,
+          "formula": "16d6",
+          "kinds": [
+            "damage"
+          ],
+          "materials": [],
+          "type": "force"
+        }
+      },
+      "defense": {
+        "save": {
+          "basic": true,
+          "statistic": "fortitude"
+        }
+      },
+      "description": {
+        "value": "<p>Your body is temporarily converted into a ball of pure magic, rapidly exploding outward and reforming as a glowing sphere, after which you eventually regain your normal form. All creatures and objects in the emanation take 16d6 force damage (basic Fortitude saving throw). Creatures that fail are also pushed 10 feet directly away from you; creatures that can't complete this forced movement are knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone] (but creatures who reduce this movement, such as with an ability or feat, don't fall prone). You become unfiltered magic; you gain the incorporeal trait, are immune to disease, poison, and precision damage, and gain resistance to all damage equal to your level (except force damage, spirit damage, and damage from Strikes with the @UUID[Compendium.pf2e.equipment-srd.Item.Ghost Touch] property rune), with double the resistance against non-magical damage. While incorporeal, you can't Strike, Cast a Spell, or take any actions with the manipulate trait. Any creature that ends its turn adjacent to you while you're in this state takes @Damage[6d6[force]] damage. You remain as pure magic until you Dismiss your new form, returning to your normal state at maximum Hit Points.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": ""
+      },
+      "level": {
+        "value": 9
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "2"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "concentrate",
+          "focus",
+          "force",
+          "manipulate",
+          "mythic"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "dL3A7H4LlRH26Imo",
     "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
     "name": "Arcane Weaving",
@@ -5180,6 +5251,63 @@
     "type": "spell"
   },
   {
+    "_id": "6P2fzrYkaiiptxlY",
+    "img": "icons/magic/symbols/mask-metal-silver-white.webp",
+    "name": "Awaken Curse",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You siphon a tiny portion of life force from each of the ritual's casters to empower a curse against disrupting effects. The difficulty of the counteract check to remove the curse changes based on the success of the ritual. Additionally, the first three times the curse is successfully counteracted, it leaps to the closest possible target within 100 feet, forcing the new target to attempt a saving throw against the curse's initial effects. Saves against the curse are attempted at the same DC as the curse when it was cast, subject to changes based on the ritual's success. If any creature successfully saves against the curse's initial effects, the curse dissipates harmlessly.</p><hr /><p><strong>Critical Success</strong> The first counteract attempt against the curse automatically fails. After that, the curse's counteract rank increases by 2 (to a maximum of 10).</p>\n<p><strong>Success</strong> The curse's counteract rank increases by 1 (to a maximum of 10).</p>\n<p><strong>Failure</strong> The curse's counteract rank is unchanged.</p>\n<p><strong>Critical Failure</strong> You fail to grasp the curse's nuances and entangle yourself in its effects. The curse is lifted from the original target, and you and each secondary caster is affected by the curse with no saving throw.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "unlimited"
+      },
+      "level": {
+        "value": 8
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "1 mile"
+      },
+      "requirements": "",
+      "ritual": {
+        "primary": {
+          "check": "Arcana (mythic) or Occultism (mythic)"
+        },
+        "secondary": {
+          "casters": 2,
+          "checks": "Arcana, Medicine, or Occultism"
+        }
+      },
+      "rules": [],
+      "target": {
+        "value": "1 curse"
+      },
+      "time": {
+        "value": "1 day"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "mythic"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "ZMvplR106Jxl7B15",
     "img": "systems/pf2e/icons/spells/awaken-entropy.webp",
     "name": "Awaken Entropy",
@@ -5449,6 +5577,63 @@
     "type": "spell"
   },
   {
+    "_id": "q9QGc0PJMFWxFOCz",
+    "img": "icons/magic/symbols/fleur-de-lis-yellow.webp",
+    "name": "Band of Heroes",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>The sun rises on a gathering of heroes bonded to a cause. While only one secondary caster can attempt the secondary check, each secondary caster must also spend 1 Mythic Point upon successful completion of the ritual (see below). A secondary caster who chooses not to spend the Mythic Point can't benefit from the ritual's effects.</p><hr /><p><strong>Critical Success</strong> As success, but the first time a caster gains the @UUID[Compendium.pf2e.conditionitems.Item.Doomed], @UUID[Compendium.pf2e.conditionitems.Item.Dying], or @UUID[Compendium.pf2e.conditionitems.Item.Wounded] condition during the ritual's duration, reduce the value of that condition by 1 (minimum 0).</p>\n<p><strong>Success</strong> Each secondary caster must spend 1 Mythic Point. For the duration of the ritual, when a caster @UUID[Compendium.pf2e.actionspf2e.Item.Aid]{Aids} another caster, they can attempt the associated check at mythic proficiency. On a success, the circumstance bonus the Aiding caster grants is increased to +2, and on a critical success, the circumstance bonus is increased to +5.</p>\n<p><strong>Failure</strong> The ritual has no effect. The secondary casters don't need to each spend 1 Mythic Point.</p>\n<p><strong>Critical Failure</strong> The ritual fails, and the casters rupture their own connections to their mythic destinies. None of the casters can gain Mythic Points for 1 week.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "24 hours"
+      },
+      "level": {
+        "value": 3
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "30 feet"
+      },
+      "requirements": "",
+      "ritual": {
+        "primary": {
+          "check": "Diplomacy (mythic) or Society (mythic)"
+        },
+        "secondary": {
+          "casters": 2,
+          "checks": "Diplomacy, Intimidation, or Society"
+        }
+      },
+      "rules": [],
+      "target": {
+        "value": "all casters involved in ritual"
+      },
+      "time": {
+        "value": "1 hour"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "mythic"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "N9KjnGyVMKgqKcCw",
     "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
     "name": "Bandit's Doom",
@@ -5581,6 +5766,126 @@
           "concentrate",
           "manipulate",
           "mental"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "nKR6Xt5cPGDumX66",
+    "img": "icons/magic/unholy/hand-light-pink.webp",
+    "name": "Banishing Touch",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {
+        "wn2U6jvbMUgcTC2a": {
+          "applyMod": false,
+          "category": null,
+          "formula": "1d6",
+          "kinds": [
+            "damage"
+          ],
+          "materials": [],
+          "type": "bludgeoning"
+        }
+      },
+      "defense": {
+        "passive": {
+          "statistic": "ac"
+        },
+        "save": null
+      },
+      "description": {
+        "value": "<p>Your touch projects a surge of magic that launches your target safely away. Make a melee spell attack at mythic proficiency against your target's AC. If you hit, you deal 1d6 bludgeoning damage, and you launch the target into the air and away from you; the target takes falling damage as normal. The number of actions you spend while Casting the Spell determines the damage dealt by your touch and how far the target is launched.</p>\n<p><span class=\"action-glyph\">1</span> The target is launched 10 feet into the air and knocked back 10 feet.</p>\n<p><span class=\"action-glyph\">2</span> Your touch deals 2d6 bludgeoning damage instead. The target is launched 20 feet into the air and pushed back 10 feet.</p>\n<p><span class=\"action-glyph\">3</span> Your touch deals 2d6 bludgeoning damage instead. The target is launched 30 feet into the air and pushed back 20 feet.</p><hr /><p><strong>Heightened (4th)</strong> The initial damage increases by 1d6, and all distances increase by 10 feet for the 1-action version or 20 feet for the 2- and 3-action versions.</p>\n<p><strong>Heightened (6th)</strong> The initial damage increases by 2d6, and all distances increase by 20 feet for the 1-action version or 60 feet for the 2- and 3-action versions.</p>\n<p><strong>Heightened (8th)</strong> The initial damage increases by 3d6, and all distances increase by 30 feet for the 1-action version or 100 feet for the 2- and 3-action versions.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": ""
+      },
+      "heightening": {
+        "levels": {
+          "4": {
+            "damage": {
+              "wn2U6jvbMUgcTC2a": {
+                "applyMod": false,
+                "category": null,
+                "formula": "2d6",
+                "kinds": [
+                  "damage"
+                ],
+                "materials": [],
+                "type": "bludgeoning"
+              }
+            }
+          },
+          "6": {
+            "damage": {
+              "wn2U6jvbMUgcTC2a": {
+                "applyMod": false,
+                "category": null,
+                "formula": "3d6",
+                "kinds": [
+                  "damage"
+                ],
+                "materials": [],
+                "type": "bludgeoning"
+              }
+            }
+          },
+          "8": {
+            "damage": {
+              "wn2U6jvbMUgcTC2a": {
+                "applyMod": false,
+                "category": null,
+                "formula": "4d6",
+                "kinds": [
+                  "damage"
+                ],
+                "materials": [],
+                "type": "bludgeoning"
+              }
+            }
+          }
+        },
+        "type": "fixed"
+      },
+      "level": {
+        "value": 2
+      },
+      "overlays": {},
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "touch"
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": "1 creature"
+      },
+      "time": {
+        "value": "1 to 3"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "arcane",
+          "divine",
+          "occult",
+          "primal"
+        ],
+        "value": [
+          "attack",
+          "concentrate",
+          "manipulate",
+          "mythic"
         ]
       }
     },
@@ -6215,6 +6520,62 @@
           "fear",
           "manipulate",
           "mental"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "wZ1rsLrWfYtMZfgv",
+    "img": "icons/magic/unholy/silhouette-light-fire-blue.webp",
+    "name": "Beseech Arcanotheign",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>With a whispered prayer or arcane sending, you conjure Arcanotheign, herald of Nethys. She's a storm of magic, half white and half black, roiling in a vaguely humanoid shape. She occupies the space of a Medium creature and has a Speed of 40 feet and a fly Speed of 60 feet.</p>\n<p><strong>Arrive</strong> (sonic) <em>Storm's Unbridled Destruction</em> Arcanotheign arrives with a flash of light and a cacophonous crash of colliding magic. All enemies in a @Template[type:emanation|distance:60] take @Damage[8d12[sonic]] damage with a basic Reflex save. A creature that critically fails is additionally @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 10 minutes.</p>\n<p><strong>Depart</strong> (electricity, healing) <em>Flash of Brilliance</em> Arcanotheign fires a powerful arcane blast at one target within 100 feet, dealing @Damage[5d12[electricity]] damage with a basic Reflex save, and a powerful divine blast at one ally, healing 5d12 Hit Points. Then, Arcanotheign asks for payment in the form of a fond memory. If you pay this cost, you lose this memory, Arcanotheign gains this memory, and Arcanotheign whispers a secret into your mind; you can immediately @UUID[Compendium.pf2e.actionspf2e.Item.Recall Knowledge] on any subject at mythic proficiency.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "until the end of your next turn"
+      },
+      "level": {
+        "value": 9
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "100 feet"
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "3"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "arcane",
+          "divine",
+          "occult",
+          "primal"
+        ],
+        "value": [
+          "concentrate",
+          "incarnate",
+          "manipulate",
+          "mythic"
         ]
       }
     },
@@ -9782,6 +10143,81 @@
     "type": "spell"
   },
   {
+    "_id": "txxm6Rj6jNxcFSQ9",
+    "img": "icons/creatures/birds/birds-flock-fly-yellow.webp",
+    "name": "Bounty of the Sky",
+    "system": {
+      "area": {
+        "type": "emanation",
+        "value": 30
+      },
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {
+        "1Yol9VOB1Bu7G213": {
+          "applyMod": false,
+          "category": null,
+          "formula": "4d6",
+          "kinds": [
+            "healing"
+          ],
+          "materials": [],
+          "type": "untyped"
+        }
+      },
+      "defense": null,
+      "description": {
+        "value": "<p>You call forth a flock of geese that drop restorative fruits and breads from the sky as they fly overhead. You or an ally in the area can Interact to collect one of these gifts, and can then either consume it as part of the same action or do so with a separate Interact action later in the spell's duration. Enemies who attempt to pick up one of these gifts find that it turns to ash in their hands. Each time a character consumes one of these gifts, they can select one of the following benefits.</p><ul><li>The character regains 4d6 Hit Points.</li><li>The character reduces the stage of one poison or disease they suffer from by one stage. This can't reduce the stage below 1 or cure the affliction.</li><li>The character reduces the value of their @UUID[Compendium.pf2e.conditionitems.Item.Clumsy], @UUID[Compendium.pf2e.conditionitems.Item.Drained], @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled], or @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] condition by 2, or reduces two of the listed conditions by 1 each.</li></ul><hr /><p><strong>Heightened (+2)</strong> The amount of Hit Points a character regains from consuming a gift increases by 2d6.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "1 minute"
+      },
+      "heightening": {
+        "damage": {
+          "1Yol9VOB1Bu7G213": "2d6"
+        },
+        "interval": 2,
+        "type": "interval"
+      },
+      "level": {
+        "value": 6
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "2"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "divine",
+          "primal"
+        ],
+        "value": [
+          "concentrate",
+          "healing",
+          "manipulate",
+          "mythic"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "NeoRkU7C4BIz8fUM",
     "img": "icons/creatures/webs/webthin-blue.webp",
     "name": "Bracing Tendrils",
@@ -12353,7 +12789,7 @@
       "damage": {},
       "defense": null,
       "description": {
-        "value": "<p>You seal bleeding wounds with fire. Any target that has persistent bleed damage can choose to take @Damage[1[fire]|immutable:true] damage. If it does, it can attempt to recover from its persistent bleed damage, with the lower DC for particularly effective assistance. During the spell's duration, you can use a single action, which has the concentrate trait, to repeat this effect for one target of the spell.</p>"
+        "value": "<p>You seal bleeding wounds with fire. Any target that has persistent bleed damage can choose to take @Damage[1[fire]|immutable:true] damage. If it does, it can attempt to recover from its persistent bleed damage, with the lower DC for particularly effective assistance. During the spell's duration, you can use a single action, which has the concentrate trait, to repeat this effect for one target of the spell.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Cauterize Wounds]</p>"
       },
       "duration": {
         "sustained": false,
@@ -12764,7 +13200,7 @@
       "requirements": "",
       "rules": [],
       "target": {
-        "value": "1 ally"
+        "value": "the triggering ally"
       },
       "time": {
         "value": "reaction"
@@ -12783,7 +13219,7 @@
   },
   {
     "_id": "g1eY1vN44mgluE33",
-    "img": "systems/pf2e/icons/spells/charged-javelin.webp",
+    "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
     "name": "Charged Javelin",
     "system": {
       "area": null,
@@ -13964,6 +14400,65 @@
     "type": "spell"
   },
   {
+    "_id": "9WMEO6JEcAulgUv3",
+    "img": "icons/magic/symbols/rune-sigil-hook-white-red.webp",
+    "name": "City of Sin",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p><strong>Area</strong> 7-mile-radius circle centered on you</p><hr /><p>Each day during the casting of this ritual, intelligent creatures within range become increasingly prone to shed their inhibitions and give in to whatever tempts them. Exposed communities experience increases in crime, vice, and violence (however the community defines those vices). At the ritual's culmination, chaos ensues as everyone from every walk of life chooses temptation over faithfulness to their convictions.</p><hr /><p><strong>Critical Success</strong> Intelligent creatures in the ritual's area might betray even their most closely held convictions, including behaviors anathema to their class or faith. They take a –4 circumstance penalty to saves against mental effects and to their @UUID[Compendium.pf2e.actionspf2e.Item.Coerce] and @UUID[Compendium.pf2e.actionspf2e.Item.Request] DCs.</p>\n<p><strong>Success</strong> Intelligent creatures in the ritual's area become more likely to give in to temptation, indulging vices and violating all but the strongest convictions. They take a –2 circumstance penalty to saves against mental effects and to their Coerce and Request DCs.</p>\n<p><strong>Failure</strong> Intelligent creatures in the ritual's radius behave normally but gain the general sense that something unnatural tried to manipulate their actions.</p>\n<p><strong>Critical Failure</strong> As failure above, except communities of intelligent creatures in the ritual's area bond over any events they experienced during the ritual's casting. They commit themselves to shared principles for behavior, gaining a +2 circumstance bonus to saves against mental effects and to their Coerce and Request DCs for 1 week.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "1 month"
+      },
+      "level": {
+        "value": 7
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "ritual": {
+        "primary": {
+          "check": "Diplomacy (mythic) or Society (mythic)"
+        },
+        "secondary": {
+          "casters": 2,
+          "checks": "Intimidation, Underworld Lore"
+        }
+      },
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "7 days"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "emotion",
+          "mental",
+          "mythic"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "7dBxguCNWCoPYxIi",
     "img": "icons/tools/smithing/plate-steel-grey.webp",
     "name": "Clad In Metal",
@@ -15005,7 +15500,7 @@
   },
   {
     "_id": "pZr1xrCpaSu6qrXU",
-    "img": "systems/pf2e/icons/spells/clone.webp",
+    "img": "icons/commodities/bones/skull-bowl-brown.webp",
     "name": "Clone",
     "system": {
       "area": null,
@@ -18065,7 +18560,7 @@
   },
   {
     "_id": "ZwwIUavMbEwcZz35",
-    "img": "systems/pf2e/icons/spells/create-demiplane.webp",
+    "img": "icons/magic/symbols/star-rising-purple.webp",
     "name": "Create Demiplane",
     "system": {
       "area": null,
@@ -18076,7 +18571,7 @@
       "damage": {},
       "defense": null,
       "description": {
-        "value": "<p>Few incantations are as renowned as the power to create worlds. To cast this ritual, you must be on the Astral Plane, the Ethereal Plane, or a plane that connects to one of the two.</p>\n<p>A demiplane created with this ritual exists on the Astral or Ethereal Plane. It can have the appearance of any mundane environment or structure, such as a glorious cathedral, a clearing in a forest, a comfortably furnished cavern, or anything else one can imagine. All demiplanes have finite, unbreachable boundaries, which might resemble stone, wood, or something more unnatural, such as a wall of mist or unceasing void.</p>\n<p>Demiplanes have environmental conditions as appropriate for the Material Plane, though the primary caster can dictate a general climate or light level, as well as whether the demiplane experiences seasons or a day-night cycle. The demiplane has no native plants or animals, but they can be introduced, and plants will grow in a demiplane's light.</p>\n<p>When you first cast create demiplane, the casters are teleported to the demiplane. The demiplane has no direct access to other worlds, so @UUID[Compendium.pf2e.spells-srd.Item.Interplanar Teleport] or similar abilities are necessary to access it. As part of casting the ritual to create a new demiplane, you create a key to the demiplane which serves as a plane shift tuning fork for that demiplane. Most resemble ornate keys, but some take the forms of maps, compasses, or dowsing rods.</p>\n<p>If you have the original key to an existing demiplane and are on that demiplane, you can instead use this ritual to either expand the demiplane or add special traits or features.</p>\n<ul>\n<li><strong>Alignment</strong> The demiplane gains one alignment trait, such as lawful or good.</li>\n<li><strong>Bounteous</strong> The demiplane has a functional ecosystem, with plants and animals appropriate to the environment. This ecosystem doesn't require any additional effort on your part to maintain.</li>\n<li><strong>Elemental</strong> The demiplane gains the air, earth, fire, or water planar essence trait.</li>\n<li><strong>Gravity</strong> The demiplane gains a gravity trait of your choice.</li>\n<li><strong>Key</strong> You create an additional key that can be used to access the demiplane with plane shift and improve it with create demiplane.</li>\n<li><strong>Portal</strong> You create a permanent gateway between the demiplane and a single other location. You must spend the ritual's casting time constructing the gateway on the external side, which typically resembles an arch or doorway of some sort. The gate is always active, but it can be secured as you would any door.</li>\n<li><strong>Scope</strong> The demiplane can be unbounded instead of finite, though still with the same size.</li>\n</ul>\n<hr />\n<p><strong>Critical Success</strong> You create a new demiplane whose area consists of two contiguous squares, each 100 feet on a side. The ceiling is 20 feet high. If modifying an existing demiplane, you can instead either add this area to the demiplane's size or add two special traits or features.</p>\n<p><strong>Success</strong> As critical success, but the demiplane's area is a single square, 100 feet on a side and a ceiling 20 feet high. If modifying an existing demiplane, you can add one special trait or feature.</p>\n<p><strong>Failure</strong> The ritual has no effect.</p>\n<p><strong>Critical Failure</strong> Something goes horribly wrong, and all casters are teleported to an unknown but likely hostile plane.</p>\n<hr />\n<p><strong>Heightened (10th)</strong> The ritual creates a square area 1,000 feet on a side, with a ceiling 20 feet high (two contiguous areas of this size on a critical success). The cost of the ritual increases to 20,000 gp</p>"
+        "value": "<p>Few incantations are as renowned as the power to create worlds. To cast this ritual, you must be on the Astral Plane, the Ethereal Plane, or a plane that connects to one of the two. A demiplane created with this ritual exists on the Astral or Ethereal Plane. It can have the appearance of any mundane environment or structure, such as a glorious cathedral, a forest clearing, a comfortably furnished cavern, or anything else imaginable. All demiplanes have finite, unbreachable boundaries, which might resemble stone, wood, or something more unnatural, such as a wall of mist or unceasing void.</p>\n<p>Demiplanes have environmental conditions appropriate for the Universe, though the primary caster can dictate a general climate or light level as well as whether the demiplane experiences seasons or a day-night cycle. The demiplane has no native plants or animals, but they can be introduced, and plants will grow in a demiplane's light.</p>\n<p>When you first cast <em>create demiplane</em>, the casters are teleported to the demiplane. The demiplane has no direct access to other worlds, so @UUID[Compendium.pf2e.spells-srd.Item.Interplanar Teleport] or similar abilities are necessary to access it. As part of casting the ritual to create a new demiplane, you create a planar key to the demiplane that serves as an <em>interplanar teleport</em> locus for that demiplane. Most resemble ornate keys, but some take the form of maps, compasses, or dowsing rods.</p>\n<p>If you have the original planar key to an existing demiplane and are also on that demiplane, you can cast this ritual again. Each time, you can either expand the demiplane's size or add one special trait or feature described below.</p><ul><li><strong>Bounteous</strong> The demiplane has a functional ecosystem with plants and animals appropriate to the environment. This ecosystem doesn't require any additional effort on your part to maintain.</li><li><strong>Elemental</strong> The demiplane gains the air, earth, fire, metal, water, or wood planar essence trait.</li><li><strong>Gravity</strong> The demiplane gains a gravity trait of your choice.</li><li><strong>Key</strong> You create an additional planar key that can be used to access the demiplane with <em>interplanar teleport</em> and improve it with <em>create demiplane</em>.</li><li><strong>Portal</strong> You create a permanent gateway between the demiplane and a single other location. You must spend the ritual's casting time constructing the gateway on the external side, which typically resembles an arch or doorway of some sort. The gate is always active, but it can be secured as you would any door.</li><li><strong>Scope</strong> The demiplane can be unbounded instead of finite, though still with the same size.</li></ul><hr /><p><strong>Critical Success</strong> You create a new demiplane whose area consists of 10 contiguous squares, each 100 feet on a side. The ceiling is 40 feet high. If modifying an existing demiplane, you can instead either add this area to the demiplane's size or add two special traits or features.</p>\n<p><strong>Success</strong> As critical success, but the demiplane's area is two squares, each 100 feet on a side, with a ceiling 20 feet high. If modifying an existing demiplane, you can add one special trait or feature.</p>\n<p><strong>Failure</strong> The ritual has no effect.</p>\n<p><strong>Critical Failure</strong> Something goes horribly wrong, and all casters are teleported to an unknown but hostile plane.</p><hr /><p><strong>Heightened (10th)</strong> The ritual creates a square area 2,000 feet on a side, with a ceiling 60 feet high (or two contiguous areas of this size on a critical success). The cost of the ritual increases to 20,000 gp.</p>"
       },
       "duration": {
         "sustained": false,
@@ -18086,9 +18581,9 @@
         "value": 8
       },
       "publication": {
-        "license": "OGL",
-        "remaster": false,
-        "title": "Pathfinder Advanced Player's Guide"
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
       },
       "range": {
         "value": ""
@@ -18096,11 +18591,11 @@
       "requirements": "",
       "ritual": {
         "primary": {
-          "check": "Arcana, Nature, Occultism, or Religion (legendary)"
+          "check": "Arcana (mythic), Nature (mythic), Occultism (mythic), or Religion (mythic)"
         },
         "secondary": {
           "casters": 3,
-          "checks": "Arcana, Nature, Occultism,  Religion (whichever three aren't used for the primary check)"
+          "checks": "Arcana, Nature, Occultism, Religion (whichever three aren't used for the primary check)"
         }
       },
       "rules": [],
@@ -18114,6 +18609,7 @@
         "rarity": "rare",
         "traditions": [],
         "value": [
+          "mythic",
           "teleportation"
         ]
       }
@@ -19047,6 +19543,65 @@
     "type": "spell"
   },
   {
+    "_id": "CGB3a9gJU5S8gjKk",
+    "img": "icons/magic/symbols/rune-sigil-green-purple.webp",
+    "name": "Curse of Calamity",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You condemn your targets to violent misfortune. At the GM's discretion, you can target a group of individuals within range who serve the same cause, such as a nation's army, or who have a shared identity, such as members of a single faith. You can also choose to target a settlement that's a village or town, or a neighborhood community within a larger settlement.</p><hr /><p><strong>Critical Success</strong> As success, and the targets experience extreme accidents that threaten life, limb, or other loss. The GM adjudicates these occurrences on a case-by-case basis, but in general, the population experiences a disturbing rise in unfortunate casualties.</p>\n<p><strong>Success</strong> The targets experience misfortune during even routine tasks that result in minor injuries. This bad luck increases when you're close; the first time each round a target within 15 feet of you attempts an attack roll or skill check, they must roll twice and use the worse result.</p>\n<p><strong>Failure</strong> The ritual has no effect.</p>\n<p><strong>Critical Failure</strong> You unwittingly curse yourself. For the next 24 hours, each caster must roll all attack rolls and skill checks twice and use the worse result.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "1 year"
+      },
+      "level": {
+        "value": 9
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "1 mile"
+      },
+      "requirements": "",
+      "ritual": {
+        "primary": {
+          "check": "Occultism (mythic)"
+        },
+        "secondary": {
+          "casters": 3,
+          "checks": "Arcana, Nature, Religion"
+        }
+      },
+      "rules": [],
+      "target": {
+        "value": "1 community, group, or settlement"
+      },
+      "time": {
+        "value": "3 days"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [],
+        "value": [
+          "curse",
+          "misfortune",
+          "mythic"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "nQS4vPm5zprqkzFZ",
     "img": "icons/commodities/biological/organ-heart-red.webp",
     "name": "Curse of Death",
@@ -19966,6 +20521,56 @@
           "darkness",
           "focus",
           "manipulate"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "BhJtCTLbngvZm8EA",
+    "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
+    "name": "Darkened Forest Form",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>Your apparition casts a feral shadow over your form. You can polymorph into any form listed in @UUID[Compendium.pf2e.spells-srd.Item.Pest Form]. When you transform into a form granted by a spell, you gain all the effects of the form you chose from a version of the spell heightened to darkened forest form's rank. Each time you Sustain this Spell, you can choose to change to a different shape from those available via any of the associated spells.</p><hr /><p><strong>Heightened (2nd)</strong> You can also transform into the forms listed in @UUID[Compendium.pf2e.spells-srd.Item.Animal Form].</p>\n<p><strong>Heightened (5th)</strong> You can also transform into the forms listed in @UUID[Compendium.pf2e.spells-srd.Item.Elemental Form].</p>"
+      },
+      "duration": {
+        "sustained": true,
+        "value": "1 minute"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "2"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "animist",
+          "focus",
+          "polymorph"
         ]
       }
     },
@@ -22527,6 +23132,56 @@
     "type": "spell"
   },
   {
+    "_id": "wTldMJx0vyBAehrI",
+    "img": "icons/magic/nature/root-vine-thorned-fire-purple.webp",
+    "name": "Devouring Dark Form",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>Your apparition's dark power blends with your physical body, allowing you to take on terrifying characteristics of creatures that lurk in dark places. Your arms and legs transform into twisting tentacles. You gain a tentacle unarmed attack with 10-foot reach that deals 1d8 bludgeoning damage and has the grapple trait. The first time you Sustain this spell each round, you can attempt a single @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] check with your tentacle against a creature within its reach.</p><hr /><p><strong>Heightened (2nd)</strong> You can choose to take on the shark battle form from @UUID[Compendium.pf2e.spells-srd.Item.Animal Form] instead of gaining a tentacle unarmed attack, heightened to the same level as this vessel spell. When you do, this spell loses the morph trait and gains the polymorph trait. You can attempt a jaws unarmed Strike against a creature within your reach each time you Sustain this spell.</p>\n<p><strong>Heightened (5th)</strong> You can choose to take on the water elemental battle form from @UUID[Compendium.pf2e.spells-srd.Item.Elemental Form] instead of gaining a tentacle unarmed attack, heightened to the same level as this vessel spell. When you do, this spell loses the morph trait and gains the polymorph trait. You can attempt an unarmed attack Strike against a creature within your reach each time you Sustain this spell.</p>"
+      },
+      "duration": {
+        "sustained": true,
+        "value": "1 minute"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "1"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "animist",
+          "focus",
+          "morph"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "Vctwx1ewa8HUOA94",
     "img": "systems/pf2e/icons/spells/diabolic-edict.webp",
     "name": "Diabolic Edict",
@@ -22628,6 +23283,97 @@
         "traditions": [],
         "value": [
           "unholy"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "AWxS2lr86qNNQVDT",
+    "img": "icons/magic/light/circle-window-clock-blue.webp",
+    "name": "Diadem of Divine Radiance",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {
+        "n6eXQAslPehKuaXl": {
+          "applyMod": false,
+          "category": null,
+          "formula": "4d8",
+          "kinds": [
+            "damage"
+          ],
+          "materials": [],
+          "type": "spirit"
+        },
+        "rZgtouffoOBOPyXD": {
+          "applyMod": false,
+          "category": "persistent",
+          "formula": "1d4",
+          "kinds": [
+            "damage"
+          ],
+          "materials": [],
+          "type": "spirit"
+        }
+      },
+      "defense": {
+        "passive": {
+          "statistic": "ac"
+        },
+        "save": null
+      },
+      "description": {
+        "value": "<p>You don a diadem of radiant light, which sheds bright light to a range of 60 feet and dim light to a further 60 feet. When you Cast the Spell and when you Sustain it during the duration, you can draw a disc of spiraling light from the diadem and throw it at a creature within 120 feet. Make a ranged spell attack at mythic proficiency against the target's AC. This action has the attack and spirit traits. On a hit, you deal 4d8 spirit damage, 1d4 persistent spirit damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round (3 rounds on a critical hit). The persistent damage isn't doubled on a critical hit.</p>\n<p>If the disc passes through an area of magical darkness or targets a creature affected by magical darkness, the disc's glow attempts to counteract the darkness using your Religion or Occultism skill modifier as the counteract check modifier and half your level as the counteract rank.</p><hr /><p><strong>Heightened (+2)</strong> The disc's divine damage increases by 2d8, and the persistent damage increases by 1d4.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "1 minute"
+      },
+      "heightening": {
+        "damage": {
+          "n6eXQAslPehKuaXl": "2d8",
+          "rZgtouffoOBOPyXD": "1d4"
+        },
+        "interval": 2,
+        "type": "interval"
+      },
+      "level": {
+        "value": 5
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "2"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "arcane",
+          "divine",
+          "occult",
+          "primal"
+        ],
+        "value": [
+          "concentrate",
+          "light",
+          "manipulate",
+          "mythic",
+          "sanctified"
         ]
       }
     },
@@ -23267,6 +24013,84 @@
           "hex",
           "manipulate",
           "witch"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "t1e3U2eluRsp2izf",
+    "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+    "name": "Discomfiting Whispers",
+    "system": {
+      "area": {
+        "type": "emanation",
+        "value": 5
+      },
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {
+        "OxAN5ouL6iu9L10Y": {
+          "applyMod": false,
+          "category": null,
+          "formula": "1d6",
+          "kinds": [
+            "damage"
+          ],
+          "materials": [],
+          "type": "void"
+        }
+      },
+      "defense": {
+        "save": {
+          "basic": false,
+          "statistic": "will"
+        }
+      },
+      "description": {
+        "value": "<p>You are surrounded by an aura of spiteful murmurings that incite bad luck and punish failure. Each creature that starts their turn within the area of this spell must succeed at a Will save or roll twice on their first attack roll that round and take the lower result. If an attack roll modified in this way results in a failure, the creature that rolled the failed attack takes 1d6 void damage.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Discomfiting Whispers]</p><hr /><p><strong>Heightened (+2)</strong> The void damage dealt on a failure increases by 1d6.</p>"
+      },
+      "duration": {
+        "sustained": true,
+        "value": "1 minute"
+      },
+      "heightening": {
+        "damage": {
+          "OxAN5ouL6iu9L10Y": "1d6"
+        },
+        "interval": 2,
+        "type": "interval"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "2"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "animist",
+          "aura",
+          "focus",
+          "misfortune",
+          "void"
         ]
       }
     },
@@ -26518,6 +27342,94 @@
     "type": "spell"
   },
   {
+    "_id": "PrlR2sLWeiuTcPF2",
+    "img": "icons/magic/earth/explosion-lava-stone-red.webp",
+    "name": "Earth's Bile",
+    "system": {
+      "area": {
+        "type": "burst",
+        "value": 10
+      },
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {
+        "INFFw4nT75jXjS4B": {
+          "applyMod": false,
+          "category": null,
+          "formula": "1d4",
+          "kinds": [
+            "damage"
+          ],
+          "materials": [],
+          "type": "fire"
+        },
+        "Ri9pmfc1Jkvm7j0x": {
+          "applyMod": false,
+          "category": null,
+          "formula": "1d4",
+          "kinds": [
+            "damage"
+          ],
+          "materials": [],
+          "type": "bludgeoning"
+        }
+      },
+      "defense": {
+        "save": {
+          "basic": true,
+          "statistic": "reflex"
+        }
+      },
+      "description": {
+        "value": "<p>Your apparition is the will of lava and magma made manifest, the earth's molten blood unleashing devastating bursts of liquid stone and unquenchable fire at your command. When you Cast this Spell and the first time you Sustain it each round thereafter, choose an area within range. Each creature in the area takes 1d4 fire damage, 1d4 bludgeoning damage, and @Damage[(@item.rank)[persistent,fire]] damage (the persistent fire damage is negated on a successful save).</p><hr /><p><strong>Heightened (+2)</strong> The fire and bludgeoning damage each increase by 1d4, and the persistent fire damage increases by 1.</p>"
+      },
+      "duration": {
+        "sustained": true,
+        "value": "1 minute"
+      },
+      "heightening": {
+        "damage": {
+          "INFFw4nT75jXjS4B": "1d4",
+          "Ri9pmfc1Jkvm7j0x": "1d4"
+        },
+        "interval": 2,
+        "type": "interval"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "1"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "animist",
+          "earth",
+          "fire",
+          "focus"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "ffz6wlSMzhaDpjg6",
     "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
     "name": "Earthworks",
@@ -28629,6 +29541,110 @@
           "concentrate",
           "illusion",
           "manipulate"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "HBxsMKXzZM0HviEE",
+    "img": "icons/magic/symbols/rune-sigil-green-purple.webp",
+    "name": "Embodied Font",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": "magic items with a value of at least 2,000 gp"
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You place the magic items into a neat pile and attempt to draw out their power to form a new body that the target can inhabit.</p><hr /><p><strong>Critical Success</strong> The target materializes within range, with full Hit Points, 1 Mythic Point, and as if having just completed daily preparations.</p>\n<p><strong>Success</strong> As critical success, but all the target's spells and spell slots are expended.</p>\n<p><strong>Failure</strong> As success, but the target is @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1}, @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1}, @UUID[Compendium.pf2e.conditionitems.Item.Doomed]{Doomed 1}, and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} for 1 week.</p>\n<p><strong>Critical Failure</strong> The ritual fails and can't be attempted again for that target for 1 week. The magic items are still consumed.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": ""
+      },
+      "level": {
+        "value": 8
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "10 feet"
+      },
+      "requirements": "",
+      "ritual": {
+        "primary": {
+          "check": "skill corresponding to the target's casting tradition (trained)"
+        },
+        "secondary": {
+          "casters": 0,
+          "checks": ""
+        }
+      },
+      "rules": [],
+      "target": {
+        "value": "the disembodied wildspell associated with the primary caster"
+      },
+      "time": {
+        "value": "1 day"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [],
+        "value": []
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "X4On99Nti8gjWywG",
+    "img": "icons/skills/melee/hand-grip-staff-teal.webp",
+    "name": "Embodiment of Battle",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>Your apparition guides your attacks and imparts its skill to your movements. For the duration, your proficiency with martial weapons is equal to your proficiency with simple weapons, you gain a +1 status bonus to attack and damage rolls made with weapons or unarmed attacks, and you gain the @UUID[Compendium.pf2e.actionspf2e.Item.Reactive Strike] reaction; this reaction gains the apparition trait. The instincts of an apparition of battle run contrary to the use of magic; for the duration of this spell, you take a –2 status penalty to your spell attack modifiers and your spell DCs.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Embodiment of Battle]</p><hr /><p><strong>Heightened (4th)</strong> The status bonus to attack and damage rolls granted by this spell is increased to +2.</p>\n<p><strong>Heightened (7th)</strong> The status bonus to attack and damage rolls granted by this spell is increased to +3.</p>"
+      },
+      "duration": {
+        "sustained": true,
+        "value": "1 minute"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "1"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "animist",
+          "focus"
         ]
       }
     },
@@ -34021,6 +35037,83 @@
     "type": "spell"
   },
   {
+    "_id": "bIz6QnUIxu5Z7vEH",
+    "img": "icons/creatures/invertebrates/fly-wasp-mosquito-green.webp",
+    "name": "Final Fate of the Locust Host",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {
+        "MpZ5f5dp1t309Kpc": {
+          "applyMod": false,
+          "category": null,
+          "formula": "5d8",
+          "kinds": [
+            "damage"
+          ],
+          "materials": [],
+          "type": "piercing"
+        },
+        "rQOvmXjYxlJ2tKPb": {
+          "applyMod": false,
+          "category": null,
+          "formula": "5d8",
+          "kinds": [
+            "damage"
+          ],
+          "materials": [],
+          "type": "poison"
+        }
+      },
+      "defense": null,
+      "description": {
+        "value": "<p>You conjure the rotting corpse of Deskari, previously Lord of the Locust Hosts, to the battlefield. Deskari's corpse occupies the space of a Gargantuan creature. The corpse is riddled with vermin, including countless locusts, whose collective movement grants the corpse a Speed of 60 feet and a fly Speed of 60 feet.</p>\n<p><strong>Arrive</strong> <em>Behold the Rotten Lord</em> Deskari's corpse is unspeakably foul, emitting a putrid stench, and constantly twitches thanks to the movement of the millions of insects and vermin that consume it. A loud, persistent buzzing is created by the clouds of locusts surrounding it like a haze. Each living enemy creature within a @Template[type:emanation|distance:60] must attempt a Fortitude save with the following effects.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 3} and @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for the duration.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 4}, @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1}, and deafened for the duration.</p><hr /><p><strong>Depart</strong> (poison) <em>Feast of the Locust Host</em> The millions of insects and vermin feasting on Deskari pour out of its corpse and surge across the battlefield, consuming your enemies. This swarm deals 5d8 piercing damage and 5d8 poison damage to enemy creatures in a @Template[type:emanation|distance:60] with a basic Reflex save. A creature that critically fails is additionally @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2}.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "until the end of your next turn"
+      },
+      "level": {
+        "value": 7
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "500 feet"
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "3"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "arcane",
+          "divine",
+          "occult",
+          "primal"
+        ],
+        "value": [
+          "concentrate",
+          "incarnate",
+          "manipulate",
+          "mythic"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "x0rWq0wS06dns4G2",
     "img": "icons/magic/earth/explosion-lava-orange.webp",
     "name": "Final Sacrifice",
@@ -37135,7 +38228,7 @@
   },
   {
     "_id": "4ddJSjC9Zz5DX0oG",
-    "img": "icons/sundries/misc/lock-open-yellow.webp",
+    "img": "icons/skills/movement/arrow-upward-blue.webp",
     "name": "Freedom",
     "system": {
       "area": null,
@@ -37146,7 +38239,7 @@
       "damage": {},
       "defense": null,
       "description": {
-        "value": "<p>You perform a ritual to free a creature imprisoned, petrified, or otherwise put into stasis by any magical effects from all such effects, even effects like @UUID[Compendium.pf2e.spells-srd.Item.Imprisonment] that don't have a duration, as long as <em>freedom</em>'s spell rank is equal to or higher than the effect's spell rank. To perform the ritual, you must be within 10 feet of the target, or within 10 feet of the place where the target was imprisoned (in the case of effects that trap the creature in an unreachable prison, like the oubliette form of Imprisonment). You must know the name of the creature and details of its background; if the creature is not a close associate, a failure or critical failure on a secondary Society check reduces even a critical success on the primary check to a failure.</p>\n<hr />\n<p><strong>Critical Success</strong> You free the target from all magical effects imprisoning it, petrifying it, or putting it into stasis. It gains a +1 status bonus to saving throws to resist those same magical effects for 1 week.</p>\n<p><strong>Success</strong> You free the target from all magical effects imprisoning it, petrifying it, or putting it into stasis.</p>\n<p><strong>Failure</strong> You fail to free the target.</p>\n<p><strong>Critical Failure</strong> The magical effects imprisoning the target, petrifying the target, or putting it into stasis affect you and all secondary casters.</p>"
+        "value": "<p>You perform a ritual to free a creature imprisoned, petrified, or otherwise put into stasis by any magical effects. You free them from all such effects, even effects like @UUID[Compendium.pf2e.spells-srd.Item.Imprisonment] that don't have a duration, as long as <em>freedom</em>'s spell rank is equal to or higher than the effect's spell rank. To perform the ritual, you must be within 10 feet of the target, or within 10 feet of the place where the target was imprisoned (in the case of effects that trap the creature in an unreachable prison, like the oubliette form of <em>imprisonment</em>). You must know the name of the creature and details of its background; if the creature isn't a close associate, a failure or critical failure on a secondary @Check[society|overrideTraits:true] check reduces even a critical success on the primary check to a failure.</p><hr /><p><strong>Critical Success</strong> You free the target from all magical effects imprisoning it, petrifying it, or putting it into stasis. It gains a +1 status bonus to saving throws to resist those same magical effects for 1 week.</p>\n<p><strong>Success</strong> You free the target from all magical effects imprisoning it, petrifying it, or putting it into stasis.</p>\n<p><strong>Failure</strong> You fail to free the target.</p>\n<p><strong>Critical Failure</strong> The magical effects imprisoning the target, petrifying the target, or putting it into stasis affect you and all secondary casters.</p>"
       },
       "duration": {
         "sustained": false,
@@ -37156,17 +38249,17 @@
         "value": 8
       },
       "publication": {
-        "license": "OGL",
-        "remaster": false,
-        "title": "Pathfinder Core Rulebook"
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
       },
       "range": {
-        "value": "see text"
+        "value": ""
       },
       "requirements": "",
       "ritual": {
         "primary": {
-          "check": "Arcana (legendary) or Occultism (legendary)"
+          "check": "Arcana (mythic) or Occultism (mythic)"
         },
         "secondary": {
           "casters": 2,
@@ -37183,7 +38276,9 @@
       "traits": {
         "rarity": "uncommon",
         "traditions": [],
-        "value": []
+        "value": [
+          "mythic"
+        ]
       }
     },
     "type": "spell"
@@ -38144,6 +39239,134 @@
           "consecration",
           "plant",
           "poison"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "w4M6Vqvq8k6MOFvj",
+    "img": "icons/magic/nature/leaf-drip-light-green.webp",
+    "name": "Garden of Healing",
+    "system": {
+      "area": {
+        "type": "emanation",
+        "value": 10
+      },
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {
+        "J1hHMzwleLLa292j": {
+          "applyMod": false,
+          "category": null,
+          "formula": "1d4",
+          "kinds": [
+            "healing"
+          ],
+          "materials": [],
+          "type": "untyped"
+        }
+      },
+      "defense": null,
+      "description": {
+        "value": "<p>Spirits of comfort and respite swirl around you, trailing visions of growing grass and blooming blossoms. When you cast this spell and the first time you Sustain it on each subsequent round, you generate a pulse of renewing energy that heals each creature within the emanation for 1d4 Hit Points. The calm of this effect lingers; once this spell ends, any creature that has been affected by its healing gains a +1 circumstance bonus to saves against emotion effects for 10 minutes but does not receive any healing from additional castings of the spell while the bonus persists.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Garden of Healing]</p><hr /><p><strong>Heightened (+1)</strong> The healing granted by the spell's pulse increases by 1d4 Hit Points.</p>"
+      },
+      "duration": {
+        "sustained": true,
+        "value": "1 minute"
+      },
+      "heightening": {
+        "damage": {
+          "J1hHMzwleLLa292j": "1d4"
+        },
+        "interval": 1,
+        "type": "interval"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "1"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "animist",
+          "aura",
+          "emotion",
+          "focus",
+          "healing",
+          "mental"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "jQgX7zChqjFrU7Q1",
+    "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+    "name": "Garden of the Green Man's Growth",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You cast your magic into the earth, calling out to a powerful green man, a verdant lesser deity of nature, to come to your aid. They occupy the space of a Medium creature, have a Speed of 40 feet, and a climb Speed of 40 feet.</p>\n<p><strong>Arrive</strong> (plant) <em>Verdant Bloom</em> The green man erupts from the ground in a burst of lush growth, dealing @Damage[10d8[bludgeoning]] damage to creatures in a @Template[type:emanation|distance:60] with a basic Reflex save. Creatures that fail this save are pushed 30 feet away from the green man and are knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone]. The area becomes greater difficult terrain for 24 hours.</p>\n<p><strong>Depart</strong> (plant) <em>Forest of Grasping Vines</em> The green man casts out their arms, causing vines to rise from the ground, lash at up to six different creatures, and coil them up. Each of these vines targets a different enemy within 100 feet of the green man and deals @Damage[12d6[slashing]] damage with a basic Reflex save. A creature that fails is @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] until it Escapes (on a critical failure it is @UUID[Compendium.pf2e.conditionitems.Item.Restrained] until it Escapes). The @UUID[Compendium.pf2e.actionspf2e.Item.Escape] DC is your spell DC. Each creature that begins its turn grabbed or @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] by these vines takes an additional @Damage[4d6[bludgeoning]] damage, as the vines continue to squeeze the life from it.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "until the end of your next turn"
+      },
+      "level": {
+        "value": 10
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "100 feet"
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "3"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "divine",
+          "primal"
+        ],
+        "value": [
+          "concentrate",
+          "incarnate",
+          "manipulate",
+          "mythic"
         ]
       }
     },
@@ -40482,7 +41705,7 @@
   },
   {
     "_id": "IWUe32Y5k2QFd7YQ",
-    "img": "systems/pf2e/icons/spells/gravity-weapon.webp",
+    "img": "icons/weapons/ammunition/arrowhead-glowing-blue.webp",
     "name": "Gravity Weapon",
     "system": {
       "area": null,
@@ -46854,7 +48077,7 @@
   },
   {
     "_id": "2CNqkt2s2IYkVnv6",
-    "img": "icons/sundries/misc/key-short-red.webp",
+    "img": "icons/magic/control/debuff-chains-shackles-movement-purple.webp",
     "name": "Imprisonment",
     "system": {
       "area": null,
@@ -46865,7 +48088,7 @@
       "damage": {},
       "defense": null,
       "description": {
-        "value": "<p>You perform a ritual to imprison a creature in one of several forms. While some versions of this ritual offer all of the forms, others include only a single form or only a few of them. Whichever form you use, the effect can't be counteracted, though it can be ended by @UUID[Compendium.pf2e.spells-srd.Item.Freedom]. Some forms of <em>imprisonment</em> can be ended by other means. Because the ritual requires the target to remain within 10 feet at all times, it typically requires you to subdue the target first.</p>\n<ul>\n<li><strong>Chains</strong> You bind the creature with chains, rendering it unable to use any actions other than to speak. Other creatures that attempt to approach, harm the chains, or free the trapped creature in any way must succeed at a Will save or be unable to do so forever. The chains have Hardness equal to 5 × the <em>imprisonment</em> ritual's spell rank, and double that many Hit Points. Destroying the chains frees the target.</li>\n<li><strong>Object (9th rank or higher)</strong> You either shrink the creature to an inch in height or transform it into an insubstantial form whose body trails away into wisps below its head. Either way, you trap it inside a gem, jar, bottle, lamp, or similar container. The creature ceases aging and doesn't require food or drink. The creature is still aware of its surroundings and can move within the container and speak, but it can't use any other actions. Destroying the container kills the target rather than freeing it. This form of <em>imprisonment</em> is also transmutation magic.</li>\n<li><strong>Oubliette (10th rank only)</strong> You entomb the target in a state of suspended animation deep beneath the surface of the ground and out of tune with reality so that it can't be reached by any means. You also prevent divinations from revealing the location where the <em>imprisonment</em> occurred. Powerful magic such as @UUID[Compendium.pf2e.spells-srd.Item.Wish] can reveal the location of the imprisonment, but even such magic can't free the target from the oubliette; only a 10th-rank @UUID[Compendium.pf2e.spells-srd.Item.Freedom] ritual can do so.</li>\n<li><strong>Prison</strong> You render the creature completely unable to leave a particular confined area or structure of your choice, such as a jail cell or sealed cave. The magic also prevents the creature from damaging its prison, either directly or indirectly, to break free. If the creature's prison is entirely destroyed by some external force, the creature is freed, though for some larger or natural prisons, this might be unfeasible.</li>\n<li><strong>Slumber (sleep effect)</strong> You put the creature into an eternal sleep. It ceases aging and doesn't require food or drink. A single sincere physical display of affection from a creature who genuinely loves the target-whether romantically, filially, or otherwise-frees it from the slumber. This form of <em>imprisonment</em> is also enchantment magic.</li>\n<li><strong>Temporal Stasis</strong> You send the creature into a state of suspended animation outside the flow of time. The creature doesn't grow older and can't be affected by any effect from within the normal timestream. While casting this ritual, you can optionally name any amount of time for the stasis; after this duration elapses, the stasis ends. Unlike other forms of <em>imprisonment</em>, temporal stasis can be counteracted by a @UUID[Compendium.pf2e.spells-srd.Item.Dispel Magic] or @UUID[Compendium.pf2e.spells-srd.Item.Haste] spell. This form of <em>imprisonment</em> is also transmutation magic.</li>\n</ul>\n<hr />\n<p><strong>Critical Success</strong> You imprison the target. You can either use a form of <em>imprisonment</em> that usually requires 1 additional spell rank, or give any creatures trying to use a <em>freedom</em> ritual to rescue the target a -2 circumstance penalty to checks associated with that ritual.</p>\n<p><strong>Success</strong> You imprison the target.</p>\n<p><strong>Failure</strong> You fail to imprison the target.</p>\n<p><strong>Critical Failure</strong> You imprison yourself and the secondary casters in the same way you intended to imprison the target.</p>\n<hr />\n<p><strong>Heightened (9th)</strong> You can use the object form of <em>imprisonment</em> in addition to the other options, and you can target a creature of up to 18th level. The base cost increases to 2,000 gp.</p>\n<p><strong>Heightened (10th)</strong> You can use the object and oubliette forms of <em>imprisonment</em> in addition to the other options, and you can target a creature of up to 20th level. The base cost increases to 6,000 gp.</p>"
+        "value": "<p>You perform a ritual to imprison a creature in one of several forms. While some versions of this ritual offer all the forms, others include only a single form or only a few of them. Whichever form you use, the effect can't be counteracted, though it can be ended by @UUID[Compendium.pf2e.spells-srd.Item.Freedom]. Some forms of <em>imprisonment</em> can be ended by other means. Because the ritual requires the target to remain within 10 feet at all times, it typically requires you to subdue the target first.</p><ul><li><strong>Chains</strong> You bind the creature with chains, rendering it unable to use any actions other than to speak. Other creatures that attempt to approach, harm the chains, or free the trapped creature in any way must succeed at a Will save or be unable to do so forever. The chains have Hardness equal to 5 × the <em>imprisonment</em> ritual's spell rank and double that many Hit Points. Destroying the chains frees the target.</li><li><strong>Prison</strong> You render the creature completely unable to leave a particular confined area or structure of your choice, such as a jail cell or sealed cave. The magic also prevents the creature from damaging its prison, either directly or indirectly, to break free. If the creature's prison is entirely destroyed by some external force, the creature is freed, though for some larger or natural prisons, this might be unfeasible.</li><li><strong>Slumber</strong> You put the creature into an eternal sleep. This is a sleep effect. The creature ceases aging and doesn't require food or drink. A single sincere physical display of affection from a creature who genuinely loves the target—whether romantically, filially, or otherwise—frees it from the slumber.</li><li><strong>Temporal Stasis</strong> You send the creature into a state of suspended animation outside the flow of time. The creature doesn't grow older and can't be affected by any effect from within the normal timestream. While casting this ritual, you can optionally name any amount of time for the stasis; after this duration elapses, the stasis ends. Unlike other forms of <em>imprisonment</em>, temporal stasis can be counteracted by a @UUID[Compendium.pf2e.spells-srd.Item.Dispel Magic] or @UUID[Compendium.pf2e.spells-srd.Item.Haste] spell.</li><li><strong>Object (9th or 10th rank)</strong> You either shrink the creature to an inch in height or transform it into an insubstantial form whose body trails away into wisps below its head. Either way, you trap it inside a bottle, gem, jar, lamp, or similar container. The creature ceases aging and doesn't require food or drink. The creature is still aware of its surroundings and can move within the container and speak, but it can't use any other actions. Destroying the container kills the target rather than freeing it.</li><li><p><strong>Oubliette (10th rank only)</strong> You entomb the target in a state of suspended animation deep beneath the surface of the ground and out of tune with reality so that it can't be reached by any means. You also prevent most magic from revealing the location where the <em>imprisonment</em> occurred. Powerful magic, such as the @UUID[Compendium.pf2e.spells-srd.Item.Wish] ritual, can reveal the location of the <em>imprisonment</em>, but even such magic can't free the target from the oubliette; only a 10th-rank <em>freedom</em> ritual can do so.</p></li></ul><hr /><p><strong>Critical Success</strong> You imprison the target. You can either use a form of <em>imprisonment</em> that usually requires a spell rank 1 higher than your ritual or impose an –2 circumstance penalty to any checks for <em>freedom</em> rituals that would free the creature.</p>\n<p><strong>Success</strong> You imprison the target.</p>\n<p><strong>Failure</strong> You fail to imprison the target.</p>\n<p><strong>Critical Failure</strong> You imprison yourself and the secondary casters in the same way you intended to imprison the target.</p><hr /><p><strong>Heightened (9th)</strong> You can use the object form of <em>imprisonment</em> in addition to the other options, and you can target a creature of up to 18th level. The base cost increases to 2,000 gp.</p>\n<p><strong>Heightened (10th)</strong> You can use the object and oubliette forms of <em>imprisonment</em> in addition to the other options, and you can target a creature of up to 20th level. The base cost increases to 6,000 gp.</p>"
       },
       "duration": {
         "sustained": false,
@@ -46875,9 +48098,9 @@
         "value": 8
       },
       "publication": {
-        "license": "OGL",
-        "remaster": false,
-        "title": "Pathfinder Core Rulebook"
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
       },
       "range": {
         "value": "10 feet"
@@ -46885,7 +48108,7 @@
       "requirements": "",
       "ritual": {
         "primary": {
-          "check": "Arcana (legendary) or Occultism (legendary)"
+          "check": "Arcana (mythic) or Occultism (mythic)"
         },
         "secondary": {
           "casters": 6,
@@ -46902,7 +48125,9 @@
       "traits": {
         "rarity": "uncommon",
         "traditions": [],
-        "value": []
+        "value": [
+          "mythic"
+        ]
       }
     },
     "type": "spell"
@@ -49255,6 +50480,60 @@
     "type": "spell"
   },
   {
+    "_id": "AXpqBdbQ66RWyZYk",
+    "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
+    "name": "It is Written",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You envision a future for yourself, confident in the certainty that this vision is your destiny. Before the duration ends, if you would attempt an attack roll, Perception check, saving throw, or skill check that would aid in the fulfillment of this destiny, you can attempt this roll at mythic proficiency. You choose which roll to use this benefit on before rolling. If you use this benefit, the spell ends. Either way, you're then temporarily immune to it is written for 1 hour.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "until the end of your next turn"
+      },
+      "level": {
+        "value": 4
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "1"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "arcane",
+          "divine",
+          "occult"
+        ],
+        "value": [
+          "concentrate",
+          "mythic",
+          "prediction"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "4ZGte0i9YbLh4dRi",
     "img": "systems/pf2e/icons/spells/item-facade.webp",
     "name": "Item Facade",
@@ -49528,6 +50807,63 @@
           "concentrate",
           "manipulate",
           "polymorph"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "nxnGKgcVii5KTwtM",
+    "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+    "name": "Kaiju Ward",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You protect a physical structure from the devastation caused by immense creatures. This structure can be artificially constructed, like a castle or wall, or a natural subject, like a specific tree or grove. A given casting of this ritual can protect a subject as small as a single-story house and no larger than the wall surrounding a large city.</p><hr /><p><strong>Critical Success</strong> As success, but the target structure also doubles its Hit Points and Broken Threshold.</p>\n<p><strong>Success</strong> The target structure gains a +4 status bonus to AC and its Hardness increases by 10. It also gains resistance 20 to acid, cold, electricity, fire, and sonic damage; this resistance applies before its Hardness. These benefits apply only to attacks made by Gargantuan creatures or siege engines.</p>\n<p><strong>Failure</strong> The ritual doesn't succeed.</p>\n<p><strong>Critical Failure</strong> The target is considerably weakened, reducing its Hardness by 10 (minimum 0).</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "14 days"
+      },
+      "level": {
+        "value": 6
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "touch"
+      },
+      "requirements": "",
+      "ritual": {
+        "primary": {
+          "check": "Crafting (mythic)"
+        },
+        "secondary": {
+          "casters": 4,
+          "checks": "Engineering Lore, Kaiju Lore, Survival, Warfare Lore"
+        }
+      },
+      "rules": [],
+      "target": {
+        "value": "1 physical structure"
+      },
+      "time": {
+        "value": "8 hours"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [],
+        "value": [
+          "mythic"
         ]
       }
     },
@@ -53718,6 +55054,63 @@
           "focus",
           "manipulate",
           "void"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "IqBfoUaWDennHYoZ",
+    "img": "icons/magic/symbols/star-rising-purple.webp",
+    "name": "Manifest Will",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": {
+        "save": {
+          "basic": true,
+          "statistic": "reflex"
+        }
+      },
+      "description": {
+        "value": "<p>You unleash energy from the broken connection to your patron. You are @UUID[Compendium.pf2e.conditionitems.Item.Concealed] from creatures beyond the edge of the emanation but can't use that concealment to @UUID[Compendium.pf2e.actionspf2e.Item.Hide]. Any creature that begins its turn in the emanation is affected based on your patron's tradition.</p><ul><li><strong>Arcane</strong> Raw energy and magical formulae circulate around you. A creature that begins its turn in the emanation gains weakness 1 to spell damage for 1 round.</li><li><strong>Divine</strong> Divine power crashes in a cycle of life and death. A living or undead creature that begins its turn in the emanation gains 2 temporary Hit Points for 1 round. This effect has the spirit trait.</li><li><strong>Occult</strong> Esoteric symbology etches the air. An allied creature that begins its turn in the emanation has lesser cover while inside the emanation, and for 1 round after it leaves.</li><li><strong>Primal</strong> Plants and fungus symbolic of your patron constantly grow and wither in the emanation. A creature that begins its turn in the emanation has a –10-foot status penalty to all its Speeds for 1 round or until it @UUID[Compendium.pf2e.actionspf2e.Item.Escape]{Escapes}. This effect has the fungus, plant, and wood traits.</li></ul><hr /><p><strong>Heightened (+1)</strong> An arcane manifestation increases its weakness by 1 and a divine manifestation increases its temporary Hit Points by 2.</p>"
+      },
+      "duration": {
+        "sustained": true,
+        "value": "1 minute"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "1"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [],
+        "value": [
+          "aura",
+          "cantrip",
+          "concentrate",
+          "hex",
+          "witch"
         ]
       }
     },
@@ -59204,6 +60597,68 @@
     "type": "spell"
   },
   {
+    "_id": "SAmyaiVKTDrUNjot",
+    "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+    "name": "Nymph's Grace",
+    "system": {
+      "area": {
+        "type": "emanation",
+        "value": 10
+      },
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": {
+        "save": {
+          "basic": false,
+          "statistic": "will"
+        }
+      },
+      "description": {
+        "value": "<p>Your apparition manifests as a mask of unearthly beauty that bewilders your enemies. The first time an enemy enters the aura each round, or if they start their turn within the aura, they must succeed at a Will saving throw or become @UUID[Compendium.pf2e.conditionitems.Item.Confused] for 1 round. While confused by this effect, the creature's confused actions never include harming you.</p>"
+      },
+      "duration": {
+        "sustained": true,
+        "value": "1 minute"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "2"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "animist",
+          "aura",
+          "emotion",
+          "focus",
+          "incapacitation",
+          "mental",
+          "visual"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "pHrVvoTKygXeczVG",
     "img": "systems/pf2e/icons/spells/nymphs-token.webp",
     "name": "Nymph's Token",
@@ -59512,6 +60967,64 @@
         "traditions": [],
         "value": [
           "mental"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "6WZgtQ2Iw9CTbv2c",
+    "img": "icons/magic/water/wave-water-blue.webp",
+    "name": "Ocean's Roar",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": "1 or more boats or ships worth a total of 10,000 gp"
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You invoke consciousness in a large body of water, such as a coastline, lake, or lagoon. An ancient elemental spirit awakens in the water, seeking instantly to defend itself from aggressors or punish trespassers. You must cast this ritual either directly above the surface of the water or completely submerged at the bottom of the body of water. Such spirits are known to crash ships, devastate shores, and drag enemies under the waves, but can also respond favorably to competent casters.</p>\n<p>This new entity must be appeased by those who sail it. Appeasing the spirit requires a @Check[diplomacy|overrideTraits:true] or @Check[nature|overrideTraits:true] check at the ritual's casting DC. Those negotiating with the spirit might make offerings to gain the spirit's favor, but such reprieve is short in duration and must be attempted each time a vessel passes near. The nature of these offerings is subject to the GM's discretion.</p><hr /><p><strong>Critical Success</strong> As success, except the spirit looks kindly on the caster and those who travel with them. The spirit never takes hostile action against them or any vessel they travel on and increases their swim Speed or their vessel's Speed by 10 feet while within the affected area. Additionally, the spirit's Strike gains the @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Improved Grab] ability with an Athletics modifier of +38.</p>\n<p><strong>Success</strong> The spirit takes up residence in the body of water, defending it aggressively or attacking organized threats on adjacent shores. The spirit manifests as either a massive tsunami (<em>GM Core</em> 90, 96) that repeats every hour or a massive fist of water that can make a melee Strike every round against any target within the affected area. This Strike has a +33 modifier and deals 3d8+19 bludgeoning damage. The spirit can make this Strike against two targets within 30 feet, rolling once to attack and comparing the result against the AC of both targets.</p>\n<p><strong>Failure</strong> The ritual has no effect, though tides and waves are more severe than normal for 24 hours.</p>\n<p><strong>Critical Failure</strong> The ritual backfires, causing four @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Elemental Tsunami]{Elemental Tsunamis} to appear surrounding the casters and attack them for their insolence. If not defeated, the tsunamis remain for 1 week, attacking any waterborne vessels within the targeted area.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "unlimited"
+      },
+      "level": {
+        "value": 9
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "10 feet"
+      },
+      "requirements": "",
+      "ritual": {
+        "primary": {
+          "check": "Nature (mythic)"
+        },
+        "secondary": {
+          "casters": 3,
+          "checks": "Diplomacy, Sailing Lore, Survival"
+        }
+      },
+      "rules": [],
+      "target": {
+        "value": "body of water no larger than a 7-mile radius area"
+      },
+      "time": {
+        "value": "1 day"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [],
+        "value": [
+          "mythic",
+          "water"
         ]
       }
     },
@@ -61130,6 +62643,62 @@
     "type": "spell"
   },
   {
+    "_id": "9sofMbyYL80shsHH",
+    "img": "icons/magic/nature/tree-elm-roots-brown.webp",
+    "name": "Part the Mists to Paradise",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You conjure a pathway to paradise, visible only to you and your allies through a dense cloud of magical mist. You and the other targets within range are transported through this mist to an extradimensional paradise of idyllic geographical features. Creatures within this paradise don't need to eat or drink. For each minute you spend within this paradise, all creatures within experience the benefits of 24 hours passing, gaining the healing benefits of a full night's rest, as well as the elapse of any afflictions or spells with day-long intervals. However, for any afflictions or spells with intervals measured in shorter periods of time, only one of those intervals passes for every minute spent within the paradise. This means that at the end of a minute, a creature can attempt a saving throw against a disease whose interval is 1 day, a poison whose interval is 1 minute, and a harmful spell that allows a saving throw each round. Each saving throw attempted while within the paradise gains a +4 status bonus.</p>\n<p>You and your allies can act normally while within the paradise and can use the time to cast spells, Refocus, or perform other exploration activities that take less than 10 minutes. When the spell ends, you and all other targets depart the paradise, returning through the mists to your previous locations or in the nearest unoccupied spaces. You can Dismiss this spell.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "10 minutes"
+      },
+      "level": {
+        "value": 8
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "30 feet"
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": "you and up to 6 willing creatures"
+      },
+      "time": {
+        "value": "1 minute"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "arcane",
+          "divine",
+          "occult",
+          "primal"
+        ],
+        "value": [
+          "concentrate",
+          "exploration",
+          "extradimensional",
+          "healing"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "s3LISC5Z55urpBgU",
     "img": "systems/pf2e/icons/spells/path-of-least-resistance.webp",
     "name": "Path of Least Resistance",
@@ -61516,6 +63085,61 @@
           "concentrate",
           "darkness",
           "manipulate"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "QlivnxstGjlzaluf",
+    "img": "icons/magic/perception/eye-ringed-green.webp",
+    "name": "Perceive the Threads of Fate",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You open your mind to the grand design of existence, enabling you to view the threads of fate in all their complex, tangled glory. You attempt Perception checks and Reflex saving throws at mythic proficiency for the duration.</p>\n<p>You can Sustain the spell once per round to untangle these threads. When you do, if your next action requires you to attempt an attack roll or skill check, you roll this check twice and use the higher result. You can untangle the threads of fate up to three times. After the third time, the spell ends.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "1 minute"
+      },
+      "level": {
+        "value": 3
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "1"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "arcane",
+          "divine",
+          "occult"
+        ],
+        "value": [
+          "concentrate",
+          "fortune",
+          "mythic",
+          "prediction"
         ]
       }
     },
@@ -68158,6 +69782,89 @@
     "type": "spell"
   },
   {
+    "_id": "hYK4ByCVN1ALc5gR",
+    "img": "systems/pf2e/icons/spells/prismatic-armor.webp",
+    "name": "Rainbow's End",
+    "system": {
+      "area": {
+        "type": "burst",
+        "value": 10
+      },
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {
+        "qtPQ1T5es9FyI0PA": {
+          "applyMod": false,
+          "category": null,
+          "formula": "1d4",
+          "kinds": [
+            "damage"
+          ],
+          "materials": [],
+          "type": "spirit"
+        }
+      },
+      "defense": {
+        "save": {
+          "basic": true,
+          "statistic": "fortitude"
+        }
+      },
+      "description": {
+        "value": "<p>You reach upward to wrest down a rainbow and harness its power to connect this world to the heavens. Each creature in the area takes 1d4 spirit damage with a basic Fortitude save. Any creature that fails this save is additionally @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round. For the spell's duration, an ally who's adjacent to you can Interact and be instantly teleported to an unoccupied space in the spell's area, as long as they don't travel more than 60 feet. This effect has the teleportation trait.</p><hr /><p><strong>Heightened (+2)</strong> The damage increases by 2d4, the duration of the dazzled condition on a failed save increases by 1 round, and the maximum distance an ally can use the rainbow to teleport increases by 10 feet.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "sustained up to 1 minute"
+      },
+      "heightening": {
+        "damage": {
+          "qtPQ1T5es9FyI0PA": "2d4"
+        },
+        "interval": 2,
+        "type": "interval"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "60 feet"
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "2"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "arcane",
+          "divine",
+          "primal",
+          "occult"
+        ],
+        "value": [
+          "concentrate",
+          "light",
+          "manipulate",
+          "mythic",
+          "spirit"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "IkGYwHRLhkuoGReG",
     "img": "systems/pf2e/icons/spells/raise-dead.webp",
     "name": "Raise Dead",
@@ -71986,6 +73693,56 @@
     "type": "spell"
   },
   {
+    "_id": "ew4ToaTU3o8ahKio",
+    "img": "icons/magic/water/wave-water-teal.webp",
+    "name": "River Carving Mountains",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>Your apparition solidifies around you into roaring water and spraying mist. For the duration of this spell, you have lesser cover against ranged attacks and gain a +10-foot status bonus to each Speed you have. When you first cast this spell and each time you Sustain it, you can Stride up to your speed while your apparition fills each square you pass through with the lingering energy of a coursing river. These squares become difficult terrain until the start of your next turn. You can use <em>river carving mountains</em> while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: River Carving Mountains]</p>"
+      },
+      "duration": {
+        "sustained": true,
+        "value": "1 minute"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "1"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "animist",
+          "focus",
+          "water"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "FSu6ZKxr3xdS75wq",
     "img": "systems/pf2e/icons/spells/roar-of-the-wyrm.webp",
     "name": "Roar of the Wyrm",
@@ -73224,7 +74981,7 @@
   },
   {
     "_id": "OsrtOeG0TvDNnEFH",
-    "img": "systems/pf2e/icons/spells/safeguard-secret.webp",
+    "img": "icons/commodities/treasure/token-runed-circle-green.webp",
     "name": "Safeguard Secret",
     "system": {
       "area": null,
@@ -74955,6 +76712,97 @@
         "traditions": [],
         "value": [
           "trial"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "DOBs5ALM1titPYxe",
+    "img": "icons/magic/unholy/orb-hands-pink.webp",
+    "name": "Seize Identity",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {
+        "iuhh6qfveXzz88dv": {
+          "applyMod": false,
+          "category": null,
+          "formula": "4d6",
+          "kinds": [
+            "damage"
+          ],
+          "materials": [],
+          "type": "mental"
+        }
+      },
+      "defense": {
+        "save": {
+          "basic": false,
+          "statistic": "will"
+        }
+      },
+      "description": {
+        "value": "<p>With a gleeful cackle, you seize an individual's voice and swallow it. For the duration, you look and sound like the target, and the target can't speak. The effects depend on the result of the target's Will saving throw.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> You take on the target's appearance, with the same effects of a 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Illusory Disguise] spell, and the target can't speak, with the same effects of a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Silence] spell.</p>\n<p><strong>Failure</strong> As success, but the target also takes 4d6 mental damage from the transformation.</p>\n<p><strong>Critical Failure</strong> As success, but the target also takes 8d6 mental damage from the transformation. The first time each round you Sustain this spell after you cast this spell, the target ages rapidly, taking @Damage[(ternary(gte(@item.rank,9),3,2))d8[void]] damage (@Check[will|basic] save). On a failure, the target also becomes @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} or increases the value of its enfeebled condition by 1.</p><hr /><p><strong>Heightened (9th)</strong> The mental damage increases by 4d6, and the void damage increases by 1d8.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "sustained up to 1 minute"
+      },
+      "heightening": {
+        "levels": {
+          "9": {
+            "damage": {
+              "iuhh6qfveXzz88dv": {
+                "applyMod": false,
+                "category": null,
+                "formula": "8d6",
+                "kinds": [
+                  "damage"
+                ],
+                "materials": [],
+                "type": "mental"
+              }
+            }
+          }
+        },
+        "type": "fixed"
+      },
+      "level": {
+        "value": 6
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "30 feet"
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": "1 intelligent creature"
+      },
+      "time": {
+        "value": "2"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "arcane",
+          "occult"
+        ],
+        "value": [
+          "concentrate",
+          "illusion",
+          "manipulate",
+          "mental",
+          "mythic",
+          "visual"
         ]
       }
     },
@@ -80800,6 +82648,59 @@
     "type": "spell"
   },
   {
+    "_id": "XIgvCPaSy5WXStVD",
+    "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+    "name": "Spellsurge",
+    "system": {
+      "area": {
+        "type": "emanation",
+        "value": 10
+      },
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>Magic surges to life around you, feeding on the raw power you radiate. Choose one of the following abilities to affect creatures in your aura. You can choose a different effect, ending the previous one, by Sustaining the spell. You can Dismiss the aura.</p><ul><li><strong>Interference</strong> The excess magic surrounding you creates a mental static. All saving throws against mental effects gain a +2 circumstance bonus.</li><li><strong>Mana</strong> Well You become a source of pure magic that allows spells to be cast more freely. Allied creatures that would normally be required to attempt a flat check to Cast a Spell (such as from the stupefied condition) automatically succeed.</li><li><strong>Overpower</strong> Resistance Surging magic penetrates most defenses. Any time a spell affects a creature within the aura, that spell ignores an amount of the creature's resistance equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell. This doesn't cause the spell to ignore immunities.</li><li><strong>Ward</strong> Stray magical energy diffuses damaging spells. Any time a spell affects a creature within the aura, the damage dealt by the spell is reduced by an amount equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell.</li></ul>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "1 minute"
+      },
+      "level": {
+        "value": 6
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "2"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "archetype",
+          "concentrate",
+          "mythic"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "8Umt1AzYfFbC4fui",
     "img": "systems/pf2e/icons/spells/spellwrack.webp",
     "name": "Spellwrack",
@@ -83445,6 +85346,55 @@
     "type": "spell"
   },
   {
+    "_id": "FZMVLL7HvasjiM6D",
+    "img": "icons/magic/time/hourglass-brown-orange.webp",
+    "name": "Store Time",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You store time for later use. When you Cast this Spell and the first time you Sustain it each round, you gain a bonus reaction that you can use for any animist or apparition reaction you have. As normal, this reaction is lost if you do not use it before you regain your actions at the start of your next turn.</p>"
+      },
+      "duration": {
+        "sustained": true,
+        "value": "1 minute"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "1"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "animist",
+          "focus"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "XYhU3Wi94n1RKxTa",
     "img": "systems/pf2e/icons/spells/storm-lord.webp",
     "name": "Storm Lord",
@@ -84675,7 +86625,7 @@
       "damage": {},
       "defense": null,
       "description": {
-        "value": "<p>You summon a creature that has the animal trait and whose level is –1 to fight for you.</p>\n<hr />\n<p><strong>Heightened</strong> As listed in the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.8gcp880pEWZ9VPnF]{summon} trait.</p>"
+        "value": "<p>You summon a creature that has the animal trait and whose level is –1 to fight for you.</p><hr /><p><strong>Heightened</strong> As listed in the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.8gcp880pEWZ9VPnF]{summon} trait.</p>"
       },
       "duration": {
         "sustained": true,
@@ -85767,6 +87717,60 @@
           "concentrate",
           "manipulate",
           "summon"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "Ywe64VHwcBOAWBtq",
+    "img": "systems/pf2e/icons/spells/elephant-form.webp",
+    "name": "Summon Oliphaunt of Jandelay",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You briefly summon the mythical Oliphaunt of Jandelay, unleashing a manifestation of pure destruction that obliterates everything unfortunate enough to stand in its path. The summoned Oliphaunt occupies the space of a Gargantuan creature. It has a Speed of 200 feet.</p>\n<p><strong>Arrive</strong> <em>(force) Devastating Displacement</em> Using hidden magics and long-lost techniques, you conjure an immense gate to Jandelay, compelling the Oliphaunt to step through. The Oliphaunt arrives in a @Template[type:burst|distance:60]. Each creature in the area takes @Damage[8d10[force]] damage (basic Reflex save). On a failure, the creature is also pushed 60 feet away from the Oliphaunt.</p>\n<p><strong>Depart</strong> <em>Annihilating Trample</em> The Oliphaunt becomes aware that it has been summoned to a world that isn't on the verge of annihilation. It summons another enormous gate to Jandelay 200 feet in front of it. The Oliphaunt then rages forward through the gate, crushing everything in its path, before closing the gate behind it and disappearing. The Oliphaunt creates an @Template[line|distance:200|width:80]{80-foot-wide path of devastation} that extends 200 feet. Each creature and vehicle in the area takes @Damage[8d8[bludgeoning]] damage (basic Fortitude save). A creature or vehicle reduced to 0 Hit Points is smashed into fine powder; its gear, passengers, and cargo remain. An unattended object in the area is destroyed unless it succeeds at a Fortitude save, regardless of Hardness, or unless it's an artifact or similarly hard to destroy. This trample automatically destroys any force effect, such as a wall of force.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "until the end of your next turn"
+      },
+      "level": {
+        "value": 10
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "500 feet"
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "2"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "arcane",
+          "occult"
+        ],
+        "value": [
+          "concentrate",
+          "incarnate",
+          "manipulate",
+          "mythic"
         ]
       }
     },
@@ -92066,6 +94070,59 @@
     "type": "spell"
   },
   {
+    "_id": "dk3XIx0ExDRMcN5z",
+    "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+    "name": "Travel by Turtle",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You conjure an intelligent sea turtle, who agrees to carry you upon its shell on a water journey. This turtle must be conjured into a large body of water within range, such as a lake or broad river. The turtle conjured is Large, is capable of carrying one Medium creature or up to four Small creatures, and has a swim Speed of 30 feet. The turtle doesn't engage in combat and doesn't put itself intentionally into harm's way, but it does convey you to a destination of your choice and follows your suggestions. The turtle otherwise functions as a boat, save that it controls itself and doesn't need to be piloted.</p><hr /><p><strong>Heightened (5th)</strong> The turtle's size increases to Huge, making it capable of carrying one Large creature, up to four Medium creatures, or up to 16 Small creatures. Its swim Speed increases to 40 feet, and the duration increases to 1 day.</p>\n<p><strong>Heightened (7th)</strong> The turtle's size increases to Gargantuan, making it capable of carrying one Huge creature, up to four Large creatures, up to 16 Medium creatures, or up to 32 Small creatures. Its swim Speed increases to 50 feet, and the duration increases to 1 week.</p>\n<p><strong>Heightened (9th)</strong> The turtle's size increases to Gargantuan, making it capable of carrying two Huge creatures, up to eight Large creatures, up to 32 Medium creatures, or up to 64 Small creatures. Its swim Speed increases to 60 feet, and the duration increases to 1 month.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "1 hour"
+      },
+      "level": {
+        "value": 3
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "60 feet"
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "3"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "arcane",
+          "primal"
+        ],
+        "value": [
+          "concentrate",
+          "manipulate",
+          "mythic"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "LrhTFHUtSS9ahogL",
     "img": "systems/pf2e/icons/spells/travelers-transit.webp",
     "name": "Traveler's Transit",
@@ -92109,6 +94166,56 @@
         "value": [
           "cleric",
           "concentrate",
+          "focus",
+          "manipulate"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "rzcXUF5YmJYxgxEa",
+    "img": "icons/skills/trades/construction-carpentry-hammer.webp",
+    "name": "Traveling Workshop",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>Your apparition guides you through complex procedures while using your magic to provide you with whatever tools you need. For the duration of this spell, you are trained in Crafting and Thievery. When you Cast the Spell and as long as you Sustain it, your apparition provides you with an array of simple tools, granting you use of an alchemist's toolkit, a repair kit, and a thieves' toolkit; these tools are made of ephemeral magic and disappear if they leave your possession.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Traveling Workshop]</p>\n<p>You can cast this spell as an exploration or downtime activity with a casting time of 10 minutes; when you do, its duration increases to 8 hours (enough to complete 1 day of work), and you also gain an alchemist's lab and functioning forge. You are always treated as having spent a day of work setting up when using this spell to help you Craft an item and have whatever materials you need to Repair an item in your possession. You can't use a traveling workshop to @UUID[Compendium.pf2e.actionspf2e.Item.Earn Income] and any item you Craft using it disappears moments after it leaves your possession, making it unwise to Craft anything other than consumable items you intend to use yourself. A crafter in the vault is extremely proud of work you do together when using the spell in this way and demands to see the results of your work together. When you cast traveling workshop as an exploration or downtime activity, you must continue to choose crafter in the vault as one of your attuned apparitions during your next daily preparations until such time as you've used any Crafted items in combat.</p><hr /><p><strong>Heightened (3rd)</strong> Your proficiency in Crafting and Thievery is expert.</p>\n<p><strong>Heightened (5th)</strong> Your proficiency in Crafting and Thievery is master.</p>\n<p><strong>Heightened (9th)</strong> Your proficiency in Crafting and Thievery is legendary.</p>"
+      },
+      "duration": {
+        "sustained": true,
+        "value": "1 minute, or 8 hours"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "1"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "animist",
           "focus",
           "manipulate"
         ]
@@ -92279,6 +94386,138 @@
           "concentrate",
           "earth",
           "manipulate"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "2wT21v3NjLXdmE5W",
+    "img": "icons/commodities/materials/feather-blue-green.webp",
+    "name": "Trickster's Feathers",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You conjure four magic feathers, each with the potential to hold a single illusory guise. These feathers have negligible Bulk and remain potent for the duration. As an Interact action, you can place one of these feathers into your hair or cap, or remove an already donned feather. When worn in this way, the feather causes you to appear as another creature of the same body shape, and with roughly similar height (within 6 inches) and weight (within 50 pounds), as yourself. The disguise is typically good enough to hide your identity but not to impersonate a specific individual. This disguise also changes your voice and scent, but it doesn't disguise your mannerisms or behavior. You can change the appearance of your clothing and worn items, such as making your armor look like a dress. Held items are unaffected, and any worn item you remove returns to its true appearance.</p>\n<p>When you don a feather for the first time, you determine the illusory appearance that feather grants you, selecting the ancestry, age, gender, attire, and other visual features. For the duration, this feather is linked to that disguise. Wearing it in your hair or hat always imparts the linked appearance. Selecting a feather's appearance for the first time counts as setting up a disguise for the @UUID[Compendium.pf2e.actionspf2e.Item.Impersonate] use of Deception; attempt this Deception check at mythic proficiency.</p>\n<p>You can only wear one feather at a time. When you remove a feather, you revert to your true appearance. If you give a feather to another creature, it can no longer impart a disguise.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "24 hours"
+      },
+      "level": {
+        "value": 4
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "2"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [
+          "arcane",
+          "divine",
+          "occult",
+          "primal"
+        ],
+        "value": [
+          "concentrate",
+          "illusion",
+          "manipulate",
+          "mythic",
+          "visual"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "cuKVbWWNzJj1GDpZ",
+    "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+    "name": "Trickster's Mirrors",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {
+        "QNagy8JdZerltPIt": {
+          "applyMod": false,
+          "category": null,
+          "formula": "1d4",
+          "kinds": [
+            "damage"
+          ],
+          "materials": [],
+          "type": "mental"
+        }
+      },
+      "defense": {
+        "save": {
+          "basic": true,
+          "statistic": "will"
+        }
+      },
+      "description": {
+        "value": "<p>You are surrounded by up to 3 mirrors that reflect twisted and distorted images of you, making it hard to tell where you actually are within your space and potentially causing those who attack you to hit one of the mirrors instead. You start with 1 mirror and gain an additional mirror each time you Sustain this spell, up to a maximum of 3 mirrors. Any attack that would hit you has a random chance of hitting one of your mirrors instead of you. With one mirror, the chances are 1 in 2 (1–3 on 1d6). With two mirrors, there is a 1 in 3 chance of hitting you (1–2 on 1d6). With three mirrors, there is a 1 in 4 chance of hitting you (1 on 1d4).</p>\n<p>Once an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys a mirror. If the attacker was within 5 feet, they must succeed at a basic Will save or take 1d4 mental damage as they believe themselves cut by a shower of glass shards from the breaking mirror. A damaging effect that affects all targets within your space (such as @UUID[Compendium.pf2e.spells-srd.Item.Caustic Blast]) destroys all of the mirrors.</p><hr /><p><strong>Heightened (+1)</strong> The mental damage dealt by a broken mirror increases by 1d4.</p>"
+      },
+      "duration": {
+        "sustained": true,
+        "value": "1 minute"
+      },
+      "heightening": {
+        "damage": {
+          "QNagy8JdZerltPIt": "1d4"
+        },
+        "interval": 1,
+        "type": "interval"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": ""
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "1"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "animist",
+          "focus",
+          "illusion",
+          "mental",
+          "visual"
         ]
       }
     },
@@ -92783,6 +95022,64 @@
           "manipulate",
           "mental",
           "shadow"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "XhfsRLfQjN3ed1zI",
+    "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+    "name": "Unbearable Cacophony",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": "valuable crystals and tuning forks worth 300 gp"
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You amplify the sound of every item and creature to impossible levels. Deaf creatures and creatures immune to sonic damage remain unaffected in most cases.</p><hr /><p><strong>Critical Success</strong> As success, and you and the secondary casters gain sonic resistance equal to your level for the duration.</p>\n<p><strong>Success</strong> Any sound produced by a creature or object (such as a cricket, a ringing anvil, or a lion's roar) deals sonic damage equal to the level of the creature or item (minimum 1) to every creature within 15 feet (basic Fortitude save with a DC equal to the ritual's casting DC). For every size category over Tiny of the item or creature making noise, this damage increases by 2. Organized groups of creatures, such as a singing quartet or a swarm of insects, count as the next size category larger for this effect. Effects that normally deal sonic damage to creatures and objects ignore half the creature or object's sonic resistance or Hardness.</p>\n<p><strong>Failure</strong> The ritual has no effect.</p>\n<p><strong>Critical Failure</strong> An intense sound of ringing echoes in each caster's ears, imparting a weakness to sonic damage equal to their level for 1 day.</p><hr /><p><strong>Heightened (+2)</strong> The increase in damage made by creatures larger than Tiny increases to 6 per size category.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "3 days"
+      },
+      "level": {
+        "value": 7
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "1-mile radius circle centered on you"
+      },
+      "requirements": "",
+      "ritual": {
+        "primary": {
+          "check": " Performance (mythic)"
+        },
+        "secondary": {
+          "casters": 2,
+          "checks": "Arcana, Nature"
+        }
+      },
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "1 day"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "curse",
+          "mythic"
         ]
       }
     },
@@ -93727,7 +96024,7 @@
       "damage": {},
       "defense": null,
       "description": {
-        "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Escape] an effect that has them @UUID[Compendium.pf2e.conditionitems.Item.Immobilized], @UUID[Compendium.pf2e.conditionitems.Item.Grabbed], or @UUID[Compendium.pf2e.conditionitems.Item.Restrained], they automatically succeed unless the effect is magical and of a higher rank than the <em>unfettered movement</em> spell.</p>"
+        "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Escape] an effect that has them @UUID[Compendium.pf2e.conditionitems.Item.Immobilized], @UUID[Compendium.pf2e.conditionitems.Item.Grabbed], or @UUID[Compendium.pf2e.conditionitems.Item.Restrained], they automatically succeed unless the effect is magical and of a higher rank than the <em>unfettered movement</em> spell.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Unfettered Movement]</p>"
       },
       "duration": {
         "sustained": false,
@@ -96267,6 +98564,134 @@
     "type": "spell"
   },
   {
+    "_id": "VMABZdZyplCKTAAP",
+    "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
+    "name": "Vindicator's Judgment",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": {
+        "save": {
+          "basic": false,
+          "statistic": "fortitude"
+        }
+      },
+      "description": {
+        "value": "<p>You pronounce a terrible judgment upon your quarry that causes all of your attacks and divine spells to strike with deadly efficacy. The target takes extra damage from your attacks, depending on the result of its Fortitude save. The spell ends immediately if the target is no longer your hunted prey.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target has weakness 5 to the next Strike you make against it or damaging divine spell you cast that includes it as a target before the end of your next turn.</p>\n<p><strong>Failure</strong> The target has weakness 5 to all Strikes you make against it or damaging divine spells you cast that includes it as a target for the duration of the spell.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against the first Strike or divine spell attack you make against it each round for the duration of the spell.</p><hr /><p><strong>Heightened (7th)</strong> The weakness is 10.</p>\n<p><strong>Heightened (9th)</strong> The weakness is 15.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "1 minute"
+      },
+      "level": {
+        "value": 5
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "60 feet"
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": "your hunted prey"
+      },
+      "time": {
+        "value": "1"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "focus",
+          "manipulate"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "LegaamqrflbArbWN",
+    "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+    "name": "Vindicator's Mark",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {
+        "bZO38UWAu6Smc087": {
+          "applyMod": false,
+          "category": null,
+          "formula": "2d4",
+          "kinds": [
+            "damage"
+          ],
+          "materials": [],
+          "type": "spirit"
+        }
+      },
+      "defense": {
+        "passive": {
+          "statistic": "ac"
+        },
+        "save": null
+      },
+      "description": {
+        "value": "<p>You launch a magical dart at your hunted prey, which marks them with a nimbus only you can detect. Make a spell attack against the target. On a hit, you deal 2d4 spirit damage and the target is marked by a glowing nimbus of energy that only you can see. For the duration of your spell, the marked target takes an additional +2 damage from all your weapon or unarmed attacks. @UUID[Compendium.pf2e.conditionitems.Item.Invisible] targets marked by your <em>vindicator's mark</em> are @UUID[Compendium.pf2e.conditionitems.Item.Concealed] to you, rather than @UUID[Compendium.pf2e.conditionitems.Item.Undetected].</p>\n<p>You can Dismiss the spell on your turn if your last action dealt damage to the target with a weapon or unarmed attack, instantly dealing an additional @Damage[(ceil(@item.rank/2)+1)d6[spirit]] damage to it.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Vindicator's Mark]</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 2d4, the additional damage you deal increases by 1, and the damage dealt when the spell is Dismissed increases by 1d6.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "1 minute"
+      },
+      "heightening": {
+        "damage": {
+          "bZO38UWAu6Smc087": "2d4"
+        },
+        "interval": 2,
+        "type": "interval"
+      },
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "60 feet"
+      },
+      "requirements": "",
+      "rules": [],
+      "target": {
+        "value": "your hunted prey"
+      },
+      "time": {
+        "value": "2"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "attack",
+          "focus",
+          "manipulate",
+          "sanctified"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
     "_id": "jqb52wy7A0Eqwuzx",
     "img": "icons/magic/nature/elemental-plant-humanoid.webp",
     "name": "Vision of Beauty",
@@ -96928,6 +99353,65 @@
           "air",
           "concentrate",
           "manipulate"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "NjK0kWRC6FYsPwXC",
+    "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+    "name": "Void Harvest",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>The sky darkens over the affected area and the air becomes oppressive as you open a direct conduit to the Void, a plane of vast nothingness. Living creatures start to feel their life force draining away as the terror of oblivion begins to grip their hearts.</p>\n<p>Each year on the anniversary of the ritual's casting, a total of four casters can spend 1 hour at the center of the affected area to sustain the effect. To do so, one caster must spend 1 Mythic Point and succeed at a Religion check against the ritual's casting DC. Each year the ritual is successfully sustained, the radius increases from its original point by 1 mile. The effect fades away if the check fails or if there are no other attempts to sustain the ritual.</p><hr /><p><strong>Critical Success</strong> As success, but living creatures in the area take a –2 status penalty to saves against death effects or effects that deal void damage.</p>\n<p><strong>Success</strong> The first time each day a living creature in the area takes damage, it must succeed at a Will save with a DC equal to the ritual's casting DC or gain the @UUID[Compendium.pf2e.conditionitems.Item.Doomed]{Doomed 1} condition; if it already has the doomed condition, it instead increases the value of it by 1. Dead creatures can't be raised or resurrected so long as their body remains in the ritual's area. Undead creatures gain vitality resistance equal to their level while in the area.</p>\n<p><strong>Failure</strong> The ritual has no effect.</p>\n<p><strong>Critical Failure</strong> An explosion of energy from the Void washes over the casters. Each caster becomes @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 4}. This condition can't be removed for 1 week.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "1 year"
+      },
+      "level": {
+        "value": 9
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "1-mile radius circle centered on you"
+      },
+      "requirements": "",
+      "ritual": {
+        "primary": {
+          "check": "Religion (mythic)"
+        },
+        "secondary": {
+          "casters": 3,
+          "checks": "Medicine (master), Occultism, Void Lore"
+        }
+      },
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "8 hours"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [],
+        "value": [
+          "curse",
+          "mythic",
+          "void"
         ]
       }
     },
@@ -99330,7 +101814,7 @@
   },
   {
     "_id": "8M03UxGXjYyDFAoy",
-    "img": "systems/pf2e/icons/spells/weapon-storm.webp",
+    "img": "icons/skills/melee/spear-tips-three-purple.webp",
     "name": "Weapon Storm",
     "system": {
       "area": null,
@@ -100330,6 +102814,66 @@
         "traditions": [],
         "value": [
           "trial"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "5y3RlXMDPovOmrhp",
+    "img": "icons/magic/nature/plant-venus-flytrap-blood.webp",
+    "name": "Wild Feast",
+    "system": {
+      "area": {
+        "type": "burst",
+        "value": 500
+      },
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>You draw forth latent hostility in the local flora and fauna. Even domesticated animals might turn on their owners.</p><hr /><p><strong>Critical Success</strong> As success, except that animal companions, pets, familiars with the animal, fungus, or plant trait, and similar creatures (subject to the GM's discretion) are also initially affected. Each day for the duration, during daily preparations, its master must succeed at a @Check[diplomacy] or @Check[nature] check against a DC equal to the ritual's casting DC or the creature temporarily loses the minion trait and can't be Commanded that day. The creature remains near its master but doesn't help them in any way.</p>\n<p><strong>Success</strong> Carnivorous animals and plants in the area are automatically hostile toward humanoids and other natural enemies. Animal companions, pets, familiars with the animal, fungus, or plant trait, and similar creatures don't turn on their masters, but attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Command an Animal] or to @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize] any creatures with the animal, fungus, or plant trait take a –2 status penalty.</p>\n<p><strong>Failure</strong> The ritual has no effect.</p>\n<p><strong>Critical Failure</strong> A terrible hunger awakens within the casters. Each caster is permanently cursed to hunger for the taste of flesh of their own ancestry; this is identical to the ghoul's forbidden cravings curse, except the raw meat must be from a member of their own ancestry. The DC of this curse is equal to the ritual's casting DC.</p><hr /><p><strong>Heightened (+2)</strong> Double the ritual's area.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "3 days"
+      },
+      "level": {
+        "value": 4
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "centered on you"
+      },
+      "requirements": "",
+      "ritual": {
+        "primary": {
+          "check": "Nature (mythic)"
+        },
+        "secondary": {
+          "casters": 2,
+          "checks": "Diplomacy, Survival"
+        }
+      },
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "8 hours"
+      },
+      "traits": {
+        "rarity": "rare",
+        "traditions": [],
+        "value": [
+          "mythic"
         ]
       }
     },
@@ -101405,6 +103949,64 @@
           "concentrate",
           "focus",
           "manipulate"
+        ]
+      }
+    },
+    "type": "spell"
+  },
+  {
+    "_id": "bODHqeXoEc8GVU6a",
+    "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+    "name": "World in Shadow",
+    "system": {
+      "area": null,
+      "cost": {
+        "value": ""
+      },
+      "counteraction": false,
+      "damage": {},
+      "defense": null,
+      "description": {
+        "value": "<p>This ritual must be cast at night, at which point darkness becomes everlasting. Casters with darkvision gain a +1 circumstance bonus to their check to cast the ritual.</p><hr /><p><strong>Critical Success</strong> As success, except that all light levels within the area are lowered by two steps toward darkness, and light effects that would counteract the darkness take a –2 status penalty to their counteract checks.</p>\n<p><strong>Success</strong> All light levels within the area are lowered by one step toward darkness. Areas that are already dark become magical darkness. Light effects that would counteract the darkness only do so in the area of the counteracting spell or effect (for example, 40 feet for a @UUID[Compendium.pf2e.spells-srd.Item.Light] spell).</p>\n<p><strong>Failure</strong> The ritual has no effect.</p>\n<p><strong>Critical Failure</strong> The casters are all plunged into their own personal darknesses. For 1 week, each caster can see no farther than 5 feet regardless of ambient light level. Anything beyond that distance is treated as if it were in magical darkness that can't be counteracted; darkvision and greater darkvision similarly can't penetrate this darkness.</p>"
+      },
+      "duration": {
+        "sustained": false,
+        "value": "5 days"
+      },
+      "level": {
+        "value": 5
+      },
+      "publication": {
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder War of Immortals"
+      },
+      "range": {
+        "value": "8-mile radius circle centered on you"
+      },
+      "requirements": "",
+      "ritual": {
+        "primary": {
+          "check": "Arcana (mythic), Nature (mythic), or Occultism (mythic), Religion (mythic)"
+        },
+        "secondary": {
+          "casters": 3,
+          "checks": "Arcana, Nature, Occultism, Religion (cannot be the same skill as for the primary check)"
+        }
+      },
+      "rules": [],
+      "target": {
+        "value": ""
+      },
+      "time": {
+        "value": "8 hours"
+      },
+      "traits": {
+        "rarity": "uncommon",
+        "traditions": [],
+        "value": [
+          "darkness",
+          "mythic"
         ]
       }
     },

@@ -4686,7 +4686,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Requirements</strong> The corpseroot has a creature Grabbed or Restrained</p>\n<hr />\n<p><strong>Effect</strong> The corpseroot buries its roots into the creature, dealing @Damage[(1d6+11)[piercing]] damage and draining the target's life force (DC 30  Basic  Fortitude). On a failure, the creature is Drained 1 (or increases the value by 1 if already drained), and the corpseroot regains [[/r 10[healing]]]{10 HP}. If this would make a creature drained 5, the creature dies.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Requirements</strong> The corpseroot has a creature Grabbed or Restrained</p>\n<hr />\n<p><strong>Effect</strong> The corpseroot buries its roots into the creature, dealing @Damage[(1d6+11)[piercing]] damage and draining the target's life force (DC 30  Basic  Fortitude). On a failure, the creature is Drained 1 (or increases the value by 1 if already drained), and the corpseroot regains @Damage[10[healing]] HP. If this would make a creature drained 5, the creature dies.</p>"
           },
           "frequency": {
             "max": 1,
@@ -5473,7 +5473,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.spells-srd.Item.nplNt08TvokZUxtR"
         },
-        "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+        "img": "icons/commodities/bones/skull-hollow-worn-blue.webp",
         "name": "Agonizing Despair",
         "sort": 300000,
         "system": {
@@ -17327,7 +17327,7 @@
             },
             {
               "definition": [
-                "item:spiked-chain"
+                "item:slug:spiked-chain"
               ],
               "key": "AdjustStrike",
               "mode": "add",
@@ -23452,7 +23452,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>freedom of movement</em> spell.</p>\n<p>Spell Effect: Freedom of Movement</p>"
           },
           "duration": {
             "sustained": false,
@@ -25348,7 +25348,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>freedom of movement</em> spell.</p>\n<p>Spell Effect: Freedom of Movement</p>"
           },
           "duration": {
             "sustained": false,
@@ -34497,7 +34497,7 @@
             },
             {
               "definition": [
-                "item:claw"
+                "item:slug:claw"
               ],
               "key": "AdjustStrike",
               "mode": "add",
@@ -35931,7 +35931,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>freedom of movement</em> spell.</p>\n<p>Spell Effect: Freedom of Movement</p>"
           },
           "duration": {
             "sustained": false,
@@ -55666,7 +55666,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>freedom of movement</em> spell.</p>\n<p>Spell Effect: Freedom of Movement</p>"
           },
           "duration": {
             "sustained": false,
@@ -59020,6 +59020,7 @@
           "counteraction": false,
           "damage": {
             "0": {
+              "applyMod": false,
               "category": null,
               "formula": "2d12",
               "kinds": [
@@ -59031,7 +59032,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You shroud your hands in a crackling field of lightning. Make a melee spell attack roll. On a hit, the target takes 2d12 electricity damage. If the target is wearing metal armor or is made of metal, you gain a +1 circumstance bonus to your attack roll with shocking grasp, and the target also takes 1d4 persistent electricity damage on a hit. On a critical hit, double the initial damage, but not the persistent damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d12, and the persistent electricity damage increases by 1.</p>\n<p>[[/r (1d4+(@item.level)-1)[persistent,electricity]]]{Leveled Persistent Electricity Damage}</p>"
+            "value": "<p>You shroud your hands in a crackling field of lightning. Make a melee spell attack roll. On a hit, the target takes 2d12 electricity damage. If the target is wearing metal armor or is made of metal, you gain a +1 circumstance bonus to your attack roll with shocking grasp, and the target also takes @Damage[(1d4+((@item.level)-1))[persistent,electricity]] damage on a hit. On a critical hit, double the initial damage, but not the persistent damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d12, and the persistent electricity damage increases by 1.</p>"
           },
           "duration": {
             "sustained": false,
@@ -69555,7 +69556,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> A Grabbed, Paralyzed, Restrained, Unconscious, or willing creature is within the vetalarana's reach</p>\n<hr />\n<p><strong>Effect</strong> The vetalarana seizes a creature and consumes its memories. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is Stupefied 1, and the vetalarana regains [[/r 10[healing]]]{10 HP}, gaining any excess as temporary Hit Points. Draining Thoughts from a creature that is already stupefied doesn't restore any HP to the vetalarana but increases the victim's stupefied value by 1. Additionally, the vetalarana views one of the victim's memories.</p>\n<p>A victim's stupefied condition value decreases by 1 every week.</p>\n<p>A victim that becomes stupefied 5 in this way is rendered comatose, becoming permanently Unconscious. As long as the vetalarana lives, a comatose victim can't regain consciousness, and its stupefied condition doesn't decrease.</p>"
+            "value": "<p><strong>Requirements</strong> A Grabbed, Paralyzed, Restrained, Unconscious, or willing creature is within the vetalarana's reach</p>\n<hr />\n<p><strong>Effect</strong> The vetalarana seizes a creature and consumes its memories. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is Stupefied 1, and the vetalarana regains @Damage[10[healing]] HP, gaining any excess as temporary Hit Points. Draining Thoughts from a creature that is already stupefied doesn't restore any HP to the vetalarana but increases the victim's stupefied value by 1. Additionally, the vetalarana views one of the victim's memories.</p>\n<p>A victim's stupefied condition value decreases by 1 every week.</p>\n<p>A victim that becomes stupefied 5 in this way is rendered comatose, becoming permanently Unconscious. As long as the vetalarana lives, a comatose victim can't regain consciousness, and its stupefied condition doesn't decrease.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -70604,7 +70605,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.spells-srd.Item.nplNt08TvokZUxtR"
         },
-        "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+        "img": "icons/commodities/bones/skull-hollow-worn-blue.webp",
         "name": "Agonizing Despair",
         "sort": 1200000,
         "system": {

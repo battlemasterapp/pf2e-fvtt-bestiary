@@ -5450,7 +5450,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.spells-srd.Item.8M03UxGXjYyDFAoy"
         },
-        "img": "systems/pf2e/icons/spells/weapon-storm.webp",
+        "img": "icons/skills/melee/spear-tips-three-purple.webp",
         "name": "Weapon Storm",
         "sort": 400000,
         "system": {
@@ -11331,7 +11331,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature approaches within 10 feet of the polar bear spirit</p>\n<hr />\n<p><strong>Effect</strong> The polar bear spirit roars. Each creature in the room must attempt a DC 28  Will save. The enraged polar bear spirit rolls initiative.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected. Success The creature is Frightened 1.</p>\n<p><strong>Failure</strong> The creature takes 6d6 sonic damage and is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The creature takes 12d6 sonic damage and is Frightened 3.</p>"
+            "value": "<p><strong>Trigger</strong> A creature approaches within 10 feet of the polar bear spirit</p><hr /><p><strong>Effect</strong> The polar bear spirit roars. Each creature in the room must attempt a DC 28  Will save. The enraged polar bear spirit rolls initiative.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Frightened 1.</p>\n<p><strong>Failure</strong> The creature takes 6d6 sonic damage and is Frightened 2.</p>\n<p><strong>Critical Failure</strong> The creature takes 12d6 sonic damage and is Frightened 3.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -15777,7 +15777,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> The glacial worm would be affected by a condition or adverse effect (such as <em>baleful polymorph</em>)</p>\n<hr />\n<p><strong>Effect</strong> The glacial worm negates the triggering condition or effect.</p>\n<hr />\n<p><strong>Effect</strong> s from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> The glacial worm would be affected by a condition or adverse effect (such as <em>baleful polymorph</em>)</p><hr /><p><strong>Effect</strong> The glacial worm negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
           },
           "frequency": {
             "max": 1,
@@ -16303,7 +16303,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> The gray worm would be affected by a condition or adverse effect (such as Cursed Metamorphosis)</p>\n<hr />\n<p><strong>Effect</strong> The gray worm negates the triggering condition or effect.</p>\n<hr />\n<p><strong>Effect</strong> s from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> The gray worm would be affected by a condition or adverse effect (such as Cursed Metamorphosis)</p><hr /><p><strong>Effect</strong> The gray worm negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
           },
           "frequency": {
             "max": 1,
@@ -17846,7 +17846,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.spells-srd.Item.nplNt08TvokZUxtR"
         },
-        "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+        "img": "icons/commodities/bones/skull-hollow-worn-blue.webp",
         "name": "Agonizing Despair",
         "sort": 600000,
         "system": {
@@ -19158,7 +19158,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.equipment-srd.Item.vLGDUFrg4yGzpTQX"
         },
-        "img": "systems/pf2e/icons/equipment/adventuring-gear/repair-kit.webp",
+        "img": "icons/tools/smithing/anvil.webp",
         "name": "Repair Kit",
         "sort": 1100000,
         "system": {
@@ -22676,7 +22676,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher level than the freedom of movement spell.</p>"
+            "value": "<p>You repel effects that would hinder a creature or slow its movement. While under this spell's effect, the target ignores effects that would give them a circumstance penalty to Speed. When they attempt to Escape an effect that has them Immobilized, Grabbed, or Restrained, they automatically succeed unless the effect is magical and of a higher rank than the <em>freedom of movement</em> spell.</p>\n<p>Spell Effect: Freedom of Movement</p>"
           },
           "duration": {
             "sustained": false,
@@ -24985,7 +24985,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.spells-srd.Item.nplNt08TvokZUxtR"
         },
-        "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+        "img": "icons/commodities/bones/skull-hollow-worn-blue.webp",
         "name": "Agonizing Despair",
         "sort": 300000,
         "system": {
@@ -61715,6 +61715,7 @@
           "counteraction": false,
           "damage": {
             "0": {
+              "applyMod": false,
               "category": null,
               "formula": "2d12",
               "kinds": [
@@ -61726,7 +61727,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You shroud your hands in a crackling field of lightning. Make a melee spell attack roll. On a hit, the target takes 2d12 electricity damage. If the target is wearing metal armor or is made of metal, you gain a +1 circumstance bonus to your attack roll with shocking grasp, and the target also takes 1d4 persistent electricity damage on a hit. On a critical hit, double the initial damage, but not the persistent damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d12, and the persistent electricity damage increases by 1.</p>\n<p>[[/r (1d4+(@item.level)-1)[persistent,electricity]]]{Leveled Persistent Electricity Damage}</p>"
+            "value": "<p>You shroud your hands in a crackling field of lightning. Make a melee spell attack roll. On a hit, the target takes 2d12 electricity damage. If the target is wearing metal armor or is made of metal, you gain a +1 circumstance bonus to your attack roll with shocking grasp, and the target also takes @Damage[(1d4+((@item.level)-1))[persistent,electricity]] damage on a hit. On a critical hit, double the initial damage, but not the persistent damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d12, and the persistent electricity damage increases by 1.</p>"
           },
           "duration": {
             "sustained": false,
@@ -63014,7 +63015,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.spells-srd.Item.nplNt08TvokZUxtR"
         },
-        "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+        "img": "icons/commodities/bones/skull-hollow-worn-blue.webp",
         "name": "Agonizing Despair",
         "sort": 400000,
         "system": {
