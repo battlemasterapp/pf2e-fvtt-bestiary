@@ -193,9 +193,13 @@ func main() {
 		return
 	}
 
-	dirPath := "./bestiaries"
-	err = processDirectory(dirPath)
-	if err != nil {
-		fmt.Println("Error processing directory:", err)
+	dirs := []string{"./bestiaries", "./conditions"}
+
+	for _, dirPath := range dirs {
+		err = processDirectory(dirPath)
+		if err != nil {
+			fmt.Println("Error processing directory:", err)
+		}
 	}
+
 }
