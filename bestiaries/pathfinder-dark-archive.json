@@ -1734,7 +1734,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The Weaver would be reduced to 0 Hit Points</p>\n<hr />\n<p><strong>Effect</strong> The cocoon's vitality is linked to the Weaver's. It loses [[/r 30]] Hit Points, restoring [[/r 15[healing]]]{15 Hit Points} to the Weaver. It can use this ability even if it would otherwise be unable to act.</p>"
+            "value": "<p><strong>Trigger</strong> The Weaver would be reduced to 0 Hit Points</p>\n<hr />\n<p><strong>Effect</strong> The cocoon's vitality is linked to the Weaver's. It loses [[/r 30]] Hit Points, restoring @Damage[15[healing]] Hit Points to the Weaver. It can use this ability even if it would otherwise be unable to act.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6382,7 +6382,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The morrowkin inhales and draws forth the future deeds of all creatures around it. All creatures within a 30-foot emanation of the morrowkin take [[/r (6d8 + 18)[mental]]] damage and must attempt a DC 39  Will save.</p>\n<p>The morrowkin can't Swallow Future again for 1 minute.</p>\n<p>Creatures wearing hope talismans can choose to let their hope talisman break in order to ignore the effect after seeing the result of their Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature takes no damage.</p>\n<p><strong>Success</strong> The creature takes half damage and is Doomed 1.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Doomed 2.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and becomes Doomed 4 (likely causing it to die immediately).</p>"
+            "value": "<p>The morrowkin inhales and draws forth the future deeds of all creatures around it. All creatures within a 30-foot emanation of the morrowkin take @Damage[(6d8 + 18)[mental]] damage and must attempt a DC 39  Will save.</p>\n<p>The morrowkin can't Swallow Future again for 1 minute.</p>\n<p>Creatures wearing hope talismans can choose to let their hope talisman break in order to ignore the effect after seeing the result of their Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature takes no damage.</p>\n<p><strong>Success</strong> The creature takes half damage and is Doomed 1.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Doomed 2.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and becomes Doomed 4 (likely causing it to die immediately).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7287,7 +7287,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",

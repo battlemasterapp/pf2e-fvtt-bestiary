@@ -15383,7 +15383,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -16986,9 +16986,9 @@
         "type": "melee"
       },
       {
-        "_id": "uP8cy0HAno7CGoRL",
+        "_id": "pmcWL2CccDASnpnL",
         "_stats": {
-          "compendiumSource": "Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT"
+          "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O"
         },
         "img": "systems/pf2e/icons/actions/Reaction.webp",
         "name": "Attack of Opportunity",
@@ -17002,7 +17002,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p>You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>"
+            "value": "<p><p><strong>Trigger</strong> A creature within the monster's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p><strong>Effect</strong> The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn't count toward the monster's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -17630,7 +17630,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> A Grabbed, Paralyzed, Restrained, Unconscious, or willing creature is within the everburning mammoth's reach</p><hr /><p><strong>Effect</strong> The everburning mammoth tears into the creature with its jaws and gorges itself on the victim's blood. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is Drained 1, and the everburning mammoth regains [[/r 15[healing]]]{15 HP}, gaining any excess HP as temporary Hit Points. Drinking Blood from a creature that's already drained doesn't restore any HP to the everburning mammoth but increases the victim's drain value by 1.</p>"
+            "value": "<p><strong>Requirements</strong> A Grabbed, Paralyzed, Restrained, Unconscious, or willing creature is within the everburning mammoth's reach</p><hr /><p><strong>Effect</strong> The everburning mammoth tears into the creature with its jaws and gorges itself on the victim's blood. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is Drained 1, and the everburning mammoth regains @Damage[15[healing]] HP, gaining any excess HP as temporary Hit Points. Drinking Blood from a creature that's already drained doesn't restore any HP to the everburning mammoth but increases the victim's drain value by 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -26195,10 +26195,11 @@
             "type": "vitality"
           },
           "description": {
-            "value": "<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a healing potion, you regain [[/r (6d8+20)[healing]]]{6d8+20 Hit Points}.</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain @Damage[(6d8+20)[healing]] Hit Points.</p>"
           },
           "equipped": {
-            "carryType": "worn"
+            "carryType": "worn",
+            "handsHeld": 0
           },
           "hardness": 0,
           "hp": {
@@ -26218,9 +26219,9 @@
             }
           },
           "publication": {
-            "license": "OGL",
-            "remaster": false,
-            "title": "Pathfinder Core Rulebook"
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder GM Core"
           },
           "quantity": 1,
           "rules": [],
@@ -26977,6 +26978,7 @@
           "counteraction": false,
           "damage": {
             "0": {
+              "applyMod": false,
               "category": null,
               "formula": "2d6",
               "kinds": [
@@ -27172,7 +27174,7 @@
             }
           },
           "description": {
-            "value": "<p>You create a gray storm cloud that pelts creatures with an icy deluge. When you Cast the Spell, a burst of magical hail deals 2d8 bludgeoning damage and 2d8 cold damage to each creature in the area below the cloud (basic Reflex save). Snow and sleet continue to rain down in the area for the remainder of the spell's duration, making the area difficult terrain. Any creature that ends its turn in the storm takes [[/r (floor(@item.level/2))[cold]]] damage. If you Cast this Spell outdoors, you can create two non-overlapping clouds instead of one. As normal, if a Large or larger creature is in both clouds, it still only takes the initial damage once and the continuing damage once per turn.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The initial bludgeoning damage and cold damage increase by 1d8 each, and the cold damage creatures take at the end of their turns increases by 1.</p>"
+            "value": "<p>You create a gray storm cloud that pelts creatures with an icy deluge. When you Cast the Spell, a burst of magical hail deals 2d8 bludgeoning damage and 2d8 cold damage to each creature in the area below the cloud (basic Reflex save). Snow and sleet continue to rain down in the area for the remainder of the spell's duration, making the area difficult terrain. Any creature that ends its turn in the storm takes @Damage[(floor(@item.level/2))[cold]] damage. If you Cast this Spell outdoors, you can create two nonoverlapping clouds instead of one. As normal, if a Large or larger creature is in both clouds, it still only takes the initial damage once and the continuing damage once per turn.</p><hr /><p><strong>Heightened (+2)</strong> The initial bludgeoning damage and cold damage increase by 1d8 each, and the cold damage creatures take at the end of their turns increases by 1.</p>"
           },
           "duration": {
             "sustained": true,
@@ -27193,9 +27195,9 @@
             "value": "EzHSNKdnJmqW9c8K"
           },
           "publication": {
-            "license": "OGL",
-            "remaster": false,
-            "title": "Pathfinder Advanced Player's Guide"
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder Player Core 2"
           },
           "range": {
             "value": "120 feet"
@@ -28550,10 +28552,11 @@
             "type": "vitality"
           },
           "description": {
-            "value": "<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a healing potion, you regain [[/r (3d8+10)[healing]]]{3d8+10 Hit Points}.</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain @Damage[(3d8+10)[healing]] Hit Points.</p>"
           },
           "equipped": {
-            "carryType": "worn"
+            "carryType": "worn",
+            "handsHeld": 0
           },
           "hardness": 0,
           "hp": {
@@ -28573,9 +28576,9 @@
             }
           },
           "publication": {
-            "license": "OGL",
-            "remaster": false,
-            "title": "Pathfinder Core Rulebook"
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder GM Core"
           },
           "quantity": 1,
           "rules": [],
@@ -32586,7 +32589,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Trip the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to [[/act trip]] the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -43454,7 +43457,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -44456,7 +44459,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -44842,7 +44845,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -46971,7 +46974,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> A creature within Turkek's sanguine aura is taking persistent bleed damage</p><hr /><p><strong>Effect</strong> Turkek draws her enemy's blood into her own body to heal her wounds. She regains [[/r 7[healing]]]{7 Hit Points}.</p>"
+            "value": "<p><strong>Requirements</strong> A creature within Turkek's sanguine aura is taking persistent bleed damage</p><hr /><p><strong>Effect</strong> Turkek draws her enemy's blood into her own body to heal her wounds. She regains @Damage[7[healing]] Hit Points.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -49217,7 +49220,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Trip the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to [[/act trip]] the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "OGL",

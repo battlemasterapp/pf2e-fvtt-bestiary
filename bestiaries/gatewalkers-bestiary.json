@@ -1214,7 +1214,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Trip the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to [[/act trip]] the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -2516,7 +2516,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -7656,7 +7656,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Trip the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to [[/act trip]] the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -10926,7 +10926,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -13437,7 +13437,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -13886,7 +13886,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -19439,7 +19439,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -20703,7 +20703,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -24492,7 +24492,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -24861,7 +24861,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -32248,7 +32248,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>While within any body of water in her domain, the naiad queen heals [[/r 28[healing]]]{28 Hit Points} every 10 minutes.</p>"
+            "value": "<p>While within any body of water in her domain, the naiad queen heals @Damage[28[healing]] Hit Points every 10 minutes.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -33808,7 +33808,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> The water tank is broken or destroyed</p>\n<hr />\n<p><strong>Effect</strong> A torrent of water bursts from the shattered tank, dealing 3d8 bludgeoning to each creature within 15 feet (basic DC 22  Reflex save). The trap is then disabled.</p>"
+            "value": "<p><strong>Trigger</strong> The water tank is broken or destroyed</p><hr /><p><strong>Effect</strong> A torrent of water bursts from the shattered tank, dealing @Damage[3d8[bludgeoning]|options:area-damage] to each creature within 15 feet (DC 22  Basic  Reflex save). The trap is then disabled.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -34086,7 +34086,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature dips a vessel or otherwise attempts to remove water from the oasis</p>\n<hr />\n<p><strong>Effect</strong> A jet of magical boiling water targets the triggering creature and affects all creatures within 5 feet of the target. Creatures caught in the burst take @Damage[(2d10+13)[fire]] (basic DC 23  Reflex save).</p>"
+            "value": "<p><strong>Trigger</strong> A creature dips a vessel or otherwise attempts to remove water from the oasis</p><hr /><p><strong>Effect</strong> A jet of magical boiling water targets the triggering creature and affects all creatures within 5 feet of the target. Creatures caught in the burst take @Damage[(2d10+13)[fire]|options:area-damage] (DC 23  Basic  Reflex save).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -45030,7 +45030,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The yaiafineti draws nutrients from a living creature it has swallowed, regaining [[/r (3d8+24)[healing]]] HP. The swallowed creature takes @Damage[(2d12+8)[bludgeoning]].</p>"
+            "value": "<p>The yaiafineti draws nutrients from a living creature it has swallowed, regaining @Damage[(3d8+24)[healing]] HP. The swallowed creature takes @Damage[(2d12+8)[bludgeoning]].</p>"
           },
           "publication": {
             "license": "OGL",
@@ -45128,7 +45128,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",

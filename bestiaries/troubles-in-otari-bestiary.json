@@ -2043,7 +2043,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.equipment-srd.Item.plplsXJsqrdqNQVI"
         },
-        "img": "systems/pf2e/icons/deity/Asmodeus.webp",
+        "img": "systems/pf2e/icons/deities/asmodeus.webp",
         "name": "Religious Symbol of Asmodeus (Wooden)",
         "sort": 1500000,
         "system": {
@@ -4495,7 +4495,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Trip the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to [[/act trip]] the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "OGL",

@@ -1920,7 +1920,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -6925,6 +6925,9 @@
       },
       {
         "_id": "HxBUwaeQ1EoVtu4P",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.rQWaJhI5Bko5x14Z"
+        },
         "img": "icons/weapons/daggers/dagger-straight-blue.webp",
         "name": "Dagger",
         "sort": 800000,
@@ -7068,6 +7071,9 @@
       },
       {
         "_id": "n90DdIyoxVH3SZkm",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.UHrLqWCnFEUspSQj"
+        },
         "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/elixir-of-rejuvenation.webp",
         "name": "Elixir of Rejuvenation",
         "sort": 1000000,
@@ -7131,6 +7137,9 @@
       },
       {
         "_id": "4xBftA2UcniBBPXH",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.MXVPJpqMloFlwGBL"
+        },
         "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-poisons/slumber-wine.webp",
         "name": "Vyre's Bliss",
         "sort": 1100000,
@@ -7197,6 +7206,9 @@
       },
       {
         "_id": "dHvX3fZWtSUdBdR6",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.EoDLnd7KTtVL8mGp"
+        },
         "img": "icons/containers/bags/pack-leather-red.webp",
         "name": "Red Hand's Satchel",
         "sort": 1200000,
@@ -11401,6 +11413,9 @@
       },
       {
         "_id": "thAk82HtEro88Mf9",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp"
+        },
         "img": "icons/weapons/swords/sword-guard-purple.webp",
         "name": "Shortsword",
         "sort": 4300000,
@@ -11490,6 +11505,9 @@
       },
       {
         "_id": "WnSM0oElJKDjM9dD",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ewQZ0VeL38v3qFnN"
+        },
         "img": "icons/equipment/chest/breastplate-layered-leather-studded-brown.webp",
         "name": "Studded Leather Armor",
         "sort": 4400000,
@@ -11608,6 +11626,9 @@
       },
       {
         "_id": "xg1y4bXVm9CVAXTA",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ByRyBRjNBcK5rwQ9"
+        },
         "img": "systems/pf2e/icons/equipment/held-items/crystal-ball-peridot.webp",
         "name": "Crystal Ball (Peridot)",
         "sort": 4600000,
@@ -11675,7 +11696,7 @@
           },
           "containerId": null,
           "description": {
-            "value": "<p>Norgorber granted Delaraius an eye to aid him in his quest for vengeance, but this eye also significantly enhances the priest. It grants him darkvision and truesight as a constant innate spell, and also increases all of his attribute modifiers by 4. He is immune to bleed damage, magical detection and mental communication (unless he chooses otherwise), and magical alteration of his memories unless he chooses to be affected or the effect comes from a deity or artifact. The Skinsaw Eye serves as a religious symbol for Delaraius. If he ever loses the Skinsaw Eye, Delaraius loses all of these benefits and becomes Drained 3.</p>"
+            "value": "<p>Norgorber granted Delaraius an eye to aid him in his quest for vengeance, but this eye also significantly enhances the priest. It grants him darkvision and Truesight as a constant innate spell, and also increases all of his attribute modifiers by 4. He is immune to bleed damage, magical detection and mental communication (unless he chooses otherwise), and magical alteration of his memories unless he chooses to be affected or the effect comes from a deity or artifact. The <em>Skinsaw Eye</em> serves as a religious symbol for Delaraius. If he ever loses the <em>Skinsaw Eye</em>, Delaraius loses all of these benefits and becomes Drained 3.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -11717,6 +11738,9 @@
       },
       {
         "_id": "IspWJHEsMJ0OSFqK",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Fgv722039TVM5JTc"
+        },
         "img": "systems/pf2e/icons/equipment/wands/magic-wands/magic-wand.webp",
         "name": "Wand of Massacre (Rank 9)",
         "sort": 4800000,
@@ -11948,7 +11972,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>Norgorber granted Delaraius an eye to aid him in his quest for vengeance, but this eye also significantly enhances the priest. It grants him darkvision and truesight as a constant innate spell, and also increases all of his attribute modifiers by 4. He is immune to bleed damage, magical detection and mental communication (unless he chooses otherwise), and magical alteration of his memories unless he chooses to be affected or the effect comes from a deity or artifact. The Skinsaw Eye serves as a religious symbol for Delaraius. If he ever loses the Skinsaw Eye, Delaraius loses all of these benefits and becomes Drained 3.</p>"
+            "value": "<p>Norgorber granted Delaraius an eye to aid him in his quest for vengeance, but this eye also significantly enhances the priest. It grants him darkvision and Truesight as a constant innate spell, and also increases all of his attribute modifiers by 4. He is immune to bleed damage, magical detection and mental communication (unless he chooses otherwise), and magical alteration of his memories unless he chooses to be affected or the effect comes from a deity or artifact. The <em>Skinsaw Eye</em> serves as a religious symbol for Delaraius. If he ever loses the <em>Skinsaw Eye</em>, Delaraius loses all of these benefits and becomes Drained 3.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -15917,7 +15941,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -16337,7 +16361,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -19805,6 +19829,9 @@
       },
       {
         "_id": "Mx1gXXtk7s8cRhD2",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.CHYfP0gm2AiBfk7b"
+        },
         "img": "systems/pf2e/icons/equipment/weapons/war-razor.webp",
         "name": "Retribution",
         "sort": 800000,
@@ -21828,6 +21855,9 @@
       },
       {
         "_id": "3J4xqxmUmLDNnRxM",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.nYrOmi22AN0XDtCO"
+        },
         "img": "icons/commodities/leather/leather-patch-tan.webp",
         "name": "Soulfeeding Mask",
         "sort": 2000000,
@@ -21869,7 +21899,7 @@
           "quantity": 1,
           "rules": [],
           "size": "med",
-          "slug": null,
+          "slug": "soulfeeding-mask",
           "traits": {
             "rarity": "rare",
             "value": [
@@ -24415,7 +24445,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -25169,7 +25199,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -26988,7 +27018,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -31269,7 +31299,7 @@
             "die": "d6"
           },
           "description": {
-            "value": "<p>Rather than a normal bowstring, this <em>+2 greater striking thundering composite shortbow</em> has a string made of animal gut, much like a musical instrument's. When you shoot the bow, it releases a soft musical note: sonorous if your aim is true and discordant if your shot goes off-target.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command (auditory)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You sing, hum, or whistle a note, and your bow provides appropriate accompaniment. Make a Strike with the bow. If it hits, the bow generates a magical effect determined by the note you sung, which has the traits indicated in parentheses. This affects every creature in a 10-foot emanation from the creature you hit. As normal for an emanation, you choose whether the creature you hit is affected.</p>\n<ul>\n<li><strong>Song of Soothing</strong> (emotion, enchantment, healing, mental) Each creature regains [[/r 3d10[healing]]]{3d10 Hit Points} and gains a +1 status bonus to saves against mental effects for 1 minute.</li>\n<li><strong>Song of Suffering</strong> (evocation, sonic) Each creature takes 3d10 sonic damage with a DC 31  Basic  Fortitude (evocation,sonic) save.</li>\n</ul>"
+            "value": "<p>Rather than a normal bowstring, this <em>+2 greater striking thundering composite shortbow</em> has a string made of animal gut, much like a musical instrument's. When you shoot the bow, it releases a soft musical note: sonorous if your aim is true and discordant if your shot goes off-target.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command (auditory)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You sing, hum, or whistle a note, and your bow provides appropriate accompaniment. Make a Strike with the bow. If it hits, the bow generates a magical effect determined by the note you sung, which has the traits indicated in parentheses. This affects every creature in a 10-foot emanation from the creature you hit. As normal for an emanation, you choose whether the creature you hit is affected.</p>\n<ul>\n<li><strong>Song of Soothing</strong> (emotion, enchantment, healing, mental) Each creature regains 3d10 healing Hit Points and gains a +1 status bonus to saves against mental effects for 1 minute.</li>\n<li><strong>Song of Suffering</strong> (evocation, sonic) Each creature takes 3d10 sonic damage with a DC 31  Basic  Fortitude (evocation,sonic) save.</li>\n</ul>"
           },
           "equipped": {
             "carryType": "worn",
@@ -43772,6 +43802,9 @@
       },
       {
         "_id": "q032yTP2JdBFOEBv",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp"
+        },
         "img": "icons/weapons/swords/sword-guard-purple.webp",
         "name": "Shortsword",
         "sort": 1900000,
@@ -43858,6 +43891,9 @@
       },
       {
         "_id": "l7KzS3BUdgOS1oDT",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ewQZ0VeL38v3qFnN"
+        },
         "img": "icons/equipment/chest/breastplate-layered-leather-studded-brown.webp",
         "name": "Studded Leather Armor",
         "sort": 2000000,
@@ -44391,7 +44427,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -46658,6 +46694,9 @@
       },
       {
         "_id": "GyYlN3EO3ypoibYQ",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp"
+        },
         "img": "icons/weapons/swords/sword-guard-purple.webp",
         "name": "Shortsword",
         "sort": 1700000,
@@ -46742,6 +46781,9 @@
       },
       {
         "_id": "FFgyFc6hnPexkj4i",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.4tIVTg9wj56RrveA"
+        },
         "img": "icons/equipment/chest/breastplate-banded-simple-leather-brown.webp",
         "name": "Leather Armor",
         "sort": 1800000,
@@ -46805,6 +46847,9 @@
       },
       {
         "_id": "71JiR6jiERDyuc2l",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.yqAVU3Y9w4O19e24"
+        },
         "img": "icons/magic/symbols/star-inverted-yellow.webp",
         "name": "Faith Tattoo (True)",
         "sort": 1900000,
@@ -48583,6 +48628,9 @@
       },
       {
         "_id": "GyYlN3EO3ypoibYQ",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp"
+        },
         "img": "icons/weapons/swords/sword-guard-purple.webp",
         "name": "Shortsword",
         "sort": 1700000,
@@ -48667,6 +48715,9 @@
       },
       {
         "_id": "FFgyFc6hnPexkj4i",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.4tIVTg9wj56RrveA"
+        },
         "img": "icons/equipment/chest/breastplate-banded-simple-leather-brown.webp",
         "name": "Leather Armor",
         "sort": 1800000,
@@ -48730,6 +48781,9 @@
       },
       {
         "_id": "71JiR6jiERDyuc2l",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.yqAVU3Y9w4O19e24"
+        },
         "img": "icons/magic/symbols/star-inverted-yellow.webp",
         "name": "Faith Tattoo (True)",
         "sort": 1900000,
@@ -50475,6 +50529,9 @@
       },
       {
         "_id": "GyYlN3EO3ypoibYQ",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp"
+        },
         "img": "icons/weapons/swords/sword-guard-purple.webp",
         "name": "Shortsword",
         "sort": 1700000,
@@ -50559,6 +50616,9 @@
       },
       {
         "_id": "FFgyFc6hnPexkj4i",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.4tIVTg9wj56RrveA"
+        },
         "img": "icons/equipment/chest/breastplate-banded-simple-leather-brown.webp",
         "name": "Leather Armor",
         "sort": 1800000,
@@ -50622,6 +50682,9 @@
       },
       {
         "_id": "71JiR6jiERDyuc2l",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.yqAVU3Y9w4O19e24"
+        },
         "img": "icons/magic/symbols/star-inverted-yellow.webp",
         "name": "Faith Tattoo (True)",
         "sort": 1900000,
@@ -52393,6 +52456,9 @@
       },
       {
         "_id": "GyYlN3EO3ypoibYQ",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp"
+        },
         "img": "icons/weapons/swords/sword-guard-purple.webp",
         "name": "Shortsword",
         "sort": 1700000,
@@ -52477,6 +52543,9 @@
       },
       {
         "_id": "FFgyFc6hnPexkj4i",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.4tIVTg9wj56RrveA"
+        },
         "img": "icons/equipment/chest/breastplate-banded-simple-leather-brown.webp",
         "name": "Leather Armor",
         "sort": 1800000,
@@ -52540,6 +52609,9 @@
       },
       {
         "_id": "71JiR6jiERDyuc2l",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.yqAVU3Y9w4O19e24"
+        },
         "img": "icons/magic/symbols/star-inverted-yellow.webp",
         "name": "Faith Tattoo (True)",
         "sort": 1900000,
@@ -53527,7 +53599,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -54195,7 +54267,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -55848,7 +55920,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -56420,7 +56492,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -57517,6 +57589,9 @@
       },
       {
         "_id": "qzihW8iG5Z1C4pta",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.FJrsDoaIXksVjld9"
+        },
         "img": "systems/pf2e/icons/equipment/weapons/trident.webp",
         "name": "Trident",
         "sort": 1300000,
@@ -62996,6 +63071,9 @@
       },
       {
         "_id": "BhtIN3t7iuaUHvTG",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.c58wczIzH2gzeXQL"
+        },
         "img": "icons/weapons/clubs/club-banded-brown.webp",
         "name": "Club",
         "sort": 900000,
@@ -63079,6 +63157,9 @@
       },
       {
         "_id": "pRPhaqwchkugk5b4",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp"
+        },
         "img": "icons/weapons/swords/sword-guard-purple.webp",
         "name": "Shortsword",
         "sort": 1000000,
@@ -63604,7 +63685,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -64431,7 +64512,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -65252,6 +65333,9 @@
       },
       {
         "_id": "lwLtUpKScqKXb8wM",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.tH5GirEy7YB3ZgCk"
+        },
         "img": "systems/pf2e/icons/equipment/weapons/rapier.webp",
         "name": "Rapier",
         "sort": 1100000,
@@ -65340,6 +65424,9 @@
       },
       {
         "_id": "t1o3iWaRVJT49iMs",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.4tIVTg9wj56RrveA"
+        },
         "img": "icons/equipment/chest/breastplate-banded-simple-leather-brown.webp",
         "name": "Leather Armor",
         "sort": 1200000,
@@ -65406,6 +65493,9 @@
       },
       {
         "_id": "hSRmhS7oN14N2t46",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.us2Ypcm6qhmyQnBi"
+        },
         "img": "icons/tools/scribal/spectacles-glasses.webp",
         "name": "White Cleome's Eye",
         "sort": 1300000,
@@ -65471,6 +65561,9 @@
       },
       {
         "_id": "pUGBtAJmKdtvtxoi",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.pZB0Gsv1SoPkmzkY"
+        },
         "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-poisons/malyass-root-paste.webp",
         "name": "Ashes of the War God",
         "sort": 1400000,
@@ -65534,6 +65627,9 @@
       },
       {
         "_id": "TBIyMWzYESGmAVkJ",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.TSrbwHW8zm0mhkwb"
+        },
         "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
         "name": "Healing Potion (Greater)",
         "sort": 1500000,
@@ -65604,6 +65700,9 @@
       },
       {
         "_id": "Gh587OV4pYk4FOPp",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.LRSiYsgEz3e0PEwX"
+        },
         "img": "systems/pf2e/icons/equipment/consumables/potions/panacea.webp",
         "name": "Panacea",
         "sort": 1600000,
@@ -66043,7 +66142,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -66076,7 +66175,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Trip the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to [[/act trip]] the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -66697,7 +66796,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Trip the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to [[/act trip]] the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -69964,7 +70063,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -72895,6 +72994,9 @@
       },
       {
         "_id": "ejdoUMUULuF5IDi6",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp"
+        },
         "img": "icons/weapons/swords/sword-guard-purple.webp",
         "name": "Shortsword",
         "sort": 1200000,
@@ -78371,7 +78473,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -79900,6 +80002,9 @@
       },
       {
         "_id": "J4bT6i6A76dtqWED",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp"
+        },
         "img": "icons/weapons/swords/sword-guard-purple.webp",
         "name": "Shortsword",
         "sort": 700000,

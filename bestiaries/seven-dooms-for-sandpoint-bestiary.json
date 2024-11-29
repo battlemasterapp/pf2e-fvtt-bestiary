@@ -7774,7 +7774,7 @@
             "type": "vitality"
           },
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain [[/r (3d8+10)[healing]]]{3d8+10 Hit Points}.</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain @Damage[(3d8+10)[healing]] Hit Points.</p>"
           },
           "equipped": {
             "carryType": "worn"
@@ -11957,7 +11957,26 @@
             "remaster": false,
             "title": ""
           },
-          "rules": [],
+          "rules": [
+            {
+              "domain": "all",
+              "key": "RollOption",
+              "option": "lunge",
+              "toggleable": true
+            },
+            {
+              "definition": [
+                "item:slug:fist"
+              ],
+              "key": "AdjustStrike",
+              "mode": "add",
+              "predicate": [
+                "lunge"
+              ],
+              "property": "weapon-traits",
+              "value": "reach"
+            }
+          ],
           "slug": null,
           "traits": {
             "value": []
@@ -12565,7 +12584,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -14580,7 +14599,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Trip the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to [[/act trip]] the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -15882,7 +15901,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Trip the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to [[/act trip]] the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -16227,7 +16246,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -18275,7 +18294,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -26373,7 +26392,7 @@
             }
           },
           "description": {
-            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and [[/r (@item.level)d4[persistent,mental]]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
+            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and @Damage[(@item.level)d4[persistent,mental]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -30194,7 +30213,7 @@
             }
           },
           "description": {
-            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and [[/r (@item.level)d4[persistent,mental]]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
+            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and @Damage[(@item.level)d4[persistent,mental]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -35492,7 +35511,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The ghast is adjacent to the corpse of a creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghast devours a chunk of the corpse and regains [[/r 7d6[healing]]] Hit Points.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>\n<p>Kanker can Consume Flesh from the trough of gore in the northern alcove of his laboratory (area <strong>J12</strong>) if he's adjacent to it.</p>"
+            "value": "<p><strong>Requirements</strong> The ghast is adjacent to the corpse of a creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghast devours a chunk of the corpse and regains 7d6 healing Hit Points.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>\n<p>Kanker can Consume Flesh from the trough of gore in the northern alcove of his laboratory (area <strong>J12</strong>) if he's adjacent to it.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -48031,7 +48050,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The Red Bishop reaches out with one hand toward a Frightened 1 creature he can see that's within 30 feet and makes a clutching motion to pull out the creature's fear and feed upon it. The Red Bishop restores [[/r (7d8+8)[healing]]] Hit Points to himself, and the target creature loses the frightened condition but must also attempt a DC 34  Will save as other emotions are drawn out of their mind as well to fade uselessly away, resulting in mental trauma and a strange numbness in the mind itself.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes 3d6 mental damage.</p>\n<p><strong>Failure</strong> The target takes 6d6 mental damage and is Stupefied 1 until the end of its next turn.</p>\n<p><strong>Critical Failure</strong> The target takes 12d6 mental damage and is stupefied 1 until the condition is removed via an effect like restoration.</p>"
+            "value": "<p>The Red Bishop reaches out with one hand toward a Frightened 1 creature he can see that's within 30 feet and makes a clutching motion to pull out the creature's fear and feed upon it. The Red Bishop restores @Damage[(7d8+8)[healing]] Hit Points to himself, and the target creature loses the frightened condition but must also attempt a DC 34  Will save as other emotions are drawn out of their mind as well to fade uselessly away, resulting in mental trauma and a strange numbness in the mind itself.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes 3d6 mental damage.</p>\n<p><strong>Failure</strong> The target takes 6d6 mental damage and is Stupefied 1 until the end of its next turn.</p>\n<p><strong>Critical Failure</strong> The target takes 12d6 mental damage and is stupefied 1 until the condition is removed via an effect like restoration.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -60609,7 +60628,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You conjure otherworldly beings to serve you and your companions a feast with restorative properties. These mysterious beings may be fey, divine, or other supernatural servitors, as appropriate for the primary check. After the first hour of the ritual, these servants appear and serve a massive feast, complete with an exquisite table and up to 10 place settings. The bounteous spread consists of all manner of dishes, including the guests' childhood comfort foods, modern delicacies, and preferred drinks. The summoned servants spend the next 3 hours waiting on you and the other guests, fetching additional food, pouring drinks, and so forth. During this time, you and the other guests must strive to be as polite and gracious as possible to avoid offending your mysterious hosts. At the feast's end, the ritual is completed and you and the secondary caster attempt your checks as normal. If the feast is interrupted at any point, the servants immediately vanish with their provisions and the ritual is disrupted.</p>\n<hr />\n<p><strong>Critical Success</strong> The feast is nourishing and revitalizing. The magical food casts Cleanse Affliction and Clear Mind on each guest for each relevant affliction, using your modifier for the primary skill check as the counteract modifier. Each guest also recovers [[/r (@item.level*20)[healing]]] Hit Points and gains 20 temporary Hit Points for the next 12 hours. Guests also gain a +2 status bonus to saves against disease, fear, and poison effects for the next 12 hours.</p>\n<p><strong>Success</strong> As critical success, except guests recover only [[/r (@item.level*10)[healing]]] Hit Points, gain only 10 temporary Hit Points, and don't gain the status bonus to saves.</p>\n<p><strong>Failure</strong> You and the other guests taste ash in your mouths and realize that the feast contained nothing of sustenance.</p>\n<p><strong>Critical Failure</strong> The otherworldly servants were offended by your behavior or the hubris you demonstrated in summoning them and poisoned the feast. You and your guests become Sickened 4 and can't reduce the condition for 12 hours.</p>\n<p>Spell Effect: Fortifying Brew</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the Hit Points recovered by 10 and the temporary Hit Points by 2 (or twice each amount on a critical success).</p>"
+            "value": "<p>You conjure otherworldly beings to serve you and your companions a feast with restorative properties. These mysterious beings may be fey, divine, or other supernatural servitors, as appropriate for the primary check. After the first hour of the ritual, these servants appear and serve a massive feast, complete with an exquisite table and up to 10 place settings. The bounteous spread consists of all manner of dishes, including the guests' childhood comfort foods, modern delicacies, and preferred drinks. The summoned servants spend the next 3 hours waiting on you and the other guests, fetching additional food, pouring drinks, and so forth. During this time, you and the other guests must strive to be as polite and gracious as possible to avoid offending your mysterious hosts. At the feast's end, the ritual is completed and you and the secondary caster attempt your checks as normal. If the feast is interrupted at any point, the servants immediately vanish with their provisions and the ritual is disrupted.</p>\n<hr />\n<p><strong>Critical Success</strong> The feast is nourishing and revitalizing. The magical food casts Cleanse Affliction and Clear Mind on each guest for each relevant affliction, using your modifier for the primary skill check as the counteract modifier. Each guest also recovers @Damage[(@item.level*20)[healing]] Hit Points and gains 20 temporary Hit Points for the next 12 hours. Guests also gain a +2 status bonus to saves against disease, fear, and poison effects for the next 12 hours.</p>\n<p><strong>Success</strong> As critical success, except guests recover only @Damage[(@item.level*10)[healing]] Hit Points, gain only 10 temporary Hit Points, and don't gain the status bonus to saves.</p>\n<p><strong>Failure</strong> You and the other guests taste ash in your mouths and realize that the feast contained nothing of sustenance.</p>\n<p><strong>Critical Failure</strong> The otherworldly servants were offended by your behavior or the hubris you demonstrated in summoning them and poisoned the feast. You and your guests become Sickened 4 and can't reduce the condition for 12 hours.</p>\n<p>Spell Effect: Fortifying Brew</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the Hit Points recovered by 10 and the temporary Hit Points by 2 (or twice each amount on a critical success).</p>"
           },
           "duration": {
             "sustained": false,
@@ -63926,7 +63945,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The ghast is adjacent to the corpse of a creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghast devours a chunk of the corpse and regains [[/r 4d6[healing]]] Hit Points.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>"
+            "value": "<p><strong>Requirements</strong> The ghast is adjacent to the corpse of a creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghast devours a chunk of the corpse and regains 4d6 healing Hit Points.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -71521,7 +71540,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>Ziradini takes [[/r 16[untyped]]] damage for every hour they're exposed to sunlight.</p>"
+            "value": "<p>Ziradini takes @Damage[16[untyped]] damage for every hour they're exposed to sunlight.</p>"
           },
           "publication": {
             "license": "OGL",

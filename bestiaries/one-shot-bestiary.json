@@ -1241,7 +1241,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> Auldegrund is reduced to 60 or fewer Hit Points</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Auldegrund calls out, in Infernal, \"Give me the strength to slay these foes in your name, almighty Alocer!\" As he does so, his skin darkens to red, diabolic horns jut from his brow, a flaming lion-like mane appears around his head, burning wings burst from his shoulders, and his weapons ignite with black fire.</p>\n<p>He immediately heals [[/r (3d6+7)[healing]]]{3d6+7 Hit Points}, gains a fly speed of 25 feet, and deals an additional 1d6 fire damage with his melee and ranged Strikes.</p>\n<p>This is a risky gambit, though, for Alocer is not patient. At the end of each of Auldegrund's turns, he must attempt a DC 11  Flat (the DC of this flat check increases by 1 each round). On a failure, Alocer grows disappointed that Auldegrund has not defeated his foes and the effects of Invoke Alocer end immediately. This deals [[/r {3d6+7}]]{3d6+7 damage} to Auldegrund, removes his fly speed and additional fire damage to weapon Strikes, and causes Auldegrund to become Frightened 3.</p>"
+            "value": "<p><strong>Trigger</strong> Auldegrund is reduced to 60 or fewer Hit Points</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Auldegrund calls out, in Infernal, \"Give me the strength to slay these foes in your name, almighty Alocer!\" As he does so, his skin darkens to red, diabolic horns jut from his brow, a flaming lion-like mane appears around his head, burning wings burst from his shoulders, and his weapons ignite with black fire.</p>\n<p>He immediately heals @Damage[(3d6+7)[healing]] Hit Points, gains a fly speed of 25 feet, and deals an additional 1d6 fire damage with his melee and ranged Strikes.</p>\n<p>This is a risky gambit, though, for Alocer is not patient. At the end of each of Auldegrund's turns, he must attempt a DC 11  Flat (the DC of this flat check increases by 1 each round). On a failure, Alocer grows disappointed that Auldegrund has not defeated his foes and the effects of Invoke Alocer end immediately. This deals @Damage[(3d6+7)] damage to Auldegrund, removes his fly speed and additional fire damage to weapon Strikes, and causes Auldegrund to become Frightened 3.</p>"
           },
           "frequency": {
             "max": 1,
@@ -9772,7 +9772,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -12523,7 +12523,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -16678,7 +16678,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",

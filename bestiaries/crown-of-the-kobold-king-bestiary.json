@@ -718,7 +718,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A Small or larger creature approaches within 15 feet of the double door to area <strong>D9</strong>.</p>\n<p><strong>Effect</strong> The entire room rotates, its west half descending as its right half rises, forming a 45º slope down to the west. All creatures in the room fall Prone and slide toward the west wall (a creature adjacent to the north or south wall can attempt to arrest this fall with a DC 20 check to Grab an Edge) and take [[/r (2d6 + 5)[piercing]]] damage (DC 20  Basic  Reflex) as they land among the spears. At the same time, the warhammer-wielding statues to the east slide downward on chains to smash into the lower wall; each person in the trap is subjected to a sliding statue Strike.</p>"
+            "value": "<p><strong>Trigger</strong> A Small or larger creature approaches within 15 feet of the double door to area <strong>D9</strong>.</p>\n<p><strong>Effect</strong> The entire room rotates, its west half descending as its right half rises, forming a 45º slope down to the west. All creatures in the room fall Prone and slide toward the west wall (a creature adjacent to the north or south wall can attempt to arrest this fall with a DC 20 check to Grab an Edge) and take @Damage[(2d6 + 5)[piercing]] damage (DC 20  Basic  Reflex) as they land among the spears. At the same time, the warhammer-wielding statues to the east slide downward on chains to smash into the lower wall; each person in the trap is subjected to a sliding statue Strike.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1812,7 +1812,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -8919,7 +8919,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -17717,7 +17717,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> Narlynark is adjacent to at least one enemy;</p>\n<hr />\n<p><strong>Effect</strong> Narlynark shrieks in terror, a sound that quickly transitions from a kobold cry to the shrill cry of a bird. A pair of feathery wings grows from his back and his feet turn into bird talons. As he leaps into the air to flee, his talons lash out-one adjacent enemy of Narlynark's choice takes [[/r (3d6 + 6)[slashing]]] damage (DC 22  Basic  Reflex). Narlynark can then fly up to 35 feet away. He must end his movement in a space that isn't adjacent to any enemies, and if he doesn't end the movement on the ground, he falls to the ground as his wings vanish and his feet return to normal.</p>"
+            "value": "<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> Narlynark is adjacent to at least one enemy;</p>\n<hr />\n<p><strong>Effect</strong> Narlynark shrieks in terror, a sound that quickly transitions from a kobold cry to the shrill cry of a bird. A pair of feathery wings grows from his back and his feet turn into bird talons. As he leaps into the air to flee, his talons lash out-one adjacent enemy of Narlynark's choice takes @Damage[(3d6 + 6)[slashing]] damage (DC 22  Basic  Reflex). Narlynark can then fly up to 35 feet away. He must end his movement in a space that isn't adjacent to any enemies, and if he doesn't end the movement on the ground, he falls to the ground as his wings vanish and his feet return to normal.</p>"
           },
           "frequency": {
             "max": 1,
@@ -19217,7 +19217,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> Four or more Small or larger creatures walk onto the pressure plate at area <strong>H4a</strong>;</p>\n<hr />\n<p><strong>Effect</strong> A magically hardened sheet of obsidian drops down like a portcullis in the western and northern entrances to this room that lead to areas <strong>H3</strong> and <strong>H5</strong>, respectively. Any creatures standing in one of these squares takes [[/r (4d6 + 4)[bludgeoning]]] damage from the falling wall (DC 24  Basic  Reflex) and then decides what side of the wall they want to be on. At the same moment, four thoqquas that have spent centuries in hibernation awaken and emerge from vents into area <strong>H4b</strong>. The trap then rolls initiative, as do the thoqquas.</p>"
+            "value": "<p><strong>Trigger</strong> Four or more Small or larger creatures walk onto the pressure plate at area <strong>H4a</strong>;</p>\n<hr />\n<p><strong>Effect</strong> A magically hardened sheet of obsidian drops down like a portcullis in the western and northern entrances to this room that lead to areas <strong>H3</strong> and <strong>H5</strong>, respectively. Any creatures standing in one of these squares takes @Damage[(4d6 + 4)[bludgeoning]] damage from the falling wall (DC 24  Basic  Reflex) and then decides what side of the wall they want to be on. At the same moment, four thoqquas that have spent centuries in hibernation awaken and emerge from vents into area <strong>H4b</strong>. The trap then rolls initiative, as do the thoqquas.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -20142,7 +20142,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",

@@ -1553,7 +1553,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Knockdown as a free action triggered by a hit with its initial attack.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to [[/act trip]] the creature as a free action. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -3617,7 +3617,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -10697,7 +10697,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -30890,6 +30890,9 @@
       },
       {
         "_id": "FaqTOuCMGRtucSxy",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.PWh9oBvwMmItEmHH"
+        },
         "folder": "GnYDg7BROEKrrZS5",
         "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/cats-eye-elixir.webp",
         "name": "Blood Sight Elixir (Greater)",
@@ -30933,7 +30936,7 @@
           "quantity": 3,
           "rules": [],
           "size": "med",
-          "slug": null,
+          "slug": "blood-sight-elixir-greater",
           "traits": {
             "rarity": "uncommon",
             "value": [
@@ -38423,6 +38426,12 @@
               "text": "PF2E.Item.Weapon.CriticalSpecialization.hammer",
               "title": "{item|name}",
               "visibility": "owner"
+            },
+            {
+              "domain": "all",
+              "key": "RollOption",
+              "option": "self:deity:slug:gorum",
+              "toggleable": true
             }
           ],
           "slug": null,
@@ -41240,7 +41249,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> An allied creature within 60 feet who isn't a construct or undead is reduced to 0 Hit Points and their Dying value is 2 or less</p>\n<hr />\n<p><strong>Effect</strong> The valkyrie restores [[/r 5d10[healing]]] Hit Points to the target.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> An allied creature within 60 feet who isn't a construct or undead is reduced to 0 Hit Points and their Dying value is 2 or less</p>\n<hr />\n<p><strong>Effect</strong> The valkyrie restores 5d10 healing Hit Points to the target.</p>"
           },
           "frequency": {
             "max": 1,

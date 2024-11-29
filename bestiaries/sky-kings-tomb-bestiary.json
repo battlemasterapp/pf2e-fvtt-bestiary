@@ -296,7 +296,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -2635,7 +2635,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -2888,7 +2888,7 @@
             "die": "d4"
           },
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>A thick, sulfurous, irritating gas fills this golden-yellow flask. You gain a +1 item bonus to attack rolls. The bomb deals 2d4 acid damage and [[/r (2[splash])[acid]]]{2 acid splash damage}. On a hit, the target takes a -1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes Sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.</p>\n<p>Effect: Sulfur Bomb</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>A thick, sulfurous, irritating gas fills this golden-yellow flask. You gain a +1 item bonus to attack rolls. The bomb deals 2d4 acid damage and 2 acid splash damage. On a hit, the target takes a -1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes Sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.</p>\n<p>Effect: Sulfur Bomb</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -3189,7 +3189,7 @@
       {
         "_id": "SL7KsYF83RKa5Jjf",
         "_stats": {
-          "compendiumSource": "Item.2TANKQXO6xntX5MT"
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.2TANKQXO6xntX5MT"
         },
         "folder": "jPjltVqSjcYSxvK6",
         "img": "systems/pf2e/icons/equipment/treasure/gems/greater-precious-stones/large-ruby.webp",
@@ -3269,7 +3269,7 @@
             }
           ],
           "size": "med",
-          "slug": null,
+          "slug": "demons-knot",
           "traits": {
             "rarity": "unique",
             "value": [
@@ -8762,7 +8762,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The spirit targets a creature it can see within 30 feet, dealing to it 4d6 void damage (DC 20  Basic  Fortitude save).</p>\n<p>A creature with Void Healing instead regains [[/r 4d6[healing]]] Hit Points and is then temporarily immune for 10 minutes.</p>"
+            "value": "<p>The spirit targets a creature it can see within 30 feet, dealing to it 4d6 void damage (DC 20  Basic  Fortitude save).</p>\n<p>A creature with Void Healing instead regains 4d6 healing Hit Points and is then temporarily immune for 10 minutes.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -15049,7 +15049,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -15371,7 +15371,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -15906,7 +15906,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -17397,7 +17397,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to Trip the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Knockdown in its damage entry</p><hr /><p><strong>Effect</strong> The monster attempts to [[/act trip]] the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -34435,7 +34435,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -34895,7 +34895,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -35362,7 +35362,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -35868,7 +35868,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -36335,7 +36335,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -41197,6 +41197,7 @@
                 "vulnerable-prone"
               ],
               "selector": "ac",
+              "type": "circumstance",
               "value": -4
             }
           ],
@@ -41258,7 +41259,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -48308,7 +48309,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -48861,7 +48862,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>If a redcap sees a creature brandish a religious symbol of a good deity (which requires an interact action by that creature) or use one to cast a divine spell, the redcap must attempt a DC 19  Will save. It then becomes temporarily immune to all brandished religious symbols for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The redcap is unaffected</p>\n<p><strong>Success</strong> The redcap is Frightened 2</p>\n<p><strong>Failure</strong> The redcap gains the Fleeing condition for 1 round and is Frightened 4</p>"
+            "value": "<p>If a redcap sees a creature brandish a religious symbol of a good deity (which requires an interact action by that creature) or use one to cast a divine spell, the redcap must attempt a DC 21  Will save. It then becomes temporarily immune to all brandished religious symbols for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The redcap is unaffected</p>\n<p><strong>Success</strong> The redcap is Frightened 2</p>\n<p><strong>Failure</strong> The redcap gains the Fleeing condition for 1 round and is Frightened 4</p>"
           },
           "publication": {
             "license": "OGL",
@@ -49127,7 +49128,7 @@
       "creatureType": "",
       "details": {
         "description": "<p>A shockwave of energy surges out from the room's center.</p>",
-        "disable": "<p>DC 29  Arcana (expert) to fool the wards, DC 31 Thievery (master) to disable the wards, or Dispel Magic (5th level; counteract DC 28) to counteract the wards</p>",
+        "disable": "<p>DC 29  Arcana (expert) to fool the wards, DC 31  Thievery (master) to disable the wards, or Dispel Magic (5th rank; counteract DC 28) to counteract the wards</p>",
         "isComplex": false,
         "level": {
           "value": 9
@@ -49921,7 +49922,7 @@
       {
         "_id": "NXAo0YArXrVXyX3T",
         "_stats": {
-          "compendiumSource": "Item.QQlTyMFNG67mq3lQ"
+          "compendiumSource": "Compendium.pf2e.spells-srd.Item.6nPc5CPRUbSSRDP1"
         },
         "img": "systems/pf2e/icons/spells/monstrosity-form.webp",
         "name": "Create Mycoguardian",
@@ -49929,13 +49930,13 @@
         "system": {
           "area": null,
           "cost": {
-            "value": "parasitic fungal spores, see Table 7-1"
+            "value": "parasitic fungal spores"
           },
           "counteraction": false,
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>To create a mycoguardian, such as a sporeborn, a ritualist can perform a ritual similar to create undead (Pathfinder Core Rulebook 411) called create mycoguardian, but providing valuable parasitic fungal spores instead of black onyx. This ritual uses Fungus Lore (trained) or Nature (expert) for both the Primary Check and Secondary Checks, and lacks the Evil trait.</p>\n<hr />\n<p>You transform the target into an undead creature with a level up to that allowed in Table 7-1. There are many versions of this ritual, each specific to a particular type of undead (one ritual for all zombies, one for skeletons, one for ghouls, and so on), and the rituals that create rare undead are also rare. Some forms of undead, such as liches, form using their own unique methods and can't be created with a version of <em>create undead</em>.</p>\n<h2>Table 7-1: Creatures Creation Rituals</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Creature Level</th>\n<th>Spell Rank Required</th>\n<th>Cost</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>-1 or 0</td>\n<td>2</td>\n<td>15 gp</td>\n</tr>\n<tr>\n<td>1</td>\n<td>2</td>\n<td>60 gp</td>\n</tr>\n<tr>\n<td>2</td>\n<td>3</td>\n<td>105 gp</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3</td>\n<td>180 gp</td>\n</tr>\n<tr>\n<td>4</td>\n<td>4</td>\n<td>300 gp</td>\n</tr>\n<tr>\n<td>5</td>\n<td>4</td>\n<td>480 gp</td>\n</tr>\n<tr>\n<td>6</td>\n<td>5</td>\n<td>750 gp</td>\n</tr>\n<tr>\n<td>7</td>\n<td>5</td>\n<td>1,080 gp</td>\n</tr>\n<tr>\n<td>8</td>\n<td>6</td>\n<td>1,500 gp</td>\n</tr>\n<tr>\n<td>9</td>\n<td>6</td>\n<td>2,100 gp</td>\n</tr>\n<tr>\n<td>10</td>\n<td>7</td>\n<td>3,000 gp</td>\n</tr>\n<tr>\n<td>11</td>\n<td>7</td>\n<td>4,200 gp</td>\n</tr>\n<tr>\n<td>12</td>\n<td>8</td>\n<td>6,000 gp</td>\n</tr>\n<tr>\n<td>13</td>\n<td>8</td>\n<td>9,000 gp</td>\n</tr>\n<tr>\n<td>14</td>\n<td>9</td>\n<td>13,500 gp</td>\n</tr>\n<tr>\n<td>15</td>\n<td>9</td>\n<td>19,500 gp</td>\n</tr>\n<tr>\n<td>16</td>\n<td>10</td>\n<td>30,000 gp</td>\n</tr>\n<tr>\n<td>17</td>\n<td>10</td>\n<td>45,000 gp</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Critical Success</strong> The target becomes an undead creature of the appropriate type. If it's at least 4 levels lower than you, you can make it a minion. This gives it the minion trait, meaning it can use 2 actions when you command it, and commanding it is a single action that has the auditory and concentrate traits. You can have a maximum of four minions under your control. If it's intelligent and doesn't become a minion, the undead is helpful to you for awakening it, though it's still a horrid and evil creature. If it's unintelligent and doesn't become a minion, you can give it one simple command. It pursues that goal single-mindedly, ignoring any of your subsequent commands.</p>\n<p><strong>Success</strong> As critical success, except an intelligent undead that doesn't become your minion is only friendly to you, and an unintelligent undead that doesn't become your minion leaves you alone unless you attack it. It marauds the local area rather than following your command.</p>\n<p><strong>Failure</strong> You fail to create the undead.</p>\n<p><strong>Critical Failure</strong> You create the undead, but its soul, tortured by your foul necromancy, is full of nothing but hatred for you. It attempts to destroy you.</p>"
+            "value": "<p>You transform the target into an fungus creature with a level up to that allowed in the below table. There are many versions of this ritual, each specific to a particular type of mycoguardian, and the rituals that create rare mycroguardians are also rare.</p>\n<h2>Table 7-1: Creatures Creation Rituals</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Creature Level</th>\n<th>Spell Rank Required</th>\n<th>Cost</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>-1 or 0</td>\n<td>2</td>\n<td>15 gp</td>\n</tr>\n<tr>\n<td>1</td>\n<td>2</td>\n<td>60 gp</td>\n</tr>\n<tr>\n<td>2</td>\n<td>3</td>\n<td>105 gp</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3</td>\n<td>180 gp</td>\n</tr>\n<tr>\n<td>4</td>\n<td>4</td>\n<td>300 gp</td>\n</tr>\n<tr>\n<td>5</td>\n<td>4</td>\n<td>480 gp</td>\n</tr>\n<tr>\n<td>6</td>\n<td>5</td>\n<td>750 gp</td>\n</tr>\n<tr>\n<td>7</td>\n<td>5</td>\n<td>1,080 gp</td>\n</tr>\n<tr>\n<td>8</td>\n<td>6</td>\n<td>1,500 gp</td>\n</tr>\n<tr>\n<td>9</td>\n<td>6</td>\n<td>2,100 gp</td>\n</tr>\n<tr>\n<td>10</td>\n<td>7</td>\n<td>3,000 gp</td>\n</tr>\n<tr>\n<td>11</td>\n<td>7</td>\n<td>4,200 gp</td>\n</tr>\n<tr>\n<td>12</td>\n<td>8</td>\n<td>6,000 gp</td>\n</tr>\n<tr>\n<td>13</td>\n<td>8</td>\n<td>9,000 gp</td>\n</tr>\n<tr>\n<td>14</td>\n<td>9</td>\n<td>13,500 gp</td>\n</tr>\n<tr>\n<td>15</td>\n<td>9</td>\n<td>19,500 gp</td>\n</tr>\n<tr>\n<td>16</td>\n<td>10</td>\n<td>30,000 gp</td>\n</tr>\n<tr>\n<td>17</td>\n<td>10</td>\n<td>45,000 gp</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Critical Success</strong> The target becomes an fungal creature of the appropriate type. If it's at least 4 levels lower than you, you can make it a minion. This gives it the minion trait, meaning it can use 2 actions when you command it, and commanding it is a single action that has the auditory and concentrate traits. You can have a maximum of four minions under your control. If it's intelligent and doesn't become a minion, the mycoguardian is helpful to you. If it's unintelligent and doesn't become a minion, you can give it one simple command. It pursues that goal single-mindedly, ignoring any of your subsequent commands.</p>\n<p><strong>Success</strong> As critical success, except an intelligent mycoguardian that doesn't become your minion is only friendly to you, and an unintelligent undead that doesn't become your minion leaves you alone unless you attack it. It marauds the local area rather than following your command.</p>\n<p><strong>Failure</strong> You fail to create the mycoguardian.</p>\n<p><strong>Critical Failure</strong> You create the mycoguardian, but its soul, tortured by your foul necromancy, is full of nothing but hatred for you. It attempts to destroy you.</p>"
           },
           "duration": {
             "sustained": false,
@@ -49950,7 +49951,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": ""
+            "title": "Pathfinder #193: Mantle of Gold"
           },
           "range": {
             "value": "10 feet"
@@ -50396,10 +50397,10 @@
       {
         "_id": "p0GOxoDGR3295MsI",
         "_stats": {
-          "compendiumSource": "Item.bTwZNckINJgiT8Ef"
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.bTwZNckINJgiT8Ef"
         },
         "folder": "q6r2mbisUIr8xQHQ",
-        "img": "systems/pf2e/icons/default-icons/weapon.svg",
+        "img": "icons/weapons/staves/staff-forest-gold.webp",
         "name": "Spore Shephard's Staff",
         "sort": 1100000,
         "system": {
@@ -50449,7 +50450,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": ""
+            "title": "Pathfinder #193: Mantle of Gold"
           },
           "quantity": 1,
           "range": null,
@@ -50474,7 +50475,7 @@
             "striking": 0
           },
           "size": "med",
-          "slug": null,
+          "slug": "spore-shephards-staff",
           "splashDamage": {
             "value": 0
           },
@@ -52427,7 +52428,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (basic DC 18  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
+            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (DC 18  Basic  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -52488,7 +52489,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -52992,7 +52993,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (basic DC 18  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
+            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (DC 18  Basic  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -53053,7 +53054,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -53564,7 +53565,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (basic DC 18  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
+            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (DC 18  Basic  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -53625,7 +53626,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -54133,7 +54134,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (basic DC 18  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
+            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (DC 18  Basic  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -54194,7 +54195,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -54823,7 +54824,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (basic DC 18  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
+            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (DC 18  Basic  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -54884,7 +54885,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -55385,7 +55386,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (basic DC 18  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
+            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (DC 18  Basic  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -55446,7 +55447,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -55947,7 +55948,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (basic DC 18  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
+            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (DC 18  Basic  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -56008,7 +56009,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -56513,7 +56514,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (basic DC 18  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
+            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (DC 18  Basic  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -56574,7 +56575,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -57069,7 +57070,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (basic DC 18  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
+            "value": "<p>The soulbound mauler has a living creature Grabbed.</p>\n<hr />\n<p><strong>Effect</strong> The soulbound mauler holds the creature it has grabbed and attempts to tear it in two. That creature takes 5d6 bludgeoning damage (DC 18  Basic  Fortitude). On a critical failure, the target also becomes Enfeebled 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -57130,7 +57131,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -58007,7 +58008,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -59201,7 +59202,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You shoot a blazing ray of light tinged with holy energy. Make a ranged spell attack. The ray deals 5d6 fire damage. If the target is a fiend or undead, you deal an extra 5d6 spirit damage.</p>\n<p>If the light passes through an area of magical darkness or targets a creature affected by magical darkness, <em>searing light</em> attempts to counteract the darkness. If you need to determine whether the light passes through an area of darkness, draw a line between yourself and the spell's target</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double fire damage, as well as double spirit damage if a fiend or undead.</p>\n<p><strong>Success</strong> The target takes full damage</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The fire damage increases by 2d6, and the spirit damage against fiends and undead increases by 2d6.</p>\n<p>[[/r ((@item.level*2)-1)d6[spirit]]]{Leveled Spirit Damage}</p>"
+            "value": "<p>You shoot a blazing ray of light tinged with holy energy. Make a ranged spell attack. The ray deals 5d6 fire damage. If the target is a fiend or undead, you deal an extra 5d6 spirit damage.</p>\n<p>If the light passes through an area of magical darkness or targets a creature affected by magical darkness, <em>searing light</em> attempts to counteract the darkness. If you need to determine whether the light passes through an area of darkness, draw a line between yourself and the spell's target</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double fire damage, as well as double spirit damage if a fiend or undead.</p>\n<p><strong>Success</strong> The target takes full damage</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The fire damage increases by 2d6, and the spirit damage against fiends and undead increases by 2d6.</p>\n<p>@Damage[((@item.level*2)-1)d6[spirit]]{Scaling Spirit Damage}</p>"
           },
           "duration": {
             "sustained": false,
@@ -60292,7 +60293,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -60841,7 +60842,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p>The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has Grabbed.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Improved Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with as a free action. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead spend an action to use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -65136,7 +65137,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The unfeeling empath is under an emotion effect</p>\n<hr />\n<p><strong>Effect</strong> The unfeeling empath attempts to counteract the emotion effect, with a counteract modifier of [[/r 1d20+11 #Counteract]]{+11}. It then howls, projecting those emotions in a 15-foot cone (or a 30-foot cone if the unfeeling empath successfully counteracted the emotion effect). Creatures in the area take 2d8 mental damage (DC 18  Basic  Will save). A creature that critically fails this saving throw also takes [[/r 1d4[mental,persistent]]] damage.</p>"
+            "value": "<p><strong>Requirements</strong> The unfeeling empath is under an emotion effect</p>\n<hr />\n<p><strong>Effect</strong> The unfeeling empath attempts to counteract the emotion effect, with a counteract modifier of [[/r 1d20+11 #Counteract]]{+11}. It then howls, projecting those emotions in a 15-foot cone (or a 30-foot cone if the unfeeling empath successfully counteracted the emotion effect). Creatures in the area take 2d8 mental damage (DC 18  Basic  Will save). A creature that critically fails this saving throw also takes 1d4 mental,persistent damage.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -65170,7 +65171,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> An enemy is under an emotion effect within 20 feet of the unfeeling empath</p>\n<hr />\n<p><strong>Effect</strong> The unfeeling empath regains [[/r 1d4[healing]]] Hit Points and becomes emotionally excited for 3 rounds. While excited, the unfeeling empath takes a –1 penalty to AC, gains a +1 status bonus to attack rolls, and deals an additional 1d4 mental damage with its melee Strikes.</p>\n<p>Effect: Drink Emotions</p>"
+            "value": "<p><strong>Requirements</strong> An enemy is under an emotion effect within 20 feet of the unfeeling empath</p>\n<hr />\n<p><strong>Effect</strong> The unfeeling empath regains 1d4 healing Hit Points and becomes emotionally excited for 3 rounds. While excited, the unfeeling empath takes a –1 penalty to AC, gains a +1 status bonus to attack rolls, and deals an additional 1d4 mental damage with its melee Strikes.</p>\n<p>Effect: Drink Emotions</p>"
           },
           "publication": {
             "license": "OGL",
@@ -66371,7 +66372,7 @@
       {
         "_id": "XgRRR0HwtUD28L7e",
         "_stats": {
-          "compendiumSource": "Item.eDO54Z8RdjL2ymgW"
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.eDO54Z8RdjL2ymgW"
         },
         "folder": "YtGhnq8AZiDVVXW9",
         "img": "systems/pf2e/icons/equipment/adventuring-gear/dueling-cape.webp",
@@ -66384,7 +66385,7 @@
           },
           "containerId": null,
           "description": {
-            "gm": "<p><strong>Aspects</strong> beast, fire</p>\n<p><strong>Forming the Bond</strong> While wearing the cape, you defeat a foe and spare their life.</p>\n<p><strong>Advancing the Bond</strong> Befriend beasts and terrify foes with your physical presence and prowess.</p>\n<p><strong>Minor Gifts</strong> feral claws, flare bolt, heat haze</p>\n<p><strong>Major Gifts</strong> form of fury (snake form), searing wave</p>",
+            "gm": "<p><strong>Aspects</strong> beast, fire</p>\n<p><strong>Forming the Bond</strong> While wearing the cape, you defeat a foe and spare their life.</p>\n<p><strong>Advancing the Bond</strong> Befriend beasts and terrify foes with your physical presence and prowess.</p>\n<p><strong>Minor Gifts</strong> Feral Claws, Flare Bolt, Heat Haze</p>\n<p><strong>Major Gifts</strong> Form of Fury (snake form), Searing Wave</p>",
             "value": "<p>Made from preserved crimson worm hide, this thick leather cape can deflect incoming blows without serious damage. It functions as a Dueling Cape and while moved into a protective position, it also grants you fire resistance equal to twice the relic's number of gifts.</p>\n<p>Effect: Dueling Cape</p>"
           },
           "equipped": {
@@ -66414,7 +66415,7 @@
           "quantity": 1,
           "rules": [],
           "size": "med",
-          "slug": null,
+          "slug": "avernal-cape",
           "traits": {
             "rarity": "unique",
             "value": [

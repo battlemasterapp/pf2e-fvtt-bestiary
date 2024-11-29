@@ -654,7 +654,7 @@
             }
           },
           "description": {
-            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and [[/r (@item.level)d4[persistent,mental]]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
+            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and @Damage[(@item.level)d4[persistent,mental]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -2632,7 +2632,7 @@
             }
           },
           "description": {
-            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and [[/r (@item.level)d4[persistent,mental]]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
+            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and @Damage[(@item.level)d4[persistent,mental]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -7446,7 +7446,7 @@
             }
           },
           "description": {
-            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and [[/r (@item.level)d4[persistent,mental]]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
+            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and @Damage[(@item.level)d4[persistent,mental]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -10346,7 +10346,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -16217,7 +16217,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> A Grabbed, Paralyzed, Restrained, Unconscious, or willing creature is within the jiang-shi's reach</p>\n<hr />\n<p><strong>Effect</strong> The jiang-shi drains the victim's life energy, or qi, through their breath. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is Drained 1 and the jiang-shi regains [[/r 12[healing]]]{12 HP}, gaining any excess as temporary Hit Points. Draining qi from a creature that's already drained doesn't restore any HP to the jiang-shi but increases the victim's drained condition value by 1, killing the victim when it reaches drained 5. If the victim has the ability to cast ki spells, it can spend 1 Focus Point to avoid becoming drained. This protects it only from the current attack, not from subsequent attempts to Drain Qi.</p>\n<p>A victim's drained condition value decreases by 1 every week. If the creature restricts their diet to glutinous rice for at least 1 day and spends 10 minutes dancing, jogging, or otherwise engaging in vigorous physical activity by succeeding at a DC 25  Athletics check, it reduces its drained condition by 1.</p>"
+            "value": "<p><strong>Requirements</strong> A Grabbed, Paralyzed, Restrained, Unconscious, or willing creature is within the jiang-shi's reach</p>\n<hr />\n<p><strong>Effect</strong> The jiang-shi drains the victim's life energy, or qi, through their breath. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is Drained 1 and the jiang-shi regains @Damage[12[healing]] HP, gaining any excess as temporary Hit Points. Draining qi from a creature that's already drained doesn't restore any HP to the jiang-shi but increases the victim's drained condition value by 1, killing the victim when it reaches drained 5. If the victim has the ability to cast ki spells, it can spend 1 Focus Point to avoid becoming drained. This protects it only from the current attack, not from subsequent attempts to Drain Qi.</p>\n<p>A victim's drained condition value decreases by 1 every week. If the creature restricts their diet to glutinous rice for at least 1 day and spends 10 minutes dancing, jogging, or otherwise engaging in vigorous physical activity by succeeding at a DC 25  Athletics check, it reduces its drained condition by 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -16285,7 +16285,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -17398,7 +17398,7 @@
             }
           },
           "description": {
-            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and [[/r (@item.level)d4[persistent,mental]]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
+            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and @Damage[(@item.level)d4[persistent,mental]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -18403,7 +18403,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature within 30 feet of the imprecasia is Dying</p>\n<hr />\n<p><strong>Effect</strong> The imprecasia inhales, drawing a thin blue streak of vapor out of the dying creature's body into their mouth. The dying creature's dying condition is reduced by 1, and the imprecasia regains [[/r (2d10+9)[healing]]] Hit Points.</p>"
+            "value": "<p><strong>Trigger</strong> A creature within 30 feet of the imprecasia is Dying</p>\n<hr />\n<p><strong>Effect</strong> The imprecasia inhales, drawing a thin blue streak of vapor out of the dying creature's body into their mouth. The dying creature's dying condition is reduced by 1, and the imprecasia regains @Damage[(2d10+9)[healing]] Hit Points.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -23903,7 +23903,7 @@
             }
           },
           "description": {
-            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and [[/r (@item.level)d4[persistent,mental]]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
+            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and @Damage[(@item.level)d4[persistent,mental]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -24410,7 +24410,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The meokdan attempts a bite Strike against an adjacent creature or chews on a handheld object they're carrying. If the creature is living or the object is food, the meokdan gurgles in delight and restores [[/r (1d8+8)[healing]]] Hit Points. If the creature is undead or a construct, or the object is inedible, the meokdan shrieks in frustration and gains a +1 status bonus to attack rolls and saving throws until the end of its next turn. The meokdan can't Snack again for 1 round.</p>"
+            "value": "<p>The meokdan attempts a bite Strike against an adjacent creature or chews on a handheld object they're carrying. If the creature is living or the object is food, the meokdan gurgles in delight and restores @Damage[(1d8+8)[healing]] Hit Points. If the creature is undead or a construct, or the object is inedible, the meokdan shrieks in frustration and gains a +1 status bonus to attack rolls and saving throws until the end of its next turn. The meokdan can't Snack again for 1 round.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -28112,7 +28112,7 @@
             }
           },
           "description": {
-            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and [[/r (@item.level)d4[persistent,mental]]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
+            "value": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and @Damage[(@item.level)d4[persistent,mental]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is Sickened 1. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is Sickened 2.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -40411,7 +40411,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The shimmerthief targets a light source within 30 feet, then attempts to counteract it with a spell attack roll. If they succeed, the shimmerthief regains [[/r (2d8+10)[healing]]] Hit Points ([[/r (4d8+20)[healing]]] Hit Points on a critical success).</p>"
+            "value": "<p>The shimmerthief targets a light source within 30 feet, then attempts to counteract it with a spell attack roll. If they succeed, the shimmerthief regains @Damage[(2d8+10)[healing]] Hit Points (@Damage[(4d8+20)[healing]] Hit Points on a critical success).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -42737,7 +42737,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to Grapple the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
+            "value": "<p><p><strong>Requirements</strong> The monster's last action was a successful Strike that lists Grab in its damage entry, or the monster has a creature Grabbed or Restrained</p><hr /><p><strong>Effect</strong> If used after a Strike, the monster attempts to [[/act grapple]] the creature using the body part it attacked with. This attempt neither applies nor counts toward the creature's multiple attack penalty.</p><p>The monster can instead use Grab and choose one creature it's grabbing or restraining with an appendage that has Grab to automatically extend that condition to the end of the monster's next turn.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -43792,7 +43792,7 @@
             }
           },
           "description": {
-            "value": "<p>You call upon sacred energy to amplify a vial of holy water, tossing it an incredible distance. It explodes in an enormous burst that deals 3d6 bludgeoning damage to creatures in the area from the cascade of water. The water deals an additional [[/r ((@item.level*2)-2)d6[vitality]]] damage to undead and [[/r ((@item.level*2)-2)d6[spirit]]] damage to fiends.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The bludgeoning damage increases by 1d6, and the additional vitality and spirit damage each increase by 2d6.</p>"
+            "value": "<p>You call upon sacred energy to amplify a vial of Holy Water, tossing it an incredible distance. It explodes in an enormous burst that deals 3d6 bludgeoning damage to creatures in the area from the cascade of water. The water deals an additional @Damage[((@item.level*2)-2)d6[spirit]] damage to creatures with the unholy trait in the area.</p><hr /><p><strong>Heightened (+1)</strong> The bludgeoning damage increases by 1d6, and the additional spirit damage increases by 2d6.</p>"
           },
           "duration": {
             "sustained": false,
@@ -43813,9 +43813,9 @@
             "value": "kUP9HbsxrgtF4IO6"
           },
           "publication": {
-            "license": "OGL",
-            "remaster": false,
-            "title": "Pathfinder Core Rulebook"
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder Player Core 2"
           },
           "range": {
             "value": "500 feet"
@@ -43836,9 +43836,8 @@
             ],
             "value": [
               "concentrate",
-              "good",
+              "holy",
               "manipulate",
-              "vitality",
               "water"
             ]
           }
