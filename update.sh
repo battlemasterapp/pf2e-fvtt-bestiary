@@ -46,3 +46,8 @@ echo "}" >> ./bestiaries/index.json
 echo "Processing spells"
 mkdir -p ./spells
 jq -s 'flatten' ./pf2e/packs/spells/*.json > ./spells/spells.json
+
+# Get the conditions
+echo "Processing conditions"
+mkdir -p ./conditions
+jq -s 'flatten' ./pf2e/packs/conditions/*.json > ./conditions/conditions.json
