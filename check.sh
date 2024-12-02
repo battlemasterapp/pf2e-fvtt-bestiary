@@ -10,3 +10,21 @@ for file in ./bestiaries/*.json; do
     exit 1
   fi
 done
+
+for file in ./spells/*.json; do
+  echo "Checking $file"
+  jq . $file > /dev/null
+  if [ $? -ne 0 ]; then
+    echo "Error in $file"
+    exit 1
+  fi
+done
+
+for file in ./conditions/*.json; do
+  echo "Checking $file"
+  jq . $file > /dev/null
+  if [ $? -ne 0 ]; then
+    echo "Error in $file"
+    exit 1
+  fi
+done
