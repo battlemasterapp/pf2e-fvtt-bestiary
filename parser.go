@@ -34,6 +34,7 @@ func getLocalizedText(id string) (string, error) {
 	localizedText := fmt.Sprintf("%v", current)
 	localizedText = strings.ReplaceAll(localizedText, "\n", "\\n")
 	localizedText = strings.ReplaceAll(localizedText, "\t", "\\t")
+	localizedText = strings.ReplaceAll(localizedText, "\"", "\\\"")
 	return localizedText, nil
 }
 
