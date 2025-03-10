@@ -1773,7 +1773,7 @@
             }
           },
           "description": {
-            "value": "<p>Fleeting notes of a strange and unnatural song fill the air, overtaking the mind. Each target must attempt a Will save when you cast the spell, and again the first time you Sustain this Spell each round. A creature needs to attempt only one save against the song each round, and you have to keep the same targets when you Sustain the Spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected, can't be affected on subsequent rounds, and is temporarily immune for 1 minute.</p>\n<p><strong>Success</strong> The target is unaffected this round, but it can be affected on subsequent rounds.</p>\n<p><strong>Failure</strong> Roll [[/r 1d4]] on the table below.</p>\n<p><strong>Critical Failure</strong> Roll [[/r 1d4+1]] on the table below.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Result</th>\n<th>Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>The target is Frightened 2</td>\n</tr>\n<tr>\n<td>2</td>\n<td>The target is Confused for 1 round</td>\n</tr>\n<tr>\n<td>3</td>\n<td>The target is Stupefied 4 for 1 round</td>\n</tr>\n<tr>\n<td>4</td>\n<td>The target is Blinded for 1 round</td>\n</tr>\n<tr>\n<td>5</td>\n<td>The target is Stunned for 1 round and Stupefied 1 for an unlimited duration</td>\n</tr>\n</tbody>\n</table>"
+            "value": "<p>Fleeting notes of a strange and unnatural song fill the air, overtaking the mind. Each target must attempt a Will save when you cast the spell, and again the first time you Sustain this Spell each round. A creature needs to attempt only one save against the song each round, and you have to keep the same targets when you Sustain the Spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected, can't be affected on subsequent rounds, and is temporarily immune for 1 minute.</p>\n<p><strong>Success</strong> The target is unaffected this round, but it can be affected on subsequent rounds.</p>\n<p><strong>Failure</strong> Roll [[/r 1d4]] on the table below.</p>\n<p><strong>Critical Failure</strong> Roll [[/r 1d4+1]] on the table below.</p>\n<table class=\"pf2e remaster\">\n<thead>\n<tr>\n<th>Result</th>\n<th>Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>The target is Frightened 2</td>\n</tr>\n<tr>\n<td>2</td>\n<td>The target is Confused for 1 round</td>\n</tr>\n<tr>\n<td>3</td>\n<td>The target is Stupefied 4 for 1 round</td>\n</tr>\n<tr>\n<td>4</td>\n<td>The target is Blinded for 1 round</td>\n</tr>\n<tr>\n<td>5</td>\n<td>The target is Stunned for 1 round and Stupefied 1 for an unlimited duration</td>\n</tr>\n</tbody>\n</table>"
           },
           "duration": {
             "sustained": true,
@@ -3407,7 +3407,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>30 feet. A creature using a teleportation ability within the aura or arriving in it via teleportation must succeed at a DC 41  Fortitude save or wink out of existence for [[/br 1d4 #rounds]] rounds before completing the teleport. The creature can't act, sense anything, or be targeted. On a successful save, the creature completes the teleport normally but is Stunned 1. Keketars are immune to this effect.</p>"
+            "value": "<p>30 feet. A creature using a teleportation ability within the aura or arriving in it via teleportation must succeed at a DC 41  Fortitude save or wink out of existence for [[/gmr 1d4 #rounds]] rounds before completing the teleport. The creature can't act, sense anything, or be targeted. On a successful save, the creature completes the teleport normally but is Stunned 1. Keketars are immune to this effect.</p>"
           },
           "publication": {
             "license": "ORC",
@@ -3551,7 +3551,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Many proteans can subject their foes to disorienting alterations perceived in time and space by creating ripples of unstable reality in the environment called warpwaves. When a creature fails its saving throw and is affected by a warpwave, roll [[/br 1d8 #Warpwave]]{1d8} and consult the table below for the specific effect on that creature. Unless indicated otherwise, a warpwave effect lasts for [[/br 1d4 #Duration Warpwave Effect]]{1d4 rounds}, and a new warpwave effect negates any previous warpwave effect already affecting a creature.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>[[/br 1d8 #Warpwave]]{1d8}</th>\n<th>Warpwave Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Clumsy 2 (Clumsy 3 on a critical failure)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Confused and gains [[/r 4d6 #Temporary Hit Points]]{4d6 temporary Hit Points}</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Dazzled (permanent on a critical failure)</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Enfeebled 2 (Enfeebled 3 on a critical failure)</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Immobilized by filaments of energy</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Quickened (Stride, Strike, or Step only)</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Slowed 1</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Stupefied 2 (Stupefied 3 on a critical failure)</td>\n</tr>\n</tbody>\n</table>"
+            "value": "<p>Many proteans can subject their foes to disorienting alterations perceived in time and space by creating ripples of unstable reality in the environment called warpwaves. When a creature fails its saving throw and is affected by a warpwave, roll [[/gmr 1d8 #Warpwave]]{1d8} and consult the table below for the specific effect on that creature. Unless indicated otherwise, a warpwave effect lasts for [[/gmr 1d4 #Duration Warpwave Effect]]{1d4 rounds}, and a new warpwave effect negates any previous warpwave effect already affecting a creature.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>[[/gmr 1d8 #Warpwave]]{1d8}</th>\n<th>Warpwave Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Clumsy 2 (Clumsy 3 on a critical failure)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Confused and gains [[/r 4d6 #Temporary Hit Points]]{4d6 temporary Hit Points}</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Dazzled (permanent on a critical failure)</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Enfeebled 2 (Enfeebled 3 on a critical failure)</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Immobilized by filaments of energy</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Quickened (Stride, Strike, or Step only)</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Slowed 1</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Stupefied 2 (Stupefied 3 on a critical failure)</td>\n</tr>\n</tbody>\n</table>"
           },
           "publication": {
             "license": "ORC",
@@ -4079,14 +4079,22 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Ordulf rolls initiative</p><hr /><p><strong>Effect</strong> Ordulf attempts to Demoralize an observed foe.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Ordulf rolls initiative</p><hr /><p><strong>Effect</strong> Ordulf attempts to [[/act demoralize]] an observed foe.</p>"
           },
           "publication": {
             "license": "OGL",
             "remaster": false,
             "title": ""
           },
-          "rules": [],
+          "rules": [
+            {
+              "key": "Note",
+              "selector": "initiative",
+              "text": "{item|system.description.value}",
+              "title": "{item|name}",
+              "visibility": "owner"
+            }
+          ],
           "slug": null,
           "traits": {
             "value": []
@@ -4170,7 +4178,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> Ordulf is wielding a melee weapon</p><hr /><p><strong>Effect</strong> Ordulf brandishes his weapon in a threatening display. He Demoralizes all enemies within 30 feet, rolling once and comparing the result to each target's Will DC.</p>"
+            "value": "<p><strong>Requirements</strong> Ordulf is wielding a melee weapon</p><hr /><p><strong>Effect</strong> Ordulf brandishes his weapon in a threatening display. He [[/act demoralize]]{Demoralizes} all enemies within 30 feet, rolling once and comparing the result to each target's Will DC.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6801,7 +6809,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Saving Throw</strong> DC 32  Fortitude</p>\n<hr />\n<p><strong>Maximum Duration</strong> 4 hours</p>\n<p><strong>Stage 1</strong> 3d6 poison damage and Stupefied 1 (1 round)</p>\n<p><strong>Stage 2</strong> 3d6 poison damage and Stupefied 2 (1 round)</p>\n<p><strong>Stage 3</strong> 4d6 poison damage and Stupefied 2 (1 round)</p>\n<p><strong>Stage 4</strong> Paralyzed for [[/br 1d4 #Duration Paralyzed]]{1d4 hours}</p>"
+            "value": "<p><strong>Saving Throw</strong> DC 32  Fortitude</p>\n<hr />\n<p><strong>Maximum Duration</strong> 4 hours</p>\n<p><strong>Stage 1</strong> 3d6 poison damage and Stupefied 1 (1 round)</p>\n<p><strong>Stage 2</strong> 3d6 poison damage and Stupefied 2 (1 round)</p>\n<p><strong>Stage 3</strong> 4d6 poison damage and Stupefied 2 (1 round)</p>\n<p><strong>Stage 4</strong> Paralyzed for [[/gmr 1d4 #Duration Paralyzed]]{1d4 hours}</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6884,7 +6892,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature hit by the jorogumo's web attack is Immobilized and stuck to the nearest surface, preventing the creature from moving.</p>\n<p>The DC to Escape or Force Open the web trap is 32.</p>"
+            "value": "<p>A creature hit by the jorogumo's web attack is Immobilized and stuck to the nearest surface, preventing the creature from moving.</p>\n<p>The DC to [[/act escape dc=32]]{Escape} or [[/act force-open dc=32]]{Force Open} the web trap is 32.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9595,15 +9603,25 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> Dronuk reduces an enemy to 0 Hit Points</p><hr /><p><strong>Effect</strong> Dronuk attempts to Demoralize a single creature he can see. He gains a +2 circumstance bonus to this check.</p>"
+            "value": "<p><strong>Trigger</strong> Dronuk reduces an enemy to 0 Hit Points</p><hr /><p><strong>Effect</strong> Dronuk attempts to [[/act demoralize options=youre-next]] a single creature he can see. He gains a +2 circumstance bonus to this check.</p>"
           },
           "publication": {
             "license": "OGL",
             "remaster": false,
             "title": ""
           },
-          "rules": [],
-          "slug": null,
+          "rules": [
+            {
+              "key": "FlatModifier",
+              "predicate": [
+                "action:demoralize",
+                "youre-next"
+              ],
+              "selector": "intimidation",
+              "type": "circumstance",
+              "value": 2
+            }
+          ],
           "traits": {
             "value": [
               "emotion",
@@ -9837,7 +9855,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Thresholds</strong> 180 (12 squares), 90 (8 squares)</p>\n<p><p>Troops are composed of many individuals, and over the course of enough attacks and downed comrades, troops shrink in size. Most troops start with 16 squares (4 by 4), and their Hit Points have two listed thresholds, typically the first is at 2/3 their maximum Hit Points and the second is at 1/3 their maximum Hit Points. Once the troop drops below the first threshold, it loses 4 squares, leaving 12 squares remaining, and the first threshold becomes the troop's new maximum Hit Points. Once the troop falls below the second threshold, it loses another 4 squares, leaving 8 squares remaining, and the second threshold becomes the troop's new maximum Hit Points. In order to restore its size and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen. At 0 Hit Points, the troop is reduced down to 4 squares, which is too few to sustain the troop, so it disperses entirely, with the few remaining members surrendering, fleeing, or easily dispatched, depending on their nature.</p>\n<p>A damaging single-target effect, such as a Strike, can't force a troop to pass through more than one threshold at once. For instance, if a troop had 60 Hit Points, with thresholds at 40 and 20, a Strike for 50 damage would leave the troop at 21 Hit Points, just above the second threshold. A damaging area effect or multi-target effect can cross multiple thresholds at once and could potentially destroy the entire troop in one shot.</p>\n<p>Non-damaging effects with an area or that target all creatures in a certain proximity affect a troop normally if they affect the entire area occupied by the troop. If an effect has a smaller area or numbers of targets, it typically has no effect on the troop. However, if the effect can target at least four creatures or cover at least four squares in the troop, and if it would prevent its targets from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more, the troop loses loses a number of Hit Points equal to the amount required to bring it to the next threshold, removing 4 squares. If an effect would both deal damage and automatically cross a threshold due to incapacitating some of the creatures in the troop, apply the damage first. If the damage wasn't enough to cross a threshold on its own, then reduce the Hit Points to cross the threshold for the incapacitating effect.</p></p>"
+            "value": "<p><strong>Thresholds</strong> 180 (12 squares), 90 (8 squares)</p>\n<p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -10558,7 +10576,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The frost roc spreads its wings and then flaps them furiously, unleashing a blast of ice-rimed feathers in a 60-foot cone. All creatures in the area must attempt a DC 34  Reflex save. The frost roc can't use Frozen Feathers again for [[/br 1d4 #Recharge Frozen Feathers]]{1d4 rounds}.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes 3d6 piercing damage and 5d6 cold damage.</p>\n<p><strong>Failure</strong> The creature takes 5d6 piercing damage and 10d6 cold damage.</p>\n<p><strong>Critical Failure</strong> The creature takes 8d6 piercing damage, 15d6 cold damage, and is Slowed 1 for 1 minute.</p>"
+            "value": "<p>The frost roc spreads its wings and then flaps them furiously, unleashing a blast of ice-rimed feathers in a 60-foot cone. All creatures in the area must attempt a DC 34  Reflex save. The frost roc can't use Frozen Feathers again for [[/gmr 1d4 #Recharge Frozen Feathers]]{1d4 rounds}.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes 3d6 piercing damage and 5d6 cold damage.</p>\n<p><strong>Failure</strong> The creature takes 5d6 piercing damage and 10d6 cold damage.</p>\n<p><strong>Critical Failure</strong> The creature takes 8d6 piercing damage, 15d6 cold damage, and is Slowed 1 for 1 minute.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11776,7 +11794,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Thresholds</strong> 170 (12 squares), 85 (8 squares)</p><hr /><p><p>Troops are composed of many individuals, and over the course of enough attacks and downed comrades, troops shrink in size. Most troops start with 16 squares (4 by 4), and their Hit Points have two listed thresholds, typically the first is at 2/3 their maximum Hit Points and the second is at 1/3 their maximum Hit Points. Once the troop drops below the first threshold, it loses 4 squares, leaving 12 squares remaining, and the first threshold becomes the troop's new maximum Hit Points. Once the troop falls below the second threshold, it loses another 4 squares, leaving 8 squares remaining, and the second threshold becomes the troop's new maximum Hit Points. In order to restore its size and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen. At 0 Hit Points, the troop is reduced down to 4 squares, which is too few to sustain the troop, so it disperses entirely, with the few remaining members surrendering, fleeing, or easily dispatched, depending on their nature.</p>\n<p>A damaging single-target effect, such as a Strike, can't force a troop to pass through more than one threshold at once. For instance, if a troop had 60 Hit Points, with thresholds at 40 and 20, a Strike for 50 damage would leave the troop at 21 Hit Points, just above the second threshold. A damaging area effect or multi-target effect can cross multiple thresholds at once and could potentially destroy the entire troop in one shot.</p>\n<p>Non-damaging effects with an area or that target all creatures in a certain proximity affect a troop normally if they affect the entire area occupied by the troop. If an effect has a smaller area or numbers of targets, it typically has no effect on the troop. However, if the effect can target at least four creatures or cover at least four squares in the troop, and if it would prevent its targets from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more, the troop loses loses a number of Hit Points equal to the amount required to bring it to the next threshold, removing 4 squares. If an effect would both deal damage and automatically cross a threshold due to incapacitating some of the creatures in the troop, apply the damage first. If the damage wasn't enough to cross a threshold on its own, then reduce the Hit Points to cross the threshold for the incapacitating effect.</p></p>"
+            "value": "<p><strong>Thresholds</strong> 170 (12 squares), 85 (8 squares)</p><hr /><p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -16145,7 +16163,7 @@
           "damage": {},
           "defense": null,
           "description": {
-            "value": "<p>You grant intelligence to the target, transforming it into a beast. If it was previously an animal companion or minion, it can no longer serve as one.</p>\n<p><strong>Critical Success</strong> The target's Intelligence, Wisdom, and Charisma modifiers each increase to +2 if they were lower, and it becomes helpful to you for awakening it.</p>\n<p><strong>Success</strong> The target's Intelligence, Wisdom, and Charisma modifiers increase to +0 if they were lower and it becomes friendly to you for awakening it.</p>\n<p><strong>Failure</strong> You fail to awaken the target.</p>\n<p><strong>Critical Failure</strong> You accidentally awaken the target with a pure bestial hatred toward you. The target's Intelligence, Wisdom, and Charisma modifiers increase to -2 if they were lower. It becomes hostile to you, attempting to destroy you.</p>\n<h2>Creatures Creation Rituals</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Creature Level</th>\n<th>Spell Rank Required</th>\n<th>Cost</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>-1 or 0</td>\n<td>2</td>\n<td>15 gp</td>\n</tr>\n<tr>\n<td>1</td>\n<td>2</td>\n<td>60 gp</td>\n</tr>\n<tr>\n<td>2</td>\n<td>3</td>\n<td>105 gp</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3</td>\n<td>180 gp</td>\n</tr>\n<tr>\n<td>4</td>\n<td>4</td>\n<td>300 gp</td>\n</tr>\n<tr>\n<td>5</td>\n<td>4</td>\n<td>480 gp</td>\n</tr>\n<tr>\n<td>6</td>\n<td>5</td>\n<td>750 gp</td>\n</tr>\n<tr>\n<td>7</td>\n<td>5</td>\n<td>1,080 gp</td>\n</tr>\n<tr>\n<td>8</td>\n<td>6</td>\n<td>1,500 gp</td>\n</tr>\n<tr>\n<td>9</td>\n<td>6</td>\n<td>2,100 gp</td>\n</tr>\n<tr>\n<td>10</td>\n<td>7</td>\n<td>3,000 gp</td>\n</tr>\n<tr>\n<td>11</td>\n<td>7</td>\n<td>4,200 gp</td>\n</tr>\n<tr>\n<td>12</td>\n<td>8</td>\n<td>6,000 gp</td>\n</tr>\n<tr>\n<td>13</td>\n<td>8</td>\n<td>9,000 gp</td>\n</tr>\n<tr>\n<td>14</td>\n<td>9</td>\n<td>13,500 gp</td>\n</tr>\n<tr>\n<td>15</td>\n<td>9</td>\n<td>19,500 gp</td>\n</tr>\n<tr>\n<td>16</td>\n<td>10</td>\n<td>30,000 gp</td>\n</tr>\n<tr>\n<td>17</td>\n<td>10</td>\n<td>45,000 gp</td>\n</tr>\n</tbody>\n</table>"
+            "value": "<p>You grant intelligence to the target, transforming it into a beast. If it was previously an animal companion or minion, it can no longer serve as one.</p>\n<p><strong>Critical Success</strong> The target's Intelligence, Wisdom, and Charisma modifiers each increase to +2 if they were lower, and it becomes helpful to you for awakening it.</p>\n<p><strong>Success</strong> The target's Intelligence, Wisdom, and Charisma modifiers increase to +0 if they were lower and it becomes friendly to you for awakening it.</p>\n<p><strong>Failure</strong> You fail to awaken the target.</p>\n<p><strong>Critical Failure</strong> You accidentally awaken the target with a pure bestial hatred toward you. The target's Intelligence, Wisdom, and Charisma modifiers increase to -2 if they were lower. It becomes hostile to you, attempting to destroy you.</p><h2>Creatures Creation Rituals</h2><table class=\"pf2e remaster\"><thead><tr><th>Creature Level</th><th>Spell Rank Required</th><th>Cost</th></tr></thead><tbody><tr><td>-1 or 0</td><td>2</td><td>15 gp</td></tr><tr><td>1</td><td>2</td><td>60 gp</td></tr><tr><td>2</td><td>3</td><td>105 gp</td></tr><tr><td>3</td><td>3</td><td>180 gp</td></tr><tr><td>4</td><td>4</td><td>300 gp</td></tr><tr><td>5</td><td>4</td><td>480 gp</td></tr><tr><td>6</td><td>5</td><td>750 gp</td></tr><tr><td>7</td><td>5</td><td>1,080 gp</td></tr><tr><td>8</td><td>6</td><td>1,500 gp</td></tr><tr><td>9</td><td>6</td><td>2,100 gp</td></tr><tr><td>10</td><td>7</td><td>3,000 gp</td></tr><tr><td>11</td><td>7</td><td>4,200 gp</td></tr><tr><td>12</td><td>8</td><td>6,000 gp</td></tr><tr><td>13</td><td>8</td><td>9,000 gp</td></tr><tr><td>14</td><td>9</td><td>13,500 gp</td></tr><tr><td>15</td><td>9</td><td>19,500 gp</td></tr><tr><td>16</td><td>10</td><td>30,000 gp</td></tr><tr><td>17</td><td>10</td><td>45,000 gp</td></tr></tbody></table>"
           },
           "duration": {
             "sustained": false,
@@ -17820,7 +17838,18 @@
             "value": ""
           },
           "counteraction": false,
-          "damage": {},
+          "damage": {
+            "C34n7XTpCLCXJWwt": {
+              "applyMod": false,
+              "category": null,
+              "formula": "2d6",
+              "kinds": [
+                "damage"
+              ],
+              "materials": [],
+              "type": "bludgeoning"
+            }
+          },
           "defense": {
             "save": {
               "basic": false,
@@ -19895,14 +19924,22 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Ordulf rolls initiative</p><hr /><p><strong>Effect</strong> Ordulf attempts to Demoralize an observed foe.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Ordulf rolls initiative</p><hr /><p><strong>Effect</strong> Ordulf attempts to [[/act demoralize]] an observed foe.</p>"
           },
           "publication": {
             "license": "OGL",
             "remaster": false,
             "title": ""
           },
-          "rules": [],
+          "rules": [
+            {
+              "key": "Note",
+              "selector": "initiative",
+              "text": "{item|system.description.value}",
+              "title": "{item|name}",
+              "visibility": "owner"
+            }
+          ],
           "slug": null,
           "traits": {
             "value": []
@@ -19986,7 +20023,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> Ordulf is wielding a melee weapon</p><hr /><p><strong>Effect</strong> Ordulf brandishes his weapon in a threatening display. He Demoralizes all enemies within 30 feet, rolling once and comparing the result to each target's Will DC.</p>"
+            "value": "<p><strong>Requirements</strong> Ordulf is wielding a melee weapon</p><hr /><p><strong>Effect</strong> Ordulf brandishes his weapon in a threatening display. He [[/act demoralize]]{Demoralizes} all enemies within 30 feet, rolling once and comparing the result to each target's Will DC.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -20411,7 +20448,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Travel Guide"
+            "title": "Pathfinder Lost Omens Travel Guide"
           },
           "quantity": 1,
           "rules": [],
@@ -23663,7 +23700,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[(@item.level)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.level)d6[persistent,fire]]{Scaling Persistent Fire Damage (Melee)}</p>"
+            "value": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p><hr /><p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p><hr /><p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.rank)d6[persistent,fire]]{Scaling Persistent Fire Damage (Melee)}</p>"
           },
           "duration": {
             "sustained": false,
@@ -23687,7 +23724,9 @@
               "_id": "eOCNn2ohYAvsYZjn",
               "overlayType": "override",
               "sort": 1,
-              "system": {}
+              "system": {
+                "defense": null
+              }
             },
             "xYyA7CV1GaFTRjBQ": {
               "_id": "xYyA7CV1GaFTRjBQ",
@@ -23700,6 +23739,7 @@
                     "formula": "2d6"
                   }
                 },
+                "defense": null,
                 "heightening": {
                   "damage": {
                     "cQDyW0QpjJ38MlSi": "1d6"
@@ -24092,7 +24132,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>hysaphine can call forth a powerful weapon from his heart of flame. In his hands, this is a <em>+3 greater striking greater flaming scimitar</em> that deals 4d6 fire damage instead of 1d6.</p>"
+            "value": "<p>Rhysaphine can call forth a powerful weapon from his heart of flame. In his hands, this is a <em>+3 greater striking greater flaming scimitar</em> that deals 4d6 fire damage instead of 1d6.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -24176,7 +24216,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Rhysaphine spreads his wings and spins, forming a whirlwind of flame that deals 19d6 fire damage in a 20-foot emanation (DC 40  Basic  Reflex save). He can't use Wildfire Storm again for [[/br 1d4 #Recharge Wildfire Storm]]{1d4 rounds}.</p>"
+            "value": "<p>Rhysaphine spreads his wings and spins, forming a whirlwind of flame that deals 19d6 fire damage in a 20-foot emanation (DC 40  Basic  Reflex save). He can't use Wildfire Storm again for [[/gmr 1d4 #Recharge Wildfire Storm]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -25621,7 +25661,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Saint Fang breathes in one of two ways. He can't use Dragon Breath again for [[/br 1d4 #Recharge Dragon Breath]]{1d4 rounds}.</p>\n<p><strong>Blade Breath</strong> (arcane) He breathes a 100-foot line of sharp blades that deals 19d6 slashing damage (DC 40  Basic  Reflex save). The blades created by this breath vanish at the end of the round.</p>\n<p><strong>Forge Breath</strong> (arcane) He breathes a blast of embers and smoke, as if from an immense forge. Each creature within a 40-foot cone takes 6d6 fire damage and 12d6 poison damage (DC 40  Basic  Reflex save). Smoke lingers in the area until the end of Saint Fang's next turn; all creatures within the smoke become Concealed, and all creatures outside the smoke become concealed to creatures within.</p>"
+            "value": "<p>Saint Fang breathes in one of two ways. He can't use Dragon Breath again for [[/gmr 1d4 #Recharge Dragon Breath]]{1d4 rounds}.</p>\n<p><strong>Blade Breath</strong> (arcane) He breathes a 100-foot line of sharp blades that deals 19d6 slashing damage (DC 40  Basic  Reflex save). The blades created by this breath vanish at the end of the round.</p>\n<p><strong>Forge Breath</strong> (arcane) He breathes a blast of embers and smoke, as if from an immense forge. Each creature within a 40-foot cone takes 6d6 fire damage and 12d6 poison damage (DC 40  Basic  Reflex save). Smoke lingers in the area until the end of Saint Fang's next turn; all creatures within the smoke become Concealed, and all creatures outside the smoke become concealed to creatures within.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -30669,7 +30709,7 @@
             "die": ""
           },
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>A glue bomb is a harmless explosive mechanism bursting with sticky substances. When you hit a creature with a glue bomb, that creature takes a –15-foot status penalty to its Speeds for 1 minute. You gain a +2 item bonus to attack rolls, and the Escape DC is 28.</p>\n<p>On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and Immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Glue bombs are not effective when used on a creature that is in water.</p>\n<p>The target can end any effects by Escaping or spending a total of 3 Interact actions to carefully remove the sticky substances. These Interact actions don't have to be consecutive, and other creatures can provide the actions as well.</p>\n<p>Effect: Glue Bomb (Greater)</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>A glue bomb is a harmless explosive mechanism bursting with sticky substances. When you hit a creature with a glue bomb, that creature takes a –15-foot status penalty to its Speeds for 1 minute. You gain a +2 item bonus to attack rolls, and the Escape DC is 28.</p>\n<p>On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and Immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Glue bombs are not effective when used on a creature that is in water.</p>\n<p>The target can end any effects by Escaping or spending a total of 3 Interact actions to carefully remove the sticky substances. These Interact actions don't have to be consecutive, and other creatures can provide the actions as well.</p>\n<p>Effect: Glue Bomb</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -31225,7 +31265,7 @@
           },
           "damageRolls": {},
           "description": {
-            "value": "<p>Effect: Glue Bomb (Greater)</p>"
+            "value": "<p>Effect: Glue Bomb</p>"
           },
           "publication": {
             "license": "OGL",
@@ -37354,7 +37394,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>Whenever Temperbrand is targeted with a water effect, she takes 6d6 cold damage and becomes Slowed 1 for [[/br 1d4 #rounds]]{1d4 rounds} as her body hardens into solid metal. As long as she remains slowed, her Armor Class increase to 43.</p>"
+            "value": "<p>Whenever Temperbrand is targeted with a water effect, she takes 6d6 cold damage and becomes Slowed 1 for [[/gmr 1d4 #rounds]]{1d4 rounds} as her body hardens into solid metal. As long as she remains slowed, her Armor Class increase to 43.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -37366,8 +37406,7 @@
               "domain": "all",
               "key": "RollOption",
               "option": "vulnerable-to-water",
-              "toggleable": true,
-              "value": true
+              "toggleable": true
             },
             {
               "key": "FlatModifier",
@@ -37376,6 +37415,14 @@
               ],
               "selector": "ac",
               "value": 2
+            },
+            {
+              "inMemoryOnly": true,
+              "key": "GrantItem",
+              "predicate": [
+                "vulnerable-to-water"
+              ],
+              "uuid": "Compendium.pf2e.conditionitems.Item.Slowed"
             }
           ],
           "slug": null,
@@ -37399,7 +37446,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Temperbrand whips an arm at a target within 120 feet, causing her slagblade to detach and fly through the air. The target creature must attempt a DC 40  Reflex save. Temperbrand regrows a new slagblade instantly but can't use Hurl Slag again for [[/br 1d4 #Recharge Hurl Slag]]{1d4 rounds}.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes 5d10 fire damage.</p>\n<p><strong>Failure</strong> The creature takes 10d10 fire damage, and the slag hardens, causing the creature to become Slowed 1 for 3 rounds. A creature can end the slowed condition early by Escaping (DC 40) the confining slag.</p>\n<p><strong>Critical Failure</strong> The creature takes 20d10 fire damage, and the slag swiftly anchors them in place, causing the creature to become Restrained until they Escape (DC 40).</p>"
+            "value": "<p>Temperbrand whips an arm at a target within 120 feet, causing her slagblade to detach and fly through the air. The target creature must attempt a DC 40  Reflex save. Temperbrand regrows a new slagblade instantly but can't use Hurl Slag again for [[/gmr 1d4 #Recharge Hurl Slag]]{1d4 rounds}.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes 5d10 fire damage.</p>\n<p><strong>Failure</strong> The creature takes 10d10 fire damage, and the slag hardens, causing the creature to become Slowed 1 for 3 rounds. A creature can end the slowed condition early by Escaping (DC 40) the confining slag.</p>\n<p><strong>Critical Failure</strong> The creature takes 20d10 fire damage, and the slag swiftly anchors them in place, causing the creature to become Restrained until they [[/act escape dc=40]].</p>"
           },
           "publication": {
             "license": "OGL",
@@ -37440,7 +37487,40 @@
             "remaster": false,
             "title": ""
           },
-          "rules": [],
+          "rules": [
+            {
+              "domain": "all",
+              "key": "RollOption",
+              "option": "ooze-form",
+              "toggleable": true
+            },
+            {
+              "key": "FlatModifier",
+              "predicate": [
+                "ooze-form"
+              ],
+              "selector": "ac",
+              "value": -11
+            },
+            {
+              "key": "FlatModifier",
+              "predicate": [
+                "ooze-form"
+              ],
+              "selector": "all-speeds",
+              "value": -15
+            },
+            {
+              "key": "Immunity",
+              "predicate": [
+                "ooze-form"
+              ],
+              "type": [
+                "precision",
+                "critical-hits"
+              ]
+            }
+          ],
           "slug": null,
           "traits": {
             "value": [
@@ -41962,7 +42042,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Thresholds</strong> 208 (12 squares), 104 (8 squares)</p>\n<p><p>Troops are composed of many individuals, and over the course of enough attacks and downed comrades, troops shrink in size. Most troops start with 16 squares (4 by 4), and their Hit Points have two listed thresholds, typically the first is at 2/3 their maximum Hit Points and the second is at 1/3 their maximum Hit Points. Once the troop drops below the first threshold, it loses 4 squares, leaving 12 squares remaining, and the first threshold becomes the troop's new maximum Hit Points. Once the troop falls below the second threshold, it loses another 4 squares, leaving 8 squares remaining, and the second threshold becomes the troop's new maximum Hit Points. In order to restore its size and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen. At 0 Hit Points, the troop is reduced down to 4 squares, which is too few to sustain the troop, so it disperses entirely, with the few remaining members surrendering, fleeing, or easily dispatched, depending on their nature.</p>\n<p>A damaging single-target effect, such as a Strike, can't force a troop to pass through more than one threshold at once. For instance, if a troop had 60 Hit Points, with thresholds at 40 and 20, a Strike for 50 damage would leave the troop at 21 Hit Points, just above the second threshold. A damaging area effect or multi-target effect can cross multiple thresholds at once and could potentially destroy the entire troop in one shot.</p>\n<p>Non-damaging effects with an area or that target all creatures in a certain proximity affect a troop normally if they affect the entire area occupied by the troop. If an effect has a smaller area or numbers of targets, it typically has no effect on the troop. However, if the effect can target at least four creatures or cover at least four squares in the troop, and if it would prevent its targets from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more, the troop loses loses a number of Hit Points equal to the amount required to bring it to the next threshold, removing 4 squares. If an effect would both deal damage and automatically cross a threshold due to incapacitating some of the creatures in the troop, apply the damage first. If the damage wasn't enough to cross a threshold on its own, then reduce the Hit Points to cross the threshold for the incapacitating effect.</p></p>"
+            "value": "<p><strong>Thresholds</strong> 208 (12 squares), 104 (8 squares)</p>\n<p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -45189,7 +45269,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Vatumledor unleashes a 60-foot cone of smoke that deals 16d6 poison damage (DC 39  Basic  Fortitude save). The smoke remains for 1 minute, obscuring sight with the effects of mist in the cone's area. He can't use Smoke Breath again for [[/br 1d4 #Recharge Smoke Breath]]{1d4 rounds}.</p>"
+            "value": "<p>Vatumledor unleashes a 60-foot cone of smoke that deals 16d6 poison damage (DC 39  Basic  Fortitude save). The smoke remains for 1 minute, obscuring sight with the effects of mist in the cone's area. He can't use Smoke Breath again for [[/gmr 1d4 #Recharge Smoke Breath]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "ORC",

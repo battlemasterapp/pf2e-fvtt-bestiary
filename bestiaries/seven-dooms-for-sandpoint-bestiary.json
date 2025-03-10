@@ -2405,7 +2405,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>When Abstalar casts heal, he rolls d10s instead of d8s. When he casts heal to heal a single creature other than himself, he regains Hit Points equal to the spell level of the heal spell.</p>"
+            "value": "<p>When Abstalar casts Heal, he rolls d10s instead of d8s. When he casts <em>heal</em> to heal a single creature other than himself, he regains Hit Points equal to the spell rank of the <em>heal</em> spell.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2414,17 +2414,34 @@
           },
           "rules": [
             {
-              "key": "DamageDice",
-              "override": {
-                "dieSize": "d10"
-              },
+              "key": "DamageAlteration",
+              "mode": "upgrade",
               "predicate": [
-                "item:slug:heal"
+                "item:slug:heal",
+                "dice:slug:base"
               ],
-              "selector": [
+              "property": "dice-faces",
+              "selectors": [
                 "spell-damage",
                 "spell-healing"
-              ]
+              ],
+              "value": 10
+            },
+            {
+              "key": "Note",
+              "predicate": [
+                "item:slug:heal",
+                {
+                  "lt": [
+                    "item:cast:actions",
+                    3
+                  ]
+                }
+              ],
+              "selector": "spell-healing",
+              "text": "PF2E.NPCAbility.AbstalarZantus.CommunalHealingHands.Note",
+              "title": "{item|name}",
+              "visibility": "owner"
             }
           ],
           "slug": null,
@@ -3506,7 +3523,7 @@
             "die": "d6"
           },
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn. Many types of frost vial also grant an item bonus to attack rolls.</p>\n<p>You gain a +1 item bonus to attack rolls, the bomb deals 2d6 cold damage and 2 cold splash damage, and the target takes a -10-foot penalty.</p>\n<p>Effect: Frost Vial (Moderate)</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn. Many types of frost vial also grant an item bonus to attack rolls.</p>\n<p>You gain a +1 item bonus to attack rolls, the bomb deals 2d6 cold damage and 2 cold splash damage, and the target takes a -10-foot penalty.</p>\n<p>Effect: Frost Vial</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -4738,7 +4755,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Thresholds</strong> 50 (12 squares), 25 (8 squares)</p>\n<hr />\n<p><p>Troops are composed of many individuals, and over the course of enough attacks and downed comrades, troops shrink in size. Most troops start with 16 squares (4 by 4), and their Hit Points have two listed thresholds, typically the first is at 2/3 their maximum Hit Points and the second is at 1/3 their maximum Hit Points. Once the troop drops below the first threshold, it loses 4 squares, leaving 12 squares remaining, and the first threshold becomes the troop's new maximum Hit Points. Once the troop falls below the second threshold, it loses another 4 squares, leaving 8 squares remaining, and the second threshold becomes the troop's new maximum Hit Points. In order to restore its size and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen. At 0 Hit Points, the troop is reduced down to 4 squares, which is too few to sustain the troop, so it disperses entirely, with the few remaining members surrendering, fleeing, or easily dispatched, depending on their nature.</p>\n<p>A damaging single-target effect, such as a Strike, can't force a troop to pass through more than one threshold at once. For instance, if a troop had 60 Hit Points, with thresholds at 40 and 20, a Strike for 50 damage would leave the troop at 21 Hit Points, just above the second threshold. A damaging area effect or multi-target effect can cross multiple thresholds at once and could potentially destroy the entire troop in one shot.</p>\n<p>Non-damaging effects with an area or that target all creatures in a certain proximity affect a troop normally if they affect the entire area occupied by the troop. If an effect has a smaller area or numbers of targets, it typically has no effect on the troop. However, if the effect can target at least four creatures or cover at least four squares in the troop, and if it would prevent its targets from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more, the troop loses loses a number of Hit Points equal to the amount required to bring it to the next threshold, removing 4 squares. If an effect would both deal damage and automatically cross a threshold due to incapacitating some of the creatures in the troop, apply the damage first. If the damage wasn't enough to cross a threshold on its own, then reduce the Hit Points to cross the threshold for the incapacitating effect.</p></p>"
+            "value": "<p><strong>Thresholds</strong> 50 (12 squares), 25 (8 squares)</p>\n<hr />\n<p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -7527,7 +7544,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Gods & Magic"
+            "title": "Pathfinder Lost Omens Gods & Magic"
           },
           "quantity": 1,
           "range": null,
@@ -10053,7 +10070,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Gods & Magic"
+            "title": "Pathfinder Lost Omens Gods & Magic"
           },
           "quantity": 1,
           "range": null,
@@ -12294,7 +12311,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>24 hours, DC 26  Thievery, standby</p>\n<hr />\n<p>For a clockwork to act, it must be wound with a unique key by another creature. This takes 1 minute. Once wound, it remains operational for the listed amount of time, usually 24 hours, after which time it becomes unaware of its surroundings and can't act until it's wound again. Some clockworks' abilities require them to spend some of their remaining operational time. They can't spend more than they have and shut down immediately once they have 0 time remaining. If it's unclear when a clockwork was last wound, most clockwork keepers wind all their clockworks at a set time, typically 8 a.m.</p>\n<p>A clockwork that lists standby in its wind-up entry can enter standby mode as a 3-action activity. Its operational time doesn't decrease in standby, but it can sense its surroundings (with a -2 penalty to Perception). It can't act, with one exception: when it perceives a creature, it can exit standby as a reaction (rolling initiative if appropriate).</p>\n<p>A creature can attempt to Disable a Device to wind a clockwork down (with a DC listed in the wind-up entry). For each success, the clockwork loses 1 hour of operational time. This can be done even if the clockwork is in standby mode.</p>"
+            "value": "<p>24 hours, [[/act disable-device dc=26]]{DC 26 Thievery}, standby</p>\n<hr />\n<p>For a clockwork to act, it must be wound with a unique key by another creature. This takes 1 minute. Once wound, it remains operational for the listed amount of time, usually 24 hours, after which time it becomes unaware of its surroundings and can't act until it's wound again. Some clockworks' abilities require them to spend some of their remaining operational time. They can't spend more than they have and shut down immediately once they have 0 time remaining. If it's unclear when a clockwork was last wound, most clockwork keepers wind all their clockworks at a set time, typically 8 a.m.</p>\n<p>A clockwork that lists standby in its wind-up entry can enter standby mode as a 3-action activity. Its operational time doesn't decrease in standby, but it can sense its surroundings (with a -2 penalty to Perception). It can't act, with one exception: when it perceives a creature, it can exit standby as a reaction (rolling initiative if appropriate).</p>\n<p>A creature can attempt to Disable a Device to wind a clockwork down (with a DC listed in the wind-up entry). For each success, the clockwork loses 1 hour of operational time. This can be done even if the clockwork is in standby mode.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -14996,7 +15013,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Gods & Magic"
+            "title": "Pathfinder Lost Omens Gods & Magic"
           },
           "quantity": 1,
           "range": null,
@@ -16540,7 +16557,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The fiendish flock's angry pecking and clawing deals 2d6 piercing],2d6 damage to each enemy in the swarm's space (DC 25  Basic  Reflex save). A creature that critically fails its save is Blinded for [[/br 1d4 #rounds]]{1d4 rounds} as the birds focus their attacks on the target's face.</p>"
+            "value": "<p>The fiendish flock's angry pecking and clawing deals 2d6 piercing],2d6 damage to each enemy in the swarm's space (DC 25  Basic  Reflex save). A creature that critically fails its save is Blinded for [[/gmr 1d4 #rounds]]{1d4 rounds} as the birds focus their attacks on the target's face.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -16934,7 +16951,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature walks onto the sheet of fungus</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature falls 30 feet into area <strong>H7</strong>, taking @Damage[15[bludgeoning],6d6[piercing]]{15 falling damage and an additional 6d6 piercing} damage (DC 24  Basic  Reflex save) from the many stalagmites they land on. That creature can use the Grab an Edge reaction to avoid falling (DC 24).</p>"
+            "value": "<p><strong>Trigger</strong> A creature walks onto the sheet of fungus</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature falls 30 feet into area <strong>H7</strong>, taking @Damage[15[bludgeoning]|options:fall-damage]{15} falling damage and an additional 6d6 piercing damage (DC 24  Basic  Reflex save) from the many stalagmites they land on. That creature can use the Grab an Edge reaction to avoid falling (DC 24).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -18164,7 +18181,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The fungus tyrant causes a human-sized pod of fungal material to burst out of the ground at any point they can see within 60 feet. Once created, a sporepod lasts for 1 minute, until the fungus tyrant moves more than 120 feet away from it, or until it's destroyed (AC 28, Hardness 10, 20 HP). The fungus tyrant cannot Grow a Sporepod again for [[/br 1d4 #Recharge Grow Sporepod]]{1d4 rounds}, but apart from this and a sporepod's 1 minute life, there is no hard limit to the number of sporepods a single fungus tyrant can have active at any one time.</p>"
+            "value": "<p>The fungus tyrant causes a human-sized pod of fungal material to burst out of the ground at any point they can see within 60 feet. Once created, a sporepod lasts for 1 minute, until the fungus tyrant moves more than 120 feet away from it, or until it's destroyed (AC 28, Hardness 10, 20 HP). The fungus tyrant cannot Grow a Sporepod again for [[/gmr 1d4 #Recharge Grow Sporepod]]{1d4 rounds}, but apart from this and a sporepod's 1 minute life, there is no hard limit to the number of sporepods a single fungus tyrant can have active at any one time.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -20791,7 +20808,7 @@
         }
       },
       "details": {
-        "blurb": "Ghast priest of Kabriri ",
+        "blurb": "Ghast priest of Kabriri",
         "languages": {
           "details": "",
           "value": [
@@ -24024,7 +24041,7 @@
             {
               "key": "FlatModifier",
               "predicate": [
-                "mental"
+                "item:trait:mental"
               ],
               "selector": "saving-throw",
               "type": "status",
@@ -28728,7 +28745,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Jervis Stoot raises a hand high, and a murder of ghostly crows manifests in a vortex above his hand. He then lowers his hand to point in a direction, and the murder of ghostly crows swarms out in a 20-foot cone. All creatures caught in the area must attempt a DC 30  Reflex save. Jervis can't use Ghostly Murder again for [[/br 1d4 #Recharge Ghostly Murder]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes 6d6 slashing damage.</p>\n<p><strong>Failure</strong> The creature takes 10d6 slashing],2d6{10d6 slashing damage and 2d6 bleed} damage.</p>\n<p><strong>Critical Failure</strong> The creature takes 15d6 slashing],5d6{15d6 slashing damage, 5d6 bleed} damage, and is Blinded. The blindness persists until it's healed via an effect like restore senses.</p>"
+            "value": "<p>Jervis Stoot raises a hand high, and a murder of ghostly crows manifests in a vortex above his hand. He then lowers his hand to point in a direction, and the murder of ghostly crows swarms out in a 20-foot cone. All creatures caught in the area must attempt a DC 30  Reflex save. Jervis can't use Ghostly Murder again for [[/gmr 1d4 #Recharge Ghostly Murder]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes 6d6 slashing damage.</p>\n<p><strong>Failure</strong> The creature takes 10d6 slashing],2d6{10d6 slashing damage and 2d6 bleed} damage.</p>\n<p><strong>Critical Failure</strong> The creature takes 15d6 slashing],5d6{15d6 slashing damage, 5d6 bleed} damage, and is Blinded. The blindness persists until it's healed via an effect like restore senses.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -28939,7 +28956,7 @@
         }
       },
       "details": {
-        "blurb": "Male human ghost ",
+        "blurb": "Male human ghost",
         "languages": {
           "details": "",
           "value": [
@@ -41287,7 +41304,7 @@
             }
           },
           "description": {
-            "value": "<p>Your touch calls forth a churning mass of icy water that clings to your target, dealing 1d4 bludgeoning damage and 1d4 cold damage. The target must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage and a -5-foot circumstance penalty to its Speeds until the end of your next turn.</p>\n<p><strong>Failure</strong> The target takes full damage and a -10-foot circumstance penalty to its Speeds until the end of your next turn.</p>\n<p><strong>Critical Failure</strong> As failure, but the target takes double damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The bludgeoning and cold damage each increase by 1d4.</p>"
+            "value": "<p>Your touch calls forth a churning mass of icy water that clings to your target, dealing 1d4 bludgeoning damage and 1d4 cold damage. The target must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage and a –5-foot circumstance penalty to its Speeds until the end of your next turn.</p>\n<p><strong>Failure</strong> The target takes full damage and a –10-foot circumstance penalty to its Speeds until the end of your next turn.</p>\n<p><strong>Critical Failure</strong> As failure, but the target takes double damage.</p>\n<p>Spell Effect: Tempest Touch</p><hr /><p><strong>Heightened (+1)</strong> The bludgeoning and cold damage each increase by 1d4.</p>"
           },
           "duration": {
             "sustained": false,
@@ -41623,15 +41640,17 @@
               "toggleable": true
             },
             {
-              "key": "DamageDice",
-              "label": "PF2E.TraitTwoHandD8",
-              "override": {
-                "dieSize": "d8"
-              },
+              "key": "DamageAlteration",
+              "mode": "upgrade",
               "predicate": [
-                "two-handed"
+                "two-handed",
+                "dice:slug:base"
               ],
-              "selector": "{item|_id}-damage"
+              "property": "dice-faces",
+              "selectors": [
+                "{item|_id}-damage"
+              ],
+              "value": 8
             }
           ],
           "slug": "staff-of-air-greater",
@@ -44715,7 +44734,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A gosreg concentrates its field of discordant mental energy and projects it into the mind of an enemy within 60 feet. The target takes 6d6 mental damage (DC 30  Basic  Will save). On a critical failure, the creature is also Confused for [[/br 1d4 #rounds]]{1d4 rounds}.</p>"
+            "value": "<p>A gosreg concentrates its field of discordant mental energy and projects it into the mind of an enemy within 60 feet. The target takes 6d6 mental damage (DC 30  Basic  Will save). On a critical failure, the creature is also Confused for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -48540,7 +48559,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>When a graveknight is destroyed, its armor rebuilds its body over the course of [[/br 1d10 #days]]{1d10 days}-or more quickly if the armor is worn by a living host. If the body is destroyed before then, the process restarts.</p>\n<p>A graveknight can only be permanently destroyed by obliterating its armor (such as with Disintegrate), transporting it to the Forge of Creation, or throwing it into the heart of a volcano.</p>"
+            "value": "<p>When a graveknight is destroyed, its armor rebuilds its body over the course of [[/gmr 1d10 #days]]{1d10 days}-or more quickly if the armor is worn by a living host. If the body is destroyed before then, the process restarts.</p>\n<p>A graveknight can only be permanently destroyed by obliterating its armor (such as with Disintegrate), transporting it to the Forge of Creation, or throwing it into the heart of a volcano.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -48660,7 +48679,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The graveknight unleashes a 30-foot cone of energy. Creatures in the area take 4d12 fire damage (DC 24  Basic  Reflex save).</p>\n<p>The graveknight can use this ability once every [[/br 1d4 #Recharge Devastating Blast]]{1d4 rounds}.</p>"
+            "value": "<p>The graveknight unleashes a 30-foot cone of energy. Creatures in the area take 4d12 fire damage (DC 24  Basic  Reflex save).</p>\n<p>The graveknight can use this ability once every [[/gmr 1d4 #Recharge Devastating Blast]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -48673,7 +48692,7 @@
             "rarity": "common",
             "value": [
               "arcane",
-              "cold"
+              "fire"
             ]
           }
         },
@@ -51139,7 +51158,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Scarhorn breathes a spray of acid that deals 15d6 acid damage in an 80-foot line (DC 34  Basic  Reflex save). She can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+            "value": "<p>Scarhorn breathes a spray of acid that deals 15d6 acid]|options:area-damage] damage in an 80-foot line (DC 34  Basic  Reflex save). She can't use Breath Weapon again for {1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -58599,7 +58618,7 @@
             "die": ""
           },
           "description": {
-            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>A glue bomb is a harmless explosive mechanism bursting with sticky substances. When you hit a creature with a glue bomb, that creature takes a –15-foot status penalty to its Speeds for 1 minute. You gain a +1 item bonus to attack rolls, and the Escape DC is 19.</p>\n<p>On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and Immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Glue bombs are not effective when used on a creature that is in water.</p>\n<p>The target can end any effects by Escaping or spending a total of 3 Interact actions to carefully remove the sticky substances. These Interact actions don't have to be consecutive, and other creatures can provide the actions as well.</p>\n<p>Effect: Glue Bomb (Moderate)</p>"
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>A glue bomb is a harmless explosive mechanism bursting with sticky substances. When you hit a creature with a glue bomb, that creature takes a –15-foot status penalty to its Speeds for 1 minute. You gain a +1 item bonus to attack rolls, and the Escape DC is 19.</p>\n<p>On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and Immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Glue bombs are not effective when used on a creature that is in water.</p>\n<p>The target can end any effects by Escaping or spending a total of 3 Interact actions to carefully remove the sticky substances. These Interact actions don't have to be consecutive, and other creatures can provide the actions as well.</p>\n<p>Effect: Glue Bomb</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -66136,7 +66155,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>When the worm that walks is reduced to 0 HP, it discorporates and the component worms that make up its body disperse in every direction. If even a single worm escapes, the worm that walks will eventually re-form using a process that typically takes [[/br 1d10 #Re-Form]]{1d10 days}.</p>\n<p>While the exact circumstances and surroundings determine how long the worm that walks's foes have to dispatch the fleeing worms before they escape, usually its foes have only a single round. Typically, this requires the application of an area effect or splash weapon within 1 round to the space where the worm that walks collapsed. After any amount of area or splash damage is dealt to that space, the character dealing the damage must attempt a DC 15  Flat check. Each subsequent area or splash damage effect performed on the area reduces the DC of this flat check by 2, to a minimum of DC 5. If any of these flat checks succeed, none of the worms escape, and the worm that walks is destroyed permanently.</p>\n<p>At the GM's discretion, clever means of trapping or otherwise detaining the vermin may extend the time allowed to finish off the worm that walks.</p>"
+            "value": "<p>When the worm that walks is reduced to 0 HP, it discorporates and the component worms that make up its body disperse in every direction. If even a single worm escapes, the worm that walks will eventually re-form using a process that typically takes [[/gmr 1d10 #Re-Form]]{1d10 days}.</p>\n<p>While the exact circumstances and surroundings determine how long the worm that walks's foes have to dispatch the fleeing worms before they escape, usually its foes have only a single round. Typically, this requires the application of an area effect or splash weapon within 1 round to the space where the worm that walks collapsed. After any amount of area or splash damage is dealt to that space, the character dealing the damage must attempt a DC 15  Flat check. Each subsequent area or splash damage effect performed on the area reduces the DC of this flat check by 2, to a minimum of DC 5. If any of these flat checks succeed, none of the worms escape, and the worm that walks is destroyed permanently.</p>\n<p>At the GM's discretion, clever means of trapping or otherwise detaining the vermin may extend the time allowed to finish off the worm that walks.</p>"
           },
           "publication": {
             "license": "OGL",

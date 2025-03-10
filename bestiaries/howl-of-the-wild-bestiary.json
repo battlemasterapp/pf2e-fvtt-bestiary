@@ -648,7 +648,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The alicorn harnesses a powerful burning ray of light from their horn. Creatures in a 120-foot line take 16d6 fire damage (DC 36  Basic  Fortitude save). An unholy creature in the area takes an additional 8d6 spirit damage. If the light passes through an area of magical darkness or targets a creature affected by magical darkness, the beam attempts to counteract the darkness (counteract modifier +28, counteract rank 8th). The alicorn can't use its Beam of Light again for [[/br 1d4 #Recharge Beam of Light]]{1d4 rounds}.</p>"
+            "value": "<p>The alicorn harnesses a powerful burning ray of light from their horn. Creatures in a 120-foot line take 16d6 fire damage (DC 36  Basic  Fortitude save). An unholy creature in the area takes an additional 8d6 spirit damage. If the light passes through an area of magical darkness or targets a creature affected by magical darkness, the beam attempts to counteract the darkness (counteract modifier +28, counteract rank 8th). The alicorn can't use its Beam of Light again for [[/gmr 1d4 #Recharge Beam of Light]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -4085,7 +4085,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The blooming guardian is in Full Bloom</p>\n<hr />\n<p><strong>Effect</strong> The blooming guardian confronts their mortality, causing their flowers to burst and spray their pollen. All creatures in a 40-foot cone take 10d10 void damage with a DC 36  Fortitude save. The blooming guardian then exits Full Bloom and can't enter it again for [[/br 1d4 #Recharge Full Bloom]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and becomes Drained 1. Creatures that are Enfeebled lose that condition and increase the drained condition by the same value.</p>\n<p><strong>Critical Failure</strong> As failure, but double damage.</p>"
+            "value": "<p><strong>Requirements</strong> The blooming guardian is in Full Bloom</p>\n<hr />\n<p><strong>Effect</strong> The blooming guardian confronts their mortality, causing their flowers to burst and spray their pollen. All creatures in a 40-foot cone take 10d10 void damage with a DC 36  Fortitude save. The blooming guardian then exits Full Bloom and can't enter it again for [[/gmr 1d4 #Recharge Full Bloom]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and becomes Drained 1. Creatures that are Enfeebled lose that condition and increase the drained condition by the same value.</p>\n<p><strong>Critical Failure</strong> As failure, but double damage.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7848,7 +7848,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The coppermouth unleashes a stream of electrified venom in a 30-foot line. The venom deals 8d6 electricity damage (DC 22  Basic  Reflex) and creatures that take damage from the venom are immediately exposed to coppermouth venom. The copper mouth can't use Venomous Spit again for [[/br 1d4 #rounds]]{1d4 rounds}.</p>"
+            "value": "<p>The coppermouth unleashes a stream of electrified venom in a 30-foot line. The venom deals 8d6 electricity damage (DC 22  Basic  Reflex) and creatures that take damage from the venom are immediately exposed to coppermouth venom. The copper mouth can't use Venomous Spit again for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10451,7 +10451,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>With a few fierce wingbeats, the hexmoth expels magical scale dust in a 30-foot cone. This deals 10d6 damage of the type to which the hexmoth is immune (DC 23  Basic  Fortitude save). It can't use Hexdust Wind again for [[/br 1d4 #Recharge Hexdust Wind]]{1d4 rounds}.</p>"
+            "value": "<p>With a few fierce wingbeats, the hexmoth expels magical scale dust in a 30-foot cone. This deals 10d6 damage of the type to which the hexmoth is immune (DC 23  Basic  Fortitude save). It can't use Hexdust Wind again for [[/gmr 1d4 #Recharge Hexdust Wind]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -13477,7 +13477,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The gecko repulses the metal attached to its body in all directions, dealing 2d6 bludgeoning damage (DC 17  Basic  Reflex save) to all creatures in a 10-foot emanation. The gecko can't use Launch Metal again for [[/br 1d4 #Recharge Launch Metal]]{1d4 rounds}.</p>"
+            "value": "<p>The gecko repulses the metal attached to its body in all directions, dealing 2d6 bludgeoning damage (DC 17  Basic  Reflex save) to all creatures in a 10-foot emanation. The gecko can't use Launch Metal again for [[/gmr 1d4 #Recharge Launch Metal]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -20130,7 +20130,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The royal basilisk spits its poison with immense force, dealing 5d10 acid],5d8{5d10 acid and 5d8 piercing} damage (DC 32  Basic  Reflex save) to creatures in a 240-foot line and exposing each creature that took damage to royal basilisk venom. The line penetrates barriers with Hardness of less than 20, ignoring any bonuses they'd provide from cover. The royal basilisk can't use Stone-Hewing Spit again for [[/br 1d4 #Recharge Stone-Hewing Spit]]{1d4 rounds}.</p>"
+            "value": "<p>The royal basilisk spits its poison with immense force, dealing 5d10 acid],5d8{5d10 acid and 5d8 piercing} damage (DC 32  Basic  Reflex save) to creatures in a 240-foot line and exposing each creature that took damage to royal basilisk venom. The line penetrates barriers with Hardness of less than 20, ignoring any bonuses they'd provide from cover. The royal basilisk can't use Stone-Hewing Spit again for [[/gmr 1d4 #Recharge Stone-Hewing Spit]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -21106,7 +21106,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The scroungefeather is in its nest or another environment rich with debris</p><hr /><p><strong>Effect</strong> The scroungefeather uses an Interact action to grab an item with its beak, selected randomly; roll 1d4 to determine the type of debris. The scroungefeather gains access to the listed abilities until it uses Tossed Scraps to discard the debris or until it Releases the debris. The scroungefeather can't use its beak attack while it is using its beak to Grab Debris.</p><table class=\"pf2e\"><thead><tr><th>d4</th><th>Item</th><th>Effect</th></tr></thead><tbody><tr><td>1</td><td>Armor scrap</td><td>The scroungefeather gains a +2 circumstance bonus to its AC.</td></tr><tr><td>2</td><td>Shattered blade</td><td>The scroungefeather gains a broken blade melee Strike with a +12 attack modifier that deals 2d10+6 slashing damage.</td></tr><tr><td>3</td><td>Unexploded bomb</td><td>When the scroungefeather throws this with Tossed Scraps, all the damage is fire damage, and the bomb also deals 3 fire splash damage.</td></tr><tr><td>4</td><td>Faulty wand</td><td>The scroungefeather gains a magic bolt ranged Strike witha +14 attack modifier that deals 2d6+6 force damage.</td></tr></tbody></table>"
+            "value": "<p><strong>Requirements</strong> The scroungefeather is in its nest or another environment rich with debris</p><hr /><p><strong>Effect</strong> The scroungefeather uses an Interact action to grab an item with its beak, selected randomly; roll 1d4 to determine the type of debris. The scroungefeather gains access to the listed abilities until it uses Tossed Scraps to discard the debris or until it Releases the debris. The scroungefeather can't use its beak attack while it is using its beak to Grab Debris.</p><table class=\"pf2e remaster\"><thead><tr><th>d4</th><th>Item</th><th>Effect</th></tr></thead><tbody><tr><td>1</td><td>Armor scrap</td><td>The scroungefeather gains a +2 circumstance bonus to its AC.</td></tr><tr><td>2</td><td>Shattered blade</td><td>The scroungefeather gains a broken blade melee Strike with a +12 attack modifier that deals 2d10+6 slashing damage.</td></tr><tr><td>3</td><td>Unexploded bomb</td><td>When the scroungefeather throws this with Tossed Scraps, all the damage is fire damage, and the bomb also deals 3 fire splash damage.</td></tr><tr><td>4</td><td>Faulty wand</td><td>The scroungefeather gains a magic bolt ranged Strike witha +14 attack modifier that deals 2d6+6 force damage.</td></tr></tbody></table>"
           },
           "publication": {
             "license": "OGL",
@@ -21652,7 +21652,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The sky fisher vents flesh-eating enzymes into the air, dealing 3d6 persistent,acid],3d6{3d6 persistent acid damage and 3d6 persistent bleed damage} in a 20-foot emanation (DC 25  Basic  Reflex save). It can't use Enzymic Vent again for [[/br 1d4 #Recharge Enzymic Vent]]{1d4 rounds}.</p>"
+            "value": "<p>The sky fisher vents flesh-eating enzymes into the air, dealing 3d6 persistent,acid],3d6{3d6 persistent acid damage and 3d6 persistent bleed damage} in a 20-foot emanation (DC 25  Basic  Reflex save). It can't use Enzymic Vent again for [[/gmr 1d4 #Recharge Enzymic Vent]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -22455,7 +22455,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The sporeback frog shakes the plants and fungi on its back until they emit a cloud of spores in a 20-foot emanation. All creatures in the area must succeed a DC 22  Fortitude save or become Clumsy 2 and Stupefied 2 for 1 minute (Clumsy 3 and Stupefied 3 on a critical failure). This ability can't be used again for [[/br 1d4 #Recharge Soporific Spores]]{1d4 rounds}.</p>"
+            "value": "<p>The sporeback frog shakes the plants and fungi on its back until they emit a cloud of spores in a 20-foot emanation. All creatures in the area must succeed a DC 22  Fortitude save or become Clumsy 2 and Stupefied 2 for 1 minute (Clumsy 3 and Stupefied 3 on a critical failure). This ability can't be used again for [[/gmr 1d4 #Recharge Soporific Spores]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -22952,7 +22952,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The stargut hydra lurches its entire body, spewing forth chunks of meteorite in a 30-foot cone that deal 5d6 bludgeoning damage to all creatures in the area (DC 25  Basic  Reflex). The area becomes difficult terrain for 1 minute, though a creature can use an Interact action to clear one square of the rubble. The stargut hydra can't Vomit Meteorites for [[/br 1d4 #Recharge Vomit Meteorites]]{1d4 rounds}.</p>"
+            "value": "<p>The stargut hydra lurches its entire body, spewing forth chunks of meteorite in a 30-foot cone that deal 5d6 bludgeoning damage to all creatures in the area (DC 25  Basic  Reflex). The area becomes difficult terrain for 1 minute, though a creature can use an Interact action to clear one square of the rubble. The stargut hydra can't Vomit Meteorites for [[/gmr 1d4 #Recharge Vomit Meteorites]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -23769,7 +23769,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The stony bat breathes petrifying gas in a 15-foot cone, too thin to harm creatures in the area. However, it petrifies ambient moisture, raining down a cascade of tiny stones onto any creatures in the space directly below the cone. The falling rocks deal 4d6 bludgeoning damage (DC 20  Basic  Reflex). The stony bat can't use Petrify Vapor again for [[/br 1d4 #Recharge Petrify Vapor]]{1d4 rounds}.</p>"
+            "value": "<p>The stony bat breathes petrifying gas in a 15-foot cone, too thin to harm creatures in the area. However, it petrifies ambient moisture, raining down a cascade of tiny stones onto any creatures in the space directly below the cone. The falling rocks deal 4d6 bludgeoning damage (DC 20  Basic  Reflex). The stony bat can't use Petrify Vapor again for [[/gmr 1d4 #Recharge Petrify Vapor]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -24129,7 +24129,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The stony goat gains the Frightened condition or takes more than 8 damage in a single hit</p>\n<hr />\n<p><strong>Effect</strong> The stony goat turns to stone in self-defense. It gains the Petrified condition for [[/br 1d4 #rounds]]{1d4 rounds}. If the goat is damaged while it's petrified, it immediately heals by that amount by absorbing minerals from its cud, causing its cud to lose value equal to the amount of Hit Points restored (for instance, losing 5 gp worth of value to restore 5 Hit Points); if the goat's cud is reduced to 0 gp, it has the minerals fully drained from it, and the goat won't form more cud until it has eaten a sufficient quantity of rock and slept.</p>"
+            "value": "<p><strong>Trigger</strong> The stony goat gains the Frightened condition or takes more than 8 damage in a single hit</p>\n<hr />\n<p><strong>Effect</strong> The stony goat turns to stone in self-defense. It gains the Petrified condition for [[/gmr 1d4 #rounds]]{1d4 rounds}. If the goat is damaged while it's petrified, it immediately heals by that amount by absorbing minerals from its cud, causing its cud to lose value equal to the amount of Hit Points restored (for instance, losing 5 gp worth of value to restore 5 Hit Points); if the goat's cud is reduced to 0 gp, it has the minerals fully drained from it, and the goat won't form more cud until it has eaten a sufficient quantity of rock and slept.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -24525,7 +24525,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The storm snake gathers all static electricity in the area before releasing it in a 30-foot emanation that deals 3d12 electricity damage to all non-plant creatures (DC 19  Reflex save) and grants plant creatures 5 temporary Hit Points that last for 1 minute. Plant life in the area begins to grow significantly faster than the average for plants of their genus; in forests, fields, or otherwise floral locations, this immediately transforms the area into non-magical difficult terrain. The storm snake can't use Static field again for [[/br 1d4 #Recharge Static Field]]{1d4 rounds}.</p>\n<p>Effect: Static Field</p>"
+            "value": "<p>The storm snake gathers all static electricity in the area before releasing it in a 30-foot emanation that deals 3d12 electricity damage to all non-plant creatures (DC 19  Reflex save) and grants plant creatures 5 temporary Hit Points that last for 1 minute. Plant life in the area begins to grow significantly faster than the average for plants of their genus; in forests, fields, or otherwise floral locations, this immediately transforms the area into non-magical difficult terrain. The storm snake can't use Static field again for [[/gmr 1d4 #Recharge Static Field]]{1d4 rounds}.</p>\n<p>Effect: Static Field</p>"
           },
           "publication": {
             "license": "OGL",
@@ -25903,7 +25903,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The cave squirrel dives underground in search of gems. The cave squirrel Burrows up to its Speed. It must end its movement back on the surface. During its burrow, it happens upon [[/br 1d4 #Gems]] cheap gems (such as salt or quartz), which it stuffs in its cheeks, up to its maximum of 6.</p>"
+            "value": "<p>The cave squirrel dives underground in search of gems. The cave squirrel Burrows up to its Speed. It must end its movement back on the surface. During its burrow, it happens upon [[/gmr 1d4 #Gems]] cheap gems (such as salt or quartz), which it stuffs in its cheeks, up to its maximum of 6.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -25961,7 +25961,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The cave squirrel lets out a terrible scream. Non–cave squirrel creatures within 30 feet must succeed at a DC 22  Fortitude save or take 2d10 sonic damage. On a critical failure, a creature is Deafened for 1 minute. The cave squirrel can't use Screaming Force again for [[/br 1d4 #Recharge Screaming Force]]{1d4 rounds}.</p>"
+            "value": "<p>The cave squirrel lets out a terrible scream. Non–cave squirrel creatures within 30 feet must succeed at a DC 22  Fortitude save or take 2d10 sonic damage. On a critical failure, a creature is Deafened for 1 minute. The cave squirrel can't use Screaming Force again for [[/gmr 1d4 #Recharge Screaming Force]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -27960,7 +27960,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The tyrafdir breathes out a noxious mist from all of its mouths, spreading in a 20-foot emanation that deals 4d10 poison damage to creatures within the area (DC 24  Basic  Reflex save). Any creature that fails its save must attempt a DC 24  Will save or gain weakness to mental 10 and a –1 status penalty to Will saves for 24 hours. The tyrafdir can't use Noxious Exhalation again for [[/br 1d4 #Recharge Noxious Exhalation]]{1d4 rounds}.</p>\n<p>Effect: Noxious Exhalation</p>"
+            "value": "<p>The tyrafdir breathes out a noxious mist from all of its mouths, spreading in a 20-foot emanation that deals 4d10 poison damage to creatures within the area (DC 24  Basic  Reflex save). Any creature that fails its save must attempt a DC 24  Will save or gain weakness to mental 10 and a –1 status penalty to Will saves for 24 hours. The tyrafdir can't use Noxious Exhalation again for [[/gmr 1d4 #Recharge Noxious Exhalation]]{1d4 rounds}.</p>\n<p>Effect: Noxious Exhalation</p>"
           },
           "publication": {
             "license": "OGL",
@@ -28203,7 +28203,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The vibrant pup swarm is in bright light</p><hr /><p><strong>Effect</strong> The swarm simultaneously turns to focus the light in an arcing beam, dealing @Damage[(6d12)[fire]] damage to all creatures in a 30-foot cone (DC 30  Basic  Reflex save). A creature that fails its save is also Blinded for 1 round (or 1 minute on a critical failure). The swarm can't use Focused Reflection again for [[/br 1d4 #Recharge Focused Reflection]]{1d4 rounds}.</p>"
+            "value": "<p><strong>Requirements</strong> The vibrant pup swarm is in bright light</p><hr /><p><strong>Effect</strong> The swarm simultaneously turns to focus the light in an arcing beam, dealing @Damage[(6d12)[fire]] damage to all creatures in a 30-foot cone (DC 30  Basic  Reflex save). A creature that fails its save is also Blinded for 1 round (or 1 minute on a critical failure). The swarm can't use Focused Reflection again for [[/gmr 1d4 #Recharge Focused Reflection]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -29180,7 +29180,18 @@
             "value": ""
           },
           "counteraction": false,
-          "damage": {},
+          "damage": {
+            "C34n7XTpCLCXJWwt": {
+              "applyMod": false,
+              "category": null,
+              "formula": "2d6",
+              "kinds": [
+                "damage"
+              ],
+              "materials": [],
+              "type": "bludgeoning"
+            }
+          },
           "defense": {
             "save": {
               "basic": false,
@@ -29261,7 +29272,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[(@item.level)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.level)d6[persistent,fire]]{Scaling Persistent Fire Damage (Melee)}</p>"
+            "value": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p><hr /><p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p><hr /><p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.rank)d6[persistent,fire]]{Scaling Persistent Fire Damage (Melee)}</p>"
           },
           "duration": {
             "sustained": false,
@@ -29285,7 +29296,9 @@
               "_id": "eOCNn2ohYAvsYZjn",
               "overlayType": "override",
               "sort": 1,
-              "system": {}
+              "system": {
+                "defense": null
+              }
             },
             "xYyA7CV1GaFTRjBQ": {
               "_id": "xYyA7CV1GaFTRjBQ",
@@ -29298,6 +29311,7 @@
                     "formula": "2d6"
                   }
                 },
+                "defense": null,
                 "heightening": {
                   "damage": {
                     "cQDyW0QpjJ38MlSi": "1d6"
@@ -30020,7 +30034,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>Darkness</em> spell, block normal darkvision. A monster with Greater Darkvision, however, can see through even these forms of magical darkness.</p></p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank Darkness spell, block normal darkvision. A monster with Greater Darkvision, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -32106,7 +32120,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>Darkness</em> spell, block normal darkvision. A monster with Greater Darkvision, however, can see through even these forms of magical darkness.</p></p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank Darkness spell, block normal darkvision. A monster with Greater Darkvision, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -32382,7 +32396,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The warden creates three lines of rushing water, each 10 feet wide and 120 feet long. Creatures in the area take 18d8 bludgeoning damage (DC 45  Basic  Fortitude save). The warden can either push or pull, and all creatures that fail this save move up to 40 feet in the direction chosen. The warden can't use I Am The Tide again for [[/br 1d4 #Recharge I Am The Tide]]{1d4 rounds}.</p>"
+            "value": "<p>The warden creates three lines of rushing water, each 10 feet wide and 120 feet long. Creatures in the area take 18d8 bludgeoning damage (DC 45  Basic  Fortitude save). The warden can either push or pull, and all creatures that fail this save move up to 40 feet in the direction chosen. The warden can't use I Am The Tide again for [[/gmr 1d4 #Recharge I Am The Tide]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -33104,7 +33118,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>Darkness</em> spell, block normal darkvision. A monster with Greater Darkvision, however, can see through even these forms of magical darkness.</p></p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank Darkness spell, block normal darkvision. A monster with Greater Darkvision, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -33265,7 +33279,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The warden breathes, creating a storm of ice crystals. All creatures in a 60-foot cone take 4d8 cold],4d8{4d8 cold damage and 4d8 slashing damage} (DC 44  Basic  Reflex save). On a critical failure, a creature is Immobilized by ice. The warden then can't use Crystal Exhalation for [[/br 1d4 #Recharge Crystal Exhalation]]{1d4 rounds}.</p>"
+            "value": "<p>The warden breathes, creating a storm of ice crystals. All creatures in a 60-foot cone take 4d8 cold],4d8{4d8 cold damage and 4d8 slashing damage} (DC 44  Basic  Reflex save). On a critical failure, a creature is Immobilized by ice. The warden then can't use Crystal Exhalation for [[/gmr 1d4 #Recharge Crystal Exhalation]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",

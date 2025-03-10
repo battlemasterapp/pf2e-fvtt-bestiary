@@ -7025,10 +7025,52 @@
         "type": "action"
       },
       {
+        "_id": "YirbCqgC6ni49Xqu",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc"
+        },
+        "img": "systems/pf2e/icons/actions/Passive.webp",
+        "name": "+1 Status to All Saves vs. Magic",
+        "sort": 700000,
+        "system": {
+          "actionType": {
+            "value": "passive"
+          },
+          "actions": {
+            "value": null
+          },
+          "category": "defensive",
+          "description": {
+            "value": ""
+          },
+          "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder Monster Core"
+          },
+          "rules": [
+            {
+              "key": "FlatModifier",
+              "predicate": [
+                "item:magical"
+              ],
+              "selector": "saving-throw",
+              "type": "status",
+              "value": 1
+            }
+          ],
+          "slug": "1-status-to-all-saves-vs-magic",
+          "traits": {
+            "value": []
+          }
+        },
+        "type": "action"
+      },
+      {
         "_id": "omOIOaQDioTcsMIC",
         "img": "systems/pf2e/icons/actions/Reaction.webp",
         "name": "Bravo's Determination",
-        "sort": 700000,
+        "sort": 800000,
         "system": {
           "actionType": {
             "value": "reaction"
@@ -7061,7 +7103,7 @@
         },
         "img": "systems/pf2e/icons/actions/Passive.webp",
         "name": "Frightful Presence",
-        "sort": 800000,
+        "sort": 900000,
         "system": {
           "actionType": {
             "value": "passive"
@@ -7107,7 +7149,7 @@
         "_id": "4pzu3XHcK4Rd1GQX",
         "img": "systems/pf2e/icons/actions/Reaction.webp",
         "name": "Wing Deflection",
-        "sort": 900000,
+        "sort": 1000000,
         "system": {
           "actionType": {
             "value": "reaction"
@@ -7153,7 +7195,7 @@
         "_id": "7Hcv7QQPQAQcct0I",
         "img": "systems/pf2e/icons/actions/TwoActions.webp",
         "name": "Breath Weapon",
-        "sort": 1000000,
+        "sort": 1100000,
         "system": {
           "actionType": {
             "value": "action"
@@ -7163,7 +7205,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The brass dragon breathes in one of two ways.</p>\n<p>The dragon can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Flame</strong> The dragon breathes fire in a 100-foot line that deals 16d6 fire damage (DC 41  Basic  Reflex save).</li>\n<li><strong>Sleep Gas</strong> The dragon breathes an 80-foot cone of sleep gas. Each creature within the cone must succeed at a DC 41  Fortitude save or fall Unconscious for [[/br 1d6 #rounds]]{1d6 rounds}, or 1 minute on a critical failure.</li></ul>"
+            "value": "<p>The brass dragon breathes in one of two ways.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Flame</strong> The dragon breathes fire in a 100-foot line that deals 16d6 fire]|options:area-damage] damage (DC 41  Basic  Reflex save).</li>\n<li><strong>Sleep Gas</strong> The dragon breathes an 80-foot cone of sleep gas. Each creature within the cone must succeed at a DC 41  Fortitude save or fall Unconscious for {1d6 rounds}, or 1 minute on a critical failure.</li></ul>"
           },
           "publication": {
             "license": "OGL",
@@ -7188,7 +7230,7 @@
         "_id": "WX7zOVpbKUqeICJ0",
         "img": "systems/pf2e/icons/actions/TwoActions.webp",
         "name": "Desert Wind",
-        "sort": 1100000,
+        "sort": 1200000,
         "system": {
           "actionType": {
             "value": "action"
@@ -7227,7 +7269,7 @@
         "_id": "YAjAjrcDtGXjLBD7",
         "img": "systems/pf2e/icons/actions/TwoActions.webp",
         "name": "Draconic Frenzy",
-        "sort": 1200000,
+        "sort": 1300000,
         "system": {
           "actionType": {
             "value": "action"
@@ -7257,7 +7299,7 @@
         "_id": "Jvmi4nru2sCMB5Hn",
         "img": "systems/pf2e/icons/actions/Passive.webp",
         "name": "Draconic Momentum",
-        "sort": 1300000,
+        "sort": 1400000,
         "system": {
           "actionType": {
             "value": "passive"
@@ -7796,7 +7838,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>When the goblin zombie is reduced to 0 Hit Points, an alchemical device jammed in its belly ruptures. Roll 1d4 and consult the following for the effect:</p><table class=\"pf2e\"><thead><tr><th>[[/br 1d4 #Alchemical Rupture]]</th><th>Alchemical Effect</th></tr></thead><tbody><tr><td>1</td><td>creatures in a 5-foot emanation take @Damage[1d3[persistent,acid]|traits:area-damage] damage</td></tr><tr><td>2</td><td>creatures in a 5-foot emanation take @Damage[1d4[fire]|traits:area-damage] damage (DC 16  Basic  Reflex save)</td></tr><tr><td>3</td><td>creatures in a 5-foot emanation take @Damage[1d4[poison]|traits:area-damage] damage (DC 16  Basic  Fortitude save)</td></tr><tr><td>4</td><td>smoke billows out in a 5-foot emanation for 1 round (creatures in that area are Concealed, and all other creatures are concealed to them)</td></tr></tbody></table>"
+            "value": "<p>When the goblin zombie is reduced to 0 Hit Points, an alchemical device jammed in its belly ruptures. Roll 1d4 and consult the following for the effect:</p><table class=\"pf2e\"><thead><tr><th>[[/gmr 1d4 #Alchemical Rupture]]</th><th>Alchemical Effect</th></tr></thead><tbody><tr><td>1</td><td>creatures in a 5-foot emanation take @Damage[1d3[persistent,acid]|options:area-damage] damage</td></tr><tr><td>2</td><td>creatures in a 5-foot emanation take @Damage[1d4[fire]|options:area-damage] damage (DC 16  Basic  Reflex save)</td></tr><tr><td>3</td><td>creatures in a 5-foot emanation take @Damage[1d4[poison]|options:area-damage] damage (DC 16  Basic  Fortitude save)</td></tr><tr><td>4</td><td>smoke billows out in a 5-foot emanation for 1 round (creatures in that area are Concealed, and all other creatures are concealed to them)</td></tr></tbody></table>"
           },
           "publication": {
             "license": "OGL",
@@ -11188,7 +11230,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>When Lisavet casts heal, she rolls d10s instead of d8s.</p>"
+            "value": "<p>When Lisavet casts Heal, she rolls d10s instead of d8s.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11197,14 +11239,18 @@
           },
           "rules": [
             {
-              "key": "DamageDice",
-              "override": {
-                "dieSize": "d10"
-              },
+              "key": "DamageAlteration",
+              "mode": "upgrade",
               "predicate": [
-                "item:slug:heal"
+                "item:slug:heal",
+                "dice:slug:base"
               ],
-              "selector": "spell-damage"
+              "property": "dice-faces",
+              "selectors": [
+                "spell-damage",
+                "spell-healing"
+              ],
+              "value": 10
             }
           ],
           "slug": null,
@@ -13301,15 +13347,17 @@
               "toggleable": true
             },
             {
-              "key": "DamageDice",
-              "label": "PF2E.TraitTwoHandD8",
-              "override": {
-                "dieSize": "d8"
-              },
+              "key": "DamageAlteration",
+              "mode": "upgrade",
               "predicate": [
-                "two-handed"
+                "two-handed",
+                "dice:slug:base"
               ],
-              "selector": "{item|_id}-damage"
+              "property": "dice-faces",
+              "selectors": [
+                "{item|_id}-damage"
+              ],
+              "value": 8
             }
           ],
           "slug": null,
@@ -16544,7 +16592,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Urok breathes a poisonous mist that deals 5d4 poison damage in a 15-foot cone (DC 25  Basic  Fortitude save).</p>\n<p>He can't use Kobold Breath again for [[/br 1d4 #Recharge Kobold Breath]]{1d4 rounds}.</p>"
+            "value": "<p>Urok breathes a poisonous mist that deals 5d4 poison]|options:area-damage] damage in a 15-foot cone (DC 25  Basic  Fortitude save).</p>\n<p>He can't use Kobold Breath again for {1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",

@@ -3001,7 +3001,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>20 feet. The asp of grief consumes the emotions of the creatures around it. An enemy that begins its turn in the aura must attempt a DC 29  Will save. If it fails, the asp consumes its grief. The creature feels a lack of feelings and motivation, reducing its frightened value by 1 and becoming Stupefied 1 (or Stupefied 2 on a critical failure) for [[/br 1d4 #rounds]]{1d4 rounds}. Regardless of the result of the saving throw, the creature is temporarily immune to curtain of calm for 1 minute. The asp becomes charged with grief (see iron grief) for 1 minute whenever a creature fails this saving throw.</p>"
+            "value": "<p>20 feet. The asp of grief consumes the emotions of the creatures around it. An enemy that begins its turn in the aura must attempt a DC 29  Will save. If it fails, the asp consumes its grief. The creature feels a lack of feelings and motivation, reducing its frightened value by 1 and becoming Stupefied 1 (or Stupefied 2 on a critical failure) for [[/gmr 1d4 #rounds]]{1d4 rounds}. Regardless of the result of the saving throw, the creature is temporarily immune to curtain of calm for 1 minute. The asp becomes charged with grief (see iron grief) for 1 minute whenever a creature fails this saving throw.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -3564,7 +3564,7 @@
             }
           },
           "description": {
-            "value": "<p><strong>Area</strong> 10-foot radius, 50-foot-tall cylinder</p>\n<hr />\n<p>A powerful geyser blasts up from the ground, potentially pushing creatures on top of it into the air. The bottom of this spell's area must be on solid ground. Each creature in the area takes 3d6 bludgeoning damage and 4d6 fire damage, with a Reflex save. A creature pushed into the air by the geyser can't be pushed beyond the top of the geyser. After being pushed into the air, a creature falls unless it's flying or has some other means of staying aloft, taking falling damage (normally equal to half the distance it fell). After the geyser erupts, its area is filled with a cloud of steam for 1 round. All creatures in the steam are concealed, and all creatures outside the steam are concealed to creatures within it.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and isn't pushed into the air.</p>\n<p><strong>Failure</strong> The creature takes full damage and is pushed 20 feet into the air. (@Damage[10[bludgeoning]] damage)</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is pushed 40 feet into the air. (@Damage[20[bludgeoning]] damage)</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6 bludgeoning and 1d6 fire.</p>"
+            "value": "<p><strong>Area</strong> 10-foot radius, 50-foot-tall cylinder</p>\n<hr />\n<p>A powerful geyser blasts up from the ground, potentially pushing creatures on top of it into the air. The bottom of this spell's area must be on solid ground. Each creature in the area takes 3d6 bludgeoning damage and 4d6 fire damage, with a Reflex save. A creature pushed into the air by the geyser can't be pushed beyond the top of the geyser. After being pushed into the air, a creature falls unless it's flying or has some other means of staying aloft, taking falling damage (normally equal to half the distance it fell). After the geyser erupts, its area is filled with a cloud of steam for 1 round. All creatures in the steam are concealed, and all creatures outside the steam are concealed to creatures within it.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and isn't pushed into the air.</p>\n<p><strong>Failure</strong> The creature takes full damage and is pushed 20 feet into the air. (@Damage[10[bludgeoning]|options:fall-damage] damage)</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is pushed 40 feet into the air. (@Damage[20[bludgeoning]|options:fall-damage] damage)</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6 bludgeoning and 1d6 fire.</p>"
           },
           "duration": {
             "sustained": false,
@@ -4783,7 +4783,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><p>Troops are composed of many individuals, and over the course of enough attacks and downed comrades, troops shrink in size. Most troops start with 16 squares (4 by 4), and their Hit Points have two listed thresholds, typically the first is at 2/3 their maximum Hit Points and the second is at 1/3 their maximum Hit Points. Once the troop drops below the first threshold, it loses 4 squares, leaving 12 squares remaining, and the first threshold becomes the troop's new maximum Hit Points. Once the troop falls below the second threshold, it loses another 4 squares, leaving 8 squares remaining, and the second threshold becomes the troop's new maximum Hit Points. In order to restore its size and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen. At 0 Hit Points, the troop is reduced down to 4 squares, which is too few to sustain the troop, so it disperses entirely, with the few remaining members surrendering, fleeing, or easily dispatched, depending on their nature.</p>\n<p>A damaging single-target effect, such as a Strike, can't force a troop to pass through more than one threshold at once. For instance, if a troop had 60 Hit Points, with thresholds at 40 and 20, a Strike for 50 damage would leave the troop at 21 Hit Points, just above the second threshold. A damaging area effect or multi-target effect can cross multiple thresholds at once and could potentially destroy the entire troop in one shot.</p>\n<p>Non-damaging effects with an area or that target all creatures in a certain proximity affect a troop normally if they affect the entire area occupied by the troop. If an effect has a smaller area or numbers of targets, it typically has no effect on the troop. However, if the effect can target at least four creatures or cover at least four squares in the troop, and if it would prevent its targets from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more, the troop loses loses a number of Hit Points equal to the amount required to bring it to the next threshold, removing 4 squares. If an effect would both deal damage and automatically cross a threshold due to incapacitating some of the creatures in the troop, apply the damage first. If the damage wasn't enough to cross a threshold on its own, then reduce the Hit Points to cross the threshold for the incapacitating effect.</p></p>"
+            "value": "<p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -5208,7 +5208,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><p>Troops are composed of many individuals, and over the course of enough attacks and downed comrades, troops shrink in size. Most troops start with 16 squares (4 by 4), and their Hit Points have two listed thresholds, typically the first is at 2/3 their maximum Hit Points and the second is at 1/3 their maximum Hit Points. Once the troop drops below the first threshold, it loses 4 squares, leaving 12 squares remaining, and the first threshold becomes the troop's new maximum Hit Points. Once the troop falls below the second threshold, it loses another 4 squares, leaving 8 squares remaining, and the second threshold becomes the troop's new maximum Hit Points. In order to restore its size and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen. At 0 Hit Points, the troop is reduced down to 4 squares, which is too few to sustain the troop, so it disperses entirely, with the few remaining members surrendering, fleeing, or easily dispatched, depending on their nature.</p>\n<p>A damaging single-target effect, such as a Strike, can't force a troop to pass through more than one threshold at once. For instance, if a troop had 60 Hit Points, with thresholds at 40 and 20, a Strike for 50 damage would leave the troop at 21 Hit Points, just above the second threshold. A damaging area effect or multi-target effect can cross multiple thresholds at once and could potentially destroy the entire troop in one shot.</p>\n<p>Non-damaging effects with an area or that target all creatures in a certain proximity affect a troop normally if they affect the entire area occupied by the troop. If an effect has a smaller area or numbers of targets, it typically has no effect on the troop. However, if the effect can target at least four creatures or cover at least four squares in the troop, and if it would prevent its targets from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more, the troop loses loses a number of Hit Points equal to the amount required to bring it to the next threshold, removing 4 squares. If an effect would both deal damage and automatically cross a threshold due to incapacitating some of the creatures in the troop, apply the damage first. If the damage wasn't enough to cross a threshold on its own, then reduce the Hit Points to cross the threshold for the incapacitating effect.</p></p>"
+            "value": "<p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -5702,7 +5702,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The boiling spring breathes out a cloud of steam in a 30-foot cone that deals 14d6 fire damage to each creature in the area (DC 33  Basic  Reflex save). The boiling spring can't use Scalding Breath again for [[/br 1d4 #Recharge Scalding Breath]]{1d4 rounds}.</p>"
+            "value": "<p>The boiling spring breathes out a cloud of steam in a 30-foot cone that deals 14d6 fire damage to each creature in the area (DC 33  Basic  Reflex save). The boiling spring can't use Scalding Breath again for [[/gmr 1d4 #Recharge Scalding Breath]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -7535,7 +7535,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The brass bastion exhales superheated smoke and cinders in a 10-foot burst centered on a corner of its space. The smoke persists for 1 round. Any creature in the area (or that later enters the area) takes 15d6 fire damage (DC 34  Basic  Reflex save); on a critical failure, the creature catches fire, taking 2d6 persistent,fire damage as well. All creatures in the smoke become Concealed, and all creatures outside the smoke become concealed to creatures within it. The brass bastion can't Breathe Smoke again for [[/br 1d4 #Recharge Breathe Smoke]]{1d4 rounds}.</p>"
+            "value": "<p>The brass bastion exhales superheated smoke and cinders in a 10-foot burst centered on a corner of its space. The smoke persists for 1 round. Any creature in the area (or that later enters the area) takes 15d6 fire damage (DC 34  Basic  Reflex save); on a critical failure, the creature catches fire, taking 2d6 persistent,fire damage as well. All creatures in the smoke become Concealed, and all creatures outside the smoke become concealed to creatures within it. The brass bastion can't Breathe Smoke again for [[/gmr 1d4 #Recharge Breathe Smoke]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -10094,7 +10094,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The strider emits the light that continually refracts within them to cast Chromatic Ray as an innate primal spell heightened to 5th rank, with a +21 spell attack roll. The crystal strider can't Release Light again for [[/br 1d4 #rounds]]{1d4 rounds}.</p>"
+            "value": "<p>The strider emits the light that continually refracts within them to cast Chromatic Ray as an innate primal spell heightened to 5th rank, with a +21 spell attack roll. The crystal strider can't Release Light again for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -16660,7 +16660,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq"
         },
-        "img": "icons/magic/fire/flame-burning-earth-orange.webp",
+        "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
         "name": "Ignition (Attuned Element)",
         "sort": 900000,
         "system": {
@@ -16683,7 +16683,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[(@item.level)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.level)d6[persistent,fire]]{Scaling Persistent Fire Damage (Melee)}</p>"
+            "value": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p><hr /><p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p><hr /><p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.rank)d6[persistent,fire]]{Scaling Persistent Fire Damage (Melee)}</p>"
           },
           "duration": {
             "sustained": false,
@@ -16705,10 +16705,11 @@
           "overlays": {
             "eOCNn2ohYAvsYZjn": {
               "_id": "eOCNn2ohYAvsYZjn",
-              "img": "icons/magic/fire/flame-burning-earth-orange.webp",
               "overlayType": "override",
               "sort": 1,
-              "system": {}
+              "system": {
+                "defense": null
+              }
             },
             "xYyA7CV1GaFTRjBQ": {
               "_id": "xYyA7CV1GaFTRjBQ",
@@ -16721,13 +16722,14 @@
                     "formula": "2d6"
                   }
                 },
+                "defense": null,
                 "heightening": {
                   "damage": {
                     "cQDyW0QpjJ38MlSi": "1d6"
                   }
                 },
                 "range": {
-                  "value": "melee reach"
+                  "value": "touch"
                 }
               }
             }
@@ -18035,7 +18037,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><p>Troops are composed of many individuals, and over the course of enough attacks and downed comrades, troops shrink in size. Most troops start with 16 squares (4 by 4), and their Hit Points have two listed thresholds, typically the first is at 2/3 their maximum Hit Points and the second is at 1/3 their maximum Hit Points. Once the troop drops below the first threshold, it loses 4 squares, leaving 12 squares remaining, and the first threshold becomes the troop's new maximum Hit Points. Once the troop falls below the second threshold, it loses another 4 squares, leaving 8 squares remaining, and the second threshold becomes the troop's new maximum Hit Points. In order to restore its size and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen. At 0 Hit Points, the troop is reduced down to 4 squares, which is too few to sustain the troop, so it disperses entirely, with the few remaining members surrendering, fleeing, or easily dispatched, depending on their nature.</p>\n<p>A damaging single-target effect, such as a Strike, can't force a troop to pass through more than one threshold at once. For instance, if a troop had 60 Hit Points, with thresholds at 40 and 20, a Strike for 50 damage would leave the troop at 21 Hit Points, just above the second threshold. A damaging area effect or multi-target effect can cross multiple thresholds at once and could potentially destroy the entire troop in one shot.</p>\n<p>Non-damaging effects with an area or that target all creatures in a certain proximity affect a troop normally if they affect the entire area occupied by the troop. If an effect has a smaller area or numbers of targets, it typically has no effect on the troop. However, if the effect can target at least four creatures or cover at least four squares in the troop, and if it would prevent its targets from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more, the troop loses loses a number of Hit Points equal to the amount required to bring it to the next threshold, removing 4 squares. If an effect would both deal damage and automatically cross a threshold due to incapacitating some of the creatures in the troop, apply the damage first. If the damage wasn't enough to cross a threshold on its own, then reduce the Hit Points to cross the threshold for the incapacitating effect.</p></p>"
+            "value": "<p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -18861,7 +18863,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq"
         },
-        "img": "icons/magic/fire/flame-burning-earth-orange.webp",
+        "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
         "name": "Ignition",
         "sort": 900000,
         "system": {
@@ -18884,7 +18886,7 @@
           },
           "defense": null,
           "description": {
-            "value": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[(@item.level)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.level)d6[persistent,fire]]{Scaling Persistent Fire Damage (Melee)}</p>"
+            "value": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p><hr /><p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p><hr /><p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.rank)d6[persistent,fire]]{Scaling Persistent Fire Damage (Melee)}</p>"
           },
           "duration": {
             "sustained": false,
@@ -18906,10 +18908,11 @@
           "overlays": {
             "eOCNn2ohYAvsYZjn": {
               "_id": "eOCNn2ohYAvsYZjn",
-              "img": "icons/magic/fire/flame-burning-earth-orange.webp",
               "overlayType": "override",
               "sort": 1,
-              "system": {}
+              "system": {
+                "defense": null
+              }
             },
             "xYyA7CV1GaFTRjBQ": {
               "_id": "xYyA7CV1GaFTRjBQ",
@@ -18922,13 +18925,14 @@
                     "formula": "2d6"
                   }
                 },
+                "defense": null,
                 "heightening": {
                   "damage": {
                     "cQDyW0QpjJ38MlSi": "1d6"
                   }
                 },
                 "range": {
-                  "value": "melee reach"
+                  "value": "touch"
                 }
               }
             }
@@ -19342,7 +19346,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature fails an attack against the shuyookh</p>\n<hr />\n<p><strong>Effect</strong> The shuyookh asks the triggering creature if it wishes it had hit. If the creature indicates yes, the shuyookh takes damage as if the attack had hit and the expression of regret makes the shuyookh Quickened for [[/br 1d4 #Quickened Rounds]]{1d4 rounds}; they can use their extra action to Fly, Stride, or Strike.</p>"
+            "value": "<p><strong>Trigger</strong> A creature fails an attack against the shuyookh</p>\n<hr />\n<p><strong>Effect</strong> The shuyookh asks the triggering creature if it wishes it had hit. If the creature indicates yes, the shuyookh takes damage as if the attack had hit and the expression of regret makes the shuyookh Quickened for [[/gmr 1d4 #Quickened Rounds]]{1d4 rounds}; they can use their extra action to Fly, Stride, or Strike.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -26397,15 +26401,17 @@
               "toggleable": true
             },
             {
-              "key": "DamageDice",
-              "label": "PF2E.TraitTwoHandD8",
-              "override": {
-                "dieSize": "d8"
-              },
+              "key": "DamageAlteration",
+              "mode": "upgrade",
               "predicate": [
-                "two-handed"
+                "two-handed",
+                "dice:slug:base"
               ],
-              "selector": "{item|_id}-damage"
+              "property": "dice-faces",
+              "selectors": [
+                "{item|_id}-damage"
+              ],
+              "value": 8
             }
           ],
           "slug": null,
@@ -28540,7 +28546,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The living lodestone switches the polarity of its magnetic field from positive to negative, or vice versa. Each creature affected by the lodestone's aura falls Prone unless it succeeds at a DC 21  Reflex save.</p>\n<p>The lodestone can't Reverse Polarity again for [[/br 1d4 #rounds]]{1d4 rounds}.</p>"
+            "value": "<p>The living lodestone switches the polarity of its magnetic field from positive to negative, or vice versa. Each creature affected by the lodestone's aura falls Prone unless it succeeds at a DC 21  Reflex save.</p>\n<p>The lodestone can't Reverse Polarity again for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -29654,7 +29660,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The melomach unleashes a guttural, ear-piercing wail. All creatures in a 120-foot cone take 7d12 sonic damage with a DC 32  Fortitude save.</p>\n<p>The melomach can't Scream again for [[/br 1d4 #Recharge Scream]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage, is Stunned 1, and is Deafened for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Stunned 3, and is deafened permanently.</p>"
+            "value": "<p>The melomach unleashes a guttural, ear-piercing wail. All creatures in a 120-foot cone take 7d12 sonic damage with a DC 32  Fortitude save.</p>\n<p>The melomach can't Scream again for [[/gmr 1d4 #Recharge Scream]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage, is Stunned 1, and is Deafened for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Stunned 3, and is deafened permanently.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -30427,7 +30433,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The metal scamp breathes a 15-foot cone of jagged metal flakes that deals @Damage[(2d4)[slashing],(1d4)[bleed]] damage to each creature within the area (DC 17  Basic  Reflex save).</p>\n<p>The metal scamp can't Breathe Shrapnel again for [[/br 1d4 #Recharge Breathe Shrapnel]]{1d4 rounds}.</p>"
+            "value": "<p>The metal scamp breathes a 15-foot cone of jagged metal flakes that deals @Damage[(2d4)[slashing],(1d4)[bleed]|options:area-damage] damage to each creature within the area (DC 17  Basic  Reflex save).</p>\n<p>The metal scamp can't Breathe Shrapnel again for [[/gmr 1d4 #Recharge Breathe Shrapnel]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -30710,7 +30716,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>30 feet.</p>\n<p>All wisps vibrate at a frequency attuned to their element, resonating with and empowering all creatures and effects sharing that trait. Creatures in the area gain a +1 status bonus to attack and damage rolls made with metal weapons or effects with the metal trait; a creature with the elemental and metal traits gains this bonus to all attack and damage rolls.</p>"
+            "value": "<p>30 feet. All wisps vibrate at a frequency attuned to their element, resonating with and empowering all creatures and effects sharing that trait. Creatures in the area gain a +1 status bonus to attack and damage rolls made with metal weapons or effects with the metal trait; a creature with the elemental and metal traits gains this bonus to all attack and damage rolls.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -30719,6 +30725,11 @@
           },
           "rules": [
             {
+              "effects": [
+                {
+                  "uuid": "Compendium.pf2e.bestiary-effects.Item.Effect: Resonance"
+                }
+              ],
               "key": "Aura",
               "radius": 30,
               "slug": "resonance",
@@ -31603,7 +31614,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The gatecrasher Strides up to double their Speed in a straight line. They can pass through enemy spaces and make a hammer gauntlet Strike against each creature they move through. Blazing Rush can't be used again for [[/br 1d4 #Recharge Blazing Rush]]{1d4 rounds}.</p>"
+            "value": "<p>The gatecrasher Strides up to double their Speed in a straight line. They can pass through enemy spaces and make a hammer gauntlet Strike against each creature they move through. Blazing Rush can't be used again for [[/gmr 1d4 #Recharge Blazing Rush]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -35644,7 +35655,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The oregorger belches forth a cloud of caustic, rusted debris from its maw, filling a cube adjacent to itself that's 10-foot width:10 feet on each side. Any creature in this area takes 6d6 acid],6d6 damage (DC 30  Basic  Reflex). The ground under the cloud is difficult terrain for 1 hour, after which the shrapnel crumbles to dust.</p>\n<p>The oregorger can't use Searing Spew again for [[/br 1d4 #rounds]]{1d4 rounds}, but the ability recharges if the oregorger damages an item with devour metal.</p>"
+            "value": "<p>The oregorger belches forth a cloud of caustic, rusted debris from its maw, filling a cube adjacent to itself that's 10-foot width:10 feet on each side. Any creature in this area takes 6d6 acid],6d6 damage (DC 30  Basic  Reflex). The ground under the cloud is difficult terrain for 1 hour, after which the shrapnel crumbles to dust.</p>\n<p>The oregorger can't use Searing Spew again for [[/gmr 1d4 #rounds]]{1d4 rounds}, but the ability recharges if the oregorger damages an item with devour metal.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -36305,7 +36316,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><p>Troops are composed of many individuals, and over the course of enough attacks and downed comrades, troops shrink in size. Most troops start with 16 squares (4 by 4), and their Hit Points have two listed thresholds, typically the first is at 2/3 their maximum Hit Points and the second is at 1/3 their maximum Hit Points. Once the troop drops below the first threshold, it loses 4 squares, leaving 12 squares remaining, and the first threshold becomes the troop's new maximum Hit Points. Once the troop falls below the second threshold, it loses another 4 squares, leaving 8 squares remaining, and the second threshold becomes the troop's new maximum Hit Points. In order to restore its size and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen. At 0 Hit Points, the troop is reduced down to 4 squares, which is too few to sustain the troop, so it disperses entirely, with the few remaining members surrendering, fleeing, or easily dispatched, depending on their nature.</p>\n<p>A damaging single-target effect, such as a Strike, can't force a troop to pass through more than one threshold at once. For instance, if a troop had 60 Hit Points, with thresholds at 40 and 20, a Strike for 50 damage would leave the troop at 21 Hit Points, just above the second threshold. A damaging area effect or multi-target effect can cross multiple thresholds at once and could potentially destroy the entire troop in one shot.</p>\n<p>Non-damaging effects with an area or that target all creatures in a certain proximity affect a troop normally if they affect the entire area occupied by the troop. If an effect has a smaller area or numbers of targets, it typically has no effect on the troop. However, if the effect can target at least four creatures or cover at least four squares in the troop, and if it would prevent its targets from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more, the troop loses loses a number of Hit Points equal to the amount required to bring it to the next threshold, removing 4 squares. If an effect would both deal damage and automatically cross a threshold due to incapacitating some of the creatures in the troop, apply the damage first. If the damage wasn't enough to cross a threshold on its own, then reduce the Hit Points to cross the threshold for the incapacitating effect.</p></p>"
+            "value": "<p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -37884,7 +37895,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>When the rakkatak is critically hit or critically fails a Fortitude save, one of its organs bursts. Roll [[/br 1d4]] to determine what effect this has.</p>\n<p><strong>1</strong> Trapped noxious gas rushes out. The rakkatak is pushed 10 feet away from the source of the triggering attack or effect.</p>\n<p><strong>2</strong> Pus showers those nearby. Each creature in a 5-foot emanation is Sickened 1.</p>\n<p><strong>3</strong> The damage is severe. The rakkatak takes 1d6 persistent,bleed damage.</p>\n<p><strong>4</strong> Gelatinous rakkatak eggs explode forth and instantly hatch. Each creature in a 5-foot emanation takes 1d6 persistent,piercing damage from the ravenous larvae.</p>"
+            "value": "<p>When the rakkatak is critically hit or critically fails a Fortitude save, one of its organs bursts. Roll [[/gmr 1d4]] to determine what effect this has.</p>\n<p><strong>1</strong> Trapped noxious gas rushes out. The rakkatak is pushed 10 feet away from the source of the triggering attack or effect.</p>\n<p><strong>2</strong> Pus showers those nearby. Each creature in a 5-foot emanation is Sickened 1.</p>\n<p><strong>3</strong> The damage is severe. The rakkatak takes 1d6 persistent,bleed damage.</p>\n<p><strong>4</strong> Gelatinous rakkatak eggs explode forth and instantly hatch. Each creature in a 5-foot emanation takes 1d6 persistent,piercing damage from the ravenous larvae.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -38621,7 +38632,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Thresholds</strong> 160 (12 squares), 80 (8 squares)</p>\n<hr />\n<p><p>Troops are composed of many individuals, and over the course of enough attacks and downed comrades, troops shrink in size. Most troops start with 16 squares (4 by 4), and their Hit Points have two listed thresholds, typically the first is at 2/3 their maximum Hit Points and the second is at 1/3 their maximum Hit Points. Once the troop drops below the first threshold, it loses 4 squares, leaving 12 squares remaining, and the first threshold becomes the troop's new maximum Hit Points. Once the troop falls below the second threshold, it loses another 4 squares, leaving 8 squares remaining, and the second threshold becomes the troop's new maximum Hit Points. In order to restore its size and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen. At 0 Hit Points, the troop is reduced down to 4 squares, which is too few to sustain the troop, so it disperses entirely, with the few remaining members surrendering, fleeing, or easily dispatched, depending on their nature.</p>\n<p>A damaging single-target effect, such as a Strike, can't force a troop to pass through more than one threshold at once. For instance, if a troop had 60 Hit Points, with thresholds at 40 and 20, a Strike for 50 damage would leave the troop at 21 Hit Points, just above the second threshold. A damaging area effect or multi-target effect can cross multiple thresholds at once and could potentially destroy the entire troop in one shot.</p>\n<p>Non-damaging effects with an area or that target all creatures in a certain proximity affect a troop normally if they affect the entire area occupied by the troop. If an effect has a smaller area or numbers of targets, it typically has no effect on the troop. However, if the effect can target at least four creatures or cover at least four squares in the troop, and if it would prevent its targets from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more, the troop loses loses a number of Hit Points equal to the amount required to bring it to the next threshold, removing 4 squares. If an effect would both deal damage and automatically cross a threshold due to incapacitating some of the creatures in the troop, apply the damage first. If the damage wasn't enough to cross a threshold on its own, then reduce the Hit Points to cross the threshold for the incapacitating effect.</p></p>"
+            "value": "<p><strong>Thresholds</strong> 160 (12 squares), 80 (8 squares)</p>\n<hr />\n<p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -38651,7 +38662,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Effect</strong> The saltborn stalkers move their luminescent lures in an entrancing light show, drawing nearby creatures into their grasp. Each creature in a 100-foot emanation must attempt a DC 33  Will save; regardless of the result of its save, the creature is then temporarily immune to Lightlure for 24 hours.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is Fascinated with the lures and must spend all its actions on its next turn to move closer to them as expediently as possible, avoiding obvious dangers along its path.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature is also Dazzled for [[/br 1d4 #rounds]]{1d4 rounds}.</p>"
+            "value": "<p><strong>Effect</strong> The saltborn stalkers move their luminescent lures in an entrancing light show, drawing nearby creatures into their grasp. Each creature in a 100-foot emanation must attempt a DC 33  Will save; regardless of the result of its save, the creature is then temporarily immune to Lightlure for 24 hours.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is Fascinated with the lures and must spend all its actions on its next turn to move closer to them as expediently as possible, avoiding obvious dangers along its path.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature is also Dazzled for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -39611,7 +39622,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The snapdrake breathes a blast of pollen in a 40-foot cone. Creatures caught in the blast must succeed at a DC 25  Basic  Reflex save or be exposed to snapdrake pollen.</p>\n<p>The snapdrake can't use Spray Pollen again for [[/br 1d6 #Recharge Spray Pollen]]{1d6 rounds}.</p>"
+            "value": "<p>The snapdrake breathes a blast of pollen in a 40-foot cone. Creatures caught in the blast must succeed at a DC 25  Basic  Reflex save or be exposed to snapdrake pollen.</p>\n<p>The snapdrake can't use Spray Pollen again for [[/gmr 1d6 #Recharge Spray Pollen]]{1d6 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -40033,7 +40044,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The solar crow expands its wings and unleashes blazing hot, blinding light in a 120-foot emanation. Each creature in the area takes 9d6 fire damage with a DC 29  Reflex save. The crow can't use Blinding Heat again for [[/br 1d4 #Recharge Blinding Heat]]{1d4 rounds}, and its glow aura is deactivated during this time.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and is Dazzled for 1 round.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Blinded for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is blinded for 1 minute.</p>"
+            "value": "<p>The solar crow expands its wings and unleashes blazing hot, blinding light in a 120-foot emanation. Each creature in the area takes 9d6 fire damage with a DC 29  Reflex save. The crow can't use Blinding Heat again for [[/gmr 1d4 #Recharge Blinding Heat]]{1d4 rounds}, and its glow aura is deactivated during this time.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and is Dazzled for 1 round.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Blinded for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is blinded for 1 minute.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -40395,7 +40406,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><p>Troops are composed of many individuals, and over the course of enough attacks and downed comrades, troops shrink in size. Most troops start with 16 squares (4 by 4), and their Hit Points have two listed thresholds, typically the first is at 2/3 their maximum Hit Points and the second is at 1/3 their maximum Hit Points. Once the troop drops below the first threshold, it loses 4 squares, leaving 12 squares remaining, and the first threshold becomes the troop's new maximum Hit Points. Once the troop falls below the second threshold, it loses another 4 squares, leaving 8 squares remaining, and the second threshold becomes the troop's new maximum Hit Points. In order to restore its size and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen. At 0 Hit Points, the troop is reduced down to 4 squares, which is too few to sustain the troop, so it disperses entirely, with the few remaining members surrendering, fleeing, or easily dispatched, depending on their nature.</p>\n<p>A damaging single-target effect, such as a Strike, can't force a troop to pass through more than one threshold at once. For instance, if a troop had 60 Hit Points, with thresholds at 40 and 20, a Strike for 50 damage would leave the troop at 21 Hit Points, just above the second threshold. A damaging area effect or multi-target effect can cross multiple thresholds at once and could potentially destroy the entire troop in one shot.</p>\n<p>Non-damaging effects with an area or that target all creatures in a certain proximity affect a troop normally if they affect the entire area occupied by the troop. If an effect has a smaller area or numbers of targets, it typically has no effect on the troop. However, if the effect can target at least four creatures or cover at least four squares in the troop, and if it would prevent its targets from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more, the troop loses loses a number of Hit Points equal to the amount required to bring it to the next threshold, removing 4 squares. If an effect would both deal damage and automatically cross a threshold due to incapacitating some of the creatures in the troop, apply the damage first. If the damage wasn't enough to cross a threshold on its own, then reduce the Hit Points to cross the threshold for the incapacitating effect.</p></p>"
+            "value": "<p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -40821,7 +40832,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><p>Troops are composed of many individuals, and over the course of enough attacks and downed comrades, troops shrink in size. Most troops start with 16 squares (4 by 4), and their Hit Points have two listed thresholds, typically the first is at 2/3 their maximum Hit Points and the second is at 1/3 their maximum Hit Points. Once the troop drops below the first threshold, it loses 4 squares, leaving 12 squares remaining, and the first threshold becomes the troop's new maximum Hit Points. Once the troop falls below the second threshold, it loses another 4 squares, leaving 8 squares remaining, and the second threshold becomes the troop's new maximum Hit Points. In order to restore its size and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen. At 0 Hit Points, the troop is reduced down to 4 squares, which is too few to sustain the troop, so it disperses entirely, with the few remaining members surrendering, fleeing, or easily dispatched, depending on their nature.</p>\n<p>A damaging single-target effect, such as a Strike, can't force a troop to pass through more than one threshold at once. For instance, if a troop had 60 Hit Points, with thresholds at 40 and 20, a Strike for 50 damage would leave the troop at 21 Hit Points, just above the second threshold. A damaging area effect or multi-target effect can cross multiple thresholds at once and could potentially destroy the entire troop in one shot.</p>\n<p>Non-damaging effects with an area or that target all creatures in a certain proximity affect a troop normally if they affect the entire area occupied by the troop. If an effect has a smaller area or numbers of targets, it typically has no effect on the troop. However, if the effect can target at least four creatures or cover at least four squares in the troop, and if it would prevent its targets from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more, the troop loses loses a number of Hit Points equal to the amount required to bring it to the next threshold, removing 4 squares. If an effect would both deal damage and automatically cross a threshold due to incapacitating some of the creatures in the troop, apply the damage first. If the damage wasn't enough to cross a threshold on its own, then reduce the Hit Points to cross the threshold for the incapacitating effect.</p></p>"
+            "value": "<p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -41541,81 +41552,13 @@
         "type": "equipment"
       },
       {
-        "_id": "qlE01hteVfgwZ71H",
-        "_stats": {
-          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.qF2GDYQCpSZ12Nk7"
-        },
-        "img": "systems/pf2e/icons/equipment/consumables/other-consumables/ablative-shield-plating.webp",
-        "name": "Ablative Shield Plating (Lesser)",
-        "sort": 700000,
-        "system": {
-          "baseItem": null,
-          "bulk": {
-            "value": 1
-          },
-          "category": "gadget",
-          "containerId": null,
-          "damage": null,
-          "description": {
-            "value": "<p>Ablative shield plating is an amalgam device that provides a layer of additional protection for a shield. Ablative shield plating is cobbled together from parts of other shields, wires, scraps, and bits of detritus, adding mass to a shield. The process of attaching ablative shield plating takes 10 minutes, and you can't attach ablative shield plating to a shield that has any other attached item, such as a shield boss or shield spikes. When the shield is damaged, this additional material crumples, breaks, and falls apart, absorbing some of the energy of the blow. Otherwise, the additional material slowly crumbles over time. Applying the plating grants the shield 5 temporary Hit Points that last for 1 minute or until lost. Removing the plating early destroys it.</p>"
-          },
-          "equipped": {
-            "carryType": "worn",
-            "handsHeld": 0
-          },
-          "hardness": 0,
-          "hp": {
-            "max": 0,
-            "value": 0
-          },
-          "level": {
-            "value": 1
-          },
-          "material": {
-            "grade": null,
-            "type": null
-          },
-          "price": {
-            "value": {
-              "gp": 4
-            }
-          },
-          "publication": {
-            "license": "OGL",
-            "remaster": false,
-            "title": "Pathfinder Guns & Gears"
-          },
-          "quantity": 1,
-          "rules": [],
-          "size": "med",
-          "slug": "ablative-shield-plating-lesser",
-          "traits": {
-            "rarity": "uncommon",
-            "value": [
-              "consumable",
-              "gadget",
-              "infused"
-            ]
-          },
-          "usage": {
-            "value": "affixed-to-a-shield"
-          },
-          "uses": {
-            "autoDestroy": true,
-            "max": 1,
-            "value": 1
-          }
-        },
-        "type": "consumable"
-      },
-      {
         "_id": "070lc4n9n3xBLoCh",
         "_stats": {
           "compendiumSource": "Compendium.pf2e.equipment-srd.Item.nybZVDfQWMhwvL2C"
         },
         "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/blast-boots.webp",
         "name": "Blast Boots (Lesser)",
-        "sort": 800000,
+        "sort": 700000,
         "system": {
           "baseItem": null,
           "bulk": {
@@ -41684,7 +41627,7 @@
         },
         "img": "systems/pf2e/icons/equipment/held-items/explosive-mine.webp",
         "name": "Explosive Mine (Lesser)",
-        "sort": 900000,
+        "sort": 800000,
         "system": {
           "baseItem": null,
           "bulk": {
@@ -41736,6 +41679,73 @@
           },
           "usage": {
             "value": "held-in-two-hands"
+          },
+          "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+          }
+        },
+        "type": "consumable"
+      },
+      {
+        "_id": "OeEFlZ8B9T0CkFx4",
+        "_stats": {
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.U9XNSFQzCOo6KMD1"
+        },
+        "img": "systems/pf2e/icons/equipment/consumables/other-consumables/ablative-armor-plating.webp",
+        "name": "Ablative Armor Plating (Lesser)",
+        "sort": 900000,
+        "system": {
+          "baseItem": null,
+          "bulk": {
+            "value": 1
+          },
+          "category": "gadget",
+          "containerId": null,
+          "damage": null,
+          "description": {
+            "value": "<p>Ablative armor plating is additional plating, combined with springs, clever clockwork, and improvised padding, to absorb damage by knocking the additional pieces free. The pieces slowly come apart on their own with time and movement. The process of attaching the plating takes 10 minutes and grants the wearer of the armor the 5 Hit Points for 1 minute or until lost. Removing the plating early destroys it.</p>\n<p>Effect: Ablative Armor Plating (Lesser)</p>"
+          },
+          "equipped": {
+            "carryType": "worn"
+          },
+          "hardness": 0,
+          "hp": {
+            "max": 0,
+            "value": 0
+          },
+          "level": {
+            "value": 1
+          },
+          "material": {
+            "grade": null,
+            "type": null
+          },
+          "price": {
+            "value": {
+              "gp": 4
+            }
+          },
+          "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": "Pathfinder Guns & Gears"
+          },
+          "quantity": 1,
+          "rules": [],
+          "size": "med",
+          "slug": "ablative-armor-plating-lesser",
+          "traits": {
+            "rarity": "uncommon",
+            "value": [
+              "consumable",
+              "infused",
+              "gadget"
+            ]
+          },
+          "usage": {
+            "value": "affixed-to-armor-or-travelers-clothing"
           },
           "uses": {
             "autoDestroy": true,
@@ -42773,7 +42783,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>40 feet.</p>\n<p>The lantern carried by the twins of rowan contains pure elemental life energy that resonates with and empowers all wood elementals. While within the emanation, a creature with the elemental trait and either the plant trait or wood trait gains fast healing 10 and a +2 circumstance bonus to all attack and damage rolls. The aura can be counteracted with a DC 30 check to Dispel Magic; doing so deactivates the aura for [[/br 1d6 #Rounds Deactivated]] rounds</p>"
+            "value": "<p>40 feet.</p>\n<p>The lantern carried by the twins of rowan contains pure elemental life energy that resonates with and empowers all wood elementals. While within the emanation, a creature with the elemental trait and either the plant trait or wood trait gains fast healing 10 and a +2 circumstance bonus to all attack and damage rolls. The aura can be counteracted with a DC 30 check to Dispel Magic; doing so deactivates the aura for [[/gmr 1d6 #Rounds Deactivated]] rounds</p>"
           },
           "publication": {
             "license": "OGL",
@@ -46100,15 +46110,17 @@
               "toggleable": true
             },
             {
-              "key": "DamageDice",
-              "label": "PF2E.TraitTwoHandD8",
-              "override": {
-                "dieSize": "d8"
-              },
+              "key": "DamageAlteration",
+              "mode": "upgrade",
               "predicate": [
-                "two-handed"
+                "two-handed",
+                "dice:slug:base"
               ],
-              "selector": "{item|_id}-damage"
+              "property": "dice-faces",
+              "selectors": [
+                "{item|_id}-damage"
+              ],
+              "value": 8
             }
           ],
           "slug": null,
@@ -49735,7 +49747,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The wood scamp breathes choking pollen in a 15-foot cone that deals 2d6 poison damage to each creature within the area (DC 17  Basic  Reflex save; creatures who don't need to breathe are immune). The wood scamp can't Breathe Pollen again for [[/br 1d4 #Recharge Breathe Pollen]]{1d4 rounds}.</p>"
+            "value": "<p>The wood scamp breathes choking pollen in a 15-foot cone that deals 2d6 poison]|options:area-damage] damage to each creature within the area (DC 17  Basic  Reflex save; creatures who don't need to breathe are immune). The wood scamp can't Breathe Pollen again for {1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -50035,7 +50047,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>30 feet.</p>\n<p>All wisps vibrate at a frequency attuned to their element, resonating with and empowering all creatures and effects sharing that trait. A creature in the area gains a +1 status bonus to attack and damage rolls for effects with the plant or wood trait; a creature with the elemental trait and either plant trait or wood trait gains this bonus to all attack and damage rolls. For wood wisps, this bonus also applies to nonmagical wooden weapons, such as staves and clubs.</p>"
+            "value": "<p>30 feet. All wisps vibrate at a frequency attuned to their element, resonating with and empowering all creatures and effects sharing that trait. A creature in the area gains a +1 status bonus to attack and damage rolls for effects with the plant or wood trait; a creature with the elemental trait and either plant trait or wood trait gains this bonus to all attack and damage rolls. For wood wisps, this bonus also applies to nonmagical wooden weapons, such as staves and clubs.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -50044,6 +50056,11 @@
           },
           "rules": [
             {
+              "effects": [
+                {
+                  "uuid": "Compendium.pf2e.bestiary-effects.Item.Effect: Resonance"
+                }
+              ],
               "key": "Aura",
               "radius": 30,
               "slug": "resonance",
@@ -52966,7 +52983,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> The shuyookh's magnetic field is active</p>\n<hr />\n<p><strong>Effect</strong> The shuyookh electromagnetically flings razor-sharp metal scraps. Each creature in a 30-foot emanation takes 8d6 slashing],3d12 damage, with a DC 32  Basic  Fortitude save.</p>\n<p>The shuyookh's magnetic field is deactivated for [[/br 1d4 #rounds]]{1d4 rounds}.</p>"
+            "value": "<p><strong>Requirements</strong> The shuyookh's magnetic field is active</p>\n<hr />\n<p><strong>Effect</strong> The shuyookh electromagnetically flings razor-sharp metal scraps. Each creature in a 30-foot emanation takes 8d6 slashing],3d12 damage, with a DC 32  Basic  Fortitude save.</p>\n<p>The shuyookh's magnetic field is deactivated for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",

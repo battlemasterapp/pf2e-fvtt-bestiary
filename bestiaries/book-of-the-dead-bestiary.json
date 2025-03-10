@@ -4219,7 +4219,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The combusted screams in agony, causing creatures in a 15-foot emanation to burst into flame, which deals 4d6 fire damage to each creature in the area (DC 17  Basic  Will). A creature that critically fails its save is Frightened 1; this frightened condition is an emotion, fear, and mental effect.</p>\n<p>The combusted can't use Blazing Howl for [[/br 1d4 #Recharge Blazing Howl]]{1d4 rounds}.</p>"
+            "value": "<p>The combusted screams in agony, causing creatures in a 15-foot emanation to burst into flame, which deals 4d6 fire damage to each creature in the area (DC 17  Basic  Will). A creature that critically fails its save is Frightened 1; this frightened condition is an emotion, fear, and mental effect.</p>\n<p>The combusted can't use Blazing Howl for [[/gmr 1d4 #Recharge Blazing Howl]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12964,15 +12964,17 @@
               "toggleable": true
             },
             {
-              "key": "DamageDice",
-              "label": "PF2E.TraitTwoHandD8",
-              "override": {
-                "dieSize": "d8"
-              },
+              "key": "DamageAlteration",
+              "mode": "upgrade",
               "predicate": [
-                "two-handed"
+                "two-handed",
+                "dice:slug:base"
               ],
-              "selector": "{item|_id}-damage"
+              "property": "dice-faces",
+              "selectors": [
+                "{item|_id}-damage"
+              ],
+              "value": 8
             }
           ],
           "slug": null,
@@ -13869,7 +13871,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Gods & Magic"
+            "title": "Pathfinder Lost Omens Gods & Magic"
           },
           "quantity": 1,
           "range": null,
@@ -15273,7 +15275,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Requirements</strong> Dance with Death is in effect</p>\n<hr />\n<p><strong>Effect</strong> The fiddling bones performs a boisterous finale. They choose a 30-foot cone or 15-foot emanation, and they deal 4d6 sonic damage to all creatures in that area (DC 21  Basic  Reflex).</p>\n<p>Dance with Death immediately ends, and the fiddling bones can't use Dance with Death or Destructive Finale for [[/br 1d4 #Recharge]]{1d4 rounds}.</p>"
+            "value": "<p><strong>Requirements</strong> Dance with Death is in effect</p>\n<hr />\n<p><strong>Effect</strong> The fiddling bones performs a boisterous finale. They choose a 30-foot cone or 15-foot emanation, and they deal 4d6 sonic damage to all creatures in that area (DC 21  Basic  Reflex).</p>\n<p>Dance with Death immediately ends, and the fiddling bones can't use Dance with Death or Destructive Finale for [[/gmr 1d4 #Recharge]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -16519,7 +16521,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A creature struck by the fluxwraith's time-shifting touch must succeed at a DC 35  Will saving throw or be thrust forward in time, vanishing from its space. The target automatically reappears in the same location after [[/br 1d4 #Time Shift]]{1d4 rounds} but can attempt an additional Will save at the end of each of its turns to end the duration. If its original space is occupied when it returns, the creature appears in the nearest unoccupied space. Since the creature is shunted forward in time, it doesn't experience any of the intervening time. Likewise, any effects on the creature with a duration don't decrease their duration, resuming when the creature reappears. A creature that succeeds at any saving throw against time shift is temporarily immune for 1 hour.</p>"
+            "value": "<p>A creature struck by the fluxwraith's time-shifting touch must succeed at a DC 35  Will saving throw or be thrust forward in time, vanishing from its space. The target automatically reappears in the same location after [[/gmr 1d4 #Time Shift]]{1d4 rounds} but can attempt an additional Will save at the end of each of its turns to end the duration. If its original space is occupied when it returns, the creature appears in the nearest unoccupied space. Since the creature is shunted forward in time, it doesn't experience any of the intervening time. Likewise, any effects on the creature with a duration don't decrease their duration, resuming when the creature reappears. A creature that succeeds at any saving throw against time shift is temporarily immune for 1 hour.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -17677,7 +17679,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The gashadokuro breathes a spray of bone shards in a 30-foot cone. Each creature in the area takes 8d12 piercing damage (DC 34  Basic  Reflex).</p>\n<p>It can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+            "value": "<p>The gashadokuro breathes a spray of bone shards in a 30-foot cone. Each creature in the area takes 8d12 piercing]|options:area-damage] damage (DC 34  Basic  Reflex).</p>\n<p>It can't use Breath Weapon again for {1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -18689,7 +18691,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The gholdako exhales a 60-foot cone of noxious breath that deals 7d8 void damage (DC 29  Basic  Reflex). A creature that fails its save is also Blinded until the end of its next turn (or for 1 minute on a critical failure) as a milky film coats its eyes.</p>\n<p>The gholdako can't use Blinding Breath again for [[/br 1d4 #Recharge Blinding Breath]]{1d4 rounds}.</p>"
+            "value": "<p>The gholdako exhales a 60-foot cone of noxious breath that deals 7d8 void damage (DC 29  Basic  Reflex). A creature that fails its save is also Blinded until the end of its next turn (or for 1 minute on a critical failure) as a milky film coats its eyes.</p>\n<p>The gholdako can't use Blinding Breath again for [[/gmr 1d4 #Recharge Blinding Breath]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -19185,7 +19187,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The ghost reduces a living creature to 0 Hit Points with a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> The creature attempts a DC 25  Fortitude save. If the creature fails its save, it remains conscious but is controlled by the ghost until it loses its dying condition. It continues to attempt recovery checks as normal for the dying condition. The effect ends if the creature loses the dying condition. If the creature dies while under this effect, it joins the ghost's undead crew in [[/br 1d4 #days]]{1d4 days}. If the ghost is destroyed before the creature dies, the creature is spared this terrible fate.</p>"
+            "value": "<p><strong>Trigger</strong> The ghost reduces a living creature to 0 Hit Points with a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> The creature attempts a DC 25  Fortitude save. If the creature fails its save, it remains conscious but is controlled by the ghost until it loses its dying condition. It continues to attempt recovery checks as normal for the dying condition. The effect ends if the creature loses the dying condition. If the creature dies while under this effect, it joins the ghost's undead crew in [[/gmr 1d4 #days]]{1d4 days}. If the ghost is destroyed before the creature dies, the creature is spared this terrible fate.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -21231,7 +21233,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>When a graveknight is destroyed, its armor rebuilds its body over the course of [[/br 1d10 #days]]{1d10 days}-or more quickly if the armor is worn by a living host. If the body is destroyed before then, the process restarts.</p>\n<p>A graveknight can only be permanently destroyed by obliterating its armor (such as with Disintegrate), transporting it to the Forge of Creation, or throwing it into the heart of a volcano.</p>"
+            "value": "<p>When a graveknight is destroyed, its armor rebuilds its body over the course of [[/gmr 1d10 #days]]{1d10 days}-or more quickly if the armor is worn by a living host. If the body is destroyed before then, the process restarts.</p>\n<p>A graveknight can only be permanently destroyed by obliterating its armor (such as with Disintegrate), transporting it to the Forge of Creation, or throwing it into the heart of a volcano.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -21349,7 +21351,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The graveknight unleashes a 30-foot cone of energy. Creatures in the area take 8d12 electricity damage (DC 34  Basic  Reflex save).</p>\n<p>The graveknight can use this ability once every [[/br 1d4 #Recharge Devastating Blast]]{1d4 rounds}.</p>"
+            "value": "<p>The graveknight unleashes a 30-foot cone of energy. Creatures in the area take 8d12 electricity damage (DC 34  Basic  Reflex save).</p>\n<p>The graveknight can use this ability once every [[/gmr 1d4 #Recharge Devastating Blast]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -28160,7 +28162,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A living humanoid killed by a hunter wight's weapon or claw Strike rises as a hunter wight spawn after [[/br 1d4 #rounds]]{1d4 rounds}. This spawn is under the command of the hunter wight that killed them. They don't have drain life or spawn hunter wight and are Clumsy 2 for as long as they're a hunter wight spawn. If the creator of the hunter wight spawn dies, the hunter wight spawn becomes a fully autonomous hunter wight; they regain their free will, gain drain life and spawn hunter wight, and are no longer clumsy</p>"
+            "value": "<p>A living humanoid killed by a hunter wight's weapon or claw Strike rises as a hunter wight spawn after [[/gmr 1d4 #rounds]]{1d4 rounds}. This spawn is under the command of the hunter wight that killed them. They don't have drain life or spawn hunter wight and are Clumsy 2 for as long as they're a hunter wight spawn. If the creator of the hunter wight spawn dies, the hunter wight spawn becomes a fully autonomous hunter wight; they regain their free will, gain drain life and spawn hunter wight, and are no longer clumsy</p>"
           },
           "publication": {
             "license": "OGL",
@@ -28971,15 +28973,17 @@
               "toggleable": true
             },
             {
-              "key": "DamageDice",
-              "label": "PF2E.TraitTwoHandD8",
-              "override": {
-                "dieSize": "d8"
-              },
+              "key": "DamageAlteration",
+              "mode": "upgrade",
               "predicate": [
-                "two-handed"
+                "two-handed",
+                "dice:slug:base"
               ],
-              "selector": "{item|_id}-damage"
+              "property": "dice-faces",
+              "selectors": [
+                "{item|_id}-damage"
+              ],
+              "value": 8
             }
           ],
           "slug": null,
@@ -29261,7 +29265,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The ice mummy exhales a 60-foot cone of razor-sharp ice that deals 5d6 cold],4d6{5d6 cold and 4d6 slashing damage} (DC 26  Basic  Reflex).</p>\n<p>The ice mummy can't use Frozen Breath again for [[/br 1d4 #Recharge Frozen Breath]]{1d4 rounds}.</p>"
+            "value": "<p>The ice mummy exhales a 60-foot cone of razor-sharp ice that deals 5d6 cold],4d6{5d6 cold and 4d6 slashing damage} (DC 26  Basic  Reflex).</p>\n<p>The ice mummy can't use Frozen Breath again for [[/gmr 1d4 #Recharge Frozen Breath]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -32070,7 +32074,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The lacedon discharges a spray of carrion vomit at a creature within 20 feet, dealing 1d6 poison damage with a DC 17  Basic  Fortitude. A non-elf creature that fails its save is also Paralyzed. It can attempt a new save to end the paralysis at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save. The lacedon can't use Paralyzing Spew again for [[/br 1d4 #Recharge Paralyzing Spew]]{1d4 rounds}.</p>"
+            "value": "<p>The lacedon discharges a spray of carrion vomit at a creature within 20 feet, dealing 1d6 poison damage with a DC 17  Basic  Fortitude. A non-elf creature that fails its save is also Paralyzed. It can attempt a new save to end the paralysis at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save. The lacedon can't use Paralyzing Spew again for [[/gmr 1d4 #Recharge Paralyzing Spew]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -32395,7 +32399,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Thresholds</strong> 220 (12 squares), 110 (8 squares)</p>\n<hr />\n<p><p>Troops are composed of many individuals, and over the course of enough attacks and downed comrades, troops shrink in size. Most troops start with 16 squares (4 by 4), and their Hit Points have two listed thresholds, typically the first is at 2/3 their maximum Hit Points and the second is at 1/3 their maximum Hit Points. Once the troop drops below the first threshold, it loses 4 squares, leaving 12 squares remaining, and the first threshold becomes the troop's new maximum Hit Points. Once the troop falls below the second threshold, it loses another 4 squares, leaving 8 squares remaining, and the second threshold becomes the troop's new maximum Hit Points. In order to restore its size and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen. At 0 Hit Points, the troop is reduced down to 4 squares, which is too few to sustain the troop, so it disperses entirely, with the few remaining members surrendering, fleeing, or easily dispatched, depending on their nature.</p>\n<p>A damaging single-target effect, such as a Strike, can't force a troop to pass through more than one threshold at once. For instance, if a troop had 60 Hit Points, with thresholds at 40 and 20, a Strike for 50 damage would leave the troop at 21 Hit Points, just above the second threshold. A damaging area effect or multi-target effect can cross multiple thresholds at once and could potentially destroy the entire troop in one shot.</p>\n<p>Non-damaging effects with an area or that target all creatures in a certain proximity affect a troop normally if they affect the entire area occupied by the troop. If an effect has a smaller area or numbers of targets, it typically has no effect on the troop. However, if the effect can target at least four creatures or cover at least four squares in the troop, and if it would prevent its targets from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more, the troop loses loses a number of Hit Points equal to the amount required to bring it to the next threshold, removing 4 squares. If an effect would both deal damage and automatically cross a threshold due to incapacitating some of the creatures in the troop, apply the damage first. If the damage wasn't enough to cross a threshold on its own, then reduce the Hit Points to cross the threshold for the incapacitating effect.</p></p>"
+            "value": "<p><strong>Thresholds</strong> 220 (12 squares), 110 (8 squares)</p>\n<hr />\n<p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -33361,7 +33365,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>When a llorona is destroyed, they re-form after [[/br 1d6 #days]]{1d6 days} at the site of their death. Resolving the injustice that led to a llorona's death puts them to rest permanently. Alternatively, successfully performing a Consecrate ritual at the site prevents them from re-forming.</p>"
+            "value": "<p>When a llorona is destroyed, they re-form after [[/gmr 1d6 #days]]{1d6 days} at the site of their death. Resolving the injustice that led to a llorona's death puts them to rest permanently. Alternatively, successfully performing a Consecrate ritual at the site prevents them from re-forming.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -34191,7 +34195,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>All jiang-shi possess the following vulnerabilities.</p>\n<ul>\n<li><strong>Revulsion</strong> A jiang-shi can't voluntarily come within 10 feet of a brandished mirror or the sound of ringing handbells. A creature can Interact with a mirror or handbell to brandish or ring the item for 1 round (similar to Raising a Shield). If the jiang-shi involuntarily comes within 10 feet of an object of their revulsion, they gain the Fleeing condition, running from the object of their revulsion until they are 10 feet or farther from the object. After 1 round of being exposed to the object of their revulsion, a jiang-shi can attempt a DC 25  Will save as a single action, which has the concentrate trait. On a success, they overcome their revulsions for [[/br 1d6 #rounds]]{1d6 rounds} (or 1 hour on a critical success).</li>\n<li><strong>Bitter Epiphany</strong> A jiang-shi is afflicted by severe melancholia when reminded of their debased nature and the truth of their existential disconnection from living beings. When a jiang-shi sees an altar with at least 1 Bulk of food offerings to ancestor spirits, they must attempt a DC 25  Will save. They are then temporarily immune to Bitter Epiphany for 1 minute.</li>\n</ul>\n<hr />\n<p><strong>Critical Success</strong> The jiang-shi is unaffected.</p>\n<p><strong>Success</strong> The jiang-shi is Stupefied 1 for 1 round.</p>\n<p><strong>Failure</strong> The jiang-shi is Stupefied 2 for 1 minute.</p>\n<p><strong>Critical Failure</strong> The jiang-shi is stupefied 2 and Confused for 1 minute.</p>"
+            "value": "<p>All jiang-shi possess the following vulnerabilities.</p>\n<ul>\n<li><strong>Revulsion</strong> A jiang-shi can't voluntarily come within 10 feet of a brandished mirror or the sound of ringing handbells. A creature can Interact with a mirror or handbell to brandish or ring the item for 1 round (similar to Raising a Shield). If the jiang-shi involuntarily comes within 10 feet of an object of their revulsion, they gain the Fleeing condition, running from the object of their revulsion until they are 10 feet or farther from the object. After 1 round of being exposed to the object of their revulsion, a jiang-shi can attempt a DC 25  Will save as a single action, which has the concentrate trait. On a success, they overcome their revulsions for [[/gmr 1d6 #rounds]]{1d6 rounds} (or 1 hour on a critical success).</li>\n<li><strong>Bitter Epiphany</strong> A jiang-shi is afflicted by severe melancholia when reminded of their debased nature and the truth of their existential disconnection from living beings. When a jiang-shi sees an altar with at least 1 Bulk of food offerings to ancestor spirits, they must attempt a DC 25  Will save. They are then temporarily immune to Bitter Epiphany for 1 minute.</li>\n</ul>\n<hr />\n<p><strong>Critical Success</strong> The jiang-shi is unaffected.</p>\n<p><strong>Success</strong> The jiang-shi is Stupefied 1 for 1 round.</p>\n<p><strong>Failure</strong> The jiang-shi is Stupefied 2 for 1 minute.</p>\n<p><strong>Critical Failure</strong> The jiang-shi is stupefied 2 and Confused for 1 minute.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -36242,7 +36246,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Gods & Magic"
+            "title": "Pathfinder Lost Omens Gods & Magic"
           },
           "range": {
             "value": "30 feet"
@@ -37058,7 +37062,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Gods & Magic"
+            "title": "Pathfinder Lost Omens Gods & Magic"
           },
           "range": {
             "value": "30 feet"
@@ -46721,7 +46725,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>All jiang-shi possess the following vulnerabilities.</p>\n<ul>\n<li><strong>Revulsion</strong> A jiang-shi can't voluntarily come within 10 feet of a brandished mirror or the sound of ringing handbells. A creature can Interact with a mirror or handbell to brandish or ring the item for 1 round (similar to Raising a Shield). If the jiang-shi involuntarily comes within 10 feet of an object of their revulsion, they gain the Fleeing condition, running from the object of their revulsion until they are 10 feet or farther from the object. After 1 round of being exposed to the object of their revulsion, a jiang-shi can attempt a DC 25  Will save as a single action, which has the concentrate trait. On a success, they overcome their revulsions for [[/br 1d6 #rounds]]{1d6 rounds} (or 1 hour on a critical success).</li>\n<li><strong>Bitter Epiphany</strong> A jiang-shi is afflicted by severe melancholia when reminded of their debased nature and the truth of their existential disconnection from living beings. When a jiang-shi sees an altar with at least 1 Bulk of food offerings to ancestor spirits, they must attempt a DC 25  Will save. They are then temporarily immune to Bitter Epiphany for 1 minute.</li>\n</ul>\n<hr />\n<p><strong>Critical Success</strong> The jiang-shi is unaffected.</p>\n<p><strong>Success</strong> The jiang-shi is Stupefied 1 for 1 round.</p>\n<p><strong>Failure</strong> The jiang-shi is Stupefied 2 for 1 minute.</p>\n<p><strong>Critical Failure</strong> The jiang-shi is stupefied 2 and Confused for 1 minute.</p>"
+            "value": "<p>All jiang-shi possess the following vulnerabilities.</p>\n<ul>\n<li><strong>Revulsion</strong> A jiang-shi can't voluntarily come within 10 feet of a brandished mirror or the sound of ringing handbells. A creature can Interact with a mirror or handbell to brandish or ring the item for 1 round (similar to Raising a Shield). If the jiang-shi involuntarily comes within 10 feet of an object of their revulsion, they gain the Fleeing condition, running from the object of their revulsion until they are 10 feet or farther from the object. After 1 round of being exposed to the object of their revulsion, a jiang-shi can attempt a DC 25  Will save as a single action, which has the concentrate trait. On a success, they overcome their revulsions for [[/gmr 1d6 #rounds]]{1d6 rounds} (or 1 hour on a critical success).</li>\n<li><strong>Bitter Epiphany</strong> A jiang-shi is afflicted by severe melancholia when reminded of their debased nature and the truth of their existential disconnection from living beings. When a jiang-shi sees an altar with at least 1 Bulk of food offerings to ancestor spirits, they must attempt a DC 25  Will save. They are then temporarily immune to Bitter Epiphany for 1 minute.</li>\n</ul>\n<hr />\n<p><strong>Critical Success</strong> The jiang-shi is unaffected.</p>\n<p><strong>Success</strong> The jiang-shi is Stupefied 1 for 1 round.</p>\n<p><strong>Failure</strong> The jiang-shi is Stupefied 2 for 1 minute.</p>\n<p><strong>Critical Failure</strong> The jiang-shi is stupefied 2 and Confused for 1 minute.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -47563,7 +47567,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A living humanoid killed by a prowler wight's weapon or claw Strike rises as a hunter wight spawn after [[/br 1d4 #rounds]]{1d4 rounds}. This spawn is under the command of the prowler wight that killed them. They don't have drain life or spawn prowler wight and are Clumsy 2 for as long as they're a prowler wight spawn. If the creator of the prowler wight spawn dies, the prowler wight spawn becomes a fully autonomous prowler wight; they regain their free will, gain drain life and spawn prowler wight, and are no longer clumsy</p>"
+            "value": "<p>A living humanoid killed by a prowler wight's weapon or claw Strike rises as a hunter wight spawn after [[/gmr 1d4 #rounds]]{1d4 rounds}. This spawn is under the command of the prowler wight that killed them. They don't have drain life or spawn prowler wight and are Clumsy 2 for as long as they're a prowler wight spawn. If the creator of the prowler wight spawn dies, the prowler wight spawn becomes a fully autonomous prowler wight; they regain their free will, gain drain life and spawn prowler wight, and are no longer clumsy</p>"
           },
           "publication": {
             "license": "OGL",
@@ -48460,7 +48464,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The queen sluagh becomes incorporeal until the start of their next turn, and Flies up to their fly Speed. While incorporeal, they are immune to precision damage, and have resistance 10 to all damage (except force, ghost touch, or vitality); this resistance is doubled against non-magical damage.</p>\n<p>After using Ghostly Swoop, the queen sluagh can't use it again for [[/br 1d4 #Recharge]]{1d4 rounds}.</p>"
+            "value": "<p>The queen sluagh becomes incorporeal until the start of their next turn, and Flies up to their fly Speed. While incorporeal, they are immune to precision damage, and have resistance 10 to all damage (except force, ghost touch, or vitality); this resistance is doubled against non-magical damage.</p>\n<p>After using Ghostly Swoop, the queen sluagh can't use it again for [[/gmr 1d4 #Recharge]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -49644,7 +49648,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The relictner bellows in fury, causing the surrounding structure to collapse. All creatures in a 30-foot emanation take 8d10 bludgeoning damage from falling debris (DC 31  Basic  Reflex). A creature that fails its save is knocked Prone. The area becomes difficult terrain.</p>\n<p>The relictner can't use Demolition again for [[/br 1d4 #Recharge Demolition]]{1d4 rounds}.</p>"
+            "value": "<p>The relictner bellows in fury, causing the surrounding structure to collapse. All creatures in a 30-foot emanation take 8d10 bludgeoning damage from falling debris (DC 31  Basic  Reflex). A creature that fails its save is knocked Prone. The area becomes difficult terrain.</p>\n<p>The relictner can't use Demolition again for [[/gmr 1d4 #Recharge Demolition]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -50653,7 +50657,12 @@
               "type": "bludgeoning"
             }
           },
-          "defense": null,
+          "defense": {
+            "passive": {
+              "statistic": "fortitude-dc"
+            },
+            "save": null
+          },
           "description": {
             "value": "<p><strong>Area</strong> 20-foot burst adjacent to a flat surface</p>\n<hr />\n<p>Oily black tentacles rise up and attempt to capture creatures in the area. Make spell attack rolls against the Fortitude DC of each creature in the area. Any creature you succeed against is Grabbed and takes 3d6 bludgeoning damage. Whenever a creature ends its turn in the area, the tentacles attempt to grab that creature if they haven't already, and they deal 1d6 bludgeoning damage to any creature already Grabbed.</p>\n<p>The tentacles' Escape DC is equal to your spell DC. A creature can attack a tentacle in an attempt to release its grip. Its AC is equal to your spell DC, and it is destroyed if it takes 12 or more damage. Even if destroyed, additional tentacles continue to grow in the area until the duration ends. You can Dismiss the spell.</p>"
           },
@@ -53851,7 +53860,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The shadern exhales a cloud of thick smoke in a 10-foot burst centered on them. The cloud remains in place for [[/br 1d4 #rounds]]{1d4 rounds}. All creatures within the smoke become Concealed, and all creatures outside the smoke become concealed to creatures within it. Exhaling ends Death Gasp, as the shadern ceases holding their breath.</p>"
+            "value": "<p>The shadern exhales a cloud of thick smoke in a 10-foot burst centered on them. The cloud remains in place for [[/gmr 1d4 #rounds]]{1d4 rounds}. All creatures within the smoke become Concealed, and all creatures outside the smoke become concealed to creatures within it. Exhaling ends Death Gasp, as the shadern ceases holding their breath.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -57238,7 +57247,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>When a siabrae is destroyed, they can attempt a DC 10  Flat (they automatically succeed if they're standing on blighted or diseased terrain, and automatically fail if they're standing on sacred ground). If the flat check succeeds, the siabrae's body crumbles to dust and absorbs into the earth. After [[/br 1d10 #days]]{1d10 days}, the siabrae's body reforms from a mass of unworked stone large enough to create a new body; this stone is in a random location within 1d10 miles of where the siabrae was destroyed. The siabrae emerges from the stone with a peal of thunder, though without any of their gear.</p>"
+            "value": "<p>When a siabrae is destroyed, they can attempt a DC 10  Flat (they automatically succeed if they're standing on blighted or diseased terrain, and automatically fail if they're standing on sacred ground). If the flat check succeeds, the siabrae's body crumbles to dust and absorbs into the earth. After [[/gmr 1d10 #days]]{1d10 days}, the siabrae's body reforms from a mass of unworked stone large enough to create a new body; this stone is in a random location within 1d10 miles of where the siabrae was destroyed. The siabrae emerges from the stone with a peal of thunder, though without any of their gear.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -60986,7 +60995,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The sluagh reaper becomes incorporeal until the start of their next turn, and Flies up to their fly Speed. While incorporeal, they are immune to precision damage, and have resistance 10 to all damage (except force, ghost touch, or vitality); this resistance is doubled against non-magical damage.</p>\n<p>After using Ghostly Swoop, the sluagh reaper can't use it again for [[/br 1d4 #Recharge]]{1d4 rounds}.</p>"
+            "value": "<p>The sluagh reaper becomes incorporeal until the start of their next turn, and Flies up to their fly Speed. While incorporeal, they are immune to precision damage, and have resistance 10 to all damage (except force, ghost touch, or vitality); this resistance is doubled against non-magical damage.</p>\n<p>After using Ghostly Swoop, the sluagh reaper can't use it again for [[/gmr 1d4 #Recharge]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -63159,7 +63168,7 @@
           "remaster": false,
           "title": "Pathfinder Book of the Dead"
         },
-        "reset": "<p>If the haunt successfully damages a creature with Topple Furniture, the spirit laughs for [[/br 1d4 #Laughing Duration]]{1d4 rounds} as the haunt resets; each subsequent time the haunt activates, it must topple a different piece of upright furniture. If the haunt fails to damage a creature, the spirit wails in frustration and resets after pouting for [[/br 1d4 #Haunt Reset]]{1d4 hours}.</p>",
+        "reset": "<p>If the haunt successfully damages a creature with Topple Furniture, the spirit laughs for [[/gmr 1d4 #Laughing Duration]]{1d4 rounds} as the haunt resets; each subsequent time the haunt activates, it must topple a different piece of upright furniture. If the haunt fails to damage a creature, the spirit wails in frustration and resets after pouting for [[/gmr 1d4 #Haunt Reset]]{1d4 hours}.</p>",
         "routine": ""
       },
       "saves": {
@@ -63450,7 +63459,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34  Basic  Will). A creature that fails is also Sickened 1 (or Sickened 2 on a critical failure).</p>\n<p>The tormented can't Scream in Agony again for [[/br 1d4 #Recharge Scream in Agony]]{1d4 rounds}, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw.</p>"
+            "value": "<p>Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34  Basic  Will). A creature that fails is also Sickened 1 (or Sickened 2 on a critical failure).</p>\n<p>The tormented can't Scream in Agony again for [[/gmr 1d4 #Recharge Scream in Agony]]{1d4 rounds}, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -63887,7 +63896,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34  Basic  Will). A creature that fails is also Sickened 1 (or Sickened 2 on a critical failure).</p>\n<p>The tormented can't Scream in Agony again for [[/br 1d4 #Recharge Scream in Agony]]{1d4 rounds}, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw.</p>"
+            "value": "<p>Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34  Basic  Will). A creature that fails is also Sickened 1 (or Sickened 2 on a critical failure).</p>\n<p>The tormented can't Scream in Agony again for [[/gmr 1d4 #Recharge Scream in Agony]]{1d4 rounds}, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -64238,7 +64247,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>30 foot or 60 foot if the tormented is at 125 HP or lower.</p>\n<p>The psychic agony of a tormented spills into the world around them, inflicting murderous hallucinations replicating the tormented's last moments. A non-undead creature that ends its turn in the aura must succeed at a DC 32  Will save or for [[/br 1d4 #Dislocation Duration]]{1d4 rounds}, the creature is Clumsy 2 and Slowed 1. While it has a condition from Tortured Gaze, a creature can't gain a new condition from the aura but can take damage from it again.</p>"
+            "value": "<p>30 foot or 60 foot if the tormented is at 125 HP or lower.</p>\n<p>The psychic agony of a tormented spills into the world around them, inflicting murderous hallucinations replicating the tormented's last moments. A non-undead creature that ends its turn in the aura must succeed at a DC 32  Will save or for [[/gmr 1d4 #Dislocation Duration]]{1d4 rounds}, the creature is Clumsy 2 and Slowed 1. While it has a condition from Tortured Gaze, a creature can't gain a new condition from the aura but can take damage from it again.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -64324,7 +64333,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34  Basic  Will). A creature that fails is also Sickened 1 (or Sickened 2 on a critical failure).</p>\n<p>The tormented can't Scream in Agony again for [[/br 1d4 #Recharge Scream in Agony]]{1d4 rounds}, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw.</p>"
+            "value": "<p>Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34  Basic  Will). A creature that fails is also Sickened 1 (or Sickened 2 on a critical failure).</p>\n<p>The tormented can't Scream in Agony again for [[/gmr 1d4 #Recharge Scream in Agony]]{1d4 rounds}, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -64761,7 +64770,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34  Basic  Will). A creature that fails is also Sickened 1 (or Sickened 2 on a critical failure).</p>\n<p>The tormented can't Scream in Agony again for [[/br 1d4 #Recharge Scream in Agony]]{1d4 rounds}, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw.</p>"
+            "value": "<p>Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34  Basic  Will). A creature that fails is also Sickened 1 (or Sickened 2 on a critical failure).</p>\n<p>The tormented can't Scream in Agony again for [[/gmr 1d4 #Recharge Scream in Agony]]{1d4 rounds}, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -65198,7 +65207,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34  Basic  Will). A creature that fails is also Sickened 1 (or Sickened 2 on a critical failure).</p>\n<p>The tormented can't Scream in Agony again for [[/br 1d4 #Recharge Scream in Agony]]{1d4 rounds}, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw.</p>"
+            "value": "<p>Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34  Basic  Will). A creature that fails is also Sickened 1 (or Sickened 2 on a critical failure).</p>\n<p>The tormented can't Scream in Agony again for [[/gmr 1d4 #Recharge Scream in Agony]]{1d4 rounds}, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -65635,7 +65644,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34  Basic  Will). A creature that fails is also Sickened 1 (or Sickened 2 on a critical failure).</p>\n<p>The tormented can't Scream in Agony again for [[/br 1d4 #Recharge Scream in Agony]]{1d4 rounds}, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw.</p>"
+            "value": "<p>Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34  Basic  Will). A creature that fails is also Sickened 1 (or Sickened 2 on a critical failure).</p>\n<p>The tormented can't Scream in Agony again for [[/gmr 1d4 #Recharge Scream in Agony]]{1d4 rounds}, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -66091,7 +66100,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The unrisen howls in pain at its cursed existence. Creatures within a 30-foot emanation take 9d8 mental damage (DC 30  Basic  Will). The unrisen can't use Agonized Howl again for [[/br 1d4 #Recharge Agonized Howl]]{1d4 rounds}.</p>"
+            "value": "<p>The unrisen howls in pain at its cursed existence. Creatures within a 30-foot emanation take 9d8 mental damage (DC 30  Basic  Will). The unrisen can't use Agonized Howl again for [[/gmr 1d4 #Recharge Agonized Howl]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -66125,7 +66134,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The unrisen reshapes its grotesque form to move swiftly. It Strides twice. Any living creature that can see the unrisen during this movement must succeed at a DC 28  Fortitude save or be Sickened 1 (Sickened 2 on a critical failure). This is a mental and visual effect. The unrisen can't use Awful Approach again for [[/br 1d4 #Recharge Awful Approach]]{1d4 rounds}.</p>"
+            "value": "<p>The unrisen reshapes its grotesque form to move swiftly. It Strides twice. Any living creature that can see the unrisen during this movement must succeed at a DC 28  Fortitude save or be Sickened 1 (Sickened 2 on a critical failure). This is a mental and visual effect. The unrisen can't use Awful Approach again for [[/gmr 1d4 #Recharge Awful Approach]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -69397,7 +69406,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>Unlike most other undead, a vetalarana isn't destroyed when they reach 0 HP. Instead, their body is destroyed, crumbling to ash, and their mind is immediately transferred into a creature they rendered comatose through Drain Thoughts. This creature must be within 1 mile; if no such creature is in range, the vetalarana is destroyed. The creature becomes controlled by the vetalarana and loses the stupefied and Unconscious conditions. If the creature controlled by a vetalarana in this way is killed, the vetalarana's mind transfers to another creature within 1 mile who they rendered comatose through Drain Thoughts.</p>\n<p>After [[/br 1d6 #days]]{1d6 days} of being controlled, the controlled creature dies, and its body transforms into that of the vetalarana who rendered it comatose.</p>"
+            "value": "<p>Unlike most other undead, a vetalarana isn't destroyed when they reach 0 HP. Instead, their body is destroyed, crumbling to ash, and their mind is immediately transferred into a creature they rendered comatose through Drain Thoughts. This creature must be within 1 mile; if no such creature is in range, the vetalarana is destroyed. The creature becomes controlled by the vetalarana and loses the stupefied and Unconscious conditions. If the creature controlled by a vetalarana in this way is killed, the vetalarana's mind transfers to another creature within 1 mile who they rendered comatose through Drain Thoughts.</p>\n<p>After [[/gmr 1d6 #days]]{1d6 days} of being controlled, the controlled creature dies, and its body transforms into that of the vetalarana who rendered it comatose.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -69435,7 +69444,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>All vetalaranas possess the following weaknesses.</p>\n<ul>\n<li><strong>Barred Senses</strong> A vetalarana can't see or sense through force effects or cold iron, and their mind can't penetrate force effects or cold iron. Such barriers can prevent the transference of a vetalarana's mind through Mental Rebirth.</li>\n<li><strong>Revulsion</strong> A vetalarana delights in consuming memories and secrets, and is disgusted by those who share such sensitive tidbits openly. A vetalarana can't voluntarily come within 10 feet of a creature loudly voicing their intimate personal secrets or most cherished memories aloud. Speaking such information aloud with conviction is a single action that has the auditory, concentrate, and linguistic traits, and protects the creature until the start of its next turn. A vetalarana that involuntarily comes within 10 feet of a creature sharing such information gains the Fleeing condition until they're 10 feet or farther from the creature. After 1 round of being exposed to the secrets of a creature, a vetalarana can attempt a DC 25  Will save as a single action, which has the concentrate trait. On a success, they overcome their revulsions for [[/br 1d6 #rounds]]{1d6 rounds} (or 1 hour on a critical success).</li>\n<li><strong>Vulnerable to Brain Destruction</strong> A vetalarana whose brain has been destroyed, or is reduced to 0 HP while unable to take mental actions, can't use Mental Rebirth.</li>\n</ul>"
+            "value": "<p>All vetalaranas possess the following weaknesses.</p>\n<ul>\n<li><strong>Barred Senses</strong> A vetalarana can't see or sense through force effects or cold iron, and their mind can't penetrate force effects or cold iron. Such barriers can prevent the transference of a vetalarana's mind through Mental Rebirth.</li>\n<li><strong>Revulsion</strong> A vetalarana delights in consuming memories and secrets, and is disgusted by those who share such sensitive tidbits openly. A vetalarana can't voluntarily come within 10 feet of a creature loudly voicing their intimate personal secrets or most cherished memories aloud. Speaking such information aloud with conviction is a single action that has the auditory, concentrate, and linguistic traits, and protects the creature until the start of its next turn. A vetalarana that involuntarily comes within 10 feet of a creature sharing such information gains the Fleeing condition until they're 10 feet or farther from the creature. After 1 round of being exposed to the secrets of a creature, a vetalarana can attempt a DC 25  Will save as a single action, which has the concentrate trait. On a success, they overcome their revulsions for [[/gmr 1d6 #rounds]]{1d6 rounds} (or 1 hour on a critical success).</li>\n<li><strong>Vulnerable to Brain Destruction</strong> A vetalarana whose brain has been destroyed, or is reduced to 0 HP while unable to take mental actions, can't use Mental Rebirth.</li>\n</ul>"
           },
           "publication": {
             "license": "OGL",
@@ -72006,7 +72015,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>Unlike most other undead, a vetalarana isn't destroyed when they reach 0 HP. Instead, their body is destroyed, crumbling to ash, and their mind is immediately transferred into a creature they rendered comatose through Drain Thoughts. This creature must be within 1 mile; if no such creature is in range, the vetalarana is destroyed. The creature becomes controlled by the vetalarana and loses the stupefied and Unconscious conditions. If the creature controlled by a vetalarana in this way is killed, the vetalarana's mind transfers to another creature within 1 mile who they rendered comatose through Drain Thoughts.</p>\n<p>After [[/br 1d6 #days]]{1d6 days} of being controlled, the controlled creature dies, and its body transforms into that of the vetalarana who rendered it comatose.</p>"
+            "value": "<p>Unlike most other undead, a vetalarana isn't destroyed when they reach 0 HP. Instead, their body is destroyed, crumbling to ash, and their mind is immediately transferred into a creature they rendered comatose through Drain Thoughts. This creature must be within 1 mile; if no such creature is in range, the vetalarana is destroyed. The creature becomes controlled by the vetalarana and loses the stupefied and Unconscious conditions. If the creature controlled by a vetalarana in this way is killed, the vetalarana's mind transfers to another creature within 1 mile who they rendered comatose through Drain Thoughts.</p>\n<p>After [[/gmr 1d6 #days]]{1d6 days} of being controlled, the controlled creature dies, and its body transforms into that of the vetalarana who rendered it comatose.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -72077,7 +72086,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>All vetalaranas possess the following weaknesses.</p>\n<ul>\n<li><strong>Barred Senses</strong> A vetalarana can't see or sense through force effects or cold iron, and their mind can't penetrate force effects or cold iron. Such barriers can prevent the transference of a vetalarana's mind through Mental Rebirth.</li>\n<li><strong>Revulsion</strong> A vetalarana delights in consuming memories and secrets, and is disgusted by those who share such sensitive tidbits openly. A vetalarana can't voluntarily come within 10 feet of a creature loudly voicing their intimate personal secrets or most cherished memories aloud. Speaking such information aloud with conviction is a single action that has the auditory, concentrate, and linguistic traits, and protects the creature until the start of its next turn. A vetalarana that involuntarily comes within 10 feet of a creature sharing such information gains the Fleeing condition until they're 10 feet or farther from the creature. After 1 round of being exposed to the secrets of a creature, a vetalarana can attempt a DC 25  Will save as a single action, which has the concentrate trait. On a success, they overcome their revulsions for [[/br 1d6 #rounds]]{1d6 rounds} (or 1 hour on a critical success).</li>\n<li><strong>Vulnerable to Brain Destruction</strong> A vetalarana whose brain has been destroyed, or is reduced to 0 HP while unable to take mental actions, can't use Mental Rebirth.</li>\n</ul>"
+            "value": "<p>All vetalaranas possess the following weaknesses.</p>\n<ul>\n<li><strong>Barred Senses</strong> A vetalarana can't see or sense through force effects or cold iron, and their mind can't penetrate force effects or cold iron. Such barriers can prevent the transference of a vetalarana's mind through Mental Rebirth.</li>\n<li><strong>Revulsion</strong> A vetalarana delights in consuming memories and secrets, and is disgusted by those who share such sensitive tidbits openly. A vetalarana can't voluntarily come within 10 feet of a creature loudly voicing their intimate personal secrets or most cherished memories aloud. Speaking such information aloud with conviction is a single action that has the auditory, concentrate, and linguistic traits, and protects the creature until the start of its next turn. A vetalarana that involuntarily comes within 10 feet of a creature sharing such information gains the Fleeing condition until they're 10 feet or farther from the creature. After 1 round of being exposed to the secrets of a creature, a vetalarana can attempt a DC 25  Will save as a single action, which has the concentrate trait. On a success, they overcome their revulsions for [[/gmr 1d6 #rounds]]{1d6 rounds} (or 1 hour on a critical success).</li>\n<li><strong>Vulnerable to Brain Destruction</strong> A vetalarana whose brain has been destroyed, or is reduced to 0 HP while unable to take mental actions, can't use Mental Rebirth.</li>\n</ul>"
           },
           "publication": {
             "license": "OGL",
@@ -74271,7 +74280,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A living humanoid killed by a wight commander's weapon or claw Strike rises as a wight of the commander's level or lower, most often a hunter wight or prowler wight, after [[/br 1d4 #rounds]]{1d4 rounds}. This spawn is under the command of the wight commander that killed them. They don't have drain life or spawn wight soldier and are Clumsy 2 for as long as they're a wight spawn. If the creator of the wight spawn dies, the wight spawn becomes a fully autonomous wight; they regain their free will, gain drain life and spawn wight soldier, and are no longer clumsy.</p>"
+            "value": "<p>A living humanoid killed by a wight commander's weapon or claw Strike rises as a wight of the commander's level or lower, most often a hunter wight or prowler wight, after [[/gmr 1d4 #rounds]]{1d4 rounds}. This spawn is under the command of the wight commander that killed them. They don't have drain life or spawn wight soldier and are Clumsy 2 for as long as they're a wight spawn. If the creator of the wight spawn dies, the wight spawn becomes a fully autonomous wight; they regain their free will, gain drain life and spawn wight soldier, and are no longer clumsy.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -75088,7 +75097,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The husk zombie's turn begins</p>\n<hr />\n<p><strong>Effect</strong> The withered has a sudden burst of speed. They are Quickened this turn and can use the extra action only to Stride or Strike. If the withered's first action this turn is a melee Strike, the target is Off-Guard against the attack.</p>\n<p>The withered can't use Sudden Surge for [[/br 1d4 #Recharge Sudden Surge]]{1d4 rounds}.</p>"
+            "value": "<p><strong>Trigger</strong> The husk zombie's turn begins</p>\n<hr />\n<p><strong>Effect</strong> The withered has a sudden burst of speed. They are Quickened this turn and can use the extra action only to Stride or Strike. If the withered's first action this turn is a melee Strike, the target is Off-Guard against the attack.</p>\n<p>The withered can't use Sudden Surge for [[/gmr 1d4 #Recharge Sudden Surge]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",

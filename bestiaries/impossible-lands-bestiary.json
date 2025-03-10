@@ -535,7 +535,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The benthic reaver unleashes a cry of mourning. All creatures within 60 feet must attempt a DC 41  Will save to resist. The benthic reaver can't use Song of the Lost for [[/br 1d4 #Recharge Song of the Lost]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Frightened 1.</p>\n<p><strong>Failure</strong> The creature is Frightened 2.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature is also Stunned 1 with sympathy.</p>"
+            "value": "<p>The benthic reaver unleashes a cry of mourning. All creatures within 60 feet must attempt a DC 41  Will save to resist. The benthic reaver can't use Song of the Lost for [[/gmr 1d4 #Recharge Song of the Lost]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Frightened 1.</p>\n<p><strong>Failure</strong> The creature is Frightened 2.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature is also Stunned 1 with sympathy.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -728,7 +728,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -1102,7 +1102,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -1169,7 +1169,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature steps onto the cracked earth</p>\n<hr />\n<p><strong>Effect</strong> The creature fractures the thin crust of earth and falls through. That creature can use the Grab an Edge reaction to avoid falling, as long as it is adjacent to an edge. Otherwise it takes falling damage (typically @Damage[25[bludgeoning]] damage for a 50-foot drop). Some of these rifts eventually lead to the Darklands.</p>"
+            "value": "<p><strong>Trigger</strong> A creature steps onto the cracked earth</p>\n<hr />\n<p><strong>Effect</strong> The creature fractures the thin crust of earth and falls through. That creature can use the Grab an Edge reaction to avoid falling, as long as it is adjacent to an edge. Otherwise it takes falling damage (typically @Damage[25[bludgeoning]|options:fall-damage] damage for a 50-foot drop). Some of these rifts eventually lead to the Darklands.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1215,7 +1215,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         },
         "reset": "",
         "routine": ""
@@ -1701,7 +1701,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -2416,7 +2416,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -2921,7 +2921,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -3279,7 +3279,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -3594,7 +3594,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -4892,7 +4892,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -5008,7 +5008,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         },
         "reset": "<p>The hazard continues to suck in anyone with magic until it is satiated (see Disable above). Magpies leave any satiated whorls.</p>",
         "routine": "<p>(1 action) On its initiative, the whorl pulls down any creature within it that can cast spells or that is wielding a magic item. A creature submerged to the waist becomes submerged to the neck, and a creature submerged to the neck is pulled under and must hold its breath to avoid suffocation. If a creature has no spells or magic items, the mana whorl is merely difficult terrain. A creature caught in a mana whorl can attempt a DC 23  Athletics check to Swim to either raise itself by one step if submerged to the neck or worse, or to move 5 feet if submerged only to the waist. On a critical failure, the creature is pulled down by one step. A creature that Swims out of the whorl escapes the hazard and is Prone in a space adjacent to the whorl. Other creatures can Aid the creature, typically by using a rope or similar aid, or attempt to pull the creature out with their own DC 23  Athletics check, with the same results as if the creature attempted the check. If a creature has only magic items and no ability to cast spells, dropping all the items releases that creature, and it can move through the mana whorl as normal difficult terrain.</p>"
@@ -5665,7 +5665,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -6197,7 +6197,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -6727,7 +6727,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -7125,7 +7125,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -7442,7 +7442,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -7593,7 +7593,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         },
         "reset": "<p>Once the pitcher has eaten a spell, its petals turn dark pink and green before it closes. It goes dormant for one day per spell rank of the spell consumed. Once the pitcher finishes digesting, it opens again and slowly wilts. A second pitcher branches into an adjacent square when the first pitcher opens again.</p>",
         "routine": ""
@@ -7966,7 +7966,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -8501,7 +8501,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {
@@ -8780,7 +8780,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Impossible Lands"
+          "title": "Pathfinder Lost Omens Impossible Lands"
         }
       },
       "initiative": {

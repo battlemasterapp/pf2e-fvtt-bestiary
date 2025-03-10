@@ -626,7 +626,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -768,7 +768,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         },
         "reset": "<p>The building becomes susceptible to Shake Apart again 1d6 rounds after it's stabilized.</p>",
         "routine": "<p>The GM rolls a DC 9  Flat to determine if the building partially collapses, increasing the DC as listed above. On a successful check, dust and debris fall within the building and 30 feet around it, providing concealment and dealing 6d6 bludgeoning damage to [[/r 1d4 #Targets]] randomly chosen targets (DC 35  Basic  Reflex (hazard,complex,environmental,kaiju) save; on a critical failure, the creature is knocked Prone). On a critical success, the effect is the same, but the debris deals 12d6 bludgeoning damage to [[/r 2d4 #Targets]] randomly chosen targets instead (DC 35  Basic  Reflex (hazard,complex,environmental,kaiju) save; on a critical failure, the creature is Restrained by rubble until freed [Force Open DC 38, Escape DC 35]).</p>"
@@ -869,9 +869,9 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         },
-        "reset": "<p>Ebeshra waits [[/br 1d4 #Rounds]] rounds to break off another crystal.</p>",
+        "reset": "<p>Ebeshra waits [[/gmr 1d4 #Rounds]] rounds to break off another crystal.</p>",
         "routine": ""
       },
       "flavourText": "",
@@ -1295,7 +1295,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Cuetzmonquali unleashes a blast of fire that deals 12d10 fire damage in a 50-foot cone (DC 38  Basic  Reflex save). Creatures that fail their saves catch on fire and take 1d12 persistent,fire damage. Cuetzmonquali can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+            "value": "<p>Cuetzmonquali unleashes a blast of fire that deals 12d10 fire]|options:area-damage] damage in a 50-foot cone (DC 38  Basic  Reflex save). Creatures that fail their saves catch on fire and take @Damage damage. Cuetzmonquali can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1597,7 +1597,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -2663,7 +2663,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -3844,7 +3844,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -4221,7 +4221,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -5080,7 +5080,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -5982,7 +5982,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -6241,7 +6241,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The imperfect automaton utters a mournful cry in a 30-foot cone. The cry deals 4d6 mental damage to all creatures in the area (DC 22  Will save). The imperfect automaton can't use its Empty Wail again for [[/br 1d4 #Recharge Empty Wail]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Stupefied 1 for [[/br 1d4+1 #rounds]]{1d4+1 rounds}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is stupefied 1 for 1d4+1 rounds and Stunned 1.</p>"
+            "value": "<p>The imperfect automaton utters a mournful cry in a 30-foot cone. The cry deals 4d6 mental damage to all creatures in the area (DC 22  Will save). The imperfect automaton can't use its Empty Wail again for [[/gmr 1d4 #Recharge Empty Wail]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Stupefied 1 for [[/gmr 1d4+1 #rounds]]{1d4+1 rounds}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is stupefied 1 for 1d4+1 rounds and Stunned 1.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -6444,7 +6444,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -7199,7 +7199,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "range": null,
@@ -8138,7 +8138,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -8954,7 +8954,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -9598,7 +9598,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -11156,7 +11156,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -11802,7 +11802,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Kuworsys releases a choking field of spores within a 30-foot radius, continuing to release them until the end of its next turn. Creatures who begin their turns within the area of the spores, or who enter the area, must attempt a DC 32  Fortitude (disease) save. On a failure, the creature becomes afflicted with addictive exhaustion.</p>\n<p>Kuworsys then can't use its Infectious Spores again for [[/br 1d4 #Recharge Infectious Spores]]{1d4 rounds}.</p>"
+            "value": "<p>Kuworsys releases a choking field of spores within a 30-foot radius, continuing to release them until the end of its next turn. Creatures who begin their turns within the area of the spores, or who enter the area, must attempt a DC 32  Fortitude (disease) save. On a failure, the creature becomes afflicted with addictive exhaustion.</p>\n<p>Kuworsys then can't use its Infectious Spores again for [[/gmr 1d4 #Recharge Infectious Spores]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11961,7 +11961,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -12447,7 +12447,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -13356,7 +13356,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "rules": [],
           "slug": null,
@@ -13475,7 +13475,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -13626,7 +13626,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "range": {
             "value": "1-mile-radius circle centered on you"
@@ -14495,7 +14495,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -15324,7 +15324,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -16271,7 +16271,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -16405,7 +16405,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         },
         "reset": "<p>Ebeshra vanishes 1 minute after opening the rift, which closes the rift. Ebeshra must wait 1 week before it can open another planar rift.</p>",
         "routine": "<p>The rift pulls creatures within 500 feet toward it. The rift can pull any creature, regardless of its size. Creatures in the area must attempt a DC 45  Fortitude (complex,conjuration,divine,environmental,kaiju,teleportation,hazard) or DC 45  Reflex (complex,conjuration,divine,environmental,kaiju,teleportation,hazard) save (the creature's choice) to resist the effects of this pull or attempt to grab something to avoid getting pulled.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature resists the pull and doesn't move toward the rift.</p>\n<p><strong>Success</strong> The creature is moved 25 feet toward the rift.</p>\n<p><strong>Failure</strong> The creature is moved 50 feet toward the rift.</p>\n<p><strong>Critical Failure</strong> The creature is moved 100 feet toward the rift. The harsh pull causes the creature to take 10d6 bludgeoning damage.</p>\n<p>If a creature is directly beneath the rift when the rift pulls it, the creature instead attempts a DC 50  Fortitude (complex,conjuration,divine,environmental,kaiju,teleportation,hazard) or DC 50  Reflex (complex,conjuration,divine,environmental,kaiju,teleportation,hazard) save (the creature's choice) to avoid being pulled into the rift. On a failure, the creature is pulled up into the rift and thrown to a random point on the plane on the other side.</p>"
@@ -16508,9 +16508,9 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         },
-        "reset": "<p>Ebeshra doesn't rush this way again for [[/br 1d4 #Rounds]] rounds.</p>",
+        "reset": "<p>Ebeshra doesn't rush this way again for [[/gmr 1d4 #Rounds]] rounds.</p>",
         "routine": ""
       },
       "flavourText": "",
@@ -16763,7 +16763,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "range": {
             "value": "30 feet"
@@ -16959,7 +16959,12 @@
               "type": "bludgeoning"
             }
           },
-          "defense": null,
+          "defense": {
+            "passive": {
+              "statistic": "fortitude-dc"
+            },
+            "save": null
+          },
           "description": {
             "value": "<p><strong>Area</strong> 20-foot burst adjacent to a flat surface</p>\n<hr />\n<p>Oily black tentacles rise up and attempt to capture creatures in the area. Make spell attack rolls against the Fortitude DC of each creature in the area. Any creature you succeed against is Grabbed and takes 3d6 bludgeoning damage. Whenever a creature ends its turn in the area, the tentacles attempt to grab that creature if they haven't already, and they deal 1d6 bludgeoning damage to any creature already Grabbed.</p>\n<p>The tentacles' Escape DC is equal to your spell DC. A creature can attack a tentacle in an attempt to release its grip. Its AC is equal to your spell DC, and it is destroyed if it takes 12 or more damage. Even if destroyed, additional tentacles continue to grow in the area until the duration ends. You can Dismiss the spell.</p>"
           },
@@ -17386,7 +17391,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Legends"
+            "title": "Pathfinder Lost Omens Legends"
           },
           "range": {
             "value": ""
@@ -17622,7 +17627,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Gods & Magic"
+            "title": "Pathfinder Lost Omens Gods & Magic"
           },
           "range": {
             "value": ""
@@ -18520,7 +18525,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Trigger</strong> The Somnalu Oculus would be affected by a condition</p>\n<hr />\n<p><strong>Effect</strong> The Somnalu Oculus rapidly blinks, using dream wisps as an eyelid. The Somnalu Oculus attempts to counteract the source of the condition with a counteract modifier of [[/r 1d20+24 #Counteract]]{+24} and a counteract rank of 8.</p>\n<p>It can't use Clearing Blink again for [[/br 1d4 #Recharge Clearing Blink]]{1d4 rounds}.</p>"
+            "value": "<p><strong>Trigger</strong> The Somnalu Oculus would be affected by a condition</p>\n<hr />\n<p><strong>Effect</strong> The Somnalu Oculus rapidly blinks, using dream wisps as an eyelid. The Somnalu Oculus attempts to counteract the source of the condition with a counteract modifier of [[/r 1d20+24 #Counteract]]{+24} and a counteract rank of 8.</p>\n<p>It can't use Clearing Blink again for [[/gmr 1d4 #Recharge Clearing Blink]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -18647,7 +18652,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -18787,7 +18792,7 @@
         "_stats": {
           "compendiumSource": "Compendium.pf2e.spells-srd.Item.TvZiwZRianfTSbEg"
         },
-        "img": "systems/pf2e/icons/spells/shadow-raid.webp",
+        "img": "icons/creatures/abilities/mouth-teeth-rows-needles-purple.webp",
         "name": "Hypnopompic Terrors",
         "sort": 200000,
         "system": {
@@ -18820,7 +18825,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "range": {
             "value": "30 feet"
@@ -19476,7 +19481,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Somnalu jets acid from its skin, dousing all creatures in a 15-foot-wide, 60-foot-long line. Each creature in this area takes 10d8 acid damage (DC 33  Basic  Reflex save). It can't use this ability again for [[/br 1d4 #Recharge Acid Spew]]{1d4 rounds}.</p>"
+            "value": "<p>Somnalu jets acid from its skin, dousing all creatures in a 15-foot-wide, 60-foot-long line. Each creature in this area takes 10d8 acid damage (DC 33  Basic  Reflex save). It can't use this ability again for [[/gmr 1d4 #Recharge Acid Spew]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -19778,7 +19783,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -20158,7 +20163,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -20818,7 +20823,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "rules": [],
           "slug": null,
@@ -20961,7 +20966,7 @@
           "category": "defensive",
           "deathNote": true,
           "description": {
-            "value": "<p>Destroying the Spectral Devil releases its pure, evil essence into the world, where it can find a new body and re-form. When the Spectral Devil is destroyed, its essence finds the remains of a dead horse and rebuilds its physical body over the course of [[/br 1d10 #days]]{1d10 days}. Only completing a Consecrate ritual heightened to at least 6th level, which consecrates the site of the Spectral Devil's destruction to a good deity, can prevent the Spectral Devil from returning and haunting the world once more.</p>"
+            "value": "<p>Destroying the Spectral Devil releases its pure, evil essence into the world, where it can find a new body and re-form. When the Spectral Devil is destroyed, its essence finds the remains of a dead horse and rebuilds its physical body over the course of [[/gmr 1d10 #days]]{1d10 days}. Only completing a Consecrate ritual heightened to at least 6th level, which consecrates the site of the Spectral Devil's destruction to a good deity, can prevent the Spectral Devil from returning and haunting the world once more.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -21033,7 +21038,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The Spectral Devil unleashes a terrifying whinny in a 30-foot cone that deals 5d10 sonic damage. Each creature in the area must attempt a DC 29  Reflex save.</p>\n<p>The Spectral Devil can't use Accursed Shriek for [[/br 1d4 #Recharge Accursed Shriek]]{1d4 rounds}.</p>\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Frightened 2 by the eerie noise.</p>\n<p><strong>Critical Failure</strong> The creature takes full damage, is frightened 2, and becomes cursed. The victim's mind echoes with the sound of the whinny, impairing concentration. The cursed creature is Stupefied 2 until the curse is removed.</p>"
+            "value": "<p>The Spectral Devil unleashes a terrifying whinny in a 30-foot cone that deals 5d10 sonic damage. Each creature in the area must attempt a DC 29  Reflex save.</p>\n<p>The Spectral Devil can't use Accursed Shriek for [[/gmr 1d4 #Recharge Accursed Shriek]]{1d4 rounds}.</p>\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Frightened 2 by the eerie noise.</p>\n<p><strong>Critical Failure</strong> The creature takes full damage, is frightened 2, and becomes cursed. The victim's mind echoes with the sound of the whinny, impairing concentration. The cursed creature is Stupefied 2 until the curse is removed.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -21185,7 +21190,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -21533,7 +21538,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "range": null,
@@ -21629,7 +21634,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -21880,7 +21885,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Spring-Heeled Jack exhales a gout of bright blue fire that deals 4d6 fire damage in a 15-foot cone (DC 20  Basic  Reflex save).</p>\n<p>He can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+            "value": "<p>Spring-Heeled Jack exhales a gout of bright blue fire that deals 4d6 fire]|options:area-damage] damage in a 15-foot cone (DC 20  Basic  Reflex save).</p>\n<p>He can't use Breath Weapon again for {1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -22044,7 +22049,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -22187,9 +22192,9 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         },
-        "reset": "<p>Ebeshra waits [[/br 1d4 #Lightning Blast Wait]] rounds before another blast.</p>",
+        "reset": "<p>Ebeshra waits [[/gmr 1d4 #Lightning Blast Wait]] rounds before another blast.</p>",
         "routine": ""
       },
       "flavourText": "",
@@ -22269,7 +22274,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -22328,7 +22333,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -22387,7 +22392,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -22446,7 +22451,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -22505,7 +22510,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -22564,7 +22569,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -22623,7 +22628,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -22875,7 +22880,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/br 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -23152,7 +23157,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -23253,7 +23258,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -23312,7 +23317,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -23371,7 +23376,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -23430,7 +23435,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -23489,7 +23494,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -23548,7 +23553,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -23607,7 +23612,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -23849,7 +23854,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/br 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -24095,7 +24100,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -25134,7 +25139,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -25193,7 +25198,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -25252,7 +25257,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -25311,7 +25316,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -25370,7 +25375,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -25429,7 +25434,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -25488,7 +25493,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -25691,7 +25696,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/br 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -25902,7 +25907,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -27075,7 +27080,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -27134,7 +27139,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -27193,7 +27198,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -27252,7 +27257,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -27311,7 +27316,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -27370,7 +27375,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -27429,7 +27434,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -27618,7 +27623,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/br 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -27829,7 +27834,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -27930,7 +27935,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -27989,7 +27994,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -28048,7 +28053,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -28107,7 +28112,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -28166,7 +28171,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -28225,7 +28230,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -28284,7 +28289,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -28490,7 +28495,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/br 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -28587,7 +28592,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Taljjae fires an arrow that could shoot a star from the sky. All creatures in a 120-foot line take 10d12 piercing damage (DC 37  Basic  Reflex save); on a critical failure, the target falls to the ground without taking falling damage, and it can't Fly, Leap, levitate, or otherwise leave the ground until the end of Taljjae's next turn.</p>\n<p>Taljjae then can't use Cometfall Arrow for [[/br 1d4 #Recharge Cometfall Arrow]]{1d4 rounds}.</p>"
+            "value": "<p>Taljjae fires an arrow that could shoot a star from the sky. All creatures in a 120-foot line take 10d12 piercing damage (DC 37  Basic  Reflex save); on a critical failure, the target falls to the ground without taking falling damage, and it can't Fly, Leap, levitate, or otherwise leave the ground until the end of Taljjae's next turn.</p>\n<p>Taljjae then can't use Cometfall Arrow for [[/gmr 1d4 #Recharge Cometfall Arrow]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -28776,7 +28781,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -28877,7 +28882,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -28936,7 +28941,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -28995,7 +29000,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -29054,7 +29059,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -29113,7 +29118,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -29172,7 +29177,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -29231,7 +29236,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -29390,7 +29395,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/br 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -29661,7 +29666,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -29989,7 +29994,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -30048,7 +30053,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -30107,7 +30112,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -30166,7 +30171,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -30225,7 +30230,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -30284,7 +30289,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -30343,7 +30348,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -30447,15 +30452,17 @@
               "toggleable": true
             },
             {
-              "key": "DamageDice",
-              "label": "PF2E.TraitTwoHandD8",
-              "override": {
-                "dieSize": "d8"
-              },
+              "key": "DamageAlteration",
+              "mode": "upgrade",
               "predicate": [
-                "two-handed"
+                "two-handed",
+                "dice:slug:base"
               ],
-              "selector": "{item|_id}-damage"
+              "property": "dice-faces",
+              "selectors": [
+                "{item|_id}-damage"
+              ],
+              "value": 8
             }
           ],
           "slug": null,
@@ -30599,7 +30606,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/br 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -30922,7 +30929,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -31023,7 +31030,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -31082,7 +31089,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -31141,7 +31148,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -31200,7 +31207,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -31259,7 +31266,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -31318,7 +31325,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -31377,7 +31384,7 @@
           "publication": {
             "license": "OGL",
             "remaster": false,
-            "title": "Pathfinder Lost Omens: Monsters of Myth"
+            "title": "Pathfinder Lost Omens Monsters of Myth"
           },
           "quantity": 1,
           "rules": [],
@@ -31536,7 +31543,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/br 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+            "value": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes Fascinated by the food and the creature possessing it (if applicable) and Off-Guard to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -31744,7 +31751,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -32665,7 +32672,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -33686,7 +33693,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -34447,7 +34454,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -34954,7 +34961,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -36532,7 +36539,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {
@@ -37043,7 +37050,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Monsters of Myth"
+          "title": "Pathfinder Lost Omens Monsters of Myth"
         }
       },
       "initiative": {

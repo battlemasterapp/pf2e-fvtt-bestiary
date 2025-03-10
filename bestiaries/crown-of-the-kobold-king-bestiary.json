@@ -1441,7 +1441,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Frequency</strong> once per day; Requirement The Dark Talon kobold is adjacent to at least one enemy, and the Dark Talon has fewer than 12 Hit Points;</p>\n<p><strong>Effect</strong> The Dark Talon shrieks in fury and regains 2d6 healing Hit Points.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirement</strong> The Dark Talon kobold is adjacent to at least one enemy, and the Dark Talon has fewer than 12 Hit Points</p><hr /><p><strong>Effect</strong> The Dark Talon shrieks in fury and regains 2d6 healing Hit Points.</p>"
           },
           "frequency": {
             "max": 1,
@@ -13141,7 +13141,7 @@
           "compendiumSource": "Compendium.pf2e.equipment-srd.Item.plplsXJsqrdqNQVI"
         },
         "img": "icons/commodities/treasure/broach-jeweled-green.webp",
-        "name": "Defiled Religions Symbol of Droskar",
+        "name": "Defiled Religious Symbol of Droskar",
         "sort": 700000,
         "system": {
           "baseItem": null,
@@ -17889,7 +17889,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature walks into a large pit's square;</p>\n<p><strong>Effect</strong> The triggering creature falls into the pit but can attempt a DC 18  Reflex save to Grab an Edge to avoid falling. On a failure, a creature falls 20 feet into an eye-filled pit. The eyes cushion the fall so the 20-foot fall inflicts only @Damage[5[bludgeoning]] damage, but they also completely obscure vision; a character is effectively blind as long as they remain in the pit. The walls of the pit are slick, though a character can Climb them with a successful DC 25  Athletics check.</p>"
+            "value": "<p><strong>Trigger</strong> A creature walks into a large pit's square;</p>\n<p><strong>Effect</strong> The triggering creature falls into the pit but can attempt a DC 18  Reflex save to Grab an Edge to avoid falling. On a failure, a creature falls 20 feet into an eye-filled pit. The eyes cushion the fall so the 20-foot fall inflicts only @Damage[5[bludgeoning]|options:fall-damage] damage, but they also completely obscure vision; a character is effectively blind as long as they remain in the pit. The walls of the pit are slick, though a character can Climb them with a successful DC 25  Athletics check.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -19016,7 +19016,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The unrisen howls in pain at its cursed existence. Creatures within a 30-foot emanation take 6d8 mental damage (DC 25  Basic  Will). The unrisen can't use Agonized Howl again for [[/br 1d4 #Recharge Agonized Howl]]{1d4 rounds}.</p>"
+            "value": "<p>The unrisen howls in pain at its cursed existence. Creatures within a 30-foot emanation take 6d8 mental damage (DC 25  Basic  Will). The unrisen can't use Agonized Howl again for [[/gmr 1d4 #Recharge Agonized Howl]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -19050,7 +19050,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The unrisen reshapes its grotesque form to move swiftly. It Strides twice. Any living creature that can see the unrisen during this movement must succeed at a DC 22  Fortitude save or be Sickened 1 (Sickened 2 on a critical failure). This is a mental and visual effect. The unrisen can't use Awful Approach again for [[/br 1d4 #Recharge Awful Approach]]{1d4 rounds}.</p>"
+            "value": "<p>The unrisen reshapes its grotesque form to move swiftly. It Strides twice. Any living creature that can see the unrisen during this movement must succeed at a DC 22  Fortitude save or be Sickened 1 (Sickened 2 on a critical failure). This is a mental and visual effect. The unrisen can't use Awful Approach again for [[/gmr 1d4 #Recharge Awful Approach]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",

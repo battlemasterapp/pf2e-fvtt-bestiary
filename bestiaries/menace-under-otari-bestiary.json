@@ -6522,7 +6522,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>Darkness</em> spell, block normal darkvision. A monster with Greater Darkvision, however, can see through even these forms of magical darkness.</p></p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank Darkness spell, block normal darkvision. A monster with Greater Darkvision, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -10076,7 +10076,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank <em>Darkness</em> spell, block normal darkvision. A monster with Greater Darkvision, however, can see through even these forms of magical darkness.</p></p>"
+            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank Darkness spell, block normal darkvision. A monster with Greater Darkvision, however, can see through even these forms of magical darkness.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -12074,7 +12074,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The hell hound breathes flames that deal 4d6 fire damage to all creatures in a 15-foot cone. Each affected creature must attempt a DC 19  Basic  Reflex save.</p>\n<p>The hell hound can't use Breath Weapon again for [[/br 1d4 #Recharge Hellfire Breath]]{1d4 rounds}. If the hell hound would take fire damage or is the target of a fire effect, its Hellfire Breath recharges.</p>"
+            "value": "<p>The hell hound breathes flames that deal 4d6 fire]|options:area-damage] damage to all creatures in a 15-foot cone. Each affected creature must attempt a DC 19  Basic  Reflex save.</p>\n<p>The hell hound can't use Breath Weapon again for {1d4 rounds}. If the hell hound would take fire damage or is the target of a fire effect, its Hellfire Breath recharges.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -12296,7 +12296,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p>If a creature walks onto the trapdoor, that creature falls in unless it succeeds at a DC 16  Reflex save to grab hold of the edge. The pit is 20 feet deep, dealing @Damage[10[bludgeoning]] damage to anyone who falls to the bottom.</p>"
+            "value": "<p>If a creature walks onto the trapdoor, that creature falls in unless it succeeds at a DC 16  Reflex save to grab hold of the edge. The pit is 20 feet deep, dealing @Damage[10[bludgeoning]|options:fall-damage] damage to anyone who falls to the bottom.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -13363,7 +13363,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The dragon breathes a toxic cloud that deals 5d6 poison damage in a 30-foot cone. Each creature in the area must attempt a DC 21  Basic  Reflex save.</p>\n<p>The dragon can't use their Poison Breath again for [[/br 1d4 #Recharge Poison Breath]]{1d4 rounds}.</p>"
+            "value": "<p>The dragon breathes a toxic cloud that deals 5d6 poison damage in a 30-foot cone. Each creature in the area must attempt a DC 21  Basic  Reflex save.</p>\n<p>The dragon can't use their Poison Breath again for [[/gmr 1d4 #Recharge Poison Breath]]{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -27162,7 +27162,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The giant Strides and makes a horns Strike with a +4 circumstance bonus to damage.</p>\n<p>If the strike hits, the giant attempts to Demoralize the target.</p>"
+            "value": "<p>The giant Strides and makes a horns Strike with a +4 circumstance bonus to damage.</p>\n<p>If the strike hits, the giant attempts to [[/act demoralize]] the target.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -27171,7 +27171,7 @@
           },
           "rules": [
             {
-              "domain": "damage",
+              "domain": "all",
               "key": "RollOption",
               "option": "terrifying-charge",
               "toggleable": true
@@ -27184,6 +27184,20 @@
               "selector": "horns-damage",
               "type": "circumstance",
               "value": 4
+            },
+            {
+              "key": "Note",
+              "outcome": [
+                "criticalSuccess",
+                "success"
+              ],
+              "predicate": [
+                "terrifying-charge"
+              ],
+              "selector": "horns-attack",
+              "text": "{item|system.description.value}",
+              "title": "{item|name}",
+              "visibility": "owner"
             }
           ],
           "slug": null,

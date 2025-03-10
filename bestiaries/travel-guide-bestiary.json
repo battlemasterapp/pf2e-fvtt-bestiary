@@ -223,7 +223,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Travel Guide"
+          "title": "Pathfinder Lost Omens Travel Guide"
         }
       },
       "initiative": {
@@ -565,7 +565,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Travel Guide"
+          "title": "Pathfinder Lost Omens Travel Guide"
         }
       },
       "initiative": {
@@ -812,7 +812,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Travel Guide"
+          "title": "Pathfinder Lost Omens Travel Guide"
         }
       },
       "initiative": {
@@ -939,7 +939,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The Sickened and Unconscious conditions from filth fever don't improve on their own until the disease is cured.</p>\n<p><strong>Saving Throw</strong> DC 14  Fortitude</p>\n<hr />\n<p><strong>Stage 1</strong> carrier with no ill effect ([[/br 1d4 #hours]]{1d4 hours})</p>\n<p><strong>Stage 2</strong> Sickened 1 (1 day)</p>\n<p><strong>Stage 3</strong> Sickened 1 and Slowed 1 (1 day)</p>\n<p><strong>Stage 4</strong> Unconscious (1 day)</p>\n<p><strong>Stage 5</strong> dead</p>"
+            "value": "<p>The Sickened and Unconscious conditions from filth fever don't improve on their own until the disease is cured.</p>\n<p><strong>Saving Throw</strong> DC 14  Fortitude</p>\n<hr />\n<p><strong>Stage 1</strong> carrier with no ill effect ([[/gmr 1d4 #hours]]{1d4 hours})</p>\n<p><strong>Stage 2</strong> Sickened 1 (1 day)</p>\n<p><strong>Stage 3</strong> Sickened 1 and Slowed 1 (1 day)</p>\n<p><strong>Stage 4</strong> Unconscious (1 day)</p>\n<p><strong>Stage 5</strong> dead</p>"
           },
           "publication": {
             "license": "OGL",
@@ -1018,7 +1018,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Travel Guide"
+          "title": "Pathfinder Lost Omens Travel Guide"
         }
       },
       "initiative": {
@@ -1343,7 +1343,7 @@
         "publication": {
           "license": "OGL",
           "remaster": false,
-          "title": "Pathfinder Lost Omens: Travel Guide"
+          "title": "Pathfinder Lost Omens Travel Guide"
         }
       },
       "initiative": {

@@ -3332,7 +3332,7 @@
         "publication": {
           "license": "ORC",
           "remaster": true,
-          "title": "Pathfinder Monster Core"
+          "title": "Pathfinder War of Immortals"
         }
       },
       "initiative": {
@@ -9483,7 +9483,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> Verex-That-Was burrows into the ground, reemerging anywhere on the same plane where either he or his worshippers have previously killed at least 10 sapient creatures in battle. A fountain of gore and shattered bone erupts from the ground when Verex arrives, dealing 16d10 piercing damage in a 30-foot type:emanation (DC 48  Basic  Reflex save).</p>"
+            "value": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> Verex-That-Was burrows into the ground, reemerging anywhere on the same plane where either he or his worshippers have previously killed at least 10 sapient creatures in battle. A fountain of gore and shattered bone erupts from the ground when Verex arrives, dealing @Damage[16d10[piercing]|options:area-damage] damage in a 30-foot type:emanation (DC 48  Basic  Reflex save).</p>"
           },
           "publication": {
             "license": "OGL",
@@ -9682,7 +9682,7 @@
       "attributes": {
         "ac": {
           "details": "",
-          "value": 24
+          "value": 51
         },
         "allSaves": {
           "value": "mythic resilience (all saves)"
@@ -11153,7 +11153,7 @@
             "value": "action"
           },
           "actions": {
-            "value": 1
+            "value": 2
           },
           "category": "offensive",
           "description": {

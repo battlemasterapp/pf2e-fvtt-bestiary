@@ -1681,7 +1681,7 @@
           },
           "category": null,
           "description": {
-            "value": "<p><strong>Trigger</strong> A creature walks onto the trapdoor</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature falls in and takes @Damage[10[bludgeoning]] damage plus 2d6 piercing damage from sharp implements at the bottom of the pit. That creature can use the Grab an Edge reaction to avoid falling.</p>"
+            "value": "<p><strong>Trigger</strong> A creature walks onto the trapdoor</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature falls in and takes @Damage[10[bludgeoning]|options:fall-damage] damage plus 2d6 piercing damage from sharp implements at the bottom of the pit. That creature can use the Grab an Edge reaction to avoid falling.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -2096,7 +2096,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>A shadow drake spits a ball of black liquid that explodes into a cloud of frigid black shadow. This attack has a range of 40 feet and explodes in a 5-foot-radius burst. Creatures within the burst take 2d6 cold damage (DC 16  Basic  Reflex save). The explosion of shadow also snuffs out mundane light sources the size of a torch, lantern, or smaller, and attempts to counteract magical light with a +8 counteract modifier.</p>\n<p>The shadow drake can't use Shadow Breath again for [[/br 1d6]] rounds.</p>"
+            "value": "<p>A shadow drake spits a ball of black liquid that explodes into a cloud of frigid black shadow. This attack has a range of 40 feet and explodes in a 5-foot-radius burst. Creatures within the burst take 2d6 cold damage (DC 16  Basic  Reflex save). The explosion of shadow also snuffs out mundane light sources the size of a torch, lantern, or smaller, and attempts to counteract magical light with a +8 counteract modifier.</p>\n<p>The shadow drake can't use Shadow Breath again for [[/gmr 1d6]] rounds.</p>"
           },
           "publication": {
             "license": "OGL",
