@@ -901,6 +901,7 @@
           "traits": {
             "rarity": "common",
             "value": [
+              "unarmed",
               "unholy"
             ]
           },
@@ -2935,12 +2936,13 @@
               "selector": "strike-damage"
             },
             {
-              "definition": [
+              "itemType": "weapon",
+              "key": "ItemAlteration",
+              "mode": "add",
+              "predicate": [
                 "item:base:spear"
               ],
-              "key": "AdjustStrike",
-              "mode": "add",
-              "property": "weapon-traits",
+              "property": "traits",
               "value": "fatal-d10"
             }
           ],
@@ -6352,7 +6354,8 @@
             "rarity": "common",
             "value": [
               "magical",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -6857,7 +6860,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -9383,12 +9388,13 @@
               "selector": "strike-damage"
             },
             {
-              "definition": [
+              "itemType": "weapon",
+              "key": "ItemAlteration",
+              "mode": "add",
+              "predicate": [
                 "item:base:spear"
               ],
-              "key": "AdjustStrike",
-              "mode": "add",
-              "property": "weapon-traits",
+              "property": "traits",
               "value": "fatal-d10"
             }
           ],
@@ -11708,7 +11714,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>Paga gains a +2 circumstance bonus when using the Seek action to find Hidden or Undetected creatures within 30 feet of her.</p>\n<p>When she targets an opponent that is Concealed from her or hidden, she reduces the DC of the flat check to 3 for a concealed target or 9 for a hidden one.</p>"
+            "value": "<p>Paga gains a +2 circumstance bonus when using the Seek action to find Hidden or Undetected creatures within 30 feet of her.</p>\n<p>When she targets an opponent that is Concealed from her or hidden, she reduces the DC of the flat check to DC 3  Flat for a concealed target or DC 9  Flat for a hidden one.</p>"
           },
           "publication": {
             "license": "OGL",

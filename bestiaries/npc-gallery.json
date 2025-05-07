@@ -1466,13 +1466,13 @@
               "key": "DamageAlteration",
               "mode": "upgrade",
               "predicate": [
-                "two-handed",
-                "dice:slug:base"
+                "two-handed"
               ],
               "property": "dice-faces",
               "selectors": [
                 "{item|_id}-damage"
               ],
+              "slug": "base",
               "value": 8
             }
           ],
@@ -3538,7 +3538,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "nonlethal"
+              "nonlethal",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -4811,7 +4812,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -11703,13 +11705,13 @@
               "key": "DamageAlteration",
               "mode": "upgrade",
               "predicate": [
-                "two-handed",
-                "dice:slug:base"
+                "two-handed"
               ],
               "property": "dice-faces",
               "selectors": [
                 "{item|_id}-damage"
               ],
+              "slug": "base",
               "value": 8
             }
           ],
@@ -16054,14 +16056,14 @@
               "key": "DamageAlteration",
               "mode": "upgrade",
               "predicate": [
-                "item:slug:heal",
-                "dice:slug:base"
+                "item:slug:heal"
               ],
               "property": "dice-faces",
               "selectors": [
                 "spell-damage",
                 "spell-healing"
               ],
+              "slug": "base",
               "value": 10
             }
           ],
@@ -20813,7 +20815,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "nonlethal"
+              "nonlethal",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -21271,7 +21274,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -24269,13 +24273,13 @@
               "key": "DamageAlteration",
               "mode": "upgrade",
               "predicate": [
-                "two-handed",
-                "dice:slug:base"
+                "two-handed"
               ],
               "property": "dice-faces",
               "selectors": [
                 "{item|_id}-damage"
               ],
+              "slug": "base",
               "value": 8
             }
           ],
@@ -25080,13 +25084,13 @@
               "key": "DamageAlteration",
               "mode": "upgrade",
               "predicate": [
-                "two-handed",
-                "dice:slug:base"
+                "two-handed"
               ],
               "property": "dice-faces",
               "selectors": [
                 "{item|_id}-damage"
               ],
+              "slug": "base",
               "value": 12
             }
           ],

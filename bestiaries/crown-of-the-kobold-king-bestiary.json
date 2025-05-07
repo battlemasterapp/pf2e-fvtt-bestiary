@@ -879,7 +879,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -3744,7 +3746,7 @@
           },
           "containerId": null,
           "description": {
-            "value": "<p><em>In the Shadows of Toil</em> was originally an incomplete copy of a journal kept by the dwarven adventurer Druingar the Glintaxe. Drazmorg made extensive use of the book's wide margins and several dozen blank pages left in the back to serve as a spellbook. Over the years, he further enhanced his copy to transform it into a grimoire. A character who reads Necril can learn about Drazmorg's history, his discovery of the <em>Third Seal</em>, and his hopes to absorb all of its power before seeking out the Whispering Way to lead them on a new crusade to hunt down the next two seals, destroy them, and bring back the Whispering Tyrant. Beyond these frightening notes, the grimoire also contains copies of all the spells Drazmorg has prepared and those needed to recharge his staff; feel free to add more spells to this list if you wish.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (metamagic)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> If your next action is to cast a necromancy spell that you prepared from this grimoire and that allows a saving throw, you infuse the magic with sensations of endless toil. If the target fails its saving throw against the spell, it becomes Fatigued for 1 minute by the sense of exhaustion imbued in the magic.</p>"
+            "value": "<p><em>In the Shadows of Toil</em> was originally an incomplete copy of a journal kept by the dwarven adventurer Druingar the Glintaxe. Drazmorg made extensive use of the book's wide margins and several dozen blank pages left in the back to serve as a spellbook. Over the years, he further enhanced his copy to transform it into a grimoire. A character who reads Necril can learn about Drazmorg's history, his discovery of the <em>Third Seal</em>, and his hopes to absorb all of its power before seeking out the Whispering Way to lead them on a new crusade to hunt down the next two seals, destroy them, and bring back the Whispering Tyrant. Beyond these frightening notes, the grimoire also contains copies of all the spells Drazmorg has prepared and those needed to recharge his staff; feel free to add more spells to this list if you wish.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (spellshape)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> If your next action is to cast a necromancy spell that you prepared from this grimoire and that allows a saving throw, you infuse the magic with sensations of endless toil. If the target fails its saving throw against the spell, it becomes Fatigued for 1 minute by the sense of exhaustion imbued in the magic.</p>"
           },
           "equipped": {
             "carryType": "worn",
@@ -3825,7 +3827,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -6444,7 +6448,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -6486,7 +6492,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -7725,7 +7732,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -7772,7 +7780,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -8697,7 +8706,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -18521,7 +18531,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -18842,7 +18853,8 @@
             "rarity": "common",
             "value": [
               "deadly-d10",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -18887,7 +18899,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -19395,7 +19408,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -20107,7 +20122,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Small, 2d6 fire, Rupture 3</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
+            "value": "<p>Small, 2d6 fire, Rupture 3</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>Effect: Engulf and Swallow Whole</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "OGL",

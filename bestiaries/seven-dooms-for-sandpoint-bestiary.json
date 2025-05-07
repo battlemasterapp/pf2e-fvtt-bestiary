@@ -2417,14 +2417,14 @@
               "key": "DamageAlteration",
               "mode": "upgrade",
               "predicate": [
-                "item:slug:heal",
-                "dice:slug:base"
+                "item:slug:heal"
               ],
               "property": "dice-faces",
               "selectors": [
                 "spell-damage",
                 "spell-healing"
               ],
+              "slug": "base",
               "value": 10
             },
             {
@@ -4755,7 +4755,7 @@
           },
           "category": "defensive",
           "description": {
-            "value": "<p><strong>Thresholds</strong> 50 (12 squares), 25 (8 squares)</p>\n<hr />\n<p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
+            "value": "<p><strong>Thresholds</strong> 50 (3 segments), 25 (2 segments)</p>\n<hr />\n<p><p>Troops are composed of many individuals, represented by four \"segments\" on a battle grid. Each segment is 10 feet on each side and as tall as the individual members of the troop. Segments must remain contiguous. Each one has to share at least 5 feet of one of its edges with another segment—being adjacent on a diagonal isn't sufficient! You can measure flanking, cover, and the like using the center of any segment.</p>\n<p>A troop has two Hit Point thresholds in its HP entry and loses segments as it crosses thresholds. Typically, the higher threshold is at 2/3 of the troop's maximum Hit Points and the lower is at 1/3 of its maximum. Once the troop drops below the higher threshold, it loses one segment, leaving three segments (12 squares) remaining and setting the first threshold as the troop's new maximum Hit Points. This repeats when the troop drops below the lower threshold, leaving two segments (8 squares). At 0 Hit Points, the troop disperses entirely, with the few remaining members surrendering, Fleeing, or easily dispatched, as determined by the GM. Typically the creature who caused the troop to lose a segment decides which to remove, or the GM decides when a specific creature wasn't responsible. To restore lost segments and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen.</p>\n<p>Troops are typically immune to non-damaging effects that target a single creature, such as a Charm spell or the Demoralize action. An ability that can target 5 or more creatures can target an entire segment, increasing to two segments if it can target 10 or more creatures and to the entire troop if it can target 20 or more creatures. An ability that affects all creatures in a certain range affects all segments in range (make any checks or saves separately for each segment). As examples, an 8th rank <em>charm</em> spell (with 10 targets) can affect two segments, and an ability that Demoralizes all creatures within 30 feet of you would affect all segments that are fully within that range. A non-damaging ability that would prevent a segment from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more removes the segment entirely. The troop loses a number of HP required to bring it to the next threshold. If an ability both deals damage and has a non-damaging effect, apply the damage then the rest of the effect.</p></p>"
           },
           "publication": {
             "license": "OGL",
@@ -11205,7 +11205,8 @@
             "value": [
               "agile",
               "finesse",
-              "nonlethal"
+              "nonlethal",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -11982,15 +11983,14 @@
               "toggleable": true
             },
             {
-              "definition": [
-                "item:slug:fist"
-              ],
-              "key": "AdjustStrike",
+              "itemType": "melee",
+              "key": "ItemAlteration",
               "mode": "add",
               "predicate": [
-                "lunge"
+                "lunge",
+                "item:slug:fist"
               ],
-              "property": "weapon-traits",
+              "property": "traits",
               "value": "reach"
             }
           ],
@@ -12241,7 +12241,8 @@
           "traits": {
             "value": [
               "magical",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -13696,6 +13697,7 @@
             "value": [
               "finesse",
               "magical",
+              "unarmed",
               "unholy"
             ]
           },
@@ -13868,7 +13870,23 @@
             "remaster": false,
             "title": ""
           },
-          "rules": [],
+          "rules": [
+            {
+              "key": "Note",
+              "predicate": [
+                {
+                  "or": [
+                    "check:statistic:base:deception",
+                    "check:statistic:base:diplomacy"
+                  ]
+                }
+              ],
+              "selector": "initiative",
+              "text": "{item|description}",
+              "title": "{item|name}",
+              "visibility": "owner"
+            }
+          ],
           "slug": null,
           "traits": {
             "value": []
@@ -14349,7 +14367,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -14391,7 +14411,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -16085,7 +16106,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -16129,7 +16151,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -17928,7 +17951,8 @@
           "traits": {
             "value": [
               "magical",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -17971,7 +17995,8 @@
           "traits": {
             "value": [
               "agile",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -20411,7 +20436,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -20458,7 +20484,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -20921,7 +20948,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -22664,7 +22693,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -22711,7 +22741,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -23093,7 +23124,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -23140,7 +23172,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -23889,7 +23922,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -23932,7 +23966,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -27163,7 +27199,8 @@
           "traits": {
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -28218,7 +28255,8 @@
               "agile",
               "magical",
               "nonlethal",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -35133,7 +35171,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -35178,7 +35217,8 @@
           "traits": {
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -41643,13 +41683,13 @@
               "key": "DamageAlteration",
               "mode": "upgrade",
               "predicate": [
-                "two-handed",
-                "dice:slug:base"
+                "two-handed"
               ],
               "property": "dice-faces",
               "selectors": [
                 "{item|_id}-damage"
               ],
+              "slug": "base",
               "value": 8
             }
           ],
@@ -44453,7 +44493,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -44497,7 +44538,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -47774,7 +47816,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -50863,7 +50906,8 @@
             "value": [
               "acid",
               "magical",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -50908,7 +50952,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -54146,7 +54191,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "deadly-d10"
+              "deadly-d10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -54854,7 +54900,9 @@
           "slug": "jaws",
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -57880,7 +57928,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -63806,7 +63855,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -63853,7 +63903,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -72397,7 +72448,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -72441,7 +72493,8 @@
             "value": [
               "agile",
               "finesse",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {

@@ -646,7 +646,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -693,7 +694,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -1327,7 +1329,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -1909,7 +1912,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -2330,7 +2334,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"

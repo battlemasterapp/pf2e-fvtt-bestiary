@@ -1323,13 +1323,13 @@
               "key": "DamageAlteration",
               "mode": "upgrade",
               "predicate": [
-                "two-handed",
-                "dice:slug:base"
+                "two-handed"
               ],
               "property": "dice-faces",
               "selectors": [
                 "{item|_id}-damage"
               ],
+              "slug": "base",
               "value": 8
             }
           ],
@@ -5593,7 +5593,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -6442,7 +6443,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -7991,7 +7993,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -8042,7 +8045,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -8276,9 +8280,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvsion",
+        "details": "",
         "mod": 18,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -8524,7 +8532,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -11826,6 +11835,7 @@
             "value": [
               "agile",
               "magical",
+              "unarmed",
               "unholy"
             ]
           },
@@ -12438,7 +12448,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -12489,7 +12500,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -13564,7 +13576,8 @@
             "rarity": "common",
             "value": [
               "magical",
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -13612,7 +13625,8 @@
             "value": [
               "agile",
               "magical",
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -15198,7 +15212,8 @@
             "value": [
               "concentrate",
               "manipulate",
-              "sanctified"
+              "sanctified",
+              "spirit"
             ]
           }
         },
@@ -17243,7 +17258,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -18393,7 +18409,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {

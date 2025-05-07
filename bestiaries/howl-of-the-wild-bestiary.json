@@ -410,7 +410,8 @@
           "traits": {
             "value": [
               "holy",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -878,7 +879,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -920,7 +923,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -961,7 +966,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -1223,9 +1229,15 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "tremorsense (imprecise) 40 feet",
+        "details": "",
         "mod": 14,
-        "senses": []
+        "senses": [
+          {
+            "acuity": "imprecise",
+            "range": 40,
+            "type": "tremorsense"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -1639,9 +1651,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision, potionsight (precise) 60 feet",
+        "details": "potionsight (precise) 60 feet",
         "mod": 15,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -1717,7 +1733,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -1801,7 +1819,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -3118,7 +3138,8 @@
           "traits": {
             "value": [
               "agile",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -4183,9 +4204,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision, scent (imprecise) 40 feet",
+        "details": "",
         "mod": 29,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 40,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -4267,7 +4297,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -4309,7 +4340,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -4495,9 +4527,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision, scent (imprecise) 30 feet",
+        "details": "",
         "mod": 15,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 30,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -4572,7 +4613,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -4614,7 +4656,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -4964,9 +5007,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision, stormsight",
+        "details": "stormsight",
         "mod": 18,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -5049,7 +5096,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -5230,9 +5279,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision",
+        "details": "",
         "mod": 16,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -5371,7 +5424,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -5607,9 +5662,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision",
+        "details": "",
         "mod": 11,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -5690,7 +5749,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -5735,7 +5795,8 @@
           "traits": {
             "value": [
               "poison",
-              "reach-20"
+              "reach-20",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -5981,9 +6042,20 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "tremorsense (imprecise) 30 feet, wavesense (imprecise) 30 feet",
+        "details": "",
         "mod": 16,
-        "senses": []
+        "senses": [
+          {
+            "acuity": "imprecise",
+            "range": 30,
+            "type": "tremorsense"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 30,
+            "type": "wavesense"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -6065,7 +6137,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -6106,7 +6180,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -6469,7 +6544,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -6784,9 +6861,16 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "no vision, sensitive echolocation (precise) 120 feet",
+        "details": "sensitive echolocation (precise) 120 feet",
         "mod": 15,
-        "senses": []
+        "senses": [
+          {
+            "acuity": "precise",
+            "range": 120,
+            "type": "echolocation"
+          }
+        ],
+        "vision": false
       },
       "resources": {},
       "saves": {
@@ -6998,9 +7082,23 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision, scent (imprecise) 120 feet, wavesense (precise) 15 feet",
+        "details": "",
         "mod": 11,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 120,
+            "type": "scent"
+          },
+          {
+            "acuity": "precise",
+            "range": 15,
+            "type": "wavesense"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -7076,7 +7174,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -7296,9 +7395,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision",
+        "details": "",
         "mod": 9,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -7374,7 +7477,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -7416,7 +7521,8 @@
           "traits": {
             "value": [
               "agile",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -7611,9 +7717,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision, scent (imprecise) 30 feet",
+        "details": "",
         "mod": 14,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 30,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -8213,9 +8328,23 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision, scent (imprecise) 120 feet, wavesense (precise) 30 feet",
+        "details": "",
         "mod": 14,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 120,
+            "type": "scent"
+          },
+          {
+            "acuity": "precise",
+            "range": 30,
+            "type": "wavesense"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -8671,7 +8800,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -8824,15 +8955,14 @@
               "toggleable": true
             },
             {
-              "definition": [
-                "item:slug:jaws"
-              ],
-              "key": "AdjustStrike",
+              "itemType": "melee",
+              "key": "ItemAlteration",
               "mode": "add",
               "predicate": [
-                "lunging-bite"
+                "lunging-bite",
+                "item:slug:jaws"
               ],
-              "property": "weapon-traits",
+              "property": "traits",
               "value": "reach-10"
             }
           ],
@@ -9030,7 +9160,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -9241,9 +9372,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision, scent (imprecise) 30 feet",
+        "details": "",
         "mod": 23,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 30,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -9321,7 +9461,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -9655,7 +9797,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -9925,7 +10069,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -10011,7 +10156,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Huge, @Damage[(2d10+10)[bludgeoning]], Rupture 22</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
+            "value": "<p>Huge, @Damage[(2d10+10)[bludgeoning]], Rupture 22</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>Effect: Engulf and Swallow Whole</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -10897,7 +11042,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -10938,7 +11085,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -11896,7 +12044,8 @@
           "traits": {
             "value": [
               "holy",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -12261,7 +12410,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -12671,7 +12822,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "electricity"
+              "electricity",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -13065,7 +13217,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -13340,7 +13493,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -13730,7 +13885,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -13772,7 +13928,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -13838,7 +13995,7 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p>When the majungasaurus rolls initiative using Stealth, it can attempt to Demoralize each creature within 30 feet as a free action. Regardless of the effect, each creature is then temporarily immune for 1 hour.</p>"
+            "value": "<p>When the majungasaurus rolls initiative using Stealth, it can attempt to [[/act demoralize]] each creature within 30 feet as a free action. Regardless of the effect, each creature is then temporarily immune for 1 hour.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -13956,9 +14113,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision, scent (imprecise) 30 feet",
+        "details": "",
         "mod": 12,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 30,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -14631,7 +14797,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -15095,7 +15263,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -15627,7 +15796,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -15670,7 +15841,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -15872,9 +16044,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision, scent (imprecise) 30 feet",
+        "details": "",
         "mod": 18,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 30,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -16425,7 +16606,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -16899,7 +17081,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -16944,7 +17128,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -17167,7 +17352,7 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "no vision, sensitive echolocation (precise) 90 feet",
+        "details": "sensitive echolocation (precise) 90 feet",
         "mod": 12,
         "senses": [
           {
@@ -17175,7 +17360,8 @@
             "range": 90,
             "type": "echolocation"
           }
-        ]
+        ],
+        "vision": false
       },
       "resources": {},
       "saves": {
@@ -18150,7 +18336,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -18345,7 +18532,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Large, @Damage[(3d10+5)[acid]], Rupture 20</p>\n<hr />\n<p>This damage ignores the hardness of petrified creatures.</p>\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
+            "value": "<p>Large, @Damage[(3d10+5)[acid]], Rupture 20</p>\n<hr />\n<p>This damage ignores the hardness of petrified creatures.</p>\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>Effect: Engulf and Swallow Whole</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -18392,15 +18579,14 @@
               "toggleable": true
             },
             {
-              "definition": [
-                "item:slug:jaws"
-              ],
-              "key": "AdjustStrike",
+              "itemType": "melee",
+              "key": "ItemAlteration",
               "mode": "add",
               "predicate": [
-                "towering-bite"
+                "towering-bite",
+                "item:slug:jaws"
               ],
-              "property": "weapon-traits",
+              "property": "traits",
               "value": "reach-60"
             }
           ],
@@ -19290,9 +19476,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision, scent (imprecise) 30 feet",
+        "details": "",
         "mod": 9,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 30,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -19365,7 +19560,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -19618,7 +19815,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Large, @Damage[(1d12+2)[bludgeoning]], Rupture 10</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
+            "value": "<p>Large, @Damage[(1d12+2)[bludgeoning]], Rupture 10</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>Effect: Engulf and Swallow Whole</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -19735,9 +19932,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision, scent (imprecise) 30 feet",
+        "details": "",
         "mod": 9,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 30,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -19875,7 +20081,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -20164,7 +20371,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Large, @Damage[(5d10)[acid]], Rupture 30</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
+            "value": "<p>Large, @Damage[(5d10)[acid]], Rupture 30</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>Effect: Engulf and Swallow Whole</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -20297,9 +20504,23 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision, scent (imprecise) 120 feet, tremorsense (precise) 60 feet",
+        "details": "",
         "mod": 27,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 120,
+            "type": "scent"
+          },
+          {
+            "acuity": "precise",
+            "range": 60,
+            "type": "tremorsense"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -20381,7 +20602,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -20692,7 +20914,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Huge, @Damage[(3d10+9)[bludgeoning]], Rupture 30</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
+            "value": "<p>Huge, @Damage[(3d10+9)[bludgeoning]], Rupture 30</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>Effect: Engulf and Swallow Whole</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -20982,7 +21204,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -21025,7 +21248,8 @@
           "traits": {
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -21947,7 +22171,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -21991,7 +22216,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -22279,7 +22505,7 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "no vision, sensitive echolocation (precise) 120 feet",
+        "details": "sensitive echolocation (precise) 120 feet",
         "mod": 21,
         "senses": [
           {
@@ -22287,7 +22513,8 @@
             "range": 120,
             "type": "echolocation"
           }
-        ]
+        ],
+        "vision": false
       },
       "resources": {},
       "saves": {
@@ -22365,7 +22592,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -22556,9 +22785,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision",
+        "details": "",
         "mod": 12,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -22710,7 +22943,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -23314,9 +23548,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision",
+        "details": "",
         "mod": 11,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -23603,9 +23841,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision",
+        "details": "",
         "mod": 7,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -23685,7 +23927,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -24812,7 +25055,8 @@
           "traits": {
             "value": [
               "magical",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -25151,7 +25395,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Large, @Damage[(2d10+9)[force],(2d10)[fire]]{2d10+9 force and 2d10 fire}, Rupture 32</p><hr /><p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
+            "value": "<p>Large, @Damage[(2d10+9)[force],(2d10)[fire]]{2d10+9 force and 2d10 fire}, Rupture 32</p><hr /><p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>Effect: Engulf and Swallow Whole</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -25618,9 +25862,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision",
+        "details": "",
         "mod": 11,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -25697,7 +25945,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -25739,7 +25988,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -26400,7 +26650,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-20"
+              "reach-20",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -26559,9 +26810,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision, scent (imprecise) 30 feet",
+        "details": "",
         "mod": 18,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 30,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -26639,7 +26899,8 @@
           "traits": {
             "value": [
               "magical",
-              "reach-20"
+              "reach-20",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -26682,7 +26943,8 @@
           "traits": {
             "value": [
               "magical",
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -26820,7 +27082,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Huge, @Damage[(3d12+10)[bludgeoning]], Rupture 40</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
+            "value": "<p>Huge, @Damage[(3d12+10)[bludgeoning]], Rupture 40</p>\n<hr />\n<p><p>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed or restrained in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.</p>\n<p>A swallowed creature is Grabbed, is Slowed 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The swallowing creature is Off-Guard against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the swallowed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.</p>\n<p>Effect: Engulf and Swallow Whole</p>\n<p>If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of 3 actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.</p></p>"
           },
           "publication": {
             "license": "ORC",
@@ -26960,9 +27222,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "greater darkvision, scent (imprecise) 30 feet",
+        "details": "",
         "mod": 29,
-        "senses": []
+        "senses": [
+          {
+            "type": "greater-darkvision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 30,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -27086,7 +27357,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -27291,9 +27563,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision, scent (imprecise) 30 feet",
+        "details": "",
         "mod": 27,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 30,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -27365,7 +27646,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -27408,7 +27690,8 @@
           "traits": {
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -27538,9 +27821,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "low-light vision, scent (imprecise) 30 feet",
+        "details": "",
         "mod": 9,
-        "senses": []
+        "senses": [
+          {
+            "type": "low-light-vision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 30,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -27685,7 +27977,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -29514,7 +29807,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -29557,7 +29851,8 @@
           "traits": {
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -30502,9 +30797,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision, tremorsense (imprecise) 60 feet",
+        "details": "",
         "mod": 36,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 60,
+            "type": "tremorsense"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -31116,7 +31420,8 @@
             "value": [
               "finesse",
               "magical",
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -31210,7 +31515,8 @@
               "agile",
               "finesse",
               "magical",
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -31848,9 +32154,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "greater darkvision, scent (imprecise) 1 mile",
+        "details": "scent (imprecise) 1 mile",
         "mod": 36,
-        "senses": []
+        "senses": [
+          {
+            "type": "greater-darkvision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -32002,12 +32312,11 @@
           },
           "rules": [
             {
-              "definition": [
-                "item:slug:tentacle"
-              ],
-              "key": "AdjustStrike",
+              "itemType": "melee",
+              "key": "ItemAlteration",
               "mode": "add",
               "predicate": [
+                "item:slug:tentacle",
                 {
                   "gte": [
                     "all-are-one",
@@ -32015,45 +32324,42 @@
                   ]
                 }
               ],
-              "property": "weapon-traits",
+              "property": "traits",
               "value": "reach-60"
             },
             {
-              "definition": [
-                "item:slug:tentacle"
-              ],
-              "key": "AdjustStrike",
+              "itemType": "melee",
+              "key": "ItemAlteration",
               "mode": "add",
               "predicate": [
-                "all-are-one:2"
+                "all-are-one:2",
+                "item:slug:tentacle"
               ],
-              "property": "weapon-traits",
+              "property": "traits",
               "value": "reach-50"
             },
             {
-              "definition": [
-                "item:slug:tentacle"
-              ],
-              "key": "AdjustStrike",
+              "itemType": "melee",
+              "key": "ItemAlteration",
               "mode": "add",
               "predicate": [
-                "all-are-one:1"
+                "all-are-one:1",
+                "item:slug:tentacle"
               ],
-              "property": "weapon-traits",
+              "property": "traits",
               "value": "reach-40"
             },
             {
-              "definition": [
-                "item:slug:tentacle"
-              ],
-              "key": "AdjustStrike",
+              "itemType": "melee",
+              "key": "ItemAlteration",
               "mode": "add",
               "predicate": [
+                "item:slug:tentacle",
                 {
                   "not": "all-are-one"
                 }
               ],
-              "property": "weapon-traits",
+              "property": "traits",
               "value": "reach-30"
             }
           ],
@@ -32061,7 +32367,8 @@
           "traits": {
             "value": [
               "agile",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -32554,9 +32861,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision, scent (imprecise) 200 feet",
+        "details": "",
         "mod": 39,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 200,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -32966,7 +33282,8 @@
             "value": [
               "finesse",
               "magical",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -33537,9 +33854,18 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision, scent (imprecise) 60 feet, stormsight",
+        "details": "stormsight",
         "mod": 40,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          },
+          {
+            "acuity": "imprecise",
+            "range": 60,
+            "type": "scent"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -34645,7 +34971,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"

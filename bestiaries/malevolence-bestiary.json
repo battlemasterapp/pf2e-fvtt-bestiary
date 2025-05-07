@@ -865,7 +865,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -1599,7 +1600,8 @@
             "rarity": "common",
             "value": [
               "finesse",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -2051,7 +2053,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -2099,7 +2102,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -2547,7 +2551,8 @@
             "rarity": "common",
             "value": [
               "finesse",
-              "magical"
+              "magical",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -5047,7 +5052,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -6261,7 +6267,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -6716,7 +6723,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -8538,7 +8547,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {

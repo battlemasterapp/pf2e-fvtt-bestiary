@@ -1,6 +1,296 @@
 [
   {
-    "_id": "rPHxXClTnoPYHYuZ",
+    "_id": "CFlx1tkRxKC9qAC7",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "items": [
+      {
+        "_id": "MCgl5uKpwtTh48E4",
+        "img": "systems/pf2e/icons/default-icons/melee.svg",
+        "name": "Longsword",
+        "sort": 100000,
+        "system": {
+          "attack": {
+            "value": ""
+          },
+          "attackEffects": {
+            "custom": "",
+            "value": []
+          },
+          "bonus": {
+            "value": 11
+          },
+          "damageRolls": {
+            "4jqnr0heq8dqkk8mf4ls": {
+              "damage": "1d8+4",
+              "damageType": "slashing"
+            }
+          },
+          "description": {
+            "value": ""
+          },
+          "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": ""
+          },
+          "rules": [],
+          "slug": null,
+          "traits": {
+            "rarity": "common",
+            "value": [
+              "magical",
+              "versatile-p"
+            ]
+          },
+          "weaponType": {
+            "value": "melee"
+          }
+        },
+        "type": "melee"
+      },
+      {
+        "_id": "jAZY8WC1BtImPyEF",
+        "img": "systems/pf2e/icons/default-icons/melee.svg",
+        "name": "Armored Fist",
+        "sort": 200000,
+        "system": {
+          "attack": {
+            "value": ""
+          },
+          "attackEffects": {
+            "custom": "",
+            "value": []
+          },
+          "bonus": {
+            "value": 9
+          },
+          "damageRolls": {
+            "lhflr40jwajii990myjj": {
+              "damage": "1d6+4",
+              "damageType": "bludgeoning"
+            }
+          },
+          "description": {
+            "value": ""
+          },
+          "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": ""
+          },
+          "rules": [],
+          "slug": null,
+          "traits": {
+            "rarity": "common",
+            "value": [
+              "agile",
+              "magical"
+            ]
+          },
+          "weaponType": {
+            "value": "melee"
+          }
+        },
+        "type": "melee"
+      },
+      {
+        "_id": "GhnXpFtWM1vyvu8V",
+        "img": "systems/pf2e/icons/actions/Passive.webp",
+        "name": "Construct Armor",
+        "sort": 300000,
+        "system": {
+          "actionType": {
+            "value": "passive"
+          },
+          "actions": {
+            "value": null
+          },
+          "category": "defensive",
+          "description": {
+            "value": "<p>The animated armor reduces all damage it takes by 9. However, after a critical hit that deals damage, or after its HP drops below 10, its construct armor breaks. Its AC drops to 13 and it no longer reduces damage by 9.</p>"
+          },
+          "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": ""
+          },
+          "rules": [
+            {
+              "domain": "all",
+              "key": "RollOption",
+              "label": "PF2E.NPCAbility.ConstructArmor.CriticalHit",
+              "option": "construct-armor",
+              "toggleable": true
+            },
+            {
+              "key": "FlatModifier",
+              "predicate": [
+                {
+                  "or": [
+                    "construct-armor",
+                    {
+                      "lt": [
+                        "hp-percent",
+                        50
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "selector": "ac",
+              "value": -4
+            },
+            {
+              "key": "ActiveEffectLike",
+              "mode": "override",
+              "path": "system.attributes.hardness.value",
+              "phase": "afterDerived",
+              "predicate": [
+                {
+                  "or": [
+                    "construct-armor",
+                    {
+                      "lt": [
+                        "hp-percent",
+                        50
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "value": 0
+            }
+          ],
+          "slug": null,
+          "traits": {
+            "rarity": "common",
+            "value": []
+          }
+        },
+        "type": "action"
+      }
+    ],
+    "name": "Animated Armor (BB)",
+    "prototypeToken": {
+      "name": "Animated Armor"
+    },
+    "system": {
+      "abilities": {
+        "cha": {
+          "mod": -5
+        },
+        "con": {
+          "mod": 4
+        },
+        "dex": {
+          "mod": -3
+        },
+        "int": {
+          "mod": -5
+        },
+        "str": {
+          "mod": 3
+        },
+        "wis": {
+          "mod": 0
+        }
+      },
+      "attributes": {
+        "ac": {
+          "details": "(13 after construct armor breaks), construct armor",
+          "value": 17
+        },
+        "allSaves": {
+          "value": ""
+        },
+        "hardness": {
+          "value": 9
+        },
+        "hp": {
+          "details": "",
+          "max": 20,
+          "temp": 0,
+          "value": 20
+        },
+        "immunities": [
+          {
+            "exceptions": [],
+            "type": "vitality"
+          },
+          {
+            "exceptions": [],
+            "type": "void"
+          }
+        ],
+        "speed": {
+          "otherSpeeds": [],
+          "value": 20
+        }
+      },
+      "details": {
+        "blurb": "",
+        "languages": {
+          "details": "",
+          "value": []
+        },
+        "level": {
+          "value": 2
+        },
+        "privateNotes": "",
+        "publicNotes": "<p>Objects can be given a semblance of life through the use of rituals or other strange magic, turning them into animated objects. These objects move, work, and fight based on the commands given to them by their creators, who usually set them on guard duty or have them perform menial labor.</p>\n<p>Suits of animated armor might serve as guardians, but sometimes high-end martial academies use them as training partners. They're most often found in wizards' laboratories and ancient dungeons.</p>",
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Beginner Box"
+        }
+      },
+      "initiative": {
+        "statistic": "perception"
+      },
+      "perception": {
+        "details": "",
+        "mod": 6,
+        "senses": [
+          {
+            "type": "darkvision"
+          }
+        ]
+      },
+      "resources": {},
+      "saves": {
+        "fortitude": {
+          "saveDetail": "",
+          "value": 10
+        },
+        "reflex": {
+          "saveDetail": "",
+          "value": 3
+        },
+        "will": {
+          "saveDetail": "",
+          "value": 4
+        }
+      },
+      "skills": {
+        "athletics": {
+          "base": 9
+        }
+      },
+      "traits": {
+        "rarity": "common",
+        "size": {
+          "value": "med"
+        },
+        "value": [
+          "construct",
+          "mindless"
+        ]
+      }
+    },
+    "type": "npc"
+  },
+  {
+    "_id": "mX47c0W9rizbmMBM",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -37,7 +327,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -239,7 +531,247 @@
     "type": "npc"
   },
   {
-    "_id": "9sa2KE4Fbh3OPH7M",
+    "_id": "IyhbcdTVmkV4pSju",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "items": [
+      {
+        "_id": "yfZjkf1LqlK3U7HM",
+        "img": "systems/pf2e/icons/default-icons/melee.svg",
+        "name": "Tusk",
+        "sort": 100000,
+        "system": {
+          "attack": {
+            "value": ""
+          },
+          "attackEffects": {
+            "custom": "",
+            "value": []
+          },
+          "bonus": {
+            "value": 10
+          },
+          "damageRolls": {
+            "qedfigw9ute280i3zjgw": {
+              "damage": "2d6+4",
+              "damageType": "piercing"
+            }
+          },
+          "description": {
+            "value": ""
+          },
+          "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": ""
+          },
+          "rules": [],
+          "slug": null,
+          "traits": {
+            "rarity": "common",
+            "value": []
+          },
+          "weaponType": {
+            "value": "melee"
+          }
+        },
+        "type": "melee"
+      },
+      {
+        "_id": "Onifi8y9OVLqK3Ea",
+        "flags": {
+          "core": {
+            "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN"
+          }
+        },
+        "img": "systems/pf2e/icons/actions/Reaction.webp",
+        "name": "Ferocity",
+        "sort": 200000,
+        "system": {
+          "actionType": {
+            "value": "reaction"
+          },
+          "actions": {
+            "value": null
+          },
+          "category": "defensive",
+          "deathNote": true,
+          "description": {
+            "value": "<p>When the boar is reduced to 0 Hit Points, it can use its reaction to remain conscious with 1 Hit Point, but it gains the Wounded 1 condition (or increases its wounded value by 1 if it already has that condition). It can't use this ability at wounded 3.</p>"
+          },
+          "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": "Pathfinder Bestiary"
+          },
+          "rules": [],
+          "slug": "ferocity",
+          "traits": {
+            "rarity": "common",
+            "value": []
+          }
+        },
+        "type": "action"
+      },
+      {
+        "_id": "jmPDVPebOQ3XVOwA",
+        "img": "systems/pf2e/icons/actions/TwoActions.webp",
+        "name": "Boar Charge",
+        "sort": 300000,
+        "system": {
+          "actionType": {
+            "value": "action"
+          },
+          "actions": {
+            "value": 2
+          },
+          "category": "offensive",
+          "description": {
+            "value": "<p>The boar Strides twice and then makes a tusk Strike. As long as it moved at least 20 feet, it gains a +2 circumstance bonus to its attack roll.</p>"
+          },
+          "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": ""
+          },
+          "rules": [
+            {
+              "domain": "attack-roll",
+              "key": "RollOption",
+              "option": "boar-charge",
+              "toggleable": true
+            },
+            {
+              "key": "FlatModifier",
+              "predicate": [
+                "boar-charge"
+              ],
+              "selector": "tusk-attack",
+              "type": "circumstance",
+              "value": 2
+            }
+          ],
+          "slug": null,
+          "traits": {
+            "rarity": "common",
+            "value": []
+          }
+        },
+        "type": "action"
+      }
+    ],
+    "name": "Boar (BB)",
+    "prototypeToken": {
+      "name": "Boar"
+    },
+    "system": {
+      "abilities": {
+        "cha": {
+          "mod": -3
+        },
+        "con": {
+          "mod": 4
+        },
+        "dex": {
+          "mod": 1
+        },
+        "int": {
+          "mod": -4
+        },
+        "str": {
+          "mod": 4
+        },
+        "wis": {
+          "mod": 2
+        }
+      },
+      "attributes": {
+        "ac": {
+          "details": "",
+          "value": 15
+        },
+        "allSaves": {
+          "value": ""
+        },
+        "hp": {
+          "details": "",
+          "max": 40,
+          "temp": 0,
+          "value": 40
+        },
+        "speed": {
+          "otherSpeeds": [],
+          "value": 40
+        }
+      },
+      "details": {
+        "blurb": "",
+        "languages": {
+          "details": "",
+          "value": []
+        },
+        "level": {
+          "value": 2
+        },
+        "privateNotes": "",
+        "publicNotes": "<p>Foul-tempered and tough, boars are far more dangerous than domesticated pigs. These omnivorous mammals are hunted heavily because their meat is considered a delicacy. Boars are most likely to attack humanoids in self-defense or during their mating season in the winter months, when the males grow an extra inch of tissue to protect their organs as they fight off rivals. In some cultures, boars are trained to become much more aggressive for use as war beasts and guardians. When such boars escape back into the wild, they can become true terrors of the region.</p>",
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Beginner Box"
+        }
+      },
+      "initiative": {
+        "statistic": "perception"
+      },
+      "perception": {
+        "details": "",
+        "mod": 8,
+        "senses": [
+          {
+            "type": "low-light-vision"
+          }
+        ]
+      },
+      "resources": {},
+      "saves": {
+        "fortitude": {
+          "saveDetail": "",
+          "value": 10
+        },
+        "reflex": {
+          "saveDetail": "",
+          "value": 5
+        },
+        "will": {
+          "saveDetail": "",
+          "value": 8
+        }
+      },
+      "skills": {
+        "acrobatics": {
+          "base": 5
+        },
+        "athletics": {
+          "base": 8
+        },
+        "survival": {
+          "base": 8
+        }
+      },
+      "traits": {
+        "rarity": "common",
+        "size": {
+          "value": "med"
+        },
+        "value": [
+          "animal"
+        ]
+      }
+    },
+    "type": "npc"
+  },
+  {
+    "_id": "H7z7VHzlHlEFev1r",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -278,7 +810,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -486,7 +1020,7 @@
     "type": "npc"
   },
   {
-    "_id": "UjREHs2JQoO85Glt",
+    "_id": "9cBuzDV8seJqhNKJ",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -811,7 +1345,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "nonlethal"
+              "nonlethal",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -1062,7 +1597,7 @@
     "type": "npc"
   },
   {
-    "_id": "7EuWv6tGtOASvzbG",
+    "_id": "SZCf0IZkf36plwVd",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -1502,9 +2037,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision",
+        "details": "",
         "mod": 6,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -1552,7 +2091,7 @@
     "type": "npc"
   },
   {
-    "_id": "Rr1wwJ1jIIhRZbXh",
+    "_id": "AcUb8s5fiktYw8Fx",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -2135,23 +2674,27 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision",
+        "details": "",
         "mod": 10,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
         "fortitude": {
           "saveDetail": "",
-          "value": 0
+          "value": 10
         },
         "reflex": {
           "saveDetail": "",
-          "value": 0
+          "value": 13
         },
         "will": {
           "saveDetail": "",
-          "value": 0
+          "value": 8
         }
       },
       "skills": {
@@ -2185,7 +2728,7 @@
     "type": "npc"
   },
   {
-    "_id": "7AzIsyvVOg19fSoa",
+    "_id": "9YPFqikAmURwcTEO",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -2578,9 +3121,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision",
+        "details": "",
         "mod": 8,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -2766,7 +3313,7 @@
     "type": "hazard"
   },
   {
-    "_id": "hiGwRWdxAsoCII4f",
+    "_id": "xN5J9S485LxFZMkL",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -2809,7 +3356,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -3065,7 +3613,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -6506,46 +7055,13 @@
         "type": "melee"
       },
       {
-        "_id": "zZ7YQvZHZDePNYfh",
-        "_stats": {
-          "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6"
-        },
-        "img": "systems/pf2e/icons/actions/Passive.webp",
-        "name": "Darkvision",
-        "sort": 900000,
-        "system": {
-          "actionType": {
-            "value": "passive"
-          },
-          "actions": {
-            "value": null
-          },
-          "category": "interaction",
-          "description": {
-            "value": "<p><p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-rank Darkness spell, block normal darkvision. A monster with Greater Darkvision, however, can see through even these forms of magical darkness.</p></p>"
-          },
-          "publication": {
-            "license": "OGL",
-            "remaster": false,
-            "title": "Pathfinder Bestiary"
-          },
-          "rules": [],
-          "slug": "darkvision",
-          "traits": {
-            "rarity": "common",
-            "value": []
-          }
-        },
-        "type": "action"
-      },
-      {
         "_id": "7ogTgoQe4WAvtdJ7",
         "_stats": {
           "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.I0HYG0ctCLP5JRsW"
         },
         "img": "systems/pf2e/icons/actions/Passive.webp",
         "name": "Light Blindness",
-        "sort": 1000000,
+        "sort": 900000,
         "system": {
           "actionType": {
             "value": "passive"
@@ -6575,7 +7091,7 @@
         "_id": "uznmLfSkP5j9qOEA",
         "img": "systems/pf2e/icons/actions/OneAction.webp",
         "name": "Quick Draw",
-        "sort": 1100000,
+        "sort": 1000000,
         "system": {
           "actionType": {
             "value": "action"
@@ -6605,7 +7121,7 @@
         "_id": "ix1KQX8Ji2g1e9ID",
         "img": "systems/pf2e/icons/actions/TwoActions.webp",
         "name": "Skewer",
-        "sort": 1200000,
+        "sort": 1100000,
         "system": {
           "actionType": {
             "value": "action"
@@ -7080,7 +7596,7 @@
     "type": "hazard"
   },
   {
-    "_id": "gvCCATlH9mPGWbsp",
+    "_id": "htK4dElL6YvFCLkz",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -7118,7 +7634,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -7163,7 +7680,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -7413,7 +7931,7 @@
     "type": "npc"
   },
   {
-    "_id": "aeCoh4u6c5kt1iCs",
+    "_id": "cvfIkEF6xmWn2soN",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -7450,7 +7968,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -7493,7 +8013,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -7705,7 +8226,7 @@
     "type": "npc"
   },
   {
-    "_id": "2H2AEwQnfKJC0nrd",
+    "_id": "N98ug9jQHqeFoK1N",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -8039,7 +8560,7 @@
     "type": "npc"
   },
   {
-    "_id": "LHHgGSs0ELCR4CYK",
+    "_id": "iLkQt8A99nQWUI8k",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -8077,7 +8598,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -8122,7 +8644,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -8412,7 +8935,7 @@
     "type": "npc"
   },
   {
-    "_id": "2vyM10zN0JYdzyxt",
+    "_id": "mEZUTqNIgu0ASApu",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -8665,9 +9188,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision",
+        "details": "",
         "mod": 7,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -8705,7 +9232,7 @@
     "type": "npc"
   },
   {
-    "_id": "BKPRkJgq7ehsW7uX",
+    "_id": "NRBgcu0LkXXp8mtp",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -8904,7 +9431,7 @@
     "type": "npc"
   },
   {
-    "_id": "AYwdybUfm4meGUTJ",
+    "_id": "iIJPJcDT8wlJ8z5M",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -8943,7 +9470,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -9084,7 +9612,7 @@
     "type": "npc"
   },
   {
-    "_id": "6NdqvKIlxo4cGhf8",
+    "_id": "A4VgQIHsqJKssQOM",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -9384,7 +9912,7 @@
     "type": "npc"
   },
   {
-    "_id": "KsWAIXTTh3mfNWOY",
+    "_id": "AJ5LuNMVPLCydryP",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -9653,7 +10181,7 @@
     "type": "npc"
   },
   {
-    "_id": "jGzVwekcRX5aQpbT",
+    "_id": "sA2dFdRUwiapo69Z",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -10242,7 +10770,7 @@
     "type": "npc"
   },
   {
-    "_id": "shT19KaQjWRVrHLI",
+    "_id": "Ky5eNRvN71O0tY9l",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -11165,7 +11693,7 @@
     "type": "npc"
   },
   {
-    "_id": "jVZRROs0GzDjVrgi",
+    "_id": "fLLKuOXwPq1Iq0U4",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -11722,7 +12250,7 @@
     "type": "npc"
   },
   {
-    "_id": "AuCC04X2AO8oFN75",
+    "_id": "uBNm3R9wbLTPrM9i",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -11761,7 +12289,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -11803,7 +12332,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -11978,13 +12508,7 @@
           "base": 13
         },
         "performance": {
-          "base": 11,
-          "special": [
-            {
-              "base": 16,
-              "label": "singing"
-            }
-          ]
+          "base": 11
         },
         "stealth": {
           "base": 11
@@ -12008,7 +12532,7 @@
     "type": "npc"
   },
   {
-    "_id": "jeAGl6OAVrrIPgu3",
+    "_id": "RTviEfjYnsXa0wkT",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -12051,6 +12575,7 @@
             "rarity": "common",
             "value": [
               "magical",
+              "unarmed",
               "unholy"
             ]
           },
@@ -12382,7 +12907,7 @@
     "type": "hazard"
   },
   {
-    "_id": "M8oJOKJ4AgrLZcJQ",
+    "_id": "NW68bxCLC6oDHxL9",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -13088,7 +13613,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "poison"
+              "poison",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -13131,7 +13657,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -13216,7 +13743,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -14335,7 +14864,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -15375,7 +15905,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -16422,7 +16953,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -17468,7 +18000,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -18512,7 +19045,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -19561,7 +20095,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -19829,7 +20364,7 @@
     "type": "npc"
   },
   {
-    "_id": "rPaHIh0ICnTLnRO6",
+    "_id": "PcHQDmPTztw32PhL",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -21120,7 +21655,7 @@
     "type": "npc"
   },
   {
-    "_id": "r9w1n85mp9Ip4QiS",
+    "_id": "BIZfjoz8DZt75EDn",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -21600,7 +22135,7 @@
     "type": "npc"
   },
   {
-    "_id": "wqPYzMNgYvrO6oEP",
+    "_id": "kB7FNn3vosp6cqQg",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -21640,7 +22175,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -21685,7 +22221,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -22115,7 +22652,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -22327,7 +22866,7 @@
     "type": "npc"
   },
   {
-    "_id": "wCmlY4TixUlPm5Qx",
+    "_id": "vN2alMciNlKpBpKN",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -22490,7 +23029,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -22674,9 +23215,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision",
+        "details": "",
         "mod": 12,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -22718,7 +23263,7 @@
     "type": "npc"
   },
   {
-    "_id": "gdXok08bITkhowDJ",
+    "_id": "Twvzy1yRo6m6dM8D",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -23168,7 +23713,7 @@
     "type": "npc"
   },
   {
-    "_id": "5xjmJoJvBhASkEKS",
+    "_id": "PLZk6zY5iwccPTPS",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -23493,7 +24038,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "nonlethal"
+              "nonlethal",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -23732,7 +24278,7 @@
     "type": "npc"
   },
   {
-    "_id": "0oWKApY5FR8IO7GG",
+    "_id": "YReM6QbqwUz3UTP7",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -24058,7 +24604,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "nonlethal"
+              "nonlethal",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -24261,7 +24808,7 @@
     "type": "npc"
   },
   {
-    "_id": "EtRqBsWh1Hv1toqh",
+    "_id": "V90OYOMyyPLPJuod",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -24723,7 +25270,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "nonlethal"
+              "nonlethal",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -24969,7 +25517,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -25012,7 +25561,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -25233,7 +25784,7 @@
     "type": "npc"
   },
   {
-    "_id": "jnmUcTs4hn1c5bz9",
+    "_id": "aeOzCBpwnUVcpqxI",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -25820,7 +26371,7 @@
     "type": "npc"
   },
   {
-    "_id": "eq4tLYV3efCS2ouP",
+    "_id": "Rr1u6WvZEdPw1s6v",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -25859,7 +26410,8 @@
           "slug": null,
           "traits": {
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -26058,9 +26610,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision",
+        "details": "",
         "mod": 8,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -26291,7 +26847,7 @@
     "type": "hazard"
   },
   {
-    "_id": "Hkq9ZS2J2iKnT7vT",
+    "_id": "9InGpxq5xbbHaL9f",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -26332,7 +26888,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -26528,7 +27086,7 @@
     "type": "npc"
   },
   {
-    "_id": "XrmHgbKgcHDi4OnK",
+    "_id": "VotlWUsFKdOrHWF6",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -26877,7 +27435,7 @@
     "type": "npc"
   },
   {
-    "_id": "5MVBU86ZRw2ANMQn",
+    "_id": "sEgjgitJmwYYa4mV",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -27361,7 +27919,7 @@
     "type": "npc"
   },
   {
-    "_id": "5H8ZX7y5IkUBhvhF",
+    "_id": "trchDxbDR2TiPMxT",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -27685,7 +28243,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -27999,7 +28558,7 @@
     "type": "hazard"
   },
   {
-    "_id": "NVWaLagWOu5tCCZu",
+    "_id": "VQPzDz3xnCQGFOGL",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -28038,7 +28597,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -28416,7 +28977,7 @@
     "type": "hazard"
   },
   {
-    "_id": "lFlXmieuHTBIonhj",
+    "_id": "1uVwkGlqYzyWaDMy",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -28662,7 +29223,7 @@
     "type": "npc"
   },
   {
-    "_id": "CF82XJwObLx0TPnV",
+    "_id": "x7Aa4Tvr9eBaHryF",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -28699,7 +29260,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -28909,9 +29472,13 @@
         "statistic": "perception"
       },
       "perception": {
-        "details": "darkvision",
+        "details": "",
         "mod": 8,
-        "senses": []
+        "senses": [
+          {
+            "type": "darkvision"
+          }
+        ]
       },
       "resources": {},
       "saves": {
@@ -28930,22 +29497,28 @@
       },
       "skills": {
         "acrobatics": {
-          "base": 0
+          "base": 7,
+          "special": []
         },
         "athletics": {
-          "base": 8
+          "base": 8,
+          "special": []
         },
         "deception": {
-          "base": 6
+          "base": 6,
+          "special": []
         },
         "intimidation": {
-          "base": 6
+          "base": 6,
+          "special": []
         },
         "stealth": {
-          "base": 7
+          "base": 7,
+          "special": []
         },
         "survival": {
-          "base": 8
+          "base": 8,
+          "special": []
         }
       },
       "traits": {
@@ -29045,7 +29618,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -29307,7 +29881,7 @@
     "type": "npc"
   },
   {
-    "_id": "ZPjQkKVMi3xoPcU0",
+    "_id": "DBTbqI9QQRtlJwWh",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -29436,7 +30010,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -29687,7 +30262,7 @@
     "type": "npc"
   },
   {
-    "_id": "Oilfs8Atv2LjAsUS",
+    "_id": "BN5Lb6IsQ9Wyu3rL",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -29726,7 +30301,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -29929,7 +30506,7 @@
     "type": "npc"
   },
   {
-    "_id": "YdBCG0vzOA5BgoIi",
+    "_id": "7w1w7VTnIWMBdFux",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -30252,7 +30829,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -30295,7 +30874,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -30550,7 +31130,7 @@
     "type": "npc"
   },
   {
-    "_id": "RTzFvmdSCf5yhguy",
+    "_id": "5vBG8a8dnJfmVd3Y",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -30802,7 +31382,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -30845,7 +31427,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -31051,7 +31634,7 @@
     "type": "npc"
   },
   {
-    "_id": "cBHpMcVaLRPZu9po",
+    "_id": "sAfjpjAS56jtrUbi",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -31256,7 +31839,7 @@
     "type": "npc"
   },
   {
-    "_id": "0plBflWwrCWQO2RO",
+    "_id": "Xo4IGzw28hivgMmM",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
       {
@@ -31295,7 +31878,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -31337,7 +31922,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"

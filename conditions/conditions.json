@@ -94,7 +94,7 @@
     "system": {
       "active": false,
       "description": {
-        "value": "<p>Your movements become clumsy and inexact. Clumsy always includes a value. You take a status penalty equal to the condition value to Dexterity-based checks and DCs, including AC, Reflex saves, ranged attack rolls, and skill checks using Acrobatics, Stealth, and Thievery.</p>"
+        "value": "<p>Your movements become clumsy and inexact. Clumsy always includes a value. You take a status penalty equal to the condition value to Dexterity-based rolls and DCs, including AC, Reflex saves, ranged attack rolls, and skill checks using Acrobatics, Stealth, and Thievery.</p>"
       },
       "duration": {
         "expiry": null,
@@ -227,6 +227,20 @@
           "inMemoryOnly": true,
           "key": "GrantItem",
           "uuid": "Compendium.pf2e.conditionitems.Item.Off-Guard"
+        },
+        {
+          "key": "Note",
+          "predicate": [
+            {
+              "or": [
+                "item:type:spell",
+                "origin:action:trait:attack"
+              ]
+            }
+          ],
+          "selector": "damage-received",
+          "text": "PF2E.condition.confused.note",
+          "title": "{item|name}"
         }
       ],
       "traits": {
@@ -388,7 +402,28 @@
       "rules": [
         {
           "key": "FlatModifier",
-          "selector": "perception-initiative",
+          "predicate": [
+            {
+              "or": [
+                {
+                  "and": [
+                    "check:type:skill",
+                    "item:trait:auditory"
+                  ]
+                },
+                {
+                  "and": [
+                    "check:statistic:base:perception",
+                    "check:statistic:initiative"
+                  ]
+                }
+              ]
+            }
+          ],
+          "selector": [
+            "perception",
+            "skill-check"
+          ],
           "slug": "deafened",
           "type": "status",
           "value": -2
@@ -396,6 +431,60 @@
         {
           "key": "Immunity",
           "type": "auditory"
+        },
+        {
+          "itemType": "action",
+          "key": "ItemAlteration",
+          "mode": "add",
+          "predicate": [
+            "item:trait:auditory"
+          ],
+          "property": "description",
+          "value": [
+            {
+              "text": "PF2E.condition.deafened.note"
+            }
+          ]
+        },
+        {
+          "itemType": "feat",
+          "key": "ItemAlteration",
+          "mode": "add",
+          "predicate": [
+            "item:trait:auditory"
+          ],
+          "property": "description",
+          "value": [
+            {
+              "text": "PF2E.condition.deafened.note"
+            }
+          ]
+        },
+        {
+          "itemType": "spell",
+          "key": "ItemAlteration",
+          "mode": "add",
+          "predicate": [
+            {
+              "not": "item:trait:subtle"
+            }
+          ],
+          "property": "description",
+          "value": [
+            {
+              "text": "PF2E.condition.deafened.note"
+            }
+          ]
+        },
+        {
+          "adjustment": {
+            "all": "to-critical-failure"
+          },
+          "key": "AdjustDegreeOfSuccess",
+          "predicate": [
+            "item:trait:auditory"
+          ],
+          "selector": "perception"
         }
       ],
       "traits": {
@@ -452,7 +541,7 @@
     "system": {
       "active": false,
       "description": {
-        "value": "<p>Your health and vitality have been depleted as you've lost blood, life force, or some other essence. Drained always includes a value. You take a status penalty equal to your drained value on Constitution-based checks, such as Fortitude saves. You also lose a number of Hit Points equal to your level (minimum 1) times the drained value, and your maximum Hit Points are reduced by the same amount. For example, if you become drained 3 and you're a 3rd-level character, you lose 9 Hit Points and reduce your maximum Hit Points by 9. Losing these Hit Points doesn't count as taking damage.</p>\n<p>Each time you get a full night's rest, your drained value decreases by 1. This increases your maximum Hit Points, but you don't immediately recover the lost Hit Points.</p>"
+        "value": "<p>Your health and vitality have been depleted as you've lost blood, life force, or some other essence. Drained always includes a value. You take a status penalty equal to your drained value on Constitution-based rolls and DCs, such as Fortitude saves. You also lose a number of Hit Points equal to your level (minimum 1) times the drained value, and your maximum Hit Points are reduced by the same amount. For example, if you become drained 3 and you're a 3rd-level character, you lose 9 Hit Points and reduce your maximum Hit Points by 9. Losing these Hit Points doesn't count as taking damage.</p>\n<p>Each time you get a full night's rest, your drained value decreases by 1. This increases your maximum Hit Points, but you don't immediately recover the lost Hit Points.</p>"
       },
       "duration": {
         "expiry": null,
@@ -581,7 +670,7 @@
       "rules": [
         {
           "key": "FlatModifier",
-          "selector": "speed",
+          "selector": "all-speeds",
           "slug": "encumbered",
           "value": -10
         },
@@ -923,6 +1012,48 @@
           "inMemoryOnly": true,
           "key": "GrantItem",
           "uuid": "Compendium.pf2e.conditionitems.Item.Immobilized"
+        },
+        {
+          "itemType": "action",
+          "key": "ItemAlteration",
+          "mode": "add",
+          "predicate": [
+            "item:trait:manipulate"
+          ],
+          "property": "description",
+          "value": [
+            {
+              "text": "PF2E.condition.grabbed.note"
+            }
+          ]
+        },
+        {
+          "itemType": "feat",
+          "key": "ItemAlteration",
+          "mode": "add",
+          "predicate": [
+            "item:trait:manipulate"
+          ],
+          "property": "description",
+          "value": [
+            {
+              "text": "PF2E.condition.grabbed.note"
+            }
+          ]
+        },
+        {
+          "itemType": "spell",
+          "key": "ItemAlteration",
+          "mode": "add",
+          "predicate": [
+            "item:trait:manipulate"
+          ],
+          "property": "description",
+          "value": [
+            {
+              "text": "PF2E.condition.grabbed.note"
+            }
+          ]
         }
       ],
       "traits": {
@@ -1528,6 +1659,65 @@
           "inMemoryOnly": true,
           "key": "GrantItem",
           "uuid": "Compendium.pf2e.conditionitems.Item.Immobilized"
+        },
+        {
+          "itemType": "action",
+          "key": "ItemAlteration",
+          "mode": "add",
+          "predicate": [
+            "item:trait:manipulate"
+          ],
+          "property": "description",
+          "value": [
+            {
+              "text": "PF2E.condition.restrained.note"
+            }
+          ]
+        },
+        {
+          "itemType": "feat",
+          "key": "ItemAlteration",
+          "mode": "add",
+          "predicate": [
+            "item:trait:manipulate"
+          ],
+          "property": "description",
+          "value": [
+            {
+              "text": "PF2E.condition.restrained.note"
+            }
+          ]
+        },
+        {
+          "itemType": "spell",
+          "key": "ItemAlteration",
+          "mode": "add",
+          "predicate": [
+            "item:trait:manipulate"
+          ],
+          "property": "description",
+          "value": [
+            {
+              "text": "PF2E.condition.restrained.note"
+            }
+          ]
+        },
+        {
+          "key": "Note",
+          "predicate": [
+            {
+              "nor": [
+                "action:escape",
+                "action:force-open"
+              ]
+            }
+          ],
+          "selector": [
+            "attack",
+            "skill-check"
+          ],
+          "text": "PF2E.condition.restrained.note",
+          "title": "{item|name}"
         }
       ],
       "traits": {
@@ -1573,6 +1763,28 @@
           "slug": "sickened",
           "type": "status",
           "value": "-@item.badge.value"
+        },
+        {
+          "itemType": "consumable",
+          "key": "ItemAlteration",
+          "label": "PF2E.condition.sickened.name",
+          "mode": "add",
+          "predicate": [
+            {
+              "or": [
+                "item:tag:alchemical-food",
+                "item:trait:elixir",
+                "item:trait:ingested",
+                "item:trait:potion"
+              ]
+            }
+          ],
+          "property": "description",
+          "value": [
+            {
+              "text": "PF2E.condition.sickened.note"
+            }
+          ]
         }
       ],
       "traits": {
@@ -1668,7 +1880,7 @@
     "system": {
       "active": false,
       "description": {
-        "value": "<p>Your thoughts and instincts are clouded. Stupefied always includes a value. You take a status penalty equal to this value on Intelligence-, Wisdom-, and Charisma-based checks and DCs, including Will saving throws, spell attack modifiers, spell DCs, and skill checks that use these attribute modifiers. Any time you attempt to Cast a Spell while stupefied, the spell is disrupted unless you succeed at a DC resolve(5+@item.badge.value)  Flat with a DC equal to 5 + your stupefied value.</p>"
+        "value": "<p>Your thoughts and instincts are clouded. Stupefied always includes a value. You take a status penalty equal to this value on Intelligence-, Wisdom-, and Charisma-based rolls and DCs, including Will saving throws, spell attack modifiers, spell DCs, and skill checks that use these attribute modifiers. Any time you attempt to Cast a Spell while stupefied, the spell is disrupted unless you succeed at a DC resolve(5+@item.badge.value)  Flat with a DC equal to 5 + your stupefied value.</p>"
       },
       "duration": {
         "expiry": null,

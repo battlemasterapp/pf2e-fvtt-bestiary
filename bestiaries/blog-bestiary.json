@@ -1,5 +1,16 @@
 [
   {
+    "_id": "lY1sdnEUT9RW0tYU",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Foolish Housekeeping and Other Articles",
+    "sort": 0,
+    "sorting": "a",
+    "type": "Actor"
+  },
+  {
     "_id": "F8UHnGYafHS3Pnyt",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
@@ -589,7 +600,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -1297,6 +1309,7 @@
           "traits": {
             "rarity": "common",
             "value": [
+              "unarmed",
               "unholy"
             ]
           },
@@ -1341,6 +1354,7 @@
             "rarity": "common",
             "value": [
               "agile",
+              "unarmed",
               "unholy"
             ]
           },
@@ -2402,7 +2416,15 @@
             "remaster": false,
             "title": ""
           },
-          "rules": [],
+          "rules": [
+            {
+              "key": "Note",
+              "selector": "initiative",
+              "text": "{item|system.description.value}",
+              "title": "{item|name}",
+              "visibility": "owner"
+            }
+          ],
           "slug": null,
           "traits": {
             "rarity": "common",
@@ -6572,15 +6594,14 @@
               "toggleable": true
             },
             {
-              "definition": [
-                "item:melee"
-              ],
-              "key": "AdjustStrike",
+              "itemType": "melee",
+              "key": "ItemAlteration",
               "mode": "add",
               "predicate": [
-                "lunge"
+                "lunge",
+                "item:melee"
               ],
-              "property": "weapon-traits",
+              "property": "traits",
               "value": "reach"
             }
           ],
@@ -6627,10 +6648,9 @@
               "diceNumber": 1,
               "key": "DamageDice",
               "predicate": [
-                "melee",
                 "power-attack"
               ],
-              "selector": "strike-damage"
+              "selector": "melee-strike-damage"
             }
           ],
           "slug": "power-attack",
@@ -6896,7 +6916,8 @@
             "value": [
               "fire",
               "magical",
-              "reach-15"
+              "reach-15",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -6941,7 +6962,8 @@
             "value": [
               "agile",
               "magical",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -7008,14 +7030,22 @@
           },
           "category": "interaction",
           "description": {
-            "value": "<p><strong>Trigger</strong> The Brass Dragon rolls initiative.</p>\n<hr />\n<p><strong>Effect</strong> The Brass Dragon roars out a mighty challenge and attempts to Demoralize a creature it can see.</p>"
+            "value": "<p><strong>Trigger</strong> The Brass Dragon rolls initiative.</p>\n<hr />\n<p><strong>Effect</strong> The Brass Dragon roars out a mighty challenge and attempts to [[/act demoralize]] a creature it can see.</p>"
           },
           "publication": {
             "license": "OGL",
             "remaster": false,
             "title": ""
           },
-          "rules": [],
+          "rules": [
+            {
+              "key": "Note",
+              "selector": "initiative",
+              "text": "{item|system.description.value}",
+              "title": "{item|name}",
+              "visibility": "owner"
+            }
+          ],
           "slug": null,
           "traits": {
             "rarity": "common",
@@ -7535,7 +7565,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -7781,7 +7813,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -7818,7 +7852,9 @@
           "rules": [],
           "slug": null,
           "traits": {
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           }
         },
         "type": "melee"
@@ -11242,14 +11278,14 @@
               "key": "DamageAlteration",
               "mode": "upgrade",
               "predicate": [
-                "item:slug:heal",
-                "dice:slug:base"
+                "item:slug:heal"
               ],
               "property": "dice-faces",
               "selectors": [
                 "spell-damage",
                 "spell-healing"
               ],
+              "slug": "base",
               "value": 10
             }
           ],
@@ -11472,7 +11508,8 @@
             "rarity": "common",
             "value": [
               "magical",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -11556,12 +11593,13 @@
               "value": true
             },
             {
-              "key": "AdjustStrike",
+              "itemType": "melee",
+              "key": "ItemAlteration",
               "mode": "add",
               "predicate": [
                 "mostly-harmless"
               ],
-              "property": "weapon-traits",
+              "property": "traits",
               "value": "nonlethal"
             }
           ],
@@ -13350,13 +13388,13 @@
               "key": "DamageAlteration",
               "mode": "upgrade",
               "predicate": [
-                "two-handed",
-                "dice:slug:base"
+                "two-handed"
               ],
               "property": "dice-faces",
               "selectors": [
                 "{item|_id}-damage"
               ],
+              "slug": "base",
               "value": 8
             }
           ],
@@ -14073,7 +14111,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "agile"
+              "agile",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -14559,7 +14598,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -15531,7 +15571,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -15576,7 +15617,8 @@
             "value": [
               "agile",
               "finesse",
-              "reach-20"
+              "reach-20",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -18132,7 +18174,8 @@
             "rarity": "common",
             "value": [
               "magical",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {

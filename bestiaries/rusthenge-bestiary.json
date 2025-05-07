@@ -1976,8 +1976,8 @@
           "traits": {
             "rarity": "common",
             "value": [
-              "evil",
               "magical",
+              "unarmed",
               "unholy"
             ]
           },
@@ -2027,8 +2027,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "evil",
               "magical",
+              "unarmed",
               "unholy"
             ]
           },
@@ -8457,14 +8457,14 @@
               "key": "DamageAlteration",
               "mode": "upgrade",
               "predicate": [
-                "item:slug:heal",
-                "dice:slug:base"
+                "item:slug:heal"
               ],
               "property": "dice-faces",
               "selectors": [
                 "spell-damage",
                 "spell-healing"
               ],
+              "slug": "base",
               "value": 10
             }
           ],
@@ -8643,7 +8643,8 @@
           "traits": {
             "value": [
               "magical",
-              "reach-10"
+              "reach-10",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -9142,7 +9143,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -9186,7 +9189,9 @@
           "slug": null,
           "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+              "unarmed"
+            ]
           },
           "weaponType": {
             "value": "melee"
@@ -10434,7 +10439,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -12831,7 +12837,8 @@
             "rarity": "common",
             "value": [
               "agile",
-              "finesse"
+              "finesse",
+              "unarmed"
             ]
           },
           "weaponType": {
@@ -14436,6 +14443,7 @@
           "slug": null,
           "traits": {
             "value": [
+              "unarmed",
               "unholy"
             ]
           },
