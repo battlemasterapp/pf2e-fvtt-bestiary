@@ -11,11 +11,19 @@ cp -r ./pf2e/packs/pathfinder-monster-core ./tmp/
 cp -r ./pf2e/packs/pathfinder-dark-archive ./tmp/
 cp -r ./pf2e/packs/pathfinder-npc-core ./tmp/
 
-# The abomination vaults bestiary is nested, so we need to unnest it
-rm ./tmp/abomination-vaults-bestiary/_folders.json
-mv ./tmp/abomination-vaults-bestiary/**/*.json ./tmp/abomination-vaults-bestiary/
-# remove everything from the dir that is not a json file
-find ./tmp/abomination-vaults-bestiary/ -type f -not -name '*.json' -delete
+# List of nested folders to remove
+nested_folders=(
+  "abomination-vaults-bestiary",
+  "pathfinder-npc-core"
+)
+
+# For each nested folter, move all json to the root and remove the _folders.json file
+for folder in ${nested_folders[@]}; do
+  rm ./tmp/${folder}/_folders.json
+  mv ./tmp/${folder}/**/*.json ./tmp/${folder}/
+  # remove everything from the dir that is not a json file
+  find ./tmp/${folder}/ -type f -not -name '*.json' -delete
+done
 
 mkdir -p ./bestiaries
 
