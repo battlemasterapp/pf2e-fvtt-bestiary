@@ -10,7 +10,12 @@ cp -r ./pf2e/packs/npc-gallery ./tmp/
 cp -r ./pf2e/packs/pathfinder-monster-core ./tmp/
 cp -r ./pf2e/packs/pathfinder-dark-archive ./tmp/
 cp -r ./pf2e/packs/pathfinder-npc-core ./tmp/
-cp -r ./pf2e/packs/pathfinder-dark-archive ./tmp/
+
+# The abomination vaults bestiary is nested, so we need to unnest it
+rm ./tmp/abomination-vaults-bestiary/_folders.json
+mv ./tmp/abomination-vaults-bestiary/**/*.json ./tmp/abomination-vaults-bestiary/
+# remove everything from the dir that is not a json file
+find ./tmp/abomination-vaults-bestiary/ -type f -not -name '*.json' -delete
 
 mkdir -p ./bestiaries
 
