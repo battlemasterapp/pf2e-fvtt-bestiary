@@ -649,7 +649,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The alicorn harnesses a powerful burning ray of light from their horn. Creatures in a 120-foot line take 16d6 fire damage (DC 36  Basic  Fortitude save). An unholy creature in the area takes an additional 8d6 spirit damage. If the light passes through an area of magical darkness or targets a creature affected by magical darkness, the beam attempts to counteract the darkness (counteract modifier +28, counteract rank 8th). The alicorn can't use its Beam of Light again for [[/gmr 1d4 #Recharge Beam of Light]]{1d4 rounds}.</p>"
+            "value": "<p>The alicorn harnesses a powerful burning ray of light from their horn. Creatures in a 120-foot line take 16d6 fire]|options:area-damage] damage (DC 36  Basic  Fortitude save). An unholy creature in the area takes an additional @Damage{1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",

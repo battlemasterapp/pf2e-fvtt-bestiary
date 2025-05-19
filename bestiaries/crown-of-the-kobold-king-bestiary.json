@@ -19029,7 +19029,7 @@
           },
           "category": "offensive",
           "description": {
-            "value": "<p>The unrisen howls in pain at its cursed existence. Creatures within a 30-foot emanation take 6d8 mental damage (DC 25  Basic  Will). The unrisen can't use Agonized Howl again for [[/gmr 1d4 #Recharge Agonized Howl]]{1d4 rounds}.</p>"
+            "value": "<p>The unrisen howls in pain at its cursed existence. Creatures within a 30-foot emanation take 6d8 mental]|options:area-damage] damage (DC 25  Basic  Will). The unrisen can't use Agonized Howl again for {1d4 rounds}.</p>"
           },
           "publication": {
             "license": "OGL",

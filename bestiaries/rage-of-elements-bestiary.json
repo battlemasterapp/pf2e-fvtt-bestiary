@@ -11550,6 +11550,13 @@
           },
           "rules": [
             {
+              "domain": "all",
+              "key": "RollOption",
+              "option": "dust-eternal",
+              "toggleable": true,
+              "value": true
+            },
+            {
               "effects": [
                 {
                   "affects": "all",
@@ -11560,8 +11567,11 @@
                 }
               ],
               "key": "Aura",
+              "predicate": [
+                "dust-eternal"
+              ],
               "radius": 30,
-              "slug": "slug-eternal",
+              "slug": "dust-eternal",
               "traits": [
                 "earth"
               ]
@@ -11608,6 +11618,28 @@
               ],
               "property": "badge-max",
               "value": 1
+            },
+            {
+              "key": "AdjustModifier",
+              "predicate": [
+                {
+                  "or": [
+                    "penalty:type:ability",
+                    "penalty:type:circumstance",
+                    "penalty:type:item",
+                    "penalty:type:potency",
+                    "penalty:type:proficiency",
+                    "penalty:type:status",
+                    "penalty:type:untyped"
+                  ]
+                }
+              ],
+              "selector": "all-speeds",
+              "suppress": true
+            },
+            {
+              "key": "Immunity",
+              "type": "immobilized"
             }
           ],
           "slug": null,
@@ -11718,11 +11750,11 @@
             "value": "action"
           },
           "actions": {
-            "value": 1
+            "value": 2
           },
           "category": "offensive",
           "description": {
-            "value": "<p>Great fingers of stone arise to grasp up to two Medium or smaller creatures on the ground in the outcrop's aura. Each target must succeed at a DC 33  Reflex save or be Grabbed by the stone hand (or Restrained on a critical failure; Escape DC 33). A creature grabbed or restrained by a stone hand at the end of its turn becomes Slowed 1 or increases its existing slowed condition by 1. When a creature is unable to act due to the slowed condition from this effect, the creature is permanently petrified.</p>"
+            "value": "<p>Great fingers of stone arise to grasp up to two Medium or smaller creatures on the ground in the outcrop's aura. Each target must succeed at a DC 33  Reflex save or be Grabbed by the stone hand (or Restrained on a critical failure; Escape DC 33). A creature grabbed or restrained by a stone hand at the end of its turn becomes Slowed 1 or increases its existing slowed condition by 1. When a creature is unable to act due to the slowed condition from this effect, the creature is permanently Petrified.</p>"
           },
           "publication": {
             "license": "OGL",
@@ -11943,7 +11975,7 @@
       "traits": {
         "rarity": "common",
         "size": {
-          "value": "med"
+          "value": "huge"
         },
         "value": [
           "earth",
