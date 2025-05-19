@@ -13,11 +13,11 @@ cp -r ./pf2e/packs/pathfinder-npc-core ./tmp/
 
 # List of nested folders to remove
 nested_folders=(
-  "abomination-vaults-bestiary",
+  "abomination-vaults-bestiary"
   "pathfinder-npc-core"
 )
 
-# For each nested folter, move all json to the root and remove the _folders.json file
+# For each nested folder, move all json to the root and remove the _folders.json file
 for folder in ${nested_folders[@]}; do
   rm ./tmp/${folder}/_folders.json
   mv ./tmp/${folder}/**/*.json ./tmp/${folder}/
